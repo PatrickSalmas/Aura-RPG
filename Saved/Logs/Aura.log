@@ -1616,3 +1616,363 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.06.12-21.43.59:110][758]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
 [2025.06.12-21.43.59:110][758]LogShaderCompilers: Display: Material Cache Hits: 38 (28%)
 [2025.06.12-21.43.59:110][758]LogShaderCompilers: Display: ================================================
+[2025.06.12-21.44.46:025][457]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.06.12-21.44.46:032][457]LogContentBrowser: Creating deferred item: NewFolder
+[2025.06.12-21.44.46:042][458]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.06.12-21.44.50:370][931]LogContentBrowser: Attempting asset rename: NewFolder -> Enemies
+[2025.06.12-21.44.50:371][931]LogContentBrowser: End creating deferred item NewFolder
+[2025.06.12-21.44.53:942][274]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.06.12-21.44.53:951][274]LogContentBrowser: Creating deferred item: NewFolder
+[2025.06.12-21.44.54:020][276]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.06.12-21.45.02:000][151]LogContentBrowser: Attempting asset rename: NewFolder -> Goblin
+[2025.06.12-21.45.02:001][151]LogContentBrowser: End creating deferred item NewFolder
+[2025.06.12-21.45.31:553][428]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.06.12-21.45.31:559][428]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.06.12-21.45.31:569][428]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.06.12-21.45.31:589][430]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.06.12-21.45.34:665][752]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_
+[2025.06.12-21.45.34:698][752]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.06.12-21.45.34:725][752]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.06.12-21.45.34:728][752]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/StartupMap' took 0.024
+[2025.06.12-21.45.34:729][752]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Characters/Aura/SK_Aura] ([1] browsable assets)...
+[2025.06.12-21.45.34:741][752]OBJ SavePackage:     Rendered thumbnail for [Skeleton /Game/Assets/Characters/Aura/SK_Aura.SK_Aura]
+[2025.06.12-21.45.34:741][752]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Characters/Aura/SK_Aura]
+[2025.06.12-21.45.34:743][752]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/Characters/Aura/SK_Aura_Auto1
+[2025.06.12-21.45.34:743][752]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/SK_Aura_Auto17C5E18F64FEE8993561936B91BFC0AB5.tmp' to '../../../../../../Unreal Projects/Aura/Saved/Autosaves/Game/Assets/Characters/Aura/SK_Aura_Auto1.uasset'
+[2025.06.12-21.45.34:744][752]LogFileHelpers: Auto-saving content packages took 0.016
+[2025.06.12-21.45.47:945][162]LogContentBrowser: Attempting asset rename: BP_ -> BP_Goblin_Spear
+[2025.06.12-21.45.48:169][162]LogMetaData: Removing '/Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.BP_Goblin_Spear:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Character/Enemies/Goblin/BP_.PackageMetaData'
+[2025.06.12-21.45.48:169][162]LogMetaData: Removing '/Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.SKEL_BP_Goblin_Spear_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Character/Enemies/Goblin/BP_.PackageMetaData'
+[2025.06.12-21.45.48:169][162]LogMetaData: Removing '/Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.SKEL_BP_Goblin_Spear_C' ref from Metadata '/Game/Blueprints/Character/Enemies/Goblin/BP_.PackageMetaData'
+[2025.06.12-21.45.48:169][162]LogMetaData: Removing '/Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.BP_Goblin_Spear_C' ref from Metadata '/Game/Blueprints/Character/Enemies/Goblin/BP_.PackageMetaData'
+[2025.06.12-21.45.48:169][162]LogMetaData: Removing '/Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.BP_Goblin_Spear:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Character/Enemies/Goblin/BP_.PackageMetaData'
+[2025.06.12-21.45.48:169][162]LogMetaData: Removing '/Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.BP_Goblin_Spear:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Character/Enemies/Goblin/BP_.PackageMetaData'
+[2025.06.12-21.45.48:169][162]LogMetaData: Removing '/Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.BP_Goblin_Spear:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Character/Enemies/Goblin/BP_.PackageMetaData'
+[2025.06.12-21.45.48:173][162]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.12-21.45.48:174][162]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear] ([2] browsable assets)...
+[2025.06.12-21.45.48:174][162]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear]
+[2025.06.12-21.45.48:179][162]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear
+[2025.06.12-21.45.48:179][162]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_Goblin_SpearCC6C8DC54C862DA9B99991B04DAE5D21.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.uasset'
+[2025.06.12-21.45.48:185][162]LogFileHelpers: InternalPromptForCheckoutAndSave took 11.976 ms (total: 523.836 ms)
+[2025.06.12-21.45.48:217][162]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.06.12-21.45.48:237][162]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.06.12-21.45.48:253][162]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.06.12-21.45.48:401][162]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.12-21.45.48:401][162]LogContentValidation: Enabled validators:
+[2025.06.12-21.45.48:401][162]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.12-21.45.48:401][162]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.12-21.45.48:401][162]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.12-21.45.48:401][162]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.12-21.45.48:401][162]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.12-21.45.48:401][162]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.12-21.45.48:402][162]AssetCheck: /Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear Validating asset
+[2025.06.12-21.45.49:756][296]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.BP_Goblin_Spear
+[2025.06.12-21.45.49:756][296]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.06.12-21.45.50:250][296]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.45.50:250][296]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.45.50:250][296]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.45.50:351][296]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.45.50:351][296]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.45.50:351][296]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.45.50:351][296]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.45.50:367][296]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 655.334961
+[2025.06.12-21.45.50:516][308]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.12-21.45.50:516][308]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 655.475525, Update Interval: 347.275604
+[2025.06.12-21.46.00:136][414]LogStreaming: Display: FlushAsyncLoading(541): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.12-21.46.00:190][414]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1153.000 MiB, MemoryLimit = 1120.359375 MiB 
+[2025.06.12-21.46.00:190][414]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1153.000 MiB, MemoryLimit = 1120.359375 MiB 
+[2025.06.12-21.46.00:216][414]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Goblin) ...
+[2025.06.12-21.46.00:453][414]LogTexture: Display: Building textures: /Game/Assets/Enemies/Goblin/Materials/Goblin_low_M_Goblin_BaseColor.Goblin_low_M_Goblin_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.06.12-21.46.00:790][414]LogSkeletalMesh: Building Skeletal Mesh SKM_Goblin...
+[2025.06.12-21.46.00:914][414]LogSkeletalMesh: Built Skeletal Mesh [0.12s] /Game/Assets/Enemies/Goblin/SKM_Goblin.SKM_Goblin
+[2025.06.12-21.46.00:915][414]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1153.000 MiB, MemoryLimit = 1109.503906 MiB 
+[2025.06.12-21.46.00:915][414]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1153.000 MiB, MemoryLimit = 1109.503906 MiB 
+[2025.06.12-21.46.00:925][414]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.06.12-21.46.01:077][418]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.06.12-21.46.01:263][434]LogTexture: Display: Building textures: /Game/Assets/Enemies/Goblin/Materials/Goblin_low_M_Goblin_Normal.Goblin_low_M_Goblin_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.06.12-21.46.01:761][472]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1153.000 MiB, MemoryLimit = 1072.339844 MiB 
+[2025.06.12-21.46.01:762][472]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1153.000 MiB, MemoryLimit = 1072.328125 MiB 
+[2025.06.12-21.46.02:024][498]LogTexture: Display: Building textures: /Game/Assets/Enemies/Goblin/Materials/Goblin_low_M_Goblin_OcclusionRoughnessMetallic.Goblin_low_M_Goblin_OcclusionRoughnessMetallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.06.12-21.46.22:160][817]Cmd: TRANSACTION UNDO
+[2025.06.12-21.46.22:160][817]LogEditorTransaction: Undo Set Rotation
+[2025.06.12-21.46.22:435][817]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.06.12-21.46.23:234][853]Cmd: TRANSACTION UNDO
+[2025.06.12-21.46.23:234][853]LogEditorTransaction: Undo Set Location
+[2025.06.12-21.46.23:446][853]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.06.12-21.46.24:497][957]Cmd: TRANSACTION UNDO
+[2025.06.12-21.46.24:497][957]LogEditorTransaction: Undo Edit Skeletal Mesh Asset
+[2025.06.12-21.46.24:505][957]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.46.24:505][957]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.46.24:505][957]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.46.24:505][957]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.46.24:506][957]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.46.24:506][957]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.46.24:506][957]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.46.24:506][957]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.46.24:506][957]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.46.24:506][957]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.46.24:714][957]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.06.12-21.46.24:866][957]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.46.24:867][957]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.46.24:867][957]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.46.24:867][957]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Goblin_Spear_C /Engine/Transient.World_13:PersistentLevel.BP_Goblin_Spear_C_0)
+[2025.06.12-21.46.53:414][ 60]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.06.12-21.46.55:072][188]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Assets/Enemies/Goblin/SKM_Goblin.SKM_Goblin
+[2025.06.12-21.46.55:073][188]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.06.12-21.46.55:081][188]LogStreaming: Display: FlushAsyncLoading(542): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.12-21.46.55:134][188]LogTexture: Warning: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_BaseColor.Spear_low_M_Spear_BaseColor has UDIM Blocks, but bVirtualTextureStreaming is off; will build just the first block.
+[2025.06.12-21.46.55:134][188]LogTexture: Warning: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_BaseColor.Spear_low_M_Spear_BaseColor has UDIM Blocks, but bVirtualTextureStreaming is off; will build just the first block.
+[2025.06.12-21.46.55:134][188]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1153.000 MiB, MemoryLimit = 1092.925781 MiB 
+[2025.06.12-21.46.55:134][188]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1153.000 MiB, MemoryLimit = 1092.925781 MiB 
+[2025.06.12-21.46.55:134][188]LogTexture: Warning: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_BaseColor.Spear_low_M_Spear_BaseColor has UDIM Blocks, but bVirtualTextureStreaming is off; will build just the first block.
+[2025.06.12-21.46.55:134][188]LogTexture: Warning: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_BaseColor.Spear_low_M_Spear_BaseColor has UDIM Blocks, but bVirtualTextureStreaming is off; will build just the first block.
+[2025.06.12-21.46.55:134][188]LogTexture: Warning: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_Normal.Spear_low_M_Spear_Normal has UDIM Blocks, but bVirtualTextureStreaming is off; will build just the first block.
+[2025.06.12-21.46.55:134][188]LogTexture: Warning: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_Normal.Spear_low_M_Spear_Normal has UDIM Blocks, but bVirtualTextureStreaming is off; will build just the first block.
+[2025.06.12-21.46.55:134][188]LogTexture: Warning: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_Normal.Spear_low_M_Spear_Normal has UDIM Blocks, but bVirtualTextureStreaming is off; will build just the first block.
+[2025.06.12-21.46.55:134][188]LogTexture: Warning: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_Normal.Spear_low_M_Spear_Normal has UDIM Blocks, but bVirtualTextureStreaming is off; will build just the first block.
+[2025.06.12-21.46.55:134][188]LogTexture: Warning: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_OcclusionRoughnessMetallic.Spear_low_M_Spear_OcclusionRoughnessMetallic has UDIM Blocks, but bVirtualTextureStreaming is off; will build just the first block.
+[2025.06.12-21.46.55:135][188]LogTexture: Warning: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_OcclusionRoughnessMetallic.Spear_low_M_Spear_OcclusionRoughnessMetallic has UDIM Blocks, but bVirtualTextureStreaming is off; will build just the first block.
+[2025.06.12-21.46.55:135][188]LogTexture: Warning: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_OcclusionRoughnessMetallic.Spear_low_M_Spear_OcclusionRoughnessMetallic has UDIM Blocks, but bVirtualTextureStreaming is off; will build just the first block.
+[2025.06.12-21.46.55:135][188]LogTexture: Warning: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_OcclusionRoughnessMetallic.Spear_low_M_Spear_OcclusionRoughnessMetallic has UDIM Blocks, but bVirtualTextureStreaming is off; will build just the first block.
+[2025.06.12-21.46.55:208][188]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.06.12-21.46.55:225][188]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Slingshot) ...
+[2025.06.12-21.46.55:227][188]LogTexture: Display: Building textures: /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_BaseColor.Spear_low_M_Spear_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x2) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.06.12-21.46.55:227][188]LogTexture: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_BaseColor.Spear_low_M_Spear_BaseColor was imported as UDIM with 2 blocks but VirtualTexturing is not enabled, only the first block will be available
+[2025.06.12-21.46.55:710][188]LogSkeletalMesh: Building Skeletal Mesh SKM_Slingshot...
+[2025.06.12-21.46.55:764][188]LogSkeletalMesh: Built Skeletal Mesh [0.05s] /Game/Assets/Enemies/Goblin/Slingshot/Centered/SKM_Slingshot.SKM_Slingshot
+[2025.06.12-21.46.55:765][188]LogSkeletalMesh: Building Skeletal Mesh SKM_Spear...
+[2025.06.12-21.46.55:782][188]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Spear) ...
+[2025.06.12-21.46.55:857][188]LogSkeletalMesh: Built Skeletal Mesh [0.09s] /Game/Assets/Enemies/Goblin/Spear/SKM_Spear.SKM_Spear
+[2025.06.12-21.46.55:857][188]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1153.000 MiB, MemoryLimit = 1059.421875 MiB 
+[2025.06.12-21.46.55:858][188]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1153.000 MiB, MemoryLimit = 1059.421875 MiB 
+[2025.06.12-21.46.55:971][188]LogTexture: Display: Building textures: /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_Normal.Spear_low_M_Spear_Normal (TFO_BC5, 4096x4096 x1x1x2) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.06.12-21.46.55:971][188]LogTexture: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_Normal.Spear_low_M_Spear_Normal was imported as UDIM with 2 blocks but VirtualTexturing is not enabled, only the first block will be available
+[2025.06.12-21.46.56:340][188]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1153.000 MiB, MemoryLimit = 1017.878906 MiB 
+[2025.06.12-21.46.56:340][188]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1153.000 MiB, MemoryLimit = 1017.878906 MiB 
+[2025.06.12-21.46.56:443][188]LogTexture: Display: Building textures: /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_OcclusionRoughnessMetallic.Spear_low_M_Spear_OcclusionRoughnessMetallic (TFO_AutoDXT, 4096x4096 x1x1x2) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.06.12-21.46.56:443][188]LogTexture: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_OcclusionRoughnessMetallic.Spear_low_M_Spear_OcclusionRoughnessMetallic was imported as UDIM with 2 blocks but VirtualTexturing is not enabled, only the first block will be available
+[2025.06.12-21.46.56:766][188]LogTexture: Warning: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_BaseColor.Spear_low_M_Spear_BaseColor has UDIM Blocks, but bVirtualTextureStreaming is off; will build just the first block.
+[2025.06.12-21.46.56:766][188]LogTexture: Warning: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_BaseColor.Spear_low_M_Spear_BaseColor has UDIM Blocks, but bVirtualTextureStreaming is off; will build just the first block.
+[2025.06.12-21.46.56:767][188]LogTexture: Warning: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_Normal.Spear_low_M_Spear_Normal has UDIM Blocks, but bVirtualTextureStreaming is off; will build just the first block.
+[2025.06.12-21.46.56:767][188]LogTexture: Warning: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_Normal.Spear_low_M_Spear_Normal has UDIM Blocks, but bVirtualTextureStreaming is off; will build just the first block.
+[2025.06.12-21.46.56:913][192]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1153.000 MiB, MemoryLimit = 1021.949219 MiB 
+[2025.06.12-21.46.56:913][192]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1153.000 MiB, MemoryLimit = 1021.949219 MiB 
+[2025.06.12-21.46.56:942][193]LogTexture: Warning: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_OcclusionRoughnessMetallic.Spear_low_M_Spear_OcclusionRoughnessMetallic has UDIM Blocks, but bVirtualTextureStreaming is off; will build just the first block.
+[2025.06.12-21.46.56:942][193]LogTexture: Warning: Texture /Game/Assets/Enemies/Goblin/Spear/Materials/Spear_low_M_Spear_OcclusionRoughnessMetallic.Spear_low_M_Spear_OcclusionRoughnessMetallic has UDIM Blocks, but bVirtualTextureStreaming is off; will build just the first block.
+[2025.06.12-21.46.57:324][213]LogTexture: Display: Building textures: /Game/Assets/Enemies/Goblin/Slingshot/Materials/Red/Slingshot_low_M_Slingshot_BaseColor.Slingshot_low_M_Slingshot_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.06.12-21.46.57:859][231]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1153.000 MiB, MemoryLimit = 953.996094 MiB 
+[2025.06.12-21.46.57:859][231]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1153.000 MiB, MemoryLimit = 953.996094 MiB 
+[2025.06.12-21.46.58:242][252]LogTexture: Display: Building textures: /Game/Assets/Enemies/Goblin/Slingshot/Materials/Red/Slingshot_low_M_Slingshot_Normal.Slingshot_low_M_Slingshot_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.06.12-21.46.58:670][272]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1153.000 MiB, MemoryLimit = 913.058594 MiB 
+[2025.06.12-21.46.58:670][272]LogAsyncCompilation: Display: BEWARE: AssetCompile memory estimate is greater than available, but we're running it [TextureDerivedData] anyway! RequiredMemory = 0.000 MiB + 1153.000 MiB, MemoryLimit = 913.058594 MiB 
+[2025.06.12-21.46.58:946][296]LogTexture: Display: Building textures: /Game/Assets/Enemies/Goblin/Slingshot/Materials/Red/Slingshot_low_M_Slingshot_OcclusionRoughnessMetallic.Slingshot_low_M_Slingshot_OcclusionRoughnessMetallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.06.12-21.47.19:225][429]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2025.06.12-21.47.19:244][430]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2025.06.12-21.48.35:554][250]Cmd: TRANSACTION UNDO
+[2025.06.12-21.48.35:555][250]LogEditorTransaction: Undo Edit Skeletal Mesh Asset
+[2025.06.12-21.48.35:987][250]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.06.12-21.48.35:990][250]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.06.12-21.48.38:115][466]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.06.12-21.48.38:119][466]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.12-21.48.38:251][466]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Characters/Aura/SK_Aura] ([1] browsable assets)...
+[2025.06.12-21.48.38:251][466]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Characters/Aura/SK_Aura]
+[2025.06.12-21.48.38:251][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Characters/Aura/SK_Aura" FILE="../../../../../../Unreal Projects/Aura/Content/Assets/Characters/Aura/SK_Aura.uasset" SILENT=true
+[2025.06.12-21.48.38:254][466]LogSavePackage: Moving output files for package: /Game/Assets/Characters/Aura/SK_Aura
+[2025.06.12-21.48.38:254][466]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/SK_Aura5814B81243109798448AA3ADADF182F5.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Characters/Aura/SK_Aura.uasset'
+[2025.06.12-21.48.38:255][466]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear] ([2] browsable assets)...
+[2025.06.12-21.48.38:255][466]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_20
+[2025.06.12-21.48.38:272][466]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.BP_Goblin_Spear_C]
+[2025.06.12-21.48.38:278][466]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.BP_Goblin_Spear]
+[2025.06.12-21.48.38:278][466]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear]
+[2025.06.12-21.48.38:282][466]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear
+[2025.06.12-21.48.38:283][466]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_Goblin_SpearA5B2E24649A251AE2B093296DE006928.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.uasset'
+[2025.06.12-21.48.38:291][466]LogFileHelpers: InternalPromptForCheckoutAndSave took 172.236 ms (total: 696.072 ms)
+[2025.06.12-21.48.38:418][466]LogContentValidation: Display: Starting to validate 2 assets
+[2025.06.12-21.48.38:418][466]LogContentValidation: Enabled validators:
+[2025.06.12-21.48.38:419][466]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.12-21.48.38:419][466]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.12-21.48.38:419][466]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.12-21.48.38:419][466]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.12-21.48.38:419][466]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.12-21.48.38:419][466]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.12-21.48.38:419][466]AssetCheck: /Game/Assets/Characters/Aura/SK_Aura Validating asset
+[2025.06.12-21.48.38:419][466]AssetCheck: /Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear Validating asset
+[2025.06.12-21.48.54:512][187]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.12-21.50.16:214][352]LogMetaData: Removing '/Game/Blueprints/Character/Goblin/BP_Goblin_Spear.BP_Goblin_Spear_C' ref from Metadata '/Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.PackageMetaData'
+[2025.06.12-21.50.16:214][352]LogMetaData: Removing '/Game/Blueprints/Character/Goblin/BP_Goblin_Spear.SKEL_BP_Goblin_Spear_C' ref from Metadata '/Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.PackageMetaData'
+[2025.06.12-21.50.16:214][352]LogMetaData: Removing '/Game/Blueprints/Character/Goblin/BP_Goblin_Spear.SKEL_BP_Goblin_Spear_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.PackageMetaData'
+[2025.06.12-21.50.16:214][352]LogMetaData: Removing '/Game/Blueprints/Character/Goblin/BP_Goblin_Spear.BP_Goblin_Spear:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.PackageMetaData'
+[2025.06.12-21.50.16:214][352]LogMetaData: Removing '/Game/Blueprints/Character/Goblin/BP_Goblin_Spear.BP_Goblin_Spear:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.PackageMetaData'
+[2025.06.12-21.50.16:214][352]LogMetaData: Removing '/Game/Blueprints/Character/Goblin/BP_Goblin_Spear.BP_Goblin_Spear:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.PackageMetaData'
+[2025.06.12-21.50.16:214][352]LogMetaData: Removing '/Game/Blueprints/Character/Goblin/BP_Goblin_Spear.BP_Goblin_Spear:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Character/Enemies/Goblin/BP_Goblin_Spear.PackageMetaData'
+[2025.06.12-21.50.16:241][352]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.12-21.50.16:242][352]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Goblin/BP_Goblin_Spear] ([2] browsable assets)...
+[2025.06.12-21.50.16:251][352]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Blueprints/Character/Goblin/BP_Goblin_Spear.BP_Goblin_Spear_C]
+[2025.06.12-21.50.16:251][352]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Goblin/BP_Goblin_Spear]
+[2025.06.12-21.50.16:251][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Goblin/BP_Goblin_Spear" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Goblin/BP_Goblin_Spear.uasset" SILENT=true
+[2025.06.12-21.50.16:255][352]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Goblin/BP_Goblin_Spear
+[2025.06.12-21.50.16:255][352]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_Goblin_Spear3C5D339B4F478210AFCCF7B1DD24C4C6.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Goblin/BP_Goblin_Spear.uasset'
+[2025.06.12-21.50.16:261][352]LogFileHelpers: InternalPromptForCheckoutAndSave took 19.170 ms (total: 715.243 ms)
+[2025.06.12-21.50.16:310][352]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.06.12-21.50.16:332][352]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.06.12-21.50.16:350][352]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.06.12-21.50.16:437][352]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.06.12-21.50.16:438][352]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.12-21.50.16:438][352]LogContentValidation: Enabled validators:
+[2025.06.12-21.50.16:438][352]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.12-21.50.16:438][352]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.12-21.50.16:438][352]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.12-21.50.16:438][352]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.12-21.50.16:438][352]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.12-21.50.16:438][352]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.12-21.50.16:438][352]AssetCheck: /Game/Blueprints/Character/Goblin/BP_Goblin_Spear Validating asset
+[2025.06.12-21.50.27:552][328]LogMetaData: Removing '/Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.BP_Goblin_Spear_C' ref from Metadata '/Game/Blueprints/Character/Goblin/BP_Goblin_Spear.PackageMetaData'
+[2025.06.12-21.50.27:552][328]LogMetaData: Removing '/Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.SKEL_BP_Goblin_Spear_C' ref from Metadata '/Game/Blueprints/Character/Goblin/BP_Goblin_Spear.PackageMetaData'
+[2025.06.12-21.50.27:552][328]LogMetaData: Removing '/Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.SKEL_BP_Goblin_Spear_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Character/Goblin/BP_Goblin_Spear.PackageMetaData'
+[2025.06.12-21.50.27:552][328]LogMetaData: Removing '/Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.BP_Goblin_Spear:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Character/Goblin/BP_Goblin_Spear.PackageMetaData'
+[2025.06.12-21.50.27:552][328]LogMetaData: Removing '/Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.BP_Goblin_Spear:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Character/Goblin/BP_Goblin_Spear.PackageMetaData'
+[2025.06.12-21.50.27:552][328]LogMetaData: Removing '/Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.BP_Goblin_Spear:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Character/Goblin/BP_Goblin_Spear.PackageMetaData'
+[2025.06.12-21.50.27:552][328]LogMetaData: Removing '/Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.BP_Goblin_Spear:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Character/Goblin/BP_Goblin_Spear.PackageMetaData'
+[2025.06.12-21.50.27:577][328]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.12-21.50.27:577][328]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear] ([2] browsable assets)...
+[2025.06.12-21.50.27:586][328]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.BP_Goblin_Spear_C]
+[2025.06.12-21.50.27:586][328]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear]
+[2025.06.12-21.50.27:589][328]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear
+[2025.06.12-21.50.27:590][328]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_Goblin_Spear0E9F3F38437C714B3F9C32890C43B051.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.uasset'
+[2025.06.12-21.50.27:595][328]LogFileHelpers: InternalPromptForCheckoutAndSave took 18.185 ms (total: 733.429 ms)
+[2025.06.12-21.50.27:624][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.06.12-21.50.27:644][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.06.12-21.50.27:664][328]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.06.12-21.50.27:821][328]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.12-21.50.27:821][328]LogContentValidation: Enabled validators:
+[2025.06.12-21.50.27:821][328]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.12-21.50.27:821][328]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.12-21.50.27:821][328]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.12-21.50.27:821][328]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.12-21.50.27:821][328]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.12-21.50.27:821][328]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.12-21.50.27:821][328]AssetCheck: /Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear Validating asset
+[2025.06.12-21.51.45:659][823]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1010.624573
+[2025.06.12-21.51.45:777][837]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.12-21.51.45:777][837]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1010.734497, Update Interval: 320.557892
+[2025.06.12-21.51.59:852][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.06.12-21.51.59:857][248]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.12-21.51.59:985][248]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear] ([2] browsable assets)...
+[2025.06.12-21.51.59:993][248]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.BP_Goblin_Spear]
+[2025.06.12-21.51.59:993][248]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear]
+[2025.06.12-21.51.59:997][248]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear
+[2025.06.12-21.51.59:997][248]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_Goblin_Spear224BDF0C4AD8CCACC727368C258C79A7.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.uasset'
+[2025.06.12-21.52.00:005][248]LogFileHelpers: InternalPromptForCheckoutAndSave took 147.283 ms (total: 880.712 ms)
+[2025.06.12-21.52.00:136][248]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.12-21.52.00:136][248]LogContentValidation: Enabled validators:
+[2025.06.12-21.52.00:136][248]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.12-21.52.00:136][248]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.12-21.52.00:136][248]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.12-21.52.00:136][248]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.12-21.52.00:136][248]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.12-21.52.00:136][248]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.12-21.52.00:136][248]AssetCheck: /Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear Validating asset
+[2025.06.12-21.52.53:662][623]LogStreaming: Display: FlushAsyncLoading(544): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.12-21.52.53:666][623]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Assets/Enemies/Goblin/Animations/Spear/Attack_Spear.Attack_Spear (Required Memory Estimate: 2.72 MB)
+[2025.06.12-21.52.53:677][623]LogAnimationCompression: Display: Storing compressed animation data for /Game/Assets/Enemies/Goblin/Animations/Spear/Attack_Spear.Attack_Spear, at AnimationSequence/80e8c2a5b4feb328c02e5459b890cc4f27f1033b
+[2025.06.12-21.53.32:907][898]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.12-21.53.33:055][898]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Goblin/SKM_Goblin] ([1] browsable assets)...
+[2025.06.12-21.53.33:055][898]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Goblin/SKM_Goblin]
+[2025.06.12-21.53.33:055][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Enemies/Goblin/SKM_Goblin" FILE="../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Goblin/SKM_Goblin.uasset" SILENT=true
+[2025.06.12-21.53.33:066][898]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Goblin/SKM_Goblin
+[2025.06.12-21.53.33:066][898]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/SKM_GoblinF88284704A6A8AC51D377DBF8C2FAACF.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Goblin/SKM_Goblin.uasset'
+[2025.06.12-21.53.33:074][898]LogFileHelpers: InternalPromptForCheckoutAndSave took 166.745 ms (total: 1.04 sec)
+[2025.06.12-21.53.33:202][898]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.12-21.53.33:202][898]LogContentValidation: Enabled validators:
+[2025.06.12-21.53.33:202][898]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.12-21.53.33:202][898]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.12-21.53.33:202][898]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.12-21.53.33:202][898]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.12-21.53.33:202][898]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.12-21.53.33:202][898]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.12-21.53.33:202][898]AssetCheck: /Game/Assets/Enemies/Goblin/SKM_Goblin Validating asset
+[2025.06.12-21.53.53:196][785]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.06.12-21.53.53:203][785]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.12-21.53.53:344][785]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear] ([2] browsable assets)...
+[2025.06.12-21.53.53:354][785]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.BP_Goblin_Spear]
+[2025.06.12-21.53.53:354][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear]
+[2025.06.12-21.53.53:358][785]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear
+[2025.06.12-21.53.53:359][785]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_Goblin_Spear3A49862D466FC89E7613D6B3F2B9FC39.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.uasset'
+[2025.06.12-21.53.53:360][785]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Goblin/SK_Goblin] ([1] browsable assets)...
+[2025.06.12-21.53.53:360][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Goblin/SK_Goblin]
+[2025.06.12-21.53.53:360][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Enemies/Goblin/SK_Goblin" FILE="../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Goblin/SK_Goblin.uasset" SILENT=true
+[2025.06.12-21.53.53:361][785]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Goblin/SK_Goblin
+[2025.06.12-21.53.53:362][785]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/SK_Goblin137F38714D55DA2CA3BFF7B0017CC67E.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Goblin/SK_Goblin.uasset'
+[2025.06.12-21.53.53:370][785]LogFileHelpers: InternalPromptForCheckoutAndSave took 166.471 ms (total: 1.21 sec)
+[2025.06.12-21.53.53:506][785]LogContentValidation: Display: Starting to validate 2 assets
+[2025.06.12-21.53.53:506][785]LogContentValidation: Enabled validators:
+[2025.06.12-21.53.53:506][785]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.12-21.53.53:506][785]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.12-21.53.53:506][785]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.12-21.53.53:506][785]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.12-21.53.53:506][785]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.12-21.53.53:506][785]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.12-21.53.53:506][785]AssetCheck: /Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear Validating asset
+[2025.06.12-21.53.53:506][785]AssetCheck: /Game/Assets/Enemies/Goblin/SK_Goblin Validating asset
+[2025.06.12-21.54.19:249][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2025.06.12-21.54.34:891][747]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Assets/Enemies/Goblin/SKM_Goblin.SKM_Goblin
+[2025.06.12-21.54.34:892][747]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Assets/Enemies/Goblin/SKM_Goblin.SKM_Goblin
+[2025.06.12-21.54.34:893][747]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Assets/Enemies/Goblin/SKM_Goblin.SKM_Goblin as actor: SkeletalMeshActor /Game/Maps/StartupMap.StartupMap:PersistentLevel.SkeletalMeshActor_0
+[2025.06.12-21.54.34:895][747]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Assets/Enemies/Goblin/SKM_Goblin.SKM_Goblin as actor: SkeletalMeshActor /Game/Maps/StartupMap.StartupMap:PersistentLevel.SkeletalMeshActor_0
+[2025.06.12-21.54.36:237][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.06.12-21.54.36:239][855]LogEditorActor: Deleted 0 Actors (0.024 secs)
+[2025.06.12-21.54.36:248][855]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Assets/Enemies/Goblin/SKM_Goblin.SKM_Goblin
+[2025.06.12-21.54.36:248][855]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Assets/Enemies/Goblin/SKM_Goblin.SKM_Goblin
+[2025.06.12-21.54.36:250][855]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Assets/Enemies/Goblin/SKM_Goblin.SKM_Goblin as actor: SkeletalMeshActor /Game/Maps/StartupMap.StartupMap:PersistentLevel.SkeletalMeshActor_1
+[2025.06.12-21.54.36:252][855]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Assets/Enemies/Goblin/SKM_Goblin.SKM_Goblin as actor: SkeletalMeshActor /Game/Maps/StartupMap.StartupMap:PersistentLevel.SkeletalMeshActor_1
+[2025.06.12-21.54.37:997][947]Cmd: DELETE
+[2025.06.12-21.54.37:997][947]Cmd: ACTOR DELETE
+[2025.06.12-21.54.38:001][947]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2025.06.12-21.54.38:026][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.06.12-21.54.38:027][947]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2025.06.12-21.54.57:562][977]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter_C
+[2025.06.12-21.54.57:562][977]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter_C
+[2025.06.12-21.54.57:564][977]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter as actor: BP_AuraCharacter_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_AuraCharacter_C_0
+[2025.06.12-21.54.57:565][977]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter as actor: BP_AuraCharacter_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_AuraCharacter_C_0
+[2025.06.12-21.54.58:070][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.06.12-21.54.58:072][ 15]LogEditorActor: Deleted 0 Actors (0.020 secs)
+[2025.06.12-21.54.58:078][ 15]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter_C
+[2025.06.12-21.54.58:078][ 15]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter_C
+[2025.06.12-21.54.58:082][ 15]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter as actor: BP_AuraCharacter_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_AuraCharacter_C_1
+[2025.06.12-21.54.58:083][ 15]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter as actor: BP_AuraCharacter_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_AuraCharacter_C_1
+[2025.06.12-21.55.01:430][185]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.BP_Goblin_Spear_C
+[2025.06.12-21.55.01:430][185]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.BP_Goblin_Spear_C
+[2025.06.12-21.55.01:432][185]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.BP_Goblin_Spear as actor: BP_Goblin_Spear_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_Goblin_Spear_C_0
+[2025.06.12-21.55.01:433][185]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.BP_Goblin_Spear as actor: BP_Goblin_Spear_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_Goblin_Spear_C_0
+[2025.06.12-21.55.02:674][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.06.12-21.55.02:675][283]LogEditorActor: Deleted 0 Actors (0.021 secs)
+[2025.06.12-21.55.02:681][283]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.BP_Goblin_Spear_C
+[2025.06.12-21.55.02:681][283]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.BP_Goblin_Spear_C
+[2025.06.12-21.55.02:685][283]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.BP_Goblin_Spear as actor: BP_Goblin_Spear_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_Goblin_Spear_C_1
+[2025.06.12-21.55.02:686][283]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Goblin_Spear/BP_Goblin_Spear.BP_Goblin_Spear as actor: BP_Goblin_Spear_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_Goblin_Spear_C_1
+[2025.06.12-21.55.16:885][857]Cmd: DELETE
+[2025.06.12-21.55.16:885][857]Cmd: ACTOR DELETE
+[2025.06.12-21.55.16:887][857]LogEditorActor: Deleted Actor: BP_Goblin_Spear_C
+[2025.06.12-21.55.16:912][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.06.12-21.55.16:914][857]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2025.06.12-21.55.18:516][925]Cmd: DELETE
+[2025.06.12-21.55.18:516][925]Cmd: ACTOR DELETE
+[2025.06.12-21.55.18:517][925]LogEditorActor: Deleted Actor: BP_AuraCharacter_C
+[2025.06.12-21.55.18:541][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.06.12-21.55.18:543][925]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2025.06.12-21.55.20:177][996]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.12-21.55.20:336][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.06.12-21.55.20:383][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.06.12-21.55.20:393][996]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2025.06.12-21.55.20:394][996]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/StartupMap0A49679C4141DD8FC5E9149B8760BAD7.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/StartupMap.umap'
+[2025.06.12-21.55.20:409][996]LogFileHelpers: Saving map 'StartupMap' took 0.073
+[2025.06.12-21.55.20:417][996]LogFileHelpers: InternalPromptForCheckoutAndSave took 239.361 ms (total: 1.45 sec)
+[2025.06.12-21.55.20:533][996]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.12-21.55.20:533][996]LogContentValidation: Enabled validators:
+[2025.06.12-21.55.20:534][996]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.12-21.55.20:534][996]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.12-21.55.20:534][996]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.12-21.55.20:534][996]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.12-21.55.20:534][996]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.12-21.55.20:534][996]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.12-21.55.20:534][996]AssetCheck: /Game/Maps/StartupMap Validating asset
