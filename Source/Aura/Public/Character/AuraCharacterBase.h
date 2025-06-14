@@ -7,6 +7,7 @@
 #include "GameFramework/Character.h"
 #include "AuraCharacterBase.generated.h"
 
+class UAuraAbilitySystemComponent;
 class UAbilitySystemComponent;
 class UAttributeSet;
 
