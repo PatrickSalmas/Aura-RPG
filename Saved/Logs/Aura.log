@@ -1357,3 +1357,243 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.06.25-20.19.54:003][ 18]LogFab: Display: User logged in
 [2025.06.25-20.19.54:004][ 19]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
 [2025.06.25-20.19.54:674][ 20]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-VXyKNX9iqE6zZ4SrO00eFQ-4uaBqsPhb0K-KH6g0ndJ2g]
+[2025.06.25-20.20.25:920][969]LogStreaming: Display: FlushAsyncLoading(339): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.25-20.20.25:921][969]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Blueprints/UI/Data/DT_MessageWidgetData.DT_MessageWidgetData
+[2025.06.25-20.20.26:012][969]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/Overlay/WBP_Overlay.WBP_Overlay
+[2025.06.25-20.20.26:013][969]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.06.25-20.20.26:021][969]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.06.25-20.20.26:028][969]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2025.06.25-20.20.27:250][969]LogSlate: Took 0.000676 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.06.25-20.20.27:256][969]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2025.06.25-20.20.27:257][969]LogSlate: Took 0.000683 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.06.25-20.21.35:087][ 26]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.06.25-20.21.45:505][260]LogSlate: Took 0.000781 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.06.25-20.21.55:337][346]LogStreaming: Display: FlushAsyncLoading(491): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.25-20.21.55:343][346]LogTexture: Display: Building textures: /Game/Assets/UI/Pickups/T_HealthCrystal.T_HealthCrystal (BGRA8, 434x571 x1x1x1) (Required Memory Estimate: 9.508003 MB), EncodeSpeed: Fast
+[2025.06.25-20.21.56:781][505]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.06.25-20.22.05:579][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.06.25-20.22.05:585][507]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.25-20.22.05:727][507]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/Data/DT_MessageWidgetData] ([1] browsable assets)...
+[2025.06.25-20.22.05:728][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Data/DT_MessageWidgetData]
+[2025.06.25-20.22.05:728][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Data/DT_MessageWidgetData" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Data/DT_MessageWidgetData.uasset" SILENT=true
+[2025.06.25-20.22.05:735][507]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Data/DT_MessageWidgetData
+[2025.06.25-20.22.05:736][507]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/DT_MessageWidgetDataD1FED497479B29E10CA7829420E407CB.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Data/DT_MessageWidgetData.uasset'
+[2025.06.25-20.22.05:747][507]LogFileHelpers: InternalPromptForCheckoutAndSave took 161.522 ms
+[2025.06.25-20.22.05:877][507]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.25-20.22.05:877][507]LogContentValidation: Enabled validators:
+[2025.06.25-20.22.05:877][507]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.25-20.22.05:878][507]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.25-20.22.05:878][507]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.25-20.22.05:878][507]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.25-20.22.05:878][507]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.25-20.22.05:878][507]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.25-20.22.05:879][507]AssetCheck: /Game/Blueprints/UI/Data/DT_MessageWidgetData Validating asset
+[2025.06.25-20.23.07:946][574]LogStreaming: Display: FlushAsyncLoading(492): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.25-20.23.07:953][574]LogTexture: Display: Building textures: /Game/Assets/UI/Pickups/T_Potion_Red.T_Potion_Red (BGRA8, 484x390 x1x1x1) (Required Memory Estimate: 7.48056 MB), EncodeSpeed: Fast
+[2025.06.25-20.23.11:945][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.06.25-20.23.11:949][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.25-20.23.12:063][ 40]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/Data/DT_MessageWidgetData] ([1] browsable assets)...
+[2025.06.25-20.23.12:063][ 40]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Data/DT_MessageWidgetData]
+[2025.06.25-20.23.12:063][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Data/DT_MessageWidgetData" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Data/DT_MessageWidgetData.uasset" SILENT=true
+[2025.06.25-20.23.12:065][ 40]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Data/DT_MessageWidgetData
+[2025.06.25-20.23.12:065][ 40]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/DT_MessageWidgetData2154D34C405E2C4AF6ED108E0C79E876.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Data/DT_MessageWidgetData.uasset'
+[2025.06.25-20.23.12:074][ 40]LogFileHelpers: InternalPromptForCheckoutAndSave took 124.774 ms (total: 286.296 ms)
+[2025.06.25-20.23.12:214][ 40]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.25-20.23.12:214][ 40]LogContentValidation: Enabled validators:
+[2025.06.25-20.23.12:214][ 40]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.25-20.23.12:214][ 40]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.25-20.23.12:215][ 40]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.25-20.23.12:215][ 40]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.25-20.23.12:215][ 40]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.25-20.23.12:215][ 40]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.25-20.23.12:215][ 40]AssetCheck: /Game/Blueprints/UI/Data/DT_MessageWidgetData Validating asset
+[2025.06.25-20.23.59:589][171]LogStreaming: Display: FlushAsyncLoading(493): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.25-20.23.59:593][171]LogTexture: Display: Building textures: /Game/Assets/UI/Pickups/T_ManaCrystal.T_ManaCrystal (BGRA8, 435x401 x1x1x1) (Required Memory Estimate: 6.98875 MB), EncodeSpeed: Fast
+[2025.06.25-20.24.11:288][167]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.06.25-20.24.11:293][167]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.25-20.24.11:427][167]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/Data/DT_MessageWidgetData] ([1] browsable assets)...
+[2025.06.25-20.24.11:427][167]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Data/DT_MessageWidgetData]
+[2025.06.25-20.24.11:427][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Data/DT_MessageWidgetData" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Data/DT_MessageWidgetData.uasset" SILENT=true
+[2025.06.25-20.24.11:429][167]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Data/DT_MessageWidgetData
+[2025.06.25-20.24.11:430][167]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/DT_MessageWidgetData7AA834C249B91904B32686ACB62C56F4.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Data/DT_MessageWidgetData.uasset'
+[2025.06.25-20.24.11:437][167]LogFileHelpers: InternalPromptForCheckoutAndSave took 145.108 ms (total: 431.405 ms)
+[2025.06.25-20.24.11:581][167]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.25-20.24.11:581][167]LogContentValidation: Enabled validators:
+[2025.06.25-20.24.11:581][167]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.25-20.24.11:582][167]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.25-20.24.11:582][167]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.25-20.24.11:582][167]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.25-20.24.11:582][167]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.25-20.24.11:582][167]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.25-20.24.11:582][167]AssetCheck: /Game/Blueprints/UI/Data/DT_MessageWidgetData Validating asset
+[2025.06.25-20.24.46:379][142]LogStreaming: Display: FlushAsyncLoading(494): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.25-20.24.46:385][142]LogTexture: Display: Building textures: /Game/Assets/UI/Pickups/T_Potion_Blue.T_Potion_Blue (BGRA8, 492x402 x1x1x1) (Required Memory Estimate: 7.790375 MB), EncodeSpeed: Fast
+[2025.06.25-20.24.51:913][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.06.25-20.24.51:917][802]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.25-20.24.52:044][802]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/Data/DT_MessageWidgetData] ([1] browsable assets)...
+[2025.06.25-20.24.52:044][802]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Data/DT_MessageWidgetData]
+[2025.06.25-20.24.52:044][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Data/DT_MessageWidgetData" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Data/DT_MessageWidgetData.uasset" SILENT=true
+[2025.06.25-20.24.52:046][802]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Data/DT_MessageWidgetData
+[2025.06.25-20.24.52:046][802]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/DT_MessageWidgetDataBA97FCAD4AA21971A5CE75B0C87497FF.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Data/DT_MessageWidgetData.uasset'
+[2025.06.25-20.24.52:053][802]LogFileHelpers: InternalPromptForCheckoutAndSave took 135.704 ms (total: 567.109 ms)
+[2025.06.25-20.24.52:195][802]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.25-20.24.52:195][802]LogContentValidation: Enabled validators:
+[2025.06.25-20.24.52:195][802]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.25-20.24.52:196][802]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.25-20.24.52:196][802]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.25-20.24.52:196][802]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.25-20.24.52:196][802]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.25-20.24.52:196][802]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.25-20.24.52:196][802]AssetCheck: /Game/Blueprints/UI/Data/DT_MessageWidgetData Validating asset
+[2025.06.25-20.24.55:751][ 71]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 311.757996
+[2025.06.25-20.24.56:752][ 74]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.25-20.24.56:752][ 74]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 312.423889, Update Interval: 310.047302
+[2025.06.25-20.25.37:021][298]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.06.25-20.25.49:376][760]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.06.25-20.25.49:530][763]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.06.25-20.25.51:659][995]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actor/Potion/GE_PotionHeal.GE_PotionHeal
+[2025.06.25-20.25.51:659][995]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.06.25-20.26.20:284][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.06.25-20.26.21:095][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.06.25-20.26.21:099][407]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.25-20.26.21:228][407]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Actor/Potion/GE_PotionHeal] ([2] browsable assets)...
+[2025.06.25-20.26.21:229][407]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actor/Potion/GE_PotionHeal]
+[2025.06.25-20.26.21:229][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actor/Potion/GE_PotionHeal" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Actor/Potion/GE_PotionHeal.uasset" SILENT=true
+[2025.06.25-20.26.21:235][407]LogSavePackage: Moving output files for package: /Game/Blueprints/Actor/Potion/GE_PotionHeal
+[2025.06.25-20.26.21:235][407]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_PotionHealADCBEDC9461C352030AAED8E0F45C426.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Actor/Potion/GE_PotionHeal.uasset'
+[2025.06.25-20.26.21:244][407]LogFileHelpers: InternalPromptForCheckoutAndSave took 144.827 ms (total: 711.937 ms)
+[2025.06.25-20.26.21:379][407]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.25-20.26.21:380][407]LogContentValidation: Enabled validators:
+[2025.06.25-20.26.21:380][407]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.25-20.26.21:380][407]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.25-20.26.21:380][407]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.25-20.26.21:380][407]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.25-20.26.21:380][407]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.25-20.26.21:380][407]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.25-20.26.21:380][407]AssetCheck: /Game/Blueprints/Actor/Potion/GE_PotionHeal Validating asset
+[2025.06.25-20.26.30:477][433]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actor/Potion/GE_PotionMana.GE_PotionMana
+[2025.06.25-20.26.30:477][433]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.06.25-20.26.38:016][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.06.25-20.26.38:020][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.25-20.26.38:168][ 95]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Actor/Potion/GE_PotionMana] ([2] browsable assets)...
+[2025.06.25-20.26.38:168][ 95]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actor/Potion/GE_PotionMana]
+[2025.06.25-20.26.38:168][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actor/Potion/GE_PotionMana" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Actor/Potion/GE_PotionMana.uasset" SILENT=true
+[2025.06.25-20.26.38:171][ 95]LogSavePackage: Moving output files for package: /Game/Blueprints/Actor/Potion/GE_PotionMana
+[2025.06.25-20.26.38:172][ 95]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_PotionManaF2B7FD2148AFB32CDA8A76BA3D25B5B1.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Actor/Potion/GE_PotionMana.uasset'
+[2025.06.25-20.26.38:182][ 95]LogFileHelpers: InternalPromptForCheckoutAndSave took 161.180 ms (total: 873.117 ms)
+[2025.06.25-20.26.38:321][ 95]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.25-20.26.38:321][ 95]LogContentValidation: Enabled validators:
+[2025.06.25-20.26.38:322][ 95]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.25-20.26.38:322][ 95]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.25-20.26.38:322][ 95]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.25-20.26.38:322][ 95]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.25-20.26.38:322][ 95]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.25-20.26.38:322][ 95]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.25-20.26.38:323][ 95]AssetCheck: /Game/Blueprints/Actor/Potion/GE_PotionMana Validating asset
+[2025.06.25-20.26.39:198][182]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.06.25-20.26.41:459][421]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.06.25-20.26.41:526][422]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.06.25-20.26.44:026][707]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actor/Crystal/GE_CrystalHeal.GE_CrystalHeal
+[2025.06.25-20.26.44:026][707]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.06.25-20.27.13:552][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2025.06.25-20.27.13:556][152]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.25-20.27.13:681][152]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Actor/Crystal/GE_CrystalHeal] ([2] browsable assets)...
+[2025.06.25-20.27.13:681][152]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actor/Crystal/GE_CrystalHeal]
+[2025.06.25-20.27.13:681][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actor/Crystal/GE_CrystalHeal" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Actor/Crystal/GE_CrystalHeal.uasset" SILENT=true
+[2025.06.25-20.27.13:684][152]LogSavePackage: Moving output files for package: /Game/Blueprints/Actor/Crystal/GE_CrystalHeal
+[2025.06.25-20.27.13:685][152]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_CrystalHealEAD3FF134D0595E5E26A469BB6B9792D.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Actor/Crystal/GE_CrystalHeal.uasset'
+[2025.06.25-20.27.13:695][152]LogFileHelpers: InternalPromptForCheckoutAndSave took 138.822 ms (total: 1.01 sec)
+[2025.06.25-20.27.13:832][152]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.25-20.27.13:833][152]LogContentValidation: Enabled validators:
+[2025.06.25-20.27.13:833][152]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.25-20.27.13:833][152]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.25-20.27.13:833][152]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.25-20.27.13:833][152]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.25-20.27.13:833][152]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.25-20.27.13:833][152]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.25-20.27.13:833][152]AssetCheck: /Game/Blueprints/Actor/Crystal/GE_CrystalHeal Validating asset
+[2025.06.25-20.27.14:089][170]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2025.06.25-20.27.16:665][467]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actor/Crystal/GE_CrystalMana.GE_CrystalMana
+[2025.06.25-20.27.16:665][467]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.06.25-20.27.28:705][653]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.06.25-20.27.28:710][653]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.25-20.27.28:849][653]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Actor/Crystal/GE_CrystalMana] ([2] browsable assets)...
+[2025.06.25-20.27.28:849][653]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actor/Crystal/GE_CrystalMana]
+[2025.06.25-20.27.28:849][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actor/Crystal/GE_CrystalMana" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Actor/Crystal/GE_CrystalMana.uasset" SILENT=true
+[2025.06.25-20.27.28:851][653]LogSavePackage: Moving output files for package: /Game/Blueprints/Actor/Crystal/GE_CrystalMana
+[2025.06.25-20.27.28:852][653]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_CrystalManaDFCE45114C99F2E3F3844E8D42A69251.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Actor/Crystal/GE_CrystalMana.uasset'
+[2025.06.25-20.27.28:861][653]LogFileHelpers: InternalPromptForCheckoutAndSave took 152.557 ms (total: 1.16 sec)
+[2025.06.25-20.27.28:997][653]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.25-20.27.28:998][653]LogContentValidation: Enabled validators:
+[2025.06.25-20.27.28:998][653]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.25-20.27.28:998][653]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.25-20.27.28:998][653]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.25-20.27.28:998][653]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.25-20.27.28:998][653]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.25-20.27.28:998][653]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.25-20.27.28:998][653]AssetCheck: /Game/Blueprints/Actor/Crystal/GE_CrystalMana Validating asset
+[2025.06.25-20.27.30:339][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.06.25-20.27.31:678][881]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.25-20.27.31:692][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.25-20.27.31:703][881]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.06.25-20.27.31:703][881]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.06.25-20.27.31:705][881]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.06.25-20.27.31:713][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007859s)
+[2025.06.25-20.27.31:713][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.008082s)
+[2025.06.25-20.27.31:733][881]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.06.25-20.27.31:734][881]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.06.25-20.27.31:737][881]LogPlayLevel: PIE: World Init took: (0.002773s)
+[2025.06.25-20.27.31:739][881]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.06.25-20.27.31:739][881]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.25-20.27.31:739][881]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.25-20.27.31:739][881]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.25-20.27.31:739][881]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.25-20.27.31:739][881]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.25-20.27.31:739][881]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.25-20.27.31:739][881]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.25-20.27.31:739][881]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.25-20.27.31:740][881]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.25-20.27.31:740][881]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.25-20.27.31:740][881]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.25-20.27.31:743][881]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.25-20.27.31:778][881]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2025.06.25-20.27.31:779][881]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.25-20.27.31:779][881]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.25-20.27.31:779][881]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.25-20.27.31:780][881]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.06.25-20.27.31:780][881]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.06.25-20.27.31:783][881]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.06.25-20.27.31:783][881]LogInit: FAudioDevice initialized with ID 2.
+[2025.06.25-20.27.31:783][881]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.06.25-20.27.31:783][881]LogAudio: Display: Audio Device (ID: 2) registered with world 'StartupMap'.
+[2025.06.25-20.27.31:783][881]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.06.25-20.27.31:789][881]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.06.25-20.27.31:795][881]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2025.06.25-13.27.31
+[2025.06.25-20.27.31:810][881]LogWorld: Bringing up level for play took: 0.020467
+[2025.06.25-20.27.31:813][881]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2025.06.25-20.27.31:838][881]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.25-20.27.31:838][881]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.06.25-20.27.31:840][881]PIE: Server logged in
+[2025.06.25-20.27.31:841][881]PIE: Play in editor total start time 0.154 seconds.
+[2025.06.25-20.27.33:026][940]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/FootSteps/sfx_Footsteps.sfx_Footsteps' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2025.06.25-20.27.53:374][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.25-20.27.53:375][ 50]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.06.25-20.27.53:377][ 50]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.06.25-20.27.53:381][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.25-20.27.53:387][ 50]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.25-20.27.53:392][ 50]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.25-20.27.53:415][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.25-20.27.53:416][ 50]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.06.25-20.27.53:416][ 50]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.06.25-20.27.53:419][ 50]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.06.25-20.27.53:432][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.06.25-20.27.53:465][ 51]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2025.06.25-20.30.09:043][504]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 625.048584
+[2025.06.25-20.30.10:042][507]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.25-20.30.10:043][507]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 625.716858, Update Interval: 311.922363
+[2025.06.25-20.34.38:597][312]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.25-20.35.05:896][394]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.25-20.35.28:632][462]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 944.635681
+[2025.06.25-20.35.29:630][465]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.25-20.35.29:630][465]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 945.297485, Update Interval: 342.547668
+[2025.06.25-20.37.31:998][832]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
