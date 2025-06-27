@@ -1487,3 +1487,197 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.06.26-23.58.19:625][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2025.06.26-23.58.19:640][165]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
 [2025.06.26-23.58.19:719][166]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2025.06.27-00.00.10:887][930]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 372.060852
+[2025.06.27-00.00.11:885][933]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.27-00.00.11:885][933]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 372.720337, Update Interval: 323.628662
+[2025.06.27-00.00.48:903][356]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.06.27-00.00.48:937][356]LogContentBrowser: Creating deferred item: NewFolder
+[2025.06.27-00.00.48:950][357]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.06.27-00.00.51:591][513]LogContentBrowser: Attempting asset rename: NewFolder -> TestActor
+[2025.06.27-00.00.51:592][513]LogContentBrowser: End creating deferred item NewFolder
+[2025.06.27-00.01.05:771][695]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.06.27-00.01.05:778][695]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.06.27-00.01.05:787][695]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.06.27-00.01.05:791][695]LogAutomationController: Ignoring very large delta of 10.76 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.06.27-00.01.05:811][697]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.06.27-00.01.11:483][ 15]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_TestActor
+[2025.06.27-00.01.11:491][ 15]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.06.27-00.01.13:668][143]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actor/TestActor/BP_TestActor.BP_TestActor
+[2025.06.27-00.01.13:669][143]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.06.27-00.02.39:854][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.06.27-00.02.39:860][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-00.02.39:997][ 61]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Actor/TestActor/BP_TestActor] ([2] browsable assets)...
+[2025.06.27-00.02.39:997][ 61]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actor/TestActor/BP_TestActor]
+[2025.06.27-00.02.39:997][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actor/TestActor/BP_TestActor" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Actor/TestActor/BP_TestActor.uasset" SILENT=true
+[2025.06.27-00.02.40:002][ 61]LogSavePackage: Moving output files for package: /Game/Blueprints/Actor/TestActor/BP_TestActor
+[2025.06.27-00.02.40:002][ 61]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_TestActor93F16C814C4FD66AC6F3338F8A012DE7.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Actor/TestActor/BP_TestActor.uasset'
+[2025.06.27-00.02.40:013][ 61]LogFileHelpers: InternalPromptForCheckoutAndSave took 153.609 ms (total: 587.564 ms)
+[2025.06.27-00.02.40:149][ 61]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-00.02.40:150][ 61]LogContentValidation: Enabled validators:
+[2025.06.27-00.02.40:150][ 61]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-00.02.40:150][ 61]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-00.02.40:150][ 61]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-00.02.40:150][ 61]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-00.02.40:150][ 61]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-00.02.40:150][ 61]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-00.02.40:150][ 61]AssetCheck: /Game/Blueprints/Actor/TestActor/BP_TestActor Validating asset
+[2025.06.27-00.02.53:610][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.06.27-00.02.53:614][245]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-00.02.53:731][245]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Actor/TestActor/BP_TestActor] ([2] browsable assets)...
+[2025.06.27-00.02.53:731][245]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actor/TestActor/BP_TestActor]
+[2025.06.27-00.02.53:731][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actor/TestActor/BP_TestActor" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Actor/TestActor/BP_TestActor.uasset" SILENT=true
+[2025.06.27-00.02.53:735][245]LogSavePackage: Moving output files for package: /Game/Blueprints/Actor/TestActor/BP_TestActor
+[2025.06.27-00.02.53:736][245]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_TestActor47BB7E1041DB07A1EBB8898E174CD220.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Actor/TestActor/BP_TestActor.uasset'
+[2025.06.27-00.02.53:745][245]LogFileHelpers: InternalPromptForCheckoutAndSave took 130.711 ms (total: 718.275 ms)
+[2025.06.27-00.02.53:884][245]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-00.02.53:884][245]LogContentValidation: Enabled validators:
+[2025.06.27-00.02.53:884][245]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-00.02.53:884][245]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-00.02.53:884][245]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-00.02.53:884][245]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-00.02.53:884][245]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-00.02.53:884][245]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-00.02.53:885][245]AssetCheck: /Game/Blueprints/Actor/TestActor/BP_TestActor Validating asset
+[2025.06.27-00.02.58:377][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.06.27-00.03.11:085][ 11]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Actor/TestActor/BP_TestActor.BP_TestActor_C
+[2025.06.27-00.03.11:085][ 11]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Actor/TestActor/BP_TestActor.BP_TestActor_C
+[2025.06.27-00.03.11:087][ 11]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Actor/TestActor/BP_TestActor.BP_TestActor as actor: BP_TestActor_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_TestActor_C_0
+[2025.06.27-00.03.11:089][ 11]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Actor/TestActor/BP_TestActor.BP_TestActor as actor: BP_TestActor_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_TestActor_C_0
+[2025.06.27-00.03.12:021][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.06.27-00.03.12:023][ 63]LogEditorActor: Deleted 0 Actors (0.026 secs)
+[2025.06.27-00.03.12:032][ 63]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Actor/TestActor/BP_TestActor.BP_TestActor_C
+[2025.06.27-00.03.12:032][ 63]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Actor/TestActor/BP_TestActor.BP_TestActor_C
+[2025.06.27-00.03.12:034][ 63]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Actor/TestActor/BP_TestActor.BP_TestActor as actor: BP_TestActor_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_TestActor_C_1
+[2025.06.27-00.03.12:035][ 63]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Actor/TestActor/BP_TestActor.BP_TestActor as actor: BP_TestActor_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_TestActor_C_1
+[2025.06.27-00.03.36:052][734]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.06.27-00.03.36:059][734]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.06.27-00.03.36:068][734]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.06.27-00.03.36:071][734]LogAutomationController: Ignoring very large delta of 6.39 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.06.27-00.03.36:084][735]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.06.27-00.03.47:119][183]LogContentBrowser: Attempting asset rename: NewBlueprint -> GE_TestAttributeBased
+[2025.06.27-00.03.47:126][183]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.06.27-00.03.50:410][266]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actor/TestActor/GE_TestAttributeBased.GE_TestAttributeBased
+[2025.06.27-00.03.50:411][266]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.06.27-00.03.55:020][768]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-00.03.55:163][768]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Actor/TestActor/GE_TestAttributeBased] ([2] browsable assets)...
+[2025.06.27-00.03.55:163][768]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actor/TestActor/GE_TestAttributeBased]
+[2025.06.27-00.03.55:165][768]LogSavePackage: Moving output files for package: /Game/Blueprints/Actor/TestActor/GE_TestAttributeBased
+[2025.06.27-00.03.55:165][768]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_TestAttributeBasedE469AB1E446BBDEC0CEF49A646F6EF4C.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Actor/TestActor/GE_TestAttributeBased.uasset'
+[2025.06.27-00.03.55:175][768]LogFileHelpers: InternalPromptForCheckoutAndSave took 154.844 ms (total: 873.120 ms)
+[2025.06.27-00.03.55:311][768]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-00.03.55:312][768]LogContentValidation: Enabled validators:
+[2025.06.27-00.03.55:312][768]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-00.03.55:312][768]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-00.03.55:312][768]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-00.03.55:312][768]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-00.03.55:312][768]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-00.03.55:312][768]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-00.03.55:312][768]AssetCheck: /Game/Blueprints/Actor/TestActor/GE_TestAttributeBased Validating asset
+[2025.06.27-00.04.14:049][856]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-00.04.14:164][856]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Actor/TestActor/BP_TestActor] ([2] browsable assets)...
+[2025.06.27-00.04.14:164][856]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actor/TestActor/BP_TestActor]
+[2025.06.27-00.04.14:164][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Actor/TestActor/BP_TestActor" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Actor/TestActor/BP_TestActor.uasset" SILENT=true
+[2025.06.27-00.04.14:170][856]LogSavePackage: Moving output files for package: /Game/Blueprints/Actor/TestActor/BP_TestActor
+[2025.06.27-00.04.14:171][856]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_TestActorE78BF3864E301A46D8FDD182DA3D7C74.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Actor/TestActor/BP_TestActor.uasset'
+[2025.06.27-00.04.14:180][856]LogFileHelpers: InternalPromptForCheckoutAndSave took 131.148 ms (total: 1.00 sec)
+[2025.06.27-00.04.14:317][856]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-00.04.14:318][856]LogContentValidation: Enabled validators:
+[2025.06.27-00.04.14:318][856]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-00.04.14:318][856]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-00.04.14:318][856]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-00.04.14:318][856]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-00.04.14:318][856]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-00.04.14:318][856]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-00.04.14:318][856]AssetCheck: /Game/Blueprints/Actor/TestActor/BP_TestActor Validating asset
+[2025.06.27-00.05.37:808][716]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 698.980225
+[2025.06.27-00.05.37:933][731]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.27-00.05.37:933][731]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 699.096191, Update Interval: 356.590485
+[2025.06.27-00.06.13:254][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.06.27-00.06.13:259][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Unreal Projects/Aura/Saved/Autosaves/Game/Maps/StartupMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2025.06.27-00.06.13:281][797]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/StartupMap_Auto1
+[2025.06.27-00.06.13:281][797]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/StartupMap_Auto174B26AFA488446D733DAC9B574A723B7.tmp' to '../../../../../../Unreal Projects/Aura/Saved/Autosaves/Game/Maps/StartupMap_Auto1.umap'
+[2025.06.27-00.06.13:284][797]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/StartupMap' took 0.071
+[2025.06.27-00.06.13:284][797]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.071
+[2025.06.27-00.06.13:285][797]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Actor/TestActor/GE_TestAttributeBased] ([2] browsable assets)...
+[2025.06.27-00.06.13:285][797]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actor/TestActor/GE_TestAttributeBased]
+[2025.06.27-00.06.13:289][797]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Actor/TestActor/GE_TestAttributeBased_Auto1
+[2025.06.27-00.06.13:289][797]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_TestAttributeBased_Auto1AF86E5664B75490A9220A687E0745160.tmp' to '../../../../../../Unreal Projects/Aura/Saved/Autosaves/Game/Blueprints/Actor/TestActor/GE_TestAttributeBased_Auto1.uasset'
+[2025.06.27-00.06.13:292][797]LogFileHelpers: Auto-saving content packages took 0.005
+[2025.06.27-00.06.46:662][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.06.27-00.06.46:666][719]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-00.06.46:798][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.06.27-00.06.46:852][719]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.06.27-00.06.46:870][719]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2025.06.27-00.06.46:870][719]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/StartupMap081E0FEF47B130FA5B2E3694CFBCF30E.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/StartupMap.umap'
+[2025.06.27-00.06.46:891][719]LogFileHelpers: Saving map 'StartupMap' took 0.095
+[2025.06.27-00.06.46:892][719]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Actor/TestActor/GE_TestAttributeBased] ([2] browsable assets)...
+[2025.06.27-00.06.46:892][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Actor/TestActor/GE_TestAttributeBased]
+[2025.06.27-00.06.46:896][719]LogSavePackage: Moving output files for package: /Game/Blueprints/Actor/TestActor/GE_TestAttributeBased
+[2025.06.27-00.06.46:897][719]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_TestAttributeBased92EDF1E04378AD78AFACD48B4CDE012A.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Actor/TestActor/GE_TestAttributeBased.uasset'
+[2025.06.27-00.06.46:905][719]LogFileHelpers: InternalPromptForCheckoutAndSave took 240.024 ms (total: 1.24 sec)
+[2025.06.27-00.06.47:045][719]LogContentValidation: Display: Starting to validate 2 assets
+[2025.06.27-00.06.47:045][719]LogContentValidation: Enabled validators:
+[2025.06.27-00.06.47:045][719]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-00.06.47:045][719]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-00.06.47:046][719]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-00.06.47:046][719]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-00.06.47:046][719]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-00.06.47:046][719]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-00.06.47:046][719]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2025.06.27-00.06.47:046][719]AssetCheck: /Game/Blueprints/Actor/TestActor/GE_TestAttributeBased Validating asset
+[2025.06.27-00.06.48:467][875]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.06.27-00.06.49:954][958]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.27-00.06.49:968][958]LogPlayLevel: [PlayLevel] Compiling BP_TestActor before play...
+[2025.06.27-00.06.50:040][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.06.27-00.06.50:042][958]LogPlayLevel: PlayLevel: Blueprint regeneration took 75 ms (1 blueprints)
+[2025.06.27-00.06.50:042][958]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.06.27-00.06.50:047][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004467s)
+[2025.06.27-00.06.50:047][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.004694s)
+[2025.06.27-00.06.50:066][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.06.27-00.06.50:067][958]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.06.27-00.06.50:069][958]LogPlayLevel: PIE: World Init took: (0.001776s)
+[2025.06.27-00.06.50:070][958]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.06.27-00.06.50:070][958]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.27-00.06.50:070][958]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.27-00.06.50:070][958]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.27-00.06.50:070][958]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.27-00.06.50:071][958]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.27-00.06.50:071][958]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.27-00.06.50:071][958]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.27-00.06.50:071][958]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.27-00.06.50:071][958]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.27-00.06.50:071][958]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.27-00.06.50:071][958]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.27-00.06.50:073][958]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.27-00.06.50:107][958]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2025.06.27-00.06.50:108][958]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.27-00.06.50:108][958]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.27-00.06.50:108][958]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.27-00.06.50:110][958]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.06.27-00.06.50:110][958]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.06.27-00.06.50:112][958]LogInit: FAudioDevice initialized with ID 3.
+[2025.06.27-00.06.50:113][958]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.06.27-00.06.50:113][958]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.06.27-00.06.50:113][958]LogAudio: Display: Audio Device (ID: 3) registered with world 'StartupMap'.
+[2025.06.27-00.06.50:113][958]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.06.27-00.06.50:115][958]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.06.27-00.06.50:118][958]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2025.06.26-17.06.50
+[2025.06.27-00.06.50:120][958]LogWorld: Bringing up level for play took: 0.003777
+[2025.06.27-00.06.50:122][958]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2025.06.27-00.06.50:127][958]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.06.27-00.06.50:127][958]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.06.27-00.06.50:128][958]PIE: Server logged in
+[2025.06.27-00.06.50:129][958]PIE: Play in editor total start time 0.167 seconds.
+[2025.06.27-00.06.53:007][122]Cmd: ShowDebug AbilitySystem
+[2025.06.27-00.09.47:908][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.27-00.09.47:908][ 80]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.06.27-00.09.47:909][ 80]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.06.27-00.09.47:910][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.27-00.09.47:914][ 80]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.27-00.09.47:920][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.27-00.09.47:940][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.27-00.09.47:941][ 80]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.06.27-00.09.47:941][ 80]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.06.27-00.09.47:943][ 80]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.06.27-00.09.47:962][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.06.27-00.09.48:057][ 81]LogPlayLevel: Display: Destroying online subsystem :Context_11
