@@ -2743,3 +2743,43 @@ Script Stack (0 frames) :
 [2025.06.27-18.22.45:624][878]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.06.27-18.22.45:624][878]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.06.27-18.22.45:625][878]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow Validating asset
+[2025.06.27-18.24.02:705][465]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2025.06.27-18.24.24:664][707]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2025.06.27-18.24.24:670][707]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2025.06.27-18.24.24:677][707]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2025.06.27-18.24.24:688][708]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2025.06.27-18.24.36:468][119]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_TextValueButtonRow
+[2025.06.27-18.24.36:475][119]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2025.06.27-18.24.37:710][257]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.WBP_TextValueButtonRow
+[2025.06.27-18.24.37:710][257]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_34
+[2025.06.27-18.24.37:720][257]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_35
+[2025.06.27-18.25.47:969][336]LogStreaming: Display: FlushAsyncLoading(516): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.27-18.25.47:974][336]LogTexture: Display: Building textures: /Game/Assets/UI/Button_Red/Button_Border.Button_Border (BGRA8, 377x377 x1x1x1) (Required Memory Estimate: 5.879604 MB), EncodeSpeed: Fast
+[2025.06.27-18.26.29:172][164]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9469.232422
+[2025.06.27-18.26.29:289][178]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.27-18.26.29:289][178]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9469.338867, Update Interval: 319.016083
+[2025.06.27-18.27.54:911][668]LogStreaming: Display: FlushAsyncLoading(517): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.27-18.27.54:918][668]LogTexture: Display: Building textures: /Game/Assets/UI/Button_Red/Button.Button (BGRA8, 585x585 x1x1x1) (Required Memory Estimate: 12.749363 MB), EncodeSpeed: Fast
+[2025.06.27-18.28.21:816][491]LogStreaming: Display: FlushAsyncLoading(518): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.27-18.28.21:822][491]LogTexture: Display: Building textures: /Game/Assets/UI/Button_Red/Button_Highlighted.Button_Highlighted (BGRA8, 585x585 x1x1x1) (Required Memory Estimate: 12.749363 MB), EncodeSpeed: Fast
+[2025.06.27-18.28.43:336][778]LogStreaming: Display: FlushAsyncLoading(519): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.27-18.28.43:342][778]LogTexture: Display: Building textures: /Game/Assets/UI/Button_Red/Button_Pressed.Button_Pressed (BGRA8, 565x565 x1x1x1) (Required Memory Estimate: 11.959713 MB), EncodeSpeed: Fast
+[2025.06.27-18.28.59:373][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.06.27-18.28.59:381][155]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-18.28.59:511][155]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow] ([2] browsable assets)...
+[2025.06.27-18.28.59:515][155]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.WBP_TextValueButtonRow]
+[2025.06.27-18.28.59:515][155]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow]
+[2025.06.27-18.28.59:519][155]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow
+[2025.06.27-18.28.59:519][155]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_TextValueButtonRowC39EC2164CE92522D8D860A5711121E8.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.uasset'
+[2025.06.27-18.28.59:529][155]LogFileHelpers: InternalPromptForCheckoutAndSave took 148.196 ms (total: 4.47 sec)
+[2025.06.27-18.28.59:660][155]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-18.28.59:660][155]LogContentValidation: Enabled validators:
+[2025.06.27-18.28.59:660][155]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-18.28.59:660][155]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-18.28.59:660][155]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-18.28.59:660][155]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-18.28.59:661][155]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-18.28.59:661][155]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-18.28.59:661][155]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow Validating asset
+[2025.06.27-18.30.31:000][542]LogEditorTransaction: Undo Edit Typeface
+[2025.06.27-18.30.32:807][695]LogEditorTransaction: Undo Edit Font Family
