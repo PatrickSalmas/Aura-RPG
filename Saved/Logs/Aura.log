@@ -2108,3 +2108,472 @@ Script Stack (0 frames) :
 [2025.06.27-17.21.46:077][ 88]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5585.576172
 [2025.06.27-17.21.47:085][ 91]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.06.27-17.21.47:085][ 91]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5586.235840, Update Interval: 337.777649
+[2025.06.27-17.24.36:289][570]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.06.27-17.24.36:300][570]LogContentBrowser: Creating deferred item: NewFolder
+[2025.06.27-17.24.36:314][571]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.06.27-17.24.40:208][811]LogContentBrowser: Attempting asset rename: NewFolder -> AttributeMenu
+[2025.06.27-17.24.40:212][811]LogContentBrowser: End creating deferred item NewFolder
+[2025.06.27-17.24.52:546][125]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.06.27-17.25.02:140][291]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2025.06.27-17.25.02:147][291]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2025.06.27-17.25.02:156][291]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2025.06.27-17.25.02:185][293]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2025.06.27-17.25.12:912][952]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_FramedValue
+[2025.06.27-17.25.12:926][952]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2025.06.27-17.25.16:178][152]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue.WBP_FramedValue
+[2025.06.27-17.25.16:179][152]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.06.27-17.25.16:199][152]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.06.27-17.25.16:210][152]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2025.06.27-17.25.17:125][152]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2025.06.27-17.25.17:136][152]LogSlate: Took 0.008024 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.06.27-17.26.03:270][296]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.06.27-17.26.03:274][296]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-17.26.03:402][296]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue] ([2] browsable assets)...
+[2025.06.27-17.26.03:406][296]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue.WBP_FramedValue]
+[2025.06.27-17.26.03:406][296]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue]
+[2025.06.27-17.26.03:406][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset" SILENT=true
+[2025.06.27-17.26.03:409][296]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue
+[2025.06.27-17.26.03:409][296]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_FramedValue08FC87EA4216A488C0170E9346CE3966.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset'
+[2025.06.27-17.26.03:425][296]LogFileHelpers: InternalPromptForCheckoutAndSave took 151.107 ms (total: 1.34 sec)
+[2025.06.27-17.26.03:551][296]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-17.26.03:551][296]LogContentValidation: Enabled validators:
+[2025.06.27-17.26.03:552][296]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-17.26.03:552][296]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-17.26.03:552][296]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-17.26.03:552][296]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-17.26.03:552][296]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-17.26.03:552][296]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-17.26.03:553][296]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue Validating asset
+[2025.06.27-17.26.47:496][500]LogSlate: Took 0.006020 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2025.06.27-17.27.00:699][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.06.27-17.27.00:704][979]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-17.27.00:822][979]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue] ([2] browsable assets)...
+[2025.06.27-17.27.00:824][979]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue.WBP_FramedValue]
+[2025.06.27-17.27.00:824][979]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue]
+[2025.06.27-17.27.00:824][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset" SILENT=true
+[2025.06.27-17.27.00:828][979]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue
+[2025.06.27-17.27.00:829][979]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_FramedValue79BF6370490F7A186433C58707AF2D70.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset'
+[2025.06.27-17.27.00:837][979]LogFileHelpers: InternalPromptForCheckoutAndSave took 133.151 ms (total: 1.47 sec)
+[2025.06.27-17.27.00:969][979]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-17.27.00:969][979]LogContentValidation: Enabled validators:
+[2025.06.27-17.27.00:970][979]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-17.27.00:970][979]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-17.27.00:970][979]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-17.27.00:970][979]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-17.27.00:970][979]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-17.27.00:970][979]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-17.27.00:970][979]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue Validating asset
+[2025.06.27-17.28.24:141][919]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5983.626465
+[2025.06.27-17.28.24:257][933]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.27-17.28.24:257][933]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5983.734863, Update Interval: 323.115936
+[2025.06.27-17.28.46:354][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.06.27-17.28.46:359][764]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-17.28.46:489][764]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue] ([2] browsable assets)...
+[2025.06.27-17.28.46:491][764]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue.WBP_FramedValue]
+[2025.06.27-17.28.46:491][764]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue]
+[2025.06.27-17.28.46:491][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset" SILENT=true
+[2025.06.27-17.28.46:499][764]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue
+[2025.06.27-17.28.46:499][764]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_FramedValueB3364AA14C7C1348B3F0D690780CBC08.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset'
+[2025.06.27-17.28.46:507][764]LogFileHelpers: InternalPromptForCheckoutAndSave took 148.845 ms (total: 1.62 sec)
+[2025.06.27-17.28.46:634][764]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-17.28.46:635][764]LogContentValidation: Enabled validators:
+[2025.06.27-17.28.46:635][764]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-17.28.46:635][764]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-17.28.46:635][764]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-17.28.46:635][764]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-17.28.46:635][764]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-17.28.46:635][764]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-17.28.46:636][764]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue Validating asset
+[2025.06.27-17.28.47:755][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2025.06.27-17.29.02:357][391]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.06.27-17.29.02:362][391]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-17.29.02:488][391]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue] ([2] browsable assets)...
+[2025.06.27-17.29.02:490][391]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue.WBP_FramedValue]
+[2025.06.27-17.29.02:490][391]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue]
+[2025.06.27-17.29.02:490][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset" SILENT=true
+[2025.06.27-17.29.02:495][391]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue
+[2025.06.27-17.29.02:496][391]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_FramedValue2143D8FB47547FCAC44CA8ABFB0603BC.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset'
+[2025.06.27-17.29.02:505][391]LogFileHelpers: InternalPromptForCheckoutAndSave took 142.638 ms (total: 1.76 sec)
+[2025.06.27-17.29.02:637][391]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-17.29.02:638][391]LogContentValidation: Enabled validators:
+[2025.06.27-17.29.02:638][391]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-17.29.02:638][391]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-17.29.02:638][391]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-17.29.02:638][391]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-17.29.02:638][391]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-17.29.02:638][391]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-17.29.02:639][391]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue Validating asset
+[2025.06.27-17.29.04:183][569]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2025.06.27-17.29.21:464][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.06.27-17.29.21:469][402]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-17.29.21:604][402]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue] ([2] browsable assets)...
+[2025.06.27-17.29.21:607][402]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue.WBP_FramedValue]
+[2025.06.27-17.29.21:607][402]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue]
+[2025.06.27-17.29.21:607][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset" SILENT=true
+[2025.06.27-17.29.21:612][402]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue
+[2025.06.27-17.29.21:613][402]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_FramedValueB2108E904C77F16E58441BB091FA6D3B.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset'
+[2025.06.27-17.29.21:621][402]LogFileHelpers: InternalPromptForCheckoutAndSave took 152.589 ms (total: 1.92 sec)
+[2025.06.27-17.29.21:737][402]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-17.29.21:737][402]LogContentValidation: Enabled validators:
+[2025.06.27-17.29.21:737][402]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-17.29.21:737][402]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-17.29.21:737][402]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-17.29.21:737][402]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-17.29.21:737][402]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-17.29.21:737][402]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-17.29.21:738][402]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue Validating asset
+[2025.06.27-17.29.59:551][221]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (USB PnP Audio Device), InstanceID=1
+[2025.06.27-17.29.59:676][221]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.06.27-17.29.59:678][221]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=3560
+[2025.06.27-17.30.00:009][222]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.06.27-17.30.00:013][222]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{fd3482fe-f983-43c0-a0ef-742f9b23abec}, Name=Speakers (USB PnP Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=24.18
+[2025.06.27-17.30.00:015][222]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.06.27-17.30.00:019][222]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.06.27-17.34.42:794][ 70]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6362.265137
+[2025.06.27-17.34.43:793][ 73]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.27-17.34.43:794][ 73]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6362.931641, Update Interval: 310.748627
+[2025.06.27-17.40.44:565][155]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6724.048340
+[2025.06.27-17.40.45:566][158]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.27-17.40.45:566][158]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6724.719727, Update Interval: 348.804596
+[2025.06.27-17.47.09:700][310]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: d28...f0f
+[2025.06.27-17.47.09:700][310]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.86 RefreshExpires: 1.549e+07
+[2025.06.27-17.47.10:702][313]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: d28...f0f Access[Expires: 2025.06.27-19.47.09 Remaining: 7200.76] Refresh[Expires: 2025-12-23T23:54:09.703Z Remaining: 15487620.70] State: Valid
+[2025.06.27-17.47.22:706][349]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7122.189453
+[2025.06.27-17.47.23:707][352]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.27-17.47.23:707][352]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7122.839355, Update Interval: 346.682343
+[2025.06.27-17.50.30:371][912]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.003 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.06.27-17.54.06:865][561]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7526.348633
+[2025.06.27-17.54.07:861][564]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.27-17.54.07:861][564]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7527.016602, Update Interval: 344.794464
+[2025.06.27-17.57.11:836][133]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (SoundCore mini Stereo), InstanceID=1
+[2025.06.27-17.57.11:984][133]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (USB PnP Audio Device), InstanceID=1
+[2025.06.27-17.57.12:068][133]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.06.27-17.57.12:069][133]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=3560
+[2025.06.27-17.57.12:132][134]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (SoundCore mini Stereo), InstanceID=1
+[2025.06.27-17.57.12:402][134]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.06.27-17.57.12:404][134]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{fd3482fe-f983-43c0-a0ef-742f9b23abec}, Name=Speakers (USB PnP Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=16.67
+[2025.06.27-17.57.12:405][134]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.06.27-17.57.12:407][134]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.06.27-17.57.12:737][135]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.06.27-17.57.12:737][135]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=3560
+[2025.06.27-17.57.13:071][136]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.06.27-17.57.13:077][136]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{cbfb7b7d-8893-45f5-9b6a-b2267eb96e3c}, Name=Headphones (SoundCore mini Stereo)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=46.05
+[2025.06.27-17.57.13:078][136]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.06.27-17.57.13:082][136]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.06.27-17.58.19:949][569]LogStreaming: Display: FlushAsyncLoading(496): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.27-17.58.57:785][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.06.27-17.58.57:787][902]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/StartupMap' took 0.046
+[2025.06.27-17.58.57:788][902]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue] ([2] browsable assets)...
+[2025.06.27-17.58.57:790][902]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue.WBP_FramedValue]
+[2025.06.27-17.58.57:790][902]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue]
+[2025.06.27-17.58.57:796][902]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue_Auto1
+[2025.06.27-17.58.57:796][902]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_FramedValue_Auto17E3EA57C4A36CF21E67C27B4CFC051B2.tmp' to '../../../../../../Unreal Projects/Aura/Saved/Autosaves/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue_Auto1.uasset'
+[2025.06.27-17.58.57:797][902]LogFileHelpers: Auto-saving content packages took 0.010
+[2025.06.27-17.59.45:256][105]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Assets/UI/Globes/MI_FlowingUIBG.MI_FlowingUIBG
+[2025.06.27-17.59.45:268][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/None.png' error.
+[2025.06.27-17.59.45:268][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/None.png
+[2025.06.27-17.59.45:268][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float4_RGBA.png' error.
+[2025.06.27-17.59.45:268][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_XYZ.png' error.
+[2025.06.27-17.59.45:269][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float1.png' error.
+[2025.06.27-17.59.45:269][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float4_RGBA.png
+[2025.06.27-17.59.45:269][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float1.png
+[2025.06.27-17.59.45:269][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_XYZ.png
+[2025.06.27-17.59.45:269][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RGB.png' error.
+[2025.06.27-17.59.45:269][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float2.png' error.
+[2025.06.27-17.59.45:269][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RGB.png
+[2025.06.27-17.59.45:269][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float2.png
+[2025.06.27-17.59.45:269][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RPY.png' error.
+[2025.06.27-17.59.45:269][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RPY.png
+[2025.06.27-17.59.45:269][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Bool.png' error.
+[2025.06.27-17.59.45:270][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Bool.png
+[2025.06.27-17.59.45:270][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Texture.png' error.
+[2025.06.27-17.59.45:271][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Texture.png
+[2025.06.27-17.59.45:271][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeUnlit.png' error.
+[2025.06.27-17.59.45:271][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeUnlit.png
+[2025.06.27-17.59.45:271][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/WhiteBall.png' error.
+[2025.06.27-17.59.45:271][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeDefaultLit.png' error.
+[2025.06.27-17.59.45:271][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/WhiteBall.png
+[2025.06.27-17.59.45:271][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeDefaultLit.png
+[2025.06.27-17.59.45:272][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Remove_16px.png' error.
+[2025.06.27-17.59.45:272][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Remove_16px.png
+[2025.06.27-17.59.45:272][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float_Any.png' error.
+[2025.06.27-17.59.45:272][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_SinglePixel.png' error.
+[2025.06.27-17.59.45:272][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_SinglePixel.png
+[2025.06.27-17.59.45:272][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float_Any.png
+[2025.06.27-17.59.45:272][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaskToggle_16x.png' error.
+[2025.06.27-17.59.45:272][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaskToggle_16x.png
+[2025.06.27-17.59.45:272][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftTopRight.png' error.
+[2025.06.27-17.59.45:273][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftTopRight.png
+[2025.06.27-17.59.45:273][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftBottomRight.png' error.
+[2025.06.27-17.59.45:273][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopRightBottom.png' error.
+[2025.06.27-17.59.45:273][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopRightBottom.png
+[2025.06.27-17.59.45:273][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Bottom.png' error.
+[2025.06.27-17.59.45:273][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftBottomRight.png
+[2025.06.27-17.59.45:273][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Left.png' error.
+[2025.06.27-17.59.45:273][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Bottom.png
+[2025.06.27-17.59.45:273][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Top.png' error.
+[2025.06.27-17.59.45:273][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Left.png
+[2025.06.27-17.59.45:273][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Right.png' error.
+[2025.06.27-17.59.45:273][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Top.png
+[2025.06.27-17.59.45:273][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Right.png
+[2025.06.27-17.59.45:273][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerAdd.png' error.
+[2025.06.27-17.59.45:273][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerAdd.png
+[2025.06.27-17.59.45:273][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerRemove.png' error.
+[2025.06.27-17.59.45:273][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Duplicate_40x.png' error.
+[2025.06.27-17.59.45:273][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Duplicate_40x.png
+[2025.06.27-17.59.45:273][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerRemove.png
+[2025.06.27-17.59.45:273][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopLeftBottom.png' error.
+[2025.06.27-17.59.45:273][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopLeftBottom.png
+[2025.06.27-17.59.45:273][105]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/BaseToggle_16x.png' error.
+[2025.06.27-17.59.45:273][105]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/BaseToggle_16x.png
+[2025.06.27-17.59.45:300][105]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.06.27-17.59.45:308][105]LogStreaming: Display: FlushAsyncLoading(497): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.27-18.00.02:891][100]Cmd: TRANSACTION UNDO
+[2025.06.27-18.00.02:891][100]LogEditorTransaction: Undo Edit SpeedX
+[2025.06.27-18.00.15:521][519]LogSlate: Window 'Color Picker' being destroyed
+[2025.06.27-18.00.17:475][748]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.06.27-18.00.17:480][748]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-18.00.17:622][748]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue] ([2] browsable assets)...
+[2025.06.27-18.00.17:622][748]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue]
+[2025.06.27-18.00.17:622][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset" SILENT=true
+[2025.06.27-18.00.17:628][748]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue
+[2025.06.27-18.00.17:628][748]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_FramedValue915C9ED248A7A342712180ABB5D930EA.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset'
+[2025.06.27-18.00.17:630][748]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_FlowingUIBG] ([1] browsable assets)...
+[2025.06.27-18.00.17:632][748]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_FlowingUIBG.MI_FlowingUIBG]
+[2025.06.27-18.00.17:632][748]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_FlowingUIBG]
+[2025.06.27-18.00.17:632][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Globes/MI_FlowingUIBG" FILE="../../../../../../Unreal Projects/Aura/Content/Assets/UI/Globes/MI_FlowingUIBG.uasset" SILENT=true
+[2025.06.27-18.00.17:654][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.06.27-18.00.17:677][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.06.27-18.00.17:681][748]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_FlowingUIBG
+[2025.06.27-18.00.17:682][748]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/MI_FlowingUIBG0CCF1E7E44A18185549B0189E28C536C.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/UI/Globes/MI_FlowingUIBG.uasset'
+[2025.06.27-18.00.17:689][748]LogFileHelpers: InternalPromptForCheckoutAndSave took 209.264 ms (total: 2.13 sec)
+[2025.06.27-18.00.17:834][748]LogContentValidation: Display: Starting to validate 2 assets
+[2025.06.27-18.00.17:835][748]LogContentValidation: Enabled validators:
+[2025.06.27-18.00.17:835][748]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-18.00.17:835][748]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-18.00.17:835][748]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-18.00.17:835][748]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-18.00.17:835][748]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-18.00.17:835][748]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-18.00.17:836][748]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue Validating asset
+[2025.06.27-18.00.17:836][748]AssetCheck: /Game/Assets/UI/Globes/MI_FlowingUIBG Validating asset
+[2025.06.27-18.00.33:099][185]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7912.570312
+[2025.06.27-18.00.33:221][198]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.27-18.00.33:221][198]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7912.684082, Update Interval: 357.831970
+[2025.06.27-18.00.50:893][ 30]LogSlate: Window 'Color Picker' being destroyed
+[2025.06.27-18.00.53:197][305]LogShaderCompilers: Display: ================================================
+[2025.06.27-18.00.53:197][305]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.06.27-18.00.53:197][305]LogShaderCompilers: Display: Total job queries 308, among them cache hits 86 (27.92%), DDC hits 212 (68.83%), Duplicates 8 (2.60%)
+[2025.06.27-18.00.53:198][305]LogShaderCompilers: Display: Tracking 214 distinct input hashes that result in 174 distinct outputs (81.31%)
+[2025.06.27-18.00.53:198][305]LogShaderCompilers: Display: RAM used: 126.88 KiB of 819.20 MiB budget. Usage: 0.02%
+[2025.06.27-18.00.53:198][305]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.06.27-18.00.53:198][305]LogShaderCompilers: Display: Shaders Compiled: 2
+[2025.06.27-18.00.53:198][305]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2025.06.27-18.00.53:198][305]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.04 s
+[2025.06.27-18.00.53:198][305]LogShaderCompilers: Display: Job execution time: average 2.74 s, max 2.79 s
+[2025.06.27-18.00.53:199][305]LogShaderCompilers: Display: Job life time (pending + execution): average 2.78 s, max 2.83
+[2025.06.27-18.00.53:199][305]LogShaderCompilers: Display: Shader code size: average 4.592 KiB, min 4.137 KiB, max 5.047 KiB
+[2025.06.27-18.00.53:199][305]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.83 s
+[2025.06.27-18.00.53:199][305]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.06.27-18.00.53:200][305]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.06.27-18.00.53:200][305]LogShaderCompilers: Display: Average processing rate: 0.71 jobs/sec
+[2025.06.27-18.00.53:200][305]LogShaderCompilers: Display: Total thread time: 0.546 s
+[2025.06.27-18.00.53:200][305]LogShaderCompilers: Display: Total thread preprocess time: 6.015 s
+[2025.06.27-18.00.53:200][305]LogShaderCompilers: Display: Percentage time preprocessing: 1101.35%
+[2025.06.27-18.00.53:200][305]LogShaderCompilers: Display: Effective parallelization: 0.19 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2025.06.27-18.00.53:200][305]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.06.27-18.00.53:200][305]LogShaderCompilers: Display:                                TSlateMaterialShaderPSDefault (compiled    1 times, average 0.32 sec, max 0.32 sec, min 0.32 sec)
+[2025.06.27-18.00.53:201][305]LogShaderCompilers: Display:                                  TSlateMaterialShaderVSfalse (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2025.06.27-18.00.53:201][305]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.06.27-18.00.53:201][305]LogShaderCompilers: Display:             TBasePassVSFSelfShadowedVolumetricLightmapPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.06.27-18.00.53:201][305]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.06.27-18.00.53:201][305]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.06.27-18.00.53:201][305]LogShaderCompilers: Display:                                TSlateMaterialShaderPSDefault - 58.04% of total time (compiled    1 times, average 0.32 sec, max 0.32 sec, min 0.32 sec)
+[2025.06.27-18.00.53:202][305]LogShaderCompilers: Display:                                  TSlateMaterialShaderVSfalse - 41.96% of total time (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2025.06.27-18.00.53:202][305]LogShaderCompilers: Display:             TBasePassVSFSelfShadowedVolumetricLightmapPolicy - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.06.27-18.00.53:202][305]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.06.27-18.00.53:202][305]LogShaderCompilers: Display:                   TBasePassVSFSelfShadowedTranslucencyPolicy - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.06.27-18.00.53:202][305]LogShaderCompilers: Display: === Material stats ===
+[2025.06.27-18.00.53:202][305]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.06.27-18.00.53:202][305]LogShaderCompilers: Display: Materials Translated:    151
+[2025.06.27-18.00.53:202][305]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2025.06.27-18.00.53:202][305]LogShaderCompilers: Display: Material Translation Only: 0.06 s (59%)
+[2025.06.27-18.00.53:202][305]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.06.27-18.00.53:202][305]LogShaderCompilers: Display: Material Cache Hits: 29 (19%)
+[2025.06.27-18.00.53:202][305]LogShaderCompilers: Display: ================================================
+[2025.06.27-18.00.57:807][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.06.27-18.00.57:813][854]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-18.00.57:950][854]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue] ([2] browsable assets)...
+[2025.06.27-18.00.57:952][854]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue.WBP_FramedValue]
+[2025.06.27-18.00.57:952][854]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue]
+[2025.06.27-18.00.57:952][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset" SILENT=true
+[2025.06.27-18.00.57:958][854]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue
+[2025.06.27-18.00.57:958][854]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_FramedValue8088FCBF4FC35B63D5B105A6FEE5BE59.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset'
+[2025.06.27-18.00.57:967][854]LogFileHelpers: InternalPromptForCheckoutAndSave took 153.575 ms (total: 2.28 sec)
+[2025.06.27-18.00.58:099][854]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-18.00.58:099][854]LogContentValidation: Enabled validators:
+[2025.06.27-18.00.58:099][854]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-18.00.58:099][854]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-18.00.58:099][854]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-18.00.58:099][854]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-18.00.58:099][854]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-18.00.58:100][854]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-18.00.58:100][854]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue Validating asset
+[2025.06.27-18.01.32:257][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.06.27-18.01.32:261][384]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-18.01.32:387][384]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue] ([2] browsable assets)...
+[2025.06.27-18.01.32:390][384]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue.WBP_FramedValue]
+[2025.06.27-18.01.32:390][384]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue]
+[2025.06.27-18.01.32:390][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset" SILENT=true
+[2025.06.27-18.01.32:398][384]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue
+[2025.06.27-18.01.32:399][384]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_FramedValue0AB0B86C44A7093430508BB4218F5479.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset'
+[2025.06.27-18.01.32:406][384]LogFileHelpers: InternalPromptForCheckoutAndSave took 145.896 ms (total: 2.42 sec)
+[2025.06.27-18.01.32:553][384]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-18.01.32:553][384]LogContentValidation: Enabled validators:
+[2025.06.27-18.01.32:553][384]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-18.01.32:553][384]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-18.01.32:554][384]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-18.01.32:554][384]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-18.01.32:554][384]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-18.01.32:554][384]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-18.01.32:554][384]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue Validating asset
+[2025.06.27-18.02.39:466][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.06.27-18.02.39:471][274]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-18.02.39:599][274]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue] ([2] browsable assets)...
+[2025.06.27-18.02.39:602][274]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue.WBP_FramedValue]
+[2025.06.27-18.02.39:602][274]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue]
+[2025.06.27-18.02.39:602][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset" SILENT=true
+[2025.06.27-18.02.39:609][274]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue
+[2025.06.27-18.02.39:609][274]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_FramedValue8C5F9F204D923987F85505A8FC80B7A9.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset'
+[2025.06.27-18.02.39:617][274]LogFileHelpers: InternalPromptForCheckoutAndSave took 146.149 ms (total: 2.57 sec)
+[2025.06.27-18.02.39:749][274]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-18.02.39:749][274]LogContentValidation: Enabled validators:
+[2025.06.27-18.02.39:749][274]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-18.02.39:750][274]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-18.02.39:750][274]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-18.02.39:750][274]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-18.02.39:750][274]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-18.02.39:750][274]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-18.02.39:751][274]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue Validating asset
+[2025.06.27-18.02.49:238][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.06.27-18.03.28:441][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.06.27-18.03.28:447][581]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-18.03.28:583][581]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue] ([2] browsable assets)...
+[2025.06.27-18.03.28:586][581]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue.WBP_FramedValue]
+[2025.06.27-18.03.28:586][581]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue]
+[2025.06.27-18.03.28:586][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset" SILENT=true
+[2025.06.27-18.03.28:593][581]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue
+[2025.06.27-18.03.28:594][581]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_FramedValueEAEF424445D3A3F46DF6398D4162A2C4.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset'
+[2025.06.27-18.03.28:601][581]LogFileHelpers: InternalPromptForCheckoutAndSave took 154.339 ms (total: 2.73 sec)
+[2025.06.27-18.03.28:734][581]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-18.03.28:735][581]LogContentValidation: Enabled validators:
+[2025.06.27-18.03.28:735][581]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-18.03.28:735][581]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-18.03.28:735][581]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-18.03.28:735][581]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-18.03.28:735][581]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-18.03.28:735][581]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-18.03.28:736][581]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue Validating asset
+[2025.06.27-18.03.34:975][211]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.06.27-18.03.51:607][830]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2025.06.27-18.03.51:611][830]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-18.03.51:752][830]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue] ([2] browsable assets)...
+[2025.06.27-18.03.51:755][830]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue.WBP_FramedValue]
+[2025.06.27-18.03.51:755][830]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue]
+[2025.06.27-18.03.51:755][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset" SILENT=true
+[2025.06.27-18.03.51:762][830]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue
+[2025.06.27-18.03.51:763][830]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_FramedValueAB5CA2E640A5D97A111DDD9840FC2CF7.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset'
+[2025.06.27-18.03.51:771][830]LogFileHelpers: InternalPromptForCheckoutAndSave took 159.729 ms (total: 2.88 sec)
+[2025.06.27-18.03.51:885][830]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-18.03.51:886][830]LogContentValidation: Enabled validators:
+[2025.06.27-18.03.51:886][830]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-18.03.51:886][830]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-18.03.51:886][830]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-18.03.51:886][830]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-18.03.51:886][830]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-18.03.51:886][830]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-18.03.51:887][830]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue Validating asset
+[2025.06.27-18.03.52:164][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.06.27-18.04.06:859][328]LogSlate: Window 'Color Picker' being destroyed
+[2025.06.27-18.04.08:510][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.06.27-18.04.08:514][518]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-18.04.08:635][518]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue] ([2] browsable assets)...
+[2025.06.27-18.04.08:638][518]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue.WBP_FramedValue]
+[2025.06.27-18.04.08:638][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue]
+[2025.06.27-18.04.08:638][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset" SILENT=true
+[2025.06.27-18.04.08:645][518]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue
+[2025.06.27-18.04.08:646][518]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_FramedValue9102FC004EDE71D57689F38F63F77B06.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset'
+[2025.06.27-18.04.08:654][518]LogFileHelpers: InternalPromptForCheckoutAndSave took 139.816 ms (total: 3.02 sec)
+[2025.06.27-18.04.08:784][518]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-18.04.08:785][518]LogContentValidation: Enabled validators:
+[2025.06.27-18.04.08:785][518]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-18.04.08:785][518]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-18.04.08:785][518]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-18.04.08:785][518]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-18.04.08:785][518]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-18.04.08:785][518]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-18.04.08:786][518]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue Validating asset
+[2025.06.27-18.04.10:948][765]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.06.27-18.04.50:618][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2025.06.27-18.04.52:439][661]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.06.27-18.04.52:443][661]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-18.04.52:585][661]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue] ([2] browsable assets)...
+[2025.06.27-18.04.52:588][661]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue.WBP_FramedValue]
+[2025.06.27-18.04.52:588][661]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue]
+[2025.06.27-18.04.52:588][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset" SILENT=true
+[2025.06.27-18.04.52:596][661]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue
+[2025.06.27-18.04.52:597][661]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_FramedValue6EA62532420E2FCD560AF6AF8AFB6417.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset'
+[2025.06.27-18.04.52:605][661]LogFileHelpers: InternalPromptForCheckoutAndSave took 161.995 ms (total: 3.19 sec)
+[2025.06.27-18.04.52:734][661]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-18.04.52:734][661]LogContentValidation: Enabled validators:
+[2025.06.27-18.04.52:735][661]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-18.04.52:735][661]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-18.04.52:735][661]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-18.04.52:735][661]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-18.04.52:735][661]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-18.04.52:735][661]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-18.04.52:736][661]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue Validating asset
+[2025.06.27-18.05.32:151][141]LogStreaming: Display: FlushAsyncLoading(501): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.27-18.05.32:179][141]LogTexture: Display: Building textures: /Game/Assets/UI/Borders/Border_1/Border_1_png.Border_1_png (BGRA8, 827x424 x1x1x1) (Required Memory Estimate: 13.038528 MB), EncodeSpeed: Fast
+[2025.06.27-18.05.32:187][141]LogTexture: Display: Waiting for textures to be ready 0/1 (/Game/Assets/UI/Borders/Border_1/Border_1_png) ...
+[2025.06.27-18.07.09:024][487]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.06.27-18.07.09:029][487]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-18.07.09:183][487]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue] ([2] browsable assets)...
+[2025.06.27-18.07.09:186][487]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue.WBP_FramedValue]
+[2025.06.27-18.07.09:187][487]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue]
+[2025.06.27-18.07.09:187][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset" SILENT=true
+[2025.06.27-18.07.09:212][487]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue
+[2025.06.27-18.07.09:215][487]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_FramedValueCF6A9DF7405292CD4FFAF4B74089D680.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset'
+[2025.06.27-18.07.09:224][487]LogFileHelpers: InternalPromptForCheckoutAndSave took 195.263 ms (total: 3.38 sec)
+[2025.06.27-18.07.09:368][487]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-18.07.09:368][487]LogContentValidation: Enabled validators:
+[2025.06.27-18.07.09:368][487]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-18.07.09:368][487]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-18.07.09:368][487]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-18.07.09:368][487]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-18.07.09:368][487]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-18.07.09:368][487]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-18.07.09:369][487]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue Validating asset
+[2025.06.27-18.07.27:693][398]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8327.210938
+[2025.06.27-18.07.27:819][413]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.27-18.07.27:819][413]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8327.328125, Update Interval: 323.822754
+[2025.06.27-18.08.08:791][ 24]LogStreaming: Display: FlushAsyncLoading(502): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.27-18.09.31:641][150]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.06.27-18.09.31:648][150]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.27-18.09.31:788][150]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue] ([2] browsable assets)...
+[2025.06.27-18.09.31:790][150]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue.WBP_FramedValue]
+[2025.06.27-18.09.31:791][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue]
+[2025.06.27-18.09.31:791][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_FramedValue" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset" SILENT=true
+[2025.06.27-18.09.31:799][150]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue
+[2025.06.27-18.09.31:800][150]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_FramedValue6C8FC9E945B60B10300C99810134BD2C.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_FramedValue.uasset'
+[2025.06.27-18.09.31:806][150]LogFileHelpers: InternalPromptForCheckoutAndSave took 157.616 ms (total: 3.54 sec)
+[2025.06.27-18.09.31:920][150]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.27-18.09.31:920][150]LogContentValidation: Enabled validators:
+[2025.06.27-18.09.31:921][150]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.27-18.09.31:921][150]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.27-18.09.31:921][150]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.27-18.09.31:921][150]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.27-18.09.31:921][150]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.27-18.09.31:921][150]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.27-18.09.31:922][150]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_FramedValue Validating asset
+[2025.06.27-18.09.36:338][670]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
