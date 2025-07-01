@@ -1716,3 +1716,991 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.06.30-23.32.14:537][574]LogAutomationController: Ignoring very large delta of 6.73 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
 [2025.06.30-23.32.14:980][575]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
 [2025.06.30-23.32.15:520][578]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2025.06.30-23.32.41:857][635]LogAutomationController: Ignoring very large delta of 8.18 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.06.30-23.33.23:665][ 59]Cmd: SELECT NONE
+[2025.06.30-23.34.14:468][132]LogAutomationController: Ignoring very large delta of 5.77 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.06.30-23.34.17:721][328]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 671.303467
+[2025.06.30-23.34.17:880][338]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.30-23.34.17:880][338]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 671.446594, Update Interval: 325.001984
+[2025.06.30-23.39.50:302][391]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1003.883728
+[2025.06.30-23.39.51:292][394]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.30-23.39.51:292][394]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1004.541077, Update Interval: 336.265137
+[2025.06.30-23.41.20:974][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2025.06.30-23.41.20:979][103]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.30-23.41.21:119][103]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow] ([2] browsable assets)...
+[2025.06.30-23.41.21:122][103]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow.WBP_TextValueRow]
+[2025.06.30-23.41.21:123][103]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow]
+[2025.06.30-23.41.21:123][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset" SILENT=true
+[2025.06.30-23.41.21:131][103]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow
+[2025.06.30-23.41.21:132][103]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_TextValueRow22C5C7054551026E06C3DF888EF49109.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset'
+[2025.06.30-23.41.21:140][103]LogFileHelpers: InternalPromptForCheckoutAndSave took 161.741 ms (total: 1.46 sec)
+[2025.06.30-23.41.21:283][103]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.30-23.41.21:283][103]LogContentValidation: Enabled validators:
+[2025.06.30-23.41.21:283][103]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.30-23.41.21:283][103]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.30-23.41.21:283][103]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.30-23.41.21:283][103]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.30-23.41.21:283][103]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.30-23.41.21:283][103]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.30-23.41.21:285][103]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow Validating asset
+[2025.06.30-23.41.21:885][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.06.30-23.41.29:566][457]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2025.06.30-23.41.29:573][457]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.30-23.41.29:695][457]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow] ([2] browsable assets)...
+[2025.06.30-23.41.29:699][457]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow.WBP_TextValueRow]
+[2025.06.30-23.41.29:699][457]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow]
+[2025.06.30-23.41.29:699][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset" SILENT=true
+[2025.06.30-23.41.29:710][457]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow
+[2025.06.30-23.41.29:711][457]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_TextValueRow7994D69747043D79AE1524A275C1A649.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset'
+[2025.06.30-23.41.29:720][457]LogFileHelpers: InternalPromptForCheckoutAndSave took 147.463 ms (total: 1.61 sec)
+[2025.06.30-23.41.29:861][457]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.30-23.41.29:861][457]LogContentValidation: Enabled validators:
+[2025.06.30-23.41.29:862][457]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.30-23.41.29:862][457]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.30-23.41.29:862][457]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.30-23.41.29:862][457]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.30-23.41.29:862][457]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.30-23.41.29:862][457]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.30-23.41.29:863][457]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow Validating asset
+[2025.06.30-23.41.30:359][498]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2025.06.30-23.42.17:959][441]LogAutomationController: Ignoring very large delta of 7.04 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.06.30-23.44.42:409][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.06.30-23.44.42:415][543]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.30-23.44.42:550][543]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2025.06.30-23.44.42:563][543]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2025.06.30-23.44.42:563][543]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2025.06.30-23.44.42:563][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2025.06.30-23.44.42:577][543]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2025.06.30-23.44.42:577][543]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenu3F27D80043D233CFA3C891868E0AE914.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2025.06.30-23.44.42:585][543]LogFileHelpers: InternalPromptForCheckoutAndSave took 170.845 ms (total: 1.78 sec)
+[2025.06.30-23.44.42:700][543]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.30-23.44.42:700][543]LogContentValidation: Enabled validators:
+[2025.06.30-23.44.42:700][543]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.30-23.44.42:701][543]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.30-23.44.42:701][543]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.30-23.44.42:701][543]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.30-23.44.42:701][543]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.30-23.44.42:701][543]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.30-23.44.42:709][543]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2025.06.30-23.45.16:948][489]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.06.30-23.45.16:952][489]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.30-23.45.17:085][489]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2025.06.30-23.45.17:099][489]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2025.06.30-23.45.17:099][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2025.06.30-23.45.17:099][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2025.06.30-23.45.17:113][489]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2025.06.30-23.45.17:113][489]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenu15A6E4EA4F0C2260A6C32C812D4AC4E0.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2025.06.30-23.45.17:120][489]LogFileHelpers: InternalPromptForCheckoutAndSave took 167.930 ms (total: 1.95 sec)
+[2025.06.30-23.45.17:248][489]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.30-23.45.17:248][489]LogContentValidation: Enabled validators:
+[2025.06.30-23.45.17:249][489]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.30-23.45.17:249][489]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.30-23.45.17:249][489]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.30-23.45.17:249][489]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.30-23.45.17:249][489]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.30-23.45.17:249][489]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.30-23.45.17:258][489]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2025.06.30-23.45.39:881][ 26]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1353.457520
+[2025.06.30-23.45.40:011][ 35]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.30-23.45.40:011][ 35]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1353.575195, Update Interval: 320.166016
+[2025.06.30-23.45.42:065][267]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2025.06.30-23.45.42:070][267]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.30-23.45.42:193][267]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2025.06.30-23.45.42:209][267]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2025.06.30-23.45.42:209][267]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2025.06.30-23.45.42:209][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2025.06.30-23.45.42:224][267]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2025.06.30-23.45.42:224][267]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenu125D5E8F47B0367372043FA2BDE44111.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2025.06.30-23.45.42:233][267]LogFileHelpers: InternalPromptForCheckoutAndSave took 163.268 ms (total: 2.11 sec)
+[2025.06.30-23.45.42:356][267]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.30-23.45.42:356][267]LogContentValidation: Enabled validators:
+[2025.06.30-23.45.42:356][267]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.30-23.45.42:356][267]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.30-23.45.42:356][267]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.30-23.45.42:357][267]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.30-23.45.42:357][267]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.30-23.45.42:357][267]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.30-23.45.42:367][267]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2025.06.30-23.45.42:901][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.06.30-23.45.53:854][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2025.06.30-23.45.53:859][513]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.30-23.45.53:985][513]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2025.06.30-23.45.54:000][513]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2025.06.30-23.45.54:000][513]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2025.06.30-23.45.54:000][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2025.06.30-23.45.54:014][513]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2025.06.30-23.45.54:015][513]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenu0374C5EF4F19C29CB14EAEB7554EED09.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2025.06.30-23.45.54:022][513]LogFileHelpers: InternalPromptForCheckoutAndSave took 162.894 ms (total: 2.27 sec)
+[2025.06.30-23.45.54:148][513]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.30-23.45.54:149][513]LogContentValidation: Enabled validators:
+[2025.06.30-23.45.54:149][513]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.30-23.45.54:149][513]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.30-23.45.54:149][513]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.30-23.45.54:149][513]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.30-23.45.54:149][513]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.30-23.45.54:149][513]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.30-23.45.54:158][513]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2025.06.30-23.46.10:734][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.06.30-23.46.10:738][450]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.30-23.46.10:869][450]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2025.06.30-23.46.10:869][450]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2025.06.30-23.46.10:869][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2025.06.30-23.46.10:884][450]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2025.06.30-23.46.10:884][450]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenu0BF16C5A426AB843202FF19C360D9599.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2025.06.30-23.46.10:891][450]LogFileHelpers: InternalPromptForCheckoutAndSave took 153.064 ms (total: 2.43 sec)
+[2025.06.30-23.46.11:033][450]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.30-23.46.11:033][450]LogContentValidation: Enabled validators:
+[2025.06.30-23.46.11:033][450]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.30-23.46.11:033][450]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.30-23.46.11:033][450]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.30-23.46.11:034][450]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.30-23.46.11:034][450]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.30-23.46.11:034][450]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.30-23.46.11:042][450]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2025.06.30-23.47.45:557][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.06.30-23.47.45:562][215]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.30-23.47.45:704][215]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2025.06.30-23.47.45:718][215]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2025.06.30-23.47.45:718][215]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2025.06.30-23.47.45:718][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2025.06.30-23.47.45:734][215]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2025.06.30-23.47.45:735][215]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenuCD69735E4D3B59ADFBEA0CB282CA31FE.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2025.06.30-23.47.45:742][215]LogFileHelpers: InternalPromptForCheckoutAndSave took 179.963 ms (total: 2.61 sec)
+[2025.06.30-23.47.45:893][215]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.30-23.47.45:893][215]LogContentValidation: Enabled validators:
+[2025.06.30-23.47.45:894][215]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.30-23.47.45:894][215]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.30-23.47.45:894][215]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.30-23.47.45:894][215]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.30-23.47.45:894][215]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.30-23.47.45:894][215]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.30-23.47.45:906][215]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2025.06.30-23.47.46:265][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.06.30-23.47.58:921][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.06.30-23.47.58:926][512]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.30-23.47.59:050][512]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2025.06.30-23.47.59:063][512]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2025.06.30-23.47.59:063][512]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2025.06.30-23.47.59:063][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2025.06.30-23.47.59:077][512]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2025.06.30-23.47.59:078][512]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenuED1E3FD94CA9373A8A217CA9B210AE00.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2025.06.30-23.47.59:085][512]LogFileHelpers: InternalPromptForCheckoutAndSave took 159.693 ms (total: 2.77 sec)
+[2025.06.30-23.47.59:219][512]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.30-23.47.59:219][512]LogContentValidation: Enabled validators:
+[2025.06.30-23.47.59:219][512]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.30-23.47.59:219][512]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.30-23.47.59:220][512]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.30-23.47.59:220][512]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.30-23.47.59:220][512]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.30-23.47.59:220][512]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.30-23.47.59:229][512]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2025.06.30-23.48.53:759][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2025.06.30-23.48.53:765][455]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.30-23.48.53:901][455]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2025.06.30-23.48.53:913][455]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2025.06.30-23.48.53:913][455]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2025.06.30-23.48.53:913][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2025.06.30-23.48.53:929][455]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2025.06.30-23.48.53:929][455]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenuB95778FF48F3E53D2870A3A7BD0FEDAE.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2025.06.30-23.48.53:937][455]LogFileHelpers: InternalPromptForCheckoutAndSave took 172.962 ms (total: 2.94 sec)
+[2025.06.30-23.48.54:068][455]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.30-23.48.54:068][455]LogContentValidation: Enabled validators:
+[2025.06.30-23.48.54:069][455]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.30-23.48.54:069][455]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.30-23.48.54:069][455]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.30-23.48.54:069][455]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.30-23.48.54:069][455]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.30-23.48.54:069][455]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.30-23.48.54:078][455]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2025.06.30-23.48.54:716][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.06.30-23.51.23:559][213]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1697.132690
+[2025.06.30-23.51.23:679][227]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.30-23.51.23:679][227]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1697.244385, Update Interval: 334.285706
+[2025.06.30-23.56.29:177][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2025.06.30-23.56.29:182][331]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.30-23.56.29:306][331]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2025.06.30-23.56.29:320][331]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2025.06.30-23.56.29:320][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2025.06.30-23.56.29:320][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2025.06.30-23.56.29:342][331]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2025.06.30-23.56.29:343][331]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenu5E97250944678F9A9E493190B013BFAF.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2025.06.30-23.56.29:351][331]LogFileHelpers: InternalPromptForCheckoutAndSave took 169.076 ms (total: 3.11 sec)
+[2025.06.30-23.56.29:474][331]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.30-23.56.29:474][331]LogContentValidation: Enabled validators:
+[2025.06.30-23.56.29:474][331]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.30-23.56.29:474][331]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.30-23.56.29:474][331]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.30-23.56.29:474][331]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.30-23.56.29:474][331]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.30-23.56.29:475][331]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.30-23.56.29:484][331]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2025.06.30-23.57.15:711][440]LogEditorTransaction: Undo Straighten Connection(s)
+[2025.06.30-23.57.43:709][675]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2077.281982
+[2025.06.30-23.57.43:818][688]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.30-23.57.43:818][688]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2077.384277, Update Interval: 357.961975
+[2025.06.30-23.58.42:561][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2025.06.30-23.58.42:563][345]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/StartupMap' took 0.031
+[2025.06.30-23.58.42:564][345]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2025.06.30-23.58.42:576][345]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2025.06.30-23.58.42:576][345]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2025.06.30-23.58.42:600][345]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu_Auto1
+[2025.06.30-23.58.42:600][345]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenu_Auto17AECD66843F6AC7959573A9E404BCBC7.tmp' to '../../../../../../Unreal Projects/Aura/Saved/Autosaves/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu_Auto1.uasset'
+[2025.06.30-23.58.42:602][345]LogFileHelpers: Auto-saving content packages took 0.039
+[2025.06.30-23.58.59:969][372]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.06.30-23.58.59:973][372]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.30-23.59.00:108][372]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2025.06.30-23.59.00:108][372]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2025.06.30-23.59.00:108][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2025.06.30-23.59.00:130][372]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2025.06.30-23.59.00:131][372]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenuD96598E14C165AB433D49ABA963FE388.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2025.06.30-23.59.00:139][372]LogFileHelpers: InternalPromptForCheckoutAndSave took 167.041 ms (total: 3.28 sec)
+[2025.06.30-23.59.00:273][372]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.30-23.59.00:273][372]LogContentValidation: Enabled validators:
+[2025.06.30-23.59.00:273][372]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.30-23.59.00:273][372]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.30-23.59.00:273][372]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.30-23.59.00:273][372]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.30-23.59.00:273][372]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.30-23.59.00:273][372]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.30-23.59.00:282][372]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2025.06.30-23.59.00:702][414]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.07.01-00.00.49:675][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2025.07.01-00.00.49:679][554]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.01-00.00.49:807][554]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow] ([2] browsable assets)...
+[2025.07.01-00.00.49:811][554]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.WBP_TextValueButtonRow]
+[2025.07.01-00.00.49:811][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow]
+[2025.07.01-00.00.49:817][554]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow
+[2025.07.01-00.00.49:818][554]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_TextValueButtonRowD43399554B14D6D8EF014E9AC1212ADE.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.uasset'
+[2025.07.01-00.00.49:826][554]LogFileHelpers: InternalPromptForCheckoutAndSave took 146.903 ms (total: 3.42 sec)
+[2025.07.01-00.00.49:956][554]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.01-00.00.49:956][554]LogContentValidation: Enabled validators:
+[2025.07.01-00.00.49:956][554]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.01-00.00.49:957][554]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.01-00.00.49:957][554]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.01-00.00.49:957][554]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.01-00.00.49:957][554]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.01-00.00.49:957][554]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.01-00.00.49:957][554]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow Validating asset
+[2025.07.01-00.00.51:615][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2025.07.01-00.00.53:258][838]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.01-00.00.53:273][838]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.01-00.00.53:273][838]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.07.01-00.00.53:285][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011563s)
+[2025.07.01-00.00.53:285][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.012040s)
+[2025.07.01-00.00.53:315][838]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.07.01-00.00.53:318][838]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.07.01-00.00.53:320][838]LogPlayLevel: PIE: World Init took: (0.002096s)
+[2025.07.01-00.00.53:321][838]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.07.01-00.00.53:321][838]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.01-00.00.53:322][838]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.01-00.00.53:322][838]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.01-00.00.53:322][838]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.01-00.00.53:322][838]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.01-00.00.53:322][838]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.01-00.00.53:322][838]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.01-00.00.53:322][838]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.01-00.00.53:322][838]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.01-00.00.53:322][838]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.01-00.00.53:322][838]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.01-00.00.53:325][838]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.01-00.00.53:365][838]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2025.07.01-00.00.53:366][838]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.01-00.00.53:366][838]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.01-00.00.53:366][838]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.01-00.00.53:367][838]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.07.01-00.00.53:367][838]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.07.01-00.00.53:371][838]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.07.01-00.00.53:372][838]LogInit: FAudioDevice initialized with ID 5.
+[2025.07.01-00.00.53:372][838]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.07.01-00.00.53:372][838]LogAudio: Display: Audio Device (ID: 5) registered with world 'StartupMap'.
+[2025.07.01-00.00.53:372][838]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.07.01-00.00.53:377][838]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.07.01-00.00.53:380][838]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2025.06.30-17.00.53
+[2025.07.01-00.00.53:382][838]LogWorld: Bringing up level for play took: 0.005187
+[2025.07.01-00.00.53:386][838]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2025.07.01-00.00.53:424][838]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.07.01-00.00.53:426][838]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.07.01-00.00.53:429][838]PIE: Server logged in
+[2025.07.01-00.00.53:430][838]PIE: Play in editor total start time 0.159 seconds.
+[2025.07.01-00.00.58:015][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.01-00.00.58:015][116]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.07.01-00.00.58:016][116]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.07.01-00.00.58:016][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.01-00.00.58:021][116]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.01-00.00.58:028][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.01-00.00.58:051][116]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.07.01-00.00.58:052][116]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.07.01-00.00.58:052][116]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.07.01-00.00.58:054][116]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.07.01-00.00.58:060][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.01-00.00.58:063][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.07.01-00.00.58:097][117]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2025.07.01-00.02.37:728][182]LogEditorTransaction: Undo Straighten Connection(s)
+[2025.07.01-00.03.47:772][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.07.01-00.03.47:777][745]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.01-00.03.47:908][745]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow] ([2] browsable assets)...
+[2025.07.01-00.03.47:911][745]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.WBP_TextValueButtonRow]
+[2025.07.01-00.03.47:911][745]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow]
+[2025.07.01-00.03.47:916][745]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow
+[2025.07.01-00.03.47:917][745]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_TextValueButtonRow1C0686D745A3272DC57CC6BAFC3FFE1D.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.uasset'
+[2025.07.01-00.03.47:919][745]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow] ([2] browsable assets)...
+[2025.07.01-00.03.47:922][745]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow.WBP_TextValueRow]
+[2025.07.01-00.03.47:922][745]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow]
+[2025.07.01-00.03.47:922][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset" SILENT=true
+[2025.07.01-00.03.47:933][745]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow
+[2025.07.01-00.03.47:933][745]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_TextValueRow84460AB34B4C98409ADACE81AE043514.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset'
+[2025.07.01-00.03.47:941][745]LogFileHelpers: InternalPromptForCheckoutAndSave took 164.232 ms (total: 3.59 sec)
+[2025.07.01-00.03.48:073][745]LogContentValidation: Display: Starting to validate 2 assets
+[2025.07.01-00.03.48:073][745]LogContentValidation: Enabled validators:
+[2025.07.01-00.03.48:073][745]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.01-00.03.48:073][745]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.01-00.03.48:073][745]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.01-00.03.48:073][745]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.01-00.03.48:073][745]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.01-00.03.48:073][745]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.01-00.03.48:074][745]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow Validating asset
+[2025.07.01-00.03.48:075][745]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow Validating asset
+[2025.07.01-00.04.05:759][795]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.07.01-00.04.05:763][795]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.01-00.04.05:876][795]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow] ([2] browsable assets)...
+[2025.07.01-00.04.05:879][795]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow.WBP_TextValueRow]
+[2025.07.01-00.04.05:880][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow]
+[2025.07.01-00.04.05:880][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset" SILENT=true
+[2025.07.01-00.04.05:892][795]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow
+[2025.07.01-00.04.05:893][795]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_TextValueRow30D431A143ECD663736FB78D91959C5E.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset'
+[2025.07.01-00.04.05:900][795]LogFileHelpers: InternalPromptForCheckoutAndSave took 137.110 ms (total: 3.72 sec)
+[2025.07.01-00.04.06:043][795]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.01-00.04.06:044][795]LogContentValidation: Enabled validators:
+[2025.07.01-00.04.06:044][795]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.01-00.04.06:044][795]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.01-00.04.06:044][795]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.01-00.04.06:044][795]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.01-00.04.06:044][795]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.01-00.04.06:044][795]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.01-00.04.06:045][795]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow Validating asset
+[2025.07.01-00.04.06:896][892]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\Aura\Content\Blueprints\UI\AttributeMenu\WBP_TextValueRow.uasset: [Compiler] No input structure to break for  Aura Attribute Info
+[2025.07.01-00.04.07:045][892]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.07.01-00.04.20:253][125]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2025.07.01-00.04.20:259][125]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.01-00.04.20:395][125]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow] ([2] browsable assets)...
+[2025.07.01-00.04.20:399][125]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow.WBP_TextValueRow]
+[2025.07.01-00.04.20:399][125]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow]
+[2025.07.01-00.04.20:399][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset" SILENT=true
+[2025.07.01-00.04.20:410][125]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow
+[2025.07.01-00.04.20:411][125]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_TextValueRowEC025C544EE6F5F07975FAA42E4B2E7C.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset'
+[2025.07.01-00.04.20:418][125]LogFileHelpers: InternalPromptForCheckoutAndSave took 159.082 ms (total: 3.88 sec)
+[2025.07.01-00.04.20:555][125]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.01-00.04.20:555][125]LogContentValidation: Enabled validators:
+[2025.07.01-00.04.20:556][125]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.01-00.04.20:556][125]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.01-00.04.20:556][125]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.01-00.04.20:556][125]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.01-00.04.20:556][125]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.01-00.04.20:556][125]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.01-00.04.20:557][125]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow Validating asset
+[2025.07.01-00.04.21:271][208]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\Aura\Content\Blueprints\UI\AttributeMenu\WBP_TextValueRow.uasset: [Compiler] No input structure to break for  Aura Attribute Info
+[2025.07.01-00.04.21:395][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.07.01-00.04.24:236][524]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2477.803467
+[2025.07.01-00.04.24:379][541]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.01-00.04.24:379][541]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2477.938477, Update Interval: 309.497986
+[2025.07.01-00.04.53:859][846]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.07.01-00.04.53:864][846]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.01-00.04.53:995][846]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow] ([2] browsable assets)...
+[2025.07.01-00.04.53:998][846]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow.WBP_TextValueRow]
+[2025.07.01-00.04.53:998][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow]
+[2025.07.01-00.04.53:998][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset" SILENT=true
+[2025.07.01-00.04.54:009][846]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow
+[2025.07.01-00.04.54:010][846]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_TextValueRowB879369E480E805A3066478E43BC122A.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset'
+[2025.07.01-00.04.54:017][846]LogFileHelpers: InternalPromptForCheckoutAndSave took 153.365 ms (total: 4.04 sec)
+[2025.07.01-00.04.54:157][846]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.01-00.04.54:157][846]LogContentValidation: Enabled validators:
+[2025.07.01-00.04.54:157][846]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.01-00.04.54:157][846]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.01-00.04.54:157][846]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.01-00.04.54:157][846]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.01-00.04.54:157][846]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.01-00.04.54:157][846]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.01-00.04.54:159][846]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow Validating asset
+[2025.07.01-00.04.55:016][929]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.07.01-00.05.01:107][559]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.01-00.05.01:120][559]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.01-00.05.01:164][559]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.07.01-00.05.01:169][559]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004525s)
+[2025.07.01-00.05.01:169][559]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.004762s)
+[2025.07.01-00.05.01:191][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.07.01-00.05.01:194][559]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.07.01-00.05.01:196][559]LogPlayLevel: PIE: World Init took: (0.001803s)
+[2025.07.01-00.05.01:197][559]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.07.01-00.05.01:197][559]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.01-00.05.01:197][559]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.01-00.05.01:198][559]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.01-00.05.01:198][559]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.01-00.05.01:198][559]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.01-00.05.01:198][559]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.01-00.05.01:198][559]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.01-00.05.01:198][559]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.01-00.05.01:198][559]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.01-00.05.01:198][559]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.01-00.05.01:198][559]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.01-00.05.01:201][559]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.01-00.05.01:235][559]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2025.07.01-00.05.01:235][559]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.01-00.05.01:235][559]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.01-00.05.01:235][559]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.01-00.05.01:237][559]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.07.01-00.05.01:237][559]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.07.01-00.05.01:239][559]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.07.01-00.05.01:239][559]LogInit: FAudioDevice initialized with ID 6.
+[2025.07.01-00.05.01:239][559]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.07.01-00.05.01:239][559]LogAudio: Display: Audio Device (ID: 6) registered with world 'StartupMap'.
+[2025.07.01-00.05.01:240][559]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.07.01-00.05.01:242][559]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.07.01-00.05.01:245][559]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2025.06.30-17.05.01
+[2025.07.01-00.05.01:246][559]LogWorld: Bringing up level for play took: 0.003880
+[2025.07.01-00.05.01:249][559]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2025.07.01-00.05.01:255][559]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.07.01-00.05.01:256][559]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.07.01-00.05.01:257][559]PIE: Server logged in
+[2025.07.01-00.05.01:258][559]PIE: Play in editor total start time 0.14 seconds.
+[2025.07.01-00.05.06:575][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.01-00.05.06:575][874]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.07.01-00.05.06:575][874]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.07.01-00.05.06:577][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.01-00.05.06:586][874]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.01-00.05.06:593][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.01-00.05.06:617][874]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.07.01-00.05.06:617][874]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.07.01-00.05.06:618][874]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.07.01-00.05.06:623][874]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.07.01-00.05.06:628][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.01-00.05.06:632][874]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2025.07.01-00.05.06:666][875]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2025.07.01-00.05.47:774][ 48]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.01-00.05.47:786][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.01-00.05.47:787][ 48]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.07.01-00.05.47:795][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006815s)
+[2025.07.01-00.05.47:795][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.007102s)
+[2025.07.01-00.05.47:817][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.07.01-00.05.47:820][ 48]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.07.01-00.05.47:821][ 48]LogPlayLevel: PIE: World Init took: (0.001675s)
+[2025.07.01-00.05.47:822][ 48]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.07.01-00.05.47:822][ 48]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.01-00.05.47:822][ 48]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.01-00.05.47:823][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.01-00.05.47:823][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.01-00.05.47:823][ 48]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.01-00.05.47:823][ 48]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.01-00.05.47:823][ 48]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.01-00.05.47:823][ 48]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.01-00.05.47:823][ 48]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.01-00.05.47:823][ 48]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.01-00.05.47:823][ 48]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.01-00.05.47:826][ 48]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.01-00.05.47:859][ 48]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2025.07.01-00.05.47:859][ 48]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.01-00.05.47:860][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.01-00.05.47:860][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.01-00.05.47:862][ 48]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.07.01-00.05.47:862][ 48]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.07.01-00.05.47:864][ 48]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.07.01-00.05.47:864][ 48]LogInit: FAudioDevice initialized with ID 7.
+[2025.07.01-00.05.47:864][ 48]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.07.01-00.05.47:864][ 48]LogAudio: Display: Audio Device (ID: 7) registered with world 'StartupMap'.
+[2025.07.01-00.05.47:865][ 48]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.07.01-00.05.47:867][ 48]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.07.01-00.05.47:870][ 48]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2025.06.30-17.05.47
+[2025.07.01-00.05.47:871][ 48]LogWorld: Bringing up level for play took: 0.003923
+[2025.07.01-00.05.47:874][ 48]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2025.07.01-00.05.47:880][ 48]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.07.01-00.05.47:880][ 48]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.07.01-00.05.47:881][ 48]PIE: Server logged in
+[2025.07.01-00.05.47:882][ 48]PIE: Play in editor total start time 0.097 seconds.
+[2025.07.01-00.05.54:805][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.01-00.05.54:805][476]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.07.01-00.05.54:806][476]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.07.01-00.05.54:807][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.01-00.05.54:812][476]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.01-00.05.54:818][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.01-00.05.54:843][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.01-00.05.54:844][476]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.07.01-00.05.54:844][476]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.07.01-00.05.54:846][476]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.07.01-00.05.54:856][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2025.07.01-00.05.54:890][477]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2025.07.01-00.07.23:472][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.07.01-00.07.23:476][738]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.01-00.07.23:610][738]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow] ([2] browsable assets)...
+[2025.07.01-00.07.23:613][738]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow.WBP_TextValueRow]
+[2025.07.01-00.07.23:614][738]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow]
+[2025.07.01-00.07.23:614][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset" SILENT=true
+[2025.07.01-00.07.23:625][738]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow
+[2025.07.01-00.07.23:626][738]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_TextValueRow0A1A935948D0234AA1B34BAAB6902BAB.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset'
+[2025.07.01-00.07.23:633][738]LogFileHelpers: InternalPromptForCheckoutAndSave took 155.936 ms (total: 4.19 sec)
+[2025.07.01-00.07.23:777][738]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.01-00.07.23:778][738]LogContentValidation: Enabled validators:
+[2025.07.01-00.07.23:778][738]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.01-00.07.23:778][738]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.01-00.07.23:778][738]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.01-00.07.23:778][738]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.01-00.07.23:778][738]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.01-00.07.23:778][738]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.01-00.07.23:778][738]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow Validating asset
+[2025.07.01-00.07.25:892][927]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.01-00.07.25:905][927]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.01-00.07.25:905][927]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.07.01-00.07.25:912][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007193s)
+[2025.07.01-00.07.25:913][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.007477s)
+[2025.07.01-00.07.25:937][927]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.07.01-00.07.25:938][927]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.07.01-00.07.25:940][927]LogPlayLevel: PIE: World Init took: (0.001717s)
+[2025.07.01-00.07.25:941][927]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.07.01-00.07.25:941][927]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.01-00.07.25:941][927]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.01-00.07.25:941][927]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.01-00.07.25:942][927]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.01-00.07.25:942][927]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.01-00.07.25:942][927]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.01-00.07.25:942][927]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.01-00.07.25:942][927]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.01-00.07.25:942][927]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.01-00.07.25:942][927]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.01-00.07.25:942][927]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.01-00.07.25:945][927]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.01-00.07.25:978][927]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2025.07.01-00.07.25:978][927]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.01-00.07.25:978][927]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.01-00.07.25:979][927]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.01-00.07.25:980][927]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.07.01-00.07.25:980][927]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.07.01-00.07.25:982][927]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.07.01-00.07.25:982][927]LogInit: FAudioDevice initialized with ID 8.
+[2025.07.01-00.07.25:982][927]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.07.01-00.07.25:982][927]LogAudio: Display: Audio Device (ID: 8) registered with world 'StartupMap'.
+[2025.07.01-00.07.25:982][927]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.07.01-00.07.25:985][927]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.07.01-00.07.25:988][927]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2025.06.30-17.07.25
+[2025.07.01-00.07.25:989][927]LogWorld: Bringing up level for play took: 0.004159
+[2025.07.01-00.07.25:992][927]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2025.07.01-00.07.25:998][927]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.07.01-00.07.25:998][927]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.07.01-00.07.25:999][927]PIE: Server logged in
+[2025.07.01-00.07.26:000][927]PIE: Play in editor total start time 0.097 seconds.
+[2025.07.01-00.07.28:395][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.01-00.07.28:395][ 72]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.07.01-00.07.28:395][ 72]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.07.01-00.07.28:396][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.01-00.07.28:399][ 72]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.01-00.07.28:406][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.01-00.07.28:430][ 72]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.01-00.07.28:430][ 72]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.07.01-00.07.28:430][ 72]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.07.01-00.07.28:433][ 72]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.07.01-00.07.28:441][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2025.07.01-00.07.28:476][ 73]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2025.07.01-00.07.38:069][119]LogEditorTransaction: Undo Create Pin Link
+[2025.07.01-00.07.40:021][283]LogEditorTransaction: Undo Refresh Node(s)
+[2025.07.01-00.07.41:073][408]LogEditorTransaction: Undo Move Node
+[2025.07.01-00.07.41:317][436]LogEditorTransaction: Undo Create Reroute Node
+[2025.07.01-00.07.42:004][517]LogEditorTransaction: Redo Create Reroute Node
+[2025.07.01-00.07.42:367][521]LogEditorTransaction: Redo Move Node
+[2025.07.01-00.07.42:687][531]LogEditorTransaction: Redo Refresh Node(s)
+[2025.07.01-00.07.43:031][571]LogEditorTransaction: Redo Create Pin Link
+[2025.07.01-00.07.54:487][898]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.07.01-00.07.54:492][898]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.01-00.07.54:625][898]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow] ([2] browsable assets)...
+[2025.07.01-00.07.54:629][898]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.WBP_TextValueButtonRow]
+[2025.07.01-00.07.54:629][898]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow]
+[2025.07.01-00.07.54:636][898]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow
+[2025.07.01-00.07.54:636][898]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_TextValueButtonRowADA82F434305FAD3B08BA8980DF0A823.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.uasset'
+[2025.07.01-00.07.54:645][898]LogFileHelpers: InternalPromptForCheckoutAndSave took 152.405 ms (total: 4.34 sec)
+[2025.07.01-00.07.54:774][898]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.01-00.07.54:774][898]LogContentValidation: Enabled validators:
+[2025.07.01-00.07.54:774][898]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.01-00.07.54:774][898]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.01-00.07.54:774][898]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.01-00.07.54:774][898]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.01-00.07.54:774][898]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.01-00.07.54:774][898]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.01-00.07.54:775][898]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow Validating asset
+[2025.07.01-00.07.55:876][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.07.01-00.07.57:578][108]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.01-00.07.57:593][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.01-00.07.57:624][108]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.07.01-00.07.57:628][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004283s)
+[2025.07.01-00.07.57:628][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.004496s)
+[2025.07.01-00.07.57:652][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.07.01-00.07.57:655][108]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.07.01-00.07.57:657][108]LogPlayLevel: PIE: World Init took: (0.001888s)
+[2025.07.01-00.07.57:658][108]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.07.01-00.07.57:658][108]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.01-00.07.57:659][108]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.01-00.07.57:659][108]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.01-00.07.57:659][108]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.01-00.07.57:659][108]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.01-00.07.57:659][108]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.01-00.07.57:659][108]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.01-00.07.57:659][108]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.01-00.07.57:659][108]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.01-00.07.57:659][108]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.01-00.07.57:659][108]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.01-00.07.57:662][108]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.01-00.07.57:695][108]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2025.07.01-00.07.57:695][108]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.01-00.07.57:696][108]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.01-00.07.57:696][108]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.01-00.07.57:697][108]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.07.01-00.07.57:697][108]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.07.01-00.07.57:700][108]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.07.01-00.07.57:700][108]LogInit: FAudioDevice initialized with ID 9.
+[2025.07.01-00.07.57:700][108]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.07.01-00.07.57:700][108]LogAudio: Display: Audio Device (ID: 9) registered with world 'StartupMap'.
+[2025.07.01-00.07.57:700][108]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.07.01-00.07.57:703][108]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.07.01-00.07.57:705][108]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2025.06.30-17.07.57
+[2025.07.01-00.07.57:707][108]LogWorld: Bringing up level for play took: 0.003802
+[2025.07.01-00.07.57:709][108]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2025.07.01-00.07.57:715][108]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.07.01-00.07.57:715][108]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.07.01-00.07.57:716][108]PIE: Server logged in
+[2025.07.01-00.07.57:717][108]PIE: Play in editor total start time 0.126 seconds.
+[2025.07.01-00.08.04:595][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.01-00.08.04:595][537]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.07.01-00.08.04:596][537]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.07.01-00.08.04:597][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.01-00.08.04:600][537]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.01-00.08.04:610][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.01-00.08.04:639][537]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.07.01-00.08.04:640][537]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.07.01-00.08.04:640][537]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.07.01-00.08.04:643][537]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.07.01-00.08.04:648][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.01-00.08.04:653][537]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2025.07.01-00.08.04:697][538]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2025.07.01-00.08.14:726][627]LogEditorTransaction: Undo Create Pin Link
+[2025.07.01-00.08.16:738][798]LogEditorTransaction: Undo Move Nodes
+[2025.07.01-00.08.17:379][859]LogEditorTransaction: Undo Paste clipboard contents
+[2025.07.01-00.08.17:852][906]LogEditorTransaction: Undo Create Pin Link
+[2025.07.01-00.08.18:597][993]LogEditorTransaction: Undo Refresh Node(s)
+[2025.07.01-00.08.19:199][  0]LogEditorTransaction: Undo Move Node
+[2025.07.01-00.08.20:209][119]LogEditorTransaction: Undo Create Reroute Node
+[2025.07.01-00.08.20:654][171]LogEditorTransaction: Undo Move Nodes
+[2025.07.01-00.08.21:091][222]LogEditorTransaction: Undo Move Nodes
+[2025.07.01-00.08.21:528][273]LogEditorTransaction: Undo Move Nodes
+[2025.07.01-00.08.22:562][394]LogEditorTransaction: Redo Move Nodes
+[2025.07.01-00.08.22:793][397]LogEditorTransaction: Redo Move Nodes
+[2025.07.01-00.08.22:988][399]LogEditorTransaction: Redo Move Nodes
+[2025.07.01-00.08.23:207][401]LogEditorTransaction: Redo Create Reroute Node
+[2025.07.01-00.08.23:383][419]LogEditorTransaction: Redo Move Node
+[2025.07.01-00.08.23:587][442]LogEditorTransaction: Redo Refresh Node(s)
+[2025.07.01-00.08.23:799][466]LogEditorTransaction: Redo Create Pin Link
+[2025.07.01-00.08.24:005][489]LogEditorTransaction: Redo Paste clipboard contents
+[2025.07.01-00.08.24:215][505]LogEditorTransaction: Redo Move Nodes
+[2025.07.01-00.08.25:885][696]LogEditorTransaction: Redo Create Pin Link
+[2025.07.01-00.08.28:208][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2025.07.01-00.08.35:452][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.07.01-00.08.35:457][767]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.01-00.08.35:579][767]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow] ([2] browsable assets)...
+[2025.07.01-00.08.35:583][767]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.WBP_TextValueButtonRow]
+[2025.07.01-00.08.35:583][767]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow]
+[2025.07.01-00.08.35:592][767]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow
+[2025.07.01-00.08.35:592][767]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_TextValueButtonRow437825D547A5890A8E78969CB39597FA.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.uasset'
+[2025.07.01-00.08.35:601][767]LogFileHelpers: InternalPromptForCheckoutAndSave took 144.708 ms (total: 4.49 sec)
+[2025.07.01-00.08.35:740][767]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.01-00.08.35:741][767]LogContentValidation: Enabled validators:
+[2025.07.01-00.08.35:741][767]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.01-00.08.35:741][767]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.01-00.08.35:741][767]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.01-00.08.35:741][767]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.01-00.08.35:741][767]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.01-00.08.35:741][767]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.01-00.08.35:742][767]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow Validating asset
+[2025.07.01-00.08.37:035][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.07.01-00.08.38:607][995]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.01-00.08.38:617][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.01-00.08.38:618][995]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.07.01-00.08.38:624][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006733s)
+[2025.07.01-00.08.38:625][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.006988s)
+[2025.07.01-00.08.38:646][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.07.01-00.08.38:649][995]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.07.01-00.08.38:650][995]LogPlayLevel: PIE: World Init took: (0.001625s)
+[2025.07.01-00.08.38:652][995]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.07.01-00.08.38:652][995]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.01-00.08.38:652][995]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.01-00.08.38:652][995]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.01-00.08.38:652][995]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.01-00.08.38:652][995]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.01-00.08.38:652][995]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.01-00.08.38:652][995]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.01-00.08.38:653][995]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.01-00.08.38:653][995]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.01-00.08.38:653][995]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.01-00.08.38:653][995]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.01-00.08.38:655][995]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.01-00.08.38:688][995]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2025.07.01-00.08.38:689][995]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.01-00.08.38:689][995]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.01-00.08.38:689][995]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.01-00.08.38:690][995]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.07.01-00.08.38:690][995]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.07.01-00.08.38:693][995]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.07.01-00.08.38:693][995]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.07.01-00.08.38:693][995]LogInit: FAudioDevice initialized with ID 10.
+[2025.07.01-00.08.38:693][995]LogAudio: Display: Audio Device (ID: 10) registered with world 'StartupMap'.
+[2025.07.01-00.08.38:693][995]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.07.01-00.08.38:696][995]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.07.01-00.08.38:698][995]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2025.06.30-17.08.38
+[2025.07.01-00.08.38:700][995]LogWorld: Bringing up level for play took: 0.003734
+[2025.07.01-00.08.38:703][995]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2025.07.01-00.08.38:708][995]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.07.01-00.08.38:708][995]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.07.01-00.08.38:709][995]PIE: Server logged in
+[2025.07.01-00.08.38:710][995]PIE: Play in editor total start time 0.095 seconds.
+[2025.07.01-00.08.44:124][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.01-00.08.44:124][335]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.07.01-00.08.44:125][335]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.07.01-00.08.44:125][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.01-00.08.44:128][335]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.01-00.08.44:134][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.01-00.08.44:156][335]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.07.01-00.08.44:157][335]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.07.01-00.08.44:157][335]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.07.01-00.08.44:159][335]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.07.01-00.08.44:164][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.01-00.08.44:168][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.07.01-00.08.44:202][336]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2025.07.01-00.09.00:912][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.07.01-00.09.00:918][100]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.01-00.09.01:062][100]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow] ([2] browsable assets)...
+[2025.07.01-00.09.01:064][100]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.WBP_TextValueButtonRow]
+[2025.07.01-00.09.01:064][100]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow]
+[2025.07.01-00.09.01:072][100]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow
+[2025.07.01-00.09.01:072][100]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_TextValueButtonRow1C35F26844ED19CC7E8C10B78BA0D0AE.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.uasset'
+[2025.07.01-00.09.01:081][100]LogFileHelpers: InternalPromptForCheckoutAndSave took 163.283 ms (total: 4.65 sec)
+[2025.07.01-00.09.01:196][100]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.01-00.09.01:197][100]LogContentValidation: Enabled validators:
+[2025.07.01-00.09.01:197][100]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.01-00.09.01:197][100]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.01-00.09.01:197][100]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.01-00.09.01:197][100]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.01-00.09.01:197][100]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.01-00.09.01:197][100]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.01-00.09.01:198][100]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow Validating asset
+[2025.07.01-00.09.01:902][171]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.07.01-00.09.13:412][418]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.01-00.09.13:424][418]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.01-00.09.13:425][418]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.07.01-00.09.13:429][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004396s)
+[2025.07.01-00.09.13:429][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.004624s)
+[2025.07.01-00.09.13:451][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2025.07.01-00.09.13:453][418]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.07.01-00.09.13:455][418]LogPlayLevel: PIE: World Init took: (0.001843s)
+[2025.07.01-00.09.13:456][418]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.07.01-00.09.13:457][418]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.01-00.09.13:457][418]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.01-00.09.13:457][418]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.01-00.09.13:457][418]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.01-00.09.13:457][418]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.01-00.09.13:457][418]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.01-00.09.13:457][418]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.01-00.09.13:457][418]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.01-00.09.13:457][418]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.01-00.09.13:457][418]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.01-00.09.13:457][418]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.01-00.09.13:460][418]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.01-00.09.13:493][418]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2025.07.01-00.09.13:493][418]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.01-00.09.13:493][418]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.01-00.09.13:493][418]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.01-00.09.13:494][418]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.07.01-00.09.13:494][418]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.07.01-00.09.13:497][418]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.07.01-00.09.13:497][418]LogInit: FAudioDevice initialized with ID 11.
+[2025.07.01-00.09.13:497][418]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.07.01-00.09.13:497][418]LogAudio: Display: Audio Device (ID: 11) registered with world 'StartupMap'.
+[2025.07.01-00.09.13:497][418]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.07.01-00.09.13:500][418]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.07.01-00.09.13:503][418]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2025.06.30-17.09.13
+[2025.07.01-00.09.13:504][418]LogWorld: Bringing up level for play took: 0.003970
+[2025.07.01-00.09.13:507][418]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2025.07.01-00.09.13:512][418]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.07.01-00.09.13:513][418]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.07.01-00.09.13:514][418]PIE: Server logged in
+[2025.07.01-00.09.13:515][418]PIE: Play in editor total start time 0.091 seconds.
+[2025.07.01-00.09.19:175][763]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.01-00.09.19:175][763]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.07.01-00.09.19:175][763]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.07.01-00.09.19:176][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.01-00.09.19:179][763]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.01-00.09.19:185][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.01-00.09.19:208][763]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.07.01-00.09.19:208][763]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.07.01-00.09.19:208][763]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.07.01-00.09.19:210][763]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.07.01-00.09.19:217][763]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.01-00.09.19:220][763]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.07.01-00.09.19:243][764]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.07.01-00.10.19:188][295]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2832.761230
+[2025.07.01-00.10.19:329][308]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.01-00.10.19:329][308]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2832.890381, Update Interval: 357.820984
+[2025.07.01-00.10.26:990][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.07.01-00.10.26:995][940]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.01-00.10.27:128][940]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow] ([2] browsable assets)...
+[2025.07.01-00.10.27:131][940]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow.WBP_TextValueRow]
+[2025.07.01-00.10.27:132][940]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow]
+[2025.07.01-00.10.27:132][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset" SILENT=true
+[2025.07.01-00.10.27:143][940]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow
+[2025.07.01-00.10.27:144][940]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_TextValueRow240F0A2C455E260EC0FFAA9844A3C1EF.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset'
+[2025.07.01-00.10.27:151][940]LogFileHelpers: InternalPromptForCheckoutAndSave took 155.809 ms (total: 4.81 sec)
+[2025.07.01-00.10.27:291][940]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.01-00.10.27:291][940]LogContentValidation: Enabled validators:
+[2025.07.01-00.10.27:291][940]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.01-00.10.27:292][940]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.01-00.10.27:292][940]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.01-00.10.27:292][940]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.01-00.10.27:292][940]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.01-00.10.27:292][940]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.01-00.10.27:293][940]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow Validating asset
+[2025.07.01-00.10.28:363][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2025.07.01-00.10.29:781][ 92]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.01-00.10.29:795][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.01-00.10.29:795][ 92]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.07.01-00.10.29:802][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006941s)
+[2025.07.01-00.10.29:802][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.007192s)
+[2025.07.01-00.10.29:825][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2025.07.01-00.10.29:828][ 92]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.07.01-00.10.29:830][ 92]LogPlayLevel: PIE: World Init took: (0.001759s)
+[2025.07.01-00.10.29:831][ 92]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.07.01-00.10.29:831][ 92]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.01-00.10.29:831][ 92]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.01-00.10.29:832][ 92]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.01-00.10.29:832][ 92]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.01-00.10.29:832][ 92]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.01-00.10.29:832][ 92]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.01-00.10.29:832][ 92]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.01-00.10.29:832][ 92]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.01-00.10.29:832][ 92]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.01-00.10.29:832][ 92]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.01-00.10.29:832][ 92]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.01-00.10.29:835][ 92]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.01-00.10.29:869][ 92]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2025.07.01-00.10.29:869][ 92]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.01-00.10.29:869][ 92]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.01-00.10.29:869][ 92]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.01-00.10.29:871][ 92]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.07.01-00.10.29:871][ 92]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.07.01-00.10.29:873][ 92]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.07.01-00.10.29:873][ 92]LogInit: FAudioDevice initialized with ID 12.
+[2025.07.01-00.10.29:873][ 92]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.07.01-00.10.29:873][ 92]LogAudio: Display: Audio Device (ID: 12) registered with world 'StartupMap'.
+[2025.07.01-00.10.29:874][ 92]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.07.01-00.10.29:877][ 92]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.07.01-00.10.29:879][ 92]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2025.06.30-17.10.29
+[2025.07.01-00.10.29:881][ 92]LogWorld: Bringing up level for play took: 0.003662
+[2025.07.01-00.10.29:883][ 92]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2025.07.01-00.10.29:889][ 92]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.07.01-00.10.29:889][ 92]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.07.01-00.10.29:891][ 92]PIE: Server logged in
+[2025.07.01-00.10.29:892][ 92]PIE: Play in editor total start time 0.098 seconds.
+[2025.07.01-00.11.42:344][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.01-00.11.42:344][194]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.07.01-00.11.42:345][194]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.07.01-00.11.42:345][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.01-00.11.42:348][194]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.01-00.11.42:356][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.01-00.11.42:381][194]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.07.01-00.11.42:382][194]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.07.01-00.11.42:382][194]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.07.01-00.11.42:384][194]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.07.01-00.11.42:395][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.01-00.11.42:399][194]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.07.01-00.11.42:437][195]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2025.07.01-00.11.55:115][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.07.01-00.11.55:119][473]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.01-00.11.55:263][473]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow] ([2] browsable assets)...
+[2025.07.01-00.11.55:266][473]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow.WBP_TextValueRow]
+[2025.07.01-00.11.55:266][473]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow]
+[2025.07.01-00.11.55:266][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset" SILENT=true
+[2025.07.01-00.11.55:277][473]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow
+[2025.07.01-00.11.55:278][473]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_TextValueRow9212C21C4B185027AEF0F6AED3BDC52F.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset'
+[2025.07.01-00.11.55:285][473]LogFileHelpers: InternalPromptForCheckoutAndSave took 165.539 ms (total: 4.97 sec)
+[2025.07.01-00.11.55:426][473]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.01-00.11.55:427][473]LogContentValidation: Enabled validators:
+[2025.07.01-00.11.55:427][473]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.01-00.11.55:427][473]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.01-00.11.55:427][473]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.01-00.11.55:427][473]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.01-00.11.55:427][473]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.01-00.11.55:427][473]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.01-00.11.55:429][473]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueRow Validating asset
+[2025.07.01-00.12.23:104][555]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.07.01-00.12.23:109][555]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.01-00.12.23:295][555]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow] ([2] browsable assets)...
+[2025.07.01-00.12.23:299][555]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.WBP_TextValueButtonRow]
+[2025.07.01-00.12.23:299][555]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow]
+[2025.07.01-00.12.23:306][555]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow
+[2025.07.01-00.12.23:307][555]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_TextValueButtonRow285C7E9E4A8C4075F149C194BCF6BFFC.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.uasset'
+[2025.07.01-00.12.23:317][555]LogFileHelpers: InternalPromptForCheckoutAndSave took 207.855 ms (total: 5.18 sec)
+[2025.07.01-00.12.23:444][555]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.01-00.12.23:444][555]LogContentValidation: Enabled validators:
+[2025.07.01-00.12.23:445][555]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.01-00.12.23:445][555]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.01-00.12.23:445][555]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.01-00.12.23:445][555]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.01-00.12.23:445][555]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.01-00.12.23:445][555]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.01-00.12.23:446][555]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow Validating asset
+[2025.07.01-00.12.25:942][781]LogSlate: Window 'WBP_TextValueButtonRow' being destroyed
+[2025.07.01-00.12.27:418][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.07.01-00.12.29:876][136]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.01-00.12.29:888][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.01-00.12.29:923][136]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.07.01-00.12.29:927][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004223s)
+[2025.07.01-00.12.29:927][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.004451s)
+[2025.07.01-00.12.29:952][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.07.01-00.12.29:955][136]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.07.01-00.12.29:957][136]LogPlayLevel: PIE: World Init took: (0.002036s)
+[2025.07.01-00.12.29:958][136]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.07.01-00.12.29:958][136]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.01-00.12.29:958][136]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.01-00.12.29:958][136]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.01-00.12.29:959][136]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.01-00.12.29:959][136]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.01-00.12.29:959][136]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.01-00.12.29:959][136]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.01-00.12.29:959][136]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.01-00.12.29:959][136]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.01-00.12.29:959][136]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.01-00.12.29:959][136]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.01-00.12.29:961][136]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.01-00.12.29:996][136]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2025.07.01-00.12.29:996][136]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.01-00.12.29:996][136]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.01-00.12.29:997][136]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.01-00.12.29:997][136]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.07.01-00.12.29:997][136]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.07.01-00.12.30:000][136]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.07.01-00.12.30:000][136]LogInit: FAudioDevice initialized with ID 13.
+[2025.07.01-00.12.30:000][136]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.07.01-00.12.30:000][136]LogAudio: Display: Audio Device (ID: 13) registered with world 'StartupMap'.
+[2025.07.01-00.12.30:000][136]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.07.01-00.12.30:003][136]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.07.01-00.12.30:006][136]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2025.06.30-17.12.30
+[2025.07.01-00.12.30:007][136]LogWorld: Bringing up level for play took: 0.004070
+[2025.07.01-00.12.30:010][136]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2025.07.01-00.12.30:016][136]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.07.01-00.12.30:016][136]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.07.01-00.12.30:017][136]PIE: Server logged in
+[2025.07.01-00.12.30:018][136]PIE: Play in editor total start time 0.131 seconds.
+[2025.07.01-00.12.32:775][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.01-00.12.32:775][305]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.07.01-00.12.32:775][305]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.07.01-00.12.32:777][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.01-00.12.32:782][305]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.01-00.12.32:788][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.01-00.12.32:813][305]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.07.01-00.12.32:814][305]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.07.01-00.12.32:814][305]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.07.01-00.12.32:816][305]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.07.01-00.12.32:820][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.01-00.12.32:824][305]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.07.01-00.12.32:925][306]LogPlayLevel: Display: Destroying online subsystem :Context_23
