@@ -1539,3 +1539,38 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.07.02-15.50.57:745][816]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 346.034943
 [2025.07.02-15.50.57:870][830]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.07.02-15.50.57:870][830]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 346.150757, Update Interval: 330.440369
+[2025.07.02-15.56.31:077][454]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 679.366028
+[2025.07.02-15.56.32:073][457]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.02-15.56.32:073][457]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 680.029114, Update Interval: 332.410645
+[2025.07.02-15.57.05:460][698]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.07.02-15.57.25:829][759]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (USB PnP Audio Device), InstanceID=1
+[2025.07.02-15.57.25:969][759]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.07.02-15.57.25:969][759]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=21032
+[2025.07.02-15.57.26:303][760]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.07.02-15.57.26:306][760]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{fd3482fe-f983-43c0-a0ef-742f9b23abec}, Name=Speakers (USB PnP Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=11.51
+[2025.07.02-15.57.26:306][760]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.07.02-15.57.26:308][760]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.07.02-15.57.53:888][843]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (Raycon Everyday Headphones Stereo), InstanceID=1
+[2025.07.02-15.57.53:977][843]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.07.02-15.57.53:977][843]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=21032
+[2025.07.02-15.57.54:309][844]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.07.02-15.57.54:312][844]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{b802615b-b20f-46ef-a59c-e69141d75384}, Name=Headphones (Raycon Everyday Headphones Stereo)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=37.55
+[2025.07.02-15.57.54:312][844]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.07.02-15.57.54:314][844]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.07.02-16.01.29:989][433]LogSlate: Took 0.010329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.07.02-16.01.56:549][847]LogSlate: Window 'Message' being destroyed
+[2025.07.02-16.01.56:555][847]Message dialog closed, result: Yes, title: Message, text: Successfully added class 'AuraInputComponent', however you must recompile the 'Aura' module before it will appear in the Content Browser.
+
+Would you like to edit the code now?
+[2025.07.02-16.01.56:635][847]LogSlate: Window 'Add C++ Class' being destroyed
+[2025.07.02-16.02.08:776][901]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1017.064087
+[2025.07.02-16.02.09:778][904]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.02-16.02.09:778][904]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1017.731506, Update Interval: 359.686890
+[2025.07.02-16.02.47:461][ 17]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.07.02-16.05.18:012][469]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.07.02-16.08.22:021][ 20]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1390.308105
+[2025.07.02-16.08.23:023][ 23]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.02-16.08.23:023][ 23]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1390.984253, Update Interval: 303.209930
+[2025.07.02-16.10.57:256][484]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.07.02-16.11.37:155][604]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.07.02-16.12.36:862][783]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
