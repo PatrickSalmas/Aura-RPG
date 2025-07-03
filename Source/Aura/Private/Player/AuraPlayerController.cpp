@@ -17,7 +17,6 @@
 AAuraPlayerController::AAuraPlayerController()
 {
 	bReplicates = true;
-
 	Spline = CreateDefaultSubobject<USplineComponent>("Spline");
 }
 
@@ -34,6 +33,7 @@ void AAuraPlayerController::AutoRun()
 	if (APawn* ControlledPawn = GetPawn())
 	{
 		const FVector LocationOnSpline = Spline->FindLocationClosestToWorldLocation(ControlledPawn->GetActorLocation(), ESplineCoordinateSpace::World);
+		// const FVector LocationOnSpline = Spline->(ControlledPawn->GetActorLocation(), ESplineCoordinateSpace::World);
 		const FVector Direction = Spline->FindDirectionClosestToWorldLocation(LocationOnSpline, ESplineCoordinateSpace::World);
 		ControlledPawn->AddMovementInput(Direction);
 
@@ -47,58 +47,16 @@ void AAuraPlayerController::AutoRun()
 
 void AAuraPlayerController::CursorTrace()
 {
-	FHitResult CursorHit;
 	GetHitResultUnderCursor(ECC_Visibility, false, CursorHit);
 	if (!CursorHit.bBlockingHit) return;
 
 	LastActor = ThisActor;
 	ThisActor = CursorHit.GetActor();
 
-	/**
-	 * Line trace from cursor. There are several scenarios:
-	 * A. LastActor is null && ThisActor is null
-	 *		- Do nothing
-	 * B. LastActor is null && ThisActor is valid
-	 *		- Highlist ThisActor
-	 * C. LastActor is valid && ThisActor is null
-	 *		- UnHighlight LastActor
-	 * D. Both actors are valid, but LastActor != ThisActor
-	 *		- UnHightlight LastActor, and Hightlight ThisActor
-	 * E. Both actors are valid, and are the same actor
-	 *		- Do nothing
-	 * **/
-	if (LastActor == nullptr)
+	if (LastActor != ThisActor)
 	{
-		if (ThisActor != nullptr)
-		{
-			// Case B
-			ThisActor->HightlightActor();
-		}
-		else
-		{
-			// Case A - both are null, do nothing
-		}
-	}
-	else  // Last actor is valid
-	{
-		if (ThisActor == nullptr)
-		{
-			// Case C
-			LastActor->UnHightlightActor();
-		}
-		else  // Both actors are valid
-		{
-			if (ThisActor != LastActor)
-			{
-				// Case D - new character is being hovered over so highlight the new actor
-				LastActor->UnHightlightActor();
-				ThisActor->HightlightActor();
-			}
-			else
-			{
-				// Case E - do nothing because character is already highlighted
-			}
-		}
+		if (LastActor) LastActor->UnHightlightActor();
+		if (ThisActor) ThisActor->HightlightActor();
 	}
 }
 
@@ -137,10 +95,23 @@ void AAuraPlayerController::AbilityInputTagReleased(FGameplayTag InputTag)
 			if (UNavigationPath* NavPath = UNavigationSystemV1::FindPathToLocationSynchronously(this, ControllerPawn->GetActorLocation(), CachedDestination))
 			{
 				Spline->ClearSplinePoints();
-				for (const FVector& PointLoc : NavPath->PathPoints)
+				if (!NavPath->PathPoints.IsEmpty())
 				{
-					Spline->AddSplinePoint(PointLoc, ESplineCoordinateSpace::World);
-					DrawDebugSphere(GetWorld(), PointLoc, 8.f, 8, FColor::Green, false, 5.f);
+					for (const FVector& PointLoc : NavPath->PathPoints)
+					{
+						Spline->AddSplinePoint(PointLoc, ESplineCoordinateSpace::World);
+						DrawDebugSphere(GetWorld(), PointLoc, 8.f, 8, FColor::Green, false, 5.f);
+					}
+				}
+				// Valid location was not clicked, so we need to find nearest valid location/path to CachedDestination
+				else
+				{
+					UNavigationPath* NavPathNearest = GetClosestValidLocation(ControllerPawn, 75.f);
+					for (const FVector& PointLoc : NavPathNearest->PathPoints)
+					{
+						Spline->AddSplinePoint(PointLoc, ESplineCoordinateSpace::World);
+						DrawDebugSphere(GetWorld(), PointLoc, 8.f, 8, FColor::Green, false, 5.f);
+					}
 				}
 				// CachedDestination = NavPath->PathPoints[NavPath->PathPoints.Num() - 1];
 				bAutoRunning = true;
@@ -149,6 +120,31 @@ void AAuraPlayerController::AbilityInputTagReleased(FGameplayTag InputTag)
 		FollowTime = 0.f;
 		bTargeting = false;
 	}
+}
+
+UNavigationPath* AAuraPlayerController::GetClosestValidLocation(APawn* ControllerPawn, float IncrementDistance)
+{
+	if (!ControllerPawn) return nullptr;
+	
+	UNavigationPath* NavPathNearest = nullptr;
+	float distanceToCheck = IncrementDistance;
+	FVector WorldDirection = (CachedDestination - ControllerPawn->GetActorLocation()).GetSafeNormal();
+
+	while (NavPathNearest == nullptr || NavPathNearest->PathPoints.IsEmpty())
+	{
+		FVector testDestination = CachedDestination;
+		testDestination.X = testDestination.X - (distanceToCheck * WorldDirection.X);
+		testDestination.Y = testDestination.Y - (distanceToCheck * WorldDirection.Y);
+		NavPathNearest = UNavigationSystemV1::FindPathToLocationSynchronously(this, ControllerPawn->GetActorLocation(), testDestination);
+		if (NavPathNearest && !NavPathNearest->PathPoints.IsEmpty())
+		{
+			CachedDestination = testDestination;
+			return NavPathNearest;
+		}
+		distanceToCheck += IncrementDistance;
+	}
+
+	return nullptr;
 }
 
 void AAuraPlayerController::AbilityInputTagHeld(FGameplayTag InputTag)
@@ -173,10 +169,9 @@ void AAuraPlayerController::AbilityInputTagHeld(FGameplayTag InputTag)
 	{
 		FollowTime += GetWorld()->GetDeltaSeconds();
 
-		FHitResult Hit;
-		if (GetHitResultUnderCursor(ECC_Visibility, false, Hit))
+		if (CursorHit.bBlockingHit)
 		{
-			CachedDestination = Hit.ImpactPoint;
+			CachedDestination = CursorHit.ImpactPoint;
 		}
 	}
 

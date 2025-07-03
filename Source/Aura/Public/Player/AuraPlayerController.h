@@ -7,6 +7,7 @@
 #include "GameFramework/PlayerController.h"
 #include "AuraPlayerController.generated.h"
 
+class UNavigationPath;
 class UAuraAbilitySystemComponent;
 class UAuraInputConfig;
 class UInputMappingContext;
@@ -45,6 +46,7 @@ private:
 
 	TScriptInterface<IEnemyInterface> LastActor;
 	TScriptInterface<IEnemyInterface> ThisActor;
+	FHitResult CursorHit;
 	
 	// IEnemyInterface* LastActor;
 	// IEnemyInterface* ThisActor;
@@ -74,4 +76,6 @@ private:
 	TObjectPtr<USplineComponent> Spline;
 
 	void AutoRun();
+	
+	UNavigationPath* GetClosestValidLocation(APawn* ControllerPawn, float IncrementDistance);
 };
