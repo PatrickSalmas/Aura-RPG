@@ -173,7 +173,8 @@ void AAuraPlayerController::AbilityInputTagHeld(FGameplayTag InputTag)
 		}
 	}
 
-	if (APawn* ControlledPawn = GetPawn())
+	APawn* ControlledPawn = GetPawn();
+	if (ControlledPawn && ThisActor == nullptr)
 	{
 		const FVector WorldDirection = (CachedDestination - ControlledPawn->GetActorLocation()).GetSafeNormal();
 		ControlledPawn->AddMovementInput(WorldDirection);
