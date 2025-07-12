@@ -1388,3 +1388,257 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.07.12-04.26.52:032][413]LogContentBrowser: End creating deferred item NewDataAsset
 [2025.07.12-04.26.53:605][524]LogAssetEditorSubsystem: Opening Asset editor for CharacterClassInfo /Game/Blueprints/AbilitySystem/Data/DA_CharacterInfo.DA_CharacterInfo
 [2025.07.12-04.27.20:130][814]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.07.12-04.31.36:326][161]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 366.300262
+[2025.07.12-04.31.37:328][164]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.12-04.31.37:328][164]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 366.967896, Update Interval: 300.979645
+[2025.07.12-04.34.39:694][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.07.12-04.34.39:705][ 11]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.12-04.34.39:834][ 11]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Data/DA_CharacterInfo] ([1] browsable assets)...
+[2025.07.12-04.34.39:834][ 11]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Data/DA_CharacterInfo]
+[2025.07.12-04.34.39:834][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AbilitySystem/Data/DA_CharacterInfo" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Data/DA_CharacterInfo.uasset" SILENT=true
+[2025.07.12-04.34.39:843][ 11]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Data/DA_CharacterInfo
+[2025.07.12-04.34.39:843][ 11]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/DA_CharacterInfo3D449DB743F82800535466873780E2A0.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Data/DA_CharacterInfo.uasset'
+[2025.07.12-04.34.39:858][ 11]LogFileHelpers: InternalPromptForCheckoutAndSave took 153.933 ms
+[2025.07.12-04.34.40:002][ 11]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.12-04.34.40:002][ 11]LogContentValidation: Enabled validators:
+[2025.07.12-04.34.40:002][ 11]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.12-04.34.40:002][ 11]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.12-04.34.40:002][ 11]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.12-04.34.40:002][ 11]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.12-04.34.40:002][ 11]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.12-04.34.40:002][ 11]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.12-04.34.40:004][ 11]AssetCheck: /Game/Blueprints/AbilitySystem/Data/DA_CharacterInfo Validating asset
+[2025.07.12-04.35.03:000][439]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.07.12-04.35.03:008][439]LogContentBrowser: Creating deferred item: NewFolder
+[2025.07.12-04.35.03:019][440]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.07.12-04.35.04:215][518]LogContentBrowser: Attempting asset rename: NewFolder -> Aura
+[2025.07.12-04.35.04:216][518]LogContentBrowser: End creating deferred item NewFolder
+[2025.07.12-04.35.14:304][228]LogMetaData: Removing '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraVitalAttributes.GE_AuraVitalAttributes_C' ref from Metadata '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_AuraVitalAttributes.PackageMetaData'
+[2025.07.12-04.35.14:304][228]LogMetaData: Removing '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraVitalAttributes.SKEL_GE_AuraVitalAttributes_C' ref from Metadata '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_AuraVitalAttributes.PackageMetaData'
+[2025.07.12-04.35.14:310][228]LogMetaData: Removing '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraSecondaryAttributes.GE_AuraSecondaryAttributes_C' ref from Metadata '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_AuraSecondaryAttributes.PackageMetaData'
+[2025.07.12-04.35.14:310][228]LogMetaData: Removing '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraSecondaryAttributes.SKEL_GE_AuraSecondaryAttributes_C' ref from Metadata '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_AuraSecondaryAttributes.PackageMetaData'
+[2025.07.12-04.35.14:312][228]LogMetaData: Removing '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraPrimaryAttributes.GE_AuraPrimaryAttributes_C' ref from Metadata '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_AuraPrimaryAttributes.PackageMetaData'
+[2025.07.12-04.35.14:312][228]LogMetaData: Removing '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraPrimaryAttributes.SKEL_GE_AuraPrimaryAttributes_C' ref from Metadata '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_AuraPrimaryAttributes.PackageMetaData'
+[2025.07.12-04.35.14:313][228]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.12-04.35.14:314][228]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_EnemyBase] ([2] browsable assets)...
+[2025.07.12-04.35.14:314][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_EnemyBase]
+[2025.07.12-04.35.14:314][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_EnemyBase" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/BP_EnemyBase.uasset" SILENT=true
+[2025.07.12-04.35.14:326][228]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_EnemyBase
+[2025.07.12-04.35.14:327][228]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_EnemyBase903048244624F391064E81B698B52FAE.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/BP_EnemyBase.uasset'
+[2025.07.12-04.35.14:328][228]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Aura/BP_AuraCharacter] ([2] browsable assets)...
+[2025.07.12-04.35.14:331][228]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.07.12-04.35.14:436][228]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter]
+[2025.07.12-04.35.14:436][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Aura/BP_AuraCharacter]
+[2025.07.12-04.35.14:436][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Aura/BP_AuraCharacter" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Aura/BP_AuraCharacter.uasset" SILENT=true
+[2025.07.12-04.35.14:447][228]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Aura/BP_AuraCharacter
+[2025.07.12-04.35.14:447][228]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_AuraCharacterC31AC374483DED8E7BB8BABA90EA4571.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Aura/BP_AuraCharacter.uasset'
+[2025.07.12-04.35.14:449][228]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraVitalAttributes] ([2] browsable assets)...
+[2025.07.12-04.35.14:449][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraVitalAttributes]
+[2025.07.12-04.35.14:453][228]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraVitalAttributes
+[2025.07.12-04.35.14:453][228]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_AuraVitalAttributes68F64BD14184C342785811814B53BE53.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraVitalAttributes.uasset'
+[2025.07.12-04.35.14:459][228]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraSecondaryAttributes] ([2] browsable assets)...
+[2025.07.12-04.35.14:459][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraSecondaryAttributes]
+[2025.07.12-04.35.14:470][228]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraSecondaryAttributes
+[2025.07.12-04.35.14:470][228]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_AuraSecondaryAttributes881CAD18491AD010BB9A1898D8D3C8C3.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraSecondaryAttributes.uasset'
+[2025.07.12-04.35.14:476][228]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraPrimaryAttributes] ([2] browsable assets)...
+[2025.07.12-04.35.14:476][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraPrimaryAttributes]
+[2025.07.12-04.35.14:482][228]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraPrimaryAttributes
+[2025.07.12-04.35.14:482][228]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_AuraPrimaryAttributes30B33B5E4D6D98CEAED18A900A7E92AE.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraPrimaryAttributes.uasset'
+[2025.07.12-04.35.14:487][228]LogFileHelpers: InternalPromptForCheckoutAndSave took 174.942 ms (total: 328.876 ms)
+[2025.07.12-04.35.14:566][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.07.12-04.35.14:582][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.07.12-04.35.14:598][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.07.12-04.35.14:680][228]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.07.12-04.35.14:680][228]LogContentValidation: Display: Starting to validate 5 assets
+[2025.07.12-04.35.14:680][228]LogContentValidation: Enabled validators:
+[2025.07.12-04.35.14:680][228]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.12-04.35.14:680][228]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.12-04.35.14:680][228]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.12-04.35.14:680][228]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.12-04.35.14:680][228]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.12-04.35.14:680][228]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.12-04.35.14:680][228]AssetCheck: /Game/Blueprints/Character/BP_EnemyBase Validating asset
+[2025.07.12-04.35.14:681][228]AssetCheck: /Game/Blueprints/Character/Aura/BP_AuraCharacter Validating asset
+[2025.07.12-04.35.14:681][228]AssetCheck: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraVitalAttributes Validating asset
+[2025.07.12-04.35.14:681][228]AssetCheck: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraSecondaryAttributes Validating asset
+[2025.07.12-04.35.14:681][228]AssetCheck: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraPrimaryAttributes Validating asset
+[2025.07.12-04.35.17:065][428]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.07.12-04.35.17:147][428]LogContentBrowser: Creating deferred item: NewFolder
+[2025.07.12-04.35.17:160][429]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.07.12-04.35.19:955][608]LogContentBrowser: Attempting asset rename: NewFolder -> Enemy
+[2025.07.12-04.35.19:955][608]LogContentBrowser: End creating deferred item NewFolder
+[2025.07.12-04.35.45:417][537]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.07.12-04.35.45:422][537]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.07.12-04.35.45:432][537]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.07.12-04.35.45:455][539]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.07.12-04.35.57:616][340]LogContentBrowser: Attempting asset rename: NewBlueprint -> GE_PrimaryAttributes_Elementalist
+[2025.07.12-04.35.57:625][340]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.07.12-04.36.05:155][491]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.07.12-04.36.05:166][491]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.07.12-04.36.05:177][491]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.07.12-04.36.05:196][492]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.07.12-04.36.17:367][356]LogContentBrowser: Attempting asset rename: NewBlueprint -> GE_PrimaryAttributes_Warrior
+[2025.07.12-04.36.17:373][356]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.07.12-04.36.25:529][619]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.07.12-04.36.25:537][619]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.07.12-04.36.25:551][619]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.07.12-04.36.25:571][620]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.07.12-04.36.34:753][248]LogContentBrowser: Attempting asset rename: NewBlueprint -> GE_PrimaryAttributes_Ranger
+[2025.07.12-04.36.34:760][248]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.07.12-04.36.37:501][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.07.12-04.36.37:507][433]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.12-04.36.37:643][433]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Enemy/GE_PrimaryAttributes_Elementalist] ([2] browsable assets)...
+[2025.07.12-04.36.37:643][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Enemy/GE_PrimaryAttributes_Elementalist]
+[2025.07.12-04.36.37:646][433]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Enemy/GE_PrimaryAttributes_Elementalist
+[2025.07.12-04.36.37:646][433]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_PrimaryAttributes_Elementalis7AD012444F9116BBFE8C4EA50DF2616A.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Enemy/GE_PrimaryAttributes_Elementalist.uasset'
+[2025.07.12-04.36.37:651][433]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Enemy/GE_PrimaryAttributes_Warrior] ([2] browsable assets)...
+[2025.07.12-04.36.37:651][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Enemy/GE_PrimaryAttributes_Warrior]
+[2025.07.12-04.36.37:652][433]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Enemy/GE_PrimaryAttributes_Warrior
+[2025.07.12-04.36.37:652][433]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_PrimaryAttributes_Warrior8C2340534908EC720AD549BFD126891F.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Enemy/GE_PrimaryAttributes_Warrior.uasset'
+[2025.07.12-04.36.37:656][433]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Enemy/GE_PrimaryAttributes_Ranger] ([2] browsable assets)...
+[2025.07.12-04.36.37:657][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Enemy/GE_PrimaryAttributes_Ranger]
+[2025.07.12-04.36.37:659][433]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Enemy/GE_PrimaryAttributes_Ranger
+[2025.07.12-04.36.37:659][433]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_PrimaryAttributes_Ranger0948FEF7416BE0D3C850F0A317BEE4E0.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Enemy/GE_PrimaryAttributes_Ranger.uasset'
+[2025.07.12-04.36.37:675][433]LogFileHelpers: InternalPromptForCheckoutAndSave took 167.993 ms (total: 496.869 ms)
+[2025.07.12-04.36.37:820][433]LogContentValidation: Display: Starting to validate 3 assets
+[2025.07.12-04.36.37:820][433]LogContentValidation: Enabled validators:
+[2025.07.12-04.36.37:820][433]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.12-04.36.37:820][433]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.12-04.36.37:820][433]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.12-04.36.37:820][433]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.12-04.36.37:820][433]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.12-04.36.37:820][433]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.12-04.36.37:820][433]AssetCheck: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Enemy/GE_PrimaryAttributes_Elementalist Validating asset
+[2025.07.12-04.36.37:820][433]AssetCheck: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Enemy/GE_PrimaryAttributes_Warrior Validating asset
+[2025.07.12-04.36.37:820][433]AssetCheck: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Enemy/GE_PrimaryAttributes_Ranger Validating asset
+[2025.07.12-04.36.41:587][684]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 671.560669
+[2025.07.12-04.36.41:752][695]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.12-04.36.41:753][695]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 671.711426, Update Interval: 314.745941
+[2025.07.12-04.37.42:109][598]LogContentBrowser: Attempting asset rename: GE_AuraSecondaryAttributes -> GE_SecondaryAttributes
+[2025.07.12-04.37.42:309][598]LogMetaData: Removing '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_SecondaryAttributes.GE_SecondaryAttributes_C' ref from Metadata '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraSecondaryAttributes.PackageMetaData'
+[2025.07.12-04.37.42:309][598]LogMetaData: Removing '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_SecondaryAttributes.SKEL_GE_SecondaryAttributes_C' ref from Metadata '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraSecondaryAttributes.PackageMetaData'
+[2025.07.12-04.37.42:310][598]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.12-04.37.42:310][598]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_EnemyBase] ([2] browsable assets)...
+[2025.07.12-04.37.42:310][598]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_EnemyBase]
+[2025.07.12-04.37.42:310][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_EnemyBase" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/BP_EnemyBase.uasset" SILENT=true
+[2025.07.12-04.37.42:315][598]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_EnemyBase
+[2025.07.12-04.37.42:315][598]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_EnemyBase92D25F1449D18E42A0665B9C9B4A4FD6.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/BP_EnemyBase.uasset'
+[2025.07.12-04.37.42:317][598]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Aura/BP_AuraCharacter] ([2] browsable assets)...
+[2025.07.12-04.37.42:383][598]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter]
+[2025.07.12-04.37.42:383][598]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Aura/BP_AuraCharacter]
+[2025.07.12-04.37.42:384][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Aura/BP_AuraCharacter" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Aura/BP_AuraCharacter.uasset" SILENT=true
+[2025.07.12-04.37.42:389][598]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Aura/BP_AuraCharacter
+[2025.07.12-04.37.42:390][598]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_AuraCharacterE89B90814FEFB0D6D76B5CB64A628B68.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Aura/BP_AuraCharacter.uasset'
+[2025.07.12-04.37.42:391][598]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_SecondaryAttributes] ([2] browsable assets)...
+[2025.07.12-04.37.42:391][598]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_SecondaryAttributes]
+[2025.07.12-04.37.42:402][598]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_SecondaryAttributes
+[2025.07.12-04.37.42:402][598]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_SecondaryAttributes3B6AD4FC45035DB9A2085A89346EE01C.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_SecondaryAttributes.uasset'
+[2025.07.12-04.37.42:407][598]LogFileHelpers: InternalPromptForCheckoutAndSave took 96.716 ms (total: 593.586 ms)
+[2025.07.12-04.37.42:429][598]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.07.12-04.37.42:439][598]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.07.12-04.37.42:451][598]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2025.07.12-04.37.42:605][598]LogContentValidation: Display: Starting to validate 3 assets
+[2025.07.12-04.37.42:605][598]LogContentValidation: Enabled validators:
+[2025.07.12-04.37.42:605][598]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.12-04.37.42:605][598]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.12-04.37.42:605][598]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.12-04.37.42:605][598]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.12-04.37.42:605][598]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.12-04.37.42:605][598]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.12-04.37.42:605][598]AssetCheck: /Game/Blueprints/Character/BP_EnemyBase Validating asset
+[2025.07.12-04.37.42:605][598]AssetCheck: /Game/Blueprints/Character/Aura/BP_AuraCharacter Validating asset
+[2025.07.12-04.37.42:605][598]AssetCheck: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_SecondaryAttributes Validating asset
+[2025.07.12-04.37.43:524][654]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.07.12-04.38.17:459][892]LogContentBrowser: Attempting asset rename: GE_AuraVitalAttributes -> GE_VitalAttributes
+[2025.07.12-04.38.17:657][892]LogMetaData: Removing '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_VitalAttributes.GE_VitalAttributes_C' ref from Metadata '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraVitalAttributes.PackageMetaData'
+[2025.07.12-04.38.17:657][892]LogMetaData: Removing '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_VitalAttributes.SKEL_GE_VitalAttributes_C' ref from Metadata '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_AuraVitalAttributes.PackageMetaData'
+[2025.07.12-04.38.17:658][892]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.12-04.38.17:658][892]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_EnemyBase] ([2] browsable assets)...
+[2025.07.12-04.38.17:658][892]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_EnemyBase]
+[2025.07.12-04.38.17:658][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_EnemyBase" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/BP_EnemyBase.uasset" SILENT=true
+[2025.07.12-04.38.17:662][892]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_EnemyBase
+[2025.07.12-04.38.17:663][892]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_EnemyBase33F1F45140417A88289B7EA0CAB9250B.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/BP_EnemyBase.uasset'
+[2025.07.12-04.38.17:664][892]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Aura/BP_AuraCharacter] ([2] browsable assets)...
+[2025.07.12-04.38.17:727][892]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter]
+[2025.07.12-04.38.17:727][892]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Aura/BP_AuraCharacter]
+[2025.07.12-04.38.17:727][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Aura/BP_AuraCharacter" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Aura/BP_AuraCharacter.uasset" SILENT=true
+[2025.07.12-04.38.17:734][892]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Aura/BP_AuraCharacter
+[2025.07.12-04.38.17:734][892]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_AuraCharacter06906EFE40CE2643EDA41B8CFAA9EE7B.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Aura/BP_AuraCharacter.uasset'
+[2025.07.12-04.38.17:735][892]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_VitalAttributes] ([2] browsable assets)...
+[2025.07.12-04.38.17:735][892]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_VitalAttributes]
+[2025.07.12-04.38.17:738][892]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_VitalAttributes
+[2025.07.12-04.38.17:738][892]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_VitalAttributes898520424169986FEDE63E91E7518077.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_VitalAttributes.uasset'
+[2025.07.12-04.38.17:746][892]LogFileHelpers: InternalPromptForCheckoutAndSave took 88.367 ms (total: 681.953 ms)
+[2025.07.12-04.38.17:768][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.07.12-04.38.17:780][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.07.12-04.38.17:790][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2025.07.12-04.38.17:922][892]LogContentValidation: Display: Starting to validate 3 assets
+[2025.07.12-04.38.17:922][892]LogContentValidation: Enabled validators:
+[2025.07.12-04.38.17:922][892]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.12-04.38.17:922][892]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.12-04.38.17:922][892]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.12-04.38.17:922][892]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.12-04.38.17:922][892]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.12-04.38.17:922][892]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.12-04.38.17:922][892]AssetCheck: /Game/Blueprints/Character/BP_EnemyBase Validating asset
+[2025.07.12-04.38.17:922][892]AssetCheck: /Game/Blueprints/Character/Aura/BP_AuraCharacter Validating asset
+[2025.07.12-04.38.17:922][892]AssetCheck: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_VitalAttributes Validating asset
+[2025.07.12-04.38.25:620][455]LogMetaData: Removing '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_SecondaryAttributes.GE_SecondaryAttributes_C' ref from Metadata '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_SecondaryAttributes.PackageMetaData'
+[2025.07.12-04.38.25:620][455]LogMetaData: Removing '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_SecondaryAttributes.SKEL_GE_SecondaryAttributes_C' ref from Metadata '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_SecondaryAttributes.PackageMetaData'
+[2025.07.12-04.38.25:622][455]LogMetaData: Removing '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_VitalAttributes.GE_VitalAttributes_C' ref from Metadata '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_VitalAttributes.PackageMetaData'
+[2025.07.12-04.38.25:622][455]LogMetaData: Removing '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_VitalAttributes.SKEL_GE_VitalAttributes_C' ref from Metadata '/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Aura/GE_VitalAttributes.PackageMetaData'
+[2025.07.12-04.38.25:623][455]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.12-04.38.25:623][455]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_EnemyBase] ([2] browsable assets)...
+[2025.07.12-04.38.25:623][455]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_EnemyBase]
+[2025.07.12-04.38.25:623][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_EnemyBase" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/BP_EnemyBase.uasset" SILENT=true
+[2025.07.12-04.38.25:626][455]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_EnemyBase
+[2025.07.12-04.38.25:627][455]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_EnemyBaseA70AF04C43324928CB45AD8F8F827F8C.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/BP_EnemyBase.uasset'
+[2025.07.12-04.38.25:629][455]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Aura/BP_AuraCharacter] ([2] browsable assets)...
+[2025.07.12-04.38.25:703][455]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter]
+[2025.07.12-04.38.25:703][455]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Aura/BP_AuraCharacter]
+[2025.07.12-04.38.25:703][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Aura/BP_AuraCharacter" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Aura/BP_AuraCharacter.uasset" SILENT=true
+[2025.07.12-04.38.25:709][455]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Aura/BP_AuraCharacter
+[2025.07.12-04.38.25:709][455]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_AuraCharacter9A03CCD845DA3011522B7582DED8AFF0.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Aura/BP_AuraCharacter.uasset'
+[2025.07.12-04.38.25:710][455]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_SecondaryAttributes] ([2] browsable assets)...
+[2025.07.12-04.38.25:710][455]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_SecondaryAttributes]
+[2025.07.12-04.38.25:722][455]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_SecondaryAttributes
+[2025.07.12-04.38.25:722][455]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_SecondaryAttributes8325C77D480100216091AE8AD1032485.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_SecondaryAttributes.uasset'
+[2025.07.12-04.38.25:728][455]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_VitalAttributes] ([2] browsable assets)...
+[2025.07.12-04.38.25:728][455]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_VitalAttributes]
+[2025.07.12-04.38.25:732][455]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_VitalAttributes
+[2025.07.12-04.38.25:732][455]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_VitalAttributes2C501B7D47F8F65645BC5CA3BC0EDACE.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_VitalAttributes.uasset'
+[2025.07.12-04.38.25:738][455]LogFileHelpers: InternalPromptForCheckoutAndSave took 114.993 ms (total: 796.946 ms)
+[2025.07.12-04.38.25:782][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.07.12-04.38.25:793][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.07.12-04.38.25:805][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2025.07.12-04.38.25:898][455]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.07.12-04.38.25:899][455]LogContentValidation: Display: Starting to validate 4 assets
+[2025.07.12-04.38.25:899][455]LogContentValidation: Enabled validators:
+[2025.07.12-04.38.25:899][455]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.12-04.38.25:899][455]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.12-04.38.25:899][455]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.12-04.38.25:899][455]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.12-04.38.25:899][455]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.12-04.38.25:899][455]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.12-04.38.25:899][455]AssetCheck: /Game/Blueprints/Character/BP_EnemyBase Validating asset
+[2025.07.12-04.38.25:899][455]AssetCheck: /Game/Blueprints/Character/Aura/BP_AuraCharacter Validating asset
+[2025.07.12-04.38.25:899][455]AssetCheck: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_SecondaryAttributes Validating asset
+[2025.07.12-04.38.25:899][455]AssetCheck: /Game/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_VitalAttributes Validating asset
+[2025.07.12-04.38.31:018][847]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.07.12-04.39.14:783][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.07.12-04.39.14:788][544]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.07.12-04.39.14:918][544]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Data/DA_CharacterInfo] ([1] browsable assets)...
+[2025.07.12-04.39.14:918][544]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Data/DA_CharacterInfo]
+[2025.07.12-04.39.14:918][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AbilitySystem/Data/DA_CharacterInfo" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Data/DA_CharacterInfo.uasset" SILENT=true
+[2025.07.12-04.39.14:919][544]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Data/DA_CharacterInfo
+[2025.07.12-04.39.14:920][544]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/DA_CharacterInfo3469B4C449FFB334C36E8C9457A34D25.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Data/DA_CharacterInfo.uasset'
+[2025.07.12-04.39.14:928][544]LogFileHelpers: InternalPromptForCheckoutAndSave took 140.521 ms (total: 937.468 ms)
+[2025.07.12-04.39.15:077][544]LogContentValidation: Display: Starting to validate 1 assets
+[2025.07.12-04.39.15:077][544]LogContentValidation: Enabled validators:
+[2025.07.12-04.39.15:077][544]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.07.12-04.39.15:077][544]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.07.12-04.39.15:077][544]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.07.12-04.39.15:077][544]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.07.12-04.39.15:077][544]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.07.12-04.39.15:077][544]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.07.12-04.39.15:077][544]AssetCheck: /Game/Blueprints/AbilitySystem/Data/DA_CharacterInfo Validating asset
