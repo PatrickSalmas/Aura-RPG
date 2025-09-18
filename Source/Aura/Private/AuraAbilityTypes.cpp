@@ -103,13 +103,3 @@ bool FAuraGameplayEffectContext::NetSerialize(FArchive& Ar, class UPackageMap* M
 	bOutSuccess = true;
 	return true;
 }
-
-template<>
-struct TStructOpsTypeTraits<FAuraGameplayEffectContext> : public TStructOpsTypeTraitsBase2<FAuraGameplayEffectContext>
-{
-	enum
-	{
-		WithNetSerialize = true,
-		WithCopy = true
-	};
-};
