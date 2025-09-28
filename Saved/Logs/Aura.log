@@ -2118,3 +2118,436 @@ Script Stack (0 frames) :
 [2025.09.28-07.30.07:546][836]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 347.168762
 [2025.09.28-07.30.08:540][839]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.09.28-07.30.08:540][839]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 347.830017, Update Interval: 318.902557
+[2025.09.28-07.35.21:674][656]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.09.28-07.35.21:678][656]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.28-07.35.21:804][656]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/BT_EnemyBehaviorTree] ([1] browsable assets)...
+[2025.09.28-07.35.21:804][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/BT_EnemyBehaviorTree]
+[2025.09.28-07.35.21:804][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BT_EnemyBehaviorTree" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/BT_EnemyBehaviorTree.uasset" SILENT=true
+[2025.09.28-07.35.21:806][656]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BT_EnemyBehaviorTree
+[2025.09.28-07.35.21:807][656]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BT_EnemyBehaviorTree66FF86E34653D050A5C5BEA5DBC399A3.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/BT_EnemyBehaviorTree.uasset'
+[2025.09.28-07.35.21:813][656]LogFileHelpers: InternalPromptForCheckoutAndSave took 133.865 ms (total: 419.484 ms)
+[2025.09.28-07.35.21:953][656]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.28-07.35.21:953][656]LogContentValidation: Enabled validators:
+[2025.09.28-07.35.21:953][656]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.28-07.35.21:953][656]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.28-07.35.21:953][656]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.28-07.35.21:953][656]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.28-07.35.21:953][656]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.28-07.35.21:953][656]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.28-07.35.21:953][656]AssetCheck: /Game/Blueprints/AI/BT_EnemyBehaviorTree Validating asset
+[2025.09.28-07.35.30:276][651]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 669.896973
+[2025.09.28-07.35.30:401][666]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-07.35.30:401][666]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 670.014160, Update Interval: 358.817108
+[2025.09.28-07.37.09:861][547]LogSlate: Took 0.000910 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.09.28-07.37.34:834][405]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.28-07.37.34:842][405]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.09.28-07.37.34:849][405]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.09.28-07.37.34:854][405]LogAutomationController: Ignoring very large delta of 17.03 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.09.28-07.37.34:861][406]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.09.28-07.37.44:198][512]LogContentBrowser: Attempting asset rename: NewBlueprint -> BTS_FindNearestPlayer
+[2025.09.28-07.37.44:206][512]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Blueprints/AI/BTS_FindNearestPlayer.
+[2025.09.28-07.37.44:209][512]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.09.28-07.37.49:581][146]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/BTS_FindNearestPlayer.BTS_FindNearestPlayer
+[2025.09.28-07.37.49:581][146]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.09.28-07.37.51:250][275]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2025.09.28-07.37.51:255][275]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.28-07.37.51:390][275]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/BTS_FindNearestPlayer] ([2] browsable assets)...
+[2025.09.28-07.37.51:390][275]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/BTS_FindNearestPlayer]
+[2025.09.28-07.37.51:390][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BTS_FindNearestPlayer" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/BTS_FindNearestPlayer.uasset" SILENT=true
+[2025.09.28-07.37.51:395][275]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BTS_FindNearestPlayer
+[2025.09.28-07.37.51:395][275]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BTS_FindNearestPlayerD7CFCAD04CEFBAC9D9CD998C2D9AC86B.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/BTS_FindNearestPlayer.uasset'
+[2025.09.28-07.37.51:397][275]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Blueprints/AI/BTS_FindNearestPlayer.
+[2025.09.28-07.37.51:405][275]LogFileHelpers: InternalPromptForCheckoutAndSave took 150.140 ms (total: 569.625 ms)
+[2025.09.28-07.37.51:538][275]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.28-07.37.51:539][275]LogContentValidation: Enabled validators:
+[2025.09.28-07.37.51:539][275]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.28-07.37.51:539][275]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.28-07.37.51:539][275]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.28-07.37.51:539][275]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.28-07.37.51:539][275]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.28-07.37.51:539][275]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.28-07.37.51:539][275]AssetCheck: /Game/Blueprints/AI/BTS_FindNearestPlayer Validating asset
+[2025.09.28-07.38.27:809][100]LogEditorTransaction: Undo Move Node
+[2025.09.28-07.38.28:307][106]LogEditorTransaction: Undo Move Node
+[2025.09.28-07.38.28:537][125]LogEditorTransaction: Undo Add Node
+[2025.09.28-07.38.31:371][465]LogEditorTransaction: Redo Add Node
+[2025.09.28-07.38.31:734][470]LogEditorTransaction: Redo Move Node
+[2025.09.28-07.38.34:446][763]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.09.28-07.38.34:450][763]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.28-07.38.34:572][763]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/BT_EnemyBehaviorTree] ([1] browsable assets)...
+[2025.09.28-07.38.34:572][763]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/BT_EnemyBehaviorTree]
+[2025.09.28-07.38.34:572][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BT_EnemyBehaviorTree" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/BT_EnemyBehaviorTree.uasset" SILENT=true
+[2025.09.28-07.38.34:573][763]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BT_EnemyBehaviorTree
+[2025.09.28-07.38.34:573][763]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BT_EnemyBehaviorTree3C96A3F24A681033E47BBCA3A6EBAB68.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/BT_EnemyBehaviorTree.uasset'
+[2025.09.28-07.38.34:581][763]LogFileHelpers: InternalPromptForCheckoutAndSave took 131.080 ms (total: 700.706 ms)
+[2025.09.28-07.38.34:723][763]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.28-07.38.34:723][763]LogContentValidation: Enabled validators:
+[2025.09.28-07.38.34:723][763]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.28-07.38.34:723][763]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.28-07.38.34:723][763]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.28-07.38.34:723][763]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.28-07.38.34:723][763]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.28-07.38.34:723][763]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.28-07.38.34:723][763]AssetCheck: /Game/Blueprints/AI/BT_EnemyBehaviorTree Validating asset
+[2025.09.28-07.39.13:621][509]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.09.28-07.39.13:621][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.28-07.39.13:682][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.09.28-07.39.16:719][873]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/BTS_FindNearestPlayer.BTS_FindNearestPlayer
+[2025.09.28-07.39.16:720][873]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.09.28-07.39.19:434][158]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.09.28-07.39.19:434][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.28-07.39.19:464][158]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/BTS_FindNearestPlayer.BTS_FindNearestPlayer
+[2025.09.28-07.39.19:465][158]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.09.28-07.39.19:868][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.09.28-07.39.43:128][270]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.09.28-07.39.43:132][270]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.28-07.39.43:288][270]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/BTS_FindNearestPlayer] ([2] browsable assets)...
+[2025.09.28-07.39.43:288][270]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/BTS_FindNearestPlayer]
+[2025.09.28-07.39.43:288][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BTS_FindNearestPlayer" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/BTS_FindNearestPlayer.uasset" SILENT=true
+[2025.09.28-07.39.43:290][270]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BTS_FindNearestPlayer
+[2025.09.28-07.39.43:290][270]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BTS_FindNearestPlayer837EAA92421290E32D9F09A0EB05BAB9.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/BTS_FindNearestPlayer.uasset'
+[2025.09.28-07.39.43:297][270]LogFileHelpers: InternalPromptForCheckoutAndSave took 165.725 ms (total: 866.431 ms)
+[2025.09.28-07.39.43:421][270]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.28-07.39.43:421][270]LogContentValidation: Enabled validators:
+[2025.09.28-07.39.43:421][270]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.28-07.39.43:421][270]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.28-07.39.43:421][270]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.28-07.39.43:422][270]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.28-07.39.43:422][270]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.28-07.39.43:422][270]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.28-07.39.43:422][270]AssetCheck: /Game/Blueprints/AI/BTS_FindNearestPlayer Validating asset
+[2025.09.28-07.39.47:989][722]LogStreaming: Display: FlushAsyncLoading(491): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.28-07.40.19:705][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.09.28-07.40.19:710][453]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.28-07.40.19:841][453]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/BT_EnemyBehaviorTree] ([1] browsable assets)...
+[2025.09.28-07.40.19:841][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/BT_EnemyBehaviorTree]
+[2025.09.28-07.40.19:841][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BT_EnemyBehaviorTree" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/BT_EnemyBehaviorTree.uasset" SILENT=true
+[2025.09.28-07.40.19:843][453]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BT_EnemyBehaviorTree
+[2025.09.28-07.40.19:844][453]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BT_EnemyBehaviorTree8E88FAE14D5C01423DE10389519F5095.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/BT_EnemyBehaviorTree.uasset'
+[2025.09.28-07.40.19:850][453]LogFileHelpers: InternalPromptForCheckoutAndSave took 139.416 ms (total: 1.00 sec)
+[2025.09.28-07.40.19:988][453]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.28-07.40.19:988][453]LogContentValidation: Enabled validators:
+[2025.09.28-07.40.19:988][453]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.28-07.40.19:988][453]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.28-07.40.19:988][453]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.28-07.40.19:988][453]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.28-07.40.19:988][453]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.28-07.40.19:988][453]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.28-07.40.19:988][453]AssetCheck: /Game/Blueprints/AI/BT_EnemyBehaviorTree Validating asset
+[2025.09.28-07.41.33:545][ 48]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1033.160889
+[2025.09.28-07.41.33:654][ 61]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.28-07.41.33:654][ 62]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1033.260986, Update Interval: 310.050964
+[2025.09.28-07.41.39:406][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.09.28-07.41.39:410][749]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.28-07.41.39:547][749]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/BTS_FindNearestPlayer] ([2] browsable assets)...
+[2025.09.28-07.41.39:547][749]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/BTS_FindNearestPlayer]
+[2025.09.28-07.41.39:547][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BTS_FindNearestPlayer" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/BTS_FindNearestPlayer.uasset" SILENT=true
+[2025.09.28-07.41.39:549][749]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BTS_FindNearestPlayer
+[2025.09.28-07.41.39:549][749]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BTS_FindNearestPlayerCDE88B81430F422EDB2AB280FFECC798.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/BTS_FindNearestPlayer.uasset'
+[2025.09.28-07.41.39:556][749]LogFileHelpers: InternalPromptForCheckoutAndSave took 146.229 ms (total: 1.15 sec)
+[2025.09.28-07.41.39:689][749]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.28-07.41.39:689][749]LogContentValidation: Enabled validators:
+[2025.09.28-07.41.39:689][749]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.28-07.41.39:689][749]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.28-07.41.39:689][749]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.28-07.41.39:689][749]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.28-07.41.39:689][749]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.28-07.41.39:689][749]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.28-07.41.39:690][749]AssetCheck: /Game/Blueprints/AI/BTS_FindNearestPlayer Validating asset
+[2025.09.28-07.41.40:200][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.09.28-07.44.04:298][889]LogSlate: Window 'Aura [DebugGame] - Unreal Editor' being destroyed
+[2025.09.28-07.44.04:299][889]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.09.28-07.44.04:419][889]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.09.28-07.44.04:419][889]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.28-07.44.04:484][889]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.09.28-07.44.04:484][889]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.09.28-07.44.04:484][889]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.28-07.44.04:562][889]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.09.28-07.44.04:563][889]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.28-07.44.04:606][889]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.09.28-07.44.04:730][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.28-07.44.04:805][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.28-07.44.04:879][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.28-07.44.04:951][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.28-07.44.05:322][889]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/BP_EnemyBase.BP_EnemyBase
+[2025.09.28-07.44.05:323][889]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.09.28-07.44.05:471][889]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/BP_AuraAIController.BP_AuraAIController
+[2025.09.28-07.44.05:471][889]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.09.28-07.44.05:590][889]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Blueprints/AI/BT_EnemyBehaviorTree.BT_EnemyBehaviorTree
+[2025.09.28-07.44.05:654][889]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/BTS_FindNearestPlayer.BTS_FindNearestPlayer
+[2025.09.28-07.44.05:654][889]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.09.28-07.44.06:025][889]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_9:PersistentLevel.BP_EnemyBase_C_0)
+[2025.09.28-07.44.06:025][889]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_9:PersistentLevel.BP_EnemyBase_C_0)
+[2025.09.28-07.44.06:025][889]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_9:PersistentLevel.BP_EnemyBase_C_0)
+[2025.09.28-07.44.06:085][889]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2025.09.28-07.45.09:990][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.09.28-07.45.09:994][740]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.28-07.45.10:126][740]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/BTS_FindNearestPlayer] ([2] browsable assets)...
+[2025.09.28-07.45.10:126][740]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/BTS_FindNearestPlayer]
+[2025.09.28-07.45.10:126][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BTS_FindNearestPlayer" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/BTS_FindNearestPlayer.uasset" SILENT=true
+[2025.09.28-07.45.10:129][740]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BTS_FindNearestPlayer
+[2025.09.28-07.45.10:129][740]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BTS_FindNearestPlayerD5CA72794F9FEF374828CF90D409F9F8.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/BTS_FindNearestPlayer.uasset'
+[2025.09.28-07.45.10:137][740]LogFileHelpers: InternalPromptForCheckoutAndSave took 143.098 ms (total: 1.29 sec)
+[2025.09.28-07.45.10:273][740]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.28-07.45.10:273][740]LogContentValidation: Enabled validators:
+[2025.09.28-07.45.10:273][740]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.28-07.45.10:273][740]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.28-07.45.10:273][740]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.28-07.45.10:273][740]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.28-07.45.10:273][740]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.28-07.45.10:273][740]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.28-07.45.10:274][740]AssetCheck: /Game/Blueprints/AI/BTS_FindNearestPlayer Validating asset
+[2025.09.28-07.45.12:298][968]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.09.28-07.45.25:495][116]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.28-07.45.25:513][116]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.28-07.45.25:514][116]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.09.28-07.45.25:533][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019199s)
+[2025.09.28-07.45.25:533][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.019252s)
+[2025.09.28-07.45.25:557][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2025.09.28-07.45.25:558][116]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.09.28-07.45.25:560][116]LogPlayLevel: PIE: World Init took: (0.001825s)
+[2025.09.28-07.45.25:561][116]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.09.28-07.45.25:561][116]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.28-07.45.25:561][116]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.28-07.45.25:561][116]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.28-07.45.25:561][116]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.28-07.45.25:561][116]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.28-07.45.25:561][116]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.28-07.45.25:561][116]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.28-07.45.25:561][116]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.28-07.45.25:561][116]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.28-07.45.25:561][116]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.28-07.45.25:561][116]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.28-07.45.25:564][116]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.28-07.45.25:602][116]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2025.09.28-07.45.25:602][116]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.28-07.45.25:602][116]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.28-07.45.25:603][116]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.28-07.45.25:604][116]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.09.28-07.45.25:604][116]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.09.28-07.45.25:607][116]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.09.28-07.45.25:607][116]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.09.28-07.45.25:607][116]LogInit: FAudioDevice initialized with ID 6.
+[2025.09.28-07.45.25:607][116]LogAudio: Display: Audio Device (ID: 6) registered with world 'StartupMap'.
+[2025.09.28-07.45.25:607][116]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.09.28-07.45.25:610][116]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.09.28-07.45.25:623][116]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2025.09.28-00.45.25
+[2025.09.28-07.45.25:626][116]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2025.09.28-07.45.25:628][116]LogWorld: Bringing up level for play took: 0.018339
+[2025.09.28-07.45.25:632][116]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.09.28-07.45.25:633][116]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2025.09.28-07.45.25:633][116]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2025.09.28-07.45.25:633][116]LogPushModel: PushModel HandleCreation is now enabled
+[2025.09.28-07.45.25:633][116]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.09.28-07.45.25:633][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.09.28-07.45.25:633][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.09.28-07.45.25:634][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.09.28-07.45.25:635][116]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.09.28-07.45.25:635][116]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2025.09.28-07.45.25:635][116]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2025.09.28-07.45.25:635][116]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.09.28-07.45.25:635][116]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_4 IpNetDriver listening on port 17777
+[2025.09.28-07.45.25:636][116]LogGameplayEffects: Warning: Modifier on spec: Default__GE_SecondaryAttributes_TEST_C was asked to CalculateMagnitude and failed, falling back to 0.
+[2025.09.28-07.45.25:636][116]LogTemp: Warning: Changed Health on BP_Goblin_Slingshot_C_1, Health: 37.500000
+[2025.09.28-07.45.25:637][116]LogGameplayEffects: Warning: Modifier on spec: Default__GE_SecondaryAttributes_TEST_C was asked to CalculateMagnitude and failed, falling back to 0.
+[2025.09.28-07.45.25:637][116]LogTemp: Warning: Changed Health on BP_Goblin_Spear_C_1, Health: 37.500000
+[2025.09.28-07.45.25:638][116]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.09.28-07.45.25:638][116]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.09.28-07.45.25:639][116]PIE: Server logged in
+[2025.09.28-07.45.25:640][116]PIE: Play in editor total start time 0.135 seconds.
+[2025.09.28-07.45.25:997][131]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.26:081][136]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.26:519][163]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.26:535][164]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.27:104][199]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.27:134][201]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.27:629][231]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.27:676][234]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.28:091][259]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.28:137][262]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.28:581][287]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.28:684][293]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.29:097][318]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.29:097][318]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.29:537][345]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.29:684][354]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.30:092][379]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.30:107][380]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.30:547][407]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.30:632][412]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.30:924][430]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.30:924][430]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.30:924][430]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.31:009][435]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.31:074][439]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.31:533][467]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.31:634][473]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.31:697][477]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.31:697][477]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.31:697][477]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.31:909][490]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.09.28-07.45.32:043][498]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.32:225][509]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.32:619][533]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.32:697][538]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.09.28-07.45.32:814][545]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.33:159][566]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.33:236][571]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.33:371][579]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.33:371][579]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.33:371][579]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.33:748][602]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.33:826][607]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.34:221][629]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.34:221][629]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.34:221][629]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.34:268][632]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.34:268][632]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.34:362][637]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.09.28-07.45.34:748][661]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.34:833][666]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.35:180][687]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.09.28-07.45.35:260][692]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.35:294][694]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.35:712][720]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.35:712][720]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.36:041][740]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.36:041][740]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.36:041][740]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.36:141][746]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_1
+[2025.09.28-07.45.36:269][754]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.36:764][784]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.37:025][800]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.09.28-07.45.37:298][817]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.37:579][834]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.37:579][834]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.37:579][834]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.37:825][849]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.38:247][875]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.38:577][895]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.09.28-07.45.38:624][898]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.38:624][898]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.38:625][898]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.38:790][908]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.39:214][934]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.39:623][959]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.09.28-07.45.39:678][962]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.39:678][962]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.39:678][962]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.39:741][966]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.40:206][993]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.40:661][ 21]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.09.28-07.45.40:661][ 21]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.40:747][ 26]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.40:747][ 26]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.40:747][ 26]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.41:186][ 53]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.41:725][ 86]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.41:740][ 87]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.09.28-07.45.42:163][113]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.42:358][125]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.42:358][125]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.42:358][125]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.09.28-07.45.42:615][141]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.43:093][170]LogBlueprintUserMessages: [BTS_FindNearestPlayer_C_0] Server: BP_AuraAIController_C_0
+[2025.09.28-07.45.43:352][186]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.09.28-07.45.43:708][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.28-07.45.43:708][206]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.09.28-07.45.43:708][206]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.09.28-07.45.43:711][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.28-07.45.43:712][206]LogNet: World NetDriver shutdown IpNetDriver_4 [GameNetDriver]
+[2025.09.28-07.45.43:712][206]LogNet: DestroyNamedNetDriver IpNetDriver_4 [GameNetDriver]
+[2025.09.28-07.45.43:712][206]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_4 shut down
+[2025.09.28-07.45.43:715][206]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.28-07.45.43:721][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.28-07.45.43:741][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.28-07.45.43:741][206]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.09.28-07.45.43:741][206]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.09.28-07.45.43:743][206]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.09.28-07.45.43:758][206]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2025.09.28-07.45.43:798][207]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2025.09.28-07.45.58:216][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.09.28-07.45.58:221][665]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.28-07.45.58:369][665]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/BTS_FindNearestPlayer] ([2] browsable assets)...
+[2025.09.28-07.45.58:369][665]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/BTS_FindNearestPlayer]
+[2025.09.28-07.45.58:369][665]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BTS_FindNearestPlayer" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/BTS_FindNearestPlayer.uasset" SILENT=true
+[2025.09.28-07.45.58:373][665]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BTS_FindNearestPlayer
+[2025.09.28-07.45.58:373][665]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BTS_FindNearestPlayerA4EFFD3540BCD56164F08B9A78ECE110.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/BTS_FindNearestPlayer.uasset'
+[2025.09.28-07.45.58:381][665]LogFileHelpers: InternalPromptForCheckoutAndSave took 160.392 ms (total: 1.45 sec)
+[2025.09.28-07.45.58:515][665]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.28-07.45.58:515][665]LogContentValidation: Enabled validators:
+[2025.09.28-07.45.58:515][665]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.28-07.45.58:515][665]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.28-07.45.58:515][665]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.28-07.45.58:515][665]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.28-07.45.58:515][665]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.28-07.45.58:516][665]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.28-07.45.58:516][665]AssetCheck: /Game/Blueprints/AI/BTS_FindNearestPlayer Validating asset
