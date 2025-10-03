@@ -4074,3 +4074,144 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.03-21.56.34:293][811]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 87008.546875
 [2025.10.03-21.56.35:294][814]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.10.03-21.56.35:294][814]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 87009.218750, Update Interval: 323.522461
+[2025.10.03-21.59.50:379][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.10.03-21.59.50:384][593]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-21.59.50:515][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-21.59.50:574][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2025.10.03-21.59.50:585][593]LogSavePackage: Moving output files for package: /Game/Maps/EQS_TestingMap
+[2025.10.03-21.59.50:585][593]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMap5C0765464016C9A39B4B24A1FC591926.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap'
+[2025.10.03-21.59.50:607][593]LogFileHelpers: Saving map 'EQS_TestingMap' took 0.093
+[2025.10.03-21.59.50:607][593]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition] ([1] browsable assets)...
+[2025.10.03-21.59.50:608][593]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition]
+[2025.10.03-21.59.50:608][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset" SILENT=true
+[2025.10.03-21.59.50:611][593]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition
+[2025.10.03-21.59.50:612][593]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQ_FindRangedAttackPosition8E8718F342215780979448A2EA58C314.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset'
+[2025.10.03-21.59.50:620][593]LogFileHelpers: InternalPromptForCheckoutAndSave took 236.971 ms (total: 8.14 sec)
+[2025.10.03-21.59.50:728][593]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.03-21.59.50:728][593]LogContentValidation: Enabled validators:
+[2025.10.03-21.59.50:728][593]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-21.59.50:728][593]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-21.59.50:728][593]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-21.59.50:728][593]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-21.59.50:728][593]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-21.59.50:729][593]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-21.59.50:729][593]AssetCheck: /Game/Maps/EQS_TestingMap Validating asset
+[2025.10.03-21.59.50:729][593]AssetCheck: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition Validating asset
+[2025.10.03-22.00.59:128][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.10.03-22.00.59:133][360]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-22.00.59:263][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-22.00.59:321][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.10.03-22.00.59:331][360]LogSavePackage: Moving output files for package: /Game/Maps/EQS_TestingMap
+[2025.10.03-22.00.59:332][360]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMap05207C9D425BE6D26FF30186937F343A.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap'
+[2025.10.03-22.00.59:356][360]LogFileHelpers: Saving map 'EQS_TestingMap' took 0.093
+[2025.10.03-22.00.59:356][360]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition] ([1] browsable assets)...
+[2025.10.03-22.00.59:356][360]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition]
+[2025.10.03-22.00.59:356][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset" SILENT=true
+[2025.10.03-22.00.59:358][360]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition
+[2025.10.03-22.00.59:359][360]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQ_FindRangedAttackPosition6B50A1B1463B7551A3C74887005D72EA.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset'
+[2025.10.03-22.00.59:369][360]LogFileHelpers: InternalPromptForCheckoutAndSave took 235.408 ms (total: 8.37 sec)
+[2025.10.03-22.00.59:496][360]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.03-22.00.59:497][360]LogContentValidation: Enabled validators:
+[2025.10.03-22.00.59:497][360]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-22.00.59:497][360]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-22.00.59:497][360]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-22.00.59:497][360]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-22.00.59:497][360]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-22.00.59:497][360]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-22.00.59:497][360]AssetCheck: /Game/Maps/EQS_TestingMap Validating asset
+[2025.10.03-22.00.59:497][360]AssetCheck: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition Validating asset
+[2025.10.03-22.01.24:112][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.10.03-22.01.24:116][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-22.01.24:247][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-22.01.24:305][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.10.03-22.01.24:315][ 73]LogSavePackage: Moving output files for package: /Game/Maps/EQS_TestingMap
+[2025.10.03-22.01.24:316][ 73]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMapA81718A64DAC2E060E1ECEBD9D106DD6.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap'
+[2025.10.03-22.01.24:338][ 73]LogFileHelpers: Saving map 'EQS_TestingMap' took 0.092
+[2025.10.03-22.01.24:339][ 73]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition] ([1] browsable assets)...
+[2025.10.03-22.01.24:339][ 73]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition]
+[2025.10.03-22.01.24:339][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset" SILENT=true
+[2025.10.03-22.01.24:341][ 73]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition
+[2025.10.03-22.01.24:341][ 73]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQ_FindRangedAttackPositionD881A869485B0B66C647D69CF78BEDA3.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset'
+[2025.10.03-22.01.24:352][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave took 235.847 ms (total: 8.61 sec)
+[2025.10.03-22.01.24:480][ 73]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.03-22.01.24:480][ 73]LogContentValidation: Enabled validators:
+[2025.10.03-22.01.24:480][ 73]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-22.01.24:480][ 73]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-22.01.24:480][ 73]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-22.01.24:480][ 73]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-22.01.24:480][ 73]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-22.01.24:480][ 73]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-22.01.24:480][ 73]AssetCheck: /Game/Maps/EQS_TestingMap Validating asset
+[2025.10.03-22.01.24:480][ 73]AssetCheck: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition Validating asset
+[2025.10.03-22.01.40:722][124]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.10.03-22.01.40:726][124]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-22.01.40:865][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-22.01.40:924][124]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.10.03-22.01.40:936][124]LogSavePackage: Moving output files for package: /Game/Maps/EQS_TestingMap
+[2025.10.03-22.01.40:936][124]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMap5CF9B6154CD55FF9A75B8CA5105D0531.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap'
+[2025.10.03-22.01.40:956][124]LogFileHelpers: Saving map 'EQS_TestingMap' took 0.091
+[2025.10.03-22.01.40:956][124]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition] ([1] browsable assets)...
+[2025.10.03-22.01.40:956][124]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition]
+[2025.10.03-22.01.40:956][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset" SILENT=true
+[2025.10.03-22.01.40:958][124]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition
+[2025.10.03-22.01.40:959][124]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQ_FindRangedAttackPositionBDC619884838476F3DF1FA97E4B36B93.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset'
+[2025.10.03-22.01.40:967][124]LogFileHelpers: InternalPromptForCheckoutAndSave took 241.682 ms (total: 8.85 sec)
+[2025.10.03-22.01.41:095][124]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.03-22.01.41:095][124]LogContentValidation: Enabled validators:
+[2025.10.03-22.01.41:095][124]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-22.01.41:095][124]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-22.01.41:095][124]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-22.01.41:095][124]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-22.01.41:095][124]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-22.01.41:095][124]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-22.01.41:095][124]AssetCheck: /Game/Maps/EQS_TestingMap Validating asset
+[2025.10.03-22.01.41:095][124]AssetCheck: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition Validating asset
+[2025.10.03-22.02.43:090][347]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.10.03-22.02.43:096][347]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-22.02.43:233][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-22.02.43:295][347]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.10.03-22.02.43:306][347]LogSavePackage: Moving output files for package: /Game/Maps/EQS_TestingMap
+[2025.10.03-22.02.43:307][347]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMapAD4D4AFE4673E1BF11AED3878D09DDFE.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap'
+[2025.10.03-22.02.43:331][347]LogFileHelpers: Saving map 'EQS_TestingMap' took 0.099
+[2025.10.03-22.02.43:331][347]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition] ([1] browsable assets)...
+[2025.10.03-22.02.43:331][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition]
+[2025.10.03-22.02.43:331][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset" SILENT=true
+[2025.10.03-22.02.43:333][347]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition
+[2025.10.03-22.02.43:334][347]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQ_FindRangedAttackPositionF65EFD3F414EDC94C1E4D4A5A55110C8.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset'
+[2025.10.03-22.02.43:343][347]LogFileHelpers: InternalPromptForCheckoutAndSave took 247.947 ms (total: 9.10 sec)
+[2025.10.03-22.02.43:466][347]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.03-22.02.43:466][347]LogContentValidation: Enabled validators:
+[2025.10.03-22.02.43:466][347]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-22.02.43:466][347]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-22.02.43:466][347]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-22.02.43:466][347]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-22.02.43:466][347]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-22.02.43:466][347]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-22.02.43:466][347]AssetCheck: /Game/Maps/EQS_TestingMap Validating asset
+[2025.10.03-22.02.43:466][347]AssetCheck: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition Validating asset
+[2025.10.03-22.02.46:706][716]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 87377.679688
+[2025.10.03-22.02.46:849][733]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-22.02.46:849][733]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 87377.804688, Update Interval: 314.918060
+[2025.10.03-22.02.47:862][847]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.10.03-22.02.47:866][847]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-22.02.47:982][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-22.02.48:038][847]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.10.03-22.02.48:048][847]LogSavePackage: Moving output files for package: /Game/Maps/EQS_TestingMap
+[2025.10.03-22.02.48:049][847]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMap935964624A4FB77F9CFEB298C213767B.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap'
+[2025.10.03-22.02.48:068][847]LogFileHelpers: Saving map 'EQS_TestingMap' took 0.086
+[2025.10.03-22.02.48:068][847]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition] ([1] browsable assets)...
+[2025.10.03-22.02.48:068][847]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition]
+[2025.10.03-22.02.48:068][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset" SILENT=true
+[2025.10.03-22.02.48:070][847]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition
+[2025.10.03-22.02.48:071][847]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQ_FindRangedAttackPosition9BA6C74243A33C6924213B8B94A62D9E.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset'
+[2025.10.03-22.02.48:081][847]LogFileHelpers: InternalPromptForCheckoutAndSave took 215.369 ms (total: 9.31 sec)
+[2025.10.03-22.02.48:214][847]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.03-22.02.48:214][847]LogContentValidation: Enabled validators:
+[2025.10.03-22.02.48:214][847]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-22.02.48:214][847]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-22.02.48:214][847]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-22.02.48:214][847]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-22.02.48:214][847]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-22.02.48:214][847]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-22.02.48:214][847]AssetCheck: /Game/Maps/EQS_TestingMap Validating asset
+[2025.10.03-22.02.48:214][847]AssetCheck: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition Validating asset
