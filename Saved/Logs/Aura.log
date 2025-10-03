@@ -3192,3 +3192,885 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.03-07.30.53:129][371]LogEQS: Warning: Error creating query instance for QueryTemplate: EQ_FindRangedAttackPosition - Owner: BP_EQSTestingPawn_C_1
 [2025.10.03-07.30.53:129][371]LogEQS: Warning: Query [EQ_FindRangedAttackPosition] doesn't have any valid options!
 [2025.10.03-07.30.53:129][371]LogEQS: Warning: Error creating query instance for QueryTemplate: EQ_FindRangedAttackPosition - Owner: BP_EQSTestingPawn_C_1
+[2025.10.03-07.32.06:952][561]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 35173.949219
+[2025.10.03-07.32.13:288][580]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-07.32.13:289][580]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 35179.949219, Update Interval: 322.872406
+[2025.10.03-07.37.30:385][531]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: d28...f0f
+[2025.10.03-07.37.30:385][531]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.71 RefreshExpires: 1.554e+07
+[2025.10.03-07.37.31:392][534]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: d28...f0f Access[Expires: 2025.10.03-09.37.30 Remaining: 7200.74] Refresh[Expires: 2026-04-01T05:39:09.378Z Remaining: 15544899.38] State: Valid
+[2025.10.03-07.38.22:728][688]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 35549.703125
+[2025.10.03-07.38.23:726][691]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-07.38.23:726][691]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 35550.367188, Update Interval: 331.306488
+[2025.10.03-07.39.48:227][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.10.03-07.39.48:229][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Saved/Autosaves/Game/Maps/EQS_TestingMap_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2025.10.03-07.39.48:236][944]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/EQS_TestingMap_Auto4
+[2025.10.03-07.39.48:236][944]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMap_Auto4361F2B2F4887CADC60871B85611AD789.tmp' to '../../../../../../Unreal Projects/Aura/Saved/Autosaves/Game/Maps/EQS_TestingMap_Auto4.umap'
+[2025.10.03-07.39.48:238][944]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/EQS_TestingMap' took 0.037
+[2025.10.03-07.39.48:238][944]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.037
+[2025.10.03-07.39.48:239][944]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition] ([1] browsable assets)...
+[2025.10.03-07.39.48:239][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition]
+[2025.10.03-07.39.48:240][944]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition_Auto4
+[2025.10.03-07.39.48:240][944]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQ_FindRangedAttackPosition_Auto11425C9C44EA4FB1D5E646A5B20D3E64.tmp' to '../../../../../../Unreal Projects/Aura/Saved/Autosaves/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition_Auto4.uasset'
+[2025.10.03-07.39.48:241][944]LogFileHelpers: Auto-saving content packages took 0.003
+[2025.10.03-07.44.47:761][843]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 35934.144531
+[2025.10.03-07.44.48:761][846]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-07.44.48:761][846]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 35934.808594, Update Interval: 335.212250
+[2025.10.03-07.47.12:892][279]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.03-07.51.18:853][ 16]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 36325.195312
+[2025.10.03-07.51.19:853][ 19]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-07.51.19:854][ 19]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 36325.863281, Update Interval: 304.795685
+[2025.10.03-07.57.13:233][ 79]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 36679.523438
+[2025.10.03-07.57.14:235][ 82]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-07.57.14:235][ 82]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 36680.199219, Update Interval: 331.958374
+[2025.10.03-08.03.17:627][172]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 37043.894531
+[2025.10.03-08.03.18:635][175]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-08.03.18:635][175]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 37044.566406, Update Interval: 322.154602
+[2025.10.03-08.09.13:358][239]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 37399.582031
+[2025.10.03-08.09.14:356][242]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-08.09.14:356][242]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 37400.253906, Update Interval: 325.278473
+[2025.10.03-08.15.16:428][328]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 37762.644531
+[2025.10.03-08.15.17:422][331]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-08.15.17:422][331]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 37763.312500, Update Interval: 331.984009
+[2025.10.03-08.21.31:816][454]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 38138.046875
+[2025.10.03-08.21.32:812][457]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-08.21.32:812][457]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 38138.714844, Update Interval: 348.114258
+[2025.10.03-08.28.15:201][664]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 38541.410156
+[2025.10.03-08.28.16:201][667]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-08.28.16:201][667]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 38542.082031, Update Interval: 350.516663
+[2025.10.03-08.35.01:613][883]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 38947.808594
+[2025.10.03-08.35.02:620][886]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-08.35.02:620][886]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 38948.480469, Update Interval: 304.288452
+[2025.10.03-08.40.59:000][955]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 39305.136719
+[2025.10.03-08.41.00:000][958]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-08.41.00:000][958]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 39305.808594, Update Interval: 331.579346
+[2025.10.03-08.47.12:894][ 77]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.03-08.47.29:397][126]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 39695.437500
+[2025.10.03-08.47.30:396][129]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-08.47.30:396][129]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 39696.101562, Update Interval: 313.127228
+[2025.10.03-08.53.31:455][212]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 40057.363281
+[2025.10.03-08.53.32:461][215]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-08.53.32:461][215]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 40058.035156, Update Interval: 343.225189
+[2025.10.03-08.59.49:493][346]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 40435.398438
+[2025.10.03-08.59.50:492][349]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-08.59.50:492][349]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 40436.062500, Update Interval: 334.203308
+[2025.10.03-09.06.05:543][474]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 40811.414062
+[2025.10.03-09.06.06:538][477]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-09.06.06:539][477]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 40812.074219, Update Interval: 325.426788
+[2025.10.03-09.12.02:958][546]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 41168.785156
+[2025.10.03-09.12.03:958][549]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-09.12.03:958][550]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 41169.457031, Update Interval: 341.575378
+[2025.10.03-09.18.21:351][681]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 41547.054688
+[2025.10.03-09.18.22:352][684]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-09.18.22:352][684]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 41547.722656, Update Interval: 353.210236
+[2025.10.03-09.24.55:411][863]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 41941.132812
+[2025.10.03-09.24.56:412][866]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-09.24.56:412][866]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 41941.800781, Update Interval: 306.886810
+[2025.10.03-09.31.00:115][957]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 42305.718750
+[2025.10.03-09.31.01:121][960]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-09.31.01:121][960]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 42306.386719, Update Interval: 319.563599
+[2025.10.03-09.35.52:158][833]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: d28...f0f
+[2025.10.03-09.35.52:158][833]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.74 RefreshExpires: 1.554e+07
+[2025.10.03-09.35.53:156][836]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: d28...f0f Access[Expires: 2025.10.03-11.35.52 Remaining: 7200.47] Refresh[Expires: 2026-04-01T05:39:09.378Z Remaining: 15537797.38] State: Valid
+[2025.10.03-09.36.58:507][ 32]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 42664.082031
+[2025.10.03-09.36.59:511][ 35]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-09.36.59:511][ 36]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 42664.746094, Update Interval: 312.836090
+[2025.10.03-09.42.42:887][ 65]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 43008.480469
+[2025.10.03-09.42.43:889][ 68]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-09.42.43:889][ 68]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 43009.144531, Update Interval: 348.984039
+[2025.10.03-09.47.12:893][875]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.03-09.49.13:950][238]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 43399.589844
+[2025.10.03-09.49.14:949][241]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-09.49.14:949][242]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 43400.250000, Update Interval: 322.529968
+[2025.10.03-09.55.23:381][347]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 43768.980469
+[2025.10.03-09.55.24:379][349]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-09.55.24:379][349]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 43769.648438, Update Interval: 318.995941
+[2025.10.03-10.01.18:762][412]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 44124.304688
+[2025.10.03-10.01.19:761][415]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-10.01.19:761][415]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 44124.972656, Update Interval: 302.968231
+[2025.10.03-10.07.18:499][491]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 44483.988281
+[2025.10.03-10.07.19:502][494]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-10.07.19:502][495]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 44484.652344, Update Interval: 345.129547
+[2025.10.03-10.13.51:272][669]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 44876.738281
+[2025.10.03-10.13.52:276][672]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-10.13.52:276][672]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 44877.410156, Update Interval: 340.850250
+[2025.10.03-10.20.28:000][859]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 45273.058594
+[2025.10.03-10.20.29:000][862]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-10.20.29:000][862]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 45273.722656, Update Interval: 316.875519
+[2025.10.03-10.26.17:079][906]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 45622.058594
+[2025.10.03-10.26.18:086][909]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-10.26.18:086][909]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 45622.730469, Update Interval: 304.385498
+[2025.10.03-10.32.21:495][999]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 45986.378906
+[2025.10.03-10.32.22:489][  2]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-10.32.22:489][  2]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 45987.042969, Update Interval: 333.285919
+[2025.10.03-10.38.37:866][128]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 46362.726562
+[2025.10.03-10.38.38:872][131]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-10.38.38:872][131]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 46363.394531, Update Interval: 351.261932
+[2025.10.03-10.45.28:600][360]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 46773.402344
+[2025.10.03-10.45.29:602][363]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-10.45.29:602][363]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 46774.074219, Update Interval: 309.576721
+[2025.10.03-10.47.12:893][673]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.03-10.51.20:323][415]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 47125.132812
+[2025.10.03-10.51.21:322][418]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-10.51.21:322][418]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 47125.796875, Update Interval: 343.108002
+[2025.10.03-10.57.45:697][572]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 47510.425781
+[2025.10.03-10.57.46:688][574]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-10.57.46:688][574]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 47511.085938, Update Interval: 302.453674
+[2025.10.03-11.03.48:751][660]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 47873.406250
+[2025.10.03-11.03.49:745][663]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-11.03.49:745][663]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 47874.070312, Update Interval: 328.385864
+[2025.10.03-11.10.05:800][791]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 48250.464844
+[2025.10.03-11.10.06:800][794]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-11.10.06:800][794]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 48251.132812, Update Interval: 311.019623
+[2025.10.03-11.16.06:185][872]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 48610.726562
+[2025.10.03-11.16.07:181][875]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-11.16.07:181][875]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 48611.390625, Update Interval: 325.536682
+[2025.10.03-11.22.27:242][ 15]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 48991.675781
+[2025.10.03-11.22.28:245][ 18]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-11.22.28:246][ 18]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 48992.347656, Update Interval: 320.133057
+[2025.10.03-11.28.46:308][152]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 49370.687500
+[2025.10.03-11.28.47:304][155]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-11.28.47:304][155]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 49371.347656, Update Interval: 308.282104
+[2025.10.03-11.34.14:014][135]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: d28...f0f
+[2025.10.03-11.34.14:014][135]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.81 RefreshExpires: 1.553e+07
+[2025.10.03-11.34.15:008][138]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: d28...f0f Access[Expires: 2025.10.03-13.34.14 Remaining: 7200.26] Refresh[Expires: 2026-04-01T05:39:09.378Z Remaining: 15530695.38] State: Valid
+[2025.10.03-11.34.28:678][179]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 49713.046875
+[2025.10.03-11.34.29:678][182]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-11.34.29:678][182]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 49713.710938, Update Interval: 316.571564
+[2025.10.03-11.40.17:788][226]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 50062.066406
+[2025.10.03-11.40.18:790][229]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-11.40.18:790][230]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 50062.734375, Update Interval: 311.796021
+[2025.10.03-11.46.03:179][262]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 50407.414062
+[2025.10.03-11.46.04:174][265]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-11.46.04:174][265]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 50408.078125, Update Interval: 339.740601
+[2025.10.03-11.47.12:893][472]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.03-11.52.38:974][449]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 50803.171875
+[2025.10.03-11.52.39:969][452]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-11.52.39:969][452]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 50803.835938, Update Interval: 303.592651
+[2025.10.03-11.58.20:379][474]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 51144.519531
+[2025.10.03-11.58.21:364][476]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-11.58.21:364][476]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 51145.179688, Update Interval: 335.325775
+[2025.10.03-12.04.48:106][636]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 51532.203125
+[2025.10.03-12.04.49:111][639]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-12.04.49:111][639]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 51532.871094, Update Interval: 347.200531
+[2025.10.03-12.11.09:144][779]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 51913.195312
+[2025.10.03-12.11.10:143][782]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-12.11.10:143][782]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 51913.867188, Update Interval: 325.137482
+[2025.10.03-12.17.30:932][924]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 52294.984375
+[2025.10.03-12.17.31:926][927]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-12.17.31:926][927]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 52295.648438, Update Interval: 357.700134
+[2025.10.03-12.24.07:972][115]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 52691.953125
+[2025.10.03-12.24.08:970][118]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-12.24.08:970][118]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 52692.617188, Update Interval: 314.178284
+[2025.10.03-12.30.16:694][221]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 53060.671875
+[2025.10.03-12.30.17:694][224]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-12.30.17:694][224]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 53061.335938, Update Interval: 343.613403
+[2025.10.03-12.36.33:082][350]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 53437.000000
+[2025.10.03-12.36.34:087][353]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-12.36.34:088][353]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 53437.667969, Update Interval: 350.626556
+[2025.10.03-12.43.16:807][561]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 53840.703125
+[2025.10.03-12.43.17:812][564]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-12.43.17:813][564]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 53841.371094, Update Interval: 301.710266
+[2025.10.03-12.47.12:894][270]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.03-12.49.18:867][647]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 54202.781250
+[2025.10.03-12.49.19:868][650]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-12.49.19:869][650]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 54203.441406, Update Interval: 314.046448
+[2025.10.03-12.55.20:586][732]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 54564.476562
+[2025.10.03-12.55.21:585][735]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-12.55.21:585][735]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 54565.144531, Update Interval: 305.985901
+[2025.10.03-13.01.00:978][753]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 54904.785156
+[2025.10.03-13.01.01:982][756]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-13.01.01:982][756]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 54905.449219, Update Interval: 311.243011
+[2025.10.03-13.07.08:710][856]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 55272.468750
+[2025.10.03-13.07.09:711][859]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-13.07.09:711][859]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 55273.140625, Update Interval: 305.202179
+[2025.10.03-13.13.10:128][940]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 55633.792969
+[2025.10.03-13.13.11:122][943]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-13.13.11:122][943]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 55634.453125, Update Interval: 309.074982
+[2025.10.03-13.19.12:189][ 26]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 55995.878906
+[2025.10.03-13.19.13:188][ 29]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-13.19.13:188][ 29]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 55996.550781, Update Interval: 313.345123
+[2025.10.03-13.25.22:253][136]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 56365.964844
+[2025.10.03-13.25.23:257][139]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-13.25.23:257][139]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 56366.632812, Update Interval: 303.658569
+[2025.10.03-13.31.24:968][224]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 56728.617188
+[2025.10.03-13.31.25:973][227]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-13.31.25:974][228]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 56729.285156, Update Interval: 327.404388
+[2025.10.03-13.32.35:308][435]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: d28...f0f
+[2025.10.03-13.32.35:308][435]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.93 RefreshExpires: 1.552e+07
+[2025.10.03-13.32.36:310][438]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: d28...f0f Access[Expires: 2025.10.03-15.32.35 Remaining: 7200.52] Refresh[Expires: 2026-04-01T05:39:09.378Z Remaining: 15523594.38] State: Valid
+[2025.10.03-13.37.34:686][333]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 57098.359375
+[2025.10.03-13.37.35:688][336]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-13.37.35:688][336]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 57099.027344, Update Interval: 354.697113
+[2025.10.03-13.44.07:742][512]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 57491.339844
+[2025.10.03-13.44.08:748][515]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-13.44.08:748][515]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 57492.007812, Update Interval: 316.485474
+[2025.10.03-13.47.12:895][ 68]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.03-13.50.23:796][640]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 57867.359375
+[2025.10.03-13.50.24:791][643]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-13.50.24:791][643]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 57868.027344, Update Interval: 301.331207
+[2025.10.03-13.56.00:170][649]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 58203.589844
+[2025.10.03-13.56.01:173][652]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-13.56.01:173][652]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 58204.257812, Update Interval: 359.126556
+[2025.10.03-14.02.39:885][848]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 58603.261719
+[2025.10.03-14.02.40:885][851]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-14.02.40:885][851]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 58603.933594, Update Interval: 306.775116
+[2025.10.03-14.08.41:260][932]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 58964.566406
+[2025.10.03-14.08.42:261][935]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-14.08.42:261][935]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 58965.238281, Update Interval: 322.572113
+[2025.10.03-14.14.37:331][  0]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 59320.621094
+[2025.10.03-14.14.38:323][  3]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-14.14.38:323][  3]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 59321.281250, Update Interval: 340.835602
+[2025.10.03-14.20.49:726][117]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 59692.941406
+[2025.10.03-14.20.50:730][120]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-14.20.50:730][120]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 59693.605469, Update Interval: 353.038116
+[2025.10.03-14.27.19:447][286]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 60082.601562
+[2025.10.03-14.27.20:447][289]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-14.27.20:447][289]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 60083.265625, Update Interval: 320.911285
+[2025.10.03-14.33.21:167][371]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 60444.285156
+[2025.10.03-14.33.22:166][374]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-14.33.22:166][374]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 60444.957031, Update Interval: 321.039459
+[2025.10.03-14.39.42:270][514]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 60825.390625
+[2025.10.03-14.39.43:269][517]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-14.39.43:269][517]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 60826.062500, Update Interval: 346.684174
+[2025.10.03-14.46.02:995][656]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 61205.980469
+[2025.10.03-14.46.03:989][659]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-14.46.03:989][659]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 61206.648438, Update Interval: 328.493896
+[2025.10.03-14.47.12:896][866]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.03-14.52.19:382][785]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 61582.320312
+[2025.10.03-14.52.20:381][788]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-14.52.20:381][788]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 61582.988281, Update Interval: 358.800629
+[2025.10.03-14.59.00:480][988]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 61983.390625
+[2025.10.03-14.59.01:479][991]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-14.59.01:479][991]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 61984.058594, Update Interval: 351.996216
+[2025.10.03-15.05.26:523][146]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 62369.378906
+[2025.10.03-15.05.27:527][149]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.05.27:527][149]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 62370.042969, Update Interval: 303.473602
+[2025.10.03-15.11.24:579][220]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 62727.351562
+[2025.10.03-15.11.25:579][223]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.11.25:580][223]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 62728.015625, Update Interval: 359.197968
+[2025.10.03-15.18.12:972][445]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 63135.609375
+[2025.10.03-15.18.13:970][448]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.18.13:970][448]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 63136.273438, Update Interval: 354.867401
+[2025.10.03-15.25.06:724][686]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 63549.320312
+[2025.10.03-15.25.07:724][689]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.25.07:724][689]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 63549.984375, Update Interval: 345.140533
+[2025.10.03-15.30.56:460][735]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: d28...f0f
+[2025.10.03-15.30.56:460][735]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.86 RefreshExpires: 1.552e+07
+[2025.10.03-15.30.57:456][738]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: d28...f0f Access[Expires: 2025.10.03-17.30.56 Remaining: 7200.64] Refresh[Expires: 2026-04-01T05:39:09.378Z Remaining: 15516493.38] State: Valid
+[2025.10.03-15.31.52:799][904]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 63955.316406
+[2025.10.03-15.31.53:796][907]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.31.53:796][907]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 63955.984375, Update Interval: 304.471558
+[2025.10.03-15.37.56:840][996]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 64319.339844
+[2025.10.03-15.37.57:843][999]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.37.57:843][999]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 64320.003906, Update Interval: 316.981720
+[2025.10.03-15.43.47:568][ 48]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 64670.027344
+[2025.10.03-15.43.48:564][ 51]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.43.48:564][ 51]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 64670.691406, Update Interval: 302.986542
+[2025.10.03-15.47.12:897][664]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.03-15.49.30:304][ 76]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 65012.773438
+[2025.10.03-15.49.31:303][ 79]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.49.31:303][ 79]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 65013.441406, Update Interval: 329.795837
+[2025.10.03-15.55.37:693][178]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 65380.160156
+[2025.10.03-15.55.38:696][181]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-15.55.38:696][181]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 65380.832031, Update Interval: 314.916229
+[2025.10.03-16.01.41:163][267]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 65743.679688
+[2025.10.03-16.01.42:163][270]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.01.42:163][270]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 65744.343750, Update Interval: 356.592316
+[2025.10.03-16.08.36:887][514]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 66159.453125
+[2025.10.03-16.08.37:888][517]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.08.37:888][517]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 66160.125000, Update Interval: 339.557495
+[2025.10.03-16.15.11:939][699]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 66554.617188
+[2025.10.03-16.15.12:940][702]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.15.12:940][702]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 66555.281250, Update Interval: 326.877045
+[2025.10.03-16.21.30:980][836]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 66933.789062
+[2025.10.03-16.21.31:985][839]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.21.31:985][839]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 66934.453125, Update Interval: 304.987946
+[2025.10.03-16.27.18:707][879]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 67281.554688
+[2025.10.03-16.27.19:700][882]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.27.19:700][882]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 67282.226562, Update Interval: 336.424438
+[2025.10.03-16.33.50:427][ 54]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 67673.312500
+[2025.10.03-16.33.51:422][ 57]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.33.51:422][ 57]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 67673.976562, Update Interval: 320.424194
+[2025.10.03-16.40.02:214][169]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 68045.164062
+[2025.10.03-16.40.03:217][172]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.40.03:217][172]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 68045.828125, Update Interval: 353.349396
+[2025.10.03-16.46.37:286][354]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 68440.335938
+[2025.10.03-16.46.38:290][357]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.46.38:290][357]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 68441.007812, Update Interval: 325.849792
+[2025.10.03-16.47.12:897][461]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.03-16.52.46:368][461]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 68809.515625
+[2025.10.03-16.52.47:373][464]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.52.47:373][464]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 68810.179688, Update Interval: 319.926147
+[2025.10.03-16.58.50:089][552]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 69173.218750
+[2025.10.03-16.58.51:092][555]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-16.58.51:092][555]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 69173.890625, Update Interval: 303.350922
+[2025.10.03-17.04.28:471][567]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 69511.664062
+[2025.10.03-17.04.29:472][570]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-17.04.29:472][570]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 69512.335938, Update Interval: 329.517517
+[2025.10.03-17.10.32:515][659]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 69875.835938
+[2025.10.03-17.10.33:517][662]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-17.10.33:517][662]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 69876.507812, Update Interval: 324.494751
+[2025.10.03-17.16.30:903][734]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 70234.445312
+[2025.10.03-17.16.31:898][737]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-17.16.31:899][737]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 70235.109375, Update Interval: 347.998901
+[2025.10.03-17.23.14:617][945]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 70638.460938
+[2025.10.03-17.23.15:622][948]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-17.23.15:623][948]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 70639.125000, Update Interval: 338.136536
+[2025.10.03-17.29.17:999][ 35]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: d28...f0f
+[2025.10.03-17.29.18:000][ 35]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.3 RefreshExpires: 1.551e+07
+[2025.10.03-17.29.18:999][ 38]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: d28...f0f Access[Expires: 2025.10.03-19.29.18 Remaining: 7200.11] Refresh[Expires: 2026-04-01T05:39:09.378Z Remaining: 15509391.38] State: Valid
+[2025.10.03-17.29.44:344][114]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 71028.296875
+[2025.10.03-17.29.45:340][117]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-17.29.45:340][117]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 71028.960938, Update Interval: 352.990509
+[2025.10.03-17.36.37:734][354]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 71441.726562
+[2025.10.03-17.36.38:729][357]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-17.36.38:729][357]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 71442.390625, Update Interval: 355.843384
+[2025.10.03-17.43.31:130][594]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 71855.164062
+[2025.10.03-17.43.32:128][597]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-17.43.32:128][597]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 71855.828125, Update Interval: 354.321716
+[2025.10.03-17.47.12:897][260]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.03-17.50.17:538][813]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 72261.460938
+[2025.10.03-17.50.18:539][816]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-17.50.18:539][816]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 72262.125000, Update Interval: 342.681366
+[2025.10.03-17.56.40:916][963]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 72644.921875
+[2025.10.03-17.56.41:919][966]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-17.56.41:919][966]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 72645.593750, Update Interval: 317.655579
+[2025.10.03-18.02.32:627][ 18]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 72996.609375
+[2025.10.03-18.02.33:627][ 21]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-18.02.33:627][ 21]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 72997.281250, Update Interval: 340.452881
+[2025.10.03-18.08.47:048][141]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 73371.210938
+[2025.10.03-18.08.48:051][144]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-18.08.48:051][144]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 73371.882812, Update Interval: 352.842194
+[2025.10.03-18.15.20:128][320]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 73764.531250
+[2025.10.03-18.15.21:135][323]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-18.15.21:136][323]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 73765.203125, Update Interval: 303.523071
+[2025.10.03-18.21.08:856][366]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 74113.351562
+[2025.10.03-18.21.09:861][369]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-18.21.09:861][369]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 74114.015625, Update Interval: 341.033356
+[2025.10.03-18.27.41:586][544]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 74506.320312
+[2025.10.03-18.27.42:588][547]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-18.27.42:588][547]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 74506.984375, Update Interval: 348.995026
+[2025.10.03-18.34.12:656][717]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 74897.554688
+[2025.10.03-18.34.13:660][720]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-18.34.13:661][720]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 74898.218750, Update Interval: 316.443359
+[2025.10.03-18.40.30:064][849]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 75275.007812
+[2025.10.03-18.40.31:072][852]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-18.40.31:072][852]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 75275.679688, Update Interval: 307.414154
+[2025.10.03-18.46.17:785][892]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 75622.828125
+[2025.10.03-18.46.18:786][895]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-18.46.18:786][895]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 75623.484375, Update Interval: 337.735535
+[2025.10.03-18.47.12:897][ 58]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.03-18.52.53:171][ 78]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 76018.382812
+[2025.10.03-18.52.54:170][ 81]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-18.52.54:171][ 82]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 76019.046875, Update Interval: 320.325317
+[2025.10.03-18.58.44:932][133]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 76370.257812
+[2025.10.03-18.58.45:930][136]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-18.58.45:931][136]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 76370.921875, Update Interval: 300.939362
+[2025.10.03-19.04.21:975][144]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 76707.320312
+[2025.10.03-19.04.22:974][147]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-19.04.22:974][147]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 76707.992188, Update Interval: 311.514038
+[2025.10.03-19.10.31:353][252]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 77076.812500
+[2025.10.03-19.10.32:356][255]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-19.10.32:356][255]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 77077.484375, Update Interval: 355.771973
+[2025.10.03-19.17.11:449][452]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 77476.960938
+[2025.10.03-19.17.12:450][455]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-19.17.12:451][455]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 77477.625000, Update Interval: 328.865631
+[2025.10.03-19.23.20:494][559]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 77846.140625
+[2025.10.03-19.23.21:496][562]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-19.23.21:496][562]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 77846.804688, Update Interval: 337.219147
+[2025.10.03-19.27.39:208][335]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: d28...f0f
+[2025.10.03-19.27.39:209][335]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.79 RefreshExpires: 1.55e+07
+[2025.10.03-19.27.40:215][338]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: d28...f0f Access[Expires: 2025.10.03-21.27.39 Remaining: 7200.30] Refresh[Expires: 2026-04-01T05:39:09.378Z Remaining: 15502290.38] State: Valid
+[2025.10.03-19.29.29:899][667]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 78215.437500
+[2025.10.03-19.29.30:897][670]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-19.29.30:897][670]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 78216.101562, Update Interval: 314.341248
+[2025.10.03-19.35.16:951][708]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 78562.531250
+[2025.10.03-19.35.17:947][711]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-19.35.17:947][711]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 78563.195312, Update Interval: 333.447083
+[2025.10.03-19.41.28:690][823]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 78934.281250
+[2025.10.03-19.41.29:689][826]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-19.41.29:689][826]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 78934.945312, Update Interval: 341.500305
+[2025.10.03-19.47.12:898][856]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.03-19.47.53:422][977]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 79319.101562
+[2025.10.03-19.47.54:415][980]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-19.47.54:416][980]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 79319.765625, Update Interval: 304.239014
+[2025.10.03-19.53.32:466][994]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 79658.164062
+[2025.10.03-19.53.33:470][997]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-19.53.33:470][997]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 79658.835938, Update Interval: 348.343140
+[2025.10.03-20.00.07:211][178]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 80053.046875
+[2025.10.03-20.00.08:211][181]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-20.00.08:211][181]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 80053.718750, Update Interval: 324.212769
+[2025.10.03-20.06.11:963][272]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 80417.765625
+[2025.10.03-20.06.12:957][275]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-20.06.12:957][275]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 80418.429688, Update Interval: 313.476959
+[2025.10.03-20.12.10:667][348]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 80776.578125
+[2025.10.03-20.12.11:670][351]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-20.12.11:671][351]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 80777.242188, Update Interval: 357.469421
+[2025.10.03-20.18.59:412][574]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 81185.398438
+[2025.10.03-20.19.00:412][577]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-20.19.00:413][577]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 81186.062500, Update Interval: 303.438812
+[2025.10.03-20.24.46:117][614]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 81532.250000
+[2025.10.03-20.24.47:116][617]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-20.24.47:116][617]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 81532.921875, Update Interval: 309.117096
+[2025.10.03-20.30.53:172][715]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 81899.398438
+[2025.10.03-20.30.54:168][718]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-20.30.54:168][718]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 81900.062500, Update Interval: 300.985138
+[2025.10.03-20.36.29:883][725]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 82236.242188
+[2025.10.03-20.36.30:882][728]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-20.36.30:882][728]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 82236.914062, Update Interval: 354.958954
+[2025.10.03-20.43.15:978][943]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 82642.312500
+[2025.10.03-20.43.16:976][946]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-20.43.16:976][946]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 82642.976562, Update Interval: 307.256683
+[2025.10.03-20.47.12:898][654]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.03-20.49.06:690][995]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 82993.039062
+[2025.10.03-20.49.07:688][998]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-20.49.07:688][998]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 82993.703125, Update Interval: 315.961792
+[2025.10.03-20.55.00:409][ 56]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 83346.718750
+[2025.10.03-20.55.01:414][ 59]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-20.55.01:414][ 59]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 83347.390625, Update Interval: 307.194427
+[2025.10.03-21.00.56:785][125]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 83703.171875
+[2025.10.03-21.00.57:786][128]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-21.00.57:786][128]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 83703.843750, Update Interval: 321.960510
+[2025.10.03-21.07.08:830][241]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 84075.289062
+[2025.10.03-21.07.09:826][244]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-21.07.09:826][244]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 84075.953125, Update Interval: 317.556702
+[2025.10.03-21.13.08:227][319]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 84434.992188
+[2025.10.03-21.13.09:227][322]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-21.13.09:227][322]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 84435.656250, Update Interval: 358.844574
+[2025.10.03-21.19.42:291][501]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 84829.687500
+[2025.10.03-21.19.43:291][504]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-21.19.43:291][504]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 84830.359375, Update Interval: 346.944183
+[2025.10.03-21.26.00:341][635]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: Yes UserId: d28...f0f
+[2025.10.03-21.26.00:342][635]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.96 RefreshExpires: 1.55e+07
+[2025.10.03-21.26.01:341][638]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: d28...f0f Access[Expires: 2025.10.03-23.26.00 Remaining: 7200.40] Refresh[Expires: 2026-04-01T05:39:09.378Z Remaining: 15495189.38] State: Valid
+[2025.10.03-21.26.22:675][702]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 85231.554688
+[2025.10.03-21.26.23:676][705]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-21.26.23:676][705]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 85232.226562, Update Interval: 310.373230
+[2025.10.03-21.26.34:672][815]LogUObjectHash: Compacting FUObjectHashTables data took   5.72ms
+[2025.10.03-21.26.34:681][815]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-21.26.34:848][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-21.26.34:930][815]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.10.03-21.26.34:941][815]LogSavePackage: Moving output files for package: /Game/Maps/EQS_TestingMap
+[2025.10.03-21.26.34:941][815]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMapAD6423A54F3EB56513760A962C5B4F0A.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap'
+[2025.10.03-21.26.34:961][815]LogFileHelpers: Saving map 'EQS_TestingMap' took 0.115
+[2025.10.03-21.26.34:962][815]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition] ([1] browsable assets)...
+[2025.10.03-21.26.34:962][815]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition]
+[2025.10.03-21.26.34:962][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset" SILENT=true
+[2025.10.03-21.26.34:964][815]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition
+[2025.10.03-21.26.34:964][815]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQ_FindRangedAttackPositionE30282FC432BC87B0BCE7CB4A6E1A65F.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset'
+[2025.10.03-21.26.34:974][815]LogFileHelpers: InternalPromptForCheckoutAndSave took 292.543 ms (total: 4.77 sec)
+[2025.10.03-21.26.35:124][815]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.03-21.26.35:124][815]LogContentValidation: Enabled validators:
+[2025.10.03-21.26.35:124][815]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-21.26.35:124][815]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-21.26.35:124][815]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-21.26.35:124][815]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-21.26.35:124][815]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-21.26.35:124][815]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-21.26.35:124][815]AssetCheck: /Game/Maps/EQS_TestingMap Validating asset
+[2025.10.03-21.26.35:124][815]AssetCheck: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition Validating asset
+[2025.10.03-21.32.25:903][965]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 85590.945312
+[2025.10.03-21.32.26:903][968]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-21.32.26:903][968]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 85591.609375, Update Interval: 352.430176
+[2025.10.03-21.36.34:784][711]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2025.10.03-21.36.34:787][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Saved/Autosaves/Game/Maps/EQS_TestingMap_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2025.10.03-21.36.34:795][711]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/EQS_TestingMap_Auto5
+[2025.10.03-21.36.34:795][711]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMap_Auto5C7D3D5C74BFCE5E8436000AC9E4C9B6E.tmp' to '../../../../../../Unreal Projects/Aura/Saved/Autosaves/Game/Maps/EQS_TestingMap_Auto5.umap'
+[2025.10.03-21.36.34:797][711]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/EQS_TestingMap' took 0.040
+[2025.10.03-21.36.34:798][711]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.040
+[2025.10.03-21.36.34:798][711]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition] ([1] browsable assets)...
+[2025.10.03-21.36.34:798][711]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition]
+[2025.10.03-21.36.34:800][711]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition_Auto5
+[2025.10.03-21.36.34:800][711]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQ_FindRangedAttackPosition_Auto916DC1A9458708D062BA32A206CDEF89.tmp' to '../../../../../../Unreal Projects/Aura/Saved/Autosaves/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition_Auto5.uasset'
+[2025.10.03-21.36.34:801][711]LogFileHelpers: Auto-saving content packages took 0.003
+[2025.10.03-21.37.48:593][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.10.03-21.37.48:597][853]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-21.37.48:712][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-21.37.48:771][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.10.03-21.37.48:780][853]LogSavePackage: Moving output files for package: /Game/Maps/EQS_TestingMap
+[2025.10.03-21.37.48:780][853]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMap8DE510C347D2563CEF7E5593AB7CCCAA.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap'
+[2025.10.03-21.37.48:800][853]LogFileHelpers: Saving map 'EQS_TestingMap' took 0.088
+[2025.10.03-21.37.48:801][853]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition] ([1] browsable assets)...
+[2025.10.03-21.37.48:801][853]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition]
+[2025.10.03-21.37.48:801][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset" SILENT=true
+[2025.10.03-21.37.48:803][853]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition
+[2025.10.03-21.37.48:805][853]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQ_FindRangedAttackPositionFEB4B269465A892CA6130EAF6A15BD8B.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset'
+[2025.10.03-21.37.48:814][853]LogFileHelpers: InternalPromptForCheckoutAndSave took 216.743 ms (total: 4.99 sec)
+[2025.10.03-21.37.48:957][853]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.03-21.37.48:957][853]LogContentValidation: Enabled validators:
+[2025.10.03-21.37.48:957][853]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-21.37.48:957][853]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-21.37.48:957][853]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-21.37.48:957][853]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-21.37.48:957][853]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-21.37.48:957][853]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-21.37.48:957][853]AssetCheck: /Game/Maps/EQS_TestingMap Validating asset
+[2025.10.03-21.37.48:957][853]AssetCheck: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition Validating asset
+[2025.10.03-21.38.52:902][108]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 85975.984375
+[2025.10.03-21.38.53:902][111]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-21.38.53:902][111]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 85976.656250, Update Interval: 306.758636
+[2025.10.03-21.39.18:331][731]LogContentBrowser: Deferred new asset file creation: NewInterchangeBlueprintPipelineBase
+[2025.10.03-21.39.18:335][731]LogContentBrowser: Creating deferred item: NewInterchangeBlueprintPipelineBase
+[2025.10.03-21.39.18:342][732]LogContentBrowser: Renaming the item being created (Deferred Item: NewInterchangeBlueprintPipelineBase).
+[2025.10.03-21.39.21:051][977]LogContentBrowser: Attempting asset rename: NewInterchangeBlueprintPipelineBase -> NewInterchangeBlueprintPipelineBase
+[2025.10.03-21.39.21:094][977]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Blueprints/AI/EQS/NewInterchangeBlueprintPipelineBase.
+[2025.10.03-21.39.21:102][977]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Blueprints/AI/EQS/NewInterchangeBlueprintPipelineBase.
+[2025.10.03-21.39.21:104][977]LogContentBrowser: End creating deferred item NewInterchangeBlueprintPipelineBase
+[2025.10.03-21.39.23:006][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2025.10.03-21.39.24:213][146]LogSlate: Window 'Delete Assets' being destroyed
+[2025.10.03-21.39.24:257][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.10.03-21.39.24:280][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.10.03-21.39.24:300][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.10.03-21.39.39:356][345]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.10.03-21.39.39:361][345]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.10.03-21.39.39:367][345]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.10.03-21.39.39:375][346]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.10.03-21.42.11:262][ 67]LogContentBrowser: Attempting asset rename: NewBlueprint -> EQS_PlayerContext
+[2025.10.03-21.42.11:266][ 67]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Blueprints/AI/EQS/EQS_PlayerContext.
+[2025.10.03-21.42.11:270][ 67]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Blueprints/AI/EQS/EQS_PlayerContext.
+[2025.10.03-21.42.11:270][ 67]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.10.03-21.42.20:979][225]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/EQS/EQS_PlayerContext.EQS_PlayerContext
+[2025.10.03-21.42.20:982][225]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.10.03-21.43.40:607][382]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2025.10.03-21.43.40:613][382]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-21.43.40:863][382]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/EQS/EQS_PlayerContext] ([2] browsable assets)...
+[2025.10.03-21.43.40:863][382]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/EQS/EQS_PlayerContext]
+[2025.10.03-21.43.40:863][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/EQS/EQS_PlayerContext" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQS_PlayerContext.uasset" SILENT=true
+[2025.10.03-21.43.40:866][382]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/EQS/EQS_PlayerContext
+[2025.10.03-21.43.40:866][382]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_PlayerContextF10D9F6241E35B8741B982AFFED24672.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQS_PlayerContext.uasset'
+[2025.10.03-21.43.40:869][382]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Blueprints/AI/EQS/EQS_PlayerContext.
+[2025.10.03-21.43.40:872][382]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Blueprints/AI/EQS/EQS_PlayerContext.
+[2025.10.03-21.43.40:879][382]LogFileHelpers: InternalPromptForCheckoutAndSave took 265.148 ms (total: 5.25 sec)
+[2025.10.03-21.43.41:010][382]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-21.43.41:010][382]LogContentValidation: Enabled validators:
+[2025.10.03-21.43.41:010][382]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-21.43.41:010][382]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-21.43.41:010][382]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-21.43.41:010][382]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-21.43.41:010][382]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-21.43.41:010][382]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-21.43.41:011][382]AssetCheck: /Game/Blueprints/AI/EQS/EQS_PlayerContext Validating asset
+[2025.10.03-21.43.41:511][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2025.10.03-21.43.50:484][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.10.03-21.43.50:489][438]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-21.43.50:626][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-21.43.50:683][438]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.10.03-21.43.50:694][438]LogSavePackage: Moving output files for package: /Game/Maps/EQS_TestingMap
+[2025.10.03-21.43.50:694][438]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMapE8EE9CDD4DB98405DBFA68886175FFBD.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap'
+[2025.10.03-21.43.50:720][438]LogFileHelpers: Saving map 'EQS_TestingMap' took 0.094
+[2025.10.03-21.43.50:720][438]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition] ([1] browsable assets)...
+[2025.10.03-21.43.50:720][438]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition]
+[2025.10.03-21.43.50:720][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset" SILENT=true
+[2025.10.03-21.43.50:723][438]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition
+[2025.10.03-21.43.50:723][438]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQ_FindRangedAttackPosition22FFA002481215EC343B46B0CCE14656.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset'
+[2025.10.03-21.43.50:730][438]LogFileHelpers: InternalPromptForCheckoutAndSave took 240.739 ms (total: 5.49 sec)
+[2025.10.03-21.43.50:858][438]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.03-21.43.50:858][438]LogContentValidation: Enabled validators:
+[2025.10.03-21.43.50:858][438]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-21.43.50:858][438]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-21.43.50:858][438]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-21.43.50:858][438]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-21.43.50:858][438]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-21.43.50:859][438]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-21.43.50:859][438]AssetCheck: /Game/Maps/EQS_TestingMap Validating asset
+[2025.10.03-21.43.50:859][438]AssetCheck: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition Validating asset
+[2025.10.03-21.44.17:198][117]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.10.03-21.44.17:544][122]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2025.10.03-21.44.19:326][215]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter_C
+[2025.10.03-21.44.19:326][215]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter_C
+[2025.10.03-21.44.19:342][215]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter as actor: BP_AuraCharacter_C /Game/Maps/EQS_TestingMap.EQS_TestingMap:PersistentLevel.BP_AuraCharacter_C_0
+[2025.10.03-21.44.19:345][215]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter as actor: BP_AuraCharacter_C /Game/Maps/EQS_TestingMap.EQS_TestingMap:PersistentLevel.BP_AuraCharacter_C_0
+[2025.10.03-21.44.20:784][263]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.10.03-21.44.20:786][263]LogEditorActor: Deleted 0 Actors (0.029 secs)
+[2025.10.03-21.44.20:812][263]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter_C
+[2025.10.03-21.44.20:812][263]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter_C
+[2025.10.03-21.44.20:819][263]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter as actor: BP_AuraCharacter_C /Game/Maps/EQS_TestingMap.EQS_TestingMap:PersistentLevel.BP_AuraCharacter_C_1
+[2025.10.03-21.44.20:822][263]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter as actor: BP_AuraCharacter_C /Game/Maps/EQS_TestingMap.EQS_TestingMap:PersistentLevel.BP_AuraCharacter_C_1
+[2025.10.03-21.44.31:586][602]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 86307.531250
+[2025.10.03-21.44.31:772][607]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-21.44.31:772][607]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 86307.687500, Update Interval: 320.654938
+[2025.10.03-21.45.14:970][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.10.03-21.45.14:978][257]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-21.45.15:113][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-21.45.15:172][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.10.03-21.45.15:190][257]LogSavePackage: Moving output files for package: /Game/Maps/EQS_TestingMap
+[2025.10.03-21.45.15:191][257]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMap58E521B94120580B94796099D807696B.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap'
+[2025.10.03-21.45.15:212][257]LogFileHelpers: Saving map 'EQS_TestingMap' took 0.099
+[2025.10.03-21.45.15:218][257]LogFileHelpers: InternalPromptForCheckoutAndSave took 240.783 ms (total: 5.73 sec)
+[2025.10.03-21.45.15:345][257]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-21.45.15:345][257]LogContentValidation: Enabled validators:
+[2025.10.03-21.45.15:345][257]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-21.45.15:345][257]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-21.45.15:345][257]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-21.45.15:345][257]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-21.45.15:345][257]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-21.45.15:345][257]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-21.45.15:345][257]AssetCheck: /Game/Maps/EQS_TestingMap Validating asset
+[2025.10.03-21.45.36:583][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.10.03-21.45.36:588][117]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-21.45.36:729][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-21.45.36:790][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.10.03-21.45.36:801][117]LogSavePackage: Moving output files for package: /Game/Maps/EQS_TestingMap
+[2025.10.03-21.45.36:802][117]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMapE1887C14414716BF050072A143C0513C.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap'
+[2025.10.03-21.45.36:822][117]LogFileHelpers: Saving map 'EQS_TestingMap' took 0.093
+[2025.10.03-21.45.36:822][117]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition] ([1] browsable assets)...
+[2025.10.03-21.45.36:822][117]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition]
+[2025.10.03-21.45.36:822][117]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset" SILENT=true
+[2025.10.03-21.45.36:824][117]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition
+[2025.10.03-21.45.36:825][117]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQ_FindRangedAttackPosition1A90D0084991877D11BB488BE7D1E3D4.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset'
+[2025.10.03-21.45.36:833][117]LogFileHelpers: InternalPromptForCheckoutAndSave took 244.271 ms (total: 5.98 sec)
+[2025.10.03-21.45.36:960][117]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.03-21.45.36:961][117]LogContentValidation: Enabled validators:
+[2025.10.03-21.45.36:961][117]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-21.45.36:961][117]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-21.45.36:961][117]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-21.45.36:961][117]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-21.45.36:961][117]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-21.45.36:961][117]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-21.45.36:961][117]AssetCheck: /Game/Maps/EQS_TestingMap Validating asset
+[2025.10.03-21.45.36:961][117]AssetCheck: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition Validating asset
+[2025.10.03-21.45.42:334][616]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.10.03-21.45.42:338][616]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-21.45.42:476][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-21.45.42:532][616]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.10.03-21.45.42:542][616]LogSavePackage: Moving output files for package: /Game/Maps/EQS_TestingMap
+[2025.10.03-21.45.42:542][616]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMap7A023B3347E242F53016FE8FBE987B07.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap'
+[2025.10.03-21.45.42:564][616]LogFileHelpers: Saving map 'EQS_TestingMap' took 0.088
+[2025.10.03-21.45.42:564][616]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition] ([1] browsable assets)...
+[2025.10.03-21.45.42:564][616]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition]
+[2025.10.03-21.45.42:564][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset" SILENT=true
+[2025.10.03-21.45.42:565][616]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition
+[2025.10.03-21.45.42:566][616]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQ_FindRangedAttackPosition3D1B3DB7455761B32625FFB32AF4AC01.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset'
+[2025.10.03-21.45.42:575][616]LogFileHelpers: InternalPromptForCheckoutAndSave took 236.638 ms (total: 6.21 sec)
+[2025.10.03-21.45.42:708][616]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.03-21.45.42:708][616]LogContentValidation: Enabled validators:
+[2025.10.03-21.45.42:708][616]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-21.45.42:708][616]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-21.45.42:708][616]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-21.45.42:708][616]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-21.45.42:709][616]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-21.45.42:709][616]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-21.45.42:709][616]AssetCheck: /Game/Maps/EQS_TestingMap Validating asset
+[2025.10.03-21.45.42:709][616]AssetCheck: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition Validating asset
+[2025.10.03-21.45.52:001][607]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.10.03-21.45.52:006][607]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-21.45.52:143][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-21.45.52:199][607]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.10.03-21.45.52:211][607]LogSavePackage: Moving output files for package: /Game/Maps/EQS_TestingMap
+[2025.10.03-21.45.52:212][607]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMap0D6C8A384D9945E6B98DCC8C67DC089A.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap'
+[2025.10.03-21.45.52:241][607]LogFileHelpers: Saving map 'EQS_TestingMap' took 0.098
+[2025.10.03-21.45.52:241][607]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition] ([1] browsable assets)...
+[2025.10.03-21.45.52:241][607]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition]
+[2025.10.03-21.45.52:241][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset" SILENT=true
+[2025.10.03-21.45.52:243][607]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition
+[2025.10.03-21.45.52:243][607]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQ_FindRangedAttackPositionC4E9AFA2433335301FA8459DFCF448CD.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset'
+[2025.10.03-21.45.52:250][607]LogFileHelpers: InternalPromptForCheckoutAndSave took 244.221 ms (total: 6.46 sec)
+[2025.10.03-21.45.52:377][607]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.03-21.45.52:377][607]LogContentValidation: Enabled validators:
+[2025.10.03-21.45.52:377][607]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-21.45.52:377][607]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-21.45.52:378][607]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-21.45.52:378][607]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-21.45.52:378][607]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-21.45.52:378][607]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-21.45.52:378][607]AssetCheck: /Game/Maps/EQS_TestingMap Validating asset
+[2025.10.03-21.45.52:378][607]AssetCheck: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition Validating asset
+[2025.10.03-21.46.10:816][876]LogStreaming: Display: FlushAsyncLoading(503): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.03-21.46.10:853][876]LogStaticMesh: Display: Building static mesh SM_Tile_3x3x3 (Required Memory Estimate: 0.026229 MB)...
+[2025.10.03-21.46.10:872][876]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Dungeon/SM_Tile_3x3x3.SM_Tile_3x3x3
+[2025.10.03-21.46.11:437][898]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Dungeon/SM_Tile_3x3x3.SM_Tile_3x3x3
+[2025.10.03-21.46.11:438][898]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Dungeon/SM_Tile_3x3x3.SM_Tile_3x3x3
+[2025.10.03-21.46.11:438][898]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Dungeon/SM_Tile_3x3x3.SM_Tile_3x3x3 as actor: StaticMeshActor /Game/Maps/EQS_TestingMap.EQS_TestingMap:PersistentLevel.StaticMeshActor_1
+[2025.10.03-21.46.14:157][  8]LogMeshUtilities: Finished distance field build in 3.2s - 119x119x119 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 48% occupied, 3 triangles, SM_Tile_3x3x3
+[2025.10.03-21.46.19:248][326]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.10.03-21.46.19:249][326]LogEditorActor: Deleted 0 Actors (0.021 secs)
+[2025.10.03-21.46.19:267][326]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Dungeon/SM_Tile_3x3x3.SM_Tile_3x3x3
+[2025.10.03-21.46.19:267][326]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Assets/Dungeon/SM_Tile_3x3x3.SM_Tile_3x3x3
+[2025.10.03-21.46.19:268][326]LogActorFactory: Actor Factory spawned StaticMesh /Game/Assets/Dungeon/SM_Tile_3x3x3.SM_Tile_3x3x3 as actor: StaticMeshActor /Game/Maps/EQS_TestingMap.EQS_TestingMap:PersistentLevel.StaticMeshActor_2
+[2025.10.03-21.46.57:585][234]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.10.03-21.46.57:591][234]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-21.46.57:729][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-21.46.57:784][234]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.10.03-21.46.57:794][234]LogSavePackage: Moving output files for package: /Game/Maps/EQS_TestingMap
+[2025.10.03-21.46.57:795][234]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMapEB4FA4A8403DD0B4ADB1DDBC774A0A91.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap'
+[2025.10.03-21.46.57:820][234]LogFileHelpers: Saving map 'EQS_TestingMap' took 0.091
+[2025.10.03-21.46.57:820][234]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition] ([1] browsable assets)...
+[2025.10.03-21.46.57:820][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition]
+[2025.10.03-21.46.57:820][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset" SILENT=true
+[2025.10.03-21.46.57:822][234]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition
+[2025.10.03-21.46.57:822][234]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQ_FindRangedAttackPosition465BF7B844EC0306E23CDCB824E5461D.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset'
+[2025.10.03-21.46.57:830][234]LogFileHelpers: InternalPromptForCheckoutAndSave took 239.383 ms (total: 6.70 sec)
+[2025.10.03-21.46.57:957][234]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.03-21.46.57:957][234]LogContentValidation: Enabled validators:
+[2025.10.03-21.46.57:957][234]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-21.46.57:957][234]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-21.46.57:957][234]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-21.46.57:957][234]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-21.46.57:957][234]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-21.46.57:957][234]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-21.46.57:958][234]AssetCheck: /Game/Maps/EQS_TestingMap Validating asset
+[2025.10.03-21.46.57:958][234]AssetCheck: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition Validating asset
+[2025.10.03-21.47.12:899][823]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.03-21.47.27:180][766]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.10.03-21.47.27:184][766]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-21.47.27:315][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-21.47.27:372][766]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.10.03-21.47.27:382][766]LogSavePackage: Moving output files for package: /Game/Maps/EQS_TestingMap
+[2025.10.03-21.47.27:382][766]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMap5CC8744C4D3F85C5ABD1B68FFD800F6E.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap'
+[2025.10.03-21.47.27:405][766]LogFileHelpers: Saving map 'EQS_TestingMap' took 0.091
+[2025.10.03-21.47.27:405][766]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition] ([1] browsable assets)...
+[2025.10.03-21.47.27:405][766]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition]
+[2025.10.03-21.47.27:405][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset" SILENT=true
+[2025.10.03-21.47.27:408][766]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition
+[2025.10.03-21.47.27:409][766]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQ_FindRangedAttackPositionA2EBC17943ABBAB9CCE235808DC22DBD.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AI/EQS/EQ_FindRangedAttackPosition.uasset'
+[2025.10.03-21.47.27:419][766]LogFileHelpers: InternalPromptForCheckoutAndSave took 235.596 ms (total: 6.93 sec)
+[2025.10.03-21.47.27:560][766]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.03-21.47.27:560][766]LogContentValidation: Enabled validators:
+[2025.10.03-21.47.27:560][766]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-21.47.27:560][766]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-21.47.27:560][766]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-21.47.27:560][766]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-21.47.27:560][766]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-21.47.27:560][766]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-21.47.27:560][766]AssetCheck: /Game/Maps/EQS_TestingMap Validating asset
+[2025.10.03-21.47.27:561][766]AssetCheck: /Game/Blueprints/AI/EQS/EQ_FindRangedAttackPosition Validating asset
+[2025.10.03-21.48.10:204][839]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Dungeon/SM_Tile_3x3x3.SM_Tile_3x3x3
+[2025.10.03-21.48.10:234][839]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2025.10.03-21.48.55:557][154]LogEditorTransaction: Undo Create Box Collision
+[2025.10.03-21.48.58:399][359]LogEditorTransaction: Undo Create Box Collision
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: ================================================
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: Total job queries 363, among them cache hits 121 (33.33%), DDC hits 221 (60.88%), Duplicates 7 (1.93%)
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: Tracking 235 distinct input hashes that result in 190 distinct outputs (80.85%)
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: RAM used: 135.43 KiB of 819.20 MiB budget. Usage: 0.02%
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: Shaders Compiled: 14
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: Jobs assigned 14, completed 14 (100%)
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: Average time worker was idle: 33992.20 s
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: Time job spent in pending queue: average 0.91 s, longest 4.02 s
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: Job execution time: average 3.51 s, max 5.15 s
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: Job life time (pending + execution): average 4.42 s, max 5.19
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: Shader code size: average 6.458 KiB, min 2.297 KiB, max 11.586 KiB
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 13.62 s
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: Jobs were issued in 14 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: Average processing rate: 1.03 jobs/sec
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: Total thread time: 12.077 s
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: Total thread preprocess time: 7.166 s
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: Percentage time preprocessing: 59.33%
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: Effective parallelization: 0.89 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 1.11 sec, max 1.29 sec, min 0.89 sec)
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.80 sec, max 0.86 sec, min 0.68 sec)
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 0.80 sec, max 0.80 sec, min 0.80 sec)
+[2025.10.03-21.49.00:038][485]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.79 sec, max 0.79 sec, min 0.79 sec)
+[2025.10.03-21.49.00:039][485]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.73 sec, max 0.73 sec, min 0.73 sec)
+[2025.10.03-21.49.00:039][485]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.03-21.49.00:039][485]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 36.87% of total time (compiled    4 times, average 1.11 sec, max 1.29 sec, min 0.89 sec)
+[2025.10.03-21.49.00:039][485]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 19.80% of total time (compiled    3 times, average 0.80 sec, max 0.86 sec, min 0.68 sec)
+[2025.10.03-21.49.00:039][485]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.20% of total time (compiled    2 times, average 0.68 sec, max 0.80 sec, min 0.55 sec)
+[2025.10.03-21.49.00:039][485]LogShaderCompilers: Display:                                                 FLumenCardPS - 9.97% of total time (compiled    2 times, average 0.60 sec, max 0.64 sec, min 0.57 sec)
+[2025.10.03-21.49.00:039][485]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 6.60% of total time (compiled    1 times, average 0.80 sec, max 0.80 sec, min 0.80 sec)
+[2025.10.03-21.49.00:039][485]LogShaderCompilers: Display: === Material stats ===
+[2025.10.03-21.49.00:039][485]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.03-21.49.00:039][485]LogShaderCompilers: Display: Materials Translated:    162
+[2025.10.03-21.49.00:039][485]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.10.03-21.49.00:039][485]LogShaderCompilers: Display: Material Translation Only: 0.06 s (55%)
+[2025.10.03-21.49.00:039][485]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.10.03-21.49.00:039][485]LogShaderCompilers: Display: Material Cache Hits: 46 (28%)
+[2025.10.03-21.49.00:039][485]LogShaderCompilers: Display: ================================================
+[2025.10.03-21.49.38:505][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.10.03-21.49.38:511][470]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-21.49.38:654][470]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Dungeon/SM_Tile_3x3x3] ([1] browsable assets)...
+[2025.10.03-21.49.38:654][470]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Dungeon/SM_Tile_3x3x3]
+[2025.10.03-21.49.38:654][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Dungeon/SM_Tile_3x3x3" FILE="../../../../../../Unreal Projects/Aura/Content/Assets/Dungeon/SM_Tile_3x3x3.uasset" SILENT=true
+[2025.10.03-21.49.38:662][470]LogSavePackage: Moving output files for package: /Game/Assets/Dungeon/SM_Tile_3x3x3
+[2025.10.03-21.49.38:663][470]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/SM_Tile_3x3x38C76057F461D6C463318ABB3191C12F4.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Dungeon/SM_Tile_3x3x3.uasset'
+[2025.10.03-21.49.38:670][470]LogFileHelpers: InternalPromptForCheckoutAndSave took 159.081 ms (total: 7.09 sec)
+[2025.10.03-21.49.38:811][470]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-21.49.38:811][470]LogContentValidation: Enabled validators:
+[2025.10.03-21.49.38:811][470]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-21.49.38:811][470]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-21.49.38:811][470]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-21.49.38:811][470]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-21.49.38:811][470]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-21.49.38:811][470]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-21.49.38:811][470]AssetCheck: /Game/Assets/Dungeon/SM_Tile_3x3x3 Validating asset
+[2025.10.03-21.49.52:005][602]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2025.10.03-21.49.52:005][602]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2025.10.03-21.49.52:010][602]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/Maps/EQS_TestingMap.EQS_TestingMap:PersistentLevel.NavMeshBoundsVolume_0
+[2025.10.03-21.49.52:027][602]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/Maps/EQS_TestingMap.EQS_TestingMap:PersistentLevel.NavMeshBoundsVolume_0
+[2025.10.03-21.50.25:119][236]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 86649.843750
+[2025.10.03-21.50.25:264][245]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-21.50.25:264][245]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 86649.968750, Update Interval: 331.824707
+[2025.10.03-21.50.46:768][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.10.03-21.50.46:773][324]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-21.50.46:910][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-21.50.46:971][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.10.03-21.50.46:984][324]LogSavePackage: Moving output files for package: /Game/Maps/EQS_TestingMap
+[2025.10.03-21.50.46:984][324]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMap0380AAC7405DFEEA4F560AA2827E07D8.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap'
+[2025.10.03-21.50.47:006][324]LogFileHelpers: Saving map 'EQS_TestingMap' took 0.097
+[2025.10.03-21.50.47:013][324]LogFileHelpers: InternalPromptForCheckoutAndSave took 240.606 ms (total: 7.33 sec)
+[2025.10.03-21.50.47:146][324]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-21.50.47:146][324]LogContentValidation: Enabled validators:
+[2025.10.03-21.50.47:146][324]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-21.50.47:146][324]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-21.50.47:146][324]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-21.50.47:146][324]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-21.50.47:146][324]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-21.50.47:146][324]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-21.50.47:147][324]AssetCheck: /Game/Maps/EQS_TestingMap Validating asset
+[2025.10.03-21.52.10:689][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.10.03-21.52.10:695][146]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-21.52.10:811][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-21.52.10:868][146]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.10.03-21.52.10:878][146]LogSavePackage: Moving output files for package: /Game/Maps/EQS_TestingMap
+[2025.10.03-21.52.10:878][146]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMap4CEC67E040A282B75AC9B6B882FADB13.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap'
+[2025.10.03-21.52.10:898][146]LogFileHelpers: Saving map 'EQS_TestingMap' took 0.087
+[2025.10.03-21.52.10:907][146]LogFileHelpers: InternalPromptForCheckoutAndSave took 212.057 ms (total: 7.54 sec)
+[2025.10.03-21.52.11:044][146]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-21.52.11:044][146]LogContentValidation: Enabled validators:
+[2025.10.03-21.52.11:044][146]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-21.52.11:044][146]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-21.52.11:044][146]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-21.52.11:044][146]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-21.52.11:044][146]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-21.52.11:044][146]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-21.52.11:044][146]AssetCheck: /Game/Maps/EQS_TestingMap Validating asset
+[2025.10.03-21.52.35:925][659]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.10.03-21.52.35:930][659]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-21.52.36:071][659]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Dungeon/SM_Tile_3x3x3] ([1] browsable assets)...
+[2025.10.03-21.52.36:071][659]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Dungeon/SM_Tile_3x3x3]
+[2025.10.03-21.52.36:071][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Dungeon/SM_Tile_3x3x3" FILE="../../../../../../Unreal Projects/Aura/Content/Assets/Dungeon/SM_Tile_3x3x3.uasset" SILENT=true
+[2025.10.03-21.52.36:074][659]LogSavePackage: Moving output files for package: /Game/Assets/Dungeon/SM_Tile_3x3x3
+[2025.10.03-21.52.36:075][659]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/SM_Tile_3x3x3DACED77B474269DE6C5F899E3B406FCA.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Dungeon/SM_Tile_3x3x3.uasset'
+[2025.10.03-21.52.36:081][659]LogFileHelpers: InternalPromptForCheckoutAndSave took 151.229 ms (total: 7.70 sec)
+[2025.10.03-21.52.36:216][659]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-21.52.36:216][659]LogContentValidation: Enabled validators:
+[2025.10.03-21.52.36:216][659]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-21.52.36:216][659]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-21.52.36:216][659]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-21.52.36:216][659]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-21.52.36:216][659]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-21.52.36:216][659]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-21.52.36:216][659]AssetCheck: /Game/Assets/Dungeon/SM_Tile_3x3x3 Validating asset
+[2025.10.03-21.54.29:496][967]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.10.03-21.54.29:502][967]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.03-21.54.29:612][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/EQS_TestingMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.03-21.54.29:669][967]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.10.03-21.54.29:680][967]LogSavePackage: Moving output files for package: /Game/Maps/EQS_TestingMap
+[2025.10.03-21.54.29:680][967]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/EQS_TestingMap7773A59D4AC8590894014B899400E2E8.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/EQS_TestingMap.umap'
+[2025.10.03-21.54.29:699][967]LogFileHelpers: Saving map 'EQS_TestingMap' took 0.086
+[2025.10.03-21.54.29:705][967]LogFileHelpers: InternalPromptForCheckoutAndSave took 202.823 ms (total: 7.90 sec)
+[2025.10.03-21.54.29:844][967]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.03-21.54.29:844][967]LogContentValidation: Enabled validators:
+[2025.10.03-21.54.29:844][967]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.03-21.54.29:844][967]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.03-21.54.29:844][967]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.03-21.54.29:845][967]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.03-21.54.29:845][967]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.03-21.54.29:845][967]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.03-21.54.29:845][967]AssetCheck: /Game/Maps/EQS_TestingMap Validating asset
+[2025.10.03-21.56.34:293][811]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 87008.546875
+[2025.10.03-21.56.35:294][814]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.03-21.56.35:294][814]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 87009.218750, Update Interval: 323.522461
