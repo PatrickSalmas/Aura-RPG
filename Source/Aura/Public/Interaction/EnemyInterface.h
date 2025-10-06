@@ -1,4 +1,4 @@
-// Copyright Salmas Coporation
+// Copyright Salmas Corporation
 
 #pragma once
 
@@ -24,4 +24,10 @@ class AURA_API IEnemyInterface
 public:
 	virtual void HightlightActor() = 0;
 	virtual void UnHightlightActor() = 0;
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	void SetCombatTarget(AActor* ICombatTarget);
+
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	AActor* GetCombatTarget() const;
 };
