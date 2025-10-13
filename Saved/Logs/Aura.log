@@ -2244,3 +2244,97 @@ Sampler Limit: 32
 [2025.10.13-04.52.56:592][293]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.10.13-04.52.56:592][293]AssetCheck: /Game/Blueprints/AbilitySystem/Enemy/Abilities/GA_RangedAttack Validating asset
 [2025.10.13-04.53.34:386][576]LogEditorTransaction: Undo Add Child
+[2025.10.13-04.55.53:167][725]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.10.13-04.55.53:174][725]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.10.13-04.55.53:184][725]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.10.13-04.55.53:200][726]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.10.13-04.56.01:668][634]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 721.927368
+[2025.10.13-04.56.01:799][648]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.13-04.56.01:799][648]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 722.048523, Update Interval: 303.513916
+[2025.10.13-04.56.04:582][935]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_SlingshotRock
+[2025.10.13-04.56.04:590][935]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.10.13-04.56.06:048][ 87]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AbilitySystem/Enemy/Abilities/BP_SlingshotRock.BP_SlingshotRock
+[2025.10.13-04.56.06:048][ 87]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.10.13-04.56.08:935][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.10.13-04.56.08:939][269]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.13-04.56.09:073][269]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Enemy/Abilities/BP_SlingshotRock] ([2] browsable assets)...
+[2025.10.13-04.56.09:074][269]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Enemy/Abilities/BP_SlingshotRock]
+[2025.10.13-04.56.09:077][269]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Enemy/Abilities/BP_SlingshotRock
+[2025.10.13-04.56.09:077][269]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_SlingshotRockE2B865ED49126CB268401AAC067E2A86.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Enemy/Abilities/BP_SlingshotRock.uasset'
+[2025.10.13-04.56.09:086][269]LogFileHelpers: InternalPromptForCheckoutAndSave took 146.208 ms (total: 1.37 sec)
+[2025.10.13-04.56.09:224][269]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.13-04.56.09:224][269]LogContentValidation: Enabled validators:
+[2025.10.13-04.56.09:224][269]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.13-04.56.09:224][269]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.13-04.56.09:224][269]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.13-04.56.09:224][269]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.13-04.56.09:224][269]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.13-04.56.09:224][269]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.13-04.56.09:225][269]AssetCheck: /Game/Blueprints/AbilitySystem/Enemy/Abilities/BP_SlingshotRock Validating asset
+[2025.10.13-04.56.15:947][744]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SkeletalMesh_64.svg'. File could not be found
+[2025.10.13-04.56.15:961][745]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.10.13-04.56.15:988][746]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.10.13-04.56.16:017][747]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.10.13-04.56.22:250][119]LogStreaming: Display: FlushAsyncLoading(497): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.13-04.56.22:315][119]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Enemies/Goblin/Slingshot/SM_SlingshotRock.SM_SlingshotRock
+[2025.10.13-04.56.22:319][119]LogTexture: Display: Building textures: /Game/Assets/Enemies/Goblin/Slingshot/Materials/SlingshotRock/SlingshotRock_low_DefaultMaterial_OcclusionRoughnessMetallic.SlingshotRock_low_DefaultMaterial_OcclusionRoughnessMetallic (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.10.13-04.56.22:319][119]LogTexture: Display: Building textures: /Game/Assets/Enemies/Goblin/Slingshot/Materials/SlingshotRock/SlingshotRock_low_DefaultMaterial_BaseColor.SlingshotRock_low_DefaultMaterial_BaseColor (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2025.10.13-04.56.22:319][119]LogTexture: Display: Building textures: /Game/Assets/Enemies/Goblin/Slingshot/Materials/SlingshotRock/SlingshotRock_low_DefaultMaterial_Normal.SlingshotRock_low_DefaultMaterial_Normal (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 82.499988 MB), EncodeSpeed: Fast
+[2025.10.13-04.56.22:320][119]LogStaticMesh: Display: Building static mesh SM_SlingshotRock (Required Memory Estimate: 0.133715 MB)...
+[2025.10.13-04.56.22:336][119]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Assets/Enemies/Goblin/Slingshot/SM_SlingshotRock) ...
+[2025.10.13-04.56.22:341][119]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Enemies/Goblin/Slingshot/SM_SlingshotRock.SM_SlingshotRock
+[2025.10.13-04.56.22:363][119]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.10.13-04.58.50:186][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.10.13-04.58.50:193][ 22]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.13-04.58.50:324][ 22]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/AbilitySystem/Enemy/Abilities/BP_SlingshotRock] ([2] browsable assets)...
+[2025.10.13-04.58.50:324][ 22]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.10.13-04.58.50:343][ 22]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/AbilitySystem/Enemy/Abilities/BP_SlingshotRock.BP_SlingshotRock]
+[2025.10.13-04.58.50:343][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Enemy/Abilities/BP_SlingshotRock]
+[2025.10.13-04.58.50:347][ 22]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Enemy/Abilities/BP_SlingshotRock
+[2025.10.13-04.58.50:348][ 22]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_SlingshotRock1872E1D14F0C055F1BEE099D6E142BEC.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Enemy/Abilities/BP_SlingshotRock.uasset'
+[2025.10.13-04.58.50:355][ 22]LogFileHelpers: InternalPromptForCheckoutAndSave took 162.596 ms (total: 1.54 sec)
+[2025.10.13-04.58.50:525][ 22]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.13-04.58.50:526][ 22]LogContentValidation: Enabled validators:
+[2025.10.13-04.58.50:526][ 22]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.13-04.58.50:526][ 22]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.13-04.58.50:526][ 22]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.13-04.58.50:526][ 22]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.13-04.58.50:526][ 22]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.13-04.58.50:526][ 22]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.13-04.58.50:527][ 22]AssetCheck: /Game/Blueprints/AbilitySystem/Enemy/Abilities/BP_SlingshotRock Validating asset
+[2025.10.13-04.58.51:193][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.10.13-05.00.48:769][423]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2025.10.13-05.00.48:779][423]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.13-05.00.48:910][423]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Enemy/Abilities/GA_RangedAttack] ([2] browsable assets)...
+[2025.10.13-05.00.48:910][423]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Enemy/Abilities/GA_RangedAttack]
+[2025.10.13-05.00.48:913][423]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Enemy/Abilities/GA_RangedAttack
+[2025.10.13-05.00.48:914][423]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GA_RangedAttackA4DD957347B88504ED158187956DB543.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Enemy/Abilities/GA_RangedAttack.uasset'
+[2025.10.13-05.00.48:923][423]LogFileHelpers: InternalPromptForCheckoutAndSave took 143.624 ms (total: 1.68 sec)
+[2025.10.13-05.00.49:090][423]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.13-05.00.49:091][423]LogContentValidation: Enabled validators:
+[2025.10.13-05.00.49:091][423]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.13-05.00.49:091][423]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.13-05.00.49:091][423]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.13-05.00.49:091][423]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.13-05.00.49:091][423]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.13-05.00.49:091][423]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.13-05.00.49:092][423]AssetCheck: /Game/Blueprints/AbilitySystem/Enemy/Abilities/GA_RangedAttack Validating asset
+[2025.10.13-05.00.58:564][443]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.10.13-05.00.58:569][443]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.13-05.00.58:708][443]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Enemy/Abilities/GA_RangedAttack] ([2] browsable assets)...
+[2025.10.13-05.00.58:708][443]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Enemy/Abilities/GA_RangedAttack]
+[2025.10.13-05.00.58:710][443]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Enemy/Abilities/GA_RangedAttack
+[2025.10.13-05.00.58:711][443]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GA_RangedAttackF5ECBFBC4ABC4EDB1C111BB5E4E74EEB.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Enemy/Abilities/GA_RangedAttack.uasset'
+[2025.10.13-05.00.58:718][443]LogFileHelpers: InternalPromptForCheckoutAndSave took 149.117 ms (total: 1.83 sec)
+[2025.10.13-05.00.58:849][443]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.13-05.00.58:849][443]LogContentValidation: Enabled validators:
+[2025.10.13-05.00.58:849][443]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.13-05.00.58:849][443]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.13-05.00.58:850][443]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.13-05.00.58:850][443]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.13-05.00.58:850][443]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.13-05.00.58:850][443]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.13-05.00.58:850][443]AssetCheck: /Game/Blueprints/AbilitySystem/Enemy/Abilities/GA_RangedAttack Validating asset
+[2025.10.13-05.01.11:055][786]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1031.314453
+[2025.10.13-05.01.11:167][799]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.13-05.01.11:167][799]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1031.416870, Update Interval: 351.897339
