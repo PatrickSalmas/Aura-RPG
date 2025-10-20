@@ -1936,3 +1936,857 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.20-22.46.50:190][509]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
 [2025.10.20-22.46.50:201][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
 [2025.10.20-22.46.50:247][510]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2025.10.20-22.49.08:098][196]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.10.20-22.49.15:717][689]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SkeletalMesh_64.svg'. File could not be found
+[2025.10.20-22.49.15:793][691]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.10.20-22.49.17:761][814]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.10.20-22.49.28:530][229]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Assets/Enemies/Goblin/Animations/Slingshot/Running_Slingshot.Running_Slingshot
+[2025.10.20-22.49.28:653][229]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/ApexDestruction.DestructibleMesh'
+[2025.10.20-22.49.28:665][229]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.10.20-22.50.21:842][592]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 348.196503
+[2025.10.20-22.50.21:958][601]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.20-22.50.21:959][601]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 348.301727, Update Interval: 305.224152
+[2025.10.20-22.51.38:268][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.10.20-22.51.38:273][196]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-22.51.38:421][196]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Enemies/Goblin/Animations/Slingshot/Running_Slingshot] ([1] browsable assets)...
+[2025.10.20-22.51.38:429][196]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Assets/Enemies/Goblin/Animations/Slingshot/Running_Slingshot.Running_Slingshot]
+[2025.10.20-22.51.38:429][196]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Goblin/Animations/Slingshot/Running_Slingshot]
+[2025.10.20-22.51.38:438][196]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Goblin/Animations/Slingshot/Running_Slingshot
+[2025.10.20-22.51.38:440][196]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/Running_Slingshot2DAF05CE4EB45841243DB4A9F440C1EE.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Goblin/Animations/Slingshot/Running_Slingshot.uasset'
+[2025.10.20-22.51.38:449][196]LogFileHelpers: InternalPromptForCheckoutAndSave took 176.264 ms (total: 652.706 ms)
+[2025.10.20-22.51.38:597][196]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-22.51.38:598][196]LogContentValidation: Enabled validators:
+[2025.10.20-22.51.38:598][196]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-22.51.38:598][196]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-22.51.38:598][196]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-22.51.38:599][196]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-22.51.38:599][196]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-22.51.38:599][196]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-22.51.38:599][196]AssetCheck: /Game/Assets/Enemies/Goblin/Animations/Slingshot/Running_Slingshot Validating asset
+[2025.10.20-22.51.41:788][436]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.20-22.51.41:812][436]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.20-22.51.41:812][436]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.10.20-22.51.41:831][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018015s)
+[2025.10.20-22.51.41:831][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.018216s)
+[2025.10.20-22.51.41:850][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.10.20-22.51.41:850][436]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.10.20-22.51.41:852][436]LogPlayLevel: PIE: World Init took: (0.001801s)
+[2025.10.20-22.51.41:853][436]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.10.20-22.51.41:853][436]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.20-22.51.41:854][436]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.20-22.51.41:854][436]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.20-22.51.41:854][436]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.20-22.51.41:854][436]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.20-22.51.41:854][436]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.20-22.51.41:855][436]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.20-22.51.41:855][436]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.20-22.51.41:855][436]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.20-22.51.41:855][436]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.20-22.51.41:855][436]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.20-22.51.41:858][436]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.20-22.51.41:895][436]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2025.10.20-22.51.41:895][436]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.20-22.51.41:895][436]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.20-22.51.41:895][436]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.20-22.51.41:897][436]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.10.20-22.51.41:897][436]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.10.20-22.51.41:900][436]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.10.20-22.51.41:900][436]LogInit: FAudioDevice initialized with ID 4.
+[2025.10.20-22.51.41:900][436]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.10.20-22.51.41:900][436]LogAudio: Display: Audio Device (ID: 4) registered with world 'StartupMap'.
+[2025.10.20-22.51.41:900][436]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.10.20-22.51.41:902][436]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.10.20-22.51.41:915][436]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2025.10.20-15.51.41
+[2025.10.20-22.51.41:918][436]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2025.10.20-22.51.41:921][436]LogWorld: Bringing up level for play took: 0.018072
+[2025.10.20-22.51.41:925][436]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.20-22.51.41:926][436]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2025.10.20-22.51.41:926][436]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2025.10.20-22.51.41:926][436]LogPushModel: PushModel HandleCreation is now enabled
+[2025.10.20-22.51.41:926][436]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.10.20-22.51.41:926][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.10.20-22.51.41:927][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.10.20-22.51.41:927][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.10.20-22.51.41:927][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.10.20-22.51.41:927][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.10.20-22.51.41:927][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.10.20-22.51.41:927][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.10.20-22.51.41:927][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.10.20-22.51.41:927][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.10.20-22.51.41:927][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.10.20-22.51.41:928][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.10.20-22.51.41:928][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.10.20-22.51.41:928][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.10.20-22.51.41:928][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.10.20-22.51.41:928][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.10.20-22.51.41:928][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.10.20-22.51.41:928][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.10.20-22.51.41:928][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.10.20-22.51.41:928][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.10.20-22.51.41:928][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.10.20-22.51.41:929][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.10.20-22.51.41:929][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.10.20-22.51.41:929][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.10.20-22.51.41:929][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.10.20-22.51.41:929][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.10.20-22.51.41:929][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.10.20-22.51.41:929][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.10.20-22.51.41:929][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.10.20-22.51.41:929][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.10.20-22.51.41:929][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.10.20-22.51.41:929][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.10.20-22.51.41:929][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.10.20-22.51.41:929][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.10.20-22.51.41:930][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.10.20-22.51.41:930][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.10.20-22.51.41:930][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.10.20-22.51.41:930][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.10.20-22.51.41:930][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.10.20-22.51.41:930][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.10.20-22.51.41:930][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.10.20-22.51.41:930][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.10.20-22.51.41:930][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.10.20-22.51.41:931][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.10.20-22.51.41:931][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.10.20-22.51.41:931][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.10.20-22.51.41:931][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.10.20-22.51.41:931][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.10.20-22.51.41:931][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.10.20-22.51.41:931][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.10.20-22.51.41:931][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.10.20-22.51.41:932][436]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.10.20-22.51.41:933][436]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2025.10.20-22.51.41:933][436]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2025.10.20-22.51.41:933][436]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.10.20-22.51.41:934][436]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2 IpNetDriver listening on port 17777
+[2025.10.20-22.51.41:936][436]LogTemp: Warning: Changed Health on BP_Ghoul_C_2, Health: 18.750000
+[2025.10.20-22.51.41:937][436]LogTemp: Warning: Changed Health on BP_Goblin_Slingshot_C_2, Health: 18.750000
+[2025.10.20-22.51.41:938][436]LogTemp: Warning: Changed Health on BP_Shaman_C_2, Health: 13.750000
+[2025.10.20-22.51.41:939][436]LogTemp: Warning: Changed Health on BP_Goblin_Spear_C_1, Health: 18.750000
+[2025.10.20-22.51.41:939][436]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.10.20-22.51.41:940][436]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.10.20-22.51.41:941][436]PIE: Server logged in
+[2025.10.20-22.51.41:942][436]PIE: Play in editor total start time 0.142 seconds.
+[2025.10.20-22.51.43:128][507]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.51.43:129][507]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.51.43:129][507]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.51.44:130][571]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.51.44:250][579]LogTemp: Warning: Changed Health on BP_Goblin_Slingshot_C_2, Health: 13.750000
+[2025.10.20-22.51.44:708][609]LogTemp: Warning: Changed Health on BP_Goblin_Slingshot_C_2, Health: 8.750000
+[2025.10.20-22.51.44:940][624]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.51.44:940][624]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.51.44:940][624]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.51.45:933][689]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.51.46:778][745]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.51.46:778][745]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.51.46:778][745]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.51.47:770][810]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.51.52:523][131]LogTemp: Warning: Changed Health on BP_Ghoul_C_2, Health: 13.750000
+[2025.10.20-22.51.52:899][156]LogTemp: Warning: Changed Health on BP_Ghoul_C_2, Health: 3.750000
+[2025.10.20-22.51.53:901][224]LogTemp: Warning: Changed Health on BP_Ghoul_C_2, Health: 0.000000
+[2025.10.20-22.52.03:423][870]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.52.03:423][870]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.52.03:424][870]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.52.04:402][921]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.52.11:723][421]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.20-22.52.11:724][421]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.10.20-22.52.11:725][421]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.20-22.52.11:728][421]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-22.52.11:729][421]LogNet: World NetDriver shutdown IpNetDriver_2 [GameNetDriver]
+[2025.10.20-22.52.11:729][421]LogNet: DestroyNamedNetDriver IpNetDriver_2 [GameNetDriver]
+[2025.10.20-22.52.11:729][421]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_2 shut down
+[2025.10.20-22.52.11:732][421]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.20-22.52.11:739][421]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-22.52.11:757][421]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.20-22.52.11:759][421]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.10.20-22.52.11:759][421]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.10.20-22.52.11:792][421]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.10.20-22.52.11:803][421]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2025.10.20-22.52.11:898][422]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2025.10.20-22.53.14:718][351]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.10.20-22.53.14:797][352]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.10.20-22.53.14:821][353]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.10.20-22.53.18:587][739]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot
+[2025.10.20-22.53.18:588][739]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2025.10.20-22.53.28:342][782]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2025.10.20-22.53.28:347][782]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-22.53.28:490][782]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot] ([2] browsable assets)...
+[2025.10.20-22.53.28:582][782]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot]
+[2025.10.20-22.53.28:582][782]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot]
+[2025.10.20-22.53.28:587][782]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot
+[2025.10.20-22.53.28:588][782]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_Goblin_Slingshot4730592F444D0AD8536F70A615EBA168.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.uasset'
+[2025.10.20-22.53.28:596][782]LogFileHelpers: InternalPromptForCheckoutAndSave took 248.257 ms (total: 900.963 ms)
+[2025.10.20-22.53.28:734][782]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-22.53.28:734][782]LogContentValidation: Enabled validators:
+[2025.10.20-22.53.28:734][782]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-22.53.28:734][782]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-22.53.28:734][782]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-22.53.28:734][782]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-22.53.28:734][782]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-22.53.28:734][782]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-22.53.28:734][782]AssetCheck: /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot Validating asset
+[2025.10.20-22.53.29:593][847]LogScript: Warning: Attempted to access REINST_BP_Goblin_Slingshot_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_Goblin_Slingshot_C_0 is not valid (pending kill or garbage)
+	ABP_Golbin_Slingshot_C /Engine/Transient.World_16:PersistentLevel.REINST_BP_Goblin_Slingshot_C_0.CharacterMesh0.ABP_Golbin_Slingshot_C_0
+	Function /Game/Blueprints/Character/ABP_Enemy.ABP_Enemy_C:ExecuteUbergraph_ABP_Enemy:0089
+[2025.10.20-22.53.29:593][847]LogScript: Warning: Attempted to access REINST_BP_Goblin_Slingshot_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_Goblin_Slingshot_C_0 is not valid (pending kill or garbage)
+	ABP_Golbin_Slingshot_C /Engine/Transient.World_18:PersistentLevel.REINST_BP_Goblin_Slingshot_C_0.CharacterMesh0.ABP_Golbin_Slingshot_C_0
+	Function /Game/Blueprints/Character/ABP_Enemy.ABP_Enemy_C:ExecuteUbergraph_ABP_Enemy:0089
+[2025.10.20-22.53.29:618][847]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.10.20-22.53.30:722][915]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.10.20-22.53.30:727][915]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-22.53.30:868][915]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.20-22.53.30:937][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.10.20-22.53.31:005][915]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2025.10.20-22.53.31:006][915]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/StartupMap403F270D42D9EE185E666BA8D9751FCF.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/StartupMap.umap'
+[2025.10.20-22.53.31:031][915]LogFileHelpers: Saving map 'StartupMap' took 0.163
+[2025.10.20-22.53.31:038][915]LogFileHelpers: InternalPromptForCheckoutAndSave took 310.937 ms (total: 1.21 sec)
+[2025.10.20-22.53.31:185][915]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-22.53.31:185][915]LogContentValidation: Enabled validators:
+[2025.10.20-22.53.31:186][915]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-22.53.31:186][915]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-22.53.31:186][915]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-22.53.31:186][915]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-22.53.31:186][915]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-22.53.31:186][915]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-22.53.31:186][915]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2025.10.20-22.53.32:645][  1]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.20-22.53.32:667][  1]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.20-22.53.32:667][  1]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.10.20-22.53.32:686][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018407s)
+[2025.10.20-22.53.32:686][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.018635s)
+[2025.10.20-22.53.32:710][  1]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2025.10.20-22.53.32:712][  1]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.10.20-22.53.32:714][  1]LogPlayLevel: PIE: World Init took: (0.001848s)
+[2025.10.20-22.53.32:715][  1]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.10.20-22.53.32:715][  1]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.20-22.53.32:716][  1]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.20-22.53.32:716][  1]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.20-22.53.32:716][  1]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.20-22.53.32:716][  1]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.20-22.53.32:716][  1]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.20-22.53.32:716][  1]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.20-22.53.32:716][  1]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.20-22.53.32:716][  1]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.20-22.53.32:716][  1]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.20-22.53.32:716][  1]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.20-22.53.32:721][  1]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.20-22.53.32:753][  1]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2025.10.20-22.53.32:753][  1]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.20-22.53.32:753][  1]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.20-22.53.32:753][  1]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.20-22.53.32:754][  1]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.10.20-22.53.32:754][  1]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.10.20-22.53.32:757][  1]LogInit: FAudioDevice initialized with ID 5.
+[2025.10.20-22.53.32:757][  1]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.10.20-22.53.32:757][  1]LogAudio: Display: Audio Device (ID: 5) registered with world 'StartupMap'.
+[2025.10.20-22.53.32:757][  1]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.10.20-22.53.32:758][  1]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.10.20-22.53.32:760][  1]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.10.20-22.53.32:773][  1]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2025.10.20-15.53.32
+[2025.10.20-22.53.32:775][  1]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2025.10.20-22.53.32:778][  1]LogWorld: Bringing up level for play took: 0.017690
+[2025.10.20-22.53.32:782][  1]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.20-22.53.32:783][  1]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2025.10.20-22.53.32:784][  1]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2025.10.20-22.53.32:784][  1]LogPushModel: PushModel HandleCreation is now enabled
+[2025.10.20-22.53.32:784][  1]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.10.20-22.53.32:784][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.10.20-22.53.32:784][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.10.20-22.53.32:785][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.10.20-22.53.32:785][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.10.20-22.53.32:785][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.10.20-22.53.32:785][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.10.20-22.53.32:785][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.10.20-22.53.32:785][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.10.20-22.53.32:785][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.10.20-22.53.32:785][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.10.20-22.53.32:786][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.10.20-22.53.32:786][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.10.20-22.53.32:786][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.10.20-22.53.32:786][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.10.20-22.53.32:786][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.10.20-22.53.32:786][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.10.20-22.53.32:786][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.10.20-22.53.32:786][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.10.20-22.53.32:787][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.10.20-22.53.32:787][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.10.20-22.53.32:787][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.10.20-22.53.32:787][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.10.20-22.53.32:787][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.10.20-22.53.32:787][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.10.20-22.53.32:787][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.10.20-22.53.32:787][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.10.20-22.53.32:787][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.10.20-22.53.32:787][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.10.20-22.53.32:787][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.10.20-22.53.32:788][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.10.20-22.53.32:788][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.10.20-22.53.32:788][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.10.20-22.53.32:788][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.10.20-22.53.32:788][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.10.20-22.53.32:788][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.10.20-22.53.32:788][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.10.20-22.53.32:788][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.10.20-22.53.32:788][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.10.20-22.53.32:788][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.10.20-22.53.32:789][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.10.20-22.53.32:789][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.10.20-22.53.32:789][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.10.20-22.53.32:789][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.10.20-22.53.32:789][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.10.20-22.53.32:789][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.10.20-22.53.32:789][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.10.20-22.53.32:789][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.10.20-22.53.32:789][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.10.20-22.53.32:789][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.10.20-22.53.32:790][  1]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.10.20-22.53.32:790][  1]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2025.10.20-22.53.32:791][  1]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2025.10.20-22.53.32:791][  1]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.10.20-22.53.32:791][  1]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_3 IpNetDriver listening on port 17777
+[2025.10.20-22.53.32:793][  1]LogTemp: Warning: Changed Health on BP_Ghoul_C_2, Health: 18.750000
+[2025.10.20-22.53.32:794][  1]LogTemp: Warning: Changed Health on BP_Shaman_C_2, Health: 13.750000
+[2025.10.20-22.53.32:795][  1]LogTemp: Warning: Changed Health on BP_Goblin_Spear_C_1, Health: 18.750000
+[2025.10.20-22.53.32:796][  1]LogTemp: Warning: Changed Health on BP_Goblin_Slingshot_C_2, Health: 18.750000
+[2025.10.20-22.53.32:796][  1]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.10.20-22.53.32:796][  1]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.10.20-22.53.32:797][  1]PIE: Server logged in
+[2025.10.20-22.53.32:798][  1]PIE: Play in editor total start time 0.142 seconds.
+[2025.10.20-22.53.36:780][234]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Fire on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.36:780][234]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.36:781][234]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.37:775][295]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.53.39:398][398]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.39:398][398]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.39:398][398]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.40:383][460]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.53.41:448][528]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.41:448][528]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.41:449][528]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.42:440][591]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.53.43:188][639]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.43:188][639]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.43:188][639]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.44:186][701]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.53.47:417][899]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.47:417][899]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.47:418][899]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.48:406][961]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.53.49:124][  7]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.49:124][  7]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.49:124][  7]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.49:216][ 13]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Fire on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.49:216][ 13]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.49:216][ 13]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.50:117][ 70]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.53.50:215][ 76]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.53.51:021][128]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.51:021][128]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.51:021][128]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.53.52:009][191]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.54.13:834][608]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Fire on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.13:834][608]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.13:834][608]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.14:824][672]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.54.17:203][827]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.17:203][827]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.17:204][827]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.18:185][891]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.54.19:894][  2]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.19:895][  2]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.19:895][  2]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.19:895][  2]LogAbilitySystem: Warning: UAbilityTask_PlayMontageAndWait called in Ability GA_HitReact_C_0 failed to play montage None; Task Instance Name None.
+[2025.10.20-22.54.20:880][ 66]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.54.21:723][121]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.21:723][121]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.21:723][121]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.22:708][186]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.54.23:630][247]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.23:630][247]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.23:631][247]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.24:618][312]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.54.33:869][933]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.33:870][933]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.33:870][933]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.34:018][943]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.34:019][943]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.34:019][943]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.54.34:858][999]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.54.35:009][  9]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.54.36:784][130]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.20-22.54.36:784][130]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.10.20-22.54.36:785][130]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.20-22.54.36:788][130]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-22.54.36:792][130]LogNet: World NetDriver shutdown IpNetDriver_3 [GameNetDriver]
+[2025.10.20-22.54.36:792][130]LogNet: DestroyNamedNetDriver IpNetDriver_3 [GameNetDriver]
+[2025.10.20-22.54.36:792][130]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_3 shut down
+[2025.10.20-22.54.36:819][130]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.20-22.54.36:826][130]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-22.54.36:845][130]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.20-22.54.36:846][130]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.10.20-22.54.36:846][130]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.10.20-22.54.36:848][130]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.10.20-22.54.36:878][130]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.10.20-22.54.37:083][131]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2025.10.20-22.55.29:606][313]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 655.962708
+[2025.10.20-22.55.30:593][316]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.20-22.55.30:593][316]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 656.632324, Update Interval: 342.128357
+[2025.10.20-22.55.51:550][ 34]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Assets/Enemies/Goblin/Animations/Slingshot/AM_HitReact_GoblinSlingshot.AM_HitReact_GoblinSlingshot
+[2025.10.20-22.55.51:697][ 34]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.10.20-22.55.51:697][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-22.55.51:749][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.10.20-22.56.27:272][390]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.10.20-22.56.27:277][390]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-22.56.27:423][390]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Enemies/Goblin/Animations/Slingshot/AM_HitReact_GoblinSlingshot] ([1] browsable assets)...
+[2025.10.20-22.56.27:432][390]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Assets/Enemies/Goblin/Animations/Slingshot/AM_HitReact_GoblinSlingshot.AM_HitReact_GoblinSlingshot]
+[2025.10.20-22.56.27:432][390]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Goblin/Animations/Slingshot/AM_HitReact_GoblinSlingshot]
+[2025.10.20-22.56.27:434][390]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Goblin/Animations/Slingshot/AM_HitReact_GoblinSlingshot
+[2025.10.20-22.56.27:435][390]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/AM_HitReact_GoblinSlingshot4E992E1145F551F845E94EB9C7790C0C.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Goblin/Animations/Slingshot/AM_HitReact_GoblinSlingshot.uasset'
+[2025.10.20-22.56.27:445][390]LogFileHelpers: InternalPromptForCheckoutAndSave took 167.607 ms (total: 1.37 sec)
+[2025.10.20-22.56.27:583][390]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-22.56.27:584][390]LogContentValidation: Enabled validators:
+[2025.10.20-22.56.27:584][390]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-22.56.27:584][390]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-22.56.27:584][390]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-22.56.27:584][390]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-22.56.27:584][390]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-22.56.27:584][390]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-22.56.27:584][390]AssetCheck: /Game/Assets/Enemies/Goblin/Animations/Slingshot/AM_HitReact_GoblinSlingshot Validating asset
+[2025.10.20-22.56.52:533][967]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.20-22.56.52:560][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.20-22.56.52:560][967]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.10.20-22.56.52:579][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018588s)
+[2025.10.20-22.56.52:579][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.018795s)
+[2025.10.20-22.56.52:601][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.10.20-22.56.52:603][967]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.10.20-22.56.52:605][967]LogPlayLevel: PIE: World Init took: (0.001722s)
+[2025.10.20-22.56.52:606][967]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.10.20-22.56.52:606][967]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.20-22.56.52:606][967]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.20-22.56.52:606][967]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.20-22.56.52:606][967]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.20-22.56.52:606][967]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.20-22.56.52:607][967]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.20-22.56.52:607][967]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.20-22.56.52:607][967]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.20-22.56.52:607][967]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.20-22.56.52:607][967]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.20-22.56.52:607][967]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.20-22.56.52:610][967]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.20-22.56.52:649][967]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2025.10.20-22.56.52:650][967]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.20-22.56.52:650][967]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.20-22.56.52:650][967]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.20-22.56.52:650][967]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.10.20-22.56.52:651][967]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.10.20-22.56.52:654][967]LogInit: FAudioDevice initialized with ID 6.
+[2025.10.20-22.56.52:654][967]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.10.20-22.56.52:654][967]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.10.20-22.56.52:654][967]LogAudio: Display: Audio Device (ID: 6) registered with world 'StartupMap'.
+[2025.10.20-22.56.52:654][967]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.10.20-22.56.52:657][967]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.10.20-22.56.52:671][967]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2025.10.20-15.56.52
+[2025.10.20-22.56.52:675][967]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2025.10.20-22.56.52:678][967]LogWorld: Bringing up level for play took: 0.020483
+[2025.10.20-22.56.52:682][967]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.20-22.56.52:683][967]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2025.10.20-22.56.52:683][967]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2025.10.20-22.56.52:683][967]LogPushModel: PushModel HandleCreation is now enabled
+[2025.10.20-22.56.52:683][967]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.10.20-22.56.52:684][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.10.20-22.56.52:684][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.10.20-22.56.52:684][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.10.20-22.56.52:684][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.10.20-22.56.52:684][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.10.20-22.56.52:684][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.10.20-22.56.52:685][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.10.20-22.56.52:685][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.10.20-22.56.52:685][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.10.20-22.56.52:685][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.10.20-22.56.52:685][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.10.20-22.56.52:685][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.10.20-22.56.52:685][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.10.20-22.56.52:685][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.10.20-22.56.52:685][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.10.20-22.56.52:686][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.10.20-22.56.52:686][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.10.20-22.56.52:686][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.10.20-22.56.52:686][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.10.20-22.56.52:686][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.10.20-22.56.52:686][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.10.20-22.56.52:686][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.10.20-22.56.52:686][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.10.20-22.56.52:687][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.10.20-22.56.52:687][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.10.20-22.56.52:687][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.10.20-22.56.52:687][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.10.20-22.56.52:687][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.10.20-22.56.52:687][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.10.20-22.56.52:687][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.10.20-22.56.52:687][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.10.20-22.56.52:687][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.10.20-22.56.52:687][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.10.20-22.56.52:687][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.10.20-22.56.52:687][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.10.20-22.56.52:688][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.10.20-22.56.52:688][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.10.20-22.56.52:688][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.10.20-22.56.52:688][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.10.20-22.56.52:688][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.10.20-22.56.52:688][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.10.20-22.56.52:688][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.10.20-22.56.52:689][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.10.20-22.56.52:689][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.10.20-22.56.52:689][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.10.20-22.56.52:689][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.10.20-22.56.52:689][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.10.20-22.56.52:689][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.10.20-22.56.52:690][967]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.10.20-22.56.52:691][967]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2025.10.20-22.56.52:691][967]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2025.10.20-22.56.52:691][967]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.10.20-22.56.52:691][967]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_4 IpNetDriver listening on port 17777
+[2025.10.20-22.56.52:694][967]LogTemp: Warning: Changed Health on BP_Ghoul_C_2, Health: 18.750000
+[2025.10.20-22.56.52:695][967]LogTemp: Warning: Changed Health on BP_Shaman_C_2, Health: 13.750000
+[2025.10.20-22.56.52:696][967]LogTemp: Warning: Changed Health on BP_Goblin_Spear_C_1, Health: 18.750000
+[2025.10.20-22.56.52:697][967]LogTemp: Warning: Changed Health on BP_Goblin_Slingshot_C_2, Health: 18.750000
+[2025.10.20-22.56.52:697][967]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.10.20-22.56.52:698][967]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.10.20-22.56.52:699][967]PIE: Server logged in
+[2025.10.20-22.56.52:700][967]PIE: Play in editor total start time 0.152 seconds.
+[2025.10.20-22.56.53:978][ 44]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.56.53:979][ 44]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.56.53:979][ 44]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.56.54:977][109]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.56.56:871][230]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.56.56:871][230]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.56.56:871][230]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.56.57:864][294]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.56.58:620][343]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Fire on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.56.58:620][343]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.56.58:620][343]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.56.59:290][386]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.56.59:290][386]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.56.59:290][386]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.56.59:619][407]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.57.00:304][446]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.57.00:941][483]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.00:941][483]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.00:941][483]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.01:927][547]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.57.02:900][610]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.02:900][610]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.02:901][610]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.03:893][674]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.57.04:584][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.20-22.57.04:585][718]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.10.20-22.57.04:585][718]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.20-22.57.04:588][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-22.57.04:590][718]LogNet: World NetDriver shutdown IpNetDriver_4 [GameNetDriver]
+[2025.10.20-22.57.04:590][718]LogNet: DestroyNamedNetDriver IpNetDriver_4 [GameNetDriver]
+[2025.10.20-22.57.04:590][718]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_4 shut down
+[2025.10.20-22.57.04:592][718]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.20-22.57.04:598][718]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-22.57.04:619][718]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.20-22.57.04:619][718]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.10.20-22.57.04:619][718]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.10.20-22.57.04:622][718]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.10.20-22.57.04:641][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.20-22.57.04:649][718]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2025.10.20-22.57.04:752][719]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2025.10.20-22.57.22:727][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.10.20-22.57.22:732][291]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-22.57.22:879][291]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot] ([2] browsable assets)...
+[2025.10.20-22.57.22:887][291]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot]
+[2025.10.20-22.57.22:888][291]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot]
+[2025.10.20-22.57.22:892][291]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot
+[2025.10.20-22.57.22:893][291]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_Goblin_Slingshot3E2A650A4080C571A138F2B7D420190C.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.uasset'
+[2025.10.20-22.57.22:903][291]LogFileHelpers: InternalPromptForCheckoutAndSave took 170.486 ms (total: 1.54 sec)
+[2025.10.20-22.57.23:039][291]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-22.57.23:039][291]LogContentValidation: Enabled validators:
+[2025.10.20-22.57.23:040][291]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-22.57.23:040][291]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-22.57.23:040][291]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-22.57.23:040][291]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-22.57.23:040][291]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-22.57.23:040][291]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-22.57.23:041][291]AssetCheck: /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot Validating asset
+[2025.10.20-22.57.23:784][336]LogScript: Warning: Attempted to access REINST_BP_Goblin_Slingshot_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_Goblin_Slingshot_C_0 is not valid (pending kill or garbage)
+	ABP_Golbin_Slingshot_C /Engine/Transient.World_16:PersistentLevel.REINST_BP_Goblin_Slingshot_C_0.CharacterMesh0.ABP_Golbin_Slingshot_C_0
+	Function /Game/Blueprints/Character/ABP_Enemy.ABP_Enemy_C:ExecuteUbergraph_ABP_Enemy:0089
+[2025.10.20-22.57.23:784][336]LogScript: Warning: Attempted to access REINST_BP_Goblin_Slingshot_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_Goblin_Slingshot_C_0 is not valid (pending kill or garbage)
+	ABP_Golbin_Slingshot_C /Engine/Transient.World_18:PersistentLevel.REINST_BP_Goblin_Slingshot_C_0.CharacterMesh0.ABP_Golbin_Slingshot_C_1
+	Function /Game/Blueprints/Character/ABP_Enemy.ABP_Enemy_C:ExecuteUbergraph_ABP_Enemy:0089
+[2025.10.20-22.57.23:807][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.10.20-22.57.24:873][379]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2025.10.20-22.57.24:880][379]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.20-22.57.25:036][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.20-22.57.25:100][379]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.10.20-22.57.25:164][379]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2025.10.20-22.57.25:165][379]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/StartupMap3FFC80994337D236C09A31AB4E397C7D.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/StartupMap.umap'
+[2025.10.20-22.57.25:187][379]LogFileHelpers: Saving map 'StartupMap' took 0.150
+[2025.10.20-22.57.25:194][379]LogFileHelpers: InternalPromptForCheckoutAndSave took 314.153 ms (total: 1.86 sec)
+[2025.10.20-22.57.25:338][379]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.20-22.57.25:338][379]LogContentValidation: Enabled validators:
+[2025.10.20-22.57.25:338][379]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.20-22.57.25:338][379]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.20-22.57.25:338][379]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.20-22.57.25:338][379]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.20-22.57.25:338][379]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.20-22.57.25:338][379]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.20-22.57.25:339][379]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2025.10.20-22.57.26:869][463]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.20-22.57.26:895][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.20-22.57.26:895][463]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.10.20-22.57.26:914][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018473s)
+[2025.10.20-22.57.26:914][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.018705s)
+[2025.10.20-22.57.26:937][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.10.20-22.57.26:938][463]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.10.20-22.57.26:940][463]LogPlayLevel: PIE: World Init took: (0.001717s)
+[2025.10.20-22.57.26:941][463]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.10.20-22.57.26:941][463]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.20-22.57.26:941][463]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.20-22.57.26:942][463]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.20-22.57.26:942][463]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.20-22.57.26:942][463]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.20-22.57.26:942][463]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.20-22.57.26:942][463]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.20-22.57.26:942][463]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.20-22.57.26:942][463]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.20-22.57.26:942][463]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.20-22.57.26:942][463]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.20-22.57.26:945][463]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.20-22.57.26:977][463]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2025.10.20-22.57.26:977][463]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.20-22.57.26:978][463]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.20-22.57.26:978][463]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.20-22.57.26:978][463]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.10.20-22.57.26:979][463]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.10.20-22.57.26:982][463]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.10.20-22.57.26:982][463]LogInit: FAudioDevice initialized with ID 7.
+[2025.10.20-22.57.26:982][463]LogAudio: Display: Audio Device (ID: 7) registered with world 'StartupMap'.
+[2025.10.20-22.57.26:982][463]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.10.20-22.57.26:983][463]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.10.20-22.57.26:985][463]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.10.20-22.57.26:997][463]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2025.10.20-15.57.26
+[2025.10.20-22.57.27:000][463]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2025.10.20-22.57.27:003][463]LogWorld: Bringing up level for play took: 0.017504
+[2025.10.20-22.57.27:007][463]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.20-22.57.27:008][463]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2025.10.20-22.57.27:008][463]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2025.10.20-22.57.27:008][463]LogPushModel: PushModel HandleCreation is now enabled
+[2025.10.20-22.57.27:008][463]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.10.20-22.57.27:008][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.10.20-22.57.27:008][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.10.20-22.57.27:009][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.10.20-22.57.27:009][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.10.20-22.57.27:010][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.10.20-22.57.27:010][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.10.20-22.57.27:010][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.10.20-22.57.27:010][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.10.20-22.57.27:010][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.10.20-22.57.27:010][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.10.20-22.57.27:010][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.10.20-22.57.27:010][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.10.20-22.57.27:011][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.10.20-22.57.27:011][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.10.20-22.57.27:011][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.10.20-22.57.27:011][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.10.20-22.57.27:011][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.10.20-22.57.27:011][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.10.20-22.57.27:011][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.10.20-22.57.27:011][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.10.20-22.57.27:011][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.10.20-22.57.27:012][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.10.20-22.57.27:012][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.10.20-22.57.27:012][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.10.20-22.57.27:012][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.10.20-22.57.27:012][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.10.20-22.57.27:012][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.10.20-22.57.27:012][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.10.20-22.57.27:012][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.10.20-22.57.27:012][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.10.20-22.57.27:012][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.10.20-22.57.27:012][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.10.20-22.57.27:012][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.10.20-22.57.27:012][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.10.20-22.57.27:013][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.10.20-22.57.27:013][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.10.20-22.57.27:013][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.10.20-22.57.27:013][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.10.20-22.57.27:013][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.10.20-22.57.27:013][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.10.20-22.57.27:013][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.10.20-22.57.27:013][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.10.20-22.57.27:013][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.10.20-22.57.27:013][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.10.20-22.57.27:014][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.10.20-22.57.27:014][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.10.20-22.57.27:014][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.10.20-22.57.27:014][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.10.20-22.57.27:014][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.10.20-22.57.27:014][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.10.20-22.57.27:014][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.10.20-22.57.27:015][463]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.10.20-22.57.27:015][463]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2025.10.20-22.57.27:016][463]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2025.10.20-22.57.27:016][463]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.10.20-22.57.27:016][463]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_5 IpNetDriver listening on port 17777
+[2025.10.20-22.57.27:018][463]LogTemp: Warning: Changed Health on BP_Ghoul_C_2, Health: 18.750000
+[2025.10.20-22.57.27:019][463]LogTemp: Warning: Changed Health on BP_Shaman_C_2, Health: 13.750000
+[2025.10.20-22.57.27:020][463]LogTemp: Warning: Changed Health on BP_Goblin_Spear_C_1, Health: 18.750000
+[2025.10.20-22.57.27:021][463]LogTemp: Warning: Changed Health on BP_Goblin_Slingshot_C_2, Health: 18.750000
+[2025.10.20-22.57.27:021][463]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.10.20-22.57.27:021][463]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.10.20-22.57.27:022][463]PIE: Server logged in
+[2025.10.20-22.57.27:024][463]PIE: Play in editor total start time 0.142 seconds.
+[2025.10.20-22.57.28:331][541]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.28:331][541]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.28:331][541]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.29:328][604]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.57.29:996][645]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Fire on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.29:996][645]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.29:996][645]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.30:117][653]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.30:117][653]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.30:117][653]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.30:991][709]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.57.31:112][717]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.57.32:392][800]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.32:393][800]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.32:393][800]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.33:380][863]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.57.33:866][894]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Fire on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.33:866][894]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.33:866][894]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.34:249][912]LogTemp: Warning: Changed Health on BP_Goblin_Spear_C_1, Health: 0.000000
+[2025.10.20-22.57.34:863][951]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.57.35:337][982]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.35:337][982]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.35:338][982]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.36:350][ 45]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.57.37:167][ 98]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Fire on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.37:167][ 98]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.37:167][ 98]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.38:162][162]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.57.41:519][378]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.41:519][378]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.41:519][378]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.42:508][441]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.57.42:929][468]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.42:929][468]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.42:929][468]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.43:894][530]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.43:894][530]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.43:894][530]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.43:922][532]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.57.44:897][593]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.57.51:682][ 31]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Fire on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.51:682][ 31]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.51:682][ 31]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.51:698][ 32]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.51:698][ 32]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.51:698][ 32]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.20-22.57.52:680][ 96]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.57.52:695][ 97]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.20-22.57.54:374][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.20-22.57.54:374][206]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.10.20-22.57.54:375][206]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.20-22.57.54:378][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-22.57.54:379][206]LogNet: World NetDriver shutdown IpNetDriver_5 [GameNetDriver]
+[2025.10.20-22.57.54:379][206]LogNet: DestroyNamedNetDriver IpNetDriver_5 [GameNetDriver]
+[2025.10.20-22.57.54:379][206]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_5 shut down
+[2025.10.20-22.57.54:381][206]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.20-22.57.54:388][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.20-22.57.54:408][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.20-22.57.54:409][206]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.10.20-22.57.54:409][206]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.10.20-22.57.54:411][206]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2025.10.20-22.57.54:422][206]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2025.10.20-22.57.54:621][207]LogPlayLevel: Display: Destroying online subsystem :Context_25
