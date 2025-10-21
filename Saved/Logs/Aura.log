@@ -4092,3 +4092,500 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.21-22.10.32:121][575]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
 [2025.10.21-22.10.32:132][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
 [2025.10.21-22.10.32:235][576]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2025.10.21-22.11.50:438][ 27]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1759.340332
+[2025.10.21-22.11.50:605][ 35]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.21-22.11.50:605][ 35]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1759.486206, Update Interval: 331.454803
+[2025.10.21-22.11.52:513][117]LogStreaming: Display: FlushAsyncLoading(528): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.21-22.11.52:637][117]LogTexture: Display: Building textures: /Game/Assets/Effects/Shared/water_n.water_n (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 82.499988 MB), EncodeSpeed: Fast
+[2025.10.21-22.11.52:642][117]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/Assets/Effects/Combat/Trail/NS_CombatTrail.NS_CombatTrail
+[2025.10.21-22.11.52:921][117]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_24
+[2025.10.21-22.11.53:014][117]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2025.10.21-22.12.00:054][487]LogNiagara: Compiling System NiagaraSystem /Game/Assets/Effects/Combat/Trail/NS_CombatTrail.NS_CombatTrail took 7.123115 sec (time since issued), 6.607889 sec (combined shader worker time).
+[2025.10.21-22.12.00:181][494]129530_NS_CombatTrail_MessageLog: System successfully compiled.
+[2025.10.21-22.12.32:438][271]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.10.21-22.12.32:438][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.21-22.12.32:595][271]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2025.10.21-22.12.33:151][301]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.10.21-22.12.33:152][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.21-22.12.33:252][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.10.21-22.12.34:740][384]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.10.21-22.12.34:740][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.21-22.12.34:864][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2025.10.21-22.12.35:556][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.21-22.12.35:556][422]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.10.21-22.12.35:556][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.21-22.12.35:652][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.10.21-22.12.49:476][794]LogShaderCompilers: Display: ================================================
+[2025.10.21-22.12.49:476][794]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.21-22.12.49:477][794]LogShaderCompilers: Display: Total job queries 374, among them cache hits 85 (22.73%), DDC hits 271 (72.46%), Duplicates 8 (2.14%)
+[2025.10.21-22.12.49:477][794]LogShaderCompilers: Display: Tracking 281 distinct input hashes that result in 229 distinct outputs (81.49%)
+[2025.10.21-22.12.49:478][794]LogShaderCompilers: Display: RAM used: 149.61 KiB of 819.20 MiB budget. Usage: 0.02%
+[2025.10.21-22.12.49:479][794]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.21-22.12.49:481][794]LogShaderCompilers: Display: Shaders Compiled: 10
+[2025.10.21-22.12.49:482][794]LogShaderCompilers: Display: Jobs assigned 10, completed 10 (100%)
+[2025.10.21-22.12.49:482][794]LogShaderCompilers: Display: Average time worker was idle: 0.08 s
+[2025.10.21-22.12.49:484][794]LogShaderCompilers: Display: Time job spent in pending queue: average 0.48 s, longest 2.29 s
+[2025.10.21-22.12.49:485][794]LogShaderCompilers: Display: Job execution time: average 1.72 s, max 3.21 s
+[2025.10.21-22.12.49:486][794]LogShaderCompilers: Display: Job life time (pending + execution): average 2.20 s, max 3.33
+[2025.10.21-22.12.49:487][794]LogShaderCompilers: Display: Shader code size: average 8.482 KiB, min 2.041 KiB, max 17.835 KiB
+[2025.10.21-22.12.49:488][794]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.89 s
+[2025.10.21-22.12.49:488][794]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.10.21-22.12.49:489][794]LogShaderCompilers: Display: Jobs were issued in 10 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.21-22.12.49:490][794]LogShaderCompilers: Display: Average processing rate: 1.45 jobs/sec
+[2025.10.21-22.12.49:491][794]LogShaderCompilers: Display: Total thread time: 8.676 s
+[2025.10.21-22.12.49:491][794]LogShaderCompilers: Display: Total thread preprocess time: 8.86 s
+[2025.10.21-22.12.49:492][794]LogShaderCompilers: Display: Percentage time preprocessing: 102.11%
+[2025.10.21-22.12.49:492][794]LogShaderCompilers: Display: Effective parallelization: 1.26 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2025.10.21-22.12.49:492][794]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.21-22.12.49:492][794]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    1 times, average 1.90 sec, max 1.90 sec, min 1.90 sec)
+[2025.10.21-22.12.49:492][794]LogShaderCompilers: Display:                                            FDistortionMeshPS (compiled    1 times, average 1.38 sec, max 1.38 sec, min 1.38 sec)
+[2025.10.21-22.12.49:492][794]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 1.38 sec, max 1.38 sec, min 1.38 sec)
+[2025.10.21-22.12.49:492][794]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 1.28 sec, max 1.28 sec, min 1.28 sec)
+[2025.10.21-22.12.49:493][794]LogShaderCompilers: Display:                                            FDistortionMeshVS (compiled    1 times, average 1.12 sec, max 1.12 sec, min 1.12 sec)
+[2025.10.21-22.12.49:493][794]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.21-22.12.49:493][794]LogShaderCompilers: Display:                                                 FLumenCardPS - 21.92% of total time (compiled    1 times, average 1.90 sec, max 1.90 sec, min 1.90 sec)
+[2025.10.21-22.12.49:493][794]LogShaderCompilers: Display:                                            FDistortionMeshPS - 15.96% of total time (compiled    1 times, average 1.38 sec, max 1.38 sec, min 1.38 sec)
+[2025.10.21-22.12.49:493][794]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.90% of total time (compiled    1 times, average 1.38 sec, max 1.38 sec, min 1.38 sec)
+[2025.10.21-22.12.49:493][794]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 14.80% of total time (compiled    1 times, average 1.28 sec, max 1.28 sec, min 1.28 sec)
+[2025.10.21-22.12.49:493][794]LogShaderCompilers: Display:                                            FDistortionMeshVS - 12.86% of total time (compiled    1 times, average 1.12 sec, max 1.12 sec, min 1.12 sec)
+[2025.10.21-22.12.49:493][794]LogShaderCompilers: Display: === Material stats ===
+[2025.10.21-22.12.49:494][794]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.21-22.12.49:494][794]LogShaderCompilers: Display: Materials Translated:    168
+[2025.10.21-22.12.49:494][794]LogShaderCompilers: Display: Material Total Translate Time: 0.13 s
+[2025.10.21-22.12.49:494][794]LogShaderCompilers: Display: Material Translation Only: 0.07 s (57%)
+[2025.10.21-22.12.49:494][794]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.10.21-22.12.49:494][794]LogShaderCompilers: Display: Material Cache Hits: 45 (27%)
+[2025.10.21-22.12.49:494][794]LogShaderCompilers: Display: ================================================
+[2025.10.21-22.12.55:222][830]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L.AM_Ghoul_Attack_L
+[2025.10.21-22.12.56:023][869]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.1
+[2025.10.21-22.12.58:056][991]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.1
+[2025.10.21-22.12.59:873][  4]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.1
+[2025.10.21-22.13.32:785][358]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.1
+[2025.10.21-22.13.41:113][854]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.1
+[2025.10.21-22.13.44:080][ 32]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.1
+[2025.10.21-22.14.27:751][312]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.1
+[2025.10.21-22.14.30:435][473]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.1
+[2025.10.21-22.14.38:668][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.10.21-22.14.38:676][930]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.14.38:823][930]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L] ([1] browsable assets)...
+[2025.10.21-22.14.38:833][930]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L.AM_Ghoul_Attack_L]
+[2025.10.21-22.14.38:833][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L]
+[2025.10.21-22.14.38:836][930]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L
+[2025.10.21-22.14.38:837][930]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/AM_Ghoul_Attack_LBC2DA5BD49D217C057120D9199E38047.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L.uasset'
+[2025.10.21-22.14.38:845][930]LogFileHelpers: InternalPromptForCheckoutAndSave took 168.614 ms (total: 4.65 sec)
+[2025.10.21-22.14.38:984][930]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.21-22.14.38:984][930]LogContentValidation: Enabled validators:
+[2025.10.21-22.14.38:984][930]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.14.38:985][930]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.14.38:985][930]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.14.38:985][930]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.14.38:985][930]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.14.38:985][930]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.14.38:985][930]AssetCheck: /Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L Validating asset
+[2025.10.21-22.14.49:688][513]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Assets/Enemies/Ghoul/SKM_Ghoul.SKM_Ghoul
+[2025.10.21-22.14.49:689][513]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2025.10.21-22.14.49:698][513]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.21-22.15.39:483][481]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.10.21-22.15.39:489][481]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.15.39:620][481]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Ghoul/SK_Ghoul] ([1] browsable assets)...
+[2025.10.21-22.15.39:620][481]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Ghoul/SK_Ghoul]
+[2025.10.21-22.15.39:620][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Enemies/Ghoul/SK_Ghoul" FILE="../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Ghoul/SK_Ghoul.uasset" SILENT=true
+[2025.10.21-22.15.39:623][481]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Ghoul/SK_Ghoul
+[2025.10.21-22.15.39:624][481]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/SK_Ghoul33D3F72343731B976BB9978E18E885D1.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Ghoul/SK_Ghoul.uasset'
+[2025.10.21-22.15.39:634][481]LogFileHelpers: InternalPromptForCheckoutAndSave took 144.485 ms (total: 4.80 sec)
+[2025.10.21-22.15.39:770][481]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.21-22.15.39:770][481]LogContentValidation: Enabled validators:
+[2025.10.21-22.15.39:771][481]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.15.39:771][481]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.15.39:771][481]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.15.39:771][481]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.15.39:771][481]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.15.39:771][481]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.15.39:771][481]AssetCheck: /Game/Assets/Enemies/Ghoul/SK_Ghoul Validating asset
+[2025.10.21-22.15.44:839][634]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.10.21-22.15.44:844][634]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.15.45:005][634]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Ghoul/SK_Ghoul] ([1] browsable assets)...
+[2025.10.21-22.15.45:005][634]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Ghoul/SK_Ghoul]
+[2025.10.21-22.15.45:005][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Enemies/Ghoul/SK_Ghoul" FILE="../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Ghoul/SK_Ghoul.uasset" SILENT=true
+[2025.10.21-22.15.45:008][634]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Ghoul/SK_Ghoul
+[2025.10.21-22.15.45:009][634]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/SK_Ghoul5138C309463BBC23E733259B70FE0554.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Ghoul/SK_Ghoul.uasset'
+[2025.10.21-22.15.45:020][634]LogFileHelpers: InternalPromptForCheckoutAndSave took 174.996 ms (total: 4.97 sec)
+[2025.10.21-22.15.45:172][634]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.21-22.15.45:173][634]LogContentValidation: Enabled validators:
+[2025.10.21-22.15.45:173][634]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.15.45:173][634]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.15.45:173][634]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.15.45:173][634]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.15.45:173][634]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.15.45:173][634]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.15.45:173][634]AssetCheck: /Game/Assets/Enemies/Ghoul/SK_Ghoul Validating asset
+[2025.10.21-22.16.46:372][466]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.16.46:506][466]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Ghoul/SKM_Ghoul] ([1] browsable assets)...
+[2025.10.21-22.16.46:506][466]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Ghoul/SKM_Ghoul]
+[2025.10.21-22.16.46:506][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Enemies/Ghoul/SKM_Ghoul" FILE="../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Ghoul/SKM_Ghoul.uasset" SILENT=true
+[2025.10.21-22.16.46:555][466]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Ghoul/SKM_Ghoul
+[2025.10.21-22.16.46:555][466]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/SKM_Ghoul1F4892F3469953CAFB12498D39583FCD.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Ghoul/SKM_Ghoul.uasset'
+[2025.10.21-22.16.46:566][466]LogFileHelpers: InternalPromptForCheckoutAndSave took 193.632 ms (total: 5.17 sec)
+[2025.10.21-22.16.46:701][466]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.21-22.16.46:701][466]LogContentValidation: Enabled validators:
+[2025.10.21-22.16.46:701][466]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.16.46:702][466]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.16.46:702][466]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.16.46:702][466]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.16.46:702][466]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.16.46:702][466]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.16.46:702][466]AssetCheck: /Game/Assets/Enemies/Ghoul/SKM_Ghoul Validating asset
+[2025.10.21-22.16.58:977][ 72]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.16.59:118][ 72]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Ghoul/SKM_Ghoul] ([1] browsable assets)...
+[2025.10.21-22.16.59:118][ 72]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Ghoul/SKM_Ghoul]
+[2025.10.21-22.16.59:118][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Enemies/Ghoul/SKM_Ghoul" FILE="../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Ghoul/SKM_Ghoul.uasset" SILENT=true
+[2025.10.21-22.16.59:127][ 72]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Ghoul/SKM_Ghoul
+[2025.10.21-22.16.59:128][ 72]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/SKM_Ghoul8B3C834F411577E95E1A2DAF70D6D376.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Ghoul/SKM_Ghoul.uasset'
+[2025.10.21-22.16.59:136][ 72]LogFileHelpers: InternalPromptForCheckoutAndSave took 158.674 ms (total: 5.32 sec)
+[2025.10.21-22.16.59:287][ 72]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.21-22.16.59:287][ 72]LogContentValidation: Enabled validators:
+[2025.10.21-22.16.59:288][ 72]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.16.59:288][ 72]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.16.59:288][ 72]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.16.59:288][ 72]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.16.59:288][ 72]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.16.59:288][ 72]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.16.59:288][ 72]AssetCheck: /Game/Assets/Enemies/Ghoul/SKM_Ghoul Validating asset
+[2025.10.21-22.17.10:700][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.10.21-22.17.10:704][734]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.17.10:837][734]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L] ([1] browsable assets)...
+[2025.10.21-22.17.10:837][734]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L]
+[2025.10.21-22.17.10:841][734]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L
+[2025.10.21-22.17.10:842][734]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/AM_Ghoul_Attack_L96BD56AF4D9C4C7C52CC85BA55391961.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L.uasset'
+[2025.10.21-22.17.10:843][734]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Ghoul/SK_Ghoul] ([1] browsable assets)...
+[2025.10.21-22.17.10:843][734]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Ghoul/SK_Ghoul]
+[2025.10.21-22.17.10:843][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Enemies/Ghoul/SK_Ghoul" FILE="../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Ghoul/SK_Ghoul.uasset" SILENT=true
+[2025.10.21-22.17.10:846][734]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Ghoul/SK_Ghoul
+[2025.10.21-22.17.10:846][734]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/SK_Ghoul49B709AC4D719FF655FA9EA1E4AFD168.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Ghoul/SK_Ghoul.uasset'
+[2025.10.21-22.17.10:856][734]LogFileHelpers: InternalPromptForCheckoutAndSave took 152.114 ms (total: 5.48 sec)
+[2025.10.21-22.17.10:990][734]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.21-22.17.10:991][734]LogContentValidation: Enabled validators:
+[2025.10.21-22.17.10:991][734]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.17.10:991][734]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.17.10:991][734]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.17.10:991][734]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.17.10:991][734]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.17.10:991][734]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.17.10:991][734]AssetCheck: /Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L Validating asset
+[2025.10.21-22.17.10:991][734]AssetCheck: /Game/Assets/Enemies/Ghoul/SK_Ghoul Validating asset
+[2025.10.21-22.17.13:667][891]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.17.13:800][891]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L] ([1] browsable assets)...
+[2025.10.21-22.17.13:800][891]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L]
+[2025.10.21-22.17.13:803][891]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L
+[2025.10.21-22.17.13:804][891]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/AM_Ghoul_Attack_L3238C0F54B710F4B007BC0932CD32435.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L.uasset'
+[2025.10.21-22.17.13:814][891]LogFileHelpers: InternalPromptForCheckoutAndSave took 146.510 ms (total: 5.62 sec)
+[2025.10.21-22.17.13:953][891]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.21-22.17.13:953][891]LogContentValidation: Enabled validators:
+[2025.10.21-22.17.13:954][891]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.17.13:954][891]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.17.13:954][891]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.17.13:954][891]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.17.13:954][891]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.17.13:954][891]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.17.13:954][891]AssetCheck: /Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L Validating asset
+[2025.10.21-22.17.14:415][918]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.17.14:549][918]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L] ([1] browsable assets)...
+[2025.10.21-22.17.14:549][918]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L]
+[2025.10.21-22.17.14:553][918]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L
+[2025.10.21-22.17.14:553][918]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/AM_Ghoul_Attack_LEB623FFA4599E9F8A90A5088B3EABAE3.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L.uasset'
+[2025.10.21-22.17.14:563][918]LogFileHelpers: InternalPromptForCheckoutAndSave took 148.895 ms (total: 5.77 sec)
+[2025.10.21-22.17.14:704][918]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.21-22.17.14:704][918]LogContentValidation: Enabled validators:
+[2025.10.21-22.17.14:704][918]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.17.14:704][918]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.17.14:704][918]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.17.14:704][918]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.17.14:704][918]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.17.14:704][918]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.17.14:705][918]AssetCheck: /Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L Validating asset
+[2025.10.21-22.17.16:582][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.10.21-22.17.16:588][ 24]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.17.16:755][ 24]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L] ([1] browsable assets)...
+[2025.10.21-22.17.16:755][ 24]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L]
+[2025.10.21-22.17.16:761][ 24]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L
+[2025.10.21-22.17.16:762][ 24]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/AM_Ghoul_Attack_L2DD951874EA84294F329A7B9F6528005.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L.uasset'
+[2025.10.21-22.17.16:773][ 24]LogFileHelpers: InternalPromptForCheckoutAndSave took 185.779 ms (total: 5.96 sec)
+[2025.10.21-22.17.16:951][ 24]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.21-22.17.16:952][ 24]LogContentValidation: Enabled validators:
+[2025.10.21-22.17.16:952][ 24]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.17.16:952][ 24]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.17.16:952][ 24]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.17.16:952][ 24]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.17.16:952][ 24]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.17.16:952][ 24]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.17.16:952][ 24]AssetCheck: /Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L Validating asset
+[2025.10.21-22.17.27:319][618]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.1
+[2025.10.21-22.17.28:670][699]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.1
+[2025.10.21-22.17.35:626][790]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2104.536133
+[2025.10.21-22.17.36:614][793]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.21-22.17.36:614][793]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2105.223877, Update Interval: 352.355103
+[2025.10.21-22.17.44:749][230]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.1
+[2025.10.21-22.17.46:787][336]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.1
+[2025.10.21-22.17.49:847][456]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.1
+[2025.10.21-22.17.51:883][576]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.1
+[2025.10.21-22.17.53:934][699]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.1
+[2025.10.21-22.17.55:967][821]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.1
+[2025.10.21-22.18.03:246][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.10.21-22.18.03:256][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.18.03:407][ 53]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L] ([1] browsable assets)...
+[2025.10.21-22.18.03:407][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L]
+[2025.10.21-22.18.03:412][ 53]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L
+[2025.10.21-22.18.03:413][ 53]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/AM_Ghoul_Attack_LE29AEBFC42447062984C428B09158B59.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L.uasset'
+[2025.10.21-22.18.03:423][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave took 168.299 ms (total: 6.13 sec)
+[2025.10.21-22.18.03:571][ 53]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.21-22.18.03:571][ 53]LogContentValidation: Enabled validators:
+[2025.10.21-22.18.03:571][ 53]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.18.03:572][ 53]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.18.03:572][ 53]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.18.03:572][ 53]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.18.03:572][ 53]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.18.03:572][ 53]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.18.03:572][ 53]AssetCheck: /Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L Validating asset
+[2025.10.21-22.18.09:129][214]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_R.AM_Ghoul_Attack_R
+[2025.10.21-22.18.09:990][256]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.2
+[2025.10.21-22.18.12:020][377]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.2
+[2025.10.21-22.18.14:072][495]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.2
+[2025.10.21-22.18.16:117][616]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.2
+[2025.10.21-22.18.18:146][737]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.2
+[2025.10.21-22.18.19:900][842]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.2
+[2025.10.21-22.18.38:608][943]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_27
+[2025.10.21-22.18.39:786][  2]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2025.10.21-22.18.39:786][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.21-22.18.39:816][  3]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.10.21-22.18.45:238][325]LogAbilitySystem: Error: UAbilitySystemBlueprintLibrary::SendGameplayEventToActor: Invalid ability system component retrieved from Actor AnimationEditorPreviewActor_0. EventTag was Montage.Attack.2
+[2025.10.21-22.18.49:833][577]LogShaderCompilers: Display: ================================================
+[2025.10.21-22.18.49:833][577]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.21-22.18.49:833][577]LogShaderCompilers: Display: Total job queries 380, among them cache hits 87 (22.89%), DDC hits 271 (71.32%), Duplicates 8 (2.11%)
+[2025.10.21-22.18.49:833][577]LogShaderCompilers: Display: Tracking 285 distinct input hashes that result in 233 distinct outputs (81.75%)
+[2025.10.21-22.18.49:833][577]LogShaderCompilers: Display: RAM used: 151.03 KiB of 819.20 MiB budget. Usage: 0.02%
+[2025.10.21-22.18.49:833][577]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.21-22.18.49:833][577]LogShaderCompilers: Display: Shaders Compiled: 14
+[2025.10.21-22.18.49:833][577]LogShaderCompilers: Display: Jobs assigned 14, completed 14 (100%)
+[2025.10.21-22.18.49:833][577]LogShaderCompilers: Display: Average time worker was idle: 153.27 s
+[2025.10.21-22.18.49:833][577]LogShaderCompilers: Display: Time job spent in pending queue: average 0.36 s, longest 2.29 s
+[2025.10.21-22.18.49:834][577]LogShaderCompilers: Display: Job execution time: average 1.79 s, max 3.21 s
+[2025.10.21-22.18.49:834][577]LogShaderCompilers: Display: Job life time (pending + execution): average 2.16 s, max 3.33
+[2025.10.21-22.18.49:834][577]LogShaderCompilers: Display: Shader code size: average 8.928 KiB, min 2.041 KiB, max 17.835 KiB
+[2025.10.21-22.18.49:834][577]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.15 s
+[2025.10.21-22.18.49:834][577]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.10.21-22.18.49:834][577]LogShaderCompilers: Display: Jobs were issued in 14 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.21-22.18.49:834][577]LogShaderCompilers: Display: Average processing rate: 1.53 jobs/sec
+[2025.10.21-22.18.49:834][577]LogShaderCompilers: Display: Total thread time: 12.846 s
+[2025.10.21-22.18.49:835][577]LogShaderCompilers: Display: Total thread preprocess time: 9.013 s
+[2025.10.21-22.18.49:835][577]LogShaderCompilers: Display: Percentage time preprocessing: 70.16%
+[2025.10.21-22.18.49:835][577]LogShaderCompilers: Display: Effective parallelization: 1.40 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2025.10.21-22.18.49:835][577]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.21-22.18.49:835][577]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    1 times, average 1.90 sec, max 1.90 sec, min 1.90 sec)
+[2025.10.21-22.18.49:835][577]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 1.29 sec, max 1.38 sec, min 1.21 sec)
+[2025.10.21-22.18.49:835][577]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 1.21 sec, max 1.28 sec, min 1.13 sec)
+[2025.10.21-22.18.49:835][577]LogShaderCompilers: Display:                                            FDistortionMeshPS (compiled    2 times, average 1.15 sec, max 1.38 sec, min 0.91 sec)
+[2025.10.21-22.18.49:835][577]LogShaderCompilers: Display:                                            FDistortionMeshVS (compiled    2 times, average 1.02 sec, max 1.12 sec, min 0.92 sec)
+[2025.10.21-22.18.49:835][577]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.21-22.18.49:835][577]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.16% of total time (compiled    2 times, average 1.29 sec, max 1.38 sec, min 1.21 sec)
+[2025.10.21-22.18.49:836][577]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 18.76% of total time (compiled    2 times, average 1.21 sec, max 1.28 sec, min 1.13 sec)
+[2025.10.21-22.18.49:836][577]LogShaderCompilers: Display:                                            FDistortionMeshPS - 17.89% of total time (compiled    2 times, average 1.15 sec, max 1.38 sec, min 0.91 sec)
+[2025.10.21-22.18.49:836][577]LogShaderCompilers: Display:                                            FDistortionMeshVS - 15.85% of total time (compiled    2 times, average 1.02 sec, max 1.12 sec, min 0.92 sec)
+[2025.10.21-22.18.49:836][577]LogShaderCompilers: Display:                                                 FLumenCardPS - 14.81% of total time (compiled    1 times, average 1.90 sec, max 1.90 sec, min 1.90 sec)
+[2025.10.21-22.18.49:836][577]LogShaderCompilers: Display: === Material stats ===
+[2025.10.21-22.18.49:836][577]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.21-22.18.49:836][577]LogShaderCompilers: Display: Materials Translated:    168
+[2025.10.21-22.18.49:836][577]LogShaderCompilers: Display: Material Total Translate Time: 0.13 s
+[2025.10.21-22.18.49:836][577]LogShaderCompilers: Display: Material Translation Only: 0.07 s (57%)
+[2025.10.21-22.18.49:836][577]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.10.21-22.18.49:836][577]LogShaderCompilers: Display: Material Cache Hits: 45 (27%)
+[2025.10.21-22.18.49:836][577]LogShaderCompilers: Display: ================================================
+[2025.10.21-22.18.59:456][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.10.21-22.18.59:461][129]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.18.59:601][129]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_R] ([1] browsable assets)...
+[2025.10.21-22.18.59:609][129]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_R.AM_Ghoul_Attack_R]
+[2025.10.21-22.18.59:609][129]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_R]
+[2025.10.21-22.18.59:612][129]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_R
+[2025.10.21-22.18.59:613][129]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/AM_Ghoul_Attack_R321ED17A4A73BECB166C5997325C4ED4.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_R.uasset'
+[2025.10.21-22.18.59:622][129]LogFileHelpers: InternalPromptForCheckoutAndSave took 160.663 ms (total: 6.29 sec)
+[2025.10.21-22.18.59:768][129]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.21-22.18.59:769][129]LogContentValidation: Enabled validators:
+[2025.10.21-22.18.59:769][129]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.18.59:769][129]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.18.59:769][129]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.18.59:769][129]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.18.59:769][129]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.18.59:769][129]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.18.59:769][129]AssetCheck: /Game/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_R Validating asset
+[2025.10.21-22.19.04:513][360]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.21-22.19.04:538][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.21-22.19.04:538][360]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.10.21-22.19.04:556][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017778s)
+[2025.10.21-22.19.04:556][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.018017s)
+[2025.10.21-22.19.04:576][360]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.10.21-22.19.04:577][360]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.10.21-22.19.04:579][360]LogPlayLevel: PIE: World Init took: (0.001998s)
+[2025.10.21-22.19.04:580][360]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.10.21-22.19.04:581][360]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.21-22.19.04:581][360]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.21-22.19.04:581][360]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.21-22.19.04:581][360]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.21-22.19.04:581][360]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.21-22.19.04:581][360]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.21-22.19.04:581][360]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.21-22.19.04:582][360]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.21-22.19.04:582][360]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.21-22.19.04:582][360]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.21-22.19.04:582][360]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.21-22.19.04:584][360]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.21-22.19.04:617][360]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2025.10.21-22.19.04:618][360]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.21-22.19.04:618][360]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.21-22.19.04:618][360]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.21-22.19.04:619][360]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.10.21-22.19.04:619][360]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.10.21-22.19.04:622][360]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.10.21-22.19.04:622][360]LogInit: FAudioDevice initialized with ID 13.
+[2025.10.21-22.19.04:622][360]LogAudio: Display: Audio Device (ID: 13) registered with world 'StartupMap'.
+[2025.10.21-22.19.04:622][360]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.10.21-22.19.04:622][360]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.10.21-22.19.04:625][360]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.10.21-22.19.04:636][360]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2025.10.21-15.19.04
+[2025.10.21-22.19.04:639][360]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2025.10.21-22.19.04:641][360]LogWorld: Bringing up level for play took: 0.015267
+[2025.10.21-22.19.04:645][360]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.21-22.19.04:646][360]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2025.10.21-22.19.04:646][360]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2025.10.21-22.19.04:646][360]LogPushModel: PushModel HandleCreation is now enabled
+[2025.10.21-22.19.04:646][360]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.10.21-22.19.04:647][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.10.21-22.19.04:647][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.10.21-22.19.04:647][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.10.21-22.19.04:647][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.10.21-22.19.04:647][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.10.21-22.19.04:647][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.10.21-22.19.04:647][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.10.21-22.19.04:647][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.10.21-22.19.04:647][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.10.21-22.19.04:647][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.10.21-22.19.04:648][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.10.21-22.19.04:648][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.10.21-22.19.04:648][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.10.21-22.19.04:648][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.10.21-22.19.04:648][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.10.21-22.19.04:648][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.10.21-22.19.04:648][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.10.21-22.19.04:648][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.10.21-22.19.04:648][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.10.21-22.19.04:649][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.10.21-22.19.04:649][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.10.21-22.19.04:649][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.10.21-22.19.04:649][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.10.21-22.19.04:649][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.10.21-22.19.04:649][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.10.21-22.19.04:649][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.10.21-22.19.04:649][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.10.21-22.19.04:649][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.10.21-22.19.04:649][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.10.21-22.19.04:649][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.10.21-22.19.04:649][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.10.21-22.19.04:649][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.10.21-22.19.04:650][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.10.21-22.19.04:650][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.10.21-22.19.04:650][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.10.21-22.19.04:650][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.10.21-22.19.04:650][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.10.21-22.19.04:650][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.10.21-22.19.04:650][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.10.21-22.19.04:650][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.10.21-22.19.04:650][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.10.21-22.19.04:650][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.10.21-22.19.04:650][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.10.21-22.19.04:651][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.10.21-22.19.04:651][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.10.21-22.19.04:651][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.10.21-22.19.04:651][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.10.21-22.19.04:651][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.10.21-22.19.04:651][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.10.21-22.19.04:651][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.10.21-22.19.04:651][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.10.21-22.19.04:651][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.10.21-22.19.04:651][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.10.21-22.19.04:652][360]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.10.21-22.19.04:653][360]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2025.10.21-22.19.04:653][360]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2025.10.21-22.19.04:653][360]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.10.21-22.19.04:653][360]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_11 IpNetDriver listening on port 17777
+[2025.10.21-22.19.04:655][360]LogTemp: Warning: Changed Health on BP_Ghoul_C_2, Health: 18.750000
+[2025.10.21-22.19.04:655][360]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.10.21-22.19.04:656][360]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.10.21-22.19.04:657][360]PIE: Server logged in
+[2025.10.21-22.19.04:658][360]PIE: Play in editor total start time 0.133 seconds.
+[2025.10.21-22.19.08:935][610]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Fire on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.08:935][610]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.08:935][610]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.09:918][669]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.21-22.19.11:302][752]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Fire on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.11:302][752]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.11:302][752]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.12:285][811]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.21-22.19.14:335][934]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Fire on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.14:335][934]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.14:335][934]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.15:318][993]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.21-22.19.17:132][101]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Fire on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.17:132][101]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.17:132][101]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.18:132][154]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.21-22.19.20:432][292]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Fire on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.20:433][292]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.20:433][292]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.21:198][338]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 18.342905
+[2025.10.21-22.19.21:232][340]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 28.342905
+[2025.10.21-22.19.21:414][351]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.21-22.19.21:416][351]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.21-22.19.23:665][486]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Fire on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.23:665][486]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.23:665][486]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.24:648][545]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.21-22.19.26:365][648]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Fire on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.26:365][648]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.26:365][648]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.27:348][707]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.21-22.19.29:015][807]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Fire on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.29:016][807]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.29:016][807]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.21-22.19.29:999][866]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.21-22.19.37:855][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.21-22.19.37:855][335]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.10.21-22.19.37:855][335]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.21-22.19.37:858][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.21-22.19.37:859][335]LogNet: World NetDriver shutdown IpNetDriver_11 [GameNetDriver]
+[2025.10.21-22.19.37:859][335]LogNet: DestroyNamedNetDriver IpNetDriver_11 [GameNetDriver]
+[2025.10.21-22.19.37:859][335]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_11 shut down
+[2025.10.21-22.19.37:862][335]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.21-22.19.37:868][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.21-22.19.37:891][335]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.21-22.19.37:891][335]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.10.21-22.19.37:892][335]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.10.21-22.19.37:894][335]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.10.21-22.19.37:942][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.21-22.19.37:948][335]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2025.10.21-22.19.38:044][336]LogPlayLevel: Display: Destroying online subsystem :Context_40
