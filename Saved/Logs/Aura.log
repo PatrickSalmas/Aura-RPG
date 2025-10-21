@@ -4589,3 +4589,297 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.21-22.19.37:942][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2025.10.21-22.19.37:948][335]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
 [2025.10.21-22.19.38:044][336]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2025.10.21-22.23.52:348][125]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2481.264404
+[2025.10.21-22.23.53:360][128]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.21-22.23.53:360][128]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2481.928467, Update Interval: 331.515259
+[2025.10.21-22.24.55:159][885]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_28
+[2025.10.21-22.25.03:625][316]LogStreaming: Display: FlushAsyncLoading(529): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.21-22.25.03:663][316]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Assets/Enemies/Shaman/Animations/Shaman_Summon.Shaman_Summon (Required Memory Estimate: 11.39 MB)
+[2025.10.21-22.25.03:665][316]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Assets/Enemies/Shaman/Animations/Shaman_Summon.Shaman_Summon
+[2025.10.21-22.25.03:666][316]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_29
+[2025.10.21-22.25.03:704][316]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.21-22.25.03:725][316]LogAnimationCompression: Display: Storing compressed animation data for /Game/Assets/Enemies/Shaman/Animations/Shaman_Summon.Shaman_Summon, at AnimationSequence/434037639fb9bb048f606d99457c72e6fbda4c40
+[2025.10.21-22.25.04:061][316]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_30
+[2025.10.21-22.25.04:608][316]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_31
+[2025.10.21-22.25.09:268][557]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2025.10.21-22.25.09:269][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.21-22.25.09:280][557]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2025.10.21-22.25.09:280][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.21-22.25.09:342][557]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2025.10.21-22.25.09:343][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.21-22.25.09:391][557]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.10.21-22.26.31:654][329]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.10.21-22.26.31:691][329]LogContentBrowser: Creating deferred item: NewFolder
+[2025.10.21-22.26.31:721][330]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.10.21-22.26.37:181][657]LogContentBrowser: Attempting asset rename: NewFolder -> Demon
+[2025.10.21-22.26.37:183][657]LogContentBrowser: End creating deferred item NewFolder
+[2025.10.21-22.26.42:833][971]LogContentBrowser: Deferred new asset file creation: BP_EnemyBase_Child
+[2025.10.21-22.26.42:871][971]LogContentBrowser: Creating deferred item: BP_EnemyBase_Child
+[2025.10.21-22.26.42:888][972]LogContentBrowser: Renaming the item being created (Deferred Item: BP_EnemyBase_Child).
+[2025.10.21-22.26.44:434][994]LogContentBrowser: Attempting asset rename: BP_EnemyBase_Child -> BP_EnemyBase_Child
+[2025.10.21-22.26.44:446][994]LogContentBrowser: End creating deferred item BP_EnemyBase_Child
+[2025.10.21-22.26.44:654][995]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/BP_EnemyBase_Child.BP_EnemyBase_Child
+[2025.10.21-22.26.44:655][995]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_32
+[2025.10.21-22.26.45:184][995]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_Child_C /Engine/Transient.World_32:PersistentLevel.BP_EnemyBase_Child_C_0)
+[2025.10.21-22.26.45:184][995]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_Child_C /Engine/Transient.World_32:PersistentLevel.BP_EnemyBase_Child_C_0)
+[2025.10.21-22.26.45:184][995]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_Child_C /Engine/Transient.World_32:PersistentLevel.BP_EnemyBase_Child_C_0)
+[2025.10.21-22.26.45:222][995]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_Child_C /Engine/Transient.World_32:PersistentLevel.BP_EnemyBase_Child_C_0)
+[2025.10.21-22.26.45:222][995]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_Child_C /Engine/Transient.World_32:PersistentLevel.BP_EnemyBase_Child_C_0)
+[2025.10.21-22.26.45:222][995]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_Child_C /Engine/Transient.World_32:PersistentLevel.BP_EnemyBase_Child_C_0)
+[2025.10.21-22.26.45:223][995]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_Child_C /Engine/Transient.World_32:PersistentLevel.BP_EnemyBase_Child_C_0)
+[2025.10.21-22.26.47:969][140]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2025.10.21-22.26.47:970][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.21-22.26.48:084][140]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.10.21-22.26.59:707][820]LogContentBrowser: Attempting asset rename: BP_EnemyBase_Child -> BP_Demon
+[2025.10.21-22.26.59:877][820]LogMetaData: Removing '/Game/Blueprints/Character/BP_Demon.BP_Demon:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Character/BP_EnemyBase_Child.PackageMetaData'
+[2025.10.21-22.26.59:877][820]LogMetaData: Removing '/Game/Blueprints/Character/BP_Demon.SKEL_BP_Demon_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Character/BP_EnemyBase_Child.PackageMetaData'
+[2025.10.21-22.26.59:877][820]LogMetaData: Removing '/Game/Blueprints/Character/BP_Demon.SKEL_BP_Demon_C' ref from Metadata '/Game/Blueprints/Character/BP_EnemyBase_Child.PackageMetaData'
+[2025.10.21-22.26.59:878][820]LogMetaData: Removing '/Game/Blueprints/Character/BP_Demon.BP_Demon_C' ref from Metadata '/Game/Blueprints/Character/BP_EnemyBase_Child.PackageMetaData'
+[2025.10.21-22.26.59:878][820]LogMetaData: Removing '/Game/Blueprints/Character/BP_Demon.BP_Demon:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Character/BP_EnemyBase_Child.PackageMetaData'
+[2025.10.21-22.26.59:878][820]LogMetaData: Removing '/Game/Blueprints/Character/BP_Demon.BP_Demon:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Character/BP_EnemyBase_Child.PackageMetaData'
+[2025.10.21-22.26.59:878][820]LogMetaData: Removing '/Game/Blueprints/Character/BP_Demon.BP_Demon:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Character/BP_EnemyBase_Child.PackageMetaData'
+[2025.10.21-22.26.59:878][820]LogMetaData: Removing '/Game/Blueprints/Character/BP_Demon.BP_Demon:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/Character/BP_EnemyBase_Child.PackageMetaData'
+[2025.10.21-22.26.59:878][820]LogMetaData: Removing '/Game/Blueprints/Character/BP_Demon.BP_Demon:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Character/BP_EnemyBase_Child.PackageMetaData'
+[2025.10.21-22.26.59:878][820]LogMetaData: Removing '/Game/Blueprints/Character/BP_Demon.BP_Demon:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Character/BP_EnemyBase_Child.PackageMetaData'
+[2025.10.21-22.26.59:915][820]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.26.59:916][820]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_Demon] ([2] browsable assets)...
+[2025.10.21-22.26.59:916][820]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_Demon]
+[2025.10.21-22.26.59:916][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_Demon" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/BP_Demon.uasset" SILENT=true
+[2025.10.21-22.26.59:923][820]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_Demon
+[2025.10.21-22.26.59:923][820]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_Demon3680B6CF411EA415BBA8B39B101E46BF.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/BP_Demon.uasset'
+[2025.10.21-22.26.59:932][820]LogFileHelpers: InternalPromptForCheckoutAndSave took 16.953 ms (total: 6.30 sec)
+[2025.10.21-22.26.59:963][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.10.21-22.26.59:986][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.10.21-22.27.00:007][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.10.21-22.27.00:156][820]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.21-22.27.00:156][820]LogContentValidation: Enabled validators:
+[2025.10.21-22.27.00:157][820]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.27.00:157][820]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.27.00:157][820]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.27.00:157][820]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.27.00:157][820]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.27.00:157][820]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.27.00:157][820]AssetCheck: /Game/Blueprints/Character/BP_Demon Validating asset
+[2025.10.21-22.27.05:452][976]LogMetaData: Removing '/Game/Blueprints/Character/Demon/BP_Demon.BP_Demon_C' ref from Metadata '/Game/Blueprints/Character/BP_Demon.PackageMetaData'
+[2025.10.21-22.27.05:453][976]LogMetaData: Removing '/Game/Blueprints/Character/Demon/BP_Demon.SKEL_BP_Demon_C' ref from Metadata '/Game/Blueprints/Character/BP_Demon.PackageMetaData'
+[2025.10.21-22.27.05:453][976]LogMetaData: Removing '/Game/Blueprints/Character/Demon/BP_Demon.SKEL_BP_Demon_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Character/BP_Demon.PackageMetaData'
+[2025.10.21-22.27.05:454][976]LogMetaData: Removing '/Game/Blueprints/Character/Demon/BP_Demon.BP_Demon:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Character/BP_Demon.PackageMetaData'
+[2025.10.21-22.27.05:454][976]LogMetaData: Removing '/Game/Blueprints/Character/Demon/BP_Demon.BP_Demon:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Character/BP_Demon.PackageMetaData'
+[2025.10.21-22.27.05:454][976]LogMetaData: Removing '/Game/Blueprints/Character/Demon/BP_Demon.BP_Demon:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Character/BP_Demon.PackageMetaData'
+[2025.10.21-22.27.05:454][976]LogMetaData: Removing '/Game/Blueprints/Character/Demon/BP_Demon.BP_Demon:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Character/BP_Demon.PackageMetaData'
+[2025.10.21-22.27.05:454][976]LogMetaData: Removing '/Game/Blueprints/Character/Demon/BP_Demon.BP_Demon:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/Character/BP_Demon.PackageMetaData'
+[2025.10.21-22.27.05:454][976]LogMetaData: Removing '/Game/Blueprints/Character/Demon/BP_Demon.BP_Demon:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Character/BP_Demon.PackageMetaData'
+[2025.10.21-22.27.05:454][976]LogMetaData: Removing '/Game/Blueprints/Character/Demon/BP_Demon.BP_Demon:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Character/BP_Demon.PackageMetaData'
+[2025.10.21-22.27.05:493][976]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.27.05:493][976]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/Demon/BP_Demon] ([2] browsable assets)...
+[2025.10.21-22.27.05:493][976]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Demon/BP_Demon]
+[2025.10.21-22.27.05:493][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Demon/BP_Demon" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Demon/BP_Demon.uasset" SILENT=true
+[2025.10.21-22.27.05:499][976]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Demon/BP_Demon
+[2025.10.21-22.27.05:499][976]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_DemonB70E9571432882CC40F6EE92CEB13BA9.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Demon/BP_Demon.uasset'
+[2025.10.21-22.27.05:506][976]LogFileHelpers: InternalPromptForCheckoutAndSave took 12.895 ms (total: 6.32 sec)
+[2025.10.21-22.27.05:556][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.10.21-22.27.05:577][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.10.21-22.27.05:597][976]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.10.21-22.27.05:685][976]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.10.21-22.27.05:685][976]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.21-22.27.05:685][976]LogContentValidation: Enabled validators:
+[2025.10.21-22.27.05:686][976]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.27.05:686][976]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.27.05:686][976]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.27.05:686][976]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.27.05:686][976]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.27.05:686][976]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.27.05:686][976]AssetCheck: /Game/Blueprints/Character/Demon/BP_Demon Validating asset
+[2025.10.21-22.27.12:648][338]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_33
+[2025.10.21-22.27.12:677][338]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_34
+[2025.10.21-22.27.12:693][338]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_35
+[2025.10.21-22.27.12:719][338]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_36
+[2025.10.21-22.27.12:741][338]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_37
+[2025.10.21-22.27.12:761][338]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_38
+[2025.10.21-22.27.23:087][338]LogSlate: Window 'Compatible Skeleton for Animation Blueprint' being destroyed
+[2025.10.21-22.27.23:092][338]LogStreaming: Display: FlushAsyncLoading(530): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.21-22.27.23:099][338]LogContentBrowser: Deferred new asset file creation: ABP_Enemy_Child
+[2025.10.21-22.27.23:110][338]LogContentBrowser: Creating deferred item: ABP_Enemy_Child
+[2025.10.21-22.27.23:134][339]LogContentBrowser: Renaming the item being created (Deferred Item: ABP_Enemy_Child).
+[2025.10.21-22.27.28:101][633]LogContentBrowser: Attempting asset rename: ABP_Enemy_Child -> ABP_Demon
+[2025.10.21-22.27.28:113][633]LogContentBrowser: End creating deferred item ABP_Enemy_Child
+[2025.10.21-22.27.28:114][633]LogStreaming: Display: FlushAsyncLoading(531): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.21-22.27.28:540][653]LogTexture: Display: Building textures: /Game/Assets/Enemies/Demon/Materials_Red/DemonRed/Demon_low_M_Demon_BaseColor.Demon_low_M_Demon_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.10.21-22.27.29:140][684]LogSkeletalMesh: Building Skeletal Mesh SKM_Demon...
+[2025.10.21-22.27.29:431][688]LogSkeletalMesh: Built Skeletal Mesh [0.29s] /Game/Assets/Enemies/Demon/SKM_Demon.SKM_Demon
+[2025.10.21-22.27.29:786][689]LogTexture: Display: Building textures: /Game/Assets/Enemies/Demon/Materials_Red/DemonRed/Demon_low_M_Demon_Normal.Demon_low_M_Demon_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.10.21-22.27.30:400][691]LogTexture: Display: Building textures: /Game/Assets/Enemies/Demon/Materials_Red/DemonRed/Demon_low_M_Demon_OcclusionRoughnessMetallic.Demon_low_M_Demon_OcclusionRoughnessMetallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.10.21-22.27.33:327][701]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Blueprints/Character/ABP_Demon.ABP_Demon
+[2025.10.21-22.27.33:328][701]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_39
+[2025.10.21-22.27.33:340][701]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_40
+[2025.10.21-22.27.33:350][701]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_40:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.21-22.27.33:751][701]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_41
+[2025.10.21-22.27.34:226][701]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_42
+[2025.10.21-22.27.34:418][705]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_43
+[2025.10.21-22.27.38:942][935]LogMetaData: Removing '/Game/Blueprints/Character/Demon/ABP_Demon.SKEL_ABP_Demon_C' ref from Metadata '/Game/Blueprints/Character/ABP_Demon.PackageMetaData'
+[2025.10.21-22.27.38:943][935]LogMetaData: Removing '/Game/Blueprints/Character/Demon/ABP_Demon.ABP_Demon_C' ref from Metadata '/Game/Blueprints/Character/ABP_Demon.PackageMetaData'
+[2025.10.21-22.27.38:943][935]LogMetaData: Removing '/Game/Blueprints/Character/Demon/ABP_Demon.ABP_Demon:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Character/ABP_Demon.PackageMetaData'
+[2025.10.21-22.27.38:943][935]LogMetaData: Removing '/Game/Blueprints/Character/Demon/ABP_Demon.ABP_Demon:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Character/ABP_Demon.PackageMetaData'
+[2025.10.21-22.27.38:943][935]LogMetaData: Removing '/Game/Blueprints/Character/Demon/ABP_Demon.ABP_Demon:EventGraph.K2Node_CallFunction_0' ref from Metadata '/Game/Blueprints/Character/ABP_Demon.PackageMetaData'
+[2025.10.21-22.27.38:983][935]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.27.38:984][935]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Character/Demon/ABP_Demon] ([2] browsable assets)...
+[2025.10.21-22.27.38:992][935]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Character/Demon/ABP_Demon.ABP_Demon]
+[2025.10.21-22.27.38:992][935]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Demon/ABP_Demon]
+[2025.10.21-22.27.38:992][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Demon/ABP_Demon" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Demon/ABP_Demon.uasset" SILENT=true
+[2025.10.21-22.27.38:996][935]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Demon/ABP_Demon
+[2025.10.21-22.27.38:997][935]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/ABP_DemonB1535ADC4B4546B40AB690B7D8F445F1.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Demon/ABP_Demon.uasset'
+[2025.10.21-22.27.39:015][935]LogFileHelpers: InternalPromptForCheckoutAndSave took 31.831 ms (total: 6.35 sec)
+[2025.10.21-22.27.39:081][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.10.21-22.27.39:103][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.10.21-22.27.39:125][935]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.10.21-22.27.39:221][935]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.10.21-22.27.39:222][935]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.21-22.27.39:222][935]LogContentValidation: Enabled validators:
+[2025.10.21-22.27.39:222][935]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.27.39:222][935]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.27.39:222][935]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.27.39:222][935]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.27.39:222][935]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.27.39:222][935]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.27.39:223][935]AssetCheck: /Game/Blueprints/Character/Demon/ABP_Demon Validating asset
+[2025.10.21-22.27.40:357][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.10.21-22.27.48:071][128]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/Demon/BP_Demon.BP_Demon
+[2025.10.21-22.27.48:071][128]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_44
+[2025.10.21-22.27.48:691][128]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Demon_C /Engine/Transient.World_44:PersistentLevel.BP_Demon_C_0)
+[2025.10.21-22.27.48:691][128]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Demon_C /Engine/Transient.World_44:PersistentLevel.BP_Demon_C_0)
+[2025.10.21-22.27.48:691][128]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Demon_C /Engine/Transient.World_44:PersistentLevel.BP_Demon_C_0)
+[2025.10.21-22.27.50:632][234]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2025.10.21-22.27.50:632][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.21-22.27.50:670][234]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/Demon/BP_Demon.BP_Demon
+[2025.10.21-22.27.50:671][234]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_45
+[2025.10.21-22.27.51:108][234]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Demon_C /Engine/Transient.World_45:PersistentLevel.BP_Demon_C_0)
+[2025.10.21-22.27.51:108][234]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Demon_C /Engine/Transient.World_45:PersistentLevel.BP_Demon_C_0)
+[2025.10.21-22.27.51:108][234]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Demon_C /Engine/Transient.World_45:PersistentLevel.BP_Demon_C_0)
+[2025.10.21-22.27.51:171][234]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.10.21-22.27.52:743][302]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Demon_C /Engine/Transient.World_45:PersistentLevel.BP_Demon_C_0)
+[2025.10.21-22.27.52:743][302]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Demon_C /Engine/Transient.World_45:PersistentLevel.BP_Demon_C_0)
+[2025.10.21-22.27.52:743][302]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Demon_C /Engine/Transient.World_45:PersistentLevel.BP_Demon_C_0)
+[2025.10.21-22.27.52:744][302]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Demon_C /Engine/Transient.World_45:PersistentLevel.BP_Demon_C_0)
+[2025.10.21-22.28.05:227][595]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SkeletalMesh_64.svg'. File could not be found
+[2025.10.21-22.28.05:312][598]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_46
+[2025.10.21-22.28.05:350][600]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_47
+[2025.10.21-22.28.05:372][601]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_48
+[2025.10.21-22.28.05:394][602]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_49
+[2025.10.21-22.28.05:452][605]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_50
+[2025.10.21-22.28.06:991][687]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_51
+[2025.10.21-22.29.14:572][255]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2025.10.21-22.29.14:578][255]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.29.14:725][255]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Character/Demon/BP_Demon] ([2] browsable assets)...
+[2025.10.21-22.29.14:726][255]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_52
+[2025.10.21-22.29.14:749][255]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Blueprints/Character/Demon/BP_Demon.BP_Demon_C]
+[2025.10.21-22.29.14:758][255]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Demon/BP_Demon.BP_Demon]
+[2025.10.21-22.29.14:758][255]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Demon/BP_Demon]
+[2025.10.21-22.29.14:758][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Demon/BP_Demon" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Demon/BP_Demon.uasset" SILENT=true
+[2025.10.21-22.29.14:764][255]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Demon/BP_Demon
+[2025.10.21-22.29.14:764][255]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_Demon2472289D49BEB1FA35EF68BD7A281AAE.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Demon/BP_Demon.uasset'
+[2025.10.21-22.29.14:773][255]LogFileHelpers: InternalPromptForCheckoutAndSave took 194.801 ms (total: 6.54 sec)
+[2025.10.21-22.29.14:908][255]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.21-22.29.14:908][255]LogContentValidation: Enabled validators:
+[2025.10.21-22.29.14:909][255]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.29.14:909][255]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.29.14:909][255]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.29.14:909][255]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.29.14:909][255]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.29.14:909][255]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.29.14:909][255]AssetCheck: /Game/Blueprints/Character/Demon/BP_Demon Validating asset
+[2025.10.21-22.29.39:257][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.10.21-22.29.39:263][513]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.29.39:427][513]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Demon/BP_Demon] ([2] browsable assets)...
+[2025.10.21-22.29.39:437][513]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Demon/BP_Demon.BP_Demon]
+[2025.10.21-22.29.39:437][513]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Demon/BP_Demon]
+[2025.10.21-22.29.39:437][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Demon/BP_Demon" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Demon/BP_Demon.uasset" SILENT=true
+[2025.10.21-22.29.39:442][513]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Demon/BP_Demon
+[2025.10.21-22.29.39:443][513]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_Demon375A53F0491CD3FB3742D6A0FE65A416.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Demon/BP_Demon.uasset'
+[2025.10.21-22.29.39:451][513]LogFileHelpers: InternalPromptForCheckoutAndSave took 188.296 ms (total: 6.73 sec)
+[2025.10.21-22.29.39:611][513]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.21-22.29.39:611][513]LogContentValidation: Enabled validators:
+[2025.10.21-22.29.39:611][513]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.29.39:612][513]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.29.39:612][513]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.29.39:612][513]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.29.39:612][513]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.29.39:612][513]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.29.39:612][513]AssetCheck: /Game/Blueprints/Character/Demon/BP_Demon Validating asset
+[2025.10.21-22.29.41:372][535]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.10.21-22.29.55:973][174]LogStreaming: Display: FlushAsyncLoading(532): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.21-22.29.55:999][174]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Assets/Enemies/Demon/Animations/Demon_Red_Run.Demon_Red_Run (Required Memory Estimate: 3.77 MB)
+[2025.10.21-22.29.56:000][174]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Assets/Enemies/Demon/Animations/Demon_Red_Idle.Demon_Red_Idle (Required Memory Estimate: 22.40 MB)
+[2025.10.21-22.29.56:031][174]LogAnimationCompression: Display: Storing compressed animation data for /Game/Assets/Enemies/Demon/Animations/Demon_Red_Run.Demon_Red_Run, at AnimationSequence/e88b0ae9599c8cc162bb8729f13dc994a3ebe119
+[2025.10.21-22.29.56:133][178]LogAnimationCompression: Display: Storing compressed animation data for /Game/Assets/Enemies/Demon/Animations/Demon_Red_Idle.Demon_Red_Idle, at AnimationSequence/1ad0c1966b8a5d4ff02cfe37ffcf02fbe110994b
+[2025.10.21-22.29.57:027][231]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2845.943115
+[2025.10.21-22.29.57:178][240]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.21-22.29.57:178][240]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2846.077393, Update Interval: 342.269348
+[2025.10.21-22.29.57:769][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.10.21-22.29.58:920][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.10.21-22.29.58:925][333]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.29.59:057][333]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Character/Demon/ABP_Demon] ([2] browsable assets)...
+[2025.10.21-22.29.59:066][333]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Character/Demon/ABP_Demon.ABP_Demon]
+[2025.10.21-22.29.59:067][333]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Demon/ABP_Demon]
+[2025.10.21-22.29.59:067][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Demon/ABP_Demon" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Demon/ABP_Demon.uasset" SILENT=true
+[2025.10.21-22.29.59:070][333]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Demon/ABP_Demon
+[2025.10.21-22.29.59:071][333]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/ABP_DemonDBC5D4BD40F0F99CDD9650BA384FBDB5.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Demon/ABP_Demon.uasset'
+[2025.10.21-22.29.59:079][333]LogFileHelpers: InternalPromptForCheckoutAndSave took 154.654 ms (total: 6.89 sec)
+[2025.10.21-22.29.59:221][333]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.21-22.29.59:221][333]LogContentValidation: Enabled validators:
+[2025.10.21-22.29.59:222][333]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.29.59:222][333]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.29.59:222][333]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.29.59:222][333]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.29.59:222][333]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.29.59:222][333]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.29.59:222][333]AssetCheck: /Game/Blueprints/Character/Demon/ABP_Demon Validating asset
+[2025.10.21-22.30.14:579][ 25]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'DefaultForeground'.'
+[2025.10.21-22.30.19:099][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.10.21-22.30.19:104][266]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.30.19:237][266]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Demon/BP_Demon] ([2] browsable assets)...
+[2025.10.21-22.30.19:245][266]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Demon/BP_Demon.BP_Demon]
+[2025.10.21-22.30.19:245][266]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Demon/BP_Demon]
+[2025.10.21-22.30.19:245][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Demon/BP_Demon" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Demon/BP_Demon.uasset" SILENT=true
+[2025.10.21-22.30.19:251][266]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Demon/BP_Demon
+[2025.10.21-22.30.19:252][266]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_Demon72DE081A4341C41B1D880580B329CDA6.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Demon/BP_Demon.uasset'
+[2025.10.21-22.30.19:270][266]LogFileHelpers: InternalPromptForCheckoutAndSave took 166.271 ms (total: 7.05 sec)
+[2025.10.21-22.30.19:403][266]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.21-22.30.19:403][266]LogContentValidation: Enabled validators:
+[2025.10.21-22.30.19:404][266]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.30.19:404][266]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.30.19:404][266]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.30.19:404][266]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.30.19:404][266]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.30.19:404][266]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.30.19:404][266]AssetCheck: /Game/Blueprints/Character/Demon/BP_Demon Validating asset
+[2025.10.21-22.30.42:198][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.10.21-22.30.43:007][249]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2025.10.21-22.30.44:437][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.10.21-22.31.17:627][ 96]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_53
+[2025.10.21-22.31.20:657][168]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Assets/Enemies/Demon/SKM_Demon.SKM_Demon
+[2025.10.21-22.31.20:791][168]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_54
+[2025.10.21-22.31.20:802][168]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_54:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.10.21-22.31.52:270][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.10.21-22.31.52:275][795]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.21-22.31.52:409][795]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Demon/BP_Demon] ([2] browsable assets)...
+[2025.10.21-22.31.52:417][795]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Demon/BP_Demon.BP_Demon]
+[2025.10.21-22.31.52:417][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Demon/BP_Demon]
+[2025.10.21-22.31.52:417][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Demon/BP_Demon" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Demon/BP_Demon.uasset" SILENT=true
+[2025.10.21-22.31.52:423][795]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Demon/BP_Demon
+[2025.10.21-22.31.52:425][795]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_DemonC4949303480E34799339509C220CA02A.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Demon/BP_Demon.uasset'
+[2025.10.21-22.31.52:426][795]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Enemies/Demon/SK_Demon] ([1] browsable assets)...
+[2025.10.21-22.31.52:426][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Enemies/Demon/SK_Demon]
+[2025.10.21-22.31.52:426][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Enemies/Demon/SK_Demon" FILE="../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Demon/SK_Demon.uasset" SILENT=true
+[2025.10.21-22.31.52:428][795]LogSavePackage: Moving output files for package: /Game/Assets/Enemies/Demon/SK_Demon
+[2025.10.21-22.31.52:429][795]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/SK_Demon5AD64740411E084867EAB2B13F5EC93C.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Enemies/Demon/SK_Demon.uasset'
+[2025.10.21-22.31.52:438][795]LogFileHelpers: InternalPromptForCheckoutAndSave took 163.929 ms (total: 7.22 sec)
+[2025.10.21-22.31.52:588][795]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.21-22.31.52:589][795]LogContentValidation: Enabled validators:
+[2025.10.21-22.31.52:589][795]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.21-22.31.52:589][795]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.21-22.31.52:589][795]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.21-22.31.52:589][795]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.21-22.31.52:589][795]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.21-22.31.52:589][795]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.21-22.31.52:589][795]AssetCheck: /Game/Blueprints/Character/Demon/BP_Demon Validating asset
+[2025.10.21-22.31.52:590][795]AssetCheck: /Game/Assets/Enemies/Demon/SK_Demon Validating asset
