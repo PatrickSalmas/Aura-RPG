@@ -4176,3 +4176,439 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.22-07.05.45:500][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2025.10.22-07.05.45:506][501]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
 [2025.10.22-07.05.45:570][502]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2025.10.22-07.06.47:969][713]LogStreaming: Display: FlushAsyncLoading(523): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.22-07.06.48:892][794]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.10.22-07.06.48:898][794]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.22-07.06.49:049][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.22-07.06.49:115][794]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.10.22-07.06.49:191][794]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2025.10.22-07.06.49:194][794]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/StartupMapFD2C3A7048DD99A22E862BBC6B1FED7D.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/StartupMap.umap'
+[2025.10.22-07.06.49:217][794]LogFileHelpers: Saving map 'StartupMap' took 0.169
+[2025.10.22-07.06.49:217][794]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Demon/BP_Demon_Ranger] ([2] browsable assets)...
+[2025.10.22-07.06.49:297][794]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Demon/BP_Demon_Ranger.BP_Demon_Ranger]
+[2025.10.22-07.06.49:297][794]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Demon/BP_Demon_Ranger]
+[2025.10.22-07.06.49:297][794]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Demon/BP_Demon_Ranger" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Demon/BP_Demon_Ranger.uasset" SILENT=true
+[2025.10.22-07.06.49:304][794]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Demon/BP_Demon_Ranger
+[2025.10.22-07.06.49:305][794]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_Demon_RangerDED091E54EF10868E629DEB22947A095.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Demon/BP_Demon_Ranger.uasset'
+[2025.10.22-07.06.49:313][794]LogFileHelpers: InternalPromptForCheckoutAndSave took 415.225 ms (total: 3.48 sec)
+[2025.10.22-07.06.49:463][794]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.22-07.06.49:463][794]LogContentValidation: Enabled validators:
+[2025.10.22-07.06.49:464][794]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.22-07.06.49:464][794]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.22-07.06.49:464][794]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.22-07.06.49:464][794]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.22-07.06.49:464][794]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.22-07.06.49:464][794]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.22-07.06.49:464][794]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2025.10.22-07.06.49:464][794]AssetCheck: /Game/Blueprints/Character/Demon/BP_Demon_Ranger Validating asset
+[2025.10.22-07.06.50:189][844]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2025.10.22-07.06.51:815][947]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.22-07.06.51:867][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.22-07.06.51:868][947]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.10.22-07.06.51:895][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026534s)
+[2025.10.22-07.06.51:895][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.026792s)
+[2025.10.22-07.06.51:925][947]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2025.10.22-07.06.51:927][947]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.10.22-07.06.51:929][947]LogPlayLevel: PIE: World Init took: (0.002381s)
+[2025.10.22-07.06.51:931][947]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.10.22-07.06.51:931][947]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.22-07.06.51:931][947]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.22-07.06.51:932][947]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.22-07.06.51:932][947]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.22-07.06.51:932][947]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.22-07.06.51:932][947]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.22-07.06.51:932][947]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.22-07.06.51:932][947]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.22-07.06.51:932][947]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.22-07.06.51:932][947]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.22-07.06.51:932][947]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.22-07.06.51:936][947]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.22-07.06.51:977][947]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2025.10.22-07.06.51:978][947]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.22-07.06.51:978][947]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.22-07.06.51:978][947]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.22-07.06.51:978][947]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.10.22-07.06.51:978][947]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.10.22-07.06.51:982][947]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.10.22-07.06.51:982][947]LogInit: FAudioDevice initialized with ID 15.
+[2025.10.22-07.06.51:982][947]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.10.22-07.06.51:982][947]LogAudio: Display: Audio Device (ID: 15) registered with world 'StartupMap'.
+[2025.10.22-07.06.51:982][947]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2025.10.22-07.06.51:985][947]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.10.22-07.06.52:005][947]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2025.10.22-00.06.52
+[2025.10.22-07.06.52:008][947]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2025.10.22-07.06.52:011][947]LogWorld: Bringing up level for play took: 0.025141
+[2025.10.22-07.06.52:015][947]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.06.52:016][947]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2025.10.22-07.06.52:016][947]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2025.10.22-07.06.52:016][947]LogPushModel: PushModel HandleCreation is now enabled
+[2025.10.22-07.06.52:016][947]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.10.22-07.06.52:017][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.10.22-07.06.52:017][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.10.22-07.06.52:017][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.10.22-07.06.52:017][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.10.22-07.06.52:017][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.10.22-07.06.52:017][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.10.22-07.06.52:017][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.10.22-07.06.52:017][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.10.22-07.06.52:017][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.10.22-07.06.52:017][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.10.22-07.06.52:017][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.10.22-07.06.52:018][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.10.22-07.06.52:018][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.10.22-07.06.52:018][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.10.22-07.06.52:018][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.10.22-07.06.52:018][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.10.22-07.06.52:018][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.10.22-07.06.52:018][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.10.22-07.06.52:018][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.10.22-07.06.52:018][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.10.22-07.06.52:019][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.10.22-07.06.52:019][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.10.22-07.06.52:019][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.10.22-07.06.52:019][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.10.22-07.06.52:019][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.10.22-07.06.52:019][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.10.22-07.06.52:019][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.10.22-07.06.52:019][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.10.22-07.06.52:020][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.10.22-07.06.52:020][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.10.22-07.06.52:020][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.10.22-07.06.52:020][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.10.22-07.06.52:020][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.10.22-07.06.52:020][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.10.22-07.06.52:020][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.10.22-07.06.52:020][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.10.22-07.06.52:020][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.10.22-07.06.52:021][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.10.22-07.06.52:021][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.10.22-07.06.52:021][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.10.22-07.06.52:021][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.10.22-07.06.52:021][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.10.22-07.06.52:021][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.10.22-07.06.52:021][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.10.22-07.06.52:021][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.10.22-07.06.52:021][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.10.22-07.06.52:021][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.10.22-07.06.52:022][947]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.10.22-07.06.52:023][947]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2025.10.22-07.06.52:023][947]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2025.10.22-07.06.52:023][947]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.10.22-07.06.52:023][947]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_13 IpNetDriver listening on port 17777
+[2025.10.22-07.06.52:026][947]LogTemp: Warning: Changed Health on BP_Demon_Warrior_C_1, Health: 18.750000
+[2025.10.22-07.06.52:027][947]LogTemp: Warning: Changed Health on BP_Demon_Ranger_C_2, Health: 18.750000
+[2025.10.22-07.06.52:027][947]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.10.22-07.06.52:028][947]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.10.22-07.06.52:029][947]PIE: Server logged in
+[2025.10.22-07.06.52:030][947]PIE: Play in editor total start time 0.194 seconds.
+[2025.10.22-07.06.54:146][ 70]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.22-07.06.54:146][ 70]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.22-07.06.54:146][ 70]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.22-07.06.55:131][118]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.22-07.06.55:765][158]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.06.58:165][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-07.06.58:165][310]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.10.22-07.06.58:166][310]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-07.06.58:169][310]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-07.06.58:170][310]LogNet: World NetDriver shutdown IpNetDriver_13 [GameNetDriver]
+[2025.10.22-07.06.58:170][310]LogNet: DestroyNamedNetDriver IpNetDriver_13 [GameNetDriver]
+[2025.10.22-07.06.58:170][310]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_13 shut down
+[2025.10.22-07.06.58:172][310]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.22-07.06.58:178][310]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-07.06.58:198][310]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.22-07.06.58:198][310]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2025.10.22-07.06.58:198][310]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.10.22-07.06.58:200][310]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.10.22-07.06.58:205][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-07.06.58:211][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.10.22-07.06.58:248][311]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2025.10.22-07.07.02:395][567]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-07.07.02:395][567]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-07.07.02:570][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.10.22-07.07.08:310][938]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.22-07.07.08:310][938]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-07.07.08:310][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-07.07.08:423][938]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.10.22-07.07.09:954][ 37]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-07.07.09:954][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-07.07.10:096][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.10.22-07.07.10:862][ 85]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-07.07.10:862][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-07.07.10:889][ 85]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-07.07.10:889][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-07.07.10:995][ 85]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-07.07.10:996][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-07.07.11:044][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.10.22-07.07.29:752][142]LogStreaming: Display: FlushAsyncLoading(524): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.22-07.07.30:410][197]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.10.22-07.07.30:415][197]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.22-07.07.30:546][197]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Demon/BP_Demon_Warrior] ([2] browsable assets)...
+[2025.10.22-07.07.30:627][197]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Demon/BP_Demon_Warrior.BP_Demon_Warrior]
+[2025.10.22-07.07.30:627][197]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Demon/BP_Demon_Warrior]
+[2025.10.22-07.07.30:627][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Demon/BP_Demon_Warrior" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Demon/BP_Demon_Warrior.uasset" SILENT=true
+[2025.10.22-07.07.30:633][197]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Demon/BP_Demon_Warrior
+[2025.10.22-07.07.30:634][197]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_Demon_Warrior89AE928D437F7EADE5461382641CC832.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Demon/BP_Demon_Warrior.uasset'
+[2025.10.22-07.07.30:642][197]LogFileHelpers: InternalPromptForCheckoutAndSave took 227.003 ms (total: 3.71 sec)
+[2025.10.22-07.07.30:779][197]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.22-07.07.30:779][197]LogContentValidation: Enabled validators:
+[2025.10.22-07.07.30:779][197]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.22-07.07.30:779][197]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.22-07.07.30:779][197]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.22-07.07.30:779][197]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.22-07.07.30:779][197]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.22-07.07.30:779][197]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.22-07.07.30:780][197]AssetCheck: /Game/Blueprints/Character/Demon/BP_Demon_Warrior Validating asset
+[2025.10.22-07.07.31:395][241]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.10.22-07.07.32:788][331]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.22-07.07.32:815][331]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.22-07.07.32:815][331]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2025.10.22-07.07.32:834][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019140s)
+[2025.10.22-07.07.32:835][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.019363s)
+[2025.10.22-07.07.32:857][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.10.22-07.07.32:860][331]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2025.10.22-07.07.32:862][331]LogPlayLevel: PIE: World Init took: (0.001762s)
+[2025.10.22-07.07.32:863][331]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2025.10.22-07.07.32:863][331]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.22-07.07.32:863][331]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.22-07.07.32:863][331]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.22-07.07.32:864][331]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.22-07.07.32:864][331]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.22-07.07.32:864][331]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.22-07.07.32:864][331]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.22-07.07.32:864][331]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.22-07.07.32:864][331]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.22-07.07.32:864][331]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.22-07.07.32:864][331]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.22-07.07.32:866][331]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.22-07.07.32:900][331]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2025.10.22-07.07.32:901][331]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.22-07.07.32:901][331]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.22-07.07.32:901][331]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.22-07.07.32:902][331]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2025.10.22-07.07.32:902][331]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2025.10.22-07.07.32:905][331]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2025.10.22-07.07.32:905][331]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2025.10.22-07.07.32:905][331]LogInit: FAudioDevice initialized with ID 16.
+[2025.10.22-07.07.32:905][331]LogAudio: Display: Audio Device (ID: 16) registered with world 'StartupMap'.
+[2025.10.22-07.07.32:905][331]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2025.10.22-07.07.32:908][331]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.10.22-07.07.32:920][331]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2025.10.22-00.07.32
+[2025.10.22-07.07.32:923][331]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2025.10.22-07.07.32:925][331]LogWorld: Bringing up level for play took: 0.016747
+[2025.10.22-07.07.32:929][331]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.07.32:930][331]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2025.10.22-07.07.32:930][331]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2025.10.22-07.07.32:930][331]LogPushModel: PushModel HandleCreation is now enabled
+[2025.10.22-07.07.32:930][331]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.10.22-07.07.32:931][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.10.22-07.07.32:931][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.10.22-07.07.32:931][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.10.22-07.07.32:931][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.10.22-07.07.32:931][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.10.22-07.07.32:931][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.10.22-07.07.32:931][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.10.22-07.07.32:931][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.10.22-07.07.32:931][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.10.22-07.07.32:932][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.10.22-07.07.32:932][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.10.22-07.07.32:932][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.10.22-07.07.32:932][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.10.22-07.07.32:932][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.10.22-07.07.32:932][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.10.22-07.07.32:932][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.10.22-07.07.32:932][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.10.22-07.07.32:932][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.10.22-07.07.32:932][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.10.22-07.07.32:933][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.10.22-07.07.32:933][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.10.22-07.07.32:933][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.10.22-07.07.32:933][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.10.22-07.07.32:933][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.10.22-07.07.32:933][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.10.22-07.07.32:933][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.10.22-07.07.32:933][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.10.22-07.07.32:933][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.10.22-07.07.32:933][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.10.22-07.07.32:934][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.10.22-07.07.32:934][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.10.22-07.07.32:934][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.10.22-07.07.32:934][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.10.22-07.07.32:934][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.10.22-07.07.32:934][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.10.22-07.07.32:934][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.10.22-07.07.32:934][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.10.22-07.07.32:934][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.10.22-07.07.32:935][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.10.22-07.07.32:935][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.10.22-07.07.32:935][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.10.22-07.07.32:935][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.10.22-07.07.32:935][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.10.22-07.07.32:935][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.10.22-07.07.32:935][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.10.22-07.07.32:935][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.10.22-07.07.32:936][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.10.22-07.07.32:936][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.10.22-07.07.32:936][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.10.22-07.07.32:936][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.10.22-07.07.32:936][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.10.22-07.07.32:936][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.10.22-07.07.32:936][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.10.22-07.07.32:936][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.10.22-07.07.32:937][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.10.22-07.07.32:937][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.10.22-07.07.32:937][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.10.22-07.07.32:937][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.10.22-07.07.32:937][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.10.22-07.07.32:937][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.10.22-07.07.32:937][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.10.22-07.07.32:937][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.10.22-07.07.32:937][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.10.22-07.07.32:937][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.10.22-07.07.32:937][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.10.22-07.07.32:937][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.10.22-07.07.32:937][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.10.22-07.07.32:937][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.10.22-07.07.32:937][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.10.22-07.07.32:937][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.10.22-07.07.32:937][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.10.22-07.07.32:937][331]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.10.22-07.07.32:937][331]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2025.10.22-07.07.32:937][331]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2025.10.22-07.07.32:938][331]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.10.22-07.07.32:938][331]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_14 IpNetDriver listening on port 17777
+[2025.10.22-07.07.32:940][331]LogTemp: Warning: Changed Health on BP_Demon_Ranger_C_2, Health: 18.750000
+[2025.10.22-07.07.32:941][331]LogTemp: Warning: Changed Health on BP_Demon_Warrior_C_1, Health: 18.750000
+[2025.10.22-07.07.32:942][331]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.10.22-07.07.32:942][331]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.10.22-07.07.32:943][331]PIE: Server logged in
+[2025.10.22-07.07.32:944][331]PIE: Play in editor total start time 0.145 seconds.
+[2025.10.22-07.07.35:079][463]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.22-07.07.35:080][463]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.22-07.07.35:080][463]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.22-07.07.36:071][519]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.22-07.07.38:053][641]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.22-07.07.38:053][641]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.22-07.07.38:053][641]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.22-07.07.39:043][704]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.22-07.07.41:329][849]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.22-07.07.41:329][849]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.22-07.07.41:329][849]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.22-07.07.42:327][912]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.22-07.07.43:213][969]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Lightning on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.22-07.07.43:214][969]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Arcane on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.22-07.07.43:214][969]LogGameplayEffects: Error: FGameplayEffectSpec::GetMagnitude called for Data Damage.Physical on Def Default__GE_Damage_C when magnitude had not yet been set by caller.
+[2025.10.22-07.07.44:213][ 33]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.10.22-07.08.07:941][362]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:054][369]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:054][369]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:101][372]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:146][375]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:163][376]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:214][379]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:243][381]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:259][382]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:305][385]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:350][388]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:372][389]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:402][391]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:447][394]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:462][395]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:509][398]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:564][401]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:564][401]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:607][404]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:652][407]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:667][408]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:713][411]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:750][413]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:766][414]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:811][417]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:842][419]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:856][420]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:902][423]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:953][426]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.08:954][426]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:016][430]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:046][432]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:062][433]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:106][436]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:144][438]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:159][439]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:203][442]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:249][445]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:265][446]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:317][449]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:347][451]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:364][452]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:408][455]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:454][458]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:454][458]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:507][461]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:554][464]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:554][464]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:614][468]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:644][470]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:660][471]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:711][474]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:741][476]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:757][477]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:801][480]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:803][480]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:847][483]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:862][484]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:900][486]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:946][489]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:961][490]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.09:976][491]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.10:007][493]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.10:074][497]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.10:105][499]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.10:196][505]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.11:135][565]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.22-07.08.19:556][ 99]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 27.500000
+[2025.10.22-07.08.19:714][109]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 22.500000
+[2025.10.22-07.08.19:729][110]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 7.500000
+[2025.10.22-07.08.19:729][110]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 0.000000
+[2025.10.22-07.08.22:216][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-07.08.22:216][269]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2025.10.22-07.08.22:216][269]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2025.10.22-07.08.22:219][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-07.08.22:220][269]LogNet: World NetDriver shutdown IpNetDriver_14 [GameNetDriver]
+[2025.10.22-07.08.22:220][269]LogNet: DestroyNamedNetDriver IpNetDriver_14 [GameNetDriver]
+[2025.10.22-07.08.22:220][269]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_14 shut down
+[2025.10.22-07.08.22:222][269]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.22-07.08.22:228][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.22-07.08.22:251][269]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.22-07.08.22:252][269]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2025.10.22-07.08.22:253][269]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.10.22-07.08.22:255][269]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.10.22-07.08.22:261][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.22-07.08.22:267][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2025.10.22-07.08.22:306][270]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2025.10.22-07.09.06:587][ 46]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6629.735352
+[2025.10.22-07.09.07:589][ 49]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.22-07.09.07:589][ 49]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6630.409180, Update Interval: 349.509583
