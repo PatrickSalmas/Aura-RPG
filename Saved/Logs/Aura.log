@@ -4488,3 +4488,245 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.27-23.21.16:928][324]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
 [2025.10.27-23.21.16:937][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
 [2025.10.27-23.21.17:021][325]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2025.10.27-23.23.06:620][622]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.10.27-23.23.07:751][671]Cmd: DELETE
+[2025.10.27-23.23.07:751][671]Cmd: ACTOR DELETE
+[2025.10.27-23.23.07:771][671]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2025.10.27-23.23.07:794][671]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.10.27-23.23.07:796][671]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2025.10.27-23.23.41:670][506]LogSlate: Took 0.000923 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.10.27-23.23.41:816][515]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2025.10.27-23.23.56:773][319]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/Overlay/WBP_Overlay.WBP_Overlay
+[2025.10.27-23.23.56:774][319]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2025.10.27-23.23.56:796][319]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_20
+[2025.10.27-23.23.56:806][319]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2025.10.27-23.23.57:805][319]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2025.10.27-23.23.57:808][319]LogSlate: Took 0.000720 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.10.27-23.24.28:503][502]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2025.10.27-23.24.28:510][502]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2025.10.27-23.24.28:516][502]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2025.10.27-23.24.28:526][502]LogAutomationController: Ignoring very large delta of 10.69 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.10.27-23.24.28:534][503]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2025.10.27-23.24.40:008][875]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_HealthManaSpells
+[2025.10.27-23.24.40:018][875]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2025.10.27-23.24.41:802][ 83]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells.WBP_HealthManaSpells
+[2025.10.27-23.24.41:803][ 83]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
+[2025.10.27-23.24.41:814][ 83]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_22
+[2025.10.27-23.24.47:249][440]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.10.27-23.24.47:249][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-23.24.47:423][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.10.27-23.24.48:649][573]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.10.27-23.24.48:650][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-23.24.48:700][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.10.27-23.24.49:132][619]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.27-23.24.49:132][619]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.10.27-23.24.49:132][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-23.24.49:225][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.10.27-23.24.49:840][688]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.27-23.24.49:840][688]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.10.27-23.24.49:840][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-23.24.49:938][688]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.10.27-23.24.50:832][790]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.27-23.24.50:832][790]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.10.27-23.24.50:832][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-23.24.50:913][790]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2025.10.27-23.24.53:098][ 43]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.27-23.24.53:098][ 43]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.10.27-23.24.53:098][ 43]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-23.24.53:200][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.10.27-23.24.53:732][101]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.27-23.24.53:732][101]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.10.27-23.24.53:732][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.27-23.24.53:825][101]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.10.27-23.25.24:683][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.10.27-23.25.25:412][303]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.10.27-23.25.25:417][303]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.27-23.25.25:550][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Dungeon" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/Dungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.27-23.25.25:629][303]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.10.27-23.25.25:659][303]LogSavePackage: Moving output files for package: /Game/Maps/Dungeon
+[2025.10.27-23.25.25:660][303]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/Dungeon59A844AD46B5FF33787B869E57E8D2ED.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/Dungeon.umap'
+[2025.10.27-23.25.25:685][303]LogFileHelpers: Saving map 'Dungeon' took 0.135
+[2025.10.27-23.25.25:686][303]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells] ([2] browsable assets)...
+[2025.10.27-23.25.25:689][303]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells.WBP_HealthManaSpells]
+[2025.10.27-23.25.25:689][303]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells]
+[2025.10.27-23.25.25:695][303]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells
+[2025.10.27-23.25.25:696][303]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_HealthManaSpells609B10D645E19298F4A53384C6C4A622.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells.uasset'
+[2025.10.27-23.25.25:708][303]LogFileHelpers: InternalPromptForCheckoutAndSave took 290.939 ms (total: 4.30 sec)
+[2025.10.27-23.25.25:851][303]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.27-23.25.25:851][303]LogContentValidation: Enabled validators:
+[2025.10.27-23.25.25:851][303]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.27-23.25.25:851][303]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.27-23.25.25:851][303]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.27-23.25.25:851][303]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.27-23.25.25:851][303]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.27-23.25.25:851][303]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.27-23.25.25:852][303]AssetCheck: /Game/Maps/Dungeon Validating asset
+[2025.10.27-23.25.25:852][303]AssetCheck: /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells Validating asset
+[2025.10.27-23.26.08:200][448]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2043.186646
+[2025.10.27-23.26.08:327][463]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.27-23.26.08:327][463]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2043.304565, Update Interval: 304.965973
+[2025.10.27-23.26.20:922][603]LogSlate: Took 0.015075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.10.27-23.27.03:519][678]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.10.27-23.27.03:526][678]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.27-23.27.03:647][678]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells] ([2] browsable assets)...
+[2025.10.27-23.27.03:649][678]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells.WBP_HealthManaSpells]
+[2025.10.27-23.27.03:649][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells]
+[2025.10.27-23.27.03:653][678]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells
+[2025.10.27-23.27.03:653][678]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_HealthManaSpellsF8E2078149316F59EA7D0E9569D7C4EE.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells.uasset'
+[2025.10.27-23.27.03:662][678]LogFileHelpers: InternalPromptForCheckoutAndSave took 135.384 ms (total: 4.44 sec)
+[2025.10.27-23.27.03:798][678]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.27-23.27.03:798][678]LogContentValidation: Enabled validators:
+[2025.10.27-23.27.03:798][678]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.27-23.27.03:799][678]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.27-23.27.03:799][678]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.27-23.27.03:799][678]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.27-23.27.03:799][678]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.27-23.27.03:799][678]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.27-23.27.03:799][678]AssetCheck: /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells Validating asset
+[2025.10.27-23.28.27:121][678]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.10.27-23.32.07:954][788]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2402.929932
+[2025.10.27-23.32.08:076][802]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.27-23.32.08:076][802]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2403.042969, Update Interval: 336.409790
+[2025.10.27-23.35.26:128][183]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.10.27-23.35.26:132][183]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Dungeon' took 0.030
+[2025.10.27-23.35.26:133][183]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells] ([2] browsable assets)...
+[2025.10.27-23.35.26:136][183]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells.WBP_HealthManaSpells]
+[2025.10.27-23.35.26:136][183]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells]
+[2025.10.27-23.35.26:141][183]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells_Auto1
+[2025.10.27-23.35.26:142][183]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_HealthManaSpells_Auto1D34B6AE34795384EEC15669D6D910D5D.tmp' to '../../../../../../Unreal Projects/Aura/Saved/Autosaves/Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells_Auto1.uasset'
+[2025.10.27-23.35.26:143][183]LogFileHelpers: Auto-saving content packages took 0.011
+[2025.10.27-23.37.07:803][885]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_HealthGlobe.WBP_HealthGlobe
+[2025.10.27-23.37.07:803][885]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2025.10.27-23.37.07:811][885]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2025.10.27-23.37.50:652][191]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar.WBP_GlobeProgressBar
+[2025.10.27-23.37.50:653][191]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_27
+[2025.10.27-23.37.50:659][191]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_28
+[2025.10.27-23.38.03:028][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.10.27-23.38.03:035][926]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.27-23.38.03:171][926]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar] ([2] browsable assets)...
+[2025.10.27-23.38.03:174][926]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar.WBP_GlobeProgressBar]
+[2025.10.27-23.38.03:175][926]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar]
+[2025.10.27-23.38.03:175][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar.uasset" SILENT=true
+[2025.10.27-23.38.03:207][926]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar
+[2025.10.27-23.38.03:208][926]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_GlobeProgressBar908141AA499D0A523F7E5BB768B117A4.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar.uasset'
+[2025.10.27-23.38.03:210][926]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells] ([2] browsable assets)...
+[2025.10.27-23.38.03:210][926]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells]
+[2025.10.27-23.38.03:217][926]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells
+[2025.10.27-23.38.03:218][926]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_HealthManaSpells1680F98B4BEC2E887C43C9995F8E48D3.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells.uasset'
+[2025.10.27-23.38.03:225][926]LogFileHelpers: InternalPromptForCheckoutAndSave took 190.287 ms (total: 4.63 sec)
+[2025.10.27-23.38.03:369][926]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.27-23.38.03:369][926]LogContentValidation: Enabled validators:
+[2025.10.27-23.38.03:370][926]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.27-23.38.03:370][926]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.27-23.38.03:370][926]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.27-23.38.03:370][926]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.27-23.38.03:370][926]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.27-23.38.03:370][926]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.27-23.38.03:371][926]AssetCheck: /Game/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar Validating asset
+[2025.10.27-23.38.03:373][926]AssetCheck: /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells Validating asset
+[2025.10.27-23.38.09:893][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.10.27-23.38.09:898][322]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.27-23.38.10:033][322]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar] ([2] browsable assets)...
+[2025.10.27-23.38.10:036][322]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar.WBP_GlobeProgressBar]
+[2025.10.27-23.38.10:037][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar]
+[2025.10.27-23.38.10:037][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar.uasset" SILENT=true
+[2025.10.27-23.38.10:068][322]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar
+[2025.10.27-23.38.10:070][322]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_GlobeProgressBarACC4C5BB45931D3DD5F550A379319C7F.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar.uasset'
+[2025.10.27-23.38.10:080][322]LogFileHelpers: InternalPromptForCheckoutAndSave took 181.663 ms (total: 4.81 sec)
+[2025.10.27-23.38.10:220][322]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.27-23.38.10:220][322]LogContentValidation: Enabled validators:
+[2025.10.27-23.38.10:220][322]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.27-23.38.10:220][322]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.27-23.38.10:220][322]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.27-23.38.10:220][322]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.27-23.38.10:220][322]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.27-23.38.10:220][322]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.27-23.38.10:222][322]AssetCheck: /Game/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar Validating asset
+[2025.10.27-23.38.11:669][352]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2025.10.27-23.38.43:091][855]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2798.073242
+[2025.10.27-23.38.43:242][873]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.27-23.38.43:242][873]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2798.214355, Update Interval: 304.024780
+[2025.10.27-23.39.10:616][871]LogStreaming: Display: FlushAsyncLoading(497): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.27-23.39.10:826][871]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.10.27-23.40.12:046][115]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.27-23.42.42:196][909]LogEditorTransaction: Undo Edit Justification
+[2025.10.27-23.42.59:717][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.10.27-23.42.59:724][775]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.27-23.42.59:835][775]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells] ([2] browsable assets)...
+[2025.10.27-23.42.59:838][775]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells.WBP_HealthManaSpells]
+[2025.10.27-23.42.59:838][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells]
+[2025.10.27-23.42.59:845][775]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells
+[2025.10.27-23.42.59:846][775]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_HealthManaSpells0348D4514D6710DAF367C7AC6A8B04A4.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells.uasset'
+[2025.10.27-23.42.59:854][775]LogFileHelpers: InternalPromptForCheckoutAndSave took 130.120 ms (total: 4.94 sec)
+[2025.10.27-23.42.59:987][775]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.27-23.42.59:987][775]LogContentValidation: Enabled validators:
+[2025.10.27-23.42.59:988][775]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.27-23.42.59:988][775]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.27-23.42.59:988][775]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.27-23.42.59:988][775]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.27-23.42.59:988][775]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.27-23.42.59:988][775]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.27-23.42.59:991][775]AssetCheck: /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells Validating asset
+[2025.10.27-23.43.46:065][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2025.10.27-23.44.00:542][968]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.27-23.44.19:282][564]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3134.270996
+[2025.10.27-23.44.19:387][575]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.27-23.44.19:388][575]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3134.366211, Update Interval: 336.928009
+[2025.10.27-23.45.23:438][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2025.10.27-23.45.23:444][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.27-23.45.23:584][ 73]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells] ([2] browsable assets)...
+[2025.10.27-23.45.23:590][ 73]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells.WBP_HealthManaSpells]
+[2025.10.27-23.45.23:591][ 73]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells]
+[2025.10.27-23.45.23:600][ 73]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells
+[2025.10.27-23.45.23:601][ 73]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_HealthManaSpells90F8FFF543828DC57E7AA08F34CFAB4E.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells.uasset'
+[2025.10.27-23.45.23:609][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave took 165.622 ms (total: 5.10 sec)
+[2025.10.27-23.45.23:752][ 73]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.27-23.45.23:752][ 73]LogContentValidation: Enabled validators:
+[2025.10.27-23.45.23:752][ 73]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.27-23.45.23:752][ 73]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.27-23.45.23:752][ 73]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.27-23.45.23:752][ 73]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.27-23.45.23:752][ 73]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.27-23.45.23:752][ 73]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.27-23.45.23:755][ 73]AssetCheck: /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells Validating asset
+[2025.10.27-23.46.06:280][484]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.10.27-23.46.07:502][627]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.10.27-23.48.23:741][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.10.27-23.48.23:747][436]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.27-23.48.23:885][436]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells] ([2] browsable assets)...
+[2025.10.27-23.48.23:892][436]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells.WBP_HealthManaSpells]
+[2025.10.27-23.48.23:892][436]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells]
+[2025.10.27-23.48.23:904][436]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells
+[2025.10.27-23.48.23:905][436]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_HealthManaSpells6DF4896844A7D172D782A38FB827DDD6.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells.uasset'
+[2025.10.27-23.48.23:913][436]LogFileHelpers: InternalPromptForCheckoutAndSave took 165.383 ms (total: 5.27 sec)
+[2025.10.27-23.48.24:091][436]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.27-23.48.24:091][436]LogContentValidation: Enabled validators:
+[2025.10.27-23.48.24:092][436]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.27-23.48.24:092][436]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.27-23.48.24:092][436]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.27-23.48.24:092][436]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.27-23.48.24:092][436]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.27-23.48.24:092][436]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.27-23.48.24:095][436]AssetCheck: /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells Validating asset
+[2025.10.27-23.49.57:489][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2025.10.27-23.49.57:495][ 91]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.27-23.49.57:637][ 91]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells] ([2] browsable assets)...
+[2025.10.27-23.49.57:643][ 91]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells.WBP_HealthManaSpells]
+[2025.10.27-23.49.57:643][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells]
+[2025.10.27-23.49.57:655][ 91]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells
+[2025.10.27-23.49.57:656][ 91]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_HealthManaSpells92A0568F48A3853C5D7FE688040067AD.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells.uasset'
+[2025.10.27-23.49.57:666][ 91]LogFileHelpers: InternalPromptForCheckoutAndSave took 170.643 ms (total: 5.44 sec)
+[2025.10.27-23.49.57:805][ 91]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.27-23.49.57:806][ 91]LogContentValidation: Enabled validators:
+[2025.10.27-23.49.57:806][ 91]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.27-23.49.57:806][ 91]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.27-23.49.57:806][ 91]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.27-23.49.57:806][ 91]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.27-23.49.57:806][ 91]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.27-23.49.57:806][ 91]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.27-23.49.57:809][ 91]AssetCheck: /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells Validating asset
+[2025.10.27-23.50.10:519][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.10.27-23.50.13:994][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2025.10.27-23.50.43:426][880]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3518.413574
+[2025.10.27-23.50.44:424][883]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.27-23.50.44:424][883]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3519.088623, Update Interval: 321.682190
