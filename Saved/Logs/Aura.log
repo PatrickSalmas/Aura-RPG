@@ -2742,3 +2742,669 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.28-21.01.48:245][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2025.10.28-21.01.48:250][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
 [2025.10.28-21.01.48:444][ 14]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2025.10.28-21.03.51:091][151]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2025.10.28-21.03.51:100][151]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2025.10.28-21.03.51:107][151]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2025.10.28-21.03.51:125][152]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2025.10.28-21.04.02:500][509]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_XPBar
+[2025.10.28-21.04.02:515][509]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2025.10.28-21.04.03:717][636]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_XPBar.WBP_XPBar
+[2025.10.28-21.04.03:717][636]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_36
+[2025.10.28-21.04.03:727][636]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_37
+[2025.10.28-21.04.59:655][852]LogStreaming: Display: FlushAsyncLoading(493): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.28-21.04.59:667][852]LogTexture: Display: Building textures: /Game/Assets/UI/XPBar/xp_frame.xp_frame (BGRA8, 1816x79 x1x1x1) (Required Memory Estimate: 5.925438 MB), EncodeSpeed: Fast
+[2025.10.28-21.06.23:268][175]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.28-21.06.30:601][605]LogEditorTransaction: Undo Edit Fill Color and Opacity
+[2025.10.28-21.06.49:964][731]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4704.665039
+[2025.10.28-21.06.50:078][744]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.28-21.06.50:078][744]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4704.770508, Update Interval: 341.524109
+[2025.10.28-21.06.59:361][772]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.28-21.07.00:392][890]LogEditorTransaction: Undo Edit Specified Color
+[2025.10.28-21.07.23:535][568]LogSlate: Window 'Color Picker' being destroyed
+[2025.10.28-21.07.49:268][450]LogStreaming: Display: FlushAsyncLoading(494): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.28-21.07.49:273][450]LogTexture: Display: Building textures: /Game/Assets/UI/XPBar/xp_bar.xp_bar (BGRA8, 801x14 x1x1x1) (Required Memory Estimate: 1.385002 MB), EncodeSpeed: Fast
+[2025.10.28-21.08.54:949][926]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2025.10.28-21.08.54:954][926]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.28-21.08.55:087][926]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/ProgressBar/WBP_XPBar] ([2] browsable assets)...
+[2025.10.28-21.08.55:090][926]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_XPBar.WBP_XPBar]
+[2025.10.28-21.08.55:090][926]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/ProgressBar/WBP_XPBar]
+[2025.10.28-21.08.55:091][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/ProgressBar/WBP_XPBar" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/ProgressBar/WBP_XPBar.uasset" SILENT=true
+[2025.10.28-21.08.55:095][926]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_XPBar
+[2025.10.28-21.08.55:095][926]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_XPBar7DB61D5349D03521361308B0BF51CD7C.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/ProgressBar/WBP_XPBar.uasset'
+[2025.10.28-21.08.55:109][926]LogFileHelpers: InternalPromptForCheckoutAndSave took 153.905 ms (total: 4.12 sec)
+[2025.10.28-21.08.55:229][926]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.28-21.08.55:229][926]LogContentValidation: Enabled validators:
+[2025.10.28-21.08.55:229][926]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.28-21.08.55:230][926]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.28-21.08.55:230][926]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.28-21.08.55:230][926]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.28-21.08.55:230][926]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.28-21.08.55:230][926]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.28-21.08.55:233][926]AssetCheck: /Game/Blueprints/UI/ProgressBar/WBP_XPBar Validating asset
+[2025.10.28-21.09.44:744][462]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2025.10.28-21.10.51:254][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.10.28-21.10.51:259][392]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.28-21.10.51:388][392]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Overlay/WBP_Overlay] ([2] browsable assets)...
+[2025.10.28-21.10.51:396][392]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Overlay/WBP_Overlay.WBP_Overlay]
+[2025.10.28-21.10.51:396][392]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Overlay/WBP_Overlay]
+[2025.10.28-21.10.51:396][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Overlay/WBP_Overlay" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset" SILENT=true
+[2025.10.28-21.10.51:411][392]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Overlay/WBP_Overlay
+[2025.10.28-21.10.51:412][392]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_Overlay24AB17A442F67877AFB277BC43108689.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset'
+[2025.10.28-21.10.51:420][392]LogFileHelpers: InternalPromptForCheckoutAndSave took 161.940 ms (total: 4.28 sec)
+[2025.10.28-21.10.51:571][392]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.28-21.10.51:571][392]LogContentValidation: Enabled validators:
+[2025.10.28-21.10.51:571][392]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.28-21.10.51:571][392]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.28-21.10.51:571][392]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.28-21.10.51:571][392]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.28-21.10.51:572][392]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.28-21.10.51:572][392]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.28-21.10.51:578][392]AssetCheck: /Game/Blueprints/UI/Overlay/WBP_Overlay Validating asset
+[2025.10.28-21.10.52:010][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.10.28-21.10.57:855][936]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.28-21.10.57:875][936]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.28-21.10.57:875][936]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dungeon
+[2025.10.28-21.10.57:883][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007997s)
+[2025.10.28-21.10.57:883][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dungeon.Dungeon to /Game/Maps/UEDPIE_0_Dungeon.Dungeon (0.008259s)
+[2025.10.28-21.10.57:907][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.10.28-21.10.57:908][936]LogChaosDD: Creating Chaos Debug Draw Scene for world Dungeon
+[2025.10.28-21.10.57:910][936]LogPlayLevel: PIE: World Init took: (0.001741s)
+[2025.10.28-21.10.57:911][936]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.10.28-21.10.57:911][936]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.28-21.10.57:911][936]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.28-21.10.57:912][936]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.28-21.10.57:912][936]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.28-21.10.57:912][936]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.28-21.10.57:912][936]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.28-21.10.57:912][936]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.28-21.10.57:912][936]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.28-21.10.57:912][936]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.28-21.10.57:912][936]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.28-21.10.57:912][936]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.28-21.10.57:916][936]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.28-21.10.57:950][936]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2025.10.28-21.10.57:950][936]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.28-21.10.57:950][936]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.28-21.10.57:950][936]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.28-21.10.57:951][936]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.10.28-21.10.57:951][936]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.10.28-21.10.57:954][936]LogInit: FAudioDevice initialized with ID 8.
+[2025.10.28-21.10.57:954][936]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.10.28-21.10.57:954][936]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.10.28-21.10.57:954][936]LogAudio: Display: Audio Device (ID: 8) registered with world 'Dungeon'.
+[2025.10.28-21.10.57:954][936]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.10.28-21.10.57:957][936]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.10.28-21.10.57:960][936]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2025.10.28-14.10.57
+[2025.10.28-21.10.57:962][936]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2025.10.28-21.10.57:963][936]LogWorld: Bringing up level for play took: 0.005901
+[2025.10.28-21.10.57:973][936]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.28-21.10.57:974][936]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2025.10.28-21.10.57:974][936]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2025.10.28-21.10.57:974][936]LogPushModel: PushModel HandleCreation is now enabled
+[2025.10.28-21.10.57:974][936]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.10.28-21.10.57:974][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.10.28-21.10.57:974][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.10.28-21.10.57:975][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.10.28-21.10.57:975][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.10.28-21.10.57:975][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.10.28-21.10.57:975][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.10.28-21.10.57:975][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.10.28-21.10.57:975][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.10.28-21.10.57:975][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.10.28-21.10.57:975][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.10.28-21.10.57:975][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.10.28-21.10.57:976][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.10.28-21.10.57:976][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.10.28-21.10.57:976][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.10.28-21.10.57:976][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.10.28-21.10.57:976][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.10.28-21.10.57:976][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.10.28-21.10.57:976][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.10.28-21.10.57:976][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.10.28-21.10.57:976][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.10.28-21.10.57:976][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.10.28-21.10.57:976][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.10.28-21.10.57:977][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.10.28-21.10.57:977][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.10.28-21.10.57:977][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.10.28-21.10.57:977][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.10.28-21.10.57:977][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.10.28-21.10.57:977][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.10.28-21.10.57:977][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.10.28-21.10.57:977][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.10.28-21.10.57:977][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.10.28-21.10.57:977][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.10.28-21.10.57:978][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.10.28-21.10.57:978][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.10.28-21.10.57:978][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.10.28-21.10.57:978][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.10.28-21.10.57:978][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.10.28-21.10.57:978][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.10.28-21.10.57:978][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.10.28-21.10.57:978][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.10.28-21.10.57:978][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.10.28-21.10.57:978][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.10.28-21.10.57:978][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.10.28-21.10.57:979][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.10.28-21.10.57:979][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.10.28-21.10.57:979][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.10.28-21.10.57:979][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.10.28-21.10.57:979][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.10.28-21.10.57:979][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.10.28-21.10.57:979][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.10.28-21.10.57:979][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.10.28-21.10.57:979][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.10.28-21.10.57:980][936]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.10.28-21.10.57:981][936]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2025.10.28-21.10.57:981][936]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2025.10.28-21.10.57:982][936]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.10.28-21.10.57:982][936]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_6 IpNetDriver listening on port 17777
+[2025.10.28-21.10.57:983][936]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.10.28-21.10.57:983][936]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.10.28-21.10.57:985][936]PIE: Server logged in
+[2025.10.28-21.10.57:986][936]PIE: Play in editor total start time 0.113 seconds.
+[2025.10.28-21.11.07:322][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.28-21.11.07:322][489]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dungeon
+[2025.10.28-21.11.07:322][489]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.10.28-21.11.07:323][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.28-21.11.07:324][489]LogNet: World NetDriver shutdown IpNetDriver_6 [GameNetDriver]
+[2025.10.28-21.11.07:324][489]LogNet: DestroyNamedNetDriver IpNetDriver_6 [GameNetDriver]
+[2025.10.28-21.11.07:325][489]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_6 shut down
+[2025.10.28-21.11.07:327][489]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.28-21.11.07:333][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.28-21.11.07:355][489]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.28-21.11.07:355][489]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.10.28-21.11.07:356][489]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.10.28-21.11.07:358][489]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.10.28-21.11.07:363][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.28-21.11.07:367][489]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2025.10.28-21.11.07:456][490]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.10.28-21.11.21:466][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.10.28-21.11.21:471][958]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.28-21.11.21:588][958]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Overlay/WBP_Overlay] ([2] browsable assets)...
+[2025.10.28-21.11.21:596][958]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Overlay/WBP_Overlay.WBP_Overlay]
+[2025.10.28-21.11.21:596][958]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Overlay/WBP_Overlay]
+[2025.10.28-21.11.21:596][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Overlay/WBP_Overlay" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset" SILENT=true
+[2025.10.28-21.11.21:612][958]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Overlay/WBP_Overlay
+[2025.10.28-21.11.21:612][958]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_Overlay393410CD49BFA24848CE85BEFE3F0C32.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset'
+[2025.10.28-21.11.21:619][958]LogFileHelpers: InternalPromptForCheckoutAndSave took 147.982 ms (total: 4.43 sec)
+[2025.10.28-21.11.21:758][958]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.28-21.11.21:758][958]LogContentValidation: Enabled validators:
+[2025.10.28-21.11.21:758][958]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.28-21.11.21:758][958]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.28-21.11.21:758][958]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.28-21.11.21:758][958]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.28-21.11.21:758][958]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.28-21.11.21:758][958]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.28-21.11.21:765][958]AssetCheck: /Game/Blueprints/UI/Overlay/WBP_Overlay Validating asset
+[2025.10.28-21.11.41:455][729]LogEditorTransaction: Undo Move Widget
+[2025.10.28-21.11.43:321][880]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.10.28-21.11.43:325][880]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.28-21.11.43:439][880]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Overlay/WBP_Overlay] ([2] browsable assets)...
+[2025.10.28-21.11.43:448][880]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Overlay/WBP_Overlay.WBP_Overlay]
+[2025.10.28-21.11.43:448][880]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Overlay/WBP_Overlay]
+[2025.10.28-21.11.43:448][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Overlay/WBP_Overlay" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset" SILENT=true
+[2025.10.28-21.11.43:463][880]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Overlay/WBP_Overlay
+[2025.10.28-21.11.43:464][880]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_OverlayBCCA6C1145BC6611F82711B09DBA61BE.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset'
+[2025.10.28-21.11.43:473][880]LogFileHelpers: InternalPromptForCheckoutAndSave took 147.902 ms (total: 4.57 sec)
+[2025.10.28-21.11.43:617][880]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.28-21.11.43:617][880]LogContentValidation: Enabled validators:
+[2025.10.28-21.11.43:617][880]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.28-21.11.43:617][880]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.28-21.11.43:617][880]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.28-21.11.43:617][880]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.28-21.11.43:617][880]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.28-21.11.43:617][880]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.28-21.11.43:625][880]AssetCheck: /Game/Blueprints/UI/Overlay/WBP_Overlay Validating asset
+[2025.10.28-21.11.45:432][931]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.10.28-21.13.26:187][963]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5100.903320
+[2025.10.28-21.13.26:321][979]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.28-21.13.26:321][979]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5101.027832, Update Interval: 352.737823
+[2025.10.28-21.15.27:711][313]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.10.28-21.15.29:431][462]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.28-21.15.29:450][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.28-21.15.29:451][462]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dungeon
+[2025.10.28-21.15.29:459][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008455s)
+[2025.10.28-21.15.29:460][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dungeon.Dungeon to /Game/Maps/UEDPIE_0_Dungeon.Dungeon (0.008714s)
+[2025.10.28-21.15.29:483][462]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2025.10.28-21.15.29:484][462]LogChaosDD: Creating Chaos Debug Draw Scene for world Dungeon
+[2025.10.28-21.15.29:486][462]LogPlayLevel: PIE: World Init took: (0.001764s)
+[2025.10.28-21.15.29:487][462]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.10.28-21.15.29:487][462]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.28-21.15.29:488][462]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.28-21.15.29:488][462]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.28-21.15.29:488][462]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.28-21.15.29:488][462]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.28-21.15.29:488][462]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.28-21.15.29:488][462]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.28-21.15.29:488][462]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.28-21.15.29:488][462]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.28-21.15.29:488][462]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.28-21.15.29:488][462]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.28-21.15.29:492][462]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.28-21.15.29:525][462]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2025.10.28-21.15.29:525][462]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.28-21.15.29:526][462]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.28-21.15.29:526][462]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.28-21.15.29:526][462]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.10.28-21.15.29:526][462]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.10.28-21.15.29:529][462]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.10.28-21.15.29:529][462]LogInit: FAudioDevice initialized with ID 9.
+[2025.10.28-21.15.29:529][462]LogAudio: Display: Audio Device (ID: 9) registered with world 'Dungeon'.
+[2025.10.28-21.15.29:529][462]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.10.28-21.15.29:530][462]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.10.28-21.15.29:532][462]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.10.28-21.15.29:535][462]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2025.10.28-14.15.29
+[2025.10.28-21.15.29:538][462]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2025.10.28-21.15.29:539][462]LogWorld: Bringing up level for play took: 0.006067
+[2025.10.28-21.15.29:548][462]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.28-21.15.29:549][462]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2025.10.28-21.15.29:549][462]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2025.10.28-21.15.29:549][462]LogPushModel: PushModel HandleCreation is now enabled
+[2025.10.28-21.15.29:549][462]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.10.28-21.15.29:549][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.10.28-21.15.29:549][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.10.28-21.15.29:549][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.10.28-21.15.29:550][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.10.28-21.15.29:550][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.10.28-21.15.29:550][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.10.28-21.15.29:550][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.10.28-21.15.29:550][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.10.28-21.15.29:550][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.10.28-21.15.29:550][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.10.28-21.15.29:550][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.10.28-21.15.29:551][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.10.28-21.15.29:551][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.10.28-21.15.29:551][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.10.28-21.15.29:551][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.10.28-21.15.29:551][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.10.28-21.15.29:551][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.10.28-21.15.29:551][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.10.28-21.15.29:551][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.10.28-21.15.29:552][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.10.28-21.15.29:552][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.10.28-21.15.29:552][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.10.28-21.15.29:552][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.10.28-21.15.29:552][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.10.28-21.15.29:552][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.10.28-21.15.29:552][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.10.28-21.15.29:552][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.10.28-21.15.29:552][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.10.28-21.15.29:552][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.10.28-21.15.29:552][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.10.28-21.15.29:552][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.10.28-21.15.29:552][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.10.28-21.15.29:552][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.10.28-21.15.29:553][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.10.28-21.15.29:553][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.10.28-21.15.29:553][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.10.28-21.15.29:553][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.10.28-21.15.29:553][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.10.28-21.15.29:553][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.10.28-21.15.29:553][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.10.28-21.15.29:554][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.10.28-21.15.29:554][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.10.28-21.15.29:554][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.10.28-21.15.29:554][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.10.28-21.15.29:554][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.10.28-21.15.29:554][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.10.28-21.15.29:554][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.10.28-21.15.29:555][462]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.10.28-21.15.29:556][462]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2025.10.28-21.15.29:556][462]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2025.10.28-21.15.29:556][462]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.10.28-21.15.29:556][462]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_7 IpNetDriver listening on port 17777
+[2025.10.28-21.15.29:557][462]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.10.28-21.15.29:557][462]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.10.28-21.15.29:559][462]PIE: Server logged in
+[2025.10.28-21.15.29:560][462]PIE: Play in editor total start time 0.112 seconds.
+[2025.10.28-21.16.33:821][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.28-21.16.33:822][475]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dungeon
+[2025.10.28-21.16.33:822][475]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.10.28-21.16.33:823][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.28-21.16.33:824][475]LogNet: World NetDriver shutdown IpNetDriver_7 [GameNetDriver]
+[2025.10.28-21.16.33:824][475]LogNet: DestroyNamedNetDriver IpNetDriver_7 [GameNetDriver]
+[2025.10.28-21.16.33:824][475]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_7 shut down
+[2025.10.28-21.16.33:826][475]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.28-21.16.33:833][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.28-21.16.33:855][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.28-21.16.33:855][475]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.10.28-21.16.33:855][475]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.10.28-21.16.33:857][475]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2025.10.28-21.16.33:871][475]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2025.10.28-21.16.33:971][476]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2025.10.28-21.16.51:697][615]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.10.28-21.16.51:704][615]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.28-21.16.51:837][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Dungeon" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/Dungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.28-21.16.51:934][615]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.10.28-21.16.51:960][615]LogSavePackage: Moving output files for package: /Game/Maps/Dungeon
+[2025.10.28-21.16.51:960][615]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/Dungeon061DF5CB49C9E9F11C9109AA949A9EAC.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/Dungeon.umap'
+[2025.10.28-21.16.51:984][615]LogFileHelpers: Saving map 'Dungeon' took 0.147
+[2025.10.28-21.16.51:998][615]LogFileHelpers: InternalPromptForCheckoutAndSave took 294.244 ms (total: 4.87 sec)
+[2025.10.28-21.16.52:136][615]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.28-21.16.52:137][615]LogContentValidation: Enabled validators:
+[2025.10.28-21.16.52:137][615]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.28-21.16.52:137][615]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.28-21.16.52:137][615]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.28-21.16.52:137][615]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.28-21.16.52:137][615]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.28-21.16.52:137][615]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.28-21.16.52:137][615]AssetCheck: /Game/Maps/Dungeon Validating asset
+[2025.10.28-21.16.53:260][692]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.28-21.16.53:276][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.28-21.16.53:276][692]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dungeon
+[2025.10.28-21.16.53:283][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006890s)
+[2025.10.28-21.16.53:283][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dungeon.Dungeon to /Game/Maps/UEDPIE_0_Dungeon.Dungeon (0.007133s)
+[2025.10.28-21.16.53:304][692]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2025.10.28-21.16.53:305][692]LogChaosDD: Creating Chaos Debug Draw Scene for world Dungeon
+[2025.10.28-21.16.53:307][692]LogPlayLevel: PIE: World Init took: (0.001595s)
+[2025.10.28-21.16.53:308][692]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.10.28-21.16.53:308][692]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.28-21.16.53:308][692]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.28-21.16.53:308][692]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.28-21.16.53:309][692]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.28-21.16.53:309][692]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.28-21.16.53:309][692]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.28-21.16.53:309][692]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.28-21.16.53:309][692]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.28-21.16.53:309][692]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.28-21.16.53:309][692]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.28-21.16.53:309][692]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.28-21.16.53:311][692]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.28-21.16.53:345][692]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2025.10.28-21.16.53:351][692]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.28-21.16.53:351][692]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.28-21.16.53:351][692]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.28-21.16.53:352][692]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.10.28-21.16.53:352][692]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.10.28-21.16.53:354][692]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.10.28-21.16.53:355][692]LogInit: FAudioDevice initialized with ID 10.
+[2025.10.28-21.16.53:355][692]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.10.28-21.16.53:355][692]LogAudio: Display: Audio Device (ID: 10) registered with world 'Dungeon'.
+[2025.10.28-21.16.53:355][692]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.10.28-21.16.53:357][692]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.10.28-21.16.53:360][692]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2025.10.28-14.16.53
+[2025.10.28-21.16.53:363][692]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2025.10.28-21.16.53:363][692]LogWorld: Bringing up level for play took: 0.005854
+[2025.10.28-21.16.53:371][692]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.28-21.16.53:372][692]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2025.10.28-21.16.53:372][692]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2025.10.28-21.16.53:372][692]LogPushModel: PushModel HandleCreation is now enabled
+[2025.10.28-21.16.53:372][692]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.10.28-21.16.53:372][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.10.28-21.16.53:372][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.10.28-21.16.53:372][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.10.28-21.16.53:372][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.10.28-21.16.53:373][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.10.28-21.16.53:373][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.10.28-21.16.53:373][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.10.28-21.16.53:373][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.10.28-21.16.53:373][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.10.28-21.16.53:373][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.10.28-21.16.53:373][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.10.28-21.16.53:373][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.10.28-21.16.53:373][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.10.28-21.16.53:374][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.10.28-21.16.53:374][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.10.28-21.16.53:374][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.10.28-21.16.53:374][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.10.28-21.16.53:374][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.10.28-21.16.53:374][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.10.28-21.16.53:374][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.10.28-21.16.53:374][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.10.28-21.16.53:374][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.10.28-21.16.53:374][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.10.28-21.16.53:375][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.10.28-21.16.53:375][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.10.28-21.16.53:375][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.10.28-21.16.53:375][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.10.28-21.16.53:375][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.10.28-21.16.53:375][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.10.28-21.16.53:375][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.10.28-21.16.53:375][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.10.28-21.16.53:375][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.10.28-21.16.53:375][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.10.28-21.16.53:375][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.10.28-21.16.53:375][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.10.28-21.16.53:375][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.10.28-21.16.53:375][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.10.28-21.16.53:376][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.10.28-21.16.53:376][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.10.28-21.16.53:376][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.10.28-21.16.53:376][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.10.28-21.16.53:376][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.10.28-21.16.53:376][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.10.28-21.16.53:376][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.10.28-21.16.53:376][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.10.28-21.16.53:376][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.10.28-21.16.53:377][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.10.28-21.16.53:377][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.10.28-21.16.53:377][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.10.28-21.16.53:377][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.10.28-21.16.53:377][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.10.28-21.16.53:377][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.10.28-21.16.53:377][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.10.28-21.16.53:377][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.10.28-21.16.53:377][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.10.28-21.16.53:378][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.10.28-21.16.53:378][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.10.28-21.16.53:378][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.10.28-21.16.53:378][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.10.28-21.16.53:378][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.10.28-21.16.53:378][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.10.28-21.16.53:378][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.10.28-21.16.53:378][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.10.28-21.16.53:378][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.10.28-21.16.53:378][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.10.28-21.16.53:378][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.10.28-21.16.53:378][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.10.28-21.16.53:378][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.10.28-21.16.53:378][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.10.28-21.16.53:378][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.10.28-21.16.53:378][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.10.28-21.16.53:378][692]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.10.28-21.16.53:379][692]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2025.10.28-21.16.53:379][692]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2025.10.28-21.16.53:379][692]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.10.28-21.16.53:379][692]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_8 IpNetDriver listening on port 17777
+[2025.10.28-21.16.53:380][692]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.10.28-21.16.53:380][692]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.10.28-21.16.53:382][692]PIE: Server logged in
+[2025.10.28-21.16.53:384][692]PIE: Play in editor total start time 0.11 seconds.
+[2025.10.28-21.17.59:381][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.28-21.17.59:381][947]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dungeon
+[2025.10.28-21.17.59:381][947]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.10.28-21.17.59:382][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.28-21.17.59:383][947]LogNet: World NetDriver shutdown IpNetDriver_8 [GameNetDriver]
+[2025.10.28-21.17.59:383][947]LogNet: DestroyNamedNetDriver IpNetDriver_8 [GameNetDriver]
+[2025.10.28-21.17.59:383][947]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_8 shut down
+[2025.10.28-21.17.59:387][947]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.28-21.17.59:393][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.28-21.17.59:416][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.28-21.17.59:417][947]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.10.28-21.17.59:417][947]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.10.28-21.17.59:419][947]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.10.28-21.17.59:429][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.10.28-21.17.59:492][948]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2025.10.28-21.18.13:929][ 48]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.28-21.18.13:945][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.28-21.18.13:945][ 48]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dungeon
+[2025.10.28-21.18.13:953][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007430s)
+[2025.10.28-21.18.13:953][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dungeon.Dungeon to /Game/Maps/UEDPIE_0_Dungeon.Dungeon (0.007651s)
+[2025.10.28-21.18.13:973][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.10.28-21.18.13:974][ 48]LogChaosDD: Creating Chaos Debug Draw Scene for world Dungeon
+[2025.10.28-21.18.13:976][ 48]LogPlayLevel: PIE: World Init took: (0.001622s)
+[2025.10.28-21.18.13:977][ 48]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.10.28-21.18.13:977][ 48]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.28-21.18.13:977][ 48]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.28-21.18.13:978][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.28-21.18.13:978][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.28-21.18.13:978][ 48]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.28-21.18.13:978][ 48]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.28-21.18.13:978][ 48]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.28-21.18.13:978][ 48]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.28-21.18.13:978][ 48]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.28-21.18.13:978][ 48]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.28-21.18.13:978][ 48]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.28-21.18.13:981][ 48]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.28-21.18.14:014][ 48]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2025.10.28-21.18.14:015][ 48]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.28-21.18.14:015][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.28-21.18.14:015][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.28-21.18.14:018][ 48]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.10.28-21.18.14:018][ 48]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.10.28-21.18.14:021][ 48]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.10.28-21.18.14:021][ 48]LogInit: FAudioDevice initialized with ID 11.
+[2025.10.28-21.18.14:021][ 48]LogAudio: Display: Audio Device (ID: 11) registered with world 'Dungeon'.
+[2025.10.28-21.18.14:021][ 48]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.10.28-21.18.14:021][ 48]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.10.28-21.18.14:024][ 48]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.10.28-21.18.14:026][ 48]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2025.10.28-14.18.14
+[2025.10.28-21.18.14:029][ 48]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2025.10.28-21.18.14:029][ 48]LogWorld: Bringing up level for play took: 0.005431
+[2025.10.28-21.18.14:037][ 48]LogTemp: Warning: Changed Health on BP_AuraCharacter_C_0, Health: 32.500000
+[2025.10.28-21.18.14:038][ 48]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2025.10.28-21.18.14:038][ 48]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2025.10.28-21.18.14:038][ 48]LogPushModel: PushModel HandleCreation is now enabled
+[2025.10.28-21.18.14:039][ 48]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.10.28-21.18.14:039][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.10.28-21.18.14:039][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.10.28-21.18.14:039][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.10.28-21.18.14:039][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.10.28-21.18.14:039][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.10.28-21.18.14:039][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.10.28-21.18.14:039][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.10.28-21.18.14:040][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.10.28-21.18.14:040][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.10.28-21.18.14:040][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.10.28-21.18.14:040][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.10.28-21.18.14:040][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.10.28-21.18.14:040][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.10.28-21.18.14:040][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.10.28-21.18.14:040][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.10.28-21.18.14:040][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.10.28-21.18.14:041][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.10.28-21.18.14:041][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.10.28-21.18.14:041][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.10.28-21.18.14:041][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.10.28-21.18.14:041][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.10.28-21.18.14:041][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.10.28-21.18.14:041][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.10.28-21.18.14:041][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.10.28-21.18.14:042][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.10.28-21.18.14:042][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.10.28-21.18.14:042][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.10.28-21.18.14:042][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.10.28-21.18.14:042][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.10.28-21.18.14:042][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.10.28-21.18.14:042][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.10.28-21.18.14:042][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.10.28-21.18.14:042][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.10.28-21.18.14:042][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.10.28-21.18.14:042][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.10.28-21.18.14:042][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.10.28-21.18.14:043][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.10.28-21.18.14:043][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.10.28-21.18.14:043][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.10.28-21.18.14:043][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.10.28-21.18.14:043][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.10.28-21.18.14:043][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.10.28-21.18.14:043][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.10.28-21.18.14:043][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.10.28-21.18.14:044][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.10.28-21.18.14:044][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.10.28-21.18.14:044][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.10.28-21.18.14:044][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.10.28-21.18.14:044][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.10.28-21.18.14:044][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.10.28-21.18.14:044][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.10.28-21.18.14:044][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.10.28-21.18.14:044][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.10.28-21.18.14:044][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.10.28-21.18.14:044][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.10.28-21.18.14:044][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.10.28-21.18.14:045][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.10.28-21.18.14:045][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.10.28-21.18.14:045][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.10.28-21.18.14:045][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.10.28-21.18.14:045][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.10.28-21.18.14:045][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.10.28-21.18.14:045][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.10.28-21.18.14:045][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.10.28-21.18.14:045][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.10.28-21.18.14:045][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.10.28-21.18.14:045][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.10.28-21.18.14:045][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.10.28-21.18.14:045][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.10.28-21.18.14:045][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.10.28-21.18.14:045][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.10.28-21.18.14:045][ 48]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.10.28-21.18.14:045][ 48]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2025.10.28-21.18.14:045][ 48]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2025.10.28-21.18.14:045][ 48]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.10.28-21.18.14:045][ 48]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_9 IpNetDriver listening on port 17777
+[2025.10.28-21.18.14:046][ 48]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.10.28-21.18.14:047][ 48]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.10.28-21.18.14:049][ 48]PIE: Server logged in
+[2025.10.28-21.18.14:050][ 48]PIE: Play in editor total start time 0.108 seconds.
+[2025.10.28-21.19.49:081][ 76]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5483.732910
+[2025.10.28-21.19.49:218][ 85]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.28-21.19.49:218][ 85]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5483.854980, Update Interval: 320.616486
+[2025.10.28-21.19.55:532][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.28-21.19.55:532][506]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dungeon
+[2025.10.28-21.19.55:532][506]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.10.28-21.19.55:533][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.28-21.19.55:534][506]LogNet: World NetDriver shutdown IpNetDriver_9 [GameNetDriver]
+[2025.10.28-21.19.55:535][506]LogNet: DestroyNamedNetDriver IpNetDriver_9 [GameNetDriver]
+[2025.10.28-21.19.55:535][506]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_9 shut down
+[2025.10.28-21.19.55:537][506]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.28-21.19.55:543][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.28-21.19.55:566][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.28-21.19.55:567][506]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.10.28-21.19.55:567][506]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.10.28-21.19.55:569][506]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.10.28-21.19.55:579][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.10.28-21.19.55:634][507]LogPlayLevel: Display: Destroying online subsystem :Context_24
