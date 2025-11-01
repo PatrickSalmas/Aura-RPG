@@ -59,4 +59,7 @@ protected:
 
 	UPROPERTY(BlueprintReadOnly, Category="WidgetContoller")
 	TObjectPtr<UAttributeSet> AttributeSet;
+
+	UPROPERTY(BlueprintReadOnly, Category="WidgetContoller")
+	int32 XP;
 };
