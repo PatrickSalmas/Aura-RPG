@@ -106,6 +106,17 @@ UCharacterClassInfo* UAuraAbilitySystemLibrary::GetCharacterClassInfo(const UObj
 	return AuraGameMode->CharacterClassInfo;
 }
 
+int32 UAuraAbilitySystemLibrary::GetXPRewardForClassAndLevel(const UObject* WorldContextObject, ECharacterClass CharacterClass,
+	int32 CharacterLevel)
+{
+	UCharacterClassInfo* CharacterClassInfo = GetCharacterClassInfo(WorldContextObject);
+	if (CharacterClassInfo == nullptr) return 0;
+	const FCharacterClassDefaultInfo& CharacterInfo = CharacterClassInfo->GetClassDefaultInfo(CharacterClass);
+	const float XPReward = CharacterInfo.XPReward.GetValueAtLevel(CharacterLevel);
+	
+	return static_cast<int32>(XPReward); 
+}
+
 bool UAuraAbilitySystemLibrary::IsBlockedHit(const FGameplayEffectContextHandle& EffectContextHandle)
 {
 	if (const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
