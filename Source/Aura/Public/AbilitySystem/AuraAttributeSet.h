@@ -241,7 +241,4 @@ private:
 	void ShowFloatingText(const FEffectProperties& Props, float Damage, bool bBlockedHit, bool bCriticalHit) const;
 
 	void SendXPEvent(const FEffectProperties& Props);
-
-	// UPROPERTY(EditDefaultsOnly)
-	// TSubclassOf<ULevelUpTextComponent> LevelUpTextComponentClass;
 };

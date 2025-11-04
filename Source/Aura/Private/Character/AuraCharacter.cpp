@@ -66,18 +66,9 @@ void AAuraCharacter::AddToXP_Implementation(int32 InXP)
 	AuraPlayerState->AddToXP(InXP);
 }
 
-void AAuraCharacter::LevelUp_Implementation(int32 Level)
+void AAuraCharacter::LevelUp_Implementation()
 {
 	MulticastLevelUpParticles();
-
-	if (LevelUpTextComponentClass)
-	{
-		ULevelUpTextComponent* LevelUpText = NewObject<ULevelUpTextComponent>(this, LevelUpTextComponentClass);
-		LevelUpText->RegisterComponent();
-		// LevelUpText->AttachToComponent(Props.SourceCharacter->GetRootComponent(), FAttachmentTransformRules::KeepRelativeTransform);
-		LevelUpText->AttachToComponent(this->GetRootComponent(), FAttachmentTransformRules::KeepRelativeTransform);
-		LevelUpText->SetLevelUpText(Level);
-	}
 }
 
 void AAuraCharacter::MulticastLevelUpParticles_Implementation() const
