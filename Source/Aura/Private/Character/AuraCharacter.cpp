@@ -13,6 +13,7 @@
 #include "AbilitySystem/Data/LevelUpInfo.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "UI/Widget/LevelUpTextComponent.h"
 
 AAuraCharacter::AAuraCharacter()
 {
@@ -65,9 +66,18 @@ void AAuraCharacter::AddToXP_Implementation(int32 InXP)
 	AuraPlayerState->AddToXP(InXP);
 }
 
-void AAuraCharacter::LevelUp_Implementation()
+void AAuraCharacter::LevelUp_Implementation(int32 Level)
 {
 	MulticastLevelUpParticles();
+
+	if (LevelUpTextComponentClass)
+	{
+		ULevelUpTextComponent* LevelUpText = NewObject<ULevelUpTextComponent>(this, LevelUpTextComponentClass);
+		LevelUpText->RegisterComponent();
+		// LevelUpText->AttachToComponent(Props.SourceCharacter->GetRootComponent(), FAttachmentTransformRules::KeepRelativeTransform);
+		LevelUpText->AttachToComponent(this->GetRootComponent(), FAttachmentTransformRules::KeepRelativeTransform);
+		LevelUpText->SetLevelUpText(Level);
+	}
 }
 
 void AAuraCharacter::MulticastLevelUpParticles_Implementation() const

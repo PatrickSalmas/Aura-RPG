@@ -7,6 +7,7 @@
 #include "Interaction/PlayerInterface.h"
 #include "AuraCharacter.generated.h"
 
+class ULevelUpTextComponent;
 class UCameraComponent;
 class USpringArmComponent;
 class UNiagaraComponent;
@@ -25,7 +26,7 @@ public:
 
 	/* Player interface */
 	virtual void AddToXP_Implementation(int32 InXP) override;
-	virtual void LevelUp_Implementation() override;
+	virtual void LevelUp_Implementation(int32 Level) override;
 	virtual int32 GetXP_Implementation() const override;
 	virtual int32 FindLevelForXP_Implementation(int32 InXP) const override;
 	virtual int32 GetAttributePointsReward_Implementation(int32 InPlayerLevel) const override;
@@ -41,7 +42,7 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	TObjectPtr<UNiagaraComponent> LevelUpNiagaraComponent;
-	
+
 private:
 
 	UPROPERTY(VisibleAnywhere)
@@ -54,4 +55,7 @@ private:
 
 	UFUNCTION(NetMulticast, Reliable)
 	void MulticastLevelUpParticles() const;
+
+	UPROPERTY(EditDefaultsOnly)
+	TSubclassOf<ULevelUpTextComponent> LevelUpTextComponentClass;
 };

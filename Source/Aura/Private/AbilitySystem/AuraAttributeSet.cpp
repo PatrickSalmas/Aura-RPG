@@ -13,6 +13,7 @@
 #include "Interaction/CombatInterface.h"
 #include "Interaction/PlayerInterface.h"
 #include "Player/AuraPlayerController.h"
+#include "UI/Widget/LevelUpTextComponent.h"
 
 UAuraAttributeSet::UAuraAttributeSet()
 {
@@ -200,7 +201,14 @@ void UAuraAttributeSet::PostGameplayEffectExecute(const FGameplayEffectModCallba
 				SetHealth(GetMaxHealth());
 				SetMana(GetMaxMana());
 				
-				IPlayerInterface::Execute_LevelUp(Props.SourceCharacter);
+				IPlayerInterface::Execute_LevelUp(Props.SourceCharacter, NewLevel);
+				// if (LevelUpTextComponentClass)
+				// {
+				// 	ULevelUpTextComponent* LevelUpText = NewObject<ULevelUpTextComponent>(Props.SourceCharacter, LevelUpTextComponentClass);
+				// 	LevelUpText->RegisterComponent();
+				// 	LevelUpText->AttachToComponent(Props.SourceCharacter->GetRootComponent(), FAttachmentTransformRules::KeepRelativeTransform);
+				// 	LevelUpText->SetLevelUpText(NumLevelUps);
+				// }
 			}
 			
 			IPlayerInterface::Execute_AddToXP(Props.SourceCharacter, LocalIncomingXP);

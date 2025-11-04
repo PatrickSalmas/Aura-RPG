@@ -13,6 +13,7 @@
 	GAMEPLAYATTRIBUTE_VALUE_SETTER(PropertyName) \
 	GAMEPLAYATTRIBUTE_VALUE_INITTER(PropertyName)
 
+class ULevelUpTextComponent;
 DECLARE_DELEGATE_RetVal(FGameplayAttribute, FAttributeSignature);
 
 USTRUCT()
@@ -240,4 +241,7 @@ private:
 	void ShowFloatingText(const FEffectProperties& Props, float Damage, bool bBlockedHit, bool bCriticalHit) const;
 
 	void SendXPEvent(const FEffectProperties& Props);
+
+	// UPROPERTY(EditDefaultsOnly)
+	// TSubclassOf<ULevelUpTextComponent> LevelUpTextComponentClass;
 };
