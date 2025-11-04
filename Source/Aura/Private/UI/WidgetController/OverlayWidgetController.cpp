@@ -32,6 +32,14 @@ void UOverlayWidgetController::BindCallbackToDependencies()
 		}
 	);
 	
+	AuraPlayerState->OnAttributePointsChangedDelegate.AddLambda(
+		[this](int32 NewAttributePoints)
+		{
+			OnPlayerAttributePointsChangedDelegate.Broadcast(NewAttributePoints);
+		}
+	);
+	
+	
 	const UAuraAttributeSet* AuraAttributeSet = CastChecked<UAuraAttributeSet>(AttributeSet);
 	
 	AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(

@@ -1,4 +1,4 @@
-// Copyright Salmas Coporation
+// Copyright Salmas Corporation
 
 
 #include "UI/WidgetController/AuraWidgetController.h"
