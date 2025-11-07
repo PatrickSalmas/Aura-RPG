@@ -4211,3 +4211,1244 @@ Make sure 'WBP_SpellGlobe_Button_C' has been compiled for  Update Ring Brush
 [2025.11.06-23.36.31:131][942]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
 [2025.11.06-23.36.31:552][970]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
 [2025.11.06-23.36.32:119][  7]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.11.06-23.36.59:458][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-23.36.59:458][776]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dungeon
+[2025.11.06-23.36.59:459][776]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-23.36.59:460][776]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-23.36.59:461][776]LogNet: World NetDriver shutdown IpNetDriver_8 [GameNetDriver]
+[2025.11.06-23.36.59:462][776]LogNet: DestroyNamedNetDriver IpNetDriver_8 [GameNetDriver]
+[2025.11.06-23.36.59:462][776]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_8 shut down
+[2025.11.06-23.36.59:464][776]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.06-23.36.59:471][776]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-23.36.59:496][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-23.36.59:497][776]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.11.06-23.36.59:497][776]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.11.06-23.36.59:501][776]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2025.11.06-23.36.59:516][776]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.11.06-23.36.59:540][777]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2025.11.06-23.41.13:793][565]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27134.273438
+[2025.11.06-23.41.14:795][568]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.06-23.41.14:795][568]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27134.949219, Update Interval: 315.465546
+[2025.11.06-23.47.02:916][612]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27483.398438
+[2025.11.06-23.47.03:911][615]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.06-23.47.03:912][615]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27484.064453, Update Interval: 321.281158
+[2025.11.06-23.47.25:329][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2025.11.06-23.47.36:853][811]LogContentBrowser: Attempting asset rename: WBP_PassiveSpellTree1 -> WBP_EquippedSpellRow
+[2025.11.06-23.47.37:058][811]LogMetaData: Removing '/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow.SKEL_WBP_EquippedSpellRow_C' ref from Metadata '/Game/Blueprints/UI/SpellMenu/WBP_PassiveSpellTree1.PackageMetaData'
+[2025.11.06-23.47.37:058][811]LogMetaData: Removing '/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow.WBP_EquippedSpellRow_C' ref from Metadata '/Game/Blueprints/UI/SpellMenu/WBP_PassiveSpellTree1.PackageMetaData'
+[2025.11.06-23.47.37:059][811]LogMetaData: Removing '/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow.SKEL_WBP_EquippedSpellRow_C:PreConstruct' ref from Metadata '/Game/Blueprints/UI/SpellMenu/WBP_PassiveSpellTree1.PackageMetaData'
+[2025.11.06-23.47.37:060][811]LogMetaData: Removing '/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow.SKEL_WBP_EquippedSpellRow_C:Construct' ref from Metadata '/Game/Blueprints/UI/SpellMenu/WBP_PassiveSpellTree1.PackageMetaData'
+[2025.11.06-23.47.37:060][811]LogMetaData: Removing '/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow.SKEL_WBP_EquippedSpellRow_C:Tick' ref from Metadata '/Game/Blueprints/UI/SpellMenu/WBP_PassiveSpellTree1.PackageMetaData'
+[2025.11.06-23.47.37:060][811]LogMetaData: Removing '/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow.WBP_EquippedSpellRow_C:PreConstruct' ref from Metadata '/Game/Blueprints/UI/SpellMenu/WBP_PassiveSpellTree1.PackageMetaData'
+[2025.11.06-23.47.37:061][811]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-23.47.37:062][811]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow] ([2] browsable assets)...
+[2025.11.06-23.47.37:065][811]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow.WBP_EquippedSpellRow]
+[2025.11.06-23.47.37:066][811]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow]
+[2025.11.06-23.47.37:066][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow.uasset" SILENT=true
+[2025.11.06-23.47.37:073][811]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow
+[2025.11.06-23.47.37:074][811]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellRow8B7E58C04AE543CF2471E1B4D724FD68.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow.uasset'
+[2025.11.06-23.47.37:087][811]LogFileHelpers: InternalPromptForCheckoutAndSave took 25.533 ms (total: 8.39 sec)
+[2025.11.06-23.47.37:121][811]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.11.06-23.47.37:145][811]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.11.06-23.47.37:167][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.11.06-23.47.37:317][811]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-23.47.37:317][811]LogContentValidation: Enabled validators:
+[2025.11.06-23.47.37:318][811]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-23.47.37:318][811]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-23.47.37:318][811]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-23.47.37:318][811]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-23.47.37:318][811]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-23.47.37:318][811]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-23.47.37:319][811]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow Validating asset
+[2025.11.06-23.47.43:812][ 20]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow.WBP_EquippedSpellRow
+[2025.11.06-23.47.43:813][ 20]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_62
+[2025.11.06-23.47.43:819][ 20]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_63
+[2025.11.06-23.48.26:540][967]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells.WBP_HealthManaSpells
+[2025.11.06-23.48.26:540][967]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_64
+[2025.11.06-23.48.26:548][967]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_65
+[2025.11.06-23.48.57:405][ 39]LogContentBrowser: Attempting asset rename: WBP_EquippedSpellRow -> WBP_EquippedSpellsRow
+[2025.11.06-23.48.57:580][ 39]LogMetaData: Removing '/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow_C' ref from Metadata '/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow.PackageMetaData'
+[2025.11.06-23.48.57:581][ 39]LogMetaData: Removing '/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow_C:PreConstruct' ref from Metadata '/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow.PackageMetaData'
+[2025.11.06-23.48.57:581][ 39]LogMetaData: Removing '/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.SKEL_WBP_EquippedSpellsRow_C' ref from Metadata '/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow.PackageMetaData'
+[2025.11.06-23.48.57:581][ 39]LogMetaData: Removing '/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.SKEL_WBP_EquippedSpellsRow_C:PreConstruct' ref from Metadata '/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow.PackageMetaData'
+[2025.11.06-23.48.57:581][ 39]LogMetaData: Removing '/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.SKEL_WBP_EquippedSpellsRow_C:Construct' ref from Metadata '/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow.PackageMetaData'
+[2025.11.06-23.48.57:581][ 39]LogMetaData: Removing '/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.SKEL_WBP_EquippedSpellsRow_C:Tick' ref from Metadata '/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellRow.PackageMetaData'
+[2025.11.06-23.48.57:605][ 39]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-23.48.57:606][ 39]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.06-23.48.57:606][ 39]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.06-23.48.57:606][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.06-23.48.57:615][ 39]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.06-23.48.57:615][ 39]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRow851EB17341C142471D890793A0EDF2CD.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.06-23.48.57:625][ 39]LogFileHelpers: InternalPromptForCheckoutAndSave took 19.515 ms (total: 8.41 sec)
+[2025.11.06-23.48.57:703][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.11.06-23.48.57:728][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.11.06-23.48.57:749][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.11.06-23.48.57:885][ 39]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-23.48.57:885][ 39]LogContentValidation: Enabled validators:
+[2025.11.06-23.48.57:886][ 39]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-23.48.57:886][ 39]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-23.48.57:886][ 39]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-23.48.57:886][ 39]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-23.48.57:886][ 39]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-23.48.57:886][ 39]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-23.48.57:887][ 39]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.06-23.49.41:362][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.11.06-23.49.41:367][575]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-23.49.41:505][575]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.06-23.49.41:509][575]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.06-23.49.41:509][575]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.06-23.49.41:509][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.06-23.49.41:516][575]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.06-23.49.41:517][575]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRow4F6A657D48FAF0A466FEF3894A146AF6.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.06-23.49.41:526][575]LogFileHelpers: InternalPromptForCheckoutAndSave took 158.339 ms (total: 8.57 sec)
+[2025.11.06-23.49.41:674][575]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-23.49.41:674][575]LogContentValidation: Enabled validators:
+[2025.11.06-23.49.41:675][575]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-23.49.41:675][575]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-23.49.41:675][575]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-23.49.41:675][575]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-23.49.41:675][575]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-23.49.41:675][575]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-23.49.41:676][575]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.06-23.50.15:369][933]LogSlate: Took 0.015667 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2025.11.06-23.50.49:505][271]LogStreaming: Display: FlushAsyncLoading(500): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.06-23.51.57:660][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.11.06-23.51.57:666][153]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-23.51.57:803][153]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Overlay/WBP_Overlay] ([2] browsable assets)...
+[2025.11.06-23.51.57:815][153]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Overlay/WBP_Overlay.WBP_Overlay]
+[2025.11.06-23.51.57:816][153]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Overlay/WBP_Overlay]
+[2025.11.06-23.51.57:816][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Overlay/WBP_Overlay" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset" SILENT=true
+[2025.11.06-23.51.57:837][153]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Overlay/WBP_Overlay
+[2025.11.06-23.51.57:837][153]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_OverlayFEBEF0F643998A930553C9AC5571934B.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset'
+[2025.11.06-23.51.57:839][153]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.06-23.51.57:842][153]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.06-23.51.57:842][153]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.06-23.51.57:842][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.06-23.51.57:850][153]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.06-23.51.57:850][153]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRow3F174E3C4EC30411BFDBAAB42CE595A4.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.06-23.51.57:859][153]LogFileHelpers: InternalPromptForCheckoutAndSave took 194.337 ms (total: 8.76 sec)
+[2025.11.06-23.51.58:018][153]LogContentValidation: Display: Starting to validate 2 assets
+[2025.11.06-23.51.58:018][153]LogContentValidation: Enabled validators:
+[2025.11.06-23.51.58:018][153]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-23.51.58:018][153]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-23.51.58:019][153]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-23.51.58:019][153]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-23.51.58:019][153]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-23.51.58:019][153]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-23.51.58:028][153]AssetCheck: /Game/Blueprints/UI/Overlay/WBP_Overlay Validating asset
+[2025.11.06-23.51.58:029][153]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.06-23.51.59:779][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.11.06-23.52.14:322][351]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.11.06-23.52.17:022][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.11.06-23.52.17:026][509]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-23.52.17:168][509]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Overlay/WBP_Overlay] ([2] browsable assets)...
+[2025.11.06-23.52.17:180][509]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Overlay/WBP_Overlay.WBP_Overlay]
+[2025.11.06-23.52.17:180][509]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Overlay/WBP_Overlay]
+[2025.11.06-23.52.17:181][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Overlay/WBP_Overlay" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset" SILENT=true
+[2025.11.06-23.52.17:202][509]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Overlay/WBP_Overlay
+[2025.11.06-23.52.17:203][509]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_Overlay947C54CB48AE78DDB91D829B63DDCC1F.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset'
+[2025.11.06-23.52.17:213][509]LogFileHelpers: InternalPromptForCheckoutAndSave took 186.066 ms (total: 8.95 sec)
+[2025.11.06-23.52.17:356][509]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-23.52.17:357][509]LogContentValidation: Enabled validators:
+[2025.11.06-23.52.17:357][509]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-23.52.17:357][509]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-23.52.17:357][509]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-23.52.17:357][509]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-23.52.17:358][509]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-23.52.17:358][509]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-23.52.17:368][509]AssetCheck: /Game/Blueprints/UI/Overlay/WBP_Overlay Validating asset
+[2025.11.06-23.52.24:232][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.11.06-23.52.24:237][ 23]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-23.52.24:359][ 23]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Overlay/WBP_Overlay] ([2] browsable assets)...
+[2025.11.06-23.52.24:372][ 23]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Overlay/WBP_Overlay.WBP_Overlay]
+[2025.11.06-23.52.24:372][ 23]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Overlay/WBP_Overlay]
+[2025.11.06-23.52.24:372][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Overlay/WBP_Overlay" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset" SILENT=true
+[2025.11.06-23.52.24:393][ 23]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Overlay/WBP_Overlay
+[2025.11.06-23.52.24:394][ 23]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_Overlay5AC8E0A44E4D0A52294AD399CBB59E0A.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset'
+[2025.11.06-23.52.24:404][ 23]LogFileHelpers: InternalPromptForCheckoutAndSave took 167.438 ms (total: 9.11 sec)
+[2025.11.06-23.52.24:551][ 23]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-23.52.24:551][ 23]LogContentValidation: Enabled validators:
+[2025.11.06-23.52.24:552][ 23]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-23.52.24:552][ 23]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-23.52.24:552][ 23]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-23.52.24:552][ 23]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-23.52.24:552][ 23]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-23.52.24:552][ 23]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-23.52.24:561][ 23]AssetCheck: /Game/Blueprints/UI/Overlay/WBP_Overlay Validating asset
+[2025.11.06-23.52.25:657][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.11.06-23.52.56:901][270]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 27836.332031
+[2025.11.06-23.52.57:023][283]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.06-23.52.57:024][283]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 27836.445312, Update Interval: 301.025421
+[2025.11.06-23.53.07:779][431]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2025.11.06-23.53.07:783][431]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-23.53.07:918][431]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.06-23.53.07:921][431]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.06-23.53.07:922][431]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.06-23.53.07:922][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.06-23.53.07:928][431]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.06-23.53.07:929][431]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRowF2DB7B74471CDFD4C3CC748D4F522ABD.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.06-23.53.07:937][431]LogFileHelpers: InternalPromptForCheckoutAndSave took 153.190 ms (total: 9.27 sec)
+[2025.11.06-23.53.08:057][431]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-23.53.08:058][431]LogContentValidation: Enabled validators:
+[2025.11.06-23.53.08:058][431]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-23.53.08:058][431]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-23.53.08:058][431]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-23.53.08:058][431]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-23.53.08:058][431]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-23.53.08:058][431]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-23.53.08:059][431]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.06-23.53.25:517][243]LogEditorTransaction: Undo Paste clipboard contents
+[2025.11.06-23.53.26:079][247]LogEditorTransaction: Undo Paste clipboard contents
+[2025.11.06-23.53.55:935][659]LogEditorTransaction: Undo Rename Widget
+[2025.11.06-23.55.10:032][591]LogEditorTransaction: Undo Paste clipboard contents
+[2025.11.06-23.55.40:580][519]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2025.11.06-23.55.40:585][519]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-23.55.40:718][519]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.06-23.55.40:722][519]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.06-23.55.40:722][519]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.06-23.55.40:722][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.06-23.55.40:730][519]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.06-23.55.40:731][519]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRowCA90ABA9464A43CB19AC789A1BEF7D35.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.06-23.55.40:739][519]LogFileHelpers: InternalPromptForCheckoutAndSave took 154.772 ms (total: 9.42 sec)
+[2025.11.06-23.55.40:873][519]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-23.55.40:873][519]LogContentValidation: Enabled validators:
+[2025.11.06-23.55.40:873][519]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-23.55.40:874][519]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-23.55.40:874][519]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-23.55.40:874][519]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-23.55.40:874][519]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-23.55.40:874][519]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-23.55.40:877][519]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.06-23.55.42:095][647]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.11.06-23.55.57:013][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2025.11.06-23.55.57:018][  5]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-23.55.57:158][  5]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Overlay/WBP_Overlay] ([2] browsable assets)...
+[2025.11.06-23.55.57:173][  5]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Overlay/WBP_Overlay.WBP_Overlay]
+[2025.11.06-23.55.57:173][  5]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Overlay/WBP_Overlay]
+[2025.11.06-23.55.57:173][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Overlay/WBP_Overlay" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset" SILENT=true
+[2025.11.06-23.55.57:194][  5]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Overlay/WBP_Overlay
+[2025.11.06-23.55.57:195][  5]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_OverlayE8D670DE4685B0716B53BFB61AC3C54D.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset'
+[2025.11.06-23.55.57:205][  5]LogFileHelpers: InternalPromptForCheckoutAndSave took 187.247 ms (total: 9.61 sec)
+[2025.11.06-23.55.57:339][  5]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-23.55.57:340][  5]LogContentValidation: Enabled validators:
+[2025.11.06-23.55.57:340][  5]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-23.55.57:340][  5]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-23.55.57:340][  5]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-23.55.57:340][  5]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-23.55.57:340][  5]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-23.55.57:340][  5]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-23.55.57:352][  5]AssetCheck: /Game/Blueprints/UI/Overlay/WBP_Overlay Validating asset
+[2025.11.06-23.55.58:533][114]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.11.06-23.56.17:392][ 42]LogEditorTransaction: Undo Move Widget
+[2025.11.06-23.56.29:660][794]LogEditorTransaction: Undo Move Widget
+[2025.11.06-23.56.31:073][861]LogEditorTransaction: Undo Move Widget
+[2025.11.06-23.56.48:516][716]LogEditorTransaction: Undo Add Widget
+[2025.11.06-23.56.54:972][344]LogEditorTransaction: Undo Add Widget
+[2025.11.06-23.57.07:690][665]LogEditorTransaction: Undo Add Widget
+[2025.11.06-23.58.16:596][298]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2025.11.06-23.58.16:602][298]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-23.58.16:758][298]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.06-23.58.16:764][298]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.06-23.58.16:764][298]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.06-23.58.16:764][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.06-23.58.16:777][298]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.06-23.58.16:777][298]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRowA886A595401651BC52C98DB16E6888B2.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.06-23.58.16:787][298]LogFileHelpers: InternalPromptForCheckoutAndSave took 184.430 ms (total: 9.79 sec)
+[2025.11.06-23.58.16:923][298]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-23.58.16:923][298]LogContentValidation: Enabled validators:
+[2025.11.06-23.58.16:923][298]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-23.58.16:923][298]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-23.58.16:924][298]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-23.58.16:924][298]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-23.58.16:924][298]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-23.58.16:924][298]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-23.58.16:927][298]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.06-23.58.18:206][417]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2025.11.06-23.58.53:787][740]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 28192.162109
+[2025.11.06-23.58.53:911][751]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.06-23.58.53:911][751]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 28192.275391, Update Interval: 311.264984
+[2025.11.06-23.59.41:046][191]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.11.06-23.59.41:051][191]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-23.59.41:187][191]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Overlay/WBP_Overlay] ([2] browsable assets)...
+[2025.11.06-23.59.41:202][191]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Overlay/WBP_Overlay.WBP_Overlay]
+[2025.11.06-23.59.41:202][191]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Overlay/WBP_Overlay]
+[2025.11.06-23.59.41:202][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Overlay/WBP_Overlay" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset" SILENT=true
+[2025.11.06-23.59.41:224][191]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Overlay/WBP_Overlay
+[2025.11.06-23.59.41:225][191]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_Overlay5FEB5F774E908021654DD28D32627B04.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset'
+[2025.11.06-23.59.41:226][191]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.06-23.59.41:232][191]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.06-23.59.41:232][191]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.06-23.59.41:232][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.06-23.59.41:244][191]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.06-23.59.41:245][191]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRowB7FC69A7415E4C576418769141D0D922.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.06-23.59.41:254][191]LogFileHelpers: InternalPromptForCheckoutAndSave took 203.063 ms (total: 10.0 sec)
+[2025.11.06-23.59.41:438][191]LogContentValidation: Display: Starting to validate 2 assets
+[2025.11.06-23.59.41:438][191]LogContentValidation: Enabled validators:
+[2025.11.06-23.59.41:439][191]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-23.59.41:439][191]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-23.59.41:439][191]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-23.59.41:439][191]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-23.59.41:439][191]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-23.59.41:439][191]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-23.59.41:465][191]AssetCheck: /Game/Blueprints/UI/Overlay/WBP_Overlay Validating asset
+[2025.11.06-23.59.41:468][191]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.06-23.59.44:160][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2025.11.07-00.01.12:216][417]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2025.11.07-00.01.12:221][417]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.01.12:377][417]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.01.12:386][417]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.01.12:386][417]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.01.12:386][417]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.01.12:398][417]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.01.12:399][417]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRowA4E427924270E5BDC6CE3BA213108652.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.01.12:406][417]LogFileHelpers: InternalPromptForCheckoutAndSave took 185.908 ms (total: 10.1 sec)
+[2025.11.07-00.01.12:526][417]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.01.12:527][417]LogContentValidation: Enabled validators:
+[2025.11.07-00.01.12:527][417]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.01.12:527][417]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.01.12:527][417]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.01.12:527][417]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.01.12:527][417]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.01.12:527][417]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.01.12:531][417]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.02.46:251][185]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: d28...f0f
+[2025.11.07-00.02.46:251][185]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 100 RefreshExpires: 1.548e+07
+[2025.11.07-00.02.46:396][200]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: d28...f0f Access[Expires: 2025.11.07-02.02.45 Remaining: 7200.85] Refresh[Expires: 2026-05-05T04:03:01.098Z Remaining: 15480016.10] State: Valid
+[2025.11.07-00.03.09:639][392]LogEditorTransaction: Undo Edit Horizontal Alignment
+[2025.11.07-00.03.16:126][ 30]LogEditorTransaction: Undo Edit Vertical Alignment
+[2025.11.07-00.03.17:214][ 85]Cmd: TRANSACTION UNDO
+[2025.11.07-00.03.17:215][ 85]LogEditorTransaction: Undo Edit Horizontal Alignment
+[2025.11.07-00.03.50:841][477]LogEditorTransaction: Undo Edit Glass Padding
+[2025.11.07-00.03.51:351][481]LogEditorTransaction: Undo Edit Box Height
+[2025.11.07-00.03.52:041][537]LogEditorTransaction: Undo Edit Box Width
+[2025.11.07-00.04.06:119][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.11.07-00.04.06:124][943]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.04.06:255][943]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.04.06:261][943]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.04.06:261][943]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.04.06:261][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.04.06:273][943]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.04.06:274][943]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRow7A78C30C4871F4CAE53EE4A7E5812DCD.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.04.06:282][943]LogFileHelpers: InternalPromptForCheckoutAndSave took 156.969 ms (total: 10.3 sec)
+[2025.11.07-00.04.06:406][943]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.04.06:406][943]LogContentValidation: Enabled validators:
+[2025.11.07-00.04.06:406][943]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.04.06:406][943]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.04.06:406][943]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.04.06:406][943]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.04.06:406][943]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.04.06:406][943]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.04.06:410][943]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.04.16:392][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.11.07-00.04.17:353][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.11.07-00.04.33:906][597]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2025.11.07-00.04.33:909][597]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.04.34:042][597]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.04.34:047][597]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.04.34:047][597]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.04.34:047][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.04.34:060][597]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.04.34:061][597]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRow99C3DDCF4AD49611BD4915BB3575DD21.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.04.34:069][597]LogFileHelpers: InternalPromptForCheckoutAndSave took 159.458 ms (total: 10.5 sec)
+[2025.11.07-00.04.34:209][597]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.04.34:209][597]LogContentValidation: Enabled validators:
+[2025.11.07-00.04.34:210][597]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.04.34:210][597]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.04.34:210][597]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.04.34:210][597]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.04.34:210][597]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.04.34:210][597]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.04.34:213][597]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.04.34:727][635]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2025.11.07-00.04.43:913][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.11.07-00.04.43:919][405]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.04.44:057][405]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.04.44:062][405]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.04.44:062][405]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.04.44:062][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.04.44:075][405]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.04.44:076][405]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRow50929D1A4ACD86EB53FFED98C83BC192.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.04.44:084][405]LogFileHelpers: InternalPromptForCheckoutAndSave took 165.195 ms (total: 10.6 sec)
+[2025.11.07-00.04.44:222][405]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.04.44:222][405]LogContentValidation: Enabled validators:
+[2025.11.07-00.04.44:222][405]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.04.44:223][405]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.04.44:223][405]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.04.44:223][405]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.04.44:223][405]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.04.44:223][405]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.04.44:226][405]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.04.47:324][671]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.11.07-00.05.01:586][ 14]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 28559.285156
+[2025.11.07-00.05.01:699][ 25]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.07-00.05.01:699][ 25]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 28559.388672, Update Interval: 354.283264
+[2025.11.07-00.05.24:567][ 49]LogEditorTransaction: Undo Set Vector Property
+[2025.11.07-00.05.25:202][ 57]Cmd: TRANSACTION UNDO
+[2025.11.07-00.05.25:202][ 57]LogEditorTransaction: Undo Set Vector Property
+[2025.11.07-00.05.26:761][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.11.07-00.05.26:766][193]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.05.26:906][193]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.05.26:912][193]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.05.26:912][193]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.05.26:912][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.05.26:925][193]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.05.26:926][193]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRow10ED960A433D5A647AAB7A830EC7A18E.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.05.26:935][193]LogFileHelpers: InternalPromptForCheckoutAndSave took 169.920 ms (total: 10.8 sec)
+[2025.11.07-00.05.27:075][193]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.05.27:075][193]LogContentValidation: Enabled validators:
+[2025.11.07-00.05.27:075][193]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.05.27:075][193]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.05.27:075][193]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.05.27:075][193]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.05.27:075][193]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.05.27:076][193]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.05.27:079][193]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.05.51:778][283]LogEditorTransaction: Undo Set Vector Property
+[2025.11.07-00.06.00:333][112]Cmd: TRANSACTION UNDO
+[2025.11.07-00.06.00:334][112]LogEditorTransaction: Undo Add Widget
+[2025.11.07-00.06.21:626][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2025.11.07-00.06.21:631][332]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.06.21:776][332]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.06.21:783][332]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.06.21:783][332]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.06.21:783][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.06.21:825][332]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.06.21:828][332]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRowFDCDCFD6479EAA1C0EF99CB2BCADEE17.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.06.21:848][332]LogFileHelpers: InternalPromptForCheckoutAndSave took 212.345 ms (total: 11.0 sec)
+[2025.11.07-00.06.22:016][332]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.06.22:017][332]LogContentValidation: Enabled validators:
+[2025.11.07-00.06.22:017][332]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.06.22:017][332]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.06.22:017][332]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.06.22:017][332]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.06.22:017][332]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.06.22:017][332]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.06.22:021][332]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.06.30:652][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.11.07-00.06.30:660][824]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.06.30:844][824]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.06.30:857][824]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.06.30:858][824]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.06.30:858][824]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.06.30:880][824]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.06.30:880][824]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRow01BE554E44F6AA2B0A0CE7AD7484BABA.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.06.30:895][824]LogFileHelpers: InternalPromptForCheckoutAndSave took 235.980 ms (total: 11.2 sec)
+[2025.11.07-00.06.31:041][824]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.06.31:042][824]LogContentValidation: Enabled validators:
+[2025.11.07-00.06.31:042][824]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.06.31:042][824]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.06.31:042][824]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.06.31:042][824]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.06.31:042][824]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.06.31:042][824]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.06.31:046][824]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.08.33:876][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.11.07-00.08.33:881][405]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.08.34:059][405]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.08.34:065][405]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.08.34:065][405]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.08.34:065][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.08.34:078][405]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.08.34:079][405]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRow69C241C94D54F78875B8788F81055DCF.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.08.34:089][405]LogFileHelpers: InternalPromptForCheckoutAndSave took 207.834 ms (total: 11.4 sec)
+[2025.11.07-00.08.34:224][405]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.08.34:225][405]LogContentValidation: Enabled validators:
+[2025.11.07-00.08.34:225][405]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.08.34:225][405]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.08.34:225][405]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.08.34:225][405]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.08.34:225][405]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.08.34:225][405]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.08.34:229][405]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.08.54:628][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.11.07-00.08.54:632][896]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.08.54:776][896]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.08.54:782][896]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.08.54:782][896]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.08.54:782][896]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.08.54:795][896]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.08.54:796][896]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRowF669C93B4E3566D2E75CC4AA272ACADA.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.08.54:806][896]LogFileHelpers: InternalPromptForCheckoutAndSave took 173.045 ms (total: 11.6 sec)
+[2025.11.07-00.08.54:939][896]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.08.54:939][896]LogContentValidation: Enabled validators:
+[2025.11.07-00.08.54:940][896]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.08.54:940][896]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.08.54:940][896]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.08.54:940][896]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.08.54:940][896]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.08.54:940][896]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.08.54:943][896]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.09.17:202][238]LogEditorTransaction: Undo Edit Horizontal Alignment
+[2025.11.07-00.09.40:818][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2025.11.07-00.09.40:824][736]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.09.40:959][736]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.09.40:965][736]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.09.40:965][736]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.09.40:965][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.09.40:977][736]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.09.40:978][736]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRow5F27A366408E5C4B6CA2829AE379813D.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.09.40:986][736]LogFileHelpers: InternalPromptForCheckoutAndSave took 162.962 ms (total: 11.8 sec)
+[2025.11.07-00.09.41:145][736]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.09.41:145][736]LogContentValidation: Enabled validators:
+[2025.11.07-00.09.41:145][736]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.09.41:146][736]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.09.41:146][736]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.09.41:146][736]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.09.41:146][736]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.09.41:146][736]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.09.41:149][736]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.10.24:573][590]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.07-00.11.17:455][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2025.11.07-00.11.17:460][942]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.11.17:578][942]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.11.17:584][942]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.11.17:584][942]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.11.17:584][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.11.17:598][942]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.11.17:599][942]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRowE02DDB554E430B840E676382A5BFCF38.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.11.17:607][942]LogFileHelpers: InternalPromptForCheckoutAndSave took 147.526 ms (total: 11.9 sec)
+[2025.11.07-00.11.17:729][942]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.11.17:729][942]LogContentValidation: Enabled validators:
+[2025.11.07-00.11.17:729][942]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.11.17:729][942]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.11.17:729][942]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.11.17:729][942]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.11.17:729][942]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.11.17:730][942]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.11.17:734][942]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.11.30:328][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.11.07-00.11.30:333][175]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.11.30:481][175]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.11.30:487][175]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.11.30:487][175]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.11.30:487][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.11.30:500][175]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.11.30:501][175]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRowA93100474B888A3B690D788581F5A373.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.11.30:509][175]LogFileHelpers: InternalPromptForCheckoutAndSave took 176.471 ms (total: 12.1 sec)
+[2025.11.07-00.11.30:673][175]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.11.30:673][175]LogContentValidation: Enabled validators:
+[2025.11.07-00.11.30:674][175]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.11.30:674][175]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.11.30:674][175]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.11.30:674][175]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.11.30:674][175]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.11.30:674][175]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.11.30:679][175]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.11.37:643][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.11.07-00.11.51:332][353]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 28968.525391
+[2025.11.07-00.11.51:477][367]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.07-00.11.51:477][367]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 28968.658203, Update Interval: 338.462463
+[2025.11.07-00.11.53:042][515]LogEditorTransaction: Undo Edit Horizontal Alignment
+[2025.11.07-00.11.57:491][889]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.11.07-00.11.57:496][889]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.11.57:629][889]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.11.57:638][889]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.11.57:639][889]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.11.57:639][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.11.57:653][889]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.11.57:654][889]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRowBA808C2F48F86361BB2629864D23CB3E.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.11.57:661][889]LogFileHelpers: InternalPromptForCheckoutAndSave took 164.327 ms (total: 12.3 sec)
+[2025.11.07-00.11.57:781][889]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.11.57:782][889]LogContentValidation: Enabled validators:
+[2025.11.07-00.11.57:782][889]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.11.57:782][889]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.11.57:782][889]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.11.57:782][889]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.11.57:782][889]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.11.57:782][889]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.11.57:788][889]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.11.59:196][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2025.11.07-00.12.07:963][996]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2025.11.07-00.12.10:751][274]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2025.11.07-00.12.12:995][493]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2025.11.07-00.12.21:472][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.11.07-00.12.25:135][634]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2025.11.07-00.12.26:951][779]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.07-00.12.26:964][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.07-00.12.26:965][779]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dungeon
+[2025.11.07-00.12.26:976][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011347s)
+[2025.11.07-00.12.26:976][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dungeon.Dungeon to /Game/Maps/UEDPIE_0_Dungeon.Dungeon (0.011595s)
+[2025.11.07-00.12.26:999][779]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2025.11.07-00.12.27:001][779]LogChaosDD: Creating Chaos Debug Draw Scene for world Dungeon
+[2025.11.07-00.12.27:003][779]LogPlayLevel: PIE: World Init took: (0.002504s)
+[2025.11.07-00.12.27:005][779]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.11.07-00.12.27:005][779]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.07-00.12.27:005][779]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.07-00.12.27:006][779]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.07-00.12.27:006][779]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.07-00.12.27:006][779]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.07-00.12.27:006][779]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.07-00.12.27:006][779]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.07-00.12.27:006][779]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.07-00.12.27:006][779]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.07-00.12.27:006][779]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.07-00.12.27:006][779]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.07-00.12.27:010][779]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.07-00.12.27:045][779]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2025.11.07-00.12.27:046][779]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.07-00.12.27:046][779]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.07-00.12.27:046][779]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.07-00.12.27:047][779]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.11.07-00.12.27:047][779]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.11.07-00.12.27:050][779]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.11.07-00.12.27:051][779]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.11.07-00.12.27:051][779]LogInit: FAudioDevice initialized with ID 11.
+[2025.11.07-00.12.27:051][779]LogAudio: Display: Audio Device (ID: 11) registered with world 'Dungeon'.
+[2025.11.07-00.12.27:051][779]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.11.07-00.12.27:056][779]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.11.07-00.12.27:064][779]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2025.11.06-16.12.27
+[2025.11.07-00.12.27:067][779]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2025.11.07-00.12.27:071][779]LogWorld: Bringing up level for play took: 0.015332
+[2025.11.07-00.12.27:085][779]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2025.11.07-00.12.27:085][779]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2025.11.07-00.12.27:086][779]LogPushModel: PushModel HandleCreation is now enabled
+[2025.11.07-00.12.27:086][779]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.11.07-00.12.27:086][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.11.07-00.12.27:086][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.11.07-00.12.27:086][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.11.07-00.12.27:087][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.11.07-00.12.27:087][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.11.07-00.12.27:087][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.11.07-00.12.27:087][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.11.07-00.12.27:087][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.11.07-00.12.27:087][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.11.07-00.12.27:087][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.11.07-00.12.27:087][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.11.07-00.12.27:088][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.11.07-00.12.27:088][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.11.07-00.12.27:088][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.11.07-00.12.27:088][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.11.07-00.12.27:088][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.11.07-00.12.27:088][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.11.07-00.12.27:088][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.11.07-00.12.27:088][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.11.07-00.12.27:088][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.11.07-00.12.27:088][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.11.07-00.12.27:088][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.11.07-00.12.27:089][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.11.07-00.12.27:089][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.11.07-00.12.27:089][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.11.07-00.12.27:089][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.11.07-00.12.27:089][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.11.07-00.12.27:089][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.11.07-00.12.27:089][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.11.07-00.12.27:089][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.11.07-00.12.27:089][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.11.07-00.12.27:089][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.11.07-00.12.27:089][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.11.07-00.12.27:089][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.11.07-00.12.27:090][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.11.07-00.12.27:090][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.11.07-00.12.27:090][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.11.07-00.12.27:090][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.11.07-00.12.27:090][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.11.07-00.12.27:090][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.11.07-00.12.27:090][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.11.07-00.12.27:090][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.11.07-00.12.27:090][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.11.07-00.12.27:090][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.11.07-00.12.27:091][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.11.07-00.12.27:091][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.11.07-00.12.27:091][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.11.07-00.12.27:091][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.11.07-00.12.27:091][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.11.07-00.12.27:091][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.11.07-00.12.27:092][779]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.11.07-00.12.27:093][779]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2025.11.07-00.12.27:093][779]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2025.11.07-00.12.27:093][779]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.11.07-00.12.27:093][779]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_9 IpNetDriver listening on port 17777
+[2025.11.07-00.12.27:099][779]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.11.07-00.12.27:099][779]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.11.07-00.12.27:100][779]PIE: Server logged in
+[2025.11.07-00.12.27:101][779]PIE: Play in editor total start time 0.143 seconds.
+[2025.11.07-00.12.33:666][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.07-00.12.33:667][183]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dungeon
+[2025.11.07-00.12.33:668][183]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.11.07-00.12.33:669][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.07-00.12.33:671][183]LogNet: World NetDriver shutdown IpNetDriver_9 [GameNetDriver]
+[2025.11.07-00.12.33:671][183]LogNet: DestroyNamedNetDriver IpNetDriver_9 [GameNetDriver]
+[2025.11.07-00.12.33:671][183]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_9 shut down
+[2025.11.07-00.12.33:674][183]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.07-00.12.33:681][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.07-00.12.33:709][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.07-00.12.33:710][183]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.11.07-00.12.33:710][183]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.11.07-00.12.33:715][183]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2025.11.07-00.12.33:728][183]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2025.11.07-00.12.33:809][184]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2025.11.07-00.12.55:598][839]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.11.07-00.12.55:604][839]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.12.55:741][839]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.12.55:747][839]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.12.55:747][839]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.12.55:747][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.12.55:762][839]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.12.55:762][839]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRow61093AF94370DF931851CA9B41504027.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.12.55:770][839]LogFileHelpers: InternalPromptForCheckoutAndSave took 165.757 ms (total: 12.4 sec)
+[2025.11.07-00.12.55:927][839]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.12.55:927][839]LogContentValidation: Enabled validators:
+[2025.11.07-00.12.55:927][839]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.12.55:927][839]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.12.55:928][839]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.12.55:928][839]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.12.55:928][839]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.12.55:928][839]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.12.55:931][839]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.12.58:973][179]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2025.11.07-00.13.08:605][117]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.07-00.13.08:616][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.07-00.13.08:617][117]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dungeon
+[2025.11.07-00.13.08:628][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010809s)
+[2025.11.07-00.13.08:628][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dungeon.Dungeon to /Game/Maps/UEDPIE_0_Dungeon.Dungeon (0.011145s)
+[2025.11.07-00.13.08:655][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2025.11.07-00.13.08:657][117]LogChaosDD: Creating Chaos Debug Draw Scene for world Dungeon
+[2025.11.07-00.13.08:659][117]LogPlayLevel: PIE: World Init took: (0.001688s)
+[2025.11.07-00.13.08:660][117]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.11.07-00.13.08:660][117]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.07-00.13.08:660][117]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.07-00.13.08:660][117]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.07-00.13.08:660][117]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.07-00.13.08:660][117]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.07-00.13.08:660][117]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.07-00.13.08:661][117]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.07-00.13.08:661][117]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.07-00.13.08:661][117]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.07-00.13.08:661][117]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.07-00.13.08:661][117]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.07-00.13.08:663][117]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.07-00.13.08:697][117]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2025.11.07-00.13.08:697][117]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.07-00.13.08:697][117]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.07-00.13.08:697][117]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.07-00.13.08:698][117]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.11.07-00.13.08:698][117]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.11.07-00.13.08:701][117]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.11.07-00.13.08:701][117]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.11.07-00.13.08:701][117]LogInit: FAudioDevice initialized with ID 12.
+[2025.11.07-00.13.08:701][117]LogAudio: Display: Audio Device (ID: 12) registered with world 'Dungeon'.
+[2025.11.07-00.13.08:702][117]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.11.07-00.13.08:704][117]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.11.07-00.13.08:711][117]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2025.11.06-16.13.08
+[2025.11.07-00.13.08:714][117]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.11.07-00.13.08:718][117]LogWorld: Bringing up level for play took: 0.013681
+[2025.11.07-00.13.08:732][117]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2025.11.07-00.13.08:732][117]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2025.11.07-00.13.08:732][117]LogPushModel: PushModel HandleCreation is now enabled
+[2025.11.07-00.13.08:732][117]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.11.07-00.13.08:732][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.11.07-00.13.08:732][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.11.07-00.13.08:732][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.11.07-00.13.08:732][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.11.07-00.13.08:732][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.11.07-00.13.08:732][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.11.07-00.13.08:733][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.11.07-00.13.08:733][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.11.07-00.13.08:733][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.11.07-00.13.08:733][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.11.07-00.13.08:733][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.11.07-00.13.08:733][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.11.07-00.13.08:733][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.11.07-00.13.08:733][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.11.07-00.13.08:734][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.11.07-00.13.08:734][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.11.07-00.13.08:734][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.11.07-00.13.08:735][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.11.07-00.13.08:735][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.11.07-00.13.08:735][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.11.07-00.13.08:735][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.11.07-00.13.08:735][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.11.07-00.13.08:735][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.11.07-00.13.08:735][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.11.07-00.13.08:736][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.11.07-00.13.08:736][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.11.07-00.13.08:736][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.11.07-00.13.08:736][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.11.07-00.13.08:736][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.11.07-00.13.08:737][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.11.07-00.13.08:737][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.11.07-00.13.08:737][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.11.07-00.13.08:737][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.11.07-00.13.08:737][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.11.07-00.13.08:737][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.11.07-00.13.08:737][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.11.07-00.13.08:737][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.11.07-00.13.08:738][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.11.07-00.13.08:738][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.11.07-00.13.08:738][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.11.07-00.13.08:738][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.11.07-00.13.08:738][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.11.07-00.13.08:738][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.11.07-00.13.08:738][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.11.07-00.13.08:738][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.11.07-00.13.08:738][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.11.07-00.13.08:738][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.11.07-00.13.08:739][117]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.11.07-00.13.08:739][117]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2025.11.07-00.13.08:739][117]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2025.11.07-00.13.08:739][117]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.11.07-00.13.08:740][117]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_10 IpNetDriver listening on port 17777
+[2025.11.07-00.13.08:745][117]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.11.07-00.13.08:746][117]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.11.07-00.13.08:747][117]PIE: Server logged in
+[2025.11.07-00.13.08:748][117]PIE: Play in editor total start time 0.137 seconds.
+[2025.11.07-00.13.18:025][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.07-00.13.18:026][700]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dungeon
+[2025.11.07-00.13.18:027][700]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.11.07-00.13.18:028][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.07-00.13.18:029][700]LogNet: World NetDriver shutdown IpNetDriver_10 [GameNetDriver]
+[2025.11.07-00.13.18:029][700]LogNet: DestroyNamedNetDriver IpNetDriver_10 [GameNetDriver]
+[2025.11.07-00.13.18:030][700]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_10 shut down
+[2025.11.07-00.13.18:032][700]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.07-00.13.18:040][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.07-00.13.18:070][700]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.07-00.13.18:071][700]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.11.07-00.13.18:071][700]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.11.07-00.13.18:073][700]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2025.11.07-00.13.18:079][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.07-00.13.18:086][700]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2025.11.07-00.13.18:167][701]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2025.11.07-00.14.12:016][574]LogEditorTransaction: Undo Edit Y
+[2025.11.07-00.14.12:405][576]LogEditorTransaction: Undo Edit Y
+[2025.11.07-00.14.54:965][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.11.07-00.14.54:970][637]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.14.55:108][637]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.14.55:114][637]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.14.55:114][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.14.55:114][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.14.55:128][637]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.14.55:128][637]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRow465EFD734E90408A223DB681CD1ADF5E.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.14.55:136][637]LogFileHelpers: InternalPromptForCheckoutAndSave took 165.448 ms (total: 12.6 sec)
+[2025.11.07-00.14.55:277][637]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.14.55:278][637]LogContentValidation: Enabled validators:
+[2025.11.07-00.14.55:278][637]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.14.55:278][637]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.14.55:278][637]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.14.55:278][637]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.14.55:278][637]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.14.55:278][637]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.14.55:282][637]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.15.00:798][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2025.11.07-00.15.41:495][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.11.07-00.15.42:557][179]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.11.07-00.15.42:562][179]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.15.42:695][179]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.15.42:700][179]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.15.42:700][179]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.15.42:700][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.15.42:716][179]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.15.42:717][179]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRowBD5F595A4F03A47E7B38BDB30ACA43DA.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.15.42:725][179]LogFileHelpers: InternalPromptForCheckoutAndSave took 162.950 ms (total: 12.8 sec)
+[2025.11.07-00.15.42:860][179]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.15.42:860][179]LogContentValidation: Enabled validators:
+[2025.11.07-00.15.42:861][179]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.15.42:861][179]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.15.42:861][179]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.15.42:861][179]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.15.42:861][179]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.15.42:861][179]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.15.42:865][179]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.15.58:122][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.11.07-00.15.58:127][609]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.15.58:260][609]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.15.58:266][609]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.15.58:266][609]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.15.58:266][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.15.58:280][609]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.15.58:281][609]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRow99876FDD441BA901E5CFAAB392CDEA83.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.15.58:289][609]LogFileHelpers: InternalPromptForCheckoutAndSave took 161.840 ms (total: 12.9 sec)
+[2025.11.07-00.15.58:411][609]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.15.58:411][609]LogContentValidation: Enabled validators:
+[2025.11.07-00.15.58:411][609]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.15.58:412][609]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.15.58:412][609]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.15.58:412][609]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.15.58:412][609]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.15.58:412][609]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.15.58:416][609]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.16.10:179][628]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.11.07-00.16.10:184][628]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.16.10:327][628]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.16.10:332][628]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.16.10:332][628]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.16.10:332][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.16.10:346][628]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.16.10:347][628]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRow89F6298F409A9E1FAC89C38993857A6F.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.16.10:355][628]LogFileHelpers: InternalPromptForCheckoutAndSave took 170.613 ms (total: 13.1 sec)
+[2025.11.07-00.16.10:502][628]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.16.10:502][628]LogContentValidation: Enabled validators:
+[2025.11.07-00.16.10:503][628]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.16.10:503][628]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.16.10:503][628]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.16.10:503][628]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.16.10:503][628]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.16.10:503][628]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.16.10:507][628]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.16.11:735][760]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2025.11.07-00.16.19:557][401]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.07-00.16.19:569][401]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.07-00.16.19:569][401]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dungeon
+[2025.11.07-00.16.19:580][401]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011029s)
+[2025.11.07-00.16.19:581][401]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dungeon.Dungeon to /Game/Maps/UEDPIE_0_Dungeon.Dungeon (0.011463s)
+[2025.11.07-00.16.19:622][401]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2025.11.07-00.16.19:623][401]LogChaosDD: Creating Chaos Debug Draw Scene for world Dungeon
+[2025.11.07-00.16.19:625][401]LogPlayLevel: PIE: World Init took: (0.001942s)
+[2025.11.07-00.16.19:626][401]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.11.07-00.16.19:626][401]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.07-00.16.19:626][401]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.07-00.16.19:626][401]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.07-00.16.19:627][401]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.07-00.16.19:627][401]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.07-00.16.19:627][401]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.07-00.16.19:627][401]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.07-00.16.19:627][401]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.07-00.16.19:627][401]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.07-00.16.19:627][401]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.07-00.16.19:627][401]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.07-00.16.19:631][401]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.07-00.16.19:664][401]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2025.11.07-00.16.19:665][401]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.07-00.16.19:665][401]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.07-00.16.19:665][401]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.07-00.16.19:666][401]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.11.07-00.16.19:666][401]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.11.07-00.16.19:669][401]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.11.07-00.16.19:670][401]LogInit: FAudioDevice initialized with ID 13.
+[2025.11.07-00.16.19:670][401]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.11.07-00.16.19:670][401]LogAudio: Display: Audio Device (ID: 13) registered with world 'Dungeon'.
+[2025.11.07-00.16.19:670][401]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.11.07-00.16.19:673][401]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.11.07-00.16.19:680][401]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2025.11.06-16.16.19
+[2025.11.07-00.16.19:683][401]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2025.11.07-00.16.19:687][401]LogWorld: Bringing up level for play took: 0.014380
+[2025.11.07-00.16.19:701][401]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2025.11.07-00.16.19:701][401]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2025.11.07-00.16.19:701][401]LogPushModel: PushModel HandleCreation is now enabled
+[2025.11.07-00.16.19:701][401]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.11.07-00.16.19:701][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.11.07-00.16.19:701][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.11.07-00.16.19:702][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.11.07-00.16.19:702][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.11.07-00.16.19:702][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.11.07-00.16.19:702][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.11.07-00.16.19:702][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.11.07-00.16.19:702][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.11.07-00.16.19:702][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.11.07-00.16.19:703][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.11.07-00.16.19:703][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.11.07-00.16.19:703][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.11.07-00.16.19:703][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.11.07-00.16.19:703][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.11.07-00.16.19:703][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.11.07-00.16.19:703][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.11.07-00.16.19:703][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.11.07-00.16.19:703][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.11.07-00.16.19:703][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.11.07-00.16.19:704][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.11.07-00.16.19:704][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.11.07-00.16.19:704][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.11.07-00.16.19:704][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.11.07-00.16.19:704][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.11.07-00.16.19:704][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.11.07-00.16.19:704][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.11.07-00.16.19:704][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.11.07-00.16.19:704][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.11.07-00.16.19:704][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.11.07-00.16.19:704][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.11.07-00.16.19:705][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.11.07-00.16.19:705][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.11.07-00.16.19:705][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.11.07-00.16.19:705][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.11.07-00.16.19:705][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.11.07-00.16.19:705][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.11.07-00.16.19:705][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.11.07-00.16.19:705][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.11.07-00.16.19:706][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.11.07-00.16.19:706][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.11.07-00.16.19:706][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.11.07-00.16.19:706][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.11.07-00.16.19:706][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.11.07-00.16.19:706][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.11.07-00.16.19:706][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.11.07-00.16.19:706][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.11.07-00.16.19:707][401]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.11.07-00.16.19:708][401]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2025.11.07-00.16.19:708][401]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2025.11.07-00.16.19:708][401]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.11.07-00.16.19:708][401]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_11 IpNetDriver listening on port 17777
+[2025.11.07-00.16.19:714][401]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.11.07-00.16.19:714][401]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.11.07-00.16.19:715][401]PIE: Server logged in
+[2025.11.07-00.16.19:716][401]PIE: Play in editor total start time 0.154 seconds.
+[2025.11.07-00.16.26:605][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.07-00.16.26:606][822]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dungeon
+[2025.11.07-00.16.26:607][822]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.11.07-00.16.26:608][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.07-00.16.26:610][822]LogNet: World NetDriver shutdown IpNetDriver_11 [GameNetDriver]
+[2025.11.07-00.16.26:610][822]LogNet: DestroyNamedNetDriver IpNetDriver_11 [GameNetDriver]
+[2025.11.07-00.16.26:610][822]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_11 shut down
+[2025.11.07-00.16.26:613][822]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.07-00.16.26:621][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.07-00.16.26:650][822]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.07-00.16.26:651][822]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.11.07-00.16.26:652][822]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.11.07-00.16.26:654][822]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.11.07-00.16.26:660][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.07-00.16.26:666][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2025.11.07-00.16.26:775][823]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2025.11.07-00.16.37:713][472]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2025.11.07-00.16.37:718][472]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.16.37:859][472]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Overlay/WBP_Overlay] ([2] browsable assets)...
+[2025.11.07-00.16.37:874][472]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Overlay/WBP_Overlay.WBP_Overlay]
+[2025.11.07-00.16.37:874][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Overlay/WBP_Overlay]
+[2025.11.07-00.16.37:874][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Overlay/WBP_Overlay" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset" SILENT=true
+[2025.11.07-00.16.37:896][472]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Overlay/WBP_Overlay
+[2025.11.07-00.16.37:896][472]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_Overlay1DEAF5344353F4345235BF90334F991B.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset'
+[2025.11.07-00.16.37:904][472]LogFileHelpers: InternalPromptForCheckoutAndSave took 185.747 ms (total: 13.3 sec)
+[2025.11.07-00.16.38:041][472]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.16.38:042][472]LogContentValidation: Enabled validators:
+[2025.11.07-00.16.38:042][472]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.16.38:042][472]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.16.38:042][472]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.16.38:042][472]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.16.38:042][472]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.16.38:042][472]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.16.38:056][472]AssetCheck: /Game/Blueprints/UI/Overlay/WBP_Overlay Validating asset
+[2025.11.07-00.16.47:299][270]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.11.07-00.16.52:677][497]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.07-00.16.52:689][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.07-00.16.52:690][497]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dungeon
+[2025.11.07-00.16.52:701][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010625s)
+[2025.11.07-00.16.52:701][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dungeon.Dungeon to /Game/Maps/UEDPIE_0_Dungeon.Dungeon (0.010895s)
+[2025.11.07-00.16.52:729][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2025.11.07-00.16.52:731][497]LogChaosDD: Creating Chaos Debug Draw Scene for world Dungeon
+[2025.11.07-00.16.52:733][497]LogPlayLevel: PIE: World Init took: (0.001920s)
+[2025.11.07-00.16.52:735][497]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.11.07-00.16.52:735][497]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.07-00.16.52:735][497]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.07-00.16.52:735][497]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.07-00.16.52:736][497]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.07-00.16.52:736][497]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.07-00.16.52:736][497]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.07-00.16.52:736][497]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.07-00.16.52:736][497]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.07-00.16.52:736][497]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.07-00.16.52:736][497]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.07-00.16.52:736][497]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.07-00.16.52:738][497]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.07-00.16.52:774][497]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2025.11.07-00.16.52:774][497]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.07-00.16.52:774][497]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.07-00.16.52:775][497]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.07-00.16.52:775][497]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.11.07-00.16.52:775][497]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.11.07-00.16.52:778][497]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.11.07-00.16.52:779][497]LogInit: FAudioDevice initialized with ID 14.
+[2025.11.07-00.16.52:779][497]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.11.07-00.16.52:779][497]LogAudio: Display: Audio Device (ID: 14) registered with world 'Dungeon'.
+[2025.11.07-00.16.52:779][497]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.11.07-00.16.52:782][497]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.11.07-00.16.52:789][497]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2025.11.06-16.16.52
+[2025.11.07-00.16.52:792][497]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2025.11.07-00.16.52:796][497]LogWorld: Bringing up level for play took: 0.013978
+[2025.11.07-00.16.52:813][497]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2025.11.07-00.16.52:813][497]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2025.11.07-00.16.52:813][497]LogPushModel: PushModel HandleCreation is now enabled
+[2025.11.07-00.16.52:813][497]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.11.07-00.16.52:813][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.11.07-00.16.52:813][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.11.07-00.16.52:813][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.11.07-00.16.52:813][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.11.07-00.16.52:814][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.11.07-00.16.52:814][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.11.07-00.16.52:814][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.11.07-00.16.52:814][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.11.07-00.16.52:814][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.11.07-00.16.52:814][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.11.07-00.16.52:814][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.11.07-00.16.52:814][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.11.07-00.16.52:814][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.11.07-00.16.52:814][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.11.07-00.16.52:815][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.11.07-00.16.52:815][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.11.07-00.16.52:815][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.11.07-00.16.52:815][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.11.07-00.16.52:815][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.11.07-00.16.52:815][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.11.07-00.16.52:816][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.11.07-00.16.52:816][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.11.07-00.16.52:816][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.11.07-00.16.52:816][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.11.07-00.16.52:816][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.11.07-00.16.52:816][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.11.07-00.16.52:816][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.11.07-00.16.52:816][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.11.07-00.16.52:816][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.11.07-00.16.52:816][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.11.07-00.16.52:816][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.11.07-00.16.52:817][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.11.07-00.16.52:817][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.11.07-00.16.52:817][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.11.07-00.16.52:817][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.11.07-00.16.52:817][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.11.07-00.16.52:817][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.11.07-00.16.52:817][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.11.07-00.16.52:817][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.11.07-00.16.52:817][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.11.07-00.16.52:817][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.11.07-00.16.52:817][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.11.07-00.16.52:817][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.11.07-00.16.52:818][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.11.07-00.16.52:818][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.11.07-00.16.52:818][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.11.07-00.16.52:818][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.11.07-00.16.52:818][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.11.07-00.16.52:818][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.11.07-00.16.52:818][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.11.07-00.16.52:818][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.11.07-00.16.52:819][497]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.11.07-00.16.52:819][497]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2025.11.07-00.16.52:820][497]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2025.11.07-00.16.52:820][497]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.11.07-00.16.52:820][497]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_12 IpNetDriver listening on port 17777
+[2025.11.07-00.16.52:826][497]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.11.07-00.16.52:826][497]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.11.07-00.16.52:828][497]PIE: Server logged in
+[2025.11.07-00.16.52:829][497]PIE: Play in editor total start time 0.145 seconds.
+[2025.11.07-00.17.02:361][ 81]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=14
+[2025.11.07-00.17.12:515][730]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.11.07-00.17.12:632][738]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.11.07-00.17.12:870][753]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.11.07-00.17.13:210][775]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.11.07-00.17.25:743][586]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.11.07-00.17.25:774][588]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.11.07-00.17.28:020][734]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.11.07-00.17.28:099][739]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2025.11.07-00.17.32:276][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.07-00.17.32:276][  5]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dungeon
+[2025.11.07-00.17.32:277][  5]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.11.07-00.17.32:278][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.07-00.17.32:279][  5]LogNet: World NetDriver shutdown IpNetDriver_12 [GameNetDriver]
+[2025.11.07-00.17.32:280][  5]LogNet: DestroyNamedNetDriver IpNetDriver_12 [GameNetDriver]
+[2025.11.07-00.17.32:280][  5]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_12 shut down
+[2025.11.07-00.17.32:282][  5]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.07-00.17.32:292][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.07-00.17.32:325][  5]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.07-00.17.32:327][  5]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.11.07-00.17.32:327][  5]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.11.07-00.17.32:329][  5]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.11.07-00.17.32:334][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.07-00.17.32:341][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.11.07-00.17.32:423][  6]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2025.11.07-00.18.17:622][465]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2025.11.07-00.18.17:627][465]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.07-00.18.17:749][465]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow] ([2] browsable assets)...
+[2025.11.07-00.18.17:756][465]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.WBP_EquippedSpellsRow]
+[2025.11.07-00.18.17:756][465]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow]
+[2025.11.07-00.18.17:756][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset" SILENT=true
+[2025.11.07-00.18.17:770][465]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow
+[2025.11.07-00.18.17:771][465]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_EquippedSpellsRowE507CAE449AC4EC9E743679902D78103.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow.uasset'
+[2025.11.07-00.18.17:779][465]LogFileHelpers: InternalPromptForCheckoutAndSave took 153.086 ms (total: 13.4 sec)
+[2025.11.07-00.18.17:930][465]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.07-00.18.17:930][465]LogContentValidation: Enabled validators:
+[2025.11.07-00.18.17:930][465]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.07-00.18.17:930][465]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.07-00.18.17:930][465]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.07-00.18.17:930][465]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.07-00.18.17:930][465]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.07-00.18.17:930][465]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.07-00.18.17:934][465]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_EquippedSpellsRow Validating asset
+[2025.11.07-00.18.19:423][626]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2025.11.07-00.18.21:332][763]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 29357.361328
+[2025.11.07-00.18.21:467][773]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.07-00.18.21:468][773]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 29357.486328, Update Interval: 340.793488
