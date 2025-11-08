@@ -32,6 +32,9 @@ public:
 
 	UFUNCTION(Client, Reliable)
 	void ShowDamageNumber(float DamageAmount, ACharacter* TargetCharacter, bool bBlockedHit, bool bCriticalHit);
+
+	UFUNCTION(BlueprintCallable)
+	void SetCanMove(bool inCanMove);
 	
 protected:
 	virtual void BeginPlay() override;
@@ -50,6 +53,9 @@ private:
 	void ShiftPressed() { bIsShiftKeyDown = true; };
 	void ShiftReleased() { bIsShiftKeyDown = false; };
 	bool bIsShiftKeyDown = false;
+
+	UPROPERTY(EditAnywhere, Category="Input")
+	bool bCanMove = true;
 	
 	void Move(const FInputActionValue& InputActionValue);
 

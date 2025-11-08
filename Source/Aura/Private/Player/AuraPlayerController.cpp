@@ -44,7 +44,7 @@ void AAuraPlayerController::ShowDamageNumber_Implementation(float DamageAmount, 
 
 void AAuraPlayerController::AutoRun()
 {
-	if (!bAutoRunning) return;
+	if (!bAutoRunning || !bCanMove) return;
 	if (APawn* ControlledPawn = GetPawn())
 	{
 		const FVector LocationOnSpline = Spline->FindLocationClosestToWorldLocation(ControlledPawn->GetActorLocation(), ESplineCoordinateSpace::World);
@@ -184,7 +184,7 @@ void AAuraPlayerController::AbilityInputTagHeld(FGameplayTag InputTag)
 	}
 
 	APawn* ControlledPawn = GetPawn();
-	if (ControlledPawn && ThisActor == nullptr)
+	if (ControlledPawn && ThisActor == nullptr && bCanMove)
 	{
 		const FVector WorldDirection = (CachedDestination - ControlledPawn->GetActorLocation()).GetSafeNormal();
 		ControlledPawn->AddMovementInput(WorldDirection);
@@ -198,6 +198,12 @@ UAuraAbilitySystemComponent* AAuraPlayerController::GetASC()
 		AuraAbilitySystemComponent = Cast<UAuraAbilitySystemComponent>(UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(GetPawn<APawn>()));
 	}
 	return AuraAbilitySystemComponent;
+}
+
+void AAuraPlayerController::SetCanMove(bool inCanMove)
+{
+	bCanMove = inCanMove;
+	bAutoRunning = false;
 }
 
 void AAuraPlayerController::BeginPlay()
@@ -236,14 +242,17 @@ void AAuraPlayerController::Move(const FInputActionValue& InputActionValue)
 	const FVector2D InputAxisVector = InputActionValue.Get<FVector2D>();
 	const FRotator Rotation = GetControlRotation();
 	const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
-
+	
 	const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 	const FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-
+	
 	if (APawn* ControllerPawn = GetPawn<APawn>())
 	{
-		ControllerPawn->AddMovementInput(ForwardDirection, InputAxisVector.Y);
-		ControllerPawn->AddMovementInput(RightDirection, InputAxisVector.X);
+		if (bCanMove)
+		{
+			ControllerPawn->AddMovementInput(ForwardDirection, InputAxisVector.Y);
+			ControllerPawn->AddMovementInput(RightDirection, InputAxisVector.X);
+		}
 	}
 }
 
