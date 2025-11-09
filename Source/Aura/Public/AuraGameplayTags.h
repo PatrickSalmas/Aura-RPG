@@ -46,6 +46,8 @@ public:
 	FGameplayTag InputTag_2;
 	FGameplayTag InputTag_3;
 	FGameplayTag InputTag_4;
+	FGameplayTag PassiveAbility_1;
+	FGameplayTag PassiveAbility_2;
 
 	FGameplayTag Damage;
 	FGameplayTag Damage_Fire;
