@@ -115,14 +115,20 @@ void AAuraPlayerController::AbilityInputTagReleased(FGameplayTag InputTag)
 				// Valid location was not clicked, so we need to find nearest valid location/path to CachedDestination
 				else
 				{
-					UNavigationPath* NavPathNearest = GetClosestValidLocation(ControllerPawn, 75.f);
-					for (const FVector& PointLoc : NavPathNearest->PathPoints)
+					if (UNavigationPath* NavPathNearest = GetClosestValidLocation(ControllerPawn, 75.f, 10))
 					{
-						Spline->AddSplinePoint(PointLoc, ESplineCoordinateSpace::World);
+						for (const FVector& PointLoc : NavPathNearest->PathPoints)
+						{
+							Spline->AddSplinePoint(PointLoc, ESplineCoordinateSpace::World);
+						}
 					}
 				}
-				// CachedDestination = NavPath->PathPoints[NavPath->PathPoints.Num() - 1];
-				bAutoRunning = true;
+				
+				if (NavPath->PathPoints.Num() > 0)
+				{
+					CachedDestination = NavPath->PathPoints[NavPath->PathPoints.Num() - 1];
+					bAutoRunning = true;
+				}
 			}
 		}
 		FollowTime = 0.f;
@@ -130,7 +136,7 @@ void AAuraPlayerController::AbilityInputTagReleased(FGameplayTag InputTag)
 	}
 }
 
-UNavigationPath* AAuraPlayerController::GetClosestValidLocation(APawn* ControllerPawn, float IncrementDistance)
+UNavigationPath* AAuraPlayerController::GetClosestValidLocation(APawn* ControllerPawn, float IncrementDistance, int32 MaxIterationChecks)
 {
 	if (!ControllerPawn) return nullptr;
 	
@@ -138,7 +144,8 @@ UNavigationPath* AAuraPlayerController::GetClosestValidLocation(APawn* Controlle
 	float distanceToCheck = IncrementDistance;
 	FVector WorldDirection = (CachedDestination - ControllerPawn->GetActorLocation()).GetSafeNormal();
 
-	while (NavPathNearest == nullptr || NavPathNearest->PathPoints.IsEmpty())
+	int32 CheckedIterations = 0;
+	while (NavPathNearest == nullptr || NavPathNearest->PathPoints.IsEmpty() && CheckedIterations < MaxIterationChecks)
 	{
 		FVector testDestination = CachedDestination;
 		testDestination.X = testDestination.X - (distanceToCheck * WorldDirection.X);
@@ -150,6 +157,7 @@ UNavigationPath* AAuraPlayerController::GetClosestValidLocation(APawn* Controlle
 			return NavPathNearest;
 		}
 		distanceToCheck += IncrementDistance;
+		CheckedIterations++;
 	}
 
 	return nullptr;
