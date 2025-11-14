@@ -18,6 +18,13 @@ class AURA_API UAuraProjectileSpell : public UAuraDamageGameplayAbility
 {
 	GENERATED_BODY()
 
+public:
+	UFUNCTION(BlueprintCallable, Category = "Projectile")
+	virtual FString GetDescription(int32 Level) override;
+
+	UFUNCTION(BlueprintCallable, Category = "Projectile")
+	virtual FString GetNextLevelDescription(int32 Level) override;
+
 protected:
 
 	virtual void ActivateAbility(const FGameplayAbilitySpecHandle Handle, const FGameplayAbilityActorInfo* ActorInfo,
