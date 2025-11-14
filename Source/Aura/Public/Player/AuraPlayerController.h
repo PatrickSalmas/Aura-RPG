@@ -94,7 +94,7 @@ private:
 
 	void AutoRun();
 	
-	UNavigationPath* GetClosestValidLocation(APawn* ControllerPawn, float IncrementDistance);
+	UNavigationPath* GetClosestValidLocation(APawn* ControllerPawn, float IncrementDistance, int32 MaxIterationChecks);
 
 	UPROPERTY(EditDefaultsOnly)
 	TSubclassOf<UDamageTextComponent> DamageTextComponentClass;
