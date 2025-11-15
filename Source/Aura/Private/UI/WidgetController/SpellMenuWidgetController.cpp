@@ -88,6 +88,8 @@ void USpellMenuWidgetController::SpellGlobeSelected(const FGameplayTag& AbilityT
 	else
 	{
 		SpellGlobeSelectedDelegate.Broadcast(false, false, "", "");
+		SelectedAbility.Ability = FAuraGameplayTags::Get().Abilities_None;
+		SelectedAbility.Status = FAuraGameplayTags::Get().Abilities_Status_Locked;
 	}
 }
 
