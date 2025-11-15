@@ -7,7 +7,6 @@
 #include "AbilitySystemComponent.h"
 #include "Actor/AuraProjectile.h"
 #include "Interaction/CombatInterface.h"
-#include "LevelInstance/LevelInstanceTypes.h"
 #include "Aura/Public/AuraGameplayTags.h"
 
 void UAuraProjectileSpell::ActivateAbility(const FGameplayAbilitySpecHandle Handle,
@@ -65,59 +64,4 @@ void UAuraProjectileSpell::SpawnProjectile(const FVector& ProjectileTargetLocati
 	Projectile->DamageEffectSpecHandle = SpecHandle;
 		
 	Projectile->FinishSpawning(SpawnTransform);
-}
-
-FString UAuraProjectileSpell::GetDescription(int32 Level)
-{
-	const FString ProjectileBluePrint = ProjectileClass->GetName();
-	FString ProjectileName = "";
-	FString ElementType = "";
-	const int32 NumberOfProjectiles = Level <=5 ? Level : 5;
-	const int32 Damage = DamageTypes[FAuraGameplayTags::Get().Damage_Fire].GetValueAtLevel(Level);
-
-	if (ProjectileBluePrint == "BP_FireBolt_C")
-	{
-		ProjectileName = "Fire Bolt";
-		ElementType = "fire";
-	}
-
-	if (NumberOfProjectiles == 1)
-	{
-		return FString::Printf(TEXT(
-			"<Title>%s: LEVEL %i</>\n\n <Default>Launches %i bolt of %s exploding on impact and dealing:</> <Damage>%i</><Default> %s damage with a chance to burn </>"),
-			*ProjectileName, Level, NumberOfProjectiles, *ElementType, Damage, *ElementType);
-	}
-	
-	return FString::Printf(TEXT(
-		"<Title>%s: LEVEL %i</>\n\n <Default>Launches %i bolts of %s exploding on impact and dealing:</> <Damage>%i</><Default> %s damage with a chance to burn </>"),
-		*ProjectileName, Level, NumberOfProjectiles, *ElementType, Damage, *ElementType);
-}
-
-FString UAuraProjectileSpell::GetNextLevelDescription(int32 Level)
-{
-	const FString ProjectileBluePrint = ProjectileClass->GetName();
-	FString ProjectileName = "";
-	FString ElementType = "";
-	const int32 NumberOfProjectiles = Level <=5 ? Level : 5;
-	const int32 Damage = DamageTypes[FAuraGameplayTags::Get().Damage_Fire].GetValueAtLevel(Level);
-
-	if (ProjectileBluePrint == "BP_FireBolt_C")
-	{
-		ProjectileName = "Fire Bolt";
-		ElementType = "fire";
-	}
-
-
-	if (NumberOfProjectiles == 1)
-	{
-		return FString::Printf(
-			TEXT(
-				"<Title>UPGRADE TO %s: LEVEL %i</>\n\n <Default>Launches %i bolt of %s exploding on impact and dealing:</> <Damage>%i</><Default> %s damage with a chance to burn </>"),
-			*ProjectileName, Level, NumberOfProjectiles, *ElementType, Damage, *ElementType);
-	}
-
-	return FString::Printf(
-		TEXT(
-			"<Title>UPGRADE TO %s: LEVEL %i</>\n\n <Default>Launches %i bolts of %s exploding on impact and dealing:</> <Damage>%i</><Default> %s damage with a chance to burn </>"),
-		*ProjectileName, Level, NumberOfProjectiles, *ElementType, Damage, *ElementType);
 }
