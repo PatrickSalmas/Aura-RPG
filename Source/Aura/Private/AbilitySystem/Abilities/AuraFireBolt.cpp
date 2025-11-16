@@ -3,12 +3,10 @@
 
 #include "AbilitySystem/Abilities/AuraFireBolt.h"
 
-#include "AuraGameplayTags.h"
-
 FString UAuraFireBolt::GetDescription(int32 Level)
 {
 	const int32 NumberOfProjectiles = Level <=5 ? Level : 5;
-	const int32 Damage = GetDamageByDamageType(Level, FAuraGameplayTags::Get().Damage_Fire);
+	const int32 ScaledDamage = Damage.GetValueAtLevel(Level);
 	const float ManaCost = GetManaCost(Level);
 	const float Cooldown = GetCooldown(Level);
 
@@ -27,7 +25,7 @@ FString UAuraFireBolt::GetDescription(int32 Level)
 			"<Default>Launches %i bolt of fire, "
 			"exploding on impact and dealing:</> "
 			"<Damage>%i</><Default> fire damage with a chance to burn </>"),
-			Level, abs(ManaCost), Cooldown, NumberOfProjectiles, Damage);
+			Level, abs(ManaCost), Cooldown, NumberOfProjectiles, ScaledDamage);
 	}
 	
 	return FString::Printf(TEXT(
@@ -43,13 +41,13 @@ FString UAuraFireBolt::GetDescription(int32 Level)
 		"<Default>Launches %i bolts of fire, "
 		"exploding on impact and dealing:</> "
 		"<Damage>%i</><Default> fire damage with a chance to burn </>"),
-		Level, abs(ManaCost), Cooldown, NumberOfProjectiles, Damage);
+		Level, abs(ManaCost), Cooldown, NumberOfProjectiles, ScaledDamage);
 }
 
 FString UAuraFireBolt::GetNextLevelDescription(int32 Level)
 {
 	const int32 NumberOfProjectiles = Level <=5 ? Level : 5;
-	const int32 Damage = GetDamageByDamageType(Level, FAuraGameplayTags::Get().Damage_Fire);
+	const int32 ScaledDamage = Damage.GetValueAtLevel(Level);
 	const float ManaCost = GetManaCost(Level);
 	const float Cooldown = GetCooldown(Level);
 	
@@ -68,7 +66,7 @@ FString UAuraFireBolt::GetNextLevelDescription(int32 Level)
 			"<Default>Launches %i bolt of fire, "
 			"exploding on impact and dealing:</> "
 			"<Damage>%i</><Default> fire damage with a chance to burn </>"),
-			Level, abs(ManaCost), Cooldown, NumberOfProjectiles, Damage);
+			Level, abs(ManaCost), Cooldown, NumberOfProjectiles, ScaledDamage);
 	}
 
 	return FString::Printf(TEXT(
@@ -84,5 +82,5 @@ FString UAuraFireBolt::GetNextLevelDescription(int32 Level)
 		"<Default>Launches %i bolts of fire, "
 		"exploding on impact and dealing:</> "
 		"<Damage>%i</><Default> fire damage with a chance to burn </>"),
-		Level, abs(ManaCost), Cooldown, NumberOfProjectiles, Damage);
+		Level, abs(ManaCost), Cooldown, NumberOfProjectiles, ScaledDamage);
 }
