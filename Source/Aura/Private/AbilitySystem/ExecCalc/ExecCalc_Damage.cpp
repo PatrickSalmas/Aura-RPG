@@ -70,6 +70,7 @@ void UExecCalc_Damage::DetermineDebuff(const FGameplayEffectCustomExecutionParam
                                        const TMap<FGameplayTag, FGameplayEffectAttributeCaptureDefinition>&
                                        InTagsToDefs) const
 {
+	FGameplayEffectContextHandle EffectContextHandle = Spec.GetContext();
 	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
 	for (TTuple<FGameplayTag, FGameplayTag> Pair : GameplayTags.DamageTypesToDebuffs)
 	{
@@ -90,6 +91,11 @@ void UExecCalc_Damage::DetermineDebuff(const FGameplayEffectCustomExecutionParam
 			const bool bDebuff = FMath::RandRange(1, 100) < EffectiveDebuffChance;
 			if (bDebuff)
 			{
+				UAuraAbilitySystemLibrary::SetIsSuccessfulDebuff(EffectContextHandle, bDebuff);
+				// TODO: Make these hardcoded
+				UAuraAbilitySystemLibrary::SetDebuffDamage(EffectContextHandle, 5.f);
+				UAuraAbilitySystemLibrary::SetDebuffDuration(EffectContextHandle, 15.f);
+				UAuraAbilitySystemLibrary::SetDebuffFrequency(EffectContextHandle, 1.f);
 				// TODO: What do we do?
 			}
 		}
