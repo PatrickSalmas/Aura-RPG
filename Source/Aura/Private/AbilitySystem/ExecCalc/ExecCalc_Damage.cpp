@@ -92,7 +92,7 @@ void UExecCalc_Damage::DetermineDebuff(const FGameplayEffectCustomExecutionParam
 			if (bDebuff)
 			{
 				UAuraAbilitySystemLibrary::SetIsSuccessfulDebuff(EffectContextHandle, bDebuff);
-				UAuraAbilitySystemLibrary::SetDamageType(EffectContextHandle, DebuffType);
+				UAuraAbilitySystemLibrary::SetDamageType(EffectContextHandle, DamageType);
 
 				const float DebuffDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Debuff_Damage, false, -1.f);
 				const float DebuffDuration = Spec.GetSetByCallerMagnitude(GameplayTags.Debuff_Duration, false, -1.f);
