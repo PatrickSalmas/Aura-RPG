@@ -237,18 +237,3 @@ FGameplayEffectContextHandle UAuraAbilitySystemLibrary::ApplyDamageEffect(const 
 	DamageEffectParams.TargetAbilitySystemComponent->ApplyGameplayEffectSpecToSelf(*SpecHandle.Data);
 	return EffectContextHandle;
 }
-
-// void UAuraAbilitySystemLibrary::ApplyDamageEffect(FDamageEffectParams InDamageEffectParams, AActor* TargetActor)
-// {
-// 	UAuraDamageGameplayAbility DamageGameplayAbility = UAuraDamageGameplayAbility();
-// 	FDamageEffectParams DamageEffectParams = DamageGameplayAbility.MakeDamageEffectParamsFromClassDefaults(TargetActor);
-// 	bool EffectApplied = DamageEffectParams.DebuffChance >= FMath::RandRange(0, 100);
-// 	if (EffectApplied)
-// 	{
-// 		FGameplayEffectSpecHandle DamageSpecHandle = DamageGameplayAbility.MakeOutgoingGameplayEffectSpec(DamageEffectParams.DamageGameplayEffectClass, 1.f);
-// 		const float ScaledDamage = DamageEffectParams.BaseDamage;
-// 		UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(DamageSpecHandle, DamageEffectParams.DamageType, ScaledDamage);
-// 		DamageGameplayAbility.GetAbilitySystemComponentFromActorInfo()->ApplyGameplayEffectSpecToTarget(
-// 			*DamageSpecHandle.Data.Get(), UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(TargetActor));
-// 	}
-// }
