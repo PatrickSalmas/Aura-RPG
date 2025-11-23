@@ -42,7 +42,7 @@ void UDebuffNiagaraComponent::DebuffTagChanged(const FGameplayTag CallbackTag, i
 	ICombatInterface* CombatInterface = Cast<ICombatInterface>(GetOwner());
 	if (NewCount > 0)
 	{
-		if (CombatInterface && !CombatInterface->Execute_IsDead(GetOwner()))
+		if (IsValid(GetOwner()) && CombatInterface && !CombatInterface->Execute_IsDead(GetOwner()))
 		{
 			Activate();
 		}
