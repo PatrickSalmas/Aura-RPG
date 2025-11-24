@@ -12,6 +12,7 @@
 #include "AuraGameplayTags.h"
 #include "AbilitySystem/AuraAbilitySystemLibrary.h"
 #include "Character/AuraCharacterBase.h"
+#include "GameFramework/PawnMovementComponent.h"
 #include "Interaction/CombatInterface.h"
 #include "Interaction/PlayerInterface.h"
 #include "Player/AuraPlayerController.h"
@@ -195,6 +196,11 @@ void UAuraAttributeSet::HandleIncomingDamage(const FEffectProperties& Props)
 			// Handle Debuff
 			Debuff(Props);
 		}
+
+		if (UAuraAbilitySystemLibrary::IsSuccessfulKnockback(Props.EffectContextHandle))
+		{
+			Knockback(Props);		
+		}
 	}
 }
 
@@ -241,6 +247,17 @@ void UAuraAttributeSet::Debuff(const FEffectProperties& Props)
 		Props.TargetASC->ApplyGameplayEffectSpecToSelf(*MutableSpec);
 	}
 
+}
+
+void UAuraAttributeSet::Knockback(const FEffectProperties& Props)
+{
+	AAuraCharacterBase* TargetCharacter = Cast<AAuraCharacterBase>(Props.TargetCharacter);
+	const FVector KnockbackImpulse = UAuraAbilitySystemLibrary::GetKnockbackImpulse(Props.EffectContextHandle);
+	Props.TargetCharacter->GetMovementComponent()->StopMovementImmediately();
+	if (!KnockbackImpulse.IsNearlyZero(1.f))
+	{
+		TargetCharacter->LaunchCharacter(KnockbackImpulse, true, true);
+	}
 }
 
 void UAuraAttributeSet::HandleIncomingXP(const FEffectProperties& Props)

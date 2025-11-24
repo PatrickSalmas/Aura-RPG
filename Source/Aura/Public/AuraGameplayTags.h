@@ -65,6 +65,9 @@ public:
 	FGameplayTag Debuff_Duration;
 	FGameplayTag Debuff_Frequency;
 
+	FGameplayTag KnockBack_Chance;
+	FGameplayTag KnockBack_ImpulseMagnitude;
+
 	FGameplayTag Abilities_None;
 
 	FGameplayTag Abilities_Attack;

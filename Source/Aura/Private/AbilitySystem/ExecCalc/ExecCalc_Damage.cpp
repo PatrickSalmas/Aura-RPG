@@ -10,6 +10,7 @@
 #include "AbilitySystem/AuraAbilitySystemLibrary.h"
 #include "AbilitySystem/AuraAttributeSet.h"
 #include "AbilitySystem/Data/CharacterClassInfo.h"
+#include "Character/AuraCharacterBase.h"
 #include "Interaction/CombatInterface.h"
 
 struct AuraDamageStatics
@@ -106,6 +107,16 @@ void UExecCalc_Damage::DetermineDebuff(const FGameplayEffectCustomExecutionParam
 	}
 }
 
+void UExecCalc_Damage::DetermineKnockback(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
+	const FGameplayEffectSpec& Spec, FAggregatorEvaluateParameters EvaluationParameters) const
+{
+	FGameplayEffectContextHandle EffectContextHandle = Spec.GetContext();
+	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
+	const float SourceKnockBackChance = Spec.GetSetByCallerMagnitude(GameplayTags.KnockBack_Chance, false, -1.f);
+	const bool bKnockback = FMath::RandRange(1, 100) < SourceKnockBackChance;
+	UAuraAbilitySystemLibrary::SetIsSuccessfulKnockback(EffectContextHandle, bKnockback);
+}
+
 void UExecCalc_Damage::Execute_Implementation(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
                                               FGameplayEffectCustomExecutionOutput& OutExecutionOutput) const
 {
@@ -151,6 +162,9 @@ void UExecCalc_Damage::Execute_Implementation(const FGameplayEffectCustomExecuti
 
 	// Debuff
 	DetermineDebuff(ExecutionParams, Spec, EvaluationParameters, TagsToCaptureDefs);
+
+	// Determine if there should be Knockback
+	DetermineKnockback(ExecutionParams, Spec, EvaluationParameters);
 	
 	// Get Damage Set by Caller Magnitude
 	float Damage = 0.f;

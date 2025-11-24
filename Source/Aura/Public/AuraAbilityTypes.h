@@ -33,6 +33,7 @@ struct FDamageEffectParams
 	UPROPERTY()
 	FGameplayTag DamageType = FGameplayTag();
 
+	/* Debuff Properties */
 	UPROPERTY()
 	float DebuffChance = 0.f;
 
@@ -50,6 +51,16 @@ struct FDamageEffectParams
 
 	UPROPERTY()
 	FVector DeathImpulse = FVector::ZeroVector;
+
+	/* Knockback Properties */
+	UPROPERTY()
+	float KnockBackChance = 0.f;
+
+	UPROPERTY()
+	float KnockBackImpulseMagnitude = 0.f;
+
+	UPROPERTY()
+	FVector KnockBackImpulse = FVector::ZeroVector;
 };
 
 USTRUCT(BlueprintType)
@@ -63,21 +74,25 @@ public:
 	bool isBlockedHit() const { return bIsBlockedHit; }
 	
 	bool IsSuccessfulDebuff() const { return bIsSuccessfulDebuff; }
+	bool IsSuccessfulKnockback() const { return bIsSuccessfulKnockback; }
 	float GetDebuffDamage() const { return DebuffDamage; }
 	float GetDebuffDuration() const { return DebuffDuration; }
 	float GetDebuffFrequency() const { return DebuffFrequency; }
 	TSharedPtr<FGameplayTag> GetDamageType() const { return DamageType; }
 	FVector GetDeathImpulse() const { return DeathImpulse; }
+	FVector GetKnockbackImpulse() const { return KnockBackImpulse; }
 
 	void SetIsCriticalHit(bool bInIsCriticalHit) { bIsCriticalHit = bInIsCriticalHit; }
 	void SetIsBlockedHit(bool bInIsBlockedHit) { bIsBlockedHit = bInIsBlockedHit; }
 	
 	void SetIsSuccessfulDebuff(bool bInIsSuccessfulDebuff ) { bIsSuccessfulDebuff = bInIsSuccessfulDebuff; }
+	void SetIsSuccessfulKnockback(bool bInIsSuccessfulKnockback ) { bIsSuccessfulKnockback = bInIsSuccessfulKnockback; }
 	void SetDebuffDamage(float InDamage) { DebuffDamage = InDamage; }
 	void SetDebuffDuration(float InDuration) { DebuffDuration = InDuration; }
 	void SetDebuffFrequency(float InFreq) { DebuffFrequency = InFreq; }
 	void SetDamageType(TSharedPtr<FGameplayTag> InDamageType) { DamageType = InDamageType; }
 	void SetDeathImpulse(const FVector& InDeathImpulse) { DeathImpulse = InDeathImpulse; }
+	void SetKnockbackImpulse(const FVector& InKnockbackImpulse) { KnockBackImpulse = InKnockbackImpulse; }
 	
 	
 	/** Returns the actual struct used for serialization, subclasses must override this! */
@@ -127,6 +142,9 @@ protected:
 	bool bIsSuccessfulDebuff = false;
 
 	UPROPERTY()
+	bool bIsSuccessfulKnockback = false;
+
+	UPROPERTY()
 	float DebuffDamage = 0.f;
 
 	UPROPERTY()
@@ -139,6 +157,9 @@ protected:
 	
 	UPROPERTY()
 	FVector DeathImpulse = FVector::ZeroVector;
+
+	UPROPERTY()
+	FVector KnockBackImpulse = FVector::ZeroVector; 
 };
 
 template<>

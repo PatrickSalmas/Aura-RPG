@@ -63,6 +63,9 @@ public:
 	static bool IsSuccessfulDebuff(const FGameplayEffectContextHandle& EffectContextHandle);
 
 	UFUNCTION(BlueprintPure, Category="AuraAbilitySystemLibrary|GameplayEffects")
+	static bool IsSuccessfulKnockback(const FGameplayEffectContextHandle& EffectContextHandle);
+
+	UFUNCTION(BlueprintPure, Category="AuraAbilitySystemLibrary|GameplayEffects")
 	static float GetDebuffDamage(const FGameplayEffectContextHandle& EffectContextHandle);
 
 	UFUNCTION(BlueprintPure, Category="AuraAbilitySystemLibrary|GameplayEffects")
@@ -76,6 +79,9 @@ public:
 
 	UFUNCTION(BlueprintPure, Category="AuraAbilitySystemLibrary|GameplayEffects")
 	static FVector GetDeathImpulse(const FGameplayEffectContextHandle& EffectContextHandle);
+
+	UFUNCTION(BlueprintPure, Category="AuraAbilitySystemLibrary|GameplayEffects")
+	static FVector GetKnockbackImpulse(const FGameplayEffectContextHandle& EffectContextHandle);
 
 	UFUNCTION(BlueprintCallable, Category="AuraAbilitySystemLibrary|GameplayEffects")
 	static void SetIsBlockedHit(UPARAM(ref) FGameplayEffectContextHandle& EffectContextHandle, bool bInIsBlockedHit);
@@ -100,6 +106,12 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category="AuraAbilitySystemLibrary|GameplayEffects")
 	static void SetDeathImpulse(UPARAM(ref) FGameplayEffectContextHandle& EffectContextHandle, const FVector& InImpulse);
+
+	UFUNCTION(BlueprintCallable, Category="AuraAbilitySystemLibrary|GameplayEffects")
+	static void SetKnockbackImpulse(UPARAM(ref) FGameplayEffectContextHandle& EffectContextHandle, const FVector& InImpulse);
+
+	UFUNCTION(BlueprintCallable, Category="AuraAbilitySystemLibrary|GameplayEffects")
+	static void SetIsSuccessfulKnockback(UPARAM(ref) FGameplayEffectContextHandle& EffectContextHandle, bool bInIsSuccessfulKnockBack);
 
 	UFUNCTION(BlueprintCallable, Category="AuraAbilitySystemLibrary|GameplayMechanics")
 	static void GetLivePlayersWithinRadius(const UObject* WorldContextObject, TArray<AActor*>& OutOverlappingActors,

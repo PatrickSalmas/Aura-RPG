@@ -172,6 +172,15 @@ bool UAuraAbilitySystemLibrary::IsSuccessfulDebuff(const FGameplayEffectContextH
 	return false;
 }
 
+bool UAuraAbilitySystemLibrary::IsSuccessfulKnockback(const FGameplayEffectContextHandle& EffectContextHandle)
+{
+	if (const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		return AuraEffectContext->IsSuccessfulKnockback();
+	}
+	return false;
+}
+
 float UAuraAbilitySystemLibrary::GetDebuffDamage(const FGameplayEffectContextHandle& EffectContextHandle)
 {
 	if (const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
@@ -216,6 +225,15 @@ FVector UAuraAbilitySystemLibrary::GetDeathImpulse(const FGameplayEffectContextH
 	if (const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
 	{
 		return AuraEffectContext->GetDeathImpulse();
+	}
+	return FVector::ZeroVector;
+}
+
+FVector UAuraAbilitySystemLibrary::GetKnockbackImpulse(const FGameplayEffectContextHandle& EffectContextHandle)
+{
+	if (const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		return AuraEffectContext->GetKnockbackImpulse();
 	}
 	return FVector::ZeroVector;
 }
@@ -291,6 +309,25 @@ void UAuraAbilitySystemLibrary::SetDeathImpulse(FGameplayEffectContextHandle& Ef
 	}
 }
 
+void UAuraAbilitySystemLibrary::SetKnockbackImpulse(FGameplayEffectContextHandle& EffectContextHandle,
+	const FVector& InImpulse)
+{
+	if (FAuraGameplayEffectContext* AuraEffectContext = static_cast<FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		AuraEffectContext->SetKnockbackImpulse(InImpulse);
+	}
+}
+
+void UAuraAbilitySystemLibrary::SetIsSuccessfulKnockback(FGameplayEffectContextHandle& EffectContextHandle,
+                                                         bool bInIsSuccessfulKnockBack)
+{
+	if (FAuraGameplayEffectContext* AuraEffectContext = static_cast<FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		AuraEffectContext->SetIsSuccessfulKnockback(bInIsSuccessfulKnockBack);
+	}
+}
+
+
 void UAuraAbilitySystemLibrary::GetLivePlayersWithinRadius(const UObject* WorldContextObject,
                                                            TArray<AActor*>& OutOverlappingActors, const TArray<AActor*>& ActorsToIgnore, float Radius,
                                                            const FVector SphereOrigin)
@@ -338,6 +375,7 @@ FGameplayEffectContextHandle UAuraAbilitySystemLibrary::ApplyDamageEffect(const 
 	FGameplayEffectContextHandle EffectContextHandle = DamageEffectParams.SourceAbilitySystemComponent->MakeEffectContext();
 	EffectContextHandle.AddSourceObject(SourceAvatarActor);
 	SetDeathImpulse(EffectContextHandle, DamageEffectParams.DeathImpulse);
+	SetKnockbackImpulse(EffectContextHandle, DamageEffectParams.KnockBackImpulse);
 	FGameplayEffectSpecHandle SpecHandle = DamageEffectParams.SourceAbilitySystemComponent->MakeOutgoingSpec(
 		DamageEffectParams.DamageGameplayEffectClass, DamageEffectParams.AbilityLevel, EffectContextHandle);
 
@@ -346,6 +384,9 @@ FGameplayEffectContextHandle UAuraAbilitySystemLibrary::ApplyDamageEffect(const 
 	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.Debuff_Damage, DamageEffectParams.DebuffDamage);
 	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.Debuff_Duration, DamageEffectParams.DebuffDuration);
 	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.Debuff_Frequency, DamageEffectParams.DebuffFrequency);
+
+	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.KnockBack_Chance, DamageEffectParams.KnockBackChance);
+	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.KnockBack_ImpulseMagnitude, DamageEffectParams.KnockBackImpulseMagnitude);
 	
 	DamageEffectParams.TargetAbilitySystemComponent->ApplyGameplayEffectSpecToSelf(*SpecHandle.Data);
 	return EffectContextHandle;

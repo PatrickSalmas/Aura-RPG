@@ -68,6 +68,12 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Debuff_Frequency = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Frequency"), FString("Debuff Frequency"));
 
 	/*
+	 * Knockback
+	 */
+	GameplayTags.KnockBack_Chance = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Knockback.Chance"), FString("Knockback Chance"));
+	GameplayTags.KnockBack_ImpulseMagnitude = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Knockback.ImpulseMagnitude"), FString("Knockback Impulse Magnitude"));
+
+	/*
 	 * Resistances
 	 */
 	GameplayTags.Attributes_Resistance_Fire = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Attributes.Resistance.Fire"), FString("Fire Resistance Type"));
