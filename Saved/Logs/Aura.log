@@ -2866,3 +2866,609 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.29-04.46.01:693][167]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2114.930908
 [2025.11.29-04.46.02:693][170]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.11.29-04.46.02:693][170]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2115.603760, Update Interval: 318.400818
+[2025.11.29-04.51.36:214][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.11.29-04.51.36:219][410]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.29-04.51.36:375][410]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute] ([2] browsable assets)...
+[2025.11.29-04.51.36:375][410]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute]
+[2025.11.29-04.51.36:406][410]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute
+[2025.11.29-04.51.36:407][410]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GA_Electrocute6B3ED8564D5D2BE0F6BE31B2C0286906.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute.uasset'
+[2025.11.29-04.51.36:415][410]LogFileHelpers: InternalPromptForCheckoutAndSave took 195.058 ms (total: 2.78 sec)
+[2025.11.29-04.51.36:577][410]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.29-04.51.36:578][410]LogContentValidation: Enabled validators:
+[2025.11.29-04.51.36:578][410]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.29-04.51.36:578][410]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.29-04.51.36:578][410]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.29-04.51.36:578][410]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.29-04.51.36:578][410]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.29-04.51.36:578][410]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.29-04.51.36:579][410]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute Validating asset
+[2025.11.29-04.51.40:774][430]LogSlate: Took 0.007330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.11.29-04.51.41:938][533]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AbilitySystem/Aura/Effects/GE_Damage.GE_Damage
+[2025.11.29-04.51.41:939][533]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.11.29-04.51.58:176][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.11.29-04.51.58:180][291]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.29-04.51.58:320][291]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute] ([2] browsable assets)...
+[2025.11.29-04.51.58:320][291]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute]
+[2025.11.29-04.51.58:350][291]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute
+[2025.11.29-04.51.58:351][291]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GA_ElectrocuteA0A4ADD9488B83E480D1C4A0CF0D8AEF.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute.uasset'
+[2025.11.29-04.51.58:358][291]LogFileHelpers: InternalPromptForCheckoutAndSave took 177.604 ms (total: 2.96 sec)
+[2025.11.29-04.51.58:519][291]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.29-04.51.58:519][291]LogContentValidation: Enabled validators:
+[2025.11.29-04.51.58:519][291]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.29-04.51.58:519][291]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.29-04.51.58:519][291]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.29-04.51.58:519][291]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.29-04.51.58:519][291]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.29-04.51.58:519][291]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.29-04.51.58:520][291]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute Validating asset
+[2025.11.29-04.52.03:999][579]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.11.29-04.52.06:017][778]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.11.29-04.52.06:021][778]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.29-04.52.06:153][778]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute] ([2] browsable assets)...
+[2025.11.29-04.52.06:153][778]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute]
+[2025.11.29-04.52.06:184][778]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute
+[2025.11.29-04.52.06:184][778]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GA_Electrocute3A86DB6D4B7363CE8C1394AC914B9EB5.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute.uasset'
+[2025.11.29-04.52.06:196][778]LogFileHelpers: InternalPromptForCheckoutAndSave took 174.528 ms (total: 3.14 sec)
+[2025.11.29-04.52.06:372][778]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.29-04.52.06:373][778]LogContentValidation: Enabled validators:
+[2025.11.29-04.52.06:373][778]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.29-04.52.06:373][778]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.29-04.52.06:373][778]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.29-04.52.06:373][778]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.29-04.52.06:373][778]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.29-04.52.06:373][778]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.29-04.52.06:373][778]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute Validating asset
+[2025.11.29-04.52.12:127][180]LogAssetEditorSubsystem: Opening Asset editor for CurveTable /Game/Blueprints/AbilitySystem/Data/CT_Damage.CT_Damage
+[2025.11.29-04.52.19:066][553]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2492.301514
+[2025.11.29-04.52.20:070][556]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.29-04.52.20:071][556]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2492.969238, Update Interval: 301.135284
+[2025.11.29-04.53.55:227][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2025.11.29-04.53.55:231][974]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.29-04.53.55:370][974]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Data/CT_Damage] ([1] browsable assets)...
+[2025.11.29-04.53.55:371][974]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Data/CT_Damage]
+[2025.11.29-04.53.55:371][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AbilitySystem/Data/CT_Damage" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Data/CT_Damage.uasset" SILENT=true
+[2025.11.29-04.53.55:372][974]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Data/CT_Damage
+[2025.11.29-04.53.55:373][974]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/CT_DamageCDDDEE1E46069058A428E7953CDEA273.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Data/CT_Damage.uasset'
+[2025.11.29-04.53.55:380][974]LogFileHelpers: InternalPromptForCheckoutAndSave took 149.019 ms (total: 3.29 sec)
+[2025.11.29-04.53.55:703][974]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.29-04.53.55:703][974]LogContentValidation: Enabled validators:
+[2025.11.29-04.53.55:704][974]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.29-04.53.55:704][974]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.29-04.53.55:704][974]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.29-04.53.55:704][974]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.29-04.53.55:704][974]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.29-04.53.55:704][974]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.29-04.53.55:704][974]AssetCheck: /Game/Blueprints/AbilitySystem/Data/CT_Damage Validating asset
+[2025.11.29-04.54.15:950][147]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.11.29-04.54.15:954][147]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.29-04.54.16:087][147]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Data/CT_Damage] ([1] browsable assets)...
+[2025.11.29-04.54.16:087][147]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Data/CT_Damage]
+[2025.11.29-04.54.16:087][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AbilitySystem/Data/CT_Damage" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Data/CT_Damage.uasset" SILENT=true
+[2025.11.29-04.54.16:089][147]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Data/CT_Damage
+[2025.11.29-04.54.16:090][147]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/CT_DamageA4DEE6314969BCC2F26926903CBA39CD.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Data/CT_Damage.uasset'
+[2025.11.29-04.54.16:097][147]LogFileHelpers: InternalPromptForCheckoutAndSave took 143.449 ms (total: 3.43 sec)
+[2025.11.29-04.54.16:258][147]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.29-04.54.16:258][147]LogContentValidation: Enabled validators:
+[2025.11.29-04.54.16:259][147]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.29-04.54.16:259][147]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.29-04.54.16:259][147]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.29-04.54.16:259][147]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.29-04.54.16:259][147]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.29-04.54.16:259][147]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.29-04.54.16:259][147]AssetCheck: /Game/Blueprints/AbilitySystem/Data/CT_Damage Validating asset
+[2025.11.29-04.54.35:893][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.11.29-04.54.35:897][477]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.29-04.54.36:040][477]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Data/CT_Damage] ([1] browsable assets)...
+[2025.11.29-04.54.36:040][477]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Data/CT_Damage]
+[2025.11.29-04.54.36:040][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AbilitySystem/Data/CT_Damage" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Data/CT_Damage.uasset" SILENT=true
+[2025.11.29-04.54.36:042][477]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Data/CT_Damage
+[2025.11.29-04.54.36:043][477]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/CT_Damage88C5C82743A9C19EB9B466A594E0471E.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Data/CT_Damage.uasset'
+[2025.11.29-04.54.36:052][477]LogFileHelpers: InternalPromptForCheckoutAndSave took 155.852 ms (total: 3.59 sec)
+[2025.11.29-04.54.36:213][477]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.29-04.54.36:213][477]LogContentValidation: Enabled validators:
+[2025.11.29-04.54.36:213][477]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.29-04.54.36:213][477]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.29-04.54.36:213][477]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.29-04.54.36:213][477]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.29-04.54.36:213][477]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.29-04.54.36:213][477]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.29-04.54.36:214][477]AssetCheck: /Game/Blueprints/AbilitySystem/Data/CT_Damage Validating asset
+[2025.11.29-04.55.32:935][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.11.29-04.55.32:939][366]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.29-04.55.33:071][366]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Data/CT_Damage] ([1] browsable assets)...
+[2025.11.29-04.55.33:071][366]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Data/CT_Damage]
+[2025.11.29-04.55.33:071][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AbilitySystem/Data/CT_Damage" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Data/CT_Damage.uasset" SILENT=true
+[2025.11.29-04.55.33:073][366]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Data/CT_Damage
+[2025.11.29-04.55.33:074][366]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/CT_Damage49BAADC74FACF090AACED8AE2035B724.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Data/CT_Damage.uasset'
+[2025.11.29-04.55.33:082][366]LogFileHelpers: InternalPromptForCheckoutAndSave took 142.751 ms (total: 3.73 sec)
+[2025.11.29-04.55.33:244][366]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.29-04.55.33:244][366]LogContentValidation: Enabled validators:
+[2025.11.29-04.55.33:244][366]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.29-04.55.33:244][366]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.29-04.55.33:244][366]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.29-04.55.33:244][366]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.29-04.55.33:244][366]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.29-04.55.33:244][366]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.29-04.55.33:246][366]AssetCheck: /Game/Blueprints/AbilitySystem/Data/CT_Damage Validating asset
+[2025.11.29-04.55.42:643][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.11.29-04.55.46:835][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.11.29-04.55.46:840][921]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.29-04.55.46:991][921]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute] ([2] browsable assets)...
+[2025.11.29-04.55.46:992][921]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute]
+[2025.11.29-04.55.47:023][921]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute
+[2025.11.29-04.55.47:023][921]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GA_Electrocute1D17F30641DAB7EEFB29C59D06CFB7BB.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute.uasset'
+[2025.11.29-04.55.47:031][921]LogFileHelpers: InternalPromptForCheckoutAndSave took 191.551 ms (total: 3.92 sec)
+[2025.11.29-04.55.47:186][921]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.29-04.55.47:186][921]LogContentValidation: Enabled validators:
+[2025.11.29-04.55.47:187][921]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.29-04.55.47:187][921]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.29-04.55.47:187][921]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.29-04.55.47:187][921]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.29-04.55.47:187][921]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.29-04.55.47:187][921]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.29-04.55.47:187][921]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute Validating asset
+[2025.11.29-04.55.48:019][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.11.29-04.58.20:676][766]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2853.891846
+[2025.11.29-04.58.21:666][769]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.29-04.58.21:666][769]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2854.558594, Update Interval: 347.119965
+[2025.11.29-05.05.00:102][964]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3253.318604
+[2025.11.29-05.05.01:113][967]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.29-05.05.01:113][967]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3253.987305, Update Interval: 347.048553
+[2025.11.29-05.11.22:205][110]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3635.423340
+[2025.11.29-05.11.23:212][113]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.29-05.11.23:212][113]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3636.097412, Update Interval: 344.177368
+[2025.11.29-05.12.10:797][256]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.002 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.29-05.18.03:356][313]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4036.571777
+[2025.11.29-05.18.04:358][316]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.29-05.18.04:358][316]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4037.229004, Update Interval: 325.591614
+[2025.11.29-05.20.35:667][774]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2025.11.29-05.20.35:672][774]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.29-05.20.35:813][774]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute] ([2] browsable assets)...
+[2025.11.29-05.20.35:813][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute]
+[2025.11.29-05.20.35:843][774]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute
+[2025.11.29-05.20.35:844][774]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GA_Electrocute8A8E362B4C390BF5E5FCEDB187F9A007.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute.uasset'
+[2025.11.29-05.20.35:851][774]LogFileHelpers: InternalPromptForCheckoutAndSave took 179.630 ms (total: 4.10 sec)
+[2025.11.29-05.20.36:011][774]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.29-05.20.36:011][774]LogContentValidation: Enabled validators:
+[2025.11.29-05.20.36:012][774]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.29-05.20.36:012][774]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.29-05.20.36:012][774]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.29-05.20.36:012][774]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.29-05.20.36:012][774]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.29-05.20.36:012][774]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.29-05.20.36:012][774]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute Validating asset
+[2025.11.29-05.20.37:793][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.11.29-05.20.39:646][100]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.29-05.20.39:658][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.29-05.20.39:658][100]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dungeon
+[2025.11.29-05.20.39:670][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011633s)
+[2025.11.29-05.20.39:670][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dungeon.Dungeon to /Game/Maps/UEDPIE_0_Dungeon.Dungeon (0.011891s)
+[2025.11.29-05.20.39:690][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.11.29-05.20.39:692][100]LogChaosDD: Creating Chaos Debug Draw Scene for world Dungeon
+[2025.11.29-05.20.39:694][100]LogPlayLevel: PIE: World Init took: (0.002137s)
+[2025.11.29-05.20.39:696][100]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.11.29-05.20.39:696][100]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.29-05.20.39:696][100]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.29-05.20.39:696][100]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.29-05.20.39:696][100]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.29-05.20.39:696][100]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.29-05.20.39:696][100]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.29-05.20.39:696][100]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.29-05.20.39:696][100]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.29-05.20.39:697][100]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.29-05.20.39:697][100]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.29-05.20.39:697][100]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.29-05.20.39:699][100]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.29-05.20.39:734][100]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2025.11.29-05.20.39:735][100]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.29-05.20.39:735][100]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.29-05.20.39:735][100]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.29-05.20.39:736][100]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.11.29-05.20.39:736][100]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.11.29-05.20.39:739][100]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.11.29-05.20.39:739][100]LogInit: FAudioDevice initialized with ID 8.
+[2025.11.29-05.20.39:739][100]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.11.29-05.20.39:739][100]LogAudio: Display: Audio Device (ID: 8) registered with world 'Dungeon'.
+[2025.11.29-05.20.39:739][100]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.11.29-05.20.39:742][100]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.11.29-05.20.39:749][100]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2025.11.28-21.20.39
+[2025.11.29-05.20.39:752][100]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2025.11.29-05.20.39:756][100]LogWorld: Bringing up level for play took: 0.013334
+[2025.11.29-05.20.39:765][100]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2025.11.29-05.20.39:765][100]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2025.11.29-05.20.39:766][100]LogPushModel: PushModel HandleCreation is now enabled
+[2025.11.29-05.20.39:766][100]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.11.29-05.20.39:766][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.11.29-05.20.39:766][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.11.29-05.20.39:766][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.11.29-05.20.39:766][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.11.29-05.20.39:766][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.11.29-05.20.39:766][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.11.29-05.20.39:767][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.11.29-05.20.39:767][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.11.29-05.20.39:767][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.11.29-05.20.39:767][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.11.29-05.20.39:767][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.11.29-05.20.39:767][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.11.29-05.20.39:767][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.11.29-05.20.39:767][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.11.29-05.20.39:767][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.11.29-05.20.39:767][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.11.29-05.20.39:768][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.11.29-05.20.39:768][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.11.29-05.20.39:768][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.11.29-05.20.39:768][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.11.29-05.20.39:768][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.11.29-05.20.39:768][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.11.29-05.20.39:768][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.11.29-05.20.39:768][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.11.29-05.20.39:769][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.11.29-05.20.39:769][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.11.29-05.20.39:769][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.11.29-05.20.39:769][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.11.29-05.20.39:769][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.11.29-05.20.39:770][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.11.29-05.20.39:770][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.11.29-05.20.39:770][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.11.29-05.20.39:770][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.11.29-05.20.39:770][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.11.29-05.20.39:770][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.11.29-05.20.39:770][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.11.29-05.20.39:771][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.11.29-05.20.39:771][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.11.29-05.20.39:771][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.11.29-05.20.39:771][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.11.29-05.20.39:771][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.11.29-05.20.39:771][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.11.29-05.20.39:771][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.11.29-05.20.39:771][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.11.29-05.20.39:771][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.11.29-05.20.39:771][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.11.29-05.20.39:772][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.11.29-05.20.39:772][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.11.29-05.20.39:772][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.11.29-05.20.39:772][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.11.29-05.20.39:772][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.11.29-05.20.39:772][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.11.29-05.20.39:772][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.11.29-05.20.39:772][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.11.29-05.20.39:772][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.11.29-05.20.39:772][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.11.29-05.20.39:772][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.11.29-05.20.39:772][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.11.29-05.20.39:772][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.11.29-05.20.39:773][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.11.29-05.20.39:773][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.11.29-05.20.39:773][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.11.29-05.20.39:773][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.11.29-05.20.39:773][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.11.29-05.20.39:773][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.11.29-05.20.39:773][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.11.29-05.20.39:773][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.11.29-05.20.39:773][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.11.29-05.20.39:773][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.11.29-05.20.39:773][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.11.29-05.20.39:773][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.11.29-05.20.39:773][100]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.11.29-05.20.39:773][100]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2025.11.29-05.20.39:773][100]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2025.11.29-05.20.39:773][100]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.11.29-05.20.39:774][100]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_6 IpNetDriver listening on port 17777
+[2025.11.29-05.20.39:780][100]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.11.29-05.20.39:780][100]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.11.29-05.20.39:782][100]PIE: Server logged in
+[2025.11.29-05.20.39:783][100]PIE: Play in editor total start time 0.131 seconds.
+[2025.11.29-05.21.11:162][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-05.21.11:162][994]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dungeon
+[2025.11.29-05.21.11:163][994]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.11.29-05.21.11:164][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-05.21.11:164][994]LogAbilitySystem: Display:   GameplayCueNotify Class 'GC_ShockLoop_C' was used simultaneously 6 times. The CDO default is only 0 preallocated instances.
+[2025.11.29-05.21.11:166][994]LogNet: World NetDriver shutdown IpNetDriver_6 [GameNetDriver]
+[2025.11.29-05.21.11:166][994]LogNet: DestroyNamedNetDriver IpNetDriver_6 [GameNetDriver]
+[2025.11.29-05.21.11:166][994]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_6 shut down
+[2025.11.29-05.21.11:168][994]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.29-05.21.11:174][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.29-05.21.11:196][994]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.29-05.21.11:196][994]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.11.29-05.21.11:196][994]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.11.29-05.21.11:199][994]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2025.11.29-05.21.11:204][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.29-05.21.11:210][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.11.29-05.21.11:245][995]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2025.11.29-05.21.40:285][471]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.11.29-05.21.40:295][471]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.11.29-05.21.40:307][471]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.11.29-05.21.40:332][472]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.11.29-05.21.49:901][444]LogContentBrowser: Attempting asset rename: NewBlueprint -> GE_Cost_Electrocute
+[2025.11.29-05.21.49:960][444]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.11.29-05.21.51:309][575]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute.GE_Cost_Electrocute
+[2025.11.29-05.21.51:309][575]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.11.29-05.21.53:684][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.11.29-05.21.53:689][812]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.29-05.21.53:831][812]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute] ([2] browsable assets)...
+[2025.11.29-05.21.53:831][812]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute]
+[2025.11.29-05.21.53:834][812]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute
+[2025.11.29-05.21.53:834][812]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_Cost_ElectrocuteB757A9144192F83D470D2D82A9B58BF2.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute.uasset'
+[2025.11.29-05.21.53:846][812]LogFileHelpers: InternalPromptForCheckoutAndSave took 157.467 ms (total: 4.26 sec)
+[2025.11.29-05.21.54:000][812]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.29-05.21.54:000][812]LogContentValidation: Enabled validators:
+[2025.11.29-05.21.54:001][812]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.29-05.21.54:001][812]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.29-05.21.54:001][812]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.29-05.21.54:001][812]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.29-05.21.54:001][812]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.29-05.21.54:001][812]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.29-05.21.54:001][812]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute Validating asset
+[2025.11.29-05.23.12:064][334]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AbilitySystem/Aura/Abilities/Fire/Firebolt/GE_Cost_FireBolt.GE_Cost_FireBolt
+[2025.11.29-05.23.12:065][334]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.11.29-05.23.36:733][ 92]LogAbilitySystem: Warning: FScalableFloat has no row for CurveTable /Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts (/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute.Default__GE_Cost_Electrocute_C.ScalableFloatMagnitude).
+[2025.11.29-05.23.36:734][ 92]LogAbilitySystem: Warning: FScalableFloat has no row for CurveTable /Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts (/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute.Default__GE_Cost_Electrocute_C.ScalableFloatMagnitude).
+[2025.11.29-05.23.37:557][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.11.29-05.23.37:561][185]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.29-05.23.37:698][185]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute] ([2] browsable assets)...
+[2025.11.29-05.23.37:698][185]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute]
+[2025.11.29-05.23.37:701][185]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute
+[2025.11.29-05.23.37:702][185]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_Cost_ElectrocuteE905BCE340527BD8B01D8E8E4065EFA8.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute.uasset'
+[2025.11.29-05.23.37:710][185]LogFileHelpers: InternalPromptForCheckoutAndSave took 148.559 ms (total: 4.41 sec)
+[2025.11.29-05.23.37:865][185]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.29-05.23.37:865][185]LogContentValidation: Enabled validators:
+[2025.11.29-05.23.37:865][185]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.29-05.23.37:865][185]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.29-05.23.37:865][185]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.29-05.23.37:865][185]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.29-05.23.37:865][185]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.29-05.23.37:865][185]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.29-05.23.37:866][185]LogAbilitySystem: Warning: FScalableFloat has no row for CurveTable /Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts (/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute.Default__GE_Cost_Electrocute_C.ScalableFloatMagnitude).
+[2025.11.29-05.23.37:866][185]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute Validating asset
+[2025.11.29-05.23.37:866][185]AssetCheck: Error: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute Warnings logged while validating asset FScalableFloat has no row for CurveTable /Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts (/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute.Default__GE_Cost_Electrocute_C.ScalableFloatMagnitude).
+[2025.11.29-05.23.48:877][423]LogSlate: Window 'Message Log' being destroyed
+[2025.11.29-05.23.48:882][423]LogSlate: Window 'Message Log' being destroyed
+[2025.11.29-05.23.57:596][ 54]LogAssetEditorSubsystem: Opening Asset editor for CurveTable /Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts
+[2025.11.29-05.24.25:946][742]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4419.170410
+[2025.11.29-05.24.26:947][745]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.29-05.24.26:947][745]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4419.834961, Update Interval: 328.957184
+[2025.11.29-05.26.25:484][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.11.29-05.26.25:488][659]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.29-05.26.25:633][659]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts] ([1] browsable assets)...
+[2025.11.29-05.26.25:633][659]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts]
+[2025.11.29-05.26.25:633][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Data/CT_SpellCosts.uasset" SILENT=true
+[2025.11.29-05.26.25:634][659]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Data/CT_SpellCosts
+[2025.11.29-05.26.25:635][659]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/CT_SpellCosts042DC9C54DF7F09629AB4CBB027A3DB4.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Data/CT_SpellCosts.uasset'
+[2025.11.29-05.26.25:643][659]LogFileHelpers: InternalPromptForCheckoutAndSave took 154.835 ms (total: 4.56 sec)
+[2025.11.29-05.26.25:827][659]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.29-05.26.25:827][659]LogContentValidation: Enabled validators:
+[2025.11.29-05.26.25:827][659]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.29-05.26.25:827][659]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.29-05.26.25:828][659]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.29-05.26.25:828][659]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.29-05.26.25:828][659]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.29-05.26.25:828][659]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.29-05.26.25:828][659]AssetCheck: /Game/Blueprints/AbilitySystem/Data/CT_SpellCosts Validating asset
+[2025.11.29-05.26.43:492][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.11.29-05.26.49:731][473]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.11.29-05.26.49:735][473]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.29-05.26.49:888][473]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute] ([2] browsable assets)...
+[2025.11.29-05.26.49:888][473]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute]
+[2025.11.29-05.26.49:891][473]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute
+[2025.11.29-05.26.49:892][473]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_Cost_ElectrocuteE48092474E4926E06965EFB1F7169226.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute.uasset'
+[2025.11.29-05.26.49:900][473]LogFileHelpers: InternalPromptForCheckoutAndSave took 164.330 ms (total: 4.72 sec)
+[2025.11.29-05.26.50:067][473]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.29-05.26.50:068][473]LogContentValidation: Enabled validators:
+[2025.11.29-05.26.50:068][473]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.29-05.26.50:068][473]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.29-05.26.50:068][473]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.29-05.26.50:068][473]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.29-05.26.50:068][473]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.29-05.26.50:068][473]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.29-05.26.50:068][473]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cost_Electrocute Validating asset
+[2025.11.29-05.27.02:728][969]LogSlate: Window 'Message Log' being destroyed
+[2025.11.29-05.27.02:735][969]LogSlate: Window 'Message Log' being destroyed
+[2025.11.29-05.27.03:818][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.11.29-05.27.05:037][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.11.29-05.27.11:275][745]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.11.29-05.27.31:931][159]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.11.29-05.27.31:938][159]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.11.29-05.27.31:948][159]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.11.29-05.27.31:960][160]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.11.29-05.27.38:716][963]LogContentBrowser: Attempting asset rename: NewBlueprint -> GE_Cooldown_Electrocute
+[2025.11.29-05.27.38:723][963]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.11.29-05.27.41:496][284]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cooldown_Electrocute.GE_Cooldown_Electrocute
+[2025.11.29-05.27.41:497][284]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.11.29-05.27.49:618][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.11.29-05.27.49:622][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.29-05.27.49:787][  0]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cooldown_Electrocute] ([2] browsable assets)...
+[2025.11.29-05.27.49:787][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cooldown_Electrocute]
+[2025.11.29-05.27.49:790][  0]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cooldown_Electrocute
+[2025.11.29-05.27.49:790][  0]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_Cooldown_ElectrocuteB44EA6A2462FFE5053800E9FC7F92E4D.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cooldown_Electrocute.uasset'
+[2025.11.29-05.27.49:802][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 180.660 ms (total: 4.90 sec)
+[2025.11.29-05.27.49:975][  0]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.29-05.27.49:976][  0]LogContentValidation: Enabled validators:
+[2025.11.29-05.27.49:977][  0]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.29-05.27.49:977][  0]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.29-05.27.49:977][  0]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.29-05.27.49:977][  0]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.29-05.27.49:977][  0]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.29-05.27.49:977][  0]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.29-05.27.49:977][  0]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cooldown_Electrocute Validating asset
+[2025.11.29-05.28.23:638][820]LogSlate: External Image Picker: DecompressImage failed
+[2025.11.29-05.28.24:105][832]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.11.29-05.28.54:492][842]LogStats: ConstructGameplayTagTree GameplayTag tables after adding new tag -  0.002 s
+[2025.11.29-05.28.59:067][295]LogSlate: Window 'Gameplay Tag Manager' being destroyed
+[2025.11.29-05.29.01:056][331]LogSlate: Window 'Project Settings' being destroyed
+[2025.11.29-05.29.01:061][331]LogSlate: Window 'Project Settings' being destroyed
+[2025.11.29-05.29.01:516][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.11.29-05.29.01:520][370]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.29-05.29.01:665][370]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cooldown_Electrocute] ([2] browsable assets)...
+[2025.11.29-05.29.01:666][370]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cooldown_Electrocute]
+[2025.11.29-05.29.01:668][370]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cooldown_Electrocute
+[2025.11.29-05.29.01:669][370]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_Cooldown_Electrocute7E65C7674A4A79BA1A52FBB1BF37113E.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cooldown_Electrocute.uasset'
+[2025.11.29-05.29.01:679][370]LogFileHelpers: InternalPromptForCheckoutAndSave took 158.953 ms (total: 5.06 sec)
+[2025.11.29-05.29.01:834][370]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.29-05.29.01:834][370]LogContentValidation: Enabled validators:
+[2025.11.29-05.29.01:834][370]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.29-05.29.01:834][370]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.29-05.29.01:834][370]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.29-05.29.01:834][370]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.29-05.29.01:834][370]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.29-05.29.01:834][370]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.29-05.29.01:835][370]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cooldown_Electrocute Validating asset
+[2025.11.29-05.29.17:632][882]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AbilitySystem/Aura/Abilities/Fire/Firebolt/GE_Cooldown_FireBolt.GE_Cooldown_FireBolt
+[2025.11.29-05.29.17:633][882]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.11.29-05.30.06:378][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2025.11.29-05.30.06:383][330]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.29-05.30.06:520][330]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cooldown_Electrocute] ([2] browsable assets)...
+[2025.11.29-05.30.06:520][330]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cooldown_Electrocute]
+[2025.11.29-05.30.06:523][330]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cooldown_Electrocute
+[2025.11.29-05.30.06:524][330]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GE_Cooldown_Electrocute625C4F814AC94F8BA9E98A8A441058E9.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cooldown_Electrocute.uasset'
+[2025.11.29-05.30.06:532][330]LogFileHelpers: InternalPromptForCheckoutAndSave took 148.995 ms (total: 5.21 sec)
+[2025.11.29-05.30.06:686][330]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.29-05.30.06:686][330]LogContentValidation: Enabled validators:
+[2025.11.29-05.30.06:686][330]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.29-05.30.06:686][330]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.29-05.30.06:686][330]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.29-05.30.06:686][330]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.29-05.30.06:686][330]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.29-05.30.06:686][330]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.29-05.30.06:687][330]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GE_Cooldown_Electrocute Validating asset
+[2025.11.29-05.30.07:438][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.11.29-05.30.30:813][158]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4783.976074
+[2025.11.29-05.30.30:945][174]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.29-05.30.30:945][174]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4784.101562, Update Interval: 313.658264
+[2025.11.29-05.30.44:809][711]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2025.11.29-05.31.05:506][554]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.11.29-05.31.05:511][554]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.29-05.31.05:651][554]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute] ([2] browsable assets)...
+[2025.11.29-05.31.05:651][554]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute]
+[2025.11.29-05.31.05:683][554]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute
+[2025.11.29-05.31.05:683][554]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/GA_Electrocute02EF1A16463EC59B3D0976813BECB2F4.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute.uasset'
+[2025.11.29-05.31.05:691][554]LogFileHelpers: InternalPromptForCheckoutAndSave took 180.750 ms (total: 5.39 sec)
+[2025.11.29-05.31.05:870][554]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.29-05.31.05:870][554]LogContentValidation: Enabled validators:
+[2025.11.29-05.31.05:870][554]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.29-05.31.05:870][554]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.29-05.31.05:870][554]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.29-05.31.05:870][554]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.29-05.31.05:870][554]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.29-05.31.05:870][554]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.29-05.31.05:871][554]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/GA_Electrocute Validating asset
+[2025.11.29-05.31.07:000][661]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.11.29-05.31.26:074][792]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.29-05.31.26:085][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.29-05.31.26:086][792]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dungeon
+[2025.11.29-05.31.26:098][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012321s)
+[2025.11.29-05.31.26:098][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dungeon.Dungeon to /Game/Maps/UEDPIE_0_Dungeon.Dungeon (0.012570s)
+[2025.11.29-05.31.26:119][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.11.29-05.31.26:121][792]LogChaosDD: Creating Chaos Debug Draw Scene for world Dungeon
+[2025.11.29-05.31.26:123][792]LogPlayLevel: PIE: World Init took: (0.001977s)
+[2025.11.29-05.31.26:124][792]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.11.29-05.31.26:124][792]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.29-05.31.26:125][792]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.29-05.31.26:125][792]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.29-05.31.26:125][792]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.29-05.31.26:125][792]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.29-05.31.26:125][792]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.29-05.31.26:125][792]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.29-05.31.26:125][792]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.29-05.31.26:125][792]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.29-05.31.26:125][792]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.29-05.31.26:125][792]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.29-05.31.26:128][792]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.29-05.31.26:162][792]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2025.11.29-05.31.26:163][792]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.29-05.31.26:163][792]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.29-05.31.26:163][792]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.29-05.31.26:164][792]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.11.29-05.31.26:164][792]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.11.29-05.31.26:167][792]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.11.29-05.31.26:167][792]LogInit: FAudioDevice initialized with ID 9.
+[2025.11.29-05.31.26:167][792]LogAudio: Display: Audio Device (ID: 9) registered with world 'Dungeon'.
+[2025.11.29-05.31.26:167][792]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.11.29-05.31.26:167][792]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.11.29-05.31.26:170][792]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2025.11.29-05.31.26:177][792]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2025.11.28-21.31.26
+[2025.11.29-05.31.26:180][792]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2025.11.29-05.31.26:184][792]LogWorld: Bringing up level for play took: 0.013639
+[2025.11.29-05.31.26:193][792]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2025.11.29-05.31.26:193][792]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2025.11.29-05.31.26:194][792]LogPushModel: PushModel HandleCreation is now enabled
+[2025.11.29-05.31.26:194][792]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2025.11.29-05.31.26:194][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2025.11.29-05.31.26:194][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2025.11.29-05.31.26:194][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2025.11.29-05.31.26:194][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2025.11.29-05.31.26:194][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2025.11.29-05.31.26:194][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2025.11.29-05.31.26:195][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2025.11.29-05.31.26:195][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2025.11.29-05.31.26:195][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2025.11.29-05.31.26:195][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2025.11.29-05.31.26:195][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2025.11.29-05.31.26:195][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2025.11.29-05.31.26:195][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2025.11.29-05.31.26:195][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2025.11.29-05.31.26:195][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2025.11.29-05.31.26:196][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2025.11.29-05.31.26:196][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2025.11.29-05.31.26:196][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2025.11.29-05.31.26:196][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2025.11.29-05.31.26:196][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2025.11.29-05.31.26:196][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2025.11.29-05.31.26:197][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2025.11.29-05.31.26:197][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2025.11.29-05.31.26:197][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2025.11.29-05.31.26:197][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2025.11.29-05.31.26:197][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2025.11.29-05.31.26:197][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2025.11.29-05.31.26:197][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2025.11.29-05.31.26:197][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2025.11.29-05.31.26:197][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2025.11.29-05.31.26:197][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2025.11.29-05.31.26:197][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2025.11.29-05.31.26:197][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2025.11.29-05.31.26:198][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2025.11.29-05.31.26:198][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2025.11.29-05.31.26:198][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2025.11.29-05.31.26:198][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2025.11.29-05.31.26:198][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2025.11.29-05.31.26:198][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2025.11.29-05.31.26:198][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2025.11.29-05.31.26:198][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2025.11.29-05.31.26:198][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2025.11.29-05.31.26:199][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2025.11.29-05.31.26:199][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2025.11.29-05.31.26:199][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2025.11.29-05.31.26:199][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2025.11.29-05.31.26:199][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2025.11.29-05.31.26:199][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2025.11.29-05.31.26:199][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2025.11.29-05.31.26:199][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2025.11.29-05.31.26:199][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2025.11.29-05.31.26:200][792]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2025.11.29-05.31.26:201][792]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2025.11.29-05.31.26:201][792]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2025.11.29-05.31.26:201][792]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2025.11.29-05.31.26:201][792]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_7 IpNetDriver listening on port 17777
+[2025.11.29-05.31.26:208][792]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.11.29-05.31.26:208][792]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.11.29-05.31.26:209][792]PIE: Server logged in
+[2025.11.29-05.31.26:210][792]PIE: Play in editor total start time 0.13 seconds.
