@@ -66,7 +66,10 @@ void AAuraCharacterBase::MulticastHandleDeath_Implementation(const FVector& Deat
 	GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	Dissolve();
 	bDead = true;
+	// TODO: Can OnDeath and OnDeathDelegate be refactored into one?
+	// Have to go look back at definitions and trace through logic
 	OnDeath.Broadcast(this);
+	OnDeathDelegate.Broadcast(this);
 }
 
 // Called when the game starts or when spawned
@@ -153,6 +156,11 @@ FOnASCRegistered AAuraCharacterBase::GetOnASCRegisteredDelegate()
 FOnDeath* AAuraCharacterBase::GetOnDeathDelegate()
 {
 	return &OnDeath;
+}
+
+FOnDeathSignature& AAuraCharacterBase::GetOnDeathSignatureDelegate()
+{
+	return OnDeathDelegate;
 }
 
 USkeletalMeshComponent* AAuraCharacterBase::GetWeapon_Implementation()
