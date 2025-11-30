@@ -199,7 +199,7 @@ void UAuraAttributeSet::HandleIncomingDamage(const FEffectProperties& Props)
 
 		if (UAuraAbilitySystemLibrary::IsSuccessfulKnockback(Props.EffectContextHandle))
 		{
-			Knockback(Props);		
+			Knockback(Props);
 		}
 	}
 }
@@ -222,11 +222,20 @@ void UAuraAttributeSet::Debuff(const FEffectProperties& Props)
 	Effect->Period = DebuffFrequency;
 	Effect->DurationMagnitude = FScalableFloat(DebuffDuration);
 
+	const FGameplayTag DebuffTag = GameplayTags.DamageTypesToDebuffs[DamageType];
 	FInheritedTagContainer InheritedTags = FInheritedTagContainer();
 	FGameplayTag DamageTag = GameplayTags.DamageTypesToDebuffs[DamageType];
 	InheritedTags.AddTag(DamageTag);
+	if (DebuffTag.MatchesTagExact(GameplayTags.Debuff_Stun))
+	{
+		InheritedTags.AddTag(GameplayTags.Player_Block_CursorTrace);
+		InheritedTags.AddTag(GameplayTags.Player_Block_InputHeld);
+		InheritedTags.AddTag(GameplayTags.Player_Block_InputPressed);
+		InheritedTags.AddTag(GameplayTags.Player_Block_InputReleased);
+	}
 	UTargetTagsGameplayEffectComponent& Component = Effect->AddComponent<UTargetTagsGameplayEffectComponent>();
 	Component.SetAndApplyTargetTagChanges(InheritedTags);
+
 
 	Effect->StackingType = EGameplayEffectStackingType::AggregateBySource;
 	Effect->StackLimitCount = 1;
