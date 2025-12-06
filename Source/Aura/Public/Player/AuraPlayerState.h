@@ -9,6 +9,7 @@
 #include "GameFramework/PlayerState.h"
 #include "AuraPlayerState.generated.h"
 
+class AMagicCircle;
 class ULevelUpInfo;
 DECLARE_MULTICAST_DELEGATE_OneParam(FOnPlayerStatChanged, int32 /* StatValue */)
 
@@ -51,7 +52,7 @@ public:
 	void SetXP(int32 InXP);
 	void SetLevel(int32 InLevel);
 	void SetAttributePoints(int32 InAttributePoints);
-	
+
 protected:
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;

@@ -12,6 +12,7 @@
 #include "NiagaraFunctionLibrary.h"
 #include "AbilitySystem/AuraAbilitySystemComponent.h"
 #include "Actor/MagicCircle.h"
+#include "Components/DecalComponent.h"
 #include "Components/SplineComponent.h"
 #include "GameFramework/Character.h"
 #include "Input/AuraInputComponent.h"
@@ -250,11 +251,15 @@ void AAuraPlayerController::SetCanMove(bool inCanMove)
 	bAutoRunning = false;
 }
 
-void AAuraPlayerController::ShowMagicCircle()
+void AAuraPlayerController::ShowMagicCircle(UMaterialInterface* DecalMaterial)
 {
 	if (!IsValid(MagicCircle))
 	{
 		MagicCircle = GetWorld()->SpawnActor<AMagicCircle>(MagicCircleClass);
+		if (DecalMaterial)
+		{
+			MagicCircle->MagicCircleDecal->SetMaterial(0, DecalMaterial);
+		}
 	}
 }
 
