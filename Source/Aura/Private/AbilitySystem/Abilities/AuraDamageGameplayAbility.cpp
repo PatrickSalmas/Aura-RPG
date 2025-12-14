@@ -40,6 +40,13 @@ FDamageEffectParams UAuraDamageGameplayAbility::MakeDamageEffectParamsFromClassD
 		DamageEffectParams.DeathImpulse = ToTarget * DeathImpulseMagnitude;
 		DamageEffectParams.KnockBackImpulse = ToTarget * KnockBackImpulseMagnitude;
 	}
+	if (bIsRadialDamage)
+	{
+		DamageEffectParams.bIsRadialDamage = bIsRadialDamage;
+		DamageEffectParams.RadialDamageOrigin = RadialDamageOrigin;
+		DamageEffectParams.RadialDamageInnerRadius = RadialDamageInnerRadius;
+		DamageEffectParams.RadialDamageOuterRadius = RadialDamageOuterRadius;
+	}
 	return DamageEffectParams;
 }
 
