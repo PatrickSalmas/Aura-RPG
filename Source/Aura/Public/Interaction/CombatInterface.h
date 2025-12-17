@@ -15,6 +15,7 @@ class UAnimMontage;
 DECLARE_MULTICAST_DELEGATE_OneParam(FOnASCRegistered, UAbilitySystemComponent*)
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnDeath, AActor*, DeadActor);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnDeathSignature, AActor*, DeadActor);
+DECLARE_MULTICAST_DELEGATE_OneParam(FOnDamageSignature, float /* Damage Amount */)
 
 USTRUCT(BlueprintType)
 struct FTaggedMontage
@@ -91,6 +92,7 @@ public:
 	virtual FOnASCRegistered& GetOnASCRegisteredDelegate() = 0;
 	virtual FOnDeath* GetOnDeathDelegate() = 0;
 	virtual FOnDeathSignature& GetOnDeathSignatureDelegate() = 0;
+	virtual FOnDamageSignature& GetOnDamageSignature() = 0; 
 
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
 	void SetInShockLoop(bool bInLoop);
