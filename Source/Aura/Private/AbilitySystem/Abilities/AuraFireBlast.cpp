@@ -48,3 +48,8 @@ FString UAuraFireBlast::GetNextLevelDescription(int32 Level)
 		"<Damage>%i</><Default> fire damage with a chance to burn.</>"),
 		NumFireballs, abs(ManaCost), Cooldown, NumberOfProjectiles, ScaledDamage);
 }
+
+TArray<AAuraFireBall*> UAuraFireBlast::SpawnFireBalls()
+{
+	return TArray<AAuraFireBall*>();
+}
