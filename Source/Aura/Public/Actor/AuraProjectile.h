@@ -34,6 +34,8 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	bool bHit = false;
+	
 	UFUNCTION(BlueprintCallable)
 	void OnHit();
 	
@@ -42,12 +44,13 @@ protected:
 	UFUNCTION()
 	virtual void OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp,
 	                     int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+	bool IsValidOverlap(AActor* OtherActor);
+	
 private:
 
 	UPROPERTY(EditDefaultsOnly)
 	float LifeSpan = 15.f;
-	
-	bool bHit = false;
 	
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<USphereComponent> Sphere;
