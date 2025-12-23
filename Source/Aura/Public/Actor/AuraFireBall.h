@@ -16,6 +16,9 @@ class AURA_API AAuraFireBall : public AAuraProjectile
 
 public:
 
+	UPROPERTY(BlueprintReadOnly)
+	TObjectPtr<AActor> ReturnToActor;
+	
 protected:
 	virtual void OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
 	                             UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep,

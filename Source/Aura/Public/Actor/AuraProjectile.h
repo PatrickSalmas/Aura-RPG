@@ -21,7 +21,7 @@ public:
 	// Sets default values for this actor's properties
 	AAuraProjectile();
 
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)	
 	TObjectPtr<UProjectileMovementComponent> ProjectileMovement;
 
 	UPROPERTY(BlueprintReadWrite, meta=(ExposeOnSpawn = true))
@@ -33,7 +33,10 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	UFUNCTION(BlueprintCallable)
 	void OnHit();
+	
 	virtual void Destroyed() override;
 
 	UFUNCTION()
