@@ -15,9 +15,11 @@ class AURA_API AAuraFireBall : public AAuraProjectile
 	GENERATED_BODY()
 
 public:
-
 	UPROPERTY(BlueprintReadOnly)
 	TObjectPtr<AActor> ReturnToActor;
+
+	UPROPERTY(BlueprintReadWrite)
+	FDamageEffectParams ExplosionDamageParams;
 	
 protected:
 	virtual void OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
@@ -29,4 +31,5 @@ protected:
 
 	UFUNCTION(BlueprintCallable)
 	void ClearIgnoreList();
+	
 };
