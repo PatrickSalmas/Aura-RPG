@@ -37,7 +37,7 @@ protected:
 	bool bHit = false;
 	
 	UFUNCTION(BlueprintCallable)
-	void OnHit();
+	virtual void OnHit();
 	
 	virtual void Destroyed() override;
 
@@ -46,6 +46,9 @@ protected:
 	                     int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 	bool IsValidOverlap(AActor* OtherActor);
+
+	UPROPERTY()
+	TObjectPtr<UAudioComponent> LoopingSoundComponent;
 	
 private:
 
@@ -63,7 +66,4 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<USoundBase> LoopingSound;
-
-	UPROPERTY()
-	TObjectPtr<UAudioComponent> LoopingSoundComponent;
 };

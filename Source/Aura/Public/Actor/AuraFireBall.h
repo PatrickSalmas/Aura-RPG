@@ -31,5 +31,6 @@ protected:
 
 	UFUNCTION(BlueprintCallable)
 	void ClearIgnoreList();
-	
+
+	virtual void OnHit() override;
 };
