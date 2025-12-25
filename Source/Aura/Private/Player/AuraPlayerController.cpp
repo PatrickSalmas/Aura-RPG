@@ -278,7 +278,7 @@ void AAuraPlayerController::BeginPlay()
 	Super::BeginPlay();
 	check(AuraContext);
 
-	UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(GetLocalPlayer());
+	Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(GetLocalPlayer());
 	if(Subsystem)
 	{
 		Subsystem->AddMappingContext(AuraContext, 0);
@@ -310,6 +310,23 @@ void AAuraPlayerController::Move(const FInputActionValue& InputActionValue)
 	{
 		return;
 	}
+	
+	if (bAutoRunning)
+	{
+		TArray<FKey> Keys = Subsystem->QueryKeysMappedToAction(MoveAction);
+		for (const FKey& Key : Keys)
+		{
+			if (this->IsInputKeyDown(Key))
+			{
+				if (Key.GetDisplayName().ToString() == "W" || Key.GetDisplayName().ToString() == "S" || Key.
+					GetDisplayName().ToString() == "A" || Key.GetDisplayName().ToString() == "D")
+				{
+					bAutoRunning = false;
+				}
+			}
+		}
+	}
+		
 	const FVector2D InputAxisVector = InputActionValue.Get<FVector2D>();
 	const FRotator Rotation = GetControlRotation();
 	const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);

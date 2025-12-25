@@ -7,6 +7,7 @@
 #include "GameFramework/PlayerController.h"
 #include "AuraPlayerController.generated.h"
 
+class UEnhancedInputLocalPlayerSubsystem;
 class AMagicCircle;
 class UNiagaraSystem;
 class UDamageTextComponent;
@@ -49,6 +50,9 @@ protected:
 	virtual void SetupInputComponent() override;
 
 private:
+	UPROPERTY()
+	UEnhancedInputLocalPlayerSubsystem* Subsystem;
+	
 	UPROPERTY(EditAnywhere, Category="Input")
 	TObjectPtr<UInputMappingContext> AuraContext;
 
