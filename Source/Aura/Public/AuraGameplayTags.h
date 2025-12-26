@@ -57,6 +57,7 @@ public:
 
 	FGameplayTag Debuff_Burn;
 	FGameplayTag Debuff_Stun;
+	FGameplayTag Debuff_Immobilize;
 	FGameplayTag Debuff_Arcane;
 	FGameplayTag Debuff_Physical;
 

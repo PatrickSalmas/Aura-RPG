@@ -68,6 +68,9 @@ public:
 	UPROPERTY(ReplicatedUsing=OnRep_Stunned, BlueprintReadOnly)
 	bool bIsStunned = false;
 
+	UPROPERTY(BlueprintReadOnly)
+	bool bIsImmobilized = false;
+	
 	UPROPERTY(ReplicatedUsing=OnRep_Burned, BlueprintReadOnly)
 	bool bIsBurned = false;
 
@@ -102,6 +105,8 @@ protected:
 	bool bDead = false;
 
 	virtual void StunTaggedChanged(const FGameplayTag CallbackTag, int32 NewCount);
+
+	virtual void ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 NewCount); 
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Combat")
 	float BaseWalkSpeed = 250.f;
@@ -165,6 +170,9 @@ protected:
 
 	UPROPERTY(VisibleDefaultsOnly)
 	TObjectPtr<UDebuffNiagaraComponent> StunDebuffComponent;
+
+	UPROPERTY(VisibleDefaultsOnly)
+	TObjectPtr<UDebuffNiagaraComponent> ImmobilizeDebuffComponent;
 	
 private:
 	UPROPERTY(EditAnywhere, Category="Abilities")

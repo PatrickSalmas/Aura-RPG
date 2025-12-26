@@ -107,6 +107,10 @@ void AAuraEnemy::InitAbilityActorInfo()
 												 EGameplayTagEventType::NewOrRemoved).AddUObject(
 													this, &AAuraEnemy::StunTaggedChanged);
 
+	AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().Debuff_Immobilize,
+											 EGameplayTagEventType::NewOrRemoved).AddUObject(
+												this, &AAuraEnemy::ImmobilizedTagChanged);
+
 	if (HasAuthority())
 	{
 		InitializeDefaultAttributes();
@@ -126,6 +130,20 @@ void AAuraEnemy::StunTaggedChanged(const FGameplayTag CallbackTag, int32 NewCoun
 	if (AuraAIController && AuraAIController->GetBlackboardComponent())
 	{
 		AuraAIController->GetBlackboardComponent()->SetValueAsBool(FName("Stunned"), bIsStunned);
+	}
+}
+
+void AAuraEnemy::ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
+{
+	Super::ImmobilizedTagChanged(CallbackTag, NewCount);
+
+	if (AuraAIController && AuraAIController->GetBlackboardComponent())
+	{
+		AuraAIController->GetBlackboardComponent()->SetValueAsBool(FName("Immobilized"), bIsImmobilized);
+		if (!bIsImmobilized)
+		{
+			
+		}
 	}
 }
 

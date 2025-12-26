@@ -7,6 +7,8 @@
 #include "AuraAbilityTypes.h"
 #include "AuraGameplayTags.h"
 #include "AbilitySystem/Abilities/AuraDamageGameplayAbility.h"
+#include "Character/AuraCharacter.h"
+#include "Character/AuraEnemy.h"
 #include "Game/AuraGameModeBase.h"
 #include "Interaction/CombatInterface.h"
 #include "Kismet/GameplayStatics.h"
