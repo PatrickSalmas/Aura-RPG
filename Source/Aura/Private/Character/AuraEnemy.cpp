@@ -140,10 +140,6 @@ void AAuraEnemy::ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 New
 	if (AuraAIController && AuraAIController->GetBlackboardComponent())
 	{
 		AuraAIController->GetBlackboardComponent()->SetValueAsBool(FName("Immobilized"), bIsImmobilized);
-		if (!bIsImmobilized)
-		{
-			
-		}
 	}
 }
 
