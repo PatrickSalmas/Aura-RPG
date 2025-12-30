@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Actor/AuraProjectile.h"
+#include "AbilitySystem/Abilities/AuraGameplayAbility.h"
 #include "AuraFireBall.generated.h"
 
 /**
@@ -20,6 +21,9 @@ public:
 
 	UPROPERTY(BlueprintReadWrite)
 	FDamageEffectParams ExplosionDamageParams;
+
+	UPROPERTY(BlueprintReadOnly)
+	bool IsFromFireBlast;
 	
 protected:
 	virtual void OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
