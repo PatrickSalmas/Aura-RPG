@@ -18,7 +18,7 @@ FString UArcaneExplosion::GetNextLevelDescription(int32 Level)
 
 TArray<AArcaneSplinter*> UArcaneExplosion::SpawnArcaneSplinters()
 {
-	TArray<AArcaneSplinter*> Fireballs;
+	TArray<AArcaneSplinter*> ArcaneSplinters;
 	const FVector Forward = GetAvatarActorFromActorInfo()->GetActorForwardVector();
 	const FVector Location = GetAvatarActorFromActorInfo()->GetActorLocation();
 	TArray<FRotator> Rotators = UAuraAbilitySystemLibrary::EvenlySpaceRotators(Forward, FVector::UpVector, 360.f, NumSplinters);
@@ -43,10 +43,10 @@ TArray<AArcaneSplinter*> UArcaneExplosion::SpawnArcaneSplinters()
 		// }
 		//
 		//
-		// Fireballs.Add(FireBall);
+		ArcaneSplinters.Add(ArcaneSplinter);
 		//
-		// FireBall->FinishSpawning(SpawnTransform);
+		ArcaneSplinter->FinishSpawning(SpawnTransform);
 	}
 	
-	return Fireballs;
+	return ArcaneSplinters;
 }
