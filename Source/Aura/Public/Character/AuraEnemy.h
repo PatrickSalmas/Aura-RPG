@@ -71,6 +71,9 @@ protected:
 
 	UPROPERTY()
 	TObjectPtr<AAuraAIController> AuraAIController;
+
+	UPROPERTY(BlueprintReadWrite)
+	int32 ArcaneSplintersAttached = 0;
 private:
 
 };

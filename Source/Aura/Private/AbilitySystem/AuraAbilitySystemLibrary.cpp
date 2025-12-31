@@ -456,6 +456,22 @@ void UAuraAbilitySystemLibrary::GetClosestTargets(int32 MaxTargets, const TArray
 	}
 }
 
+AActor* UAuraAbilitySystemLibrary::GetClosestTarget(const TArray<AActor*>& Actors, const FVector& Origin)
+{
+	TArray<AActor*> ActorsToCheck = Actors;
+	if (ActorsToCheck.Num() <= 0) return nullptr;
+	AActor* ClosestTarget = ActorsToCheck[0];
+	for (AActor* Actor : ActorsToCheck)
+	{
+		const double Distance = FVector::Dist(Origin, Actor->GetActorLocation());
+		if (Distance < FVector::Dist(Origin, ClosestTarget->GetActorLocation()))
+		{
+			ClosestTarget = Actor;
+		}
+	}
+	return ClosestTarget;
+}
+
 bool UAuraAbilitySystemLibrary::IsNotFriend(AActor* FirstActor, AActor* SecondActor)
 {
 	const bool bFirstIsPlayer = FirstActor->ActorHasTag(FName("Player"));
