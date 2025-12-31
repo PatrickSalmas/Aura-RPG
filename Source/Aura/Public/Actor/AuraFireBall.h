@@ -22,8 +22,8 @@ public:
 	UPROPERTY(BlueprintReadWrite)
 	FDamageEffectParams ExplosionDamageParams;
 
-	UPROPERTY(BlueprintReadOnly)
-	bool IsFromFireBlast;
+	UPROPERTY(BlueprintReadOnly, Category = "FireBlast")
+	bool IsRotatingFireBall = false;
 	
 protected:
 	virtual void OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,

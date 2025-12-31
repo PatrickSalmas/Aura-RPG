@@ -58,7 +58,7 @@ TArray<AAuraFireBall*> UAuraFireBlast::SpawnFireBalls()
 	const FVector Forward = GetAvatarActorFromActorInfo()->GetActorForwardVector();
 	const FVector Location = GetAvatarActorFromActorInfo()->GetActorLocation();
 	TArray<FRotator> Rotators = UAuraAbilitySystemLibrary::EvenlySpaceRotators(Forward, FVector::UpVector, 360.f, NumFireballs);
-	
+
 	for (const FRotator& Rotator : Rotators)
 	{
 		FTransform SpawnTransform;
@@ -73,7 +73,11 @@ TArray<AAuraFireBall*> UAuraFireBlast::SpawnFireBalls()
 
 		FireBall->ExplosionDamageParams = MakeDamageEffectParamsFromClassDefaults();
 		FireBall->SetOwner(GetAvatarActorFromActorInfo());
-		FireBall->IsFromFireBlast = true;
+		if (GetAbilityLevel() > 1)
+		{
+			FireBall->IsRotatingFireBall = true;
+		}
+	
 		
 		Fireballs.Add(FireBall);
 		
