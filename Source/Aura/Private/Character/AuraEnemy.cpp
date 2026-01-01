@@ -92,7 +92,7 @@ void AAuraEnemy::BeginPlay()
 void AAuraEnemy::HitReactTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
 {
 	bHitReacting = NewCount > 0;
-	GetCharacterMovement()->MaxWalkSpeed = bHitReacting ? 0.f : BaseWalkSpeed;
+	GetCharacterMovement()->MaxWalkSpeed = bHitReacting ? 0.f : GetCharacterMovement()->MaxWalkSpeed;
 	if (AuraAIController && AuraAIController->GetBlackboardComponent())
 	{
 		AuraAIController->GetBlackboardComponent()->SetValueAsBool(FName("HitReacting"), bHitReacting);
@@ -110,6 +110,10 @@ void AAuraEnemy::InitAbilityActorInfo()
 	AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().Debuff_Immobilize,
 											 EGameplayTagEventType::NewOrRemoved).AddUObject(
 												this, &AAuraEnemy::ImmobilizedTagChanged);
+
+	AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().Debuff_Slow,
+										 EGameplayTagEventType::NewOrRemoved).AddUObject(
+											this, &AAuraEnemy::SlowedTagChanged);
 
 	if (HasAuthority())
 	{
@@ -142,6 +146,11 @@ void AAuraEnemy::ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 New
 		AuraAIController->GetBlackboardComponent()->SetValueAsBool(FName("Immobilized"), bIsImmobilized);
 	}
 }
+
+// void AAuraEnemy::SlowedTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
+// {
+// 	Super::SlowedTagChanged(CallbackTag, NewCount);
+// }
 
 void AAuraEnemy::HightlightActor()
 {

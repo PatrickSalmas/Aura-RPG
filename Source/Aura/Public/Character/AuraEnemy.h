@@ -59,6 +59,7 @@ protected:
 	virtual void InitializeDefaultAttributes() const override;
 	virtual void StunTaggedChanged(const FGameplayTag CallbackTag, int32 NewCount) override;
 	virtual void ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 NewCount) override;
+	// virtual void SlowedTagChanged(const FGameplayTag CallbackTag, int32 NewCount) override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Character Class Defaults")
 	int32 Level = 1;

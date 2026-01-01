@@ -70,6 +70,9 @@ public:
 
 	UPROPERTY(BlueprintReadOnly)
 	bool bIsImmobilized = false;
+
+	UPROPERTY(BlueprintReadOnly)
+	bool bIsSlowed = false;
 	
 	UPROPERTY(ReplicatedUsing=OnRep_Burned, BlueprintReadOnly)
 	bool bIsBurned = false;
@@ -109,7 +112,9 @@ protected:
 
 	virtual void StunTaggedChanged(const FGameplayTag CallbackTag, int32 NewCount);
 
-	virtual void ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 NewCount); 
+	virtual void ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
+	
+	virtual void SlowedTagChanged(const FGameplayTag CallbackTag, int32 NewCount); 
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Combat")
 	float BaseWalkSpeed = 250.f;
@@ -176,6 +181,9 @@ protected:
 
 	UPROPERTY(VisibleDefaultsOnly)
 	TObjectPtr<UDebuffNiagaraComponent> ImmobilizeDebuffComponent;
+
+	UPROPERTY(VisibleDefaultsOnly)
+	TObjectPtr<UDebuffNiagaraComponent> SlowDebuffComponent;
 
 	UPROPERTY()
 	TArray<AActor*> AttachedActors;

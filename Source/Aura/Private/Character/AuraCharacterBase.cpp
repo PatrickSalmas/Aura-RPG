@@ -31,6 +31,10 @@ AAuraCharacterBase::AAuraCharacterBase()
 	ImmobilizeDebuffComponent->SetupAttachment(GetRootComponent());
 	ImmobilizeDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Immobilize;
 
+	SlowDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("SlowDebuffComponent"));
+	SlowDebuffComponent->SetupAttachment(GetRootComponent());
+	SlowDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Slow;
+
 	GetCapsuleComponent()->SetCollisionResponseToChannel(ECC_Camera, ECR_Ignore);
 	GetCapsuleComponent()->SetGenerateOverlapEvents(false);
 	GetMesh()->SetCollisionResponseToChannel(ECC_Camera, ECR_Ignore);
@@ -130,6 +134,13 @@ void AAuraCharacterBase::ImmobilizedTagChanged(const FGameplayTag CallbackTag, i
 {
 	bIsImmobilized = NewCount > 0;
 	GetCharacterMovement()->MaxWalkSpeed = bIsImmobilized ? 0.f : BaseWalkSpeed;
+}
+
+void AAuraCharacterBase::SlowedTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
+{
+	bIsSlowed = NewCount > 0;
+	float MaxWalkSpeed = bIsSlowed ? BaseWalkSpeed/2 : BaseWalkSpeed;
+	GetCharacterMovement()-> MaxWalkSpeed = MaxWalkSpeed;
 }
 
 void AAuraCharacterBase::OnRep_Stunned()

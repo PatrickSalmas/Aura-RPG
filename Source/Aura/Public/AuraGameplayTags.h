@@ -48,6 +48,8 @@ public:
 	FGameplayTag Damage_Fire;
 	FGameplayTag Damage_Lightning;
 	FGameplayTag Damage_Arcane;
+	FGameplayTag Damage_ArcaneImmobilize;
+	FGameplayTag Damage_ArcaneSlow;
 	FGameplayTag Damage_Physical;
 
 	FGameplayTag Attributes_Resistance_Fire;
@@ -58,6 +60,7 @@ public:
 	FGameplayTag Debuff_Burn;
 	FGameplayTag Debuff_Stun;
 	FGameplayTag Debuff_Immobilize;
+	FGameplayTag Debuff_Slow;
 	FGameplayTag Debuff_Arcane;
 	FGameplayTag Debuff_Physical;
 
