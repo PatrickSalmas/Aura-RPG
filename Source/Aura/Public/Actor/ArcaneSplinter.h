@@ -21,4 +21,9 @@ protected:
 							 const FHitResult& SweepResult) override;
 
 	virtual void OnHit() override;
+
+	virtual void Destroyed() override;
+
+	UPROPERTY(BlueprintReadWrite)
+	AActor* SelectedTarget;
 };

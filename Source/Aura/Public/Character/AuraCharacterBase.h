@@ -82,6 +82,9 @@ public:
 
 	UFUNCTION()
 	virtual void OnRep_Burned();
+
+	UFUNCTION(BlueprintCallable)
+	void AddToAttachActors(AActor* AttachActor);
 	
 protected:
 	// Called when the game starts or when spawned
@@ -173,6 +176,9 @@ protected:
 
 	UPROPERTY(VisibleDefaultsOnly)
 	TObjectPtr<UDebuffNiagaraComponent> ImmobilizeDebuffComponent;
+
+	UPROPERTY()
+	TArray<AActor*> AttachedActors;
 	
 private:
 	UPROPERTY(EditAnywhere, Category="Abilities")

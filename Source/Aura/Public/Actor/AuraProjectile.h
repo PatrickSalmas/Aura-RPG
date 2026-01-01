@@ -52,11 +52,6 @@ protected:
 
 	UPROPERTY(BlueprintReadOnly)
 	TObjectPtr<USphereComponent> Sphere;
-	
-private:
-
-	UPROPERTY(EditDefaultsOnly)
-	float LifeSpan = 15.f;
 
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<UNiagaraSystem> ImpactEffect;
@@ -66,4 +61,10 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<USoundBase> LoopingSound;
+	
+private:
+
+	UPROPERTY(EditDefaultsOnly)
+	float LifeSpan = 15.f;
+	
 };

@@ -32,7 +32,7 @@ TArray<AArcaneSplinter*> UArcaneExplosion::SpawnArcaneSplinters()
 			ArcaneSplinterClass, SpawnTransform, GetOwningActorFromActorInfo(), CurrentActorInfo->PlayerController->GetPawn(),
 			ESpawnActorCollisionHandlingMethod::AlwaysSpawn);
 
-		// FireBall->DamageEffectParams = MakeDamageEffectParamsFromClassDefaults();
+		ArcaneSplinter->DamageEffectParams = MakeDamageEffectParamsFromClassDefaults();
 		// FireBall->ReturnToActor = GetAvatarActorFromActorInfo();
 		//
 		// FireBall->ExplosionDamageParams = MakeDamageEffectParamsFromClassDefaults();

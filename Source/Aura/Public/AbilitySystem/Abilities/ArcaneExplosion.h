@@ -25,7 +25,7 @@ public:
 protected:
 	UPROPERTY(EditDefaultsOnly, Category = "ArcaneExplosion")
 	int32 NumSplinters = 12;
-
+	
 	// UFUNCTION(BlueprintCallable)
 	// GetClosestTarget()
 	

@@ -166,7 +166,16 @@ void AAuraEnemy::Die(const FVector& DeathImpulse)
 {
 	SetLifeSpan(LifeSpan);
 	if (AuraAIController) AuraAIController->GetBlackboardComponent()->SetValueAsBool(FName("Dead"), true);
-	
+
+
+	for (AActor* AttachedActor : AttachedActors)
+	{
+		if (AttachedActor)
+		{
+			AttachedActor->Destroy();
+		}
+	}
+
 	Super::Die(DeathImpulse);
 }
 

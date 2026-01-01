@@ -141,6 +141,11 @@ void AAuraCharacterBase::OnRep_Burned()
 {
 }
 
+void AAuraCharacterBase::AddToAttachActors(AActor* AttachActor)
+{
+	AttachedActors.Add(AttachActor);
+}
+
 // Called when the game starts or when spawned
 void AAuraCharacterBase::BeginPlay()
 {
