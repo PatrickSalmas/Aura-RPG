@@ -118,6 +118,9 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Combat")
 	float BaseWalkSpeed = 250.f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Combat")
+	float CurrentWalkSpeed = BaseWalkSpeed;
 	
 	UPROPERTY()
 	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;

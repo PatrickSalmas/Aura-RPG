@@ -127,20 +127,30 @@ void AAuraCharacterBase::MulticastHandleDeath_Implementation(const FVector& Deat
 void AAuraCharacterBase::StunTaggedChanged(const FGameplayTag CallbackTag, int32 NewCount)
 {
 	bIsStunned = NewCount > 0;
-	GetCharacterMovement()->MaxWalkSpeed = bIsStunned ? 0.f : BaseWalkSpeed;
+	GetCharacterMovement()->MaxWalkSpeed = bIsStunned ? 0.f : CurrentWalkSpeed;
 }
 
 void AAuraCharacterBase::ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
 {
 	bIsImmobilized = NewCount > 0;
-	GetCharacterMovement()->MaxWalkSpeed = bIsImmobilized ? 0.f : BaseWalkSpeed;
+	GetCharacterMovement()->MaxWalkSpeed = bIsImmobilized ? 0.f : CurrentWalkSpeed;
 }
 
 void AAuraCharacterBase::SlowedTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
 {
 	bIsSlowed = NewCount > 0;
-	float MaxWalkSpeed = bIsSlowed ? BaseWalkSpeed/2 : BaseWalkSpeed;
-	GetCharacterMovement()-> MaxWalkSpeed = MaxWalkSpeed;
+	if (bIsSlowed)
+	{
+		CurrentWalkSpeed = CurrentWalkSpeed / 2;
+		GetCharacterMovement()->MaxWalkSpeed = CurrentWalkSpeed;
+	}
+	else
+	{
+		CurrentWalkSpeed = BaseWalkSpeed;
+		GetCharacterMovement()->MaxWalkSpeed = BaseWalkSpeed;
+	}
+	// float MaxWalkSpeed = bIsSlowed ? BaseWalkSpeed/2 : BaseWalkSpeed;
+	// GetCharacterMovement()-> MaxWalkSpeed = MaxWalkSpeed;
 }
 
 void AAuraCharacterBase::OnRep_Stunned()
