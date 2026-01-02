@@ -146,7 +146,7 @@ void AAuraCharacterBase::SlowedTagChanged(const FGameplayTag CallbackTag, int32 
 	}
 	else
 	{
-		CurrentWalkSpeed = BaseWalkSpeed;
+		CurrentWalkSpeed = BaseWalkSpeed; 
 		GetCharacterMovement()->MaxWalkSpeed = BaseWalkSpeed;
 	}
 	// float MaxWalkSpeed = bIsSlowed ? BaseWalkSpeed/2 : BaseWalkSpeed;
