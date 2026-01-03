@@ -36,7 +36,7 @@ TArray<AArcaneSplinter*> UArcaneExplosion::SpawnArcaneSplinters()
 		// FireBall->ReturnToActor = GetAvatarActorFromActorInfo();
 		//
 		// FireBall->ExplosionDamageParams = MakeDamageEffectParamsFromClassDefaults();
-		// FireBall->SetOwner(GetAvatarActorFromActorInfo());
+		ArcaneSplinter->SetOwner(GetAvatarActorFromActorInfo());
 		// if (GetAbilityLevel() > 1)
 		// {
 		// 	FireBall->IsRotatingFireBall = true;
