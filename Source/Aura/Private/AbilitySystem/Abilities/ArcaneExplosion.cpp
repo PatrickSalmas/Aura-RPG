@@ -33,18 +33,9 @@ TArray<AArcaneSplinter*> UArcaneExplosion::SpawnArcaneSplinters()
 			ESpawnActorCollisionHandlingMethod::AlwaysSpawn);
 
 		ArcaneSplinter->DamageEffectParams = MakeDamageEffectParamsFromClassDefaults();
-		// FireBall->ReturnToActor = GetAvatarActorFromActorInfo();
-		//
-		// FireBall->ExplosionDamageParams = MakeDamageEffectParamsFromClassDefaults();
 		ArcaneSplinter->SetOwner(GetAvatarActorFromActorInfo());
-		// if (GetAbilityLevel() > 1)
-		// {
-		// 	FireBall->IsRotatingFireBall = true;
-		// }
-		//
-		//
+		
 		ArcaneSplinters.Add(ArcaneSplinter);
-		//
 		ArcaneSplinter->FinishSpawning(SpawnTransform);
 	}
 	

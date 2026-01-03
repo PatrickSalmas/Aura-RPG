@@ -83,6 +83,11 @@ UAbilitySystemComponent* AAuraCharacterBase::GetAbilitySystemComponent() const
 	return AbilitySystemComponent;
 }
 
+void AAuraCharacterBase::OnLanded(const FVector& HitLocation)
+{
+	GetCharacterMovement()->MaxWalkSpeed = CurrentWalkSpeed;
+}
+
 UAnimMontage* AAuraCharacterBase::GetHitReactMontage_Implementation()
 {
 	return HitReactMontage;
@@ -149,8 +154,6 @@ void AAuraCharacterBase::SlowedTagChanged(const FGameplayTag CallbackTag, int32 
 		CurrentWalkSpeed = BaseWalkSpeed; 
 		GetCharacterMovement()->MaxWalkSpeed = BaseWalkSpeed;
 	}
-	// float MaxWalkSpeed = bIsSlowed ? BaseWalkSpeed/2 : BaseWalkSpeed;
-	// GetCharacterMovement()-> MaxWalkSpeed = MaxWalkSpeed;
 }
 
 void AAuraCharacterBase::OnRep_Stunned()
