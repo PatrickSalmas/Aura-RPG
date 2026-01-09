@@ -13,5 +13,12 @@ UCLASS()
 class AURA_API UElectricDomination : public UAuraBeamSpell
 {
 	GENERATED_BODY()
+
+protected:
+	UFUNCTION(BlueprintCallable)
+	void BindPrimaryTargetDeathEvent();
+
+	UFUNCTION(BlueprintCallable)
+	void BindAdditionalTargetDeathEvent(AActor* AdditionalTarget);
 	
 };
