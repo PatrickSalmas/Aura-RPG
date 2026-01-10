@@ -95,7 +95,8 @@ public:
 	FGameplayTag Abilities_Lightning_ElectricDomination;
 	FGameplayTag Abilities_Arcane_ArcaneShards;
 	FGameplayTag Abilities_Arcane_ArcaneExplosion;
-
+	FGameplayTag Abilities_Arcane_ArcaneMine;
+	
 	FGameplayTag Abilities_Passive_HaloOfProtection;
 	FGameplayTag Abilities_Passive_LifeSiphon;
 	FGameplayTag Abilities_Passive_ManaSiphon;
