@@ -5300,3 +5300,657 @@ FPackageName: Skipped package /Game/Assets/Sounds/Abilities/ArcaneExplosion/whoo
 [2026.01.11-19.09.24:359][945]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2026.01.11-19.09.24:366][945]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
 [2026.01.11-19.09.24:455][946]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2026.01.11-19.13.05:459][854]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2450.343018
+[2026.01.11-19.13.06:458][857]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.11-19.13.06:459][857]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2451.009277, Update Interval: 354.860077
+[2026.01.11-19.19.10:432][ 39]LogSlate: Took 0.001269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.01.11-19.19.10:576][ 40]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 D:/Unreal Projects/Aura/Content/Assets/Sounds/Abilities/ArcaneMine/elemental-magic-spell-impact-outgoing-228342.mp3)
+[2026.01.11-19.19.10:687][ 40]LogAudioDerivedData: Display: elemental-magic-spell-impact-outgoing-228342 compressed to 19.55% (from 598KB to 117KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.01.11-19.19.10:688][ 40]LogAudio: Display: Chunk stats for (SoundWave /Game/Assets/Sounds/Abilities/ArcaneMine/elemental-magic-spell-impact-outgoing-228342.elemental-magic-spell-impact-outgoing-228342: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=119811 bytes, ChunkN=0)
+[2026.01.11-19.19.10:762][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.11-19.19.11:009][ 41]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Abilities/ArcaneMine/elemental-magic-spell-impact-outgoing-228342] ([1] browsable assets)...
+[2026.01.11-19.19.11:014][ 41]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Abilities/ArcaneMine/elemental-magic-spell-impact-outgoing-228342.elemental-magic-spell-impact-outgoing-228342]
+[2026.01.11-19.19.11:014][ 41]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Abilities/ArcaneMine/elemental-magic-spell-impact-outgoing-228342]
+[2026.01.11-19.19.11:024][ 41]LogSavePackage: Moving output files for package: /Game/Assets/Sounds/Abilities/ArcaneMine/elemental-magic-spell-impact-outgoing-228342
+[2026.01.11-19.19.11:024][ 41]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/elemental-magic-spell-impact-out8D480A7049539F9D8A75B4A1D67B00C7.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Sounds/Abilities/ArcaneMine/elemental-magic-spell-impact-outgoing-228342.uasset'
+[2026.01.11-19.19.11:043][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave took 281.365 ms (total: 5.48 sec)
+[2026.01.11-19.19.11:231][ 42]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.11-19.19.11:232][ 42]LogContentValidation: Enabled validators:
+[2026.01.11-19.19.11:232][ 42]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.11-19.19.11:232][ 42]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.11-19.19.11:232][ 42]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.11-19.19.11:232][ 42]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.11-19.19.11:232][ 42]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.11-19.19.11:232][ 42]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.11-19.19.11:232][ 42]AssetCheck: /Game/Assets/Sounds/Abilities/ArcaneMine/elemental-magic-spell-impact-outgoing-228342 Validating asset
+[2026.01.11-19.19.14:047][252]AssetReimport: Importing new asset /Game/Assets/Sounds/Abilities/ArcaneMine/elemental-magic-spell-impact-outgoing-228342.
+[2026.01.11-19.19.16:063][460]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.01.11-19.19.46:836][269]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2851.721924
+[2026.01.11-19.19.46:957][281]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.11-19.19.46:957][281]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2851.834229, Update Interval: 347.890869
+[2026.01.11-19.20.05:970][263]LogStreaming: Display: FlushAsyncLoading(484): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.11-19.20.07:068][317]LogAssetEditorSubsystem: Opening Asset editor for MetaSoundSource /Game/Assets/Sounds/Abilities/ArcaneMine/sfx_FireBolt.sfx_FireBolt
+[2026.01.11-19.20.07:075][317]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Abilities/FireBolt/sfx_FireBolt_Impact.sfx_FireBolt_Impact' node class 'UE.Wave Player.Mono (v1.0)': Interface change detected.
+[2026.01.11-19.20.07:076][317]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Abilities/FireBolt/sfx_FireBoltHiss.sfx_FireBoltHiss' node class 'UE.Wave Player.Mono (v1.0)': Interface change detected.
+[2026.01.11-19.20.07:280][317]LogSlate: The tab "MetasoundEditor_Pages" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v14' but failed for some reason. It will not be displayed.
+[2026.01.11-19.20.08:676][342]LogMetaSound: Display: Resave recommended: Asset 'sfx_Template_single' at '/Game/Assets/Sounds/sfx_Template_single.sfx_Template_single' successfully migrated editor data in target document version 'v1.12'.
+[2026.01.11-19.20.08:687][343]LogMetaSound: Display: Resave recommended: Asset 'sfx_Template_multi' at '/Game/Assets/Sounds/sfx_Template_multi.sfx_Template_multi' successfully migrated editor data in target document version 'v1.12'.
+[2026.01.11-19.20.08:701][344]LogMetaSound: Display: Resave recommended: Asset 'sfx_FireBoltLow' at '/Game/Assets/Sounds/Abilities/FireBolt/sfx_FireBoltLow.sfx_FireBoltLow' successfully migrated editor data in target document version 'v1.12'.
+[2026.01.11-19.20.08:717][345]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/sfx_Template_single.sfx_Template_single' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.01.11-19.20.08:719][345]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/sfx_Template_multi.sfx_Template_multi' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.01.11-19.20.08:722][345]LogMetaSound: Display: Resave recommended: Asset 'sfx_Slingshot_Fire' at '/Game/Assets/Sounds/Slingshot/sfx_Slingshot_Fire.sfx_Slingshot_Fire' successfully migrated editor data in target document version 'v1.12'.
+[2026.01.11-19.20.08:737][346]LogMetaSound: Display: Resave recommended: Asset 'sfx_Potion_Spawn' at '/Game/Assets/Sounds/Potions/Spawn/sfx_Potion_Spawn.sfx_Potion_Spawn' successfully migrated editor data in target document version 'v1.12'.
+[2026.01.11-19.20.08:750][347]LogMetaSound: Display: Resave recommended: Asset 'sfx_Potion_HitGround' at '/Game/Assets/Sounds/Potions/HitGround/sfx_Potion_HitGround.sfx_Potion_HitGround' successfully migrated editor data in target document version 'v1.12'.
+[2026.01.11-19.20.08:753][347]LogMetaSound: Display: Resave recommended: Asset 'sfx_Potion_Consume' at '/Game/Assets/Sounds/Potions/Consume/sfx_Potion_Consume.sfx_Potion_Consume' successfully migrated editor data in target document version 'v1.12'.
+[2026.01.11-19.20.08:775][349]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Abilities/FireBolt/sfx_FireBoltLow.sfx_FireBoltLow' node class 'UE.Wave Player.Mono (v1.0)': Interface change detected.
+[2026.01.11-19.20.08:791][350]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Slingshot/sfx_Slingshot_Fire.sfx_Slingshot_Fire' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.01.11-19.20.08:794][350]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Potions/Spawn/sfx_Potion_Spawn.sfx_Potion_Spawn' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.01.11-19.20.08:809][351]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Potions/HitGround/sfx_Potion_HitGround.sfx_Potion_HitGround' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.01.11-19.20.08:813][351]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Potions/Consume/sfx_Potion_Consume.sfx_Potion_Consume' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.01.11-19.20.33:025][879]LogStatusBar: Looking status bar with open content browser drawer...
+[2026.01.11-19.20.33:026][879]LogStatusBar: StatusBar: LevelEditor.StatusBar was content browser was not opened
+[2026.01.11-19.20.33:026][879]LogStatusBar: StatusBar: BlueprintEditorApp_0 was content browser was not opened
+[2026.01.11-19.20.33:026][879]LogStatusBar: StatusBar: BlueprintEditorApp_1 was content browser was not opened
+[2026.01.11-19.20.33:026][879]LogStatusBar: StatusBar: BlueprintEditorApp_2 was content browser was not opened
+[2026.01.11-19.20.33:026][879]LogStatusBar: StatusBar: BlueprintEditorApp_3 was content browser was not opened
+[2026.01.11-19.20.33:026][879]LogStatusBar: StatusBar: BlueprintEditorApp_6 was content browser was not opened
+[2026.01.11-19.20.33:026][879]LogStatusBar: StatusBar: BlueprintEditorApp_7 was content browser was not opened
+[2026.01.11-19.20.33:026][879]LogStatusBar: StatusBar: BlueprintEditorApp_8 was content browser was not opened
+[2026.01.11-19.20.33:027][879]LogStatusBar: StatusBar: BlueprintEditorApp_9 was content browser was not opened
+[2026.01.11-19.20.33:027][879]LogStatusBar: StatusBar: BlueprintEditorApp_10 was content browser was not opened
+[2026.01.11-19.20.33:027][879]LogStatusBar: StatusBar: BlueprintEditorApp_11 was content browser was not opened
+[2026.01.11-19.20.33:027][879]LogStatusBar: Using status bar: MetasoundEditorApp_12 to dock content browser
+[2026.01.11-19.20.39:431][349]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2026.01.11-19.20.39:436][349]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.11-19.20.39:598][349]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Sounds/Abilities/ArcaneMine/sfx_FireBolt] ([1] browsable assets)...
+[2026.01.11-19.20.39:598][349]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Abilities/ArcaneMine/sfx_FireBolt]
+[2026.01.11-19.20.39:640][349]LogSavePackage: Moving output files for package: /Game/Assets/Sounds/Abilities/ArcaneMine/sfx_FireBolt
+[2026.01.11-19.20.39:640][349]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/sfx_FireBolt41BE360D4531EE0F29CCF7B9ECF1BDBF.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Sounds/Abilities/ArcaneMine/sfx_FireBolt.uasset'
+[2026.01.11-19.20.39:652][349]LogFileHelpers: InternalPromptForCheckoutAndSave took 215.411 ms (total: 5.70 sec)
+[2026.01.11-19.20.39:809][349]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.11-19.20.39:809][349]LogContentValidation: Enabled validators:
+[2026.01.11-19.20.39:809][349]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.11-19.20.39:809][349]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.11-19.20.39:809][349]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.11-19.20.39:809][349]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.11-19.20.39:809][349]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.11-19.20.39:809][349]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.11-19.20.39:810][349]AssetCheck: /Game/Assets/Sounds/Abilities/ArcaneMine/sfx_FireBolt Validating asset
+[2026.01.11-19.20.42:932][630]LogSlate: Window 'Content Browser' being destroyed
+[2026.01.11-19.20.42:938][630]LogSlate: Window 'Content Browser' being destroyed
+[2026.01.11-19.21.15:920][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2026.01.11-19.21.15:925][145]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.11-19.21.16:081][145]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Sounds/Abilities/ArcaneMine/sfx_FireBolt] ([1] browsable assets)...
+[2026.01.11-19.21.16:081][145]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Abilities/ArcaneMine/sfx_FireBolt]
+[2026.01.11-19.21.16:123][145]LogSavePackage: Moving output files for package: /Game/Assets/Sounds/Abilities/ArcaneMine/sfx_FireBolt
+[2026.01.11-19.21.16:124][145]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/sfx_FireBolt59E795804D96B2D6F6A169A279044AD6.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Sounds/Abilities/ArcaneMine/sfx_FireBolt.uasset'
+[2026.01.11-19.21.16:137][145]LogFileHelpers: InternalPromptForCheckoutAndSave took 211.378 ms (total: 5.91 sec)
+[2026.01.11-19.21.16:290][145]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.11-19.21.16:290][145]LogContentValidation: Enabled validators:
+[2026.01.11-19.21.16:290][145]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.11-19.21.16:290][145]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.11-19.21.16:291][145]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.11-19.21.16:291][145]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.11-19.21.16:291][145]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.11-19.21.16:291][145]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.11-19.21.16:291][145]AssetCheck: /Game/Assets/Sounds/Abilities/ArcaneMine/sfx_FireBolt Validating asset
+[2026.01.11-19.21.52:967][887]LogContentBrowser: Attempting asset rename: sfx_FireBolt -> sfx_ArcaneMine
+[2026.01.11-19.21.53:422][887]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.11-19.21.53:422][887]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Sounds/Abilities/ArcaneMine/sfx_ArcaneMine] ([1] browsable assets)...
+[2026.01.11-19.21.53:422][887]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Abilities/ArcaneMine/sfx_ArcaneMine]
+[2026.01.11-19.21.53:437][887]LogSavePackage: Moving output files for package: /Game/Assets/Sounds/Abilities/ArcaneMine/sfx_ArcaneMine
+[2026.01.11-19.21.53:437][887]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/sfx_ArcaneMine9E338B9742BEA39557AB718AC83398F6.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Sounds/Abilities/ArcaneMine/sfx_ArcaneMine.uasset'
+[2026.01.11-19.21.53:439][887]LogFileHelpers: InternalPromptForCheckoutAndSave took 17.968 ms (total: 5.93 sec)
+[2026.01.11-19.21.53:488][887]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2026.01.11-19.21.53:513][887]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2026.01.11-19.21.53:538][887]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2026.01.11-19.21.53:707][887]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.11-19.21.53:707][887]LogContentValidation: Enabled validators:
+[2026.01.11-19.21.53:707][887]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.11-19.21.53:707][887]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.11-19.21.53:707][887]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.11-19.21.53:707][887]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.11-19.21.53:707][887]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.11-19.21.53:707][887]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.11-19.21.53:708][887]AssetCheck: /Game/Assets/Sounds/Abilities/ArcaneMine/sfx_ArcaneMine Validating asset
+[2026.01.11-19.22.03:059][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2026.01.11-19.22.03:064][826]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.11-19.22.03:225][826]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/ArcaneMine/BP_ArcaneMine] ([2] browsable assets)...
+[2026.01.11-19.22.03:245][826]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/ArcaneMine/BP_ArcaneMine.BP_ArcaneMine]
+[2026.01.11-19.22.03:245][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/ArcaneMine/BP_ArcaneMine]
+[2026.01.11-19.22.03:262][826]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/ArcaneMine/BP_ArcaneMine
+[2026.01.11-19.22.03:264][826]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_ArcaneMine3677CF3F48DE180AFC53D8B73F632FD1.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/ArcaneMine/BP_ArcaneMine.uasset'
+[2026.01.11-19.22.03:272][826]LogFileHelpers: InternalPromptForCheckoutAndSave took 207.782 ms (total: 6.14 sec)
+[2026.01.11-19.22.03:410][826]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.11-19.22.03:410][826]LogContentValidation: Enabled validators:
+[2026.01.11-19.22.03:410][826]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.11-19.22.03:410][826]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.11-19.22.03:411][826]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.11-19.22.03:411][826]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.11-19.22.03:411][826]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.11-19.22.03:411][826]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.11-19.22.03:411][826]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/ArcaneMine/BP_ArcaneMine Validating asset
+[2026.01.11-19.22.04:250][904]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2026.01.11-19.22.05:539][  8]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.11-19.22.05:570][  8]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.11-19.22.05:570][  8]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dungeon
+[2026.01.11-19.22.05:585][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014873s)
+[2026.01.11-19.22.05:585][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dungeon.Dungeon to /Game/Maps/UEDPIE_0_Dungeon.Dungeon (0.015104s)
+[2026.01.11-19.22.05:610][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2026.01.11-19.22.05:615][  8]LogChaosDD: Creating Chaos Debug Draw Scene for world Dungeon
+[2026.01.11-19.22.05:617][  8]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_Dungeon.Dungeon'.
+[2026.01.11-19.22.05:617][  8]LogPlayLevel: PIE: World Init took: (0.002269s)
+[2026.01.11-19.22.05:619][  8]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2026.01.11-19.22.05:619][  8]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.11-19.22.05:619][  8]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.11-19.22.05:619][  8]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.11-19.22.05:619][  8]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.11-19.22.05:620][  8]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.11-19.22.05:620][  8]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.11-19.22.05:620][  8]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.11-19.22.05:620][  8]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.11-19.22.05:620][  8]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.11-19.22.05:620][  8]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.11-19.22.05:620][  8]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.11-19.22.05:623][  8]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.11-19.22.05:666][  8]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2026.01.11-19.22.05:667][  8]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.11-19.22.05:667][  8]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.11-19.22.05:667][  8]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.11-19.22.05:668][  8]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2026.01.11-19.22.05:669][  8]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2026.01.11-19.22.05:672][  8]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2026.01.11-19.22.05:672][  8]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2026.01.11-19.22.05:672][  8]LogInit: FAudioDevice initialized with ID 23.
+[2026.01.11-19.22.05:672][  8]LogAudio: Display: Audio Device (ID: 23) registered with world 'Dungeon'.
+[2026.01.11-19.22.05:672][  8]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2026.01.11-19.22.05:676][  8]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.01.11-19.22.05:685][  8]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2026.01.11-11.22.05
+[2026.01.11-19.22.05:688][  8]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2026.01.11-19.22.05:693][  8]LogWorld: Bringing up level for play took: 0.016661
+[2026.01.11-19.22.05:705][  8]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2026.01.11-19.22.05:705][  8]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2026.01.11-19.22.05:705][  8]LogPushModel: PushModel HandleCreation is now enabled
+[2026.01.11-19.22.05:705][  8]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.01.11-19.22.05:705][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2026.01.11-19.22.05:705][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2026.01.11-19.22.05:705][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2026.01.11-19.22.05:705][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2026.01.11-19.22.05:706][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2026.01.11-19.22.05:706][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2026.01.11-19.22.05:706][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2026.01.11-19.22.05:706][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2026.01.11-19.22.05:706][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2026.01.11-19.22.05:706][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2026.01.11-19.22.05:706][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2026.01.11-19.22.05:706][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2026.01.11-19.22.05:707][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2026.01.11-19.22.05:707][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2026.01.11-19.22.05:707][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2026.01.11-19.22.05:707][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2026.01.11-19.22.05:707][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2026.01.11-19.22.05:707][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2026.01.11-19.22.05:707][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2026.01.11-19.22.05:707][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2026.01.11-19.22.05:707][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2026.01.11-19.22.05:708][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2026.01.11-19.22.05:708][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2026.01.11-19.22.05:708][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2026.01.11-19.22.05:708][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2026.01.11-19.22.05:708][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2026.01.11-19.22.05:708][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2026.01.11-19.22.05:708][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2026.01.11-19.22.05:708][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2026.01.11-19.22.05:708][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2026.01.11-19.22.05:708][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2026.01.11-19.22.05:708][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2026.01.11-19.22.05:708][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2026.01.11-19.22.05:708][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2026.01.11-19.22.05:709][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2026.01.11-19.22.05:709][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2026.01.11-19.22.05:709][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2026.01.11-19.22.05:709][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2026.01.11-19.22.05:709][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2026.01.11-19.22.05:709][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2026.01.11-19.22.05:709][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2026.01.11-19.22.05:710][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2026.01.11-19.22.05:710][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2026.01.11-19.22.05:710][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2026.01.11-19.22.05:710][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2026.01.11-19.22.05:710][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2026.01.11-19.22.05:710][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2026.01.11-19.22.05:710][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2026.01.11-19.22.05:710][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2026.01.11-19.22.05:710][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2026.01.11-19.22.05:710][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2026.01.11-19.22.05:711][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2026.01.11-19.22.05:711][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2026.01.11-19.22.05:711][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2026.01.11-19.22.05:711][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2026.01.11-19.22.05:711][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2026.01.11-19.22.05:711][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2026.01.11-19.22.05:711][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2026.01.11-19.22.05:711][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2026.01.11-19.22.05:712][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2026.01.11-19.22.05:712][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2026.01.11-19.22.05:712][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2026.01.11-19.22.05:712][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2026.01.11-19.22.05:712][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2026.01.11-19.22.05:712][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2026.01.11-19.22.05:712][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2026.01.11-19.22.05:712][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2026.01.11-19.22.05:712][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2026.01.11-19.22.05:712][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2026.01.11-19.22.05:712][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2026.01.11-19.22.05:712][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2026.01.11-19.22.05:712][  8]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2026.01.11-19.22.05:712][  8]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2026.01.11-19.22.05:713][  8]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2026.01.11-19.22.05:713][  8]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.01.11-19.22.05:714][  8]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_21 IpNetDriver listening on port 17777
+[2026.01.11-19.22.05:721][  8]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.01.11-19.22.05:721][  8]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.01.11-19.22.05:722][  8]PIE: Server logged in
+[2026.01.11-19.22.05:723][  8]PIE: Play in editor total start time 0.171 seconds.
+[2026.01.11-19.22.08:519][270]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.13:741][720]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.13:741][720]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.14:032][738]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.14:033][738]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.14:034][738]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.14:034][738]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.14:034][738]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.14:035][738]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.14:675][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.11-19.22.14:675][780]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dungeon
+[2026.01.11-19.22.14:677][780]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2026.01.11-19.22.14:680][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.11-19.22.14:682][780]LogNet: World NetDriver shutdown IpNetDriver_21 [GameNetDriver]
+[2026.01.11-19.22.14:682][780]LogNet: DestroyNamedNetDriver IpNetDriver_21 [GameNetDriver]
+[2026.01.11-19.22.14:682][780]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_21 shut down
+[2026.01.11-19.22.14:684][780]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.11-19.22.14:692][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.11-19.22.14:722][780]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.11-19.22.14:722][780]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2026.01.11-19.22.14:722][780]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2026.01.11-19.22.14:725][780]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2026.01.11-19.22.14:731][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.11-19.22.14:738][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2026.01.11-19.22.14:837][781]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2026.01.11-19.22.20:903][393]LogContentBrowser: Attempting asset rename: sfx_ArcaneMine -> sfx_ArcaneMine
+[2026.01.11-19.22.22:048][523]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2026.01.11-19.22.22:054][523]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.11-19.22.22:213][523]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/ArcaneMine/BP_ArcaneMine] ([2] browsable assets)...
+[2026.01.11-19.22.22:242][523]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/ArcaneMine/BP_ArcaneMine.BP_ArcaneMine]
+[2026.01.11-19.22.22:242][523]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/ArcaneMine/BP_ArcaneMine]
+[2026.01.11-19.22.22:262][523]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/ArcaneMine/BP_ArcaneMine
+[2026.01.11-19.22.22:264][523]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_ArcaneMine77CF44D94F5BBD1E2C913792428281F2.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/ArcaneMine/BP_ArcaneMine.uasset'
+[2026.01.11-19.22.22:272][523]LogFileHelpers: InternalPromptForCheckoutAndSave took 218.518 ms (total: 6.35 sec)
+[2026.01.11-19.22.22:428][523]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.11-19.22.22:429][523]LogContentValidation: Enabled validators:
+[2026.01.11-19.22.22:429][523]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.11-19.22.22:429][523]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.11-19.22.22:429][523]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.11-19.22.22:429][523]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.11-19.22.22:429][523]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.11-19.22.22:429][523]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.11-19.22.22:430][523]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/ArcaneMine/BP_ArcaneMine Validating asset
+[2026.01.11-19.22.23:084][585]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2026.01.11-19.22.24:002][654]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.11-19.22.24:032][654]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.11-19.22.24:032][654]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dungeon
+[2026.01.11-19.22.24:047][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014900s)
+[2026.01.11-19.22.24:047][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dungeon.Dungeon to /Game/Maps/UEDPIE_0_Dungeon.Dungeon (0.015183s)
+[2026.01.11-19.22.24:073][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2026.01.11-19.22.24:076][654]LogChaosDD: Creating Chaos Debug Draw Scene for world Dungeon
+[2026.01.11-19.22.24:078][654]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_Dungeon.Dungeon'.
+[2026.01.11-19.22.24:078][654]LogPlayLevel: PIE: World Init took: (0.002110s)
+[2026.01.11-19.22.24:081][654]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2026.01.11-19.22.24:081][654]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.11-19.22.24:081][654]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.11-19.22.24:081][654]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.11-19.22.24:081][654]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.11-19.22.24:081][654]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.11-19.22.24:081][654]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.11-19.22.24:081][654]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.11-19.22.24:082][654]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.11-19.22.24:082][654]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.11-19.22.24:082][654]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.11-19.22.24:082][654]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.11-19.22.24:085][654]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.11-19.22.24:119][654]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2026.01.11-19.22.24:120][654]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.11-19.22.24:120][654]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.11-19.22.24:121][654]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.11-19.22.24:121][654]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2026.01.11-19.22.24:121][654]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2026.01.11-19.22.24:124][654]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2026.01.11-19.22.24:124][654]LogInit: FAudioDevice initialized with ID 24.
+[2026.01.11-19.22.24:124][654]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2026.01.11-19.22.24:124][654]LogAudio: Display: Audio Device (ID: 24) registered with world 'Dungeon'.
+[2026.01.11-19.22.24:124][654]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2026.01.11-19.22.24:127][654]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.01.11-19.22.24:136][654]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2026.01.11-11.22.24
+[2026.01.11-19.22.24:139][654]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2026.01.11-19.22.24:144][654]LogWorld: Bringing up level for play took: 0.016414
+[2026.01.11-19.22.24:155][654]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2026.01.11-19.22.24:155][654]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2026.01.11-19.22.24:155][654]LogPushModel: PushModel HandleCreation is now enabled
+[2026.01.11-19.22.24:155][654]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.01.11-19.22.24:156][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2026.01.11-19.22.24:156][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2026.01.11-19.22.24:156][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2026.01.11-19.22.24:156][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2026.01.11-19.22.24:156][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2026.01.11-19.22.24:156][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2026.01.11-19.22.24:156][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2026.01.11-19.22.24:156][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2026.01.11-19.22.24:157][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2026.01.11-19.22.24:157][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2026.01.11-19.22.24:157][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2026.01.11-19.22.24:157][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2026.01.11-19.22.24:157][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2026.01.11-19.22.24:157][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2026.01.11-19.22.24:157][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2026.01.11-19.22.24:157][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2026.01.11-19.22.24:157][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2026.01.11-19.22.24:158][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2026.01.11-19.22.24:158][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2026.01.11-19.22.24:158][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2026.01.11-19.22.24:158][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2026.01.11-19.22.24:158][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2026.01.11-19.22.24:158][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2026.01.11-19.22.24:159][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2026.01.11-19.22.24:159][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2026.01.11-19.22.24:159][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2026.01.11-19.22.24:159][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2026.01.11-19.22.24:159][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2026.01.11-19.22.24:159][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2026.01.11-19.22.24:159][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2026.01.11-19.22.24:159][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2026.01.11-19.22.24:159][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2026.01.11-19.22.24:160][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2026.01.11-19.22.24:160][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2026.01.11-19.22.24:160][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2026.01.11-19.22.24:160][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2026.01.11-19.22.24:160][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2026.01.11-19.22.24:160][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2026.01.11-19.22.24:160][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2026.01.11-19.22.24:160][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2026.01.11-19.22.24:161][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2026.01.11-19.22.24:161][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2026.01.11-19.22.24:161][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2026.01.11-19.22.24:161][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2026.01.11-19.22.24:161][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2026.01.11-19.22.24:161][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2026.01.11-19.22.24:161][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2026.01.11-19.22.24:162][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2026.01.11-19.22.24:162][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2026.01.11-19.22.24:162][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2026.01.11-19.22.24:162][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2026.01.11-19.22.24:162][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2026.01.11-19.22.24:162][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2026.01.11-19.22.24:162][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2026.01.11-19.22.24:163][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2026.01.11-19.22.24:163][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2026.01.11-19.22.24:163][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2026.01.11-19.22.24:163][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2026.01.11-19.22.24:163][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2026.01.11-19.22.24:163][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2026.01.11-19.22.24:163][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2026.01.11-19.22.24:163][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2026.01.11-19.22.24:163][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2026.01.11-19.22.24:163][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2026.01.11-19.22.24:163][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2026.01.11-19.22.24:163][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2026.01.11-19.22.24:164][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2026.01.11-19.22.24:164][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2026.01.11-19.22.24:164][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2026.01.11-19.22.24:164][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2026.01.11-19.22.24:164][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2026.01.11-19.22.24:164][654]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2026.01.11-19.22.24:165][654]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2026.01.11-19.22.24:165][654]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2026.01.11-19.22.24:166][654]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.01.11-19.22.24:166][654]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_22 IpNetDriver listening on port 17777
+[2026.01.11-19.22.24:173][654]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.01.11-19.22.24:174][654]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.01.11-19.22.24:178][654]PIE: Server logged in
+[2026.01.11-19.22.24:198][654]PIE: Play in editor total start time 0.164 seconds.
+[2026.01.11-19.22.26:944][914]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.33:681][503]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.33:681][503]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.33:682][503]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.33:682][503]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.33:682][503]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.33:682][503]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.33:682][503]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.37:918][887]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.37:918][887]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.37:918][887]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.37:918][887]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.37:918][887]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.37:918][887]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.41:588][208]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.41:588][208]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.41:588][208]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.41:588][208]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.41:589][208]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.22.42:186][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.11-19.22.42:186][253]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dungeon
+[2026.01.11-19.22.42:187][253]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2026.01.11-19.22.42:189][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.11-19.22.42:190][253]LogNet: World NetDriver shutdown IpNetDriver_22 [GameNetDriver]
+[2026.01.11-19.22.42:190][253]LogNet: DestroyNamedNetDriver IpNetDriver_22 [GameNetDriver]
+[2026.01.11-19.22.42:190][253]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_22 shut down
+[2026.01.11-19.22.42:192][253]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.11-19.22.42:200][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.11-19.22.42:224][253]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.11-19.22.42:225][253]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2026.01.11-19.22.42:225][253]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2026.01.11-19.22.42:227][253]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2026.01.11-19.22.42:233][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.11-19.22.42:239][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2026.01.11-19.22.42:327][254]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2026.01.11-19.22.48:586][858]LogAssetEditorSubsystem: Opening Asset editor for MetaSoundSource /Game/Assets/Sounds/Abilities/ArcaneMine/sfx_ArcaneMine.sfx_ArcaneMine
+[2026.01.11-19.22.48:634][858]LogSlate: The tab "MetasoundEditor_Pages" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v14' but failed for some reason. It will not be displayed.
+[2026.01.11-19.22.52:557][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2026.01.11-19.22.52:561][228]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.11-19.22.52:726][228]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Sounds/Abilities/ArcaneMine/sfx_ArcaneMine] ([1] browsable assets)...
+[2026.01.11-19.22.52:726][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Abilities/ArcaneMine/sfx_ArcaneMine]
+[2026.01.11-19.22.52:768][228]LogSavePackage: Moving output files for package: /Game/Assets/Sounds/Abilities/ArcaneMine/sfx_ArcaneMine
+[2026.01.11-19.22.52:769][228]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/sfx_ArcaneMine9F02838044FAD3A659AE158E5BEA0D6A.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Sounds/Abilities/ArcaneMine/sfx_ArcaneMine.uasset'
+[2026.01.11-19.22.52:776][228]LogFileHelpers: InternalPromptForCheckoutAndSave took 215.582 ms (total: 6.57 sec)
+[2026.01.11-19.22.52:925][228]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.11-19.22.52:925][228]LogContentValidation: Enabled validators:
+[2026.01.11-19.22.52:926][228]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.11-19.22.52:926][228]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.11-19.22.52:926][228]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.11-19.22.52:926][228]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.11-19.22.52:926][228]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.11-19.22.52:926][228]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.11-19.22.52:926][228]AssetCheck: /Game/Assets/Sounds/Abilities/ArcaneMine/sfx_ArcaneMine Validating asset
+[2026.01.11-19.22.54:418][376]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.01.11-19.22.54:422][376]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.11-19.22.54:576][376]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Sounds/Abilities/ArcaneMine/sfx_ArcaneMine] ([1] browsable assets)...
+[2026.01.11-19.22.54:576][376]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Abilities/ArcaneMine/sfx_ArcaneMine]
+[2026.01.11-19.22.54:618][376]LogSavePackage: Moving output files for package: /Game/Assets/Sounds/Abilities/ArcaneMine/sfx_ArcaneMine
+[2026.01.11-19.22.54:619][376]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/sfx_ArcaneMine7E6312E34576ABA03D3AF3B96B5FDDD4.tmp' to '../../../../../../Unreal Projects/Aura/Content/Assets/Sounds/Abilities/ArcaneMine/sfx_ArcaneMine.uasset'
+[2026.01.11-19.22.54:630][376]LogFileHelpers: InternalPromptForCheckoutAndSave took 208.493 ms (total: 6.78 sec)
+[2026.01.11-19.22.54:794][376]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.11-19.22.54:794][376]LogContentValidation: Enabled validators:
+[2026.01.11-19.22.54:794][376]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.11-19.22.54:794][376]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.11-19.22.54:794][376]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.11-19.22.54:794][376]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.11-19.22.54:794][376]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.11-19.22.54:794][376]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.11-19.22.54:795][376]AssetCheck: /Game/Assets/Sounds/Abilities/ArcaneMine/sfx_ArcaneMine Validating asset
+[2026.01.11-19.22.58:822][765]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.11-19.22.58:860][765]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.11-19.22.58:895][765]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dungeon
+[2026.01.11-19.22.58:914][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019330s)
+[2026.01.11-19.22.58:915][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dungeon.Dungeon to /Game/Maps/UEDPIE_0_Dungeon.Dungeon (0.019639s)
+[2026.01.11-19.22.58:944][765]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2026.01.11-19.22.58:948][765]LogChaosDD: Creating Chaos Debug Draw Scene for world Dungeon
+[2026.01.11-19.22.58:951][765]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Maps/UEDPIE_0_Dungeon.Dungeon'.
+[2026.01.11-19.22.58:958][765]LogPlayLevel: PIE: World Init took: (0.005010s)
+[2026.01.11-19.22.58:962][765]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2026.01.11-19.22.58:963][765]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.11-19.22.58:963][765]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.11-19.22.58:964][765]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.11-19.22.58:964][765]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.11-19.22.58:964][765]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.11-19.22.58:964][765]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.11-19.22.58:964][765]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.11-19.22.58:964][765]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.11-19.22.58:964][765]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.11-19.22.58:964][765]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.11-19.22.58:964][765]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.11-19.22.58:969][765]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.11-19.22.59:020][765]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2026.01.11-19.22.59:023][765]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.11-19.22.59:024][765]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.11-19.22.59:024][765]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.11-19.22.59:024][765]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2026.01.11-19.22.59:025][765]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2026.01.11-19.22.59:028][765]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2026.01.11-19.22.59:029][765]LogInit: FAudioDevice initialized with ID 25.
+[2026.01.11-19.22.59:029][765]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2026.01.11-19.22.59:029][765]LogAudio: Display: Audio Device (ID: 25) registered with world 'Dungeon'.
+[2026.01.11-19.22.59:029][765]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2026.01.11-19.22.59:033][765]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.01.11-19.22.59:042][765]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2026.01.11-11.22.59
+[2026.01.11-19.22.59:045][765]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2026.01.11-19.22.59:051][765]LogWorld: Bringing up level for play took: 0.017566
+[2026.01.11-19.22.59:062][765]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2026.01.11-19.22.59:062][765]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2026.01.11-19.22.59:062][765]LogPushModel: PushModel HandleCreation is now enabled
+[2026.01.11-19.22.59:063][765]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.01.11-19.22.59:063][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2026.01.11-19.22.59:063][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2026.01.11-19.22.59:064][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2026.01.11-19.22.59:064][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2026.01.11-19.22.59:064][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2026.01.11-19.22.59:065][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2026.01.11-19.22.59:065][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2026.01.11-19.22.59:065][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2026.01.11-19.22.59:065][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2026.01.11-19.22.59:065][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2026.01.11-19.22.59:065][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2026.01.11-19.22.59:065][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2026.01.11-19.22.59:066][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2026.01.11-19.22.59:066][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2026.01.11-19.22.59:066][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2026.01.11-19.22.59:066][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2026.01.11-19.22.59:066][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2026.01.11-19.22.59:066][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2026.01.11-19.22.59:066][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2026.01.11-19.22.59:067][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2026.01.11-19.22.59:067][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2026.01.11-19.22.59:067][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2026.01.11-19.22.59:067][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2026.01.11-19.22.59:067][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2026.01.11-19.22.59:067][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2026.01.11-19.22.59:067][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2026.01.11-19.22.59:067][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2026.01.11-19.22.59:067][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2026.01.11-19.22.59:067][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2026.01.11-19.22.59:068][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2026.01.11-19.22.59:068][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2026.01.11-19.22.59:068][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2026.01.11-19.22.59:068][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2026.01.11-19.22.59:068][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2026.01.11-19.22.59:068][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2026.01.11-19.22.59:068][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2026.01.11-19.22.59:069][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2026.01.11-19.22.59:069][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2026.01.11-19.22.59:069][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2026.01.11-19.22.59:069][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2026.01.11-19.22.59:069][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2026.01.11-19.22.59:069][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2026.01.11-19.22.59:069][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2026.01.11-19.22.59:069][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2026.01.11-19.22.59:070][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2026.01.11-19.22.59:070][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2026.01.11-19.22.59:070][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2026.01.11-19.22.59:070][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2026.01.11-19.22.59:070][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2026.01.11-19.22.59:070][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2026.01.11-19.22.59:070][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2026.01.11-19.22.59:070][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2026.01.11-19.22.59:070][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2026.01.11-19.22.59:071][765]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2026.01.11-19.22.59:071][765]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2026.01.11-19.22.59:071][765]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2026.01.11-19.22.59:071][765]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.01.11-19.22.59:072][765]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_23 IpNetDriver listening on port 17777
+[2026.01.11-19.22.59:079][765]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.01.11-19.22.59:079][765]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.01.11-19.22.59:081][765]PIE: Server logged in
+[2026.01.11-19.22.59:082][765]PIE: Play in editor total start time 0.242 seconds.
+[2026.01.11-19.23.01:852][  7]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.08:579][609]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.08:579][609]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.08:579][609]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.08:579][609]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.08:580][609]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.08:580][609]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.08:581][609]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.12:020][906]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.12:020][906]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.12:020][906]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.12:021][906]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.12:021][906]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.16:094][240]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.16:095][240]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.16:095][240]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.16:096][240]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.16:096][240]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.16:097][240]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.23:550][993]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.23:550][993]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.26:176][254]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.26:176][254]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.30:650][722]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.30:650][722]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.34:574][144]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.34:574][144]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.39:441][665]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.41:922][926]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.44:549][196]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.47:545][501]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.01.11-19.23.49:486][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.11-19.23.49:486][699]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dungeon
+[2026.01.11-19.23.49:487][699]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2026.01.11-19.23.49:488][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.11-19.23.49:489][699]LogNet: World NetDriver shutdown IpNetDriver_23 [GameNetDriver]
+[2026.01.11-19.23.49:489][699]LogNet: DestroyNamedNetDriver IpNetDriver_23 [GameNetDriver]
+[2026.01.11-19.23.49:489][699]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_23 shut down
+[2026.01.11-19.23.49:491][699]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.11-19.23.49:499][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.11-19.23.49:522][699]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.11-19.23.49:522][699]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2026.01.11-19.23.49:522][699]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2026.01.11-19.23.49:525][699]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2026.01.11-19.23.49:531][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.11-19.23.49:536][699]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2026.01.11-19.23.49:623][700]LogPlayLevel: Display: Destroying online subsystem :Context_38
