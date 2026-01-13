@@ -11,6 +11,7 @@
 #include "Materials/MaterialInstance.h"
 #include "AuraCharacterBase.generated.h"
 
+class AAuraAIController;
 class UDebuffNiagaraComponent;
 class UNiagaraSystem;
 class UAuraAbilitySystemComponent;
@@ -67,6 +68,9 @@ public:
 	UPROPERTY(EditAnywhere, Category="Combat")
 	TArray<FTaggedMontage> AttackMontages;
 
+	UPROPERTY(BlueprintReadOnly, Category = "Combat")
+	bool bHitReacting = false;
+	
 	UPROPERTY(ReplicatedUsing=OnRep_Stunned, BlueprintReadOnly)
 	bool bIsStunned = false;
 
@@ -110,13 +114,16 @@ protected:
 	UPROPERTY(EditAnywhere, Category="Combat")
 	FName TailSocketName;
 
+	UPROPERTY()
+	TObjectPtr<AAuraAIController> AuraAIController;
+
 	bool bDead = false;
 
 	virtual void StunTaggedChanged(const FGameplayTag CallbackTag, int32 NewCount);
 
 	virtual void ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
 	
-	virtual void SlowedTagChanged(const FGameplayTag CallbackTag, int32 NewCount); 
+	virtual void SlowedTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Combat")
 	float BaseWalkSpeed = 250.f;

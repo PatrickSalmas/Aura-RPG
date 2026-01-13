@@ -44,9 +44,6 @@ public:
 
 	void HitReactTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
 
-	UPROPERTY(BlueprintReadOnly, Category = "Combat")
-	bool bHitReacting = false;
-
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Combat")
 	float LifeSpan = 5.f;
 
@@ -69,9 +66,6 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category="AI")
 	TObjectPtr<UBehaviorTree> BehaviorTree;
-
-	UPROPERTY()
-	TObjectPtr<AAuraAIController> AuraAIController;
 
 	UPROPERTY(BlueprintReadWrite)
 	int32 ArcaneSplintersAttached = 0;
