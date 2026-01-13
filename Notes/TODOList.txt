@@ -30,9 +30,13 @@ Enhancements:
 - Add Niagara effect to Immobilize
 - Add Niagara effect to Slow
 - Change Key bindings
+- Ability for players to setup their custom key bindings
 - Ability to scroll in and scroll out with camera
 	Ability to pan camera around? Maybe while not moving? Maybe how WOW does it?
 - Figure out a way to toggle hit reacts for certain abilities
+- Renaming abilities with better names
+- Better icons
+- Better sound effects
 	
 	
 BUGS:
@@ -44,5 +48,3 @@ BUGS:
 - Player can Electrocute themselves
 - Beam abilities shouldn't go through walls
 - Arcane Explosion should go through walls
-- Sometimes if multiple slowing/stun effects are applied to an enemy, they are stopped from moving permenately. I think the debuff stacks aren't being fully cleared in this case. OR it could be an issue with enemyBaseCharacter currentSpeed/baseWalkSpeed properties
-	How to reproduce: - Apply ElectricDomination, then apply ElectricSurge to "additional Targets" affected by ElectricDomination

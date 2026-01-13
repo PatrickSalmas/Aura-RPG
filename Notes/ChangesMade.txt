@@ -10,3 +10,8 @@
 - Fire Blast
 	Have the ability stay "teathered" to the player as he moves
 	Upgraded version does a rotation around the player x number of seconds
+	
+Bug fixes:
+- Sometimes if multiple slowing/stun effects are applied to an enemy, they are stopped from moving permenately. I think the debuff stacks aren't being fully cleared in this case. OR it could be an issue with enemyBaseCharacter currentSpeed/baseWalkSpeed properties
+	How to reproduce: - Apply ElectricDomination, then apply ElectricSurge to "additional Targets" affected by ElectricDomination
+- Applying ElectricSurge after electric domination is on enemy, completely removes ElectricDomination additional target effect
