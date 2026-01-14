@@ -228,6 +228,7 @@ void UExecCalc_Damage::Execute_Implementation(const FGameplayEffectCustomExecuti
 	const bool bBlocked = FMath::RandRange(1, 100) < TargetBlockChance;
 	
 	UAuraAbilitySystemLibrary::SetIsBlockedHit(EffectContextHandle, bBlocked);
+	UAuraAbilitySystemLibrary::SetShouldHitReact(EffectContextHandle, true);
 	
 	// If Block, halve the damage.
 	Damage = bBlocked ? Damage / 2.f : Damage;

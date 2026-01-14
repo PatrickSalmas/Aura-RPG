@@ -181,7 +181,7 @@ void UAuraAttributeSet::HandleIncomingDamage(const FEffectProperties& Props)
 			}
 			SendXPEvent(Props);
 		}
-		else
+		else if (UAuraAbilitySystemLibrary::GetShouldHitReact(Props.EffectContextHandle))
 		{
 			if (Props.TargetCharacter->Implements<UCombatInterface>() && !ICombatInterface::Execute_IsBeingShocked(Props.TargetCharacter))
 			{
@@ -257,6 +257,7 @@ void UAuraAttributeSet::Debuff(const FEffectProperties& Props)
 		FAuraGameplayEffectContext* AuraContext = static_cast<FAuraGameplayEffectContext*>(MutableSpec->GetContext().Get());
 		TSharedPtr<FGameplayTag> DebuffDamageType = MakeShareable(new FGameplayTag(DamageType));
 		AuraContext->SetDamageType(DebuffDamageType);
+		AuraContext->SetShouldHitReact(false);
 		Props.TargetASC->ApplyGameplayEffectSpecToSelf(*MutableSpec);
 	}
 
