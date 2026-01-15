@@ -73,6 +73,9 @@ struct FDamageEffectParams
 
 	UPROPERTY(BlueprintReadWrite)
 	FVector RadialDamageOrigin = FVector::ZeroVector;
+
+	UPROPERTY(BlueprintReadWrite)
+	bool bShouldHitReact = true;
 };
 
 USTRUCT(BlueprintType)
