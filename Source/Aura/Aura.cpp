@@ -1,4 +1,4 @@
-// Copyright Salmas Coporation
+// Copyright Salmas Corporation
 
 #include "Aura.h"
 #include "Modules/ModuleManager.h"
