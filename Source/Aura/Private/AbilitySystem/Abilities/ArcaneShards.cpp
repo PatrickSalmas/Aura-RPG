@@ -46,7 +46,8 @@ FString UArcaneShards::GetDescription(int32 Level)
 
 FString UArcaneShards::GetNextLevelDescription(int32 Level)
 {
-	const int32 NumberOfShards = Level <=5 ? Level : 5;
+	// const int32 NumberOfShards = Level <=5 ? Level : 5;
+	const int32 NumberOfShards = 1;
 	const int32 ScaledDamage = Damage.GetValueAtLevel(Level);
 	const float ManaCost = GetManaCost(Level);
 	const float Cooldown = GetCooldown(Level);

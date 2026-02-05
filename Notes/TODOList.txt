@@ -10,6 +10,8 @@ Gameplay Abilities:
 - Arcane Shards
 	Allow shards to spawn sideways out of walls if the ground space isn't available
 		Increase cooldown
+	Upgraded version drains life from enemies and is absorbed by the player
+	
 - Actually implement Passive Abilities
 
 - Arcane Blast
@@ -19,9 +21,7 @@ Gameplay Abilities:
 	Upgraded version pulses out and in a second time
 	Upgraded version causes ball to return and explode (instead of being a default feature)
 	
-- FlameFlurry
-	Add Sound effect to ability
-	
+
 - Arcane Mine
 	Upgraded version causes slowing effect to enemies within damage aura
 	Need to set lifespan on Acrane mine. Right now it sits there forever. Should have time limit on damage aura and then destroy the mine.
@@ -34,9 +34,8 @@ Gameplay Abilities:
 	
 	
 Niagara Effect Ideas:
-- Add ribbon trails to Arcane Blast splinters
-- Fire effect for Flame Flurry
-	
+
+
 Enhancements:
 - When using an ability, give brief highlight to ability used in equipped spell row of UI (kind of like WOW does)
 - New Main character model... something cooler
@@ -58,7 +57,6 @@ BUGS:
 - Arcane shards spawn ontop of structures when they shouldn'that
 	For instance, if you are going under a bridge, that shards spawn ontop of the bridge instead of on the floor where you placed the decal
 	Same sort of thing happens for fireballs and electrocute sometimes
-- Outline of enemies when you hover with cursor got screwed up from changing the anti-aliasing method
 - Electrocute doesn't stay attached to target when the target is moving
 - Player can Electrocute themselves
 - Beam abilities shouldn't go through walls
