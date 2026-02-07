@@ -37,6 +37,9 @@ AAuraCharacterBase::AAuraCharacterBase()
 	SlowDebuffComponent->SetupAttachment(GetRootComponent());
 	SlowDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Slow;
 
+	// ArcanePullComponent = CreateDefaultSubobject<UNiagaraComponent>(TEXT("ArcanePullComponent"));
+	// ArcanePullComponent->SetupAttachment(GetRootComponent());
+
 	GetCapsuleComponent()->SetCollisionResponseToChannel(ECC_Camera, ECR_Ignore);
 	GetCapsuleComponent()->SetGenerateOverlapEvents(false);
 	GetMesh()->SetCollisionResponseToChannel(ECC_Camera, ECR_Ignore);

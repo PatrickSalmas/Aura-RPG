@@ -197,6 +197,9 @@ protected:
 	UPROPERTY(VisibleDefaultsOnly)
 	TObjectPtr<UDebuffNiagaraComponent> SlowDebuffComponent;
 
+	// UPROPERTY(BlueprintReadWrite)
+	// TObjectPtr<UNiagaraComponent> ArcanePullComponent;
+
 	UPROPERTY()
 	TArray<AActor*> AttachedActors;
 	
