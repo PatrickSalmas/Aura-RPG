@@ -120,6 +120,7 @@ void AAuraCharacterBase::MulticastHandleDeath_Implementation(const FVector& Deat
 	GetMesh()->AddImpulse(DeathImpulse, NAME_None, true);
 	
 	GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+	DestroyAttachedComponents();
 	Dissolve();
 	bDead = true;
 	BurnDebuffComponent->Deactivate();

@@ -155,6 +155,9 @@ protected:
 	virtual void InitializeDefaultAttributes() const;
 
 	void AddCharacterAbilities();
+	
+	UFUNCTION(BlueprintImplementableEvent)
+	void DestroyAttachedComponents();
 
 	/* Dissolve Effects */
 
