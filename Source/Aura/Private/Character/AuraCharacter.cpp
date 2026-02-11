@@ -23,6 +23,7 @@ AAuraCharacter::AAuraCharacter()
 	CameraBoom->SetupAttachment(GetRootComponent());
 	CameraBoom->SetUsingAbsoluteRotation(true);
 	CameraBoom->bDoCollisionTest = false;
+	CameraBoom->CameraLagSpeed = 100.f;
 
 	TopDownCameraComponent = CreateDefaultSubobject<UCameraComponent>("TopDownCameraComponent");
 	TopDownCameraComponent->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
