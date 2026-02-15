@@ -11555,3 +11555,1483 @@ FPackageName: Skipped package /Game/Assets/Sounds/Abilities/ArcaneExplosion/whoo
 [2026.02.15-00.01.03:546][608]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
 [2026.02.15-00.01.03:558][608]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
 [2026.02.15-00.01.03:660][609]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2026.02.15-00.03.54:657][593]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2795.575439
+[2026.02.15-00.03.55:658][596]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.15-00.03.55:658][596]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2796.241943, Update Interval: 351.591553
+[2026.02.15-00.07.24:398][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2026.02.15-00.07.24:403][ 83]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.07.24:534][ 83]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Aura/BP_AuraCharacter] ([2] browsable assets)...
+[2026.02.15-00.07.24:664][ 83]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter]
+[2026.02.15-00.07.24:664][ 83]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Aura/BP_AuraCharacter]
+[2026.02.15-00.07.24:664][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Aura/BP_AuraCharacter" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Aura/BP_AuraCharacter.uasset" SILENT=true
+[2026.02.15-00.07.24:688][ 83]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Aura/BP_AuraCharacter
+[2026.02.15-00.07.24:689][ 83]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_AuraCharacter250C43614EE640BF2DD04E85D5F12F52.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Aura/BP_AuraCharacter.uasset'
+[2026.02.15-00.07.24:697][ 83]LogFileHelpers: InternalPromptForCheckoutAndSave took 293.361 ms (total: 6.05 sec)
+[2026.02.15-00.07.24:851][ 83]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.07.24:851][ 83]LogContentValidation: Enabled validators:
+[2026.02.15-00.07.24:851][ 83]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.07.24:852][ 83]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.07.24:852][ 83]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.07.24:852][ 83]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.07.24:852][ 83]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.07.24:852][ 83]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.07.24:852][ 83]AssetCheck: /Game/Blueprints/Character/Aura/BP_AuraCharacter Validating asset
+[2026.02.15-00.08.00:556][ 14]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.15-00.08.00:576][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.15-00.08.00:577][ 14]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dungeon
+[2026.02.15-00.08.00:593][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016073s)
+[2026.02.15-00.08.00:593][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dungeon.Dungeon to /Game/Maps/UEDPIE_0_Dungeon.Dungeon (0.016325s)
+[2026.02.15-00.08.00:618][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2026.02.15-00.08.00:619][ 14]LogChaosDD: Creating Chaos Debug Draw Scene for world Dungeon
+[2026.02.15-00.08.00:621][ 14]LogPlayLevel: PIE: World Init took: (0.001865s)
+[2026.02.15-00.08.00:622][ 14]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2026.02.15-00.08.00:622][ 14]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.15-00.08.00:623][ 14]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.15-00.08.00:623][ 14]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.15-00.08.00:623][ 14]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.15-00.08.00:623][ 14]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.15-00.08.00:623][ 14]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.15-00.08.00:623][ 14]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.15-00.08.00:623][ 14]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.15-00.08.00:623][ 14]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.15-00.08.00:623][ 14]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.15-00.08.00:624][ 14]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.15-00.08.00:628][ 14]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.15-00.08.00:664][ 14]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2026.02.15-00.08.00:664][ 14]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.15-00.08.00:665][ 14]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.15-00.08.00:665][ 14]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.15-00.08.00:666][ 14]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2026.02.15-00.08.00:666][ 14]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2026.02.15-00.08.00:669][ 14]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2026.02.15-00.08.00:669][ 14]LogInit: FAudioDevice initialized with ID 19.
+[2026.02.15-00.08.00:669][ 14]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2026.02.15-00.08.00:669][ 14]LogAudio: Display: Audio Device (ID: 19) registered with world 'Dungeon'.
+[2026.02.15-00.08.00:669][ 14]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2026.02.15-00.08.00:672][ 14]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.02.15-00.08.00:682][ 14]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2026.02.14-16.08.00
+[2026.02.15-00.08.00:685][ 14]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2026.02.15-00.08.00:690][ 14]LogWorld: Bringing up level for play took: 0.018267
+[2026.02.15-00.08.00:701][ 14]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2026.02.15-00.08.00:701][ 14]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2026.02.15-00.08.00:701][ 14]LogPushModel: PushModel HandleCreation is now enabled
+[2026.02.15-00.08.00:701][ 14]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.02.15-00.08.00:701][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2026.02.15-00.08.00:701][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2026.02.15-00.08.00:702][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2026.02.15-00.08.00:702][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2026.02.15-00.08.00:702][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2026.02.15-00.08.00:702][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2026.02.15-00.08.00:702][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2026.02.15-00.08.00:702][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2026.02.15-00.08.00:702][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2026.02.15-00.08.00:702][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2026.02.15-00.08.00:702][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2026.02.15-00.08.00:703][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2026.02.15-00.08.00:703][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2026.02.15-00.08.00:703][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2026.02.15-00.08.00:703][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2026.02.15-00.08.00:703][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2026.02.15-00.08.00:703][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2026.02.15-00.08.00:703][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2026.02.15-00.08.00:703][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2026.02.15-00.08.00:703][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2026.02.15-00.08.00:703][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2026.02.15-00.08.00:704][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2026.02.15-00.08.00:704][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2026.02.15-00.08.00:704][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2026.02.15-00.08.00:704][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2026.02.15-00.08.00:704][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2026.02.15-00.08.00:704][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2026.02.15-00.08.00:705][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2026.02.15-00.08.00:705][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2026.02.15-00.08.00:705][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2026.02.15-00.08.00:705][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2026.02.15-00.08.00:705][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2026.02.15-00.08.00:705][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2026.02.15-00.08.00:705][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2026.02.15-00.08.00:705][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2026.02.15-00.08.00:705][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2026.02.15-00.08.00:705][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2026.02.15-00.08.00:706][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2026.02.15-00.08.00:706][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2026.02.15-00.08.00:706][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2026.02.15-00.08.00:706][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2026.02.15-00.08.00:706][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2026.02.15-00.08.00:706][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2026.02.15-00.08.00:706][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2026.02.15-00.08.00:706][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2026.02.15-00.08.00:706][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2026.02.15-00.08.00:707][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2026.02.15-00.08.00:707][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2026.02.15-00.08.00:707][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2026.02.15-00.08.00:707][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2026.02.15-00.08.00:707][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2026.02.15-00.08.00:707][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2026.02.15-00.08.00:707][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2026.02.15-00.08.00:707][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2026.02.15-00.08.00:708][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2026.02.15-00.08.00:708][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2026.02.15-00.08.00:708][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2026.02.15-00.08.00:708][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2026.02.15-00.08.00:708][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2026.02.15-00.08.00:708][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2026.02.15-00.08.00:708][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2026.02.15-00.08.00:708][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2026.02.15-00.08.00:708][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2026.02.15-00.08.00:708][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2026.02.15-00.08.00:708][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2026.02.15-00.08.00:708][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2026.02.15-00.08.00:708][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2026.02.15-00.08.00:708][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2026.02.15-00.08.00:708][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2026.02.15-00.08.00:708][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2026.02.15-00.08.00:708][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2026.02.15-00.08.00:708][ 14]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2026.02.15-00.08.00:709][ 14]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2026.02.15-00.08.00:709][ 14]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2026.02.15-00.08.00:709][ 14]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.02.15-00.08.00:709][ 14]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_17 IpNetDriver listening on port 17777
+[2026.02.15-00.08.00:716][ 14]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.15-00.08.00:716][ 14]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.02.15-00.08.00:717][ 14]PIE: Server logged in
+[2026.02.15-00.08.00:719][ 14]PIE: Play in editor total start time 0.148 seconds.
+[2026.02.15-00.08.11:961][943]LogActor: Warning: BP_MagicCircle_C /Game/Maps/UEDPIE_0_Dungeon.Dungeon:PersistentLevel.BP_MagicCircle_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2026.02.15-00.08.13:421][ 64]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.08.15:756][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.15-00.08.15:756][252]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dungeon
+[2026.02.15-00.08.15:757][252]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2026.02.15-00.08.15:759][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.15-00.08.15:760][252]LogNet: World NetDriver shutdown IpNetDriver_17 [GameNetDriver]
+[2026.02.15-00.08.15:761][252]LogNet: DestroyNamedNetDriver IpNetDriver_17 [GameNetDriver]
+[2026.02.15-00.08.15:761][252]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_17 shut down
+[2026.02.15-00.08.15:763][252]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.15-00.08.15:770][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.15-00.08.15:795][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.15-00.08.15:796][252]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2026.02.15-00.08.15:796][252]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2026.02.15-00.08.15:798][252]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2026.02.15-00.08.15:809][252]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2026.02.15-00.08.15:902][253]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2026.02.15-00.08.18:089][423]Cmd: SELECT NONE
+[2026.02.15-00.09.02:455][506]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu
+[2026.02.15-00.09.02:457][506]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2026.02.15-00.09.02:467][506]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.02.15-00.09.02:483][506]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2026.02.15-00.09.03:335][506]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2026.02.15-00.09.03:344][506]LogSlate: Took 0.006856 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2026.02.15-00.10.17:348][991]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.WBP_TextValueButtonRow
+[2026.02.15-00.10.17:348][991]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2026.02.15-00.10.17:357][991]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2026.02.15-00.10.20:910][340]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3181.816162
+[2026.02.15-00.10.21:045][356]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.15-00.10.21:045][356]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3181.941406, Update Interval: 313.971375
+[2026.02.15-00.10.28:202][159]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2026.02.15-00.10.28:202][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.15-00.10.28:225][159]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.02.15-00.10.28:226][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.15-00.10.28:356][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2026.02.15-00.11.33:573][812]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2026.02.15-00.11.33:579][812]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.11.33:748][812]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2026.02.15-00.11.33:767][812]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2026.02.15-00.11.33:767][812]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2026.02.15-00.11.33:767][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2026.02.15-00.11.33:807][812]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2026.02.15-00.11.33:808][812]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenu68250A3042669DB0E297B4A70A5AA1CD.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2026.02.15-00.11.33:817][812]LogFileHelpers: InternalPromptForCheckoutAndSave took 237.566 ms (total: 6.29 sec)
+[2026.02.15-00.11.33:972][812]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.11.33:972][812]LogContentValidation: Enabled validators:
+[2026.02.15-00.11.33:973][812]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.11.33:973][812]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.11.33:973][812]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.11.33:973][812]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.11.33:973][812]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.11.33:973][812]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.11.33:985][812]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2026.02.15-00.11.36:601][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2026.02.15-00.12.01:511][127]Cmd: SELECT NONE
+[2026.02.15-00.12.02:034][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2026.02.15-00.12.02:041][166]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.12.02:188][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Dungeon" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/Dungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.02.15-00.12.02:268][166]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2026.02.15-00.12.02:327][166]LogSavePackage: Moving output files for package: /Game/Maps/Dungeon
+[2026.02.15-00.12.02:328][166]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/DungeonA379E7614F362608B41184AE1B2A1630.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/Dungeon.umap'
+[2026.02.15-00.12.02:357][166]LogFileHelpers: Saving map 'Dungeon' took 0.169
+[2026.02.15-00.12.02:364][166]LogFileHelpers: InternalPromptForCheckoutAndSave took 323.118 ms (total: 6.61 sec)
+[2026.02.15-00.12.02:502][166]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.12.02:503][166]LogContentValidation: Enabled validators:
+[2026.02.15-00.12.02:503][166]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.12.02:503][166]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.12.02:503][166]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.12.02:503][166]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.12.02:503][166]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.12.02:503][166]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.12.02:503][166]AssetCheck: /Game/Maps/Dungeon Validating asset
+[2026.02.15-00.12.04:697][326]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.15-00.12.04:726][326]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.15-00.12.04:726][326]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dungeon
+[2026.02.15-00.12.04:742][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016668s)
+[2026.02.15-00.12.04:742][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dungeon.Dungeon to /Game/Maps/UEDPIE_0_Dungeon.Dungeon (0.016989s)
+[2026.02.15-00.12.04:770][326]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2026.02.15-00.12.04:771][326]LogChaosDD: Creating Chaos Debug Draw Scene for world Dungeon
+[2026.02.15-00.12.04:773][326]LogPlayLevel: PIE: World Init took: (0.002199s)
+[2026.02.15-00.12.04:775][326]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2026.02.15-00.12.04:775][326]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.15-00.12.04:775][326]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.15-00.12.04:775][326]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.15-00.12.04:775][326]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.15-00.12.04:776][326]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.15-00.12.04:776][326]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.15-00.12.04:776][326]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.15-00.12.04:776][326]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.15-00.12.04:776][326]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.15-00.12.04:776][326]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.15-00.12.04:776][326]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.15-00.12.04:780][326]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.15-00.12.04:820][326]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2026.02.15-00.12.04:820][326]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.15-00.12.04:820][326]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.15-00.12.04:821][326]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.15-00.12.04:822][326]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2026.02.15-00.12.04:822][326]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2026.02.15-00.12.04:825][326]LogInit: FAudioDevice initialized with ID 20.
+[2026.02.15-00.12.04:825][326]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2026.02.15-00.12.04:825][326]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2026.02.15-00.12.04:825][326]LogAudio: Display: Audio Device (ID: 20) registered with world 'Dungeon'.
+[2026.02.15-00.12.04:825][326]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2026.02.15-00.12.04:828][326]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.02.15-00.12.04:837][326]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2026.02.14-16.12.04
+[2026.02.15-00.12.04:840][326]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2026.02.15-00.12.04:846][326]LogWorld: Bringing up level for play took: 0.017314
+[2026.02.15-00.12.04:856][326]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2026.02.15-00.12.04:857][326]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2026.02.15-00.12.04:857][326]LogPushModel: PushModel HandleCreation is now enabled
+[2026.02.15-00.12.04:857][326]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.02.15-00.12.04:857][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2026.02.15-00.12.04:858][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2026.02.15-00.12.04:858][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2026.02.15-00.12.04:858][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2026.02.15-00.12.04:858][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2026.02.15-00.12.04:858][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2026.02.15-00.12.04:858][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2026.02.15-00.12.04:858][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2026.02.15-00.12.04:858][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2026.02.15-00.12.04:858][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2026.02.15-00.12.04:859][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2026.02.15-00.12.04:859][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2026.02.15-00.12.04:859][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2026.02.15-00.12.04:859][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2026.02.15-00.12.04:859][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2026.02.15-00.12.04:859][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2026.02.15-00.12.04:860][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2026.02.15-00.12.04:860][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2026.02.15-00.12.04:860][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2026.02.15-00.12.04:860][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2026.02.15-00.12.04:860][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2026.02.15-00.12.04:860][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2026.02.15-00.12.04:860][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2026.02.15-00.12.04:860][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2026.02.15-00.12.04:861][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2026.02.15-00.12.04:862][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2026.02.15-00.12.04:862][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2026.02.15-00.12.04:863][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2026.02.15-00.12.04:863][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2026.02.15-00.12.04:863][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2026.02.15-00.12.04:863][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2026.02.15-00.12.04:863][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2026.02.15-00.12.04:863][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2026.02.15-00.12.04:864][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2026.02.15-00.12.04:864][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2026.02.15-00.12.04:864][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2026.02.15-00.12.04:864][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2026.02.15-00.12.04:864][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2026.02.15-00.12.04:864][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2026.02.15-00.12.04:864][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2026.02.15-00.12.04:864][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2026.02.15-00.12.04:864][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2026.02.15-00.12.04:864][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2026.02.15-00.12.04:864][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2026.02.15-00.12.04:864][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2026.02.15-00.12.04:864][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2026.02.15-00.12.04:864][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2026.02.15-00.12.04:864][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2026.02.15-00.12.04:865][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2026.02.15-00.12.04:865][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2026.02.15-00.12.04:865][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2026.02.15-00.12.04:865][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2026.02.15-00.12.04:865][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2026.02.15-00.12.04:865][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2026.02.15-00.12.04:866][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2026.02.15-00.12.04:866][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2026.02.15-00.12.04:866][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2026.02.15-00.12.04:866][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2026.02.15-00.12.04:866][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2026.02.15-00.12.04:866][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2026.02.15-00.12.04:866][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2026.02.15-00.12.04:866][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2026.02.15-00.12.04:866][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2026.02.15-00.12.04:866][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2026.02.15-00.12.04:866][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2026.02.15-00.12.04:866][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2026.02.15-00.12.04:866][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2026.02.15-00.12.04:866][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2026.02.15-00.12.04:866][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2026.02.15-00.12.04:866][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2026.02.15-00.12.04:866][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2026.02.15-00.12.04:866][326]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2026.02.15-00.12.04:866][326]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2026.02.15-00.12.04:866][326]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2026.02.15-00.12.04:866][326]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.02.15-00.12.04:867][326]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_18 IpNetDriver listening on port 17777
+[2026.02.15-00.12.04:876][326]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.15-00.12.04:877][326]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.02.15-00.12.04:879][326]PIE: Server logged in
+[2026.02.15-00.12.04:881][326]PIE: Play in editor total start time 0.166 seconds.
+[2026.02.15-00.12.10:550][741]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2026.02.15-00.12.12:368][895]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2026.02.15-00.12.12:368][895]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2026.02.15-00.12.14:204][ 51]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2026.02.15-00.12.15:473][159]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2026.02.15-00.12.16:966][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.15-00.12.16:966][284]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dungeon
+[2026.02.15-00.12.16:967][284]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2026.02.15-00.12.16:969][284]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.15-00.12.16:970][284]LogNet: World NetDriver shutdown IpNetDriver_18 [GameNetDriver]
+[2026.02.15-00.12.16:970][284]LogNet: DestroyNamedNetDriver IpNetDriver_18 [GameNetDriver]
+[2026.02.15-00.12.16:970][284]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_18 shut down
+[2026.02.15-00.12.16:973][284]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.15-00.12.16:980][284]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.15-00.12.17:003][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.15-00.12.17:005][284]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2026.02.15-00.12.17:005][284]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2026.02.15-00.12.17:007][284]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2026.02.15-00.12.17:021][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2026.02.15-00.12.17:049][285]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2026.02.15-00.12.54:500][123]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (USB PnP Audio Device), InstanceID=1
+[2026.02.15-00.12.54:512][124]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.02.15-00.12.54:525][125]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31624
+[2026.02.15-00.12.54:647][133]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.02.15-00.12.54:653][133]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{fd3482fe-f983-43c0-a0ef-742f9b23abec}, Name=Speakers (USB PnP Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=133.81
+[2026.02.15-00.12.54:653][133]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.02.15-00.12.54:657][133]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.02.15-00.12.54:888][151]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (SoundCore mini Stereo), InstanceID=1
+[2026.02.15-00.12.54:903][152]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.02.15-00.12.54:903][152]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31624
+[2026.02.15-00.12.55:035][160]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.02.15-00.12.55:038][160]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{ab644a4d-d361-4c90-947b-e221529b4d9f}, Name=Headphones (SoundCore mini Stereo)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=122.01
+[2026.02.15-00.12.55:038][160]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.02.15-00.12.55:043][160]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.02.15-00.12.55:231][174]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (USB PnP Audio Device), InstanceID=1
+[2026.02.15-00.12.55:238][175]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.02.15-00.12.55:238][175]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31624
+[2026.02.15-00.12.55:370][182]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.02.15-00.12.55:373][182]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{fd3482fe-f983-43c0-a0ef-742f9b23abec}, Name=Speakers (USB PnP Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=129.32
+[2026.02.15-00.12.55:373][182]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.02.15-00.12.55:377][182]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.02.15-00.12.55:472][189]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (SoundCore mini Stereo), InstanceID=1
+[2026.02.15-00.12.55:484][190]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.02.15-00.12.55:484][190]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=31624
+[2026.02.15-00.12.55:654][202]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.02.15-00.12.55:658][202]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{ab644a4d-d361-4c90-947b-e221529b4d9f}, Name=Headphones (SoundCore mini Stereo)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=160.30
+[2026.02.15-00.12.55:658][202]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.02.15-00.12.55:664][202]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.02.15-00.15.15:002][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2026.02.15-00.15.15:007][ 60]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.15.15:154][ 60]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2026.02.15-00.15.15:170][ 60]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2026.02.15-00.15.15:170][ 60]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2026.02.15-00.15.15:170][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2026.02.15-00.15.15:205][ 60]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2026.02.15-00.15.15:206][ 60]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenu11C1B1754F01A6D5BB45C6A065C1A49B.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2026.02.15-00.15.15:215][ 60]LogFileHelpers: InternalPromptForCheckoutAndSave took 208.249 ms (total: 6.82 sec)
+[2026.02.15-00.15.15:352][ 60]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.15.15:352][ 60]LogContentValidation: Enabled validators:
+[2026.02.15-00.15.15:352][ 60]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.15.15:353][ 60]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.15.15:353][ 60]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.15.15:353][ 60]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.15.15:353][ 60]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.15.15:353][ 60]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.15.15:364][ 60]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2026.02.15-00.15.17:163][256]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2026.02.15-00.15.18:977][409]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.15-00.15.18:998][409]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.15-00.15.18:998][409]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dungeon
+[2026.02.15-00.15.19:014][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015400s)
+[2026.02.15-00.15.19:014][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dungeon.Dungeon to /Game/Maps/UEDPIE_0_Dungeon.Dungeon (0.015742s)
+[2026.02.15-00.15.19:038][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2026.02.15-00.15.19:041][409]LogChaosDD: Creating Chaos Debug Draw Scene for world Dungeon
+[2026.02.15-00.15.19:043][409]LogPlayLevel: PIE: World Init took: (0.001767s)
+[2026.02.15-00.15.19:044][409]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2026.02.15-00.15.19:044][409]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.15-00.15.19:044][409]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.15-00.15.19:044][409]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.15-00.15.19:045][409]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.15-00.15.19:045][409]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.15-00.15.19:045][409]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.15-00.15.19:045][409]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.15-00.15.19:045][409]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.15-00.15.19:045][409]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.15-00.15.19:045][409]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.15-00.15.19:045][409]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.15-00.15.19:048][409]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.15-00.15.19:088][409]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2026.02.15-00.15.19:088][409]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.15-00.15.19:088][409]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.15-00.15.19:088][409]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.15-00.15.19:089][409]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2026.02.15-00.15.19:089][409]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2026.02.15-00.15.19:092][409]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2026.02.15-00.15.19:093][409]LogInit: FAudioDevice initialized with ID 21.
+[2026.02.15-00.15.19:093][409]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2026.02.15-00.15.19:093][409]LogAudio: Display: Audio Device (ID: 21) registered with world 'Dungeon'.
+[2026.02.15-00.15.19:093][409]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2026.02.15-00.15.19:095][409]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.02.15-00.15.19:104][409]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2026.02.14-16.15.19
+[2026.02.15-00.15.19:107][409]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2026.02.15-00.15.19:112][409]LogWorld: Bringing up level for play took: 0.016481
+[2026.02.15-00.15.19:122][409]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2026.02.15-00.15.19:123][409]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2026.02.15-00.15.19:123][409]LogPushModel: PushModel HandleCreation is now enabled
+[2026.02.15-00.15.19:123][409]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.02.15-00.15.19:123][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2026.02.15-00.15.19:123][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2026.02.15-00.15.19:123][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2026.02.15-00.15.19:123][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2026.02.15-00.15.19:123][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2026.02.15-00.15.19:124][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2026.02.15-00.15.19:124][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2026.02.15-00.15.19:124][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2026.02.15-00.15.19:124][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2026.02.15-00.15.19:124][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2026.02.15-00.15.19:124][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2026.02.15-00.15.19:124][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2026.02.15-00.15.19:124][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2026.02.15-00.15.19:124][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2026.02.15-00.15.19:124][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2026.02.15-00.15.19:125][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2026.02.15-00.15.19:125][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2026.02.15-00.15.19:125][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2026.02.15-00.15.19:125][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2026.02.15-00.15.19:125][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2026.02.15-00.15.19:125][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2026.02.15-00.15.19:125][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2026.02.15-00.15.19:125][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2026.02.15-00.15.19:125][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2026.02.15-00.15.19:126][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2026.02.15-00.15.19:126][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2026.02.15-00.15.19:126][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2026.02.15-00.15.19:126][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2026.02.15-00.15.19:126][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2026.02.15-00.15.19:126][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2026.02.15-00.15.19:126][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2026.02.15-00.15.19:126][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2026.02.15-00.15.19:126][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2026.02.15-00.15.19:126][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2026.02.15-00.15.19:126][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2026.02.15-00.15.19:127][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2026.02.15-00.15.19:127][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2026.02.15-00.15.19:127][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2026.02.15-00.15.19:127][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2026.02.15-00.15.19:127][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2026.02.15-00.15.19:127][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2026.02.15-00.15.19:127][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2026.02.15-00.15.19:128][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2026.02.15-00.15.19:128][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2026.02.15-00.15.19:128][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2026.02.15-00.15.19:128][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2026.02.15-00.15.19:128][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2026.02.15-00.15.19:128][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2026.02.15-00.15.19:128][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2026.02.15-00.15.19:128][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2026.02.15-00.15.19:129][409]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2026.02.15-00.15.19:129][409]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2026.02.15-00.15.19:130][409]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2026.02.15-00.15.19:130][409]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.02.15-00.15.19:130][409]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_19 IpNetDriver listening on port 17777
+[2026.02.15-00.15.19:137][409]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.15-00.15.19:137][409]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.02.15-00.15.19:138][409]PIE: Server logged in
+[2026.02.15-00.15.19:139][409]PIE: Play in editor total start time 0.147 seconds.
+[2026.02.15-00.15.23:254][710]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2026.02.15-00.15.24:492][814]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2026.02.15-00.15.24:492][814]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2026.02.15-00.15.27:353][ 42]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.27:444][ 49]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2026.02.15-00.15.28:876][170]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2026.02.15-00.15.29:770][234]LogScript: Warning: Script Msg: Attempted to access index 8 from array 'ArrTargetCueParams' of length 8 in '/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricSurge/GA_ElectricSurge.GA_ElectricSurge_C'!
+[2026.02.15-00.15.29:770][234]LogScript: Warning: Script Msg called by: GA_ElectricSurge_C /Game/Maps/UEDPIE_0_Dungeon.Dungeon:PersistentLevel.BP_AuraPlayerState_C_0.GA_ElectricSurge_C_0
+[2026.02.15-00.15.29:770][234]LogScript: Warning: Script Msg: Attempted to access index 8 from array 'ArrEnemyTargets' of length 8 in '/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricSurge/GA_ElectricSurge.GA_ElectricSurge_C'!
+[2026.02.15-00.15.29:770][234]LogScript: Warning: Script Msg called by: GA_ElectricSurge_C /Game/Maps/UEDPIE_0_Dungeon.Dungeon:PersistentLevel.BP_AuraPlayerState_C_0.GA_ElectricSurge_C_0
+[2026.02.15-00.15.29:771][234]LogScript: Warning: Script Msg: Attempted to access index 8 from array 'ArrEnemyTargets' of length 8 in '/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricSurge/GA_ElectricSurge.GA_ElectricSurge_C'!
+[2026.02.15-00.15.29:771][234]LogScript: Warning: Script Msg called by: GA_ElectricSurge_C /Game/Maps/UEDPIE_0_Dungeon.Dungeon:PersistentLevel.BP_AuraPlayerState_C_0.GA_ElectricSurge_C_0
+[2026.02.15-00.15.30:748][312]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.30:748][312]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.30:748][312]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.30:748][312]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.30:749][312]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.30:749][312]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.30:749][312]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.30:750][312]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.31:579][380]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.31:579][380]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.31:579][380]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.31:580][380]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.31:580][380]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.31:580][380]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.31:580][380]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.31:581][380]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.31:581][380]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.31:581][380]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.32:579][461]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.32:579][461]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.32:579][461]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.32:579][461]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.32:580][461]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.33:589][544]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.33:589][544]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.33:590][544]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.33:590][544]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.33:590][544]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.33:985][577]LogActor: Warning: BP_MagicCircle_C /Game/Maps/UEDPIE_0_Dungeon.Dungeon:PersistentLevel.BP_MagicCircle_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2026.02.15-00.15.34:583][626]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.34:583][626]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.34:584][626]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.34:584][626]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.34:584][626]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.35:600][699]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.35:600][699]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.35:600][699]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.35:600][699]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.35:601][699]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.35:848][713]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.36:014][721]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2026.02.15-00.15.40:143][ 36]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2026.02.15-00.15.40:755][ 67]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.40:755][ 67]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.40:756][ 67]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.40:756][ 67]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.40:756][ 67]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.41:551][106]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2026.02.15-00.15.49:265][676]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2026.02.15-00.15.52:834][829]LogCharacterMovement: BP_Goblin_Spear1_C_5 is stuck and failed to move! Velocity: X=-122.22 Y=26.20 Z=0.00 Location: X=-1241.50 Y=-388.77 Z=54.78 Normal: X=0.36 Y=-0.93 Z=0.00 PenetrationDepth:0.040 Actor:BP_Goblin_Spear1_C_6 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2026.02.15-00.15.52:863][830]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.52:887][831]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.52:909][832]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.52:909][832]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.52:932][833]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.52:974][835]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.52:974][835]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.52:974][835]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.15.53:188][845]LogCharacterMovement: BP_Goblin_Spear1_C_7 is stuck and failed to move! Velocity: X=-41.88 Y=13.08 Z=0.00 Location: X=-1281.28 Y=-437.18 Z=54.78 Normal: X=0.61 Y=0.79 Z=0.00 PenetrationDepth:10.433 Actor:BP_Goblin_Spear1_C_1 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2026.02.15-00.15.53:474][857]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2026.02.15-00.16.03:531][578]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2026.02.15-00.16.03:536][578]LogCharacterMovement: BP_Goblin_Spear1_C_5 is stuck and failed to move! Velocity: X=-121.76 Y=28.27 Z=0.00 Location: X=-1261.16 Y=-392.44 Z=54.78 Normal: X=0.39 Y=-0.92 Z=0.00 PenetrationDepth:8.342 Actor:BP_Goblin_Spear1_C_6 Component:CollisionCylinder BoneName:None (24 other events since notify)
+[2026.02.15-00.16.03:537][578]LogCharacterMovement: BP_Goblin_Spear1_C_7 is stuck and failed to move! Velocity: X=-119.12 Y=37.89 Z=0.00 Location: X=-1288.20 Y=-439.44 Z=54.78 Normal: X=0.62 Y=0.79 Z=0.00 PenetrationDepth:14.251 Actor:BP_Goblin_Spear1_C_1 Component:CollisionCylinder BoneName:None (8 other events since notify)
+[2026.02.15-00.16.04:568][622]LogCharacterMovement: BP_Goblin_Spear1_C_7 is stuck and failed to move! Velocity: X=-103.60 Y=69.95 Z=0.00 Location: X=-1313.57 Y=-447.73 Z=54.78 Normal: X=0.62 Y=0.78 Z=0.00 PenetrationDepth:22.885 Actor:BP_Goblin_Spear1_C_1 Component:CollisionCylinder BoneName:None (25 other events since notify)
+[2026.02.15-00.16.04:829][633]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2026.02.15-00.16.05:572][663]LogCharacterMovement: BP_Goblin_Spear1_C_7 is stuck and failed to move! Velocity: X=-102.00 Y=72.25 Z=0.00 Location: X=-1334.72 Y=-454.64 Z=54.78 Normal: X=0.62 Y=0.78 Z=0.00 PenetrationDepth:25.705 Actor:BP_Goblin_Spear1_C_1 Component:CollisionCylinder BoneName:None (31 other events since notify)
+[2026.02.15-00.16.08:897][877]LogCharacterMovement: BP_Goblin_Spear1_C_7 is stuck and failed to move! Velocity: X=-101.12 Y=73.48 Z=0.00 Location: X=-1345.45 Y=-458.15 Z=54.78 Normal: X=0.63 Y=0.78 Z=0.00 PenetrationDepth:28.391 Actor:BP_Goblin_Spear1_C_1 Component:CollisionCylinder BoneName:None (22 other events since notify)
+[2026.02.15-00.16.10:749][969]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2026.02.15-00.16.12:241][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.15-00.16.12:241][ 76]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dungeon
+[2026.02.15-00.16.12:242][ 76]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2026.02.15-00.16.12:245][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.15-00.16.12:245][ 76]LogAbilitySystem: Display:   GameplayCueNotify Class 'GC_ShockLoop_C' was used simultaneously 8 times. The CDO default is only 0 preallocated instances.
+[2026.02.15-00.16.12:246][ 76]LogNet: World NetDriver shutdown IpNetDriver_19 [GameNetDriver]
+[2026.02.15-00.16.12:246][ 76]LogNet: DestroyNamedNetDriver IpNetDriver_19 [GameNetDriver]
+[2026.02.15-00.16.12:247][ 76]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_19 shut down
+[2026.02.15-00.16.12:249][ 76]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.15-00.16.12:257][ 76]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.15-00.16.12:281][ 76]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.15-00.16.12:282][ 76]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2026.02.15-00.16.12:282][ 76]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2026.02.15-00.16.12:284][ 76]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2026.02.15-00.16.12:290][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.15-00.16.12:298][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2026.02.15-00.16.12:327][ 77]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2026.02.15-00.16.19:720][807]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2026.02.15-00.16.19:725][807]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.16.19:888][807]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2026.02.15-00.16.19:903][807]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2026.02.15-00.16.19:904][807]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2026.02.15-00.16.19:904][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2026.02.15-00.16.19:940][807]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2026.02.15-00.16.19:941][807]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenu02453A694A9423F3953ECEAD35A5882D.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2026.02.15-00.16.19:953][807]LogFileHelpers: InternalPromptForCheckoutAndSave took 226.054 ms (total: 7.04 sec)
+[2026.02.15-00.16.20:131][807]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.16.20:132][807]LogContentValidation: Enabled validators:
+[2026.02.15-00.16.20:132][807]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.16.20:132][807]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.16.20:132][807]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.16.20:132][807]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.16.20:132][807]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.16.20:132][807]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.16.20:149][807]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2026.02.15-00.16.20:411][833]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3541.306396
+[2026.02.15-00.16.20:570][852]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.15-00.16.20:570][852]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3541.456543, Update Interval: 355.601685
+[2026.02.15-00.16.25:377][330]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_SpellMenu.WBP_SpellMenu
+[2026.02.15-00.16.25:378][330]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2026.02.15-00.16.25:390][330]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2026.02.15-00.18.38:583][244]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.02.15-00.21.20:718][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2026.02.15-00.21.20:723][ 14]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.21.20:855][ 14]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2026.02.15-00.21.20:871][ 14]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2026.02.15-00.21.20:872][ 14]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2026.02.15-00.21.20:872][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2026.02.15-00.21.20:910][ 14]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2026.02.15-00.21.20:910][ 14]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenuF81A52EF480D0D3ED30AF6B6886D49FC.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2026.02.15-00.21.20:919][ 14]LogFileHelpers: InternalPromptForCheckoutAndSave took 195.217 ms (total: 7.24 sec)
+[2026.02.15-00.21.21:054][ 14]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.21.21:054][ 14]LogContentValidation: Enabled validators:
+[2026.02.15-00.21.21:054][ 14]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.21.21:054][ 14]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.21.21:054][ 14]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.21.21:054][ 14]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.21.21:054][ 14]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.21.21:054][ 14]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.21.21:066][ 14]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2026.02.15-00.21.22:301][138]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\Aura\Content\Blueprints\UI\AttributeMenu\WBP_AttributeMenu.uasset: [Compiler] 'WBP Spell Menu' does not inherit from 'WBP Attribute Menu' ( Cast To WBP_SpellMenu  would always fail).
+[2026.02.15-00.21.22:406][138]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2026.02.15-00.22.53:433][554]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3934.345215
+[2026.02.15-00.22.54:434][557]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.15-00.22.54:434][557]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3935.012451, Update Interval: 356.264526
+[2026.02.15-00.25.08:857][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2026.02.15-00.25.32:823][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2026.02.15-00.25.32:829][677]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.25.32:977][677]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2026.02.15-00.25.32:995][677]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2026.02.15-00.25.32:995][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2026.02.15-00.25.32:995][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2026.02.15-00.25.33:033][677]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2026.02.15-00.25.33:034][677]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenuE69352FB4386820EC27DBAB5C045B287.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2026.02.15-00.25.33:042][677]LogFileHelpers: InternalPromptForCheckoutAndSave took 212.743 ms (total: 7.45 sec)
+[2026.02.15-00.25.33:188][677]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.25.33:188][677]LogContentValidation: Enabled validators:
+[2026.02.15-00.25.33:188][677]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.25.33:188][677]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.25.33:189][677]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.25.33:189][677]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.25.33:189][677]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.25.33:189][677]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.25.33:200][677]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2026.02.15-00.29.44:310][119]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4345.267578
+[2026.02.15-00.29.45:309][122]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.15-00.29.45:310][122]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4345.935059, Update Interval: 337.997375
+[2026.02.15-00.34.50:082][554]LogSlate: Took 0.008091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2026.02.15-00.35.00:218][508]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2026.02.15-00.35.00:224][508]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.35.00:379][508]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Aura/BP_AuraCharacter] ([2] browsable assets)...
+[2026.02.15-00.35.00:511][508]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter]
+[2026.02.15-00.35.00:511][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Aura/BP_AuraCharacter]
+[2026.02.15-00.35.00:511][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/Aura/BP_AuraCharacter" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Aura/BP_AuraCharacter.uasset" SILENT=true
+[2026.02.15-00.35.00:536][508]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Aura/BP_AuraCharacter
+[2026.02.15-00.35.00:536][508]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_AuraCharacterB615CF564847506371B84182B5251271.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/Aura/BP_AuraCharacter.uasset'
+[2026.02.15-00.35.00:539][508]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2026.02.15-00.35.00:554][508]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2026.02.15-00.35.00:555][508]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2026.02.15-00.35.00:555][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2026.02.15-00.35.00:594][508]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2026.02.15-00.35.00:595][508]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenuE4946C4F42434E106647D0A5FF9CA6B9.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2026.02.15-00.35.00:605][508]LogFileHelpers: InternalPromptForCheckoutAndSave took 381.692 ms (total: 7.83 sec)
+[2026.02.15-00.35.00:746][508]LogContentValidation: Display: Starting to validate 2 assets
+[2026.02.15-00.35.00:746][508]LogContentValidation: Enabled validators:
+[2026.02.15-00.35.00:746][508]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.35.00:746][508]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.35.00:747][508]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.35.00:747][508]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.35.00:747][508]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.35.00:747][508]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.35.00:747][508]AssetCheck: /Game/Blueprints/Character/Aura/BP_AuraCharacter Validating asset
+[2026.02.15-00.35.00:758][508]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2026.02.15-00.35.17:844][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2026.02.15-00.36.00:554][908]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4721.533203
+[2026.02.15-00.36.00:763][925]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.15-00.36.00:763][925]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4721.733398, Update Interval: 322.301086
+[2026.02.15-00.38.17:411][147]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2026.02.15-00.38.17:416][147]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.38.17:579][147]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2026.02.15-00.38.17:598][147]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2026.02.15-00.38.17:598][147]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2026.02.15-00.38.17:598][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2026.02.15-00.38.17:640][147]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2026.02.15-00.38.17:641][147]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenu56F3D0754B9663D2789838949227EF4A.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2026.02.15-00.38.17:649][147]LogFileHelpers: InternalPromptForCheckoutAndSave took 232.700 ms (total: 8.07 sec)
+[2026.02.15-00.38.17:799][147]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.38.17:800][147]LogContentValidation: Enabled validators:
+[2026.02.15-00.38.17:800][147]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.38.17:800][147]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.38.17:800][147]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.38.17:800][147]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.38.17:800][147]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.38.17:800][147]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.38.17:811][147]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2026.02.15-00.38.18:562][229]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\Aura\Content\Blueprints\UI\AttributeMenu\WBP_AttributeMenu.uasset: [Compiler] 'BP Aura Character' does not inherit from 'Player Controller' ( Cast To BP_AuraCharacter  would always fail).
+[2026.02.15-00.38.18:562][229]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\Aura\Content\Blueprints\UI\AttributeMenu\WBP_AttributeMenu.uasset: [Compiler] 'WBP Spell Menu' does not inherit from 'WBP Attribute Menu' ( Cast To WBP_SpellMenu  would always fail).
+[2026.02.15-00.38.18:565][229]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\Aura\Content\Blueprints\UI\AttributeMenu\WBP_AttributeMenu.uasset: [Compiler] This blueprint (self) is not a BP_AuraCharacter_C, therefore ' Target ' must have a connection.
+[2026.02.15-00.38.18:566][229]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\Aura\Content\Blueprints\UI\AttributeMenu\WBP_AttributeMenu.uasset: [Compiler] Variable node  Set AttributeMenu  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2026.02.15-00.38.18:677][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2026.02.15-00.38.27:649][140]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\Aura\Content\Blueprints\UI\AttributeMenu\WBP_AttributeMenu.uasset: [Compiler] 'BP Aura Character' does not inherit from 'Player Controller' ( Cast To BP_AuraCharacter  would always fail).
+[2026.02.15-00.38.27:653][140]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\Aura\Content\Blueprints\UI\AttributeMenu\WBP_AttributeMenu.uasset: [Compiler] This blueprint (self) is not a BP_AuraCharacter_C, therefore ' Target ' must have a connection.
+[2026.02.15-00.38.27:654][140]LogBlueprint: Error: [AssetLog] D:\Unreal Projects\Aura\Content\Blueprints\UI\AttributeMenu\WBP_AttributeMenu.uasset: [Compiler] Variable node  Set AttributeMenu  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2026.02.15-00.38.27:700][140]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2026.02.15-00.38.39:831][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2026.02.15-00.38.39:837][491]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.38.39:995][491]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2026.02.15-00.38.40:010][491]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2026.02.15-00.38.40:011][491]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2026.02.15-00.38.40:011][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2026.02.15-00.38.40:049][491]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2026.02.15-00.38.40:050][491]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenu25F916454E0FF261FD306097560A7084.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2026.02.15-00.38.40:058][491]LogFileHelpers: InternalPromptForCheckoutAndSave took 221.004 ms (total: 8.29 sec)
+[2026.02.15-00.38.40:196][491]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.38.40:196][491]LogContentValidation: Enabled validators:
+[2026.02.15-00.38.40:196][491]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.38.40:197][491]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.38.40:197][491]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.38.40:197][491]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.38.40:197][491]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.38.40:197][491]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.38.40:210][491]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2026.02.15-00.38.41:388][627]LogBlueprint: Warning: [AssetLog] D:\Unreal Projects\Aura\Content\Blueprints\UI\AttributeMenu\WBP_AttributeMenu.uasset: [Compiler] 'BP Aura Character' does not inherit from 'Player Controller' ( Cast To BP_AuraCharacter  would always fail).
+[2026.02.15-00.38.41:510][627]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2026.02.15-00.41.53:462][385]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5074.419434
+[2026.02.15-00.41.53:992][399]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.15-00.41.53:993][399]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5074.938477, Update Interval: 320.435181
+[2026.02.15-00.42.43:692][ 72]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2026.02.15-00.43.50:807][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2026.02.15-00.43.50:810][224]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Dungeon' took 0.033
+[2026.02.15-00.43.50:811][224]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2026.02.15-00.43.50:826][224]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2026.02.15-00.43.50:826][224]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2026.02.15-00.43.50:864][224]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu_Auto1
+[2026.02.15-00.43.50:865][224]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenu_Auto14FC716FB46F332CCB4F9DF92914087A8.tmp' to '../../../../../../Unreal Projects/Aura/Saved/Autosaves/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu_Auto1.uasset'
+[2026.02.15-00.43.50:866][224]LogFileHelpers: Auto-saving content packages took 0.055
+[2026.02.15-00.46.00:214][115]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.02.15-00.47.50:486][162]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5431.446777
+[2026.02.15-00.47.50:623][178]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.15-00.47.50:623][178]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5431.576172, Update Interval: 317.904602
+[2026.02.15-00.47.58:907][ 44]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_AuraPlayerController.BP_AuraPlayerController
+[2026.02.15-00.47.58:908][ 44]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2026.02.15-00.48.27:042][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2026.02.15-00.48.27:047][252]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.48.27:193][252]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_AuraPlayerController] ([2] browsable assets)...
+[2026.02.15-00.48.27:194][252]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_AuraPlayerController]
+[2026.02.15-00.48.27:194][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_AuraPlayerController" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Player/BP_AuraPlayerController.uasset" SILENT=true
+[2026.02.15-00.48.27:199][252]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_AuraPlayerController
+[2026.02.15-00.48.27:200][252]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_AuraPlayerControllerA38425BC4E1A061DBF6532A0A1622405.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Player/BP_AuraPlayerController.uasset'
+[2026.02.15-00.48.27:202][252]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2026.02.15-00.48.27:202][252]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2026.02.15-00.48.27:202][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2026.02.15-00.48.27:244][252]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2026.02.15-00.48.27:245][252]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenuE1B484234F9A6711131E4196629E7724.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2026.02.15-00.48.27:258][252]LogFileHelpers: InternalPromptForCheckoutAndSave took 211.353 ms (total: 8.50 sec)
+[2026.02.15-00.48.27:386][252]LogContentValidation: Display: Starting to validate 2 assets
+[2026.02.15-00.48.27:386][252]LogContentValidation: Enabled validators:
+[2026.02.15-00.48.27:386][252]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.48.27:387][252]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.48.27:387][252]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.48.27:387][252]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.48.27:387][252]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.48.27:387][252]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.48.27:387][252]AssetCheck: /Game/Blueprints/Player/BP_AuraPlayerController Validating asset
+[2026.02.15-00.48.27:399][252]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2026.02.15-00.48.38:209][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2026.02.15-00.50.46:727][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2026.02.15-00.50.46:733][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.50.46:885][ 73]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2026.02.15-00.50.46:901][ 73]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2026.02.15-00.50.46:901][ 73]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2026.02.15-00.50.46:901][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2026.02.15-00.50.46:941][ 73]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2026.02.15-00.50.46:941][ 73]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenu5B27D77E4A0809CE7C3022A4D71F0CFA.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2026.02.15-00.50.46:951][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave took 219.357 ms (total: 8.72 sec)
+[2026.02.15-00.50.47:116][ 73]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.50.47:116][ 73]LogContentValidation: Enabled validators:
+[2026.02.15-00.50.47:117][ 73]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.50.47:117][ 73]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.50.47:117][ 73]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.50.47:117][ 73]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.50.47:117][ 73]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.50.47:117][ 73]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.50.47:129][ 73]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2026.02.15-00.51.23:135][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2026.02.15-00.53.39:338][184]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2026.02.15-00.53.39:343][184]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.53.39:489][184]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_AuraPlayerController] ([2] browsable assets)...
+[2026.02.15-00.53.39:489][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_AuraPlayerController]
+[2026.02.15-00.53.39:489][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_AuraPlayerController" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/Player/BP_AuraPlayerController.uasset" SILENT=true
+[2026.02.15-00.53.39:493][184]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_AuraPlayerController
+[2026.02.15-00.53.39:494][184]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_AuraPlayerControllerEC3613DE4308D92458839699A7EFDE5A.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Player/BP_AuraPlayerController.uasset'
+[2026.02.15-00.53.39:496][184]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_SpellMenu] ([2] browsable assets)...
+[2026.02.15-00.53.39:515][184]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_SpellMenu.WBP_SpellMenu]
+[2026.02.15-00.53.39:516][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_SpellMenu]
+[2026.02.15-00.53.39:516][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_SpellMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_SpellMenu.uasset" SILENT=true
+[2026.02.15-00.53.39:584][184]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_SpellMenu
+[2026.02.15-00.53.39:585][184]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_SpellMenu00D37D314C024BD82D59B1AC68FE8DDA.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_SpellMenu.uasset'
+[2026.02.15-00.53.39:594][184]LogFileHelpers: InternalPromptForCheckoutAndSave took 251.324 ms (total: 8.97 sec)
+[2026.02.15-00.53.39:732][184]LogContentValidation: Display: Starting to validate 2 assets
+[2026.02.15-00.53.39:733][184]LogContentValidation: Enabled validators:
+[2026.02.15-00.53.39:733][184]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.53.39:733][184]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.53.39:733][184]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.53.39:733][184]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.53.39:733][184]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.53.39:733][184]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.53.39:733][184]AssetCheck: /Game/Blueprints/Player/BP_AuraPlayerController Validating asset
+[2026.02.15-00.53.39:745][184]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_SpellMenu Validating asset
+[2026.02.15-00.54.01:009][233]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5801.962891
+[2026.02.15-00.54.01:159][248]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.15-00.54.01:159][248]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5802.103027, Update Interval: 324.723663
+[2026.02.15-00.54.49:574][982]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2026.02.15-00.54.49:580][982]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.54.49:718][982]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2026.02.15-00.54.49:733][982]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2026.02.15-00.54.49:733][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2026.02.15-00.54.49:733][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2026.02.15-00.54.49:774][982]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2026.02.15-00.54.49:775][982]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenuE95512D746B82145ED1EF7A62C7E894B.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2026.02.15-00.54.49:784][982]LogFileHelpers: InternalPromptForCheckoutAndSave took 204.858 ms (total: 9.17 sec)
+[2026.02.15-00.54.49:916][982]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.54.49:916][982]LogContentValidation: Enabled validators:
+[2026.02.15-00.54.49:916][982]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.54.49:917][982]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.54.49:917][982]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.54.49:917][982]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.54.49:917][982]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.54.49:917][982]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.54.49:928][982]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2026.02.15-00.56.09:856][615]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2026.02.15-00.56.09:861][615]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.56.10:002][615]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_SpellMenu] ([2] browsable assets)...
+[2026.02.15-00.56.10:016][615]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_SpellMenu.WBP_SpellMenu]
+[2026.02.15-00.56.10:016][615]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_SpellMenu]
+[2026.02.15-00.56.10:016][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_SpellMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_SpellMenu.uasset" SILENT=true
+[2026.02.15-00.56.10:089][615]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_SpellMenu
+[2026.02.15-00.56.10:090][615]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_SpellMenu83B3F51E4CC44A4AA31D6184228EF799.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_SpellMenu.uasset'
+[2026.02.15-00.56.10:100][615]LogFileHelpers: InternalPromptForCheckoutAndSave took 238.967 ms (total: 9.41 sec)
+[2026.02.15-00.56.10:237][615]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.56.10:237][615]LogContentValidation: Enabled validators:
+[2026.02.15-00.56.10:237][615]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.56.10:237][615]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.56.10:237][615]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.56.10:237][615]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.56.10:237][615]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.56.10:237][615]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.56.10:247][615]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_SpellMenu Validating asset
+[2026.02.15-00.56.57:417][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2026.02.15-00.56.57:423][269]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.56.57:572][269]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2026.02.15-00.56.57:587][269]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2026.02.15-00.56.57:587][269]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2026.02.15-00.56.57:587][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2026.02.15-00.56.57:626][269]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2026.02.15-00.56.57:627][269]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenuAB9DF48947B4A4D01137058DE5EAF120.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2026.02.15-00.56.57:637][269]LogFileHelpers: InternalPromptForCheckoutAndSave took 214.713 ms (total: 9.63 sec)
+[2026.02.15-00.56.57:771][269]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.56.57:772][269]LogContentValidation: Enabled validators:
+[2026.02.15-00.56.57:772][269]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.56.57:772][269]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.56.57:772][269]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.56.57:772][269]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.56.57:772][269]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.56.57:773][269]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.56.57:784][269]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2026.02.15-00.56.58:908][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2026.02.15-00.57.02:970][686]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.15-00.57.03:020][686]LogPlayLevel: [PlayLevel] Compiling WBP_SpellMenu before play...
+[2026.02.15-00.57.03:477][686]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2026.02.15-00.57.03:481][686]LogPlayLevel: PlayLevel: Blueprint regeneration took 466 ms (1 blueprints)
+[2026.02.15-00.57.03:483][686]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dungeon
+[2026.02.15-00.57.03:515][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031424s)
+[2026.02.15-00.57.03:516][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dungeon.Dungeon to /Game/Maps/UEDPIE_0_Dungeon.Dungeon (0.032202s)
+[2026.02.15-00.57.03:559][686]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2026.02.15-00.57.03:566][686]LogChaosDD: Creating Chaos Debug Draw Scene for world Dungeon
+[2026.02.15-00.57.03:574][686]LogPlayLevel: PIE: World Init took: (0.010966s)
+[2026.02.15-00.57.03:576][686]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2026.02.15-00.57.03:576][686]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.15-00.57.03:577][686]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.15-00.57.03:578][686]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.15-00.57.03:578][686]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.15-00.57.03:578][686]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.15-00.57.03:578][686]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.15-00.57.03:578][686]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.15-00.57.03:578][686]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.15-00.57.03:578][686]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.15-00.57.03:579][686]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.15-00.57.03:579][686]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.15-00.57.03:587][686]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.15-00.57.03:639][686]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2026.02.15-00.57.03:639][686]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.15-00.57.03:640][686]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.15-00.57.03:640][686]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.15-00.57.03:642][686]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2026.02.15-00.57.03:642][686]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2026.02.15-00.57.03:646][686]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2026.02.15-00.57.03:647][686]LogInit: FAudioDevice initialized with ID 22.
+[2026.02.15-00.57.03:647][686]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2026.02.15-00.57.03:647][686]LogAudio: Display: Audio Device (ID: 22) registered with world 'Dungeon'.
+[2026.02.15-00.57.03:647][686]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2026.02.15-00.57.03:655][686]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.02.15-00.57.03:671][686]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2026.02.14-16.57.03
+[2026.02.15-00.57.03:678][686]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2026.02.15-00.57.03:687][686]LogWorld: Bringing up level for play took: 0.031210
+[2026.02.15-00.57.03:707][686]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2026.02.15-00.57.03:708][686]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2026.02.15-00.57.03:708][686]LogPushModel: PushModel HandleCreation is now enabled
+[2026.02.15-00.57.03:709][686]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.02.15-00.57.03:709][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2026.02.15-00.57.03:709][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2026.02.15-00.57.03:709][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2026.02.15-00.57.03:709][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2026.02.15-00.57.03:709][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2026.02.15-00.57.03:709][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2026.02.15-00.57.03:709][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2026.02.15-00.57.03:710][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2026.02.15-00.57.03:710][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2026.02.15-00.57.03:710][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2026.02.15-00.57.03:710][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2026.02.15-00.57.03:710][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2026.02.15-00.57.03:710][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2026.02.15-00.57.03:710][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2026.02.15-00.57.03:711][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2026.02.15-00.57.03:711][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2026.02.15-00.57.03:711][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2026.02.15-00.57.03:711][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2026.02.15-00.57.03:711][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2026.02.15-00.57.03:711][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2026.02.15-00.57.03:711][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2026.02.15-00.57.03:711][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2026.02.15-00.57.03:712][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2026.02.15-00.57.03:712][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2026.02.15-00.57.03:712][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2026.02.15-00.57.03:712][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2026.02.15-00.57.03:712][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2026.02.15-00.57.03:712][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2026.02.15-00.57.03:712][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2026.02.15-00.57.03:712][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2026.02.15-00.57.03:712][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2026.02.15-00.57.03:713][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2026.02.15-00.57.03:713][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2026.02.15-00.57.03:713][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2026.02.15-00.57.03:713][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2026.02.15-00.57.03:713][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2026.02.15-00.57.03:714][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2026.02.15-00.57.03:714][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2026.02.15-00.57.03:714][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2026.02.15-00.57.03:714][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2026.02.15-00.57.03:714][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2026.02.15-00.57.03:714][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2026.02.15-00.57.03:714][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2026.02.15-00.57.03:715][686]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2026.02.15-00.57.03:716][686]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2026.02.15-00.57.03:716][686]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2026.02.15-00.57.03:716][686]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.02.15-00.57.03:716][686]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_20 IpNetDriver listening on port 17777
+[2026.02.15-00.57.03:726][686]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.15-00.57.03:726][686]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.02.15-00.57.03:728][686]PIE: Server logged in
+[2026.02.15-00.57.03:730][686]PIE: Play in editor total start time 0.737 seconds.
+[2026.02.15-00.57.12:394][ 90]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2026.02.15-00.57.17:127][476]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2026.02.15-00.57.17:127][476]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2026.02.15-00.57.20:951][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.15-00.57.20:951][766]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dungeon
+[2026.02.15-00.57.20:952][766]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2026.02.15-00.57.20:954][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.15-00.57.20:956][766]LogNet: World NetDriver shutdown IpNetDriver_20 [GameNetDriver]
+[2026.02.15-00.57.20:956][766]LogNet: DestroyNamedNetDriver IpNetDriver_20 [GameNetDriver]
+[2026.02.15-00.57.20:956][766]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_20 shut down
+[2026.02.15-00.57.20:970][766]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.15-00.57.20:979][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.15-00.57.21:008][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.15-00.57.21:009][766]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2026.02.15-00.57.21:009][766]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2026.02.15-00.57.21:020][766]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2026.02.15-00.57.21:040][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2026.02.15-00.57.21:075][767]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2026.02.15-00.58.02:836][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2026.02.15-00.58.02:842][419]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.58.02:987][419]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_SpellMenu] ([2] browsable assets)...
+[2026.02.15-00.58.03:000][419]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/SpellMenu/WBP_SpellMenu.WBP_SpellMenu]
+[2026.02.15-00.58.03:001][419]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_SpellMenu]
+[2026.02.15-00.58.03:001][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_SpellMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_SpellMenu.uasset" SILENT=true
+[2026.02.15-00.58.03:070][419]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_SpellMenu
+[2026.02.15-00.58.03:072][419]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_SpellMenu4F259D344014121F92F1C5BD8B8CC675.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_SpellMenu.uasset'
+[2026.02.15-00.58.03:081][419]LogFileHelpers: InternalPromptForCheckoutAndSave took 238.949 ms (total: 9.87 sec)
+[2026.02.15-00.58.03:217][419]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.58.03:217][419]LogContentValidation: Enabled validators:
+[2026.02.15-00.58.03:217][419]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.58.03:218][419]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.58.03:218][419]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.58.03:218][419]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.58.03:218][419]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.58.03:218][419]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.58.03:227][419]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_SpellMenu Validating asset
+[2026.02.15-00.58.10:033][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.02.15-00.58.10:038][113]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.58.10:169][113]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_SpellMenu] ([2] browsable assets)...
+[2026.02.15-00.58.10:170][113]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_SpellMenu]
+[2026.02.15-00.58.10:170][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_SpellMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_SpellMenu.uasset" SILENT=true
+[2026.02.15-00.58.10:237][113]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_SpellMenu
+[2026.02.15-00.58.10:238][113]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_SpellMenu45CEEC994AC1C246C980DFB8E35C5AE2.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_SpellMenu.uasset'
+[2026.02.15-00.58.10:249][113]LogFileHelpers: InternalPromptForCheckoutAndSave took 211.720 ms (total: 10.0 sec)
+[2026.02.15-00.58.10:386][113]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.58.10:386][113]LogContentValidation: Enabled validators:
+[2026.02.15-00.58.10:387][113]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.58.10:387][113]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.58.10:387][113]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.58.10:387][113]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.58.10:387][113]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.58.10:387][113]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.58.10:397][113]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_SpellMenu Validating asset
+[2026.02.15-00.58.11:879][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.02.15-00.58.11:884][257]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.58.12:019][257]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_SpellMenu] ([2] browsable assets)...
+[2026.02.15-00.58.12:019][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_SpellMenu]
+[2026.02.15-00.58.12:019][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_SpellMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_SpellMenu.uasset" SILENT=true
+[2026.02.15-00.58.12:086][257]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_SpellMenu
+[2026.02.15-00.58.12:087][257]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_SpellMenu4E82FF18419FE5A13CF3ADA7CA518E7D.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_SpellMenu.uasset'
+[2026.02.15-00.58.12:096][257]LogFileHelpers: InternalPromptForCheckoutAndSave took 212.232 ms (total: 10.2 sec)
+[2026.02.15-00.58.12:252][257]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.58.12:253][257]LogContentValidation: Enabled validators:
+[2026.02.15-00.58.12:253][257]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.58.12:253][257]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.58.12:253][257]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.58.12:253][257]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.58.12:253][257]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.58.12:253][257]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.58.12:263][257]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_SpellMenu Validating asset
+[2026.02.15-00.58.15:945][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.02.15-00.58.15:949][594]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.58.16:086][594]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/SpellMenu/WBP_SpellMenu] ([2] browsable assets)...
+[2026.02.15-00.58.16:086][594]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/SpellMenu/WBP_SpellMenu]
+[2026.02.15-00.58.16:086][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/SpellMenu/WBP_SpellMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_SpellMenu.uasset" SILENT=true
+[2026.02.15-00.58.16:153][594]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/SpellMenu/WBP_SpellMenu
+[2026.02.15-00.58.16:154][594]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_SpellMenu6506733A443CE07B4F7F45A9795D5D51.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/SpellMenu/WBP_SpellMenu.uasset'
+[2026.02.15-00.58.16:162][594]LogFileHelpers: InternalPromptForCheckoutAndSave took 213.101 ms (total: 10.5 sec)
+[2026.02.15-00.58.16:301][594]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.58.16:301][594]LogContentValidation: Enabled validators:
+[2026.02.15-00.58.16:302][594]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.58.16:302][594]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.58.16:302][594]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.58.16:302][594]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.58.16:302][594]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.58.16:302][594]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.58.16:314][594]AssetCheck: /Game/Blueprints/UI/SpellMenu/WBP_SpellMenu Validating asset
+[2026.02.15-00.58.39:087][334]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2026.02.15-00.58.39:092][334]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.58.39:237][334]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2026.02.15-00.58.39:253][334]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2026.02.15-00.58.39:253][334]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2026.02.15-00.58.39:253][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2026.02.15-00.58.39:293][334]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2026.02.15-00.58.39:294][334]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenuE71B641F4CFCEC4E0EF172A9D7AE0011.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2026.02.15-00.58.39:304][334]LogFileHelpers: InternalPromptForCheckoutAndSave took 211.975 ms (total: 10.7 sec)
+[2026.02.15-00.58.39:453][334]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.58.39:453][334]LogContentValidation: Enabled validators:
+[2026.02.15-00.58.39:453][334]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.58.39:453][334]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.58.39:453][334]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.58.39:453][334]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.58.39:453][334]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.58.39:453][334]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.58.39:465][334]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2026.02.15-00.58.41:972][572]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.02.15-00.58.41:977][572]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.58.42:122][572]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2026.02.15-00.58.42:122][572]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2026.02.15-00.58.42:123][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2026.02.15-00.58.42:162][572]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2026.02.15-00.58.42:163][572]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenu53EC5CA04DCB37695A6B3FBFEA004A35.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2026.02.15-00.58.42:172][572]LogFileHelpers: InternalPromptForCheckoutAndSave took 194.091 ms (total: 10.9 sec)
+[2026.02.15-00.58.42:321][572]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.58.42:321][572]LogContentValidation: Enabled validators:
+[2026.02.15-00.58.42:321][572]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.58.42:321][572]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.58.42:321][572]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.58.42:321][572]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.58.42:321][572]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.58.42:321][572]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.58.42:333][572]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2026.02.15-00.58.44:304][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.02.15-00.58.44:309][759]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.58.44:457][759]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2026.02.15-00.58.44:457][759]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2026.02.15-00.58.44:457][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2026.02.15-00.58.44:495][759]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2026.02.15-00.58.44:496][759]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenu1C278FEC4B837875EC588997D90872CF.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2026.02.15-00.58.44:506][759]LogFileHelpers: InternalPromptForCheckoutAndSave took 197.756 ms (total: 11.1 sec)
+[2026.02.15-00.58.44:653][759]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.58.44:653][759]LogContentValidation: Enabled validators:
+[2026.02.15-00.58.44:654][759]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.58.44:654][759]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.58.44:654][759]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.58.44:654][759]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.58.44:654][759]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.58.44:654][759]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.58.44:665][759]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2026.02.15-00.58.45:017][790]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2026.02.15-00.58.47:638][983]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.15-00.58.47:663][983]LogPlayLevel: [PlayLevel] Compiling WBP_SpellMenu before play...
+[2026.02.15-00.58.48:206][983]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2026.02.15-00.58.48:209][983]LogPlayLevel: PlayLevel: Blueprint regeneration took 550 ms (1 blueprints)
+[2026.02.15-00.58.48:210][983]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Dungeon
+[2026.02.15-00.58.48:233][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022773s)
+[2026.02.15-00.58.48:233][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Dungeon.Dungeon to /Game/Maps/UEDPIE_0_Dungeon.Dungeon (0.023049s)
+[2026.02.15-00.58.48:265][983]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2026.02.15-00.58.48:268][983]LogChaosDD: Creating Chaos Debug Draw Scene for world Dungeon
+[2026.02.15-00.58.48:271][983]LogPlayLevel: PIE: World Init took: (0.003033s)
+[2026.02.15-00.58.48:273][983]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2026.02.15-00.58.48:273][983]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.15-00.58.48:273][983]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.15-00.58.48:273][983]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.15-00.58.48:274][983]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.15-00.58.48:274][983]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.15-00.58.48:274][983]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.15-00.58.48:274][983]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.15-00.58.48:274][983]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.15-00.58.48:274][983]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.15-00.58.48:274][983]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.15-00.58.48:274][983]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.15-00.58.48:279][983]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.15-00.58.48:320][983]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2026.02.15-00.58.48:321][983]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.15-00.58.48:321][983]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.15-00.58.48:321][983]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.15-00.58.48:322][983]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2026.02.15-00.58.48:322][983]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2026.02.15-00.58.48:326][983]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2026.02.15-00.58.48:326][983]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2026.02.15-00.58.48:326][983]LogInit: FAudioDevice initialized with ID 23.
+[2026.02.15-00.58.48:326][983]LogAudio: Display: Audio Device (ID: 23) registered with world 'Dungeon'.
+[2026.02.15-00.58.48:326][983]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2026.02.15-00.58.48:330][983]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.02.15-00.58.48:342][983]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Dungeon.Dungeon up for play (max tick rate 0) at 2026.02.14-16.58.48
+[2026.02.15-00.58.48:347][983]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2026.02.15-00.58.48:354][983]LogWorld: Bringing up level for play took: 0.022974
+[2026.02.15-00.58.48:370][983]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2026.02.15-00.58.48:370][983]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2026.02.15-00.58.48:371][983]LogPushModel: PushModel HandleCreation is now enabled
+[2026.02.15-00.58.48:371][983]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.02.15-00.58.48:371][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2026.02.15-00.58.48:371][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2026.02.15-00.58.48:371][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2026.02.15-00.58.48:372][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2026.02.15-00.58.48:372][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2026.02.15-00.58.48:372][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2026.02.15-00.58.48:372][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2026.02.15-00.58.48:373][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2026.02.15-00.58.48:373][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2026.02.15-00.58.48:373][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2026.02.15-00.58.48:373][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2026.02.15-00.58.48:373][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2026.02.15-00.58.48:373][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2026.02.15-00.58.48:373][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2026.02.15-00.58.48:373][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2026.02.15-00.58.48:373][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2026.02.15-00.58.48:374][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2026.02.15-00.58.48:374][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2026.02.15-00.58.48:374][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2026.02.15-00.58.48:375][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2026.02.15-00.58.48:375][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2026.02.15-00.58.48:375][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2026.02.15-00.58.48:375][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2026.02.15-00.58.48:375][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2026.02.15-00.58.48:375][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2026.02.15-00.58.48:375][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2026.02.15-00.58.48:375][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2026.02.15-00.58.48:375][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2026.02.15-00.58.48:376][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2026.02.15-00.58.48:376][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2026.02.15-00.58.48:376][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2026.02.15-00.58.48:376][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2026.02.15-00.58.48:376][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2026.02.15-00.58.48:376][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2026.02.15-00.58.48:376][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2026.02.15-00.58.48:376][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2026.02.15-00.58.48:377][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2026.02.15-00.58.48:377][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2026.02.15-00.58.48:377][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2026.02.15-00.58.48:377][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2026.02.15-00.58.48:377][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2026.02.15-00.58.48:377][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2026.02.15-00.58.48:378][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2026.02.15-00.58.48:378][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2026.02.15-00.58.48:378][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2026.02.15-00.58.48:378][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2026.02.15-00.58.48:378][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2026.02.15-00.58.48:378][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2026.02.15-00.58.48:379][983]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2026.02.15-00.58.48:380][983]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2026.02.15-00.58.48:380][983]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2026.02.15-00.58.48:380][983]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.02.15-00.58.48:380][983]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_21 IpNetDriver listening on port 17777
+[2026.02.15-00.58.48:388][983]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.02.15-00.58.48:388][983]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.02.15-00.58.48:390][983]PIE: Server logged in
+[2026.02.15-00.58.48:392][983]PIE: Play in editor total start time 0.74 seconds.
+[2026.02.15-00.58.55:047][267]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2026.02.15-00.58.59:158][609]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2026.02.15-00.58.59:158][609]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2026.02.15-00.59.00:958][736]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2026.02.15-00.59.04:536][ 10]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2026.02.15-00.59.07:342][211]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.07:343][211]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.07:343][211]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.07:343][211]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.07:343][211]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.07:343][211]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.07:344][211]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.07:344][211]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.07:344][211]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.08:352][287]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.08:352][287]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.08:352][287]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.08:352][287]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.08:539][301]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.08:539][301]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.08:539][301]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.08:539][301]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.08:539][301]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.08:540][301]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.08:887][327]LogActor: Warning: BP_MagicCircle_C /Game/Maps/UEDPIE_0_Dungeon.Dungeon:PersistentLevel.BP_MagicCircle_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2026.02.15-00.59.09:346][361]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.09:346][361]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.09:346][361]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.09:346][361]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.09:542][375]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.09:542][375]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.09:542][375]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.10:358][431]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.10:359][431]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.10:359][431]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.10:360][431]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.10:428][434]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.10:428][434]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.10:428][434]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.10:428][434]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.10:428][434]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.10:429][434]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.10:538][439]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.10:538][439]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.10:538][439]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.11:364][477]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.11:364][477]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.11:364][477]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.11:365][477]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.11:550][485]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.11:550][485]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.11:551][485]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.12:352][519]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.12:352][519]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.12:352][519]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.12:352][519]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.12:530][527]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.12:530][527]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.12:531][527]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.12:651][532]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.12:674][533]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.12:702][534]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.12:749][536]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.12:797][538]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.12:797][538]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.12:798][538]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.12:798][538]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.12:877][541]LogScript: Warning: Script Msg: Attempted to access index 8 from array 'ArrTargetCueParams' of length 8 in '/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricSurge/GA_ElectricSurge.GA_ElectricSurge_C'!
+[2026.02.15-00.59.12:877][541]LogScript: Warning: Script Msg called by: GA_ElectricSurge_C /Game/Maps/UEDPIE_0_Dungeon.Dungeon:PersistentLevel.BP_AuraPlayerState_C_0.GA_ElectricSurge_C_0
+[2026.02.15-00.59.12:877][541]LogScript: Warning: Script Msg: Attempted to access index 8 from array 'ArrEnemyTargets' of length 8 in '/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricSurge/GA_ElectricSurge.GA_ElectricSurge_C'!
+[2026.02.15-00.59.12:878][541]LogScript: Warning: Script Msg called by: GA_ElectricSurge_C /Game/Maps/UEDPIE_0_Dungeon.Dungeon:PersistentLevel.BP_AuraPlayerState_C_0.GA_ElectricSurge_C_0
+[2026.02.15-00.59.12:878][541]LogScript: Warning: Script Msg: Attempted to access index 8 from array 'ArrEnemyTargets' of length 8 in '/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricSurge/GA_ElectricSurge.GA_ElectricSurge_C'!
+[2026.02.15-00.59.12:878][541]LogScript: Warning: Script Msg called by: GA_ElectricSurge_C /Game/Maps/UEDPIE_0_Dungeon.Dungeon:PersistentLevel.BP_AuraPlayerState_C_0.GA_ElectricSurge_C_0
+[2026.02.15-00.59.13:542][570]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.13:542][570]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.13:542][570]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.13:851][583]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.13:851][583]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.13:851][583]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.13:852][583]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.13:852][583]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.13:852][583]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.13:852][583]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.13:852][583]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.15:024][614]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.15:024][614]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.15:024][614]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.15:025][614]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.15:025][614]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.15:025][614]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.15:025][614]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.15:025][614]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.15:026][614]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.15:026][614]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.15:026][614]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.15:026][614]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.15:026][614]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.15:046][615]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.15:046][615]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.16:036][651]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.16:036][651]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.16:037][651]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.16:037][651]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.16:177][656]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.16:600][674]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.16:600][674]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.16:600][674]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.16:600][674]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.16:600][674]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.16:601][674]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.16:601][674]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.16:601][674]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.17:048][696]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.17:616][726]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.17:616][726]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.17:616][726]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.17:845][738]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.17:845][738]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.17:845][738]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.17:846][738]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.17:846][738]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.17:846][738]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.18:610][776]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.18:836][787]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.18:836][787]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.19:598][818]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.19:616][819]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.19:634][820]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.19:690][823]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.19:845][830]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.19:845][830]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.19:899][833]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.19:899][833]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.19:899][833]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.19:899][833]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.19:900][833]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.19:900][833]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.20:928][906]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.20:928][906]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.20:930][906]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.21:472][949]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.21:472][949]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.21:473][949]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.21:473][949]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.02.15-00.59.23:720][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.15-00.59.23:720][122]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Dungeon
+[2026.02.15-00.59.23:721][122]LogWorld: UWorld::CleanupWorld for Dungeon, bSessionEnded=true, bCleanupResources=true
+[2026.02.15-00.59.23:722][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.15-00.59.23:723][122]LogAbilitySystem: Display:   GameplayCueNotify Class 'GC_ShockLoop_C' was used simultaneously 8 times. The CDO default is only 0 preallocated instances.
+[2026.02.15-00.59.23:724][122]LogNet: World NetDriver shutdown IpNetDriver_21 [GameNetDriver]
+[2026.02.15-00.59.23:724][122]LogNet: DestroyNamedNetDriver IpNetDriver_21 [GameNetDriver]
+[2026.02.15-00.59.23:724][122]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_21 shut down
+[2026.02.15-00.59.23:727][122]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.15-00.59.23:740][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.15-00.59.23:773][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.15-00.59.23:773][122]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2026.02.15-00.59.23:774][122]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2026.02.15-00.59.23:784][122]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2026.02.15-00.59.23:808][122]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2026.02.15-00.59.23:842][123]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2026.02.15-00.59.32:088][873]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2026.02.15-00.59.32:094][873]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.15-00.59.32:237][873]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu] ([2] browsable assets)...
+[2026.02.15-00.59.32:252][873]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.WBP_AttributeMenu]
+[2026.02.15-00.59.32:253][873]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu]
+[2026.02.15-00.59.32:253][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu" FILE="../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" SILENT=true
+[2026.02.15-00.59.32:291][873]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu
+[2026.02.15-00.59.32:292][873]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/WBP_AttributeMenu6721F5484CE2580D5BF860A96D2E3203.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset'
+[2026.02.15-00.59.32:304][873]LogFileHelpers: InternalPromptForCheckoutAndSave took 209.982 ms (total: 11.3 sec)
+[2026.02.15-00.59.32:452][873]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.15-00.59.32:452][873]LogContentValidation: Enabled validators:
+[2026.02.15-00.59.32:453][873]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.15-00.59.32:453][873]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.15-00.59.32:453][873]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.15-00.59.32:453][873]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.15-00.59.32:453][873]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.15-00.59.32:453][873]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.15-00.59.32:467][873]AssetCheck: /Game/Blueprints/UI/AttributeMenu/WBP_AttributeMenu Validating asset
+[2026.02.15-01.00.13:396][775]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6174.371094
+[2026.02.15-01.00.14:397][778]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.15-01.00.14:397][778]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6175.037598, Update Interval: 342.939545
+[2026.02.15-01.00.29:569][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2026.02.15-01.00.29:571][823]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Dungeon' took 0.032
+[2026.02.15-01.00.29:572][823]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Aura/BP_AuraCharacter] ([2] browsable assets)...
+[2026.02.15-01.00.29:716][823]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter]
+[2026.02.15-01.00.29:717][823]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Aura/BP_AuraCharacter]
+[2026.02.15-01.00.29:742][823]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Character/Aura/BP_AuraCharacter_Auto2
+[2026.02.15-01.00.29:743][823]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/BP_AuraCharacter_Auto29EB5E264450D5741739A63B826C05BD9.tmp' to '../../../../../../Unreal Projects/Aura/Saved/Autosaves/Game/Blueprints/Character/Aura/BP_AuraCharacter_Auto2.uasset'
+[2026.02.15-01.00.29:745][823]LogFileHelpers: Auto-saving content packages took 0.173
