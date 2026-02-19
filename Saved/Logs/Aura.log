@@ -36208,3 +36208,706 @@ Scale3D: 1.000000 1.000000 1.000000
 [2026.02.19-18.08.44:533][745]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[EOSAuth], OperationName=[TokenGrant], Url=[<Redacted>]
 [2026.02.19-18.08.45:212][747]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
 [2026.02.19-18.08.45:213][747]LogEOSSDK: Warning: LogEOS: SDK Config Product Update Request Failed, Result Code: EOS_NoConnection, Retrying after 44.910732 seconds
+[2026.02.19-18.09.13:032][667]LogEOSSDK: Warning: LogHttp: 0000092BF4155A00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BDEB0DE77-49C3-B426-8F47-6ABC73990610%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.09.13:032][667]LogEOSSDK: Warning: LogHttp: 0000092BF4155A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.09.13:032][667]LogEOSSDK: Warning: LogHttp: 0000092BF4155A00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.09.13:032][667]LogEOSSDK: Warning: LogHttp: 0000092BF4155A00: libcurl info message cache 1 (Closing connection)
+[2026.02.19-18.09.13:051][668]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BDEB0DE77-49C3-B426-8F47-6ABC73990610%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2026.02.19-18.09.14:703][746]LogHttp: Warning: 0000092BF4256900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.09.14:704][746]LogHttp: Warning: 0000092BF4256900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2026.02.19-18.09.14:704][746]LogHttp: Warning: 0000092BF4256900: libcurl info message cache 1 (Closing connection)
+[2026.02.19-18.09.28:907][363]LogEOSSDK: Warning: LogHttp: 0000092B48CF3C00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.09.28:907][363]LogEOSSDK: Warning: LogHttp: 0000092B48CF3C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.09.28:907][363]LogEOSSDK: Warning: LogHttp: 0000092B48CF3C00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.09.28:908][363]LogEOSSDK: Warning: LogHttp: 0000092B48CF3C00: libcurl info message cache 1 (Closing connection)
+[2026.02.19-18.09.28:908][363]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018
+[2026.02.19-18.09.29:787][400]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 73817.679688
+[2026.02.19-18.09.29:910][403]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018
+[2026.02.19-18.09.29:949][404]LogEOSSDK: Warning: LogHttp: 0000092B48CF3C00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.09.29:949][404]LogEOSSDK: Warning: LogHttp: 0000092B48CF3C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.09.29:949][404]LogEOSSDK: Warning: LogHttp: 0000092B48CF3C00: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.09.29:950][404]LogEOSSDK: Warning: LogHttp: 0000092B48CF3C00: libcurl info message cache 3 (Closing connection)
+[2026.02.19-18.09.29:950][404]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018
+[2026.02.19-18.09.30:966][439]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018
+[2026.02.19-18.09.30:997][440]LogEOSSDK: Warning: LogHttp: 0000092B48CF3C00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.09.30:997][440]LogEOSSDK: Warning: LogHttp: 0000092B48CF3C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.09.30:997][440]LogEOSSDK: Warning: LogHttp: 0000092B48CF3C00: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.09.30:997][440]LogEOSSDK: Warning: LogHttp: 0000092B48CF3C00: libcurl info message cache 5 (Closing connection)
+[2026.02.19-18.09.30:997][440]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018
+[2026.02.19-18.09.30:998][440]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2026.02.19-18.09.36:681][660]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.09.36:681][660]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.09.36:681][660]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.09.36:681][660]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: libcurl info message cache 1 (Closing connection)
+[2026.02.19-18.09.36:681][660]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.09.37:695][708]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.09.37:738][709]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.09.37:738][709]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.09.37:738][709]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.09.37:738][709]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: libcurl info message cache 3 (Closing connection)
+[2026.02.19-18.09.37:738][709]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.09.38:754][757]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.09.38:804][759]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.09.38:805][759]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.09.38:805][759]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.09.38:805][759]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: libcurl info message cache 5 (Closing connection)
+[2026.02.19-18.09.38:805][759]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.09.39:813][805]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.09.39:856][807]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.09.39:856][807]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.09.39:856][807]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: libcurl info message cache 6 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.09.39:856][807]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: libcurl info message cache 7 (Closing connection)
+[2026.02.19-18.09.39:856][807]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.09.40:873][855]LogEOSSDK: Warning: LogHttp: Retry 4 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.09.40:896][856]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.09.40:896][856]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.09.40:896][856]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: libcurl info message cache 8 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.09.40:896][856]LogEOSSDK: Warning: LogHttp: 0000092B48CF7E00: libcurl info message cache 9 (Closing connection)
+[2026.02.19-18.09.40:897][856]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.09.40:897][856]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[EOSAuth], OperationName=[TokenGrant], Url=[<Redacted>]
+[2026.02.19-18.09.40:935][858]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
+[2026.02.19-18.09.40:936][858]LogEOSSDK: Warning: LogEOS: SDK Config Product Update Request Failed, Result Code: EOS_NoConnection, Retrying after 38.699604 seconds
+[2026.02.19-18.10.13:141][198]LogEOSSDK: Warning: LogHttp: 0000092B289D5A00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BDEB0DE77-49C3-B426-8F47-6ABC73990610%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.10.13:142][198]LogEOSSDK: Warning: LogHttp: 0000092B289D5A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.10.13:142][198]LogEOSSDK: Warning: LogHttp: 0000092B289D5A00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.10.13:142][198]LogEOSSDK: Warning: LogHttp: 0000092B289D5A00: libcurl info message cache 1 (Closing connection)
+[2026.02.19-18.10.13:142][198]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BDEB0DE77-49C3-B426-8F47-6ABC73990610%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2026.02.19-18.10.13:751][229]Cmd: TRANSACTION UNDO
+[2026.02.19-18.10.13:753][229]LogEditorTransaction: Undo Move Control
+[2026.02.19-18.10.18:411][229]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.10.19:091][229]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.10.19:237][229]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.10.19:579][229]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.10.19:634][229]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.10.19:654][229]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.10.19:709][229]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.10.19:775][229]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.10.21:501][229]LogAutomationController: Ignoring very large delta of 7.75 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-18.10.21:501][229]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 73870.609375
+[2026.02.19-18.10.21:521][230]LogHttp: Warning: 0000092BFC249A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.10.21:521][230]LogHttp: Warning: 0000092BFC249A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2026.02.19-18.10.21:522][230]LogHttp: Warning: 0000092BFC249A00: libcurl info message cache 1 (Closing connection)
+[2026.02.19-18.10.37:241][942]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.10.37:241][942]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.10.37:241][942]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.10.37:241][942]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: libcurl info message cache 1 (Closing connection)
+[2026.02.19-18.10.37:241][942]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.10.38:246][988]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.10.38:282][990]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.10.38:283][990]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.10.38:283][990]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.10.38:283][990]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: libcurl info message cache 3 (Closing connection)
+[2026.02.19-18.10.38:283][990]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.10.39:288][ 22]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.10.39:352][ 24]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.10.39:352][ 24]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.10.39:352][ 24]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.10.39:352][ 24]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: libcurl info message cache 5 (Closing connection)
+[2026.02.19-18.10.39:352][ 24]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.10.40:369][ 56]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.10.40:432][ 58]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.10.40:432][ 58]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.10.40:432][ 58]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: libcurl info message cache 6 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.10.40:432][ 58]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: libcurl info message cache 7 (Closing connection)
+[2026.02.19-18.10.40:432][ 58]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.10.41:444][ 90]LogEOSSDK: Warning: LogHttp: Retry 4 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.10.41:477][ 91]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.10.41:477][ 91]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.10.41:477][ 91]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: libcurl info message cache 8 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.10.41:477][ 91]LogEOSSDK: Warning: LogHttp: 0000092C095BD200: libcurl info message cache 9 (Closing connection)
+[2026.02.19-18.10.41:477][ 91]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.10.41:477][ 91]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[EOSAuth], OperationName=[TokenGrant], Url=[<Redacted>]
+[2026.02.19-18.10.41:540][ 93]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
+[2026.02.19-18.10.41:540][ 93]LogEOSSDK: Warning: LogEOS: SDK Config Product Update Request Failed, Result Code: EOS_NoConnection, Retrying after 50.586262 seconds
+[2026.02.19-18.11.13:126][394]LogEOSSDK: Warning: LogHttp: 0000092B3DFF9000: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BDEB0DE77-49C3-B426-8F47-6ABC73990610%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.11.13:127][394]LogEOSSDK: Warning: LogHttp: 0000092B3DFF9000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.11.13:127][394]LogEOSSDK: Warning: LogHttp: 0000092B3DFF9000: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.11.13:127][394]LogEOSSDK: Warning: LogHttp: 0000092B3DFF9000: libcurl info message cache 1 (Closing connection)
+[2026.02.19-18.11.13:127][394]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BDEB0DE77-49C3-B426-8F47-6ABC73990610%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2026.02.19-18.11.14:706][469]LogHttp: Warning: 0000092BF2697700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.11.14:706][469]LogHttp: Warning: 0000092BF2697700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2026.02.19-18.11.14:706][469]LogHttp: Warning: 0000092BF2697700: libcurl info message cache 1 (Closing connection)
+[2026.02.19-18.11.15:301][496]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.11.15:302][496]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.11.15:302][496]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.11.15:302][496]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: libcurl info message cache 1 (Closing connection)
+[2026.02.19-18.11.15:302][496]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.11.16:314][537]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.11.16:354][539]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.11.16:354][539]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.11.16:355][539]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.11.16:355][539]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: libcurl info message cache 3 (Closing connection)
+[2026.02.19-18.11.16:355][539]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.11.17:367][585]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.11.17:389][586]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.11.17:389][586]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.11.17:389][586]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.11.17:389][586]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: libcurl info message cache 5 (Closing connection)
+[2026.02.19-18.11.17:389][586]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.11.18:397][631]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.11.18:440][633]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.11.18:440][633]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.11.18:440][633]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: libcurl info message cache 6 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.11.18:440][633]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: libcurl info message cache 7 (Closing connection)
+[2026.02.19-18.11.18:441][633]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.11.19:456][679]LogEOSSDK: Warning: LogHttp: Retry 4 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.11.19:480][680]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.11.19:480][680]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.11.19:480][680]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: libcurl info message cache 8 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.11.19:480][680]LogEOSSDK: Warning: LogHttp: 0000092B3DFFD800: libcurl info message cache 9 (Closing connection)
+[2026.02.19-18.11.19:480][680]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.11.19:481][680]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[EOSAuth], OperationName=[TokenGrant], Url=[<Redacted>]
+[2026.02.19-18.11.19:519][682]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
+[2026.02.19-18.11.28:920][114]LogEOSSDK: Warning: LogHttp: 0000092B3DFF8400: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.11.28:921][114]LogEOSSDK: Warning: LogHttp: 0000092B3DFF8400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.11.28:921][114]LogEOSSDK: Warning: LogHttp: 0000092B3DFF8400: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.11.28:921][114]LogEOSSDK: Warning: LogHttp: 0000092B3DFF8400: libcurl info message cache 1 (Closing connection)
+[2026.02.19-18.11.28:921][114]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018
+[2026.02.19-18.11.29:938][163]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018
+[2026.02.19-18.11.30:003][166]LogEOSSDK: Warning: LogHttp: 0000092B3DFF8400: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.11.30:004][166]LogEOSSDK: Warning: LogHttp: 0000092B3DFF8400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.11.30:004][166]LogEOSSDK: Warning: LogHttp: 0000092B3DFF8400: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.11.30:004][166]LogEOSSDK: Warning: LogHttp: 0000092B3DFF8400: libcurl info message cache 3 (Closing connection)
+[2026.02.19-18.11.30:004][166]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018
+[2026.02.19-18.11.31:010][216]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018
+[2026.02.19-18.11.31:030][217]LogEOSSDK: Warning: LogHttp: 0000092B3DFF8400: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.11.31:030][217]LogEOSSDK: Warning: LogHttp: 0000092B3DFF8400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.11.31:030][217]LogEOSSDK: Warning: LogHttp: 0000092B3DFF8400: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.11.31:030][217]LogEOSSDK: Warning: LogHttp: 0000092B3DFF8400: libcurl info message cache 5 (Closing connection)
+[2026.02.19-18.11.31:030][217]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018
+[2026.02.19-18.11.31:030][217]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2026.02.19-18.11.32:110][267]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 73943.890625
+[2026.02.19-18.12.05:905][885]Cmd: TRANSACTION UNDO
+[2026.02.19-18.12.05:905][885]LogEditorTransaction: Undo Set Transform Key
+[2026.02.19-18.12.07:754][885]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.12.07:919][885]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.12.07:991][885]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.12.08:199][885]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.12.08:216][885]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.12.08:218][885]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.12.08:220][885]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.12.08:227][885]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.12.09:095][885]LogAutomationController: Ignoring very large delta of 3.19 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-18.12.11:873][  9]Cmd: TRANSACTION UNDO
+[2026.02.19-18.12.11:873][  9]LogEditorTransaction: Undo Set Transform Key
+[2026.02.19-18.12.13:643][  9]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.12.13:799][  9]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.12.13:863][  9]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.12.14:051][  9]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.12.14:068][  9]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.12.14:069][  9]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.12.14:072][  9]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.12.14:079][  9]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-18.12.14:813][  9]LogAutomationController: Ignoring very large delta of 2.94 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-18.12.14:849][ 10]LogHttp: Warning: 0000092BEACF6200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.12.14:850][ 10]LogHttp: Warning: 0000092BEACF6200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2026.02.19-18.12.14:850][ 10]LogHttp: Warning: 0000092BEACF6200: libcurl info message cache 1 (Closing connection)
+[2026.02.19-18.12.14:850][ 10]LogEOSSDK: Warning: LogHttp: 0000092BEF5B2A00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BDEB0DE77-49C3-B426-8F47-6ABC73990610%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.12.14:850][ 10]LogEOSSDK: Warning: LogHttp: 0000092BEF5B2A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.12.14:850][ 10]LogEOSSDK: Warning: LogHttp: 0000092BEF5B2A00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.12.14:850][ 10]LogEOSSDK: Warning: LogHttp: 0000092BEF5B2A00: libcurl info message cache 1 (Closing connection)
+[2026.02.19-18.12.14:850][ 10]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BDEB0DE77-49C3-B426-8F47-6ABC73990610%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2026.02.19-18.12.18:951][220]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.12.18:951][220]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.12.18:951][220]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.12.18:951][220]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: libcurl info message cache 1 (Closing connection)
+[2026.02.19-18.12.18:951][220]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.12.19:963][269]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.12.20:002][271]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.12.20:002][271]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.12.20:002][271]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.12.20:002][271]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: libcurl info message cache 3 (Closing connection)
+[2026.02.19-18.12.20:002][271]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.12.21:013][319]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.12.21:056][321]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.12.21:056][321]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.12.21:056][321]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.12.21:056][321]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: libcurl info message cache 5 (Closing connection)
+[2026.02.19-18.12.21:057][321]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.12.22:063][368]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.12.22:099][370]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.12.22:099][370]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.12.22:099][370]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: libcurl info message cache 6 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.12.22:099][370]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: libcurl info message cache 7 (Closing connection)
+[2026.02.19-18.12.22:099][370]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.12.23:113][420]LogEOSSDK: Warning: LogHttp: Retry 4 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.12.23:156][421]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.12.23:156][421]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.12.23:156][421]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: libcurl info message cache 8 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.12.23:157][421]LogEOSSDK: Warning: LogHttp: 0000092BEF5B3600: libcurl info message cache 9 (Closing connection)
+[2026.02.19-18.12.23:157][421]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.12.23:157][421]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[EOSAuth], OperationName=[TokenGrant], Url=[<Redacted>]
+[2026.02.19-18.12.23:202][423]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
+[2026.02.19-18.12.23:202][423]LogEOSSDK: Warning: LogEOS: SDK Config Product Update Request Failed, Result Code: EOS_NoConnection, Retrying after 32.326427 seconds
+[2026.02.19-18.12.55:513][972]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 74027.218750
+[2026.02.19-18.13.13:049][765]LogEOSSDK: Warning: LogHttp: 0000092B30E46600: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BDEB0DE77-49C3-B426-8F47-6ABC73990610%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.13.13:049][765]LogEOSSDK: Warning: LogHttp: 0000092B30E46600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.13.13:049][765]LogEOSSDK: Warning: LogHttp: 0000092B30E46600: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.13.13:049][765]LogEOSSDK: Warning: LogHttp: 0000092B30E46600: libcurl info message cache 1 (Closing connection)
+[2026.02.19-18.13.13:071][766]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BDEB0DE77-49C3-B426-8F47-6ABC73990610%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-39599718%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-39599718&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2026.02.19-18.13.14:706][844]LogHttp: Warning: 0000092A95D70700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.13.14:706][844]LogHttp: Warning: 0000092A95D70700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2026.02.19-18.13.14:706][844]LogHttp: Warning: 0000092A95D70700: libcurl info message cache 1 (Closing connection)
+[2026.02.19-18.13.15:658][888]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.13.15:658][888]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.13.15:658][888]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.13.15:658][888]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: libcurl info message cache 1 (Closing connection)
+[2026.02.19-18.13.15:658][888]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.13.16:660][935]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.13.16:702][937]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.13.16:702][937]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.13.16:702][937]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.13.16:702][937]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: libcurl info message cache 3 (Closing connection)
+[2026.02.19-18.13.16:703][937]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.13.17:719][986]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.13.17:739][987]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.13.17:739][987]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.13.17:739][987]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.13.17:739][987]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: libcurl info message cache 5 (Closing connection)
+[2026.02.19-18.13.17:739][987]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.13.18:747][ 36]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.13.18:789][ 38]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.13.18:790][ 38]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.13.18:790][ 38]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: libcurl info message cache 6 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.13.18:790][ 38]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: libcurl info message cache 7 (Closing connection)
+[2026.02.19-18.13.18:790][ 38]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.13.19:791][ 85]LogEOSSDK: Warning: LogHttp: Retry 4 on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.13.19:833][ 87]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.13.19:833][ 87]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.13.19:833][ 87]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: libcurl info message cache 8 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.13.19:833][ 87]LogEOSSDK: Warning: LogHttp: 0000092B30E49000: libcurl info message cache 9 (Closing connection)
+[2026.02.19-18.13.19:834][ 87]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/auth/v1/oauth/token
+[2026.02.19-18.13.19:834][ 87]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[EOSAuth], OperationName=[TokenGrant], Url=[<Redacted>]
+[2026.02.19-18.13.19:874][ 89]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
+[2026.02.19-18.13.19:875][ 89]LogEOSSDK: Warning: LogEOS: SDK Config Product Update Request Failed, Result Code: EOS_NoConnection, Retrying after 44.769737 seconds
+[2026.02.19-18.13.29:813][355]LogEOSSDK: Warning: LogHttp: 0000092B30E46C00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.13.29:814][355]LogEOSSDK: Warning: LogHttp: 0000092B30E46C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.13.29:814][355]LogEOSSDK: Warning: LogHttp: 0000092B30E46C00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.13.29:814][355]LogEOSSDK: Warning: LogHttp: 0000092B30E46C00: libcurl info message cache 1 (Closing connection)
+[2026.02.19-18.13.29:814][355]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018
+[2026.02.19-18.13.30:825][359]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018
+[2026.02.19-18.13.31:146][359]LogEOSSDK: Warning: LogHttp: 0000092B30E46C00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.13.31:146][359]LogEOSSDK: Warning: LogHttp: 0000092B30E46C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.13.31:146][359]LogEOSSDK: Warning: LogHttp: 0000092B30E46C00: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.13.31:146][359]LogEOSSDK: Warning: LogHttp: 0000092B30E46C00: libcurl info message cache 3 (Closing connection)
+[2026.02.19-18.13.31:146][359]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018
+[2026.02.19-18.13.32:478][363]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018
+[2026.02.19-18.13.32:805][364]LogEOSSDK: Warning: LogHttp: 0000092B30E46C00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.02.19-18.13.32:805][364]LogEOSSDK: Warning: LogHttp: 0000092B30E46C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.02.19-18.13.32:805][364]LogEOSSDK: Warning: LogHttp: 0000092B30E46C00: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2026.02.19-18.13.32:805][364]LogEOSSDK: Warning: LogHttp: 0000092B30E46C00: libcurl info message cache 5 (Closing connection)
+[2026.02.19-18.13.32:805][364]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-39599718&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=5DF6D0874CF3678A0300658BBB096018
+[2026.02.19-18.13.32:806][364]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2026.02.19-18.13.38:961][383]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (SoundCore mini Stereo), InstanceID=1
+[2026.02.19-18.13.39:136][383]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.02.19-18.13.39:143][383]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=24556
+[2026.02.19-18.13.39:180][384]LogAudioMixer: Error: XAudio2System->CreateMasteringVoice() -> 0x88890004: AUDCLNT_E_DEVICE_INVALIDATED (line: 337) with Args (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{ab644a4d-d361-4c90-947b-e221529b4d9f} Name=Headphones (SoundCore mini Stereo))
+[2026.02.19-18.13.39:192][384]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (USB PnP Audio Device), InstanceID=1
+[2026.02.19-18.13.39:382][384]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headphones (SoundCore mini Stereo), InstanceID=1
+[2026.02.19-18.13.40:134][386]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.02.19-18.13.40:148][386]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{ab644a4d-d361-4c90-947b-e221529b4d9f}, Name=Headphones (SoundCore mini Stereo)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=21.73
+[2026.02.19-18.13.40:149][386]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.02.19-18.13.40:159][386]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.02.19-18.13.49:652][412]LogUObjectHash: Compacting FUObjectHashTables data took  16.15ms
+[2026.02.19-18.13.49:681][412]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/AnimationSequencing' took 0.649
+[2026.02.19-18.13.49:689][412]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear] ([1] browsable assets)...
+[2026.02.19-18.13.49:691][412]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear]
+[2026.02.19-18.13.49:759][412]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear_Auto4
+[2026.02.19-18.13.49:760][412]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/LS_AttackSpear_Auto48D60EB5C484B0A44600B3D9BA3CD3F64.tmp' to '../../../../../../Unreal Projects/Aura/Saved/Autosaves/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear_Auto4.uasset'
+[2026.02.19-18.13.49:773][412]LogFileHelpers: Auto-saving content packages took 0.090
+[2026.02.19-18.14.04:936][458]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 74098.179688
+[2026.02.19-18.14.10:276][474]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-18.14.10:277][474]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 74103.187500, Update Interval: 347.015594
+[2026.02.19-18.14.14:680][609]LogAnalytics: Display: EventCache took too long to flush (1.841 ms > 1.000 ms). Payload size: 0.435 KB, 1 events. Listing events in the payload for investigation:
+[2026.02.19-18.14.14:681][609]LogAnalytics: Display:     Editor.Usage.Heartbeat,432
+[2026.02.19-18.15.48:027][391]Cmd: SELECT NONE
+[2026.02.19-18.17.11:835][743]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-18.17.12:011][743]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear] ([1] browsable assets)...
+[2026.02.19-18.17.12:011][743]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear]
+[2026.02.19-18.17.12:031][743]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear
+[2026.02.19-18.17.12:033][743]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/LS_AttackSpear1626DF5C4EE7825026E7FB9A77FF636D.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear.uasset'
+[2026.02.19-18.17.12:055][743]LogFileHelpers: InternalPromptForCheckoutAndSave took 220.107 ms (total: 22.6 sec)
+[2026.02.19-18.17.12:242][743]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-18.17.12:242][743]LogContentValidation: Enabled validators:
+[2026.02.19-18.17.12:244][743]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-18.17.12:244][743]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-18.17.12:244][743]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-18.17.12:244][743]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-18.17.12:245][743]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-18.17.12:245][743]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-18.17.12:267][743]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear Validating asset
+[2026.02.19-18.18.04:366][629]LogStreaming: Display: FlushAsyncLoading(412): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.19-18.18.07:752][713]LogSlate: Window 'Render Movie Settings' being destroyed
+[2026.02.19-18.19.16:271][457]LogSlate: Window 'Create a New Animation Asset' being destroyed
+[2026.02.19-18.19.29:590][457]LogSlate: Window 'Animation Sequence Options' being destroyed
+[2026.02.19-18.19.29:666][457]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/SpearAttack_fixed.SpearAttack_fixed (Required Memory Estimate: 0.17 MB)
+[2026.02.19-18.19.29:675][457]LogAnimationCompression: Display: Storing compressed animation data for /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/SpearAttack_fixed.SpearAttack_fixed, at AnimationSequence/a1f1fabf0baf9610630e917df14eb8b425b22955
+[2026.02.19-18.19.29:800][457]LogAutomationController: Ignoring very large delta of 50.33 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-18.19.30:123][461]LogRHI: Error: GpuProfiler's scratch buffer is out of space for this frame (current size : 32 kB). Dropping this frame. The size can be increased dynamically with the console variable r.GpuProfilerMaxEventBufferSizeKB
+[2026.02.19-18.19.50:760][417]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2026.02.19-18.19.50:770][417]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-18.19.50:907][417]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/SpearAttack_fixed] ([1] browsable assets)...
+[2026.02.19-18.19.50:922][417]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/SpearAttack_fixed.SpearAttack_fixed]
+[2026.02.19-18.19.50:922][417]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/SpearAttack_fixed]
+[2026.02.19-18.19.50:931][417]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/SpearAttack_fixed
+[2026.02.19-18.19.50:932][417]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/SpearAttack_fixedF63D4BEF45B3C298F444D7A5862343D0.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/SpearAttack_fixed.uasset'
+[2026.02.19-18.19.51:057][417]LogFileHelpers: InternalPromptForCheckoutAndSave took 287.890 ms (total: 22.9 sec)
+[2026.02.19-18.19.51:207][417]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-18.19.51:207][417]LogContentValidation: Enabled validators:
+[2026.02.19-18.19.51:207][417]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-18.19.51:208][417]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-18.19.51:208][417]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-18.19.51:208][417]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-18.19.51:208][417]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-18.19.51:208][417]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-18.19.51:214][417]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/SpearAttack_fixed Validating asset
+[2026.02.19-18.19.58:849][714]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/SpearAttack_fixed.SpearAttack_fixed
+[2026.02.19-18.19.58:849][714]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/SpearAttack_fixed.SpearAttack_fixed
+[2026.02.19-18.19.58:852][714]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/UndeadGoblinWarrior2.UndeadGoblinWarrior2 as actor: SkeletalMeshActor /Game/Maps/AnimationSequencing.AnimationSequencing:PersistentLevel.SkeletalMeshActor_12
+[2026.02.19-18.19.58:857][714]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/UndeadGoblinWarrior2.UndeadGoblinWarrior2 as actor: SkeletalMeshActor /Game/Maps/AnimationSequencing.AnimationSequencing:PersistentLevel.SkeletalMeshActor_12
+[2026.02.19-18.19.59:560][749]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2026.02.19-18.19.59:564][749]LogEditorActor: Deleted 0 Actors (0.026 secs)
+[2026.02.19-18.19.59:569][749]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/SpearAttack_fixed.SpearAttack_fixed
+[2026.02.19-18.19.59:569][749]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/SpearAttack_fixed.SpearAttack_fixed
+[2026.02.19-18.19.59:575][749]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/UndeadGoblinWarrior2.UndeadGoblinWarrior2 as actor: SkeletalMeshActor /Game/Maps/AnimationSequencing.AnimationSequencing:PersistentLevel.SkeletalMeshActor_13
+[2026.02.19-18.19.59:578][749]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/UndeadGoblinWarrior2.UndeadGoblinWarrior2 as actor: SkeletalMeshActor /Game/Maps/AnimationSequencing.AnimationSequencing:PersistentLevel.SkeletalMeshActor_13
+[2026.02.19-18.20.13:489][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.02.19-18.20.13:497][293]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-18.20.13:656][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AnimationSequencing" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/AnimationSequencing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.02.19-18.20.13:742][293]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.02.19-18.20.13:766][293]LogSavePackage: Moving output files for package: /Game/Maps/AnimationSequencing
+[2026.02.19-18.20.13:767][293]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/AnimationSequencingB8FCECC242F833260C9EABB81DFCFFBA.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/AnimationSequencing.umap'
+[2026.02.19-18.20.13:812][293]LogFileHelpers: Saving map 'AnimationSequencing' took 0.156
+[2026.02.19-18.20.13:812][293]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear] ([1] browsable assets)...
+[2026.02.19-18.20.13:812][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear]
+[2026.02.19-18.20.13:824][293]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear
+[2026.02.19-18.20.13:824][293]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/LS_AttackSpear1E672D8842E38E4DB0C79BB4E1B673EC.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear.uasset'
+[2026.02.19-18.20.13:837][293]LogFileHelpers: InternalPromptForCheckoutAndSave took 339.359 ms (total: 23.2 sec)
+[2026.02.19-18.20.13:987][293]LogContentValidation: Display: Starting to validate 2 assets
+[2026.02.19-18.20.13:987][293]LogContentValidation: Enabled validators:
+[2026.02.19-18.20.13:988][293]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-18.20.13:988][293]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-18.20.13:988][293]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-18.20.13:988][293]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-18.20.13:988][293]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-18.20.13:988][293]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-18.20.13:990][293]AssetCheck: /Game/Maps/AnimationSequencing Validating asset
+[2026.02.19-18.20.13:990][293]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear Validating asset
+[2026.02.19-18.20.14:730][323]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.19-18.20.14:833][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.19-18.20.14:849][323]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_AnimationSequencing
+[2026.02.19-18.20.14:879][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029759s)
+[2026.02.19-18.20.14:880][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AnimationSequencing.AnimationSequencing to /Game/Maps/UEDPIE_0_AnimationSequencing.AnimationSequencing (0.030470s)
+[2026.02.19-18.20.14:901][323]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.02.19-18.20.14:907][323]LogChaosDD: Creating Chaos Debug Draw Scene for world AnimationSequencing
+[2026.02.19-18.20.14:959][323]LogPlayLevel: PIE: World Init took: (0.053628s)
+[2026.02.19-18.20.14:964][323]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2026.02.19-18.20.14:966][323]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.19-18.20.14:967][323]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.19-18.20.14:967][323]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.19-18.20.14:967][323]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.19-18.20.14:967][323]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.19-18.20.14:967][323]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.19-18.20.14:968][323]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.19-18.20.14:968][323]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.19-18.20.14:971][323]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.19-18.20.14:972][323]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.19-18.20.14:972][323]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.19-18.20.14:975][323]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.19-18.20.15:024][323]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2026.02.19-18.20.15:030][323]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.19-18.20.15:030][323]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.19-18.20.15:031][323]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.19-18.20.15:037][323]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2026.02.19-18.20.15:037][323]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2026.02.19-18.20.15:041][323]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2026.02.19-18.20.15:041][323]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2026.02.19-18.20.15:041][323]LogInit: FAudioDevice initialized with ID 9.
+[2026.02.19-18.20.15:042][323]LogAudio: Display: Audio Device (ID: 9) registered with world 'AnimationSequencing'.
+[2026.02.19-18.20.15:043][323]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2026.02.19-18.20.15:112][323]LogLoad: Game class is 'GameModeBase'
+[2026.02.19-18.20.15:121][323]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AnimationSequencing.AnimationSequencing up for play (max tick rate 0) at 2026.02.19-10.20.15
+[2026.02.19-18.20.15:134][323]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2026.02.19-18.20.15:140][323]LogWorld: Bringing up level for play took: 0.026896
+[2026.02.19-18.20.15:172][323]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2026.02.19-18.20.15:172][323]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2026.02.19-18.20.15:174][323]LogPushModel: PushModel HandleCreation is now enabled
+[2026.02.19-18.20.15:174][323]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.02.19-18.20.15:176][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2026.02.19-18.20.15:176][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2026.02.19-18.20.15:176][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2026.02.19-18.20.15:176][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2026.02.19-18.20.15:176][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2026.02.19-18.20.15:176][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2026.02.19-18.20.15:177][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2026.02.19-18.20.15:177][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2026.02.19-18.20.15:177][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2026.02.19-18.20.15:178][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2026.02.19-18.20.15:178][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2026.02.19-18.20.15:179][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2026.02.19-18.20.15:179][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2026.02.19-18.20.15:179][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2026.02.19-18.20.15:180][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2026.02.19-18.20.15:180][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2026.02.19-18.20.15:180][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2026.02.19-18.20.15:180][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2026.02.19-18.20.15:180][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2026.02.19-18.20.15:180][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2026.02.19-18.20.15:180][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2026.02.19-18.20.15:180][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2026.02.19-18.20.15:181][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2026.02.19-18.20.15:181][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2026.02.19-18.20.15:181][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2026.02.19-18.20.15:181][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2026.02.19-18.20.15:181][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2026.02.19-18.20.15:181][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2026.02.19-18.20.15:181][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2026.02.19-18.20.15:181][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2026.02.19-18.20.15:181][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2026.02.19-18.20.15:181][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2026.02.19-18.20.15:181][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2026.02.19-18.20.15:182][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2026.02.19-18.20.15:182][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2026.02.19-18.20.15:182][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2026.02.19-18.20.15:182][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2026.02.19-18.20.15:182][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2026.02.19-18.20.15:182][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2026.02.19-18.20.15:182][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2026.02.19-18.20.15:183][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2026.02.19-18.20.15:183][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2026.02.19-18.20.15:183][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2026.02.19-18.20.15:183][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2026.02.19-18.20.15:183][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2026.02.19-18.20.15:183][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2026.02.19-18.20.15:183][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2026.02.19-18.20.15:183][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2026.02.19-18.20.15:184][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2026.02.19-18.20.15:184][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2026.02.19-18.20.15:184][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2026.02.19-18.20.15:184][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2026.02.19-18.20.15:184][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2026.02.19-18.20.15:184][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2026.02.19-18.20.15:184][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2026.02.19-18.20.15:184][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2026.02.19-18.20.15:184][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2026.02.19-18.20.15:185][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2026.02.19-18.20.15:185][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2026.02.19-18.20.15:185][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2026.02.19-18.20.15:185][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2026.02.19-18.20.15:185][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2026.02.19-18.20.15:185][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2026.02.19-18.20.15:185][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2026.02.19-18.20.15:185][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2026.02.19-18.20.15:185][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2026.02.19-18.20.15:185][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2026.02.19-18.20.15:185][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2026.02.19-18.20.15:185][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2026.02.19-18.20.15:185][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2026.02.19-18.20.15:185][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2026.02.19-18.20.15:185][323]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2026.02.19-18.20.15:186][323]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2026.02.19-18.20.15:187][323]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2026.02.19-18.20.15:188][323]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.02.19-18.20.15:188][323]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_7 IpNetDriver listening on port 17777
+[2026.02.19-18.20.15:202][323]PIE: Server logged in
+[2026.02.19-18.20.15:204][323]PIE: Play in editor total start time 0.448 seconds.
+[2026.02.19-18.20.18:751][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.19-18.20.18:752][517]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_AnimationSequencing
+[2026.02.19-18.20.18:758][517]LogWorld: UWorld::CleanupWorld for AnimationSequencing, bSessionEnded=true, bCleanupResources=true
+[2026.02.19-18.20.18:760][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.19-18.20.18:771][517]LogNet: World NetDriver shutdown IpNetDriver_7 [GameNetDriver]
+[2026.02.19-18.20.18:771][517]LogNet: DestroyNamedNetDriver IpNetDriver_7 [GameNetDriver]
+[2026.02.19-18.20.18:771][517]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_7 shut down
+[2026.02.19-18.20.18:775][517]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.19-18.20.18:797][517]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.19-18.20.18:816][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.19-18.20.18:817][517]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2026.02.19-18.20.18:817][517]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2026.02.19-18.20.18:820][517]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2026.02.19-18.20.18:840][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.02.19-18.20.18:974][518]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2026.02.19-18.20.24:723][728]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2026.02.19-18.20.24:729][728]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-18.20.24:892][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AnimationSequencing" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/AnimationSequencing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.02.19-18.20.25:119][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.02.19-18.20.25:130][728]LogSavePackage: Moving output files for package: /Game/Maps/AnimationSequencing
+[2026.02.19-18.20.25:131][728]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/AnimationSequencing3C14A68C425DE100DC741FBA3D1BE8F3.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/AnimationSequencing.umap'
+[2026.02.19-18.20.25:173][728]LogFileHelpers: Saving map 'AnimationSequencing' took 0.282
+[2026.02.19-18.20.25:182][728]LogFileHelpers: InternalPromptForCheckoutAndSave took 454.045 ms (total: 23.7 sec)
+[2026.02.19-18.20.25:336][728]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-18.20.25:337][728]LogContentValidation: Enabled validators:
+[2026.02.19-18.20.25:337][728]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-18.20.25:337][728]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-18.20.25:337][728]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-18.20.25:337][728]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-18.20.25:337][728]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-18.20.25:337][728]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-18.20.25:339][728]AssetCheck: /Game/Maps/AnimationSequencing Validating asset
+[2026.02.19-18.20.35:822][154]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-18.20.36:011][154]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear] ([1] browsable assets)...
+[2026.02.19-18.20.36:012][154]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear]
+[2026.02.19-18.20.36:025][154]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear
+[2026.02.19-18.20.36:026][154]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/LS_AttackSpear8B777252426B9A6ED25F50854DBC744D.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear.uasset'
+[2026.02.19-18.20.36:037][154]LogFileHelpers: InternalPromptForCheckoutAndSave took 213.987 ms (total: 23.9 sec)
+[2026.02.19-18.20.36:168][154]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-18.20.36:169][154]LogContentValidation: Enabled validators:
+[2026.02.19-18.20.36:169][154]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-18.20.36:169][154]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-18.20.36:169][154]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-18.20.36:169][154]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-18.20.36:169][154]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-18.20.36:169][154]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-18.20.36:171][154]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear Validating asset
+[2026.02.19-18.20.38:104][236]Cmd: SELECT NONE
+[2026.02.19-18.20.39:951][304]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-18.20.40:108][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AnimationSequencing" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/AnimationSequencing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.02.19-18.20.40:206][304]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2026.02.19-18.20.40:216][304]LogSavePackage: Moving output files for package: /Game/Maps/AnimationSequencing
+[2026.02.19-18.20.40:217][304]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/AnimationSequencing21D222024D4E6A89F3350DB4A5BD873A.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/AnimationSequencing.umap'
+[2026.02.19-18.20.40:263][304]LogFileHelpers: Saving map 'AnimationSequencing' took 0.155
+[2026.02.19-18.20.40:271][304]LogFileHelpers: InternalPromptForCheckoutAndSave took 320.322 ms (total: 24.2 sec)
+[2026.02.19-18.20.40:425][304]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-18.20.40:425][304]LogContentValidation: Enabled validators:
+[2026.02.19-18.20.40:426][304]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-18.20.40:426][304]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-18.20.40:426][304]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-18.20.40:426][304]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-18.20.40:426][304]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-18.20.40:426][304]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-18.20.40:428][304]AssetCheck: /Game/Maps/AnimationSequencing Validating asset
+[2026.02.19-18.20.42:909][402]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.19-18.20.42:940][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.19-18.20.42:940][402]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_AnimationSequencing
+[2026.02.19-18.20.42:943][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002368s)
+[2026.02.19-18.20.42:943][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AnimationSequencing.AnimationSequencing to /Game/Maps/UEDPIE_0_AnimationSequencing.AnimationSequencing (0.002698s)
+[2026.02.19-18.20.42:958][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.02.19-18.20.42:960][402]LogChaosDD: Creating Chaos Debug Draw Scene for world AnimationSequencing
+[2026.02.19-18.20.42:963][402]LogPlayLevel: PIE: World Init took: (0.003405s)
+[2026.02.19-18.20.42:965][402]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2026.02.19-18.20.42:965][402]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.19-18.20.42:965][402]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.19-18.20.42:965][402]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.19-18.20.42:965][402]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.19-18.20.42:966][402]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.19-18.20.42:966][402]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.19-18.20.42:966][402]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.19-18.20.42:966][402]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.19-18.20.42:966][402]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.19-18.20.42:966][402]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.19-18.20.42:966][402]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.19-18.20.42:969][402]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.19-18.20.43:001][402]LogAudioMixer: Display: Using Audio Hardware Device Headphones (SoundCore mini Stereo)
+[2026.02.19-18.20.43:002][402]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.19-18.20.43:002][402]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.19-18.20.43:002][402]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.19-18.20.43:003][402]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2026.02.19-18.20.43:003][402]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2026.02.19-18.20.43:006][402]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2026.02.19-18.20.43:007][402]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2026.02.19-18.20.43:007][402]LogInit: FAudioDevice initialized with ID 10.
+[2026.02.19-18.20.43:007][402]LogAudio: Display: Audio Device (ID: 10) registered with world 'AnimationSequencing'.
+[2026.02.19-18.20.43:007][402]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2026.02.19-18.20.43:012][402]LogLoad: Game class is 'GameModeBase'
+[2026.02.19-18.20.43:013][402]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AnimationSequencing.AnimationSequencing up for play (max tick rate 0) at 2026.02.19-10.20.43
+[2026.02.19-18.20.43:016][402]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2026.02.19-18.20.43:017][402]LogWorld: Bringing up level for play took: 0.005142
+[2026.02.19-18.20.43:019][402]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2026.02.19-18.20.43:019][402]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2026.02.19-18.20.43:019][402]LogPushModel: PushModel HandleCreation is now enabled
+[2026.02.19-18.20.43:019][402]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.02.19-18.20.43:019][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2026.02.19-18.20.43:019][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2026.02.19-18.20.43:019][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2026.02.19-18.20.43:019][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2026.02.19-18.20.43:020][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2026.02.19-18.20.43:020][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2026.02.19-18.20.43:020][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2026.02.19-18.20.43:020][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2026.02.19-18.20.43:020][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2026.02.19-18.20.43:020][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2026.02.19-18.20.43:020][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2026.02.19-18.20.43:020][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2026.02.19-18.20.43:021][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2026.02.19-18.20.43:021][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2026.02.19-18.20.43:021][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2026.02.19-18.20.43:021][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2026.02.19-18.20.43:021][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2026.02.19-18.20.43:021][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2026.02.19-18.20.43:021][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2026.02.19-18.20.43:022][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2026.02.19-18.20.43:022][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2026.02.19-18.20.43:022][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2026.02.19-18.20.43:022][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2026.02.19-18.20.43:022][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2026.02.19-18.20.43:022][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2026.02.19-18.20.43:022][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2026.02.19-18.20.43:022][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2026.02.19-18.20.43:022][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2026.02.19-18.20.43:022][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2026.02.19-18.20.43:022][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2026.02.19-18.20.43:023][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2026.02.19-18.20.43:023][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2026.02.19-18.20.43:023][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2026.02.19-18.20.43:023][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2026.02.19-18.20.43:023][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2026.02.19-18.20.43:023][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2026.02.19-18.20.43:023][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2026.02.19-18.20.43:023][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2026.02.19-18.20.43:024][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2026.02.19-18.20.43:024][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2026.02.19-18.20.43:024][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2026.02.19-18.20.43:024][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2026.02.19-18.20.43:024][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2026.02.19-18.20.43:024][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2026.02.19-18.20.43:024][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2026.02.19-18.20.43:024][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2026.02.19-18.20.43:025][402]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2026.02.19-18.20.43:026][402]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2026.02.19-18.20.43:026][402]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2026.02.19-18.20.43:026][402]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.02.19-18.20.43:026][402]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_8 IpNetDriver listening on port 17777
+[2026.02.19-18.20.43:029][402]PIE: Server logged in
+[2026.02.19-18.20.43:031][402]PIE: Play in editor total start time 0.098 seconds.
+[2026.02.19-18.20.53:936][ 34]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 74510.070312
+[2026.02.19-18.20.54:097][ 41]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-18.20.54:097][ 41]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 74510.210938, Update Interval: 351.014740
+[2026.02.19-18.20.54:892][ 83]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.19-18.20.54:892][ 83]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_AnimationSequencing
+[2026.02.19-18.20.54:892][ 83]LogWorld: UWorld::CleanupWorld for AnimationSequencing, bSessionEnded=true, bCleanupResources=true
+[2026.02.19-18.20.54:892][ 83]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.19-18.20.54:895][ 83]LogNet: World NetDriver shutdown IpNetDriver_8 [GameNetDriver]
+[2026.02.19-18.20.54:896][ 83]LogNet: DestroyNamedNetDriver IpNetDriver_8 [GameNetDriver]
+[2026.02.19-18.20.54:896][ 83]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_8 shut down
+[2026.02.19-18.20.54:899][ 83]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.19-18.20.54:921][ 83]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.19-18.20.54:937][ 83]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.19-18.20.54:938][ 83]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2026.02.19-18.20.54:938][ 83]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2026.02.19-18.20.54:940][ 83]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2026.02.19-18.20.54:950][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2026.02.19-18.20.55:011][ 84]LogPlayLevel: Display: Destroying online subsystem :Context_53
