@@ -36911,3 +36911,736 @@ Scale3D: 1.000000 1.000000 1.000000
 [2026.02.19-18.20.54:940][ 83]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
 [2026.02.19-18.20.54:950][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
 [2026.02.19-18.20.55:011][ 84]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2026.02.19-18.21.44:569][878]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Marquee Select entirely.
+[2026.02.19-18.21.51:338][188]Cmd: DELETE
+[2026.02.19-18.21.51:339][188]Cmd: ACTOR DELETE
+[2026.02.19-18.21.59:168][188]LogSlate: Window 'Delete Referenced Actor' being destroyed
+[2026.02.19-18.21.59:179][188]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2026.02.19-18.21.59:200][188]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.02.19-18.21.59:204][188]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2026.02.19-18.21.59:278][188]LogAutomationController: Ignoring very large delta of 7.94 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-18.22.03:315][362]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.02.19-18.22.03:323][362]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-18.22.03:457][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AnimationSequencing" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/AnimationSequencing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.02.19-18.22.03:527][362]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.02.19-18.22.03:536][362]LogSavePackage: Moving output files for package: /Game/Maps/AnimationSequencing
+[2026.02.19-18.22.03:537][362]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/AnimationSequencing54ED9396432C5E07134BD3835D2D2ADA.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/AnimationSequencing.umap'
+[2026.02.19-18.22.03:574][362]LogFileHelpers: Saving map 'AnimationSequencing' took 0.117
+[2026.02.19-18.22.03:583][362]LogFileHelpers: InternalPromptForCheckoutAndSave took 259.734 ms (total: 24.5 sec)
+[2026.02.19-18.22.03:719][362]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-18.22.03:719][362]LogContentValidation: Enabled validators:
+[2026.02.19-18.22.03:719][362]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-18.22.03:719][362]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-18.22.03:719][362]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-18.22.03:719][362]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-18.22.03:719][362]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-18.22.03:719][362]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-18.22.03:721][362]AssetCheck: /Game/Maps/AnimationSequencing Validating asset
+[2026.02.19-18.22.48:462][591]LogActorFactory: Actor Factory attempting to spawn Skeleton /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/UndeadGoblinWarrior2_Skeleton.UndeadGoblinWarrior2_Skeleton
+[2026.02.19-18.22.48:465][591]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/UndeadGoblinWarrior2.UndeadGoblinWarrior2 as actor: SkeletalMeshActor /Game/Maps/AnimationSequencing.AnimationSequencing:PersistentLevel.UndeadGoblinWarrior2_Skeleton_2
+[2026.02.19-18.22.53:002][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.02.19-18.22.53:010][795]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-18.22.53:175][795]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear] ([1] browsable assets)...
+[2026.02.19-18.22.53:175][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear]
+[2026.02.19-18.22.53:180][795]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear
+[2026.02.19-18.22.53:181][795]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/LS_AttackSpearC80951834F4E36FDF69C4DB70413A7B7.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear.uasset'
+[2026.02.19-18.22.53:190][795]LogFileHelpers: InternalPromptForCheckoutAndSave took 179.972 ms (total: 24.7 sec)
+[2026.02.19-18.22.53:340][795]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-18.22.53:340][795]LogContentValidation: Enabled validators:
+[2026.02.19-18.22.53:340][795]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-18.22.53:340][795]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-18.22.53:340][795]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-18.22.53:340][795]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-18.22.53:340][795]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-18.22.53:340][795]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-18.22.53:343][795]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear Validating asset
+[2026.02.19-18.23.17:670][826]Cmd: SELECT NONE
+[2026.02.19-18.25.44:959][730]LogSlate: Window 'Options For Baking' being destroyed
+[2026.02.19-18.25.44:976][730]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Engine/Transient.AnimSequence_1 (Required Memory Estimate: 0.12 MB)
+[2026.02.19-18.25.44:980][730]LogAnimationCompression: Display: Storing compressed animation data for /Engine/Transient.AnimSequence_1, at AnimationSequence/77d83062e4bafacc78410ca86c8ffe36b5c77192
+[2026.02.19-18.25.45:293][730]LogAutomationController: Ignoring very large delta of 4.11 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-18.27.36:722][629]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 74919.703125
+[2026.02.19-18.27.36:941][636]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-18.27.36:941][636]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 74919.890625, Update Interval: 328.523193
+[2026.02.19-18.32.03:579][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.02.19-18.32.03:589][ 28]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/AnimationSequencing' took 0.030
+[2026.02.19-18.32.03:589][ 28]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear] ([1] browsable assets)...
+[2026.02.19-18.32.03:589][ 28]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear]
+[2026.02.19-18.32.03:600][ 28]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear_Auto5
+[2026.02.19-18.32.03:600][ 28]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/LS_AttackSpear_Auto5CD8BA220422E40626D8F4F8EB2035409.tmp' to '../../../../../../Unreal Projects/Aura/Saved/Autosaves/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear_Auto5.uasset'
+[2026.02.19-18.32.03:602][ 28]LogFileHelpers: Auto-saving content packages took 0.013
+[2026.02.19-18.33.51:879][ 32]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 75311.164062
+[2026.02.19-18.33.52:070][ 41]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-18.33.52:070][ 41]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 75311.343750, Update Interval: 337.222809
+[2026.02.19-18.36.00:422][977]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (USB PnP Audio Device), InstanceID=1
+[2026.02.19-18.36.00:447][978]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2026.02.19-18.36.00:448][978]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=24556
+[2026.02.19-18.36.00:575][983]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2026.02.19-18.36.00:586][983]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{fd3482fe-f983-43c0-a0ef-742f9b23abec}, Name=Speakers (USB PnP Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=120.78
+[2026.02.19-18.36.00:586][983]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.02.19-18.36.00:590][983]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.02.19-18.40.07:857][579]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 75713.609375
+[2026.02.19-18.40.08:044][588]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-18.40.08:044][588]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 75713.773438, Update Interval: 339.680176
+[2026.02.19-18.40.40:847][111]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.02.19-18.46.24:539][201]LogAutomationController: Ignoring very large delta of 3.96 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-18.46.24:561][201]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 76115.695312
+[2026.02.19-18.46.24:991][206]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-18.46.24:991][206]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 76116.093750, Update Interval: 315.071869
+[2026.02.19-18.52.25:403][353]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 76498.812500
+[2026.02.19-18.52.25:596][362]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-18.52.25:596][362]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 76498.992188, Update Interval: 355.821411
+[2026.02.19-18.59.02:315][131]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 76922.742188
+[2026.02.19-18.59.02:485][139]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-18.59.02:485][139]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 76922.906250, Update Interval: 347.107147
+[2026.02.19-19.05.29:918][568]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 77334.695312
+[2026.02.19-19.05.30:100][577]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-19.05.30:100][577]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 77334.867188, Update Interval: 351.128265
+[2026.02.19-19.12.16:114][754]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 77767.273438
+[2026.02.19-19.12.16:277][762]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-19.12.16:278][762]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 77767.429688, Update Interval: 302.750336
+[2026.02.19-19.17.50:193][617]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 78122.593750
+[2026.02.19-19.17.50:403][627]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-19.17.50:403][627]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 78122.789062, Update Interval: 306.449158
+[2026.02.19-19.23.51:507][799]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 78507.687500
+[2026.02.19-19.23.51:680][807]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-19.23.51:680][807]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 78507.851562, Update Interval: 333.613708
+[2026.02.19-19.30.22:467][349]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 78923.937500
+[2026.02.19-19.30.22:653][358]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-19.30.22:653][358]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 78924.109375, Update Interval: 301.917175
+[2026.02.19-19.36.21:895][452]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 79306.507812
+[2026.02.19-19.36.22:105][462]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-19.36.22:105][462]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 79306.703125, Update Interval: 342.009338
+[2026.02.19-19.40.40:855][718]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.02.19-19.42.42:929][513]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 79713.367188
+[2026.02.19-19.42.43:098][521]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-19.42.43:098][521]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 79713.523438, Update Interval: 308.734406
+[2026.02.19-19.48.27:896][960]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 80080.273438
+[2026.02.19-19.48.28:065][968]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-19.48.28:065][968]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 80080.437500, Update Interval: 342.108215
+[2026.02.19-19.54.59:227][499]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 80498.898438
+[2026.02.19-19.54.59:401][507]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-19.54.59:401][507]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 80499.062500, Update Interval: 334.527405
+[2026.02.19-20.01.31:023][144]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 80915.093750
+[2026.02.19-20.01.31:315][158]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-20.01.31:315][158]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 80915.390625, Update Interval: 343.091522
+[2026.02.19-20.08.08:314][  7]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 81339.265625
+[2026.02.19-20.08.08:519][ 17]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-20.08.08:519][ 17]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 81339.460938, Update Interval: 346.625580
+[2026.02.19-20.14.48:899][ 59]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 81765.304688
+[2026.02.19-20.14.49:088][ 68]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-20.14.49:089][ 68]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 81765.484375, Update Interval: 333.643005
+[2026.02.19-20.21.09:023][113]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 82170.218750
+[2026.02.19-20.21.09:190][121]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-20.21.09:190][121]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 82170.375000, Update Interval: 327.646118
+[2026.02.19-20.27.25:308][959]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 82570.429688
+[2026.02.19-20.27.25:498][968]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-20.27.25:498][968]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 82570.593750, Update Interval: 317.212433
+[2026.02.19-20.29.29:176][788]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.19-20.29.29:571][788]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.19-20.29.29:629][788]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_AnimationSequencing
+[2026.02.19-20.29.29:718][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086371s)
+[2026.02.19-20.29.29:719][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AnimationSequencing.AnimationSequencing to /Game/Maps/UEDPIE_0_AnimationSequencing.AnimationSequencing (0.089183s)
+[2026.02.19-20.29.30:064][788]LogUObjectHash: Compacting FUObjectHashTables data took  14.06ms
+[2026.02.19-20.29.30:094][788]LogChaosDD: Creating Chaos Debug Draw Scene for world AnimationSequencing
+[2026.02.19-20.29.30:147][788]LogPlayLevel: PIE: World Init took: (0.052382s)
+[2026.02.19-20.29.30:150][788]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2026.02.19-20.29.30:151][788]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.19-20.29.30:151][788]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.19-20.29.30:151][788]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.19-20.29.30:152][788]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.19-20.29.30:152][788]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.19-20.29.30:152][788]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.19-20.29.30:152][788]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.19-20.29.30:153][788]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.19-20.29.30:155][788]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.19-20.29.30:155][788]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.19-20.29.30:155][788]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.19-20.29.30:161][788]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.19-20.29.30:219][788]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.02.19-20.29.30:231][788]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.19-20.29.30:232][788]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.19-20.29.30:233][788]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.19-20.29.30:349][788]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2026.02.19-20.29.30:349][788]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2026.02.19-20.29.30:352][788]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2026.02.19-20.29.30:352][788]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2026.02.19-20.29.30:352][788]LogInit: FAudioDevice initialized with ID 11.
+[2026.02.19-20.29.30:352][788]LogAudio: Display: Audio Device (ID: 11) registered with world 'AnimationSequencing'.
+[2026.02.19-20.29.30:353][788]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2026.02.19-20.29.30:399][788]LogLoad: Game class is 'GameModeBase'
+[2026.02.19-20.29.30:415][788]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AnimationSequencing.AnimationSequencing up for play (max tick rate 0) at 2026.02.19-12.29.30
+[2026.02.19-20.29.30:428][788]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2026.02.19-20.29.30:433][788]LogWorld: Bringing up level for play took: 0.031958
+[2026.02.19-20.29.30:463][788]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2026.02.19-20.29.30:464][788]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2026.02.19-20.29.30:467][788]LogPushModel: PushModel HandleCreation is now enabled
+[2026.02.19-20.29.30:467][788]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.02.19-20.29.30:469][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2026.02.19-20.29.30:469][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2026.02.19-20.29.30:469][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2026.02.19-20.29.30:469][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2026.02.19-20.29.30:469][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2026.02.19-20.29.30:469][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2026.02.19-20.29.30:470][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2026.02.19-20.29.30:470][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2026.02.19-20.29.30:470][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2026.02.19-20.29.30:470][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2026.02.19-20.29.30:470][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2026.02.19-20.29.30:470][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2026.02.19-20.29.30:471][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2026.02.19-20.29.30:471][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2026.02.19-20.29.30:471][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2026.02.19-20.29.30:471][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2026.02.19-20.29.30:471][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2026.02.19-20.29.30:471][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2026.02.19-20.29.30:471][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2026.02.19-20.29.30:471][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2026.02.19-20.29.30:471][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2026.02.19-20.29.30:472][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2026.02.19-20.29.30:472][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2026.02.19-20.29.30:472][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2026.02.19-20.29.30:472][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2026.02.19-20.29.30:472][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2026.02.19-20.29.30:472][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2026.02.19-20.29.30:472][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2026.02.19-20.29.30:472][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2026.02.19-20.29.30:472][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2026.02.19-20.29.30:472][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2026.02.19-20.29.30:472][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2026.02.19-20.29.30:473][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2026.02.19-20.29.30:473][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2026.02.19-20.29.30:473][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2026.02.19-20.29.30:473][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2026.02.19-20.29.30:473][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2026.02.19-20.29.30:473][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2026.02.19-20.29.30:473][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2026.02.19-20.29.30:473][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2026.02.19-20.29.30:474][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2026.02.19-20.29.30:474][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2026.02.19-20.29.30:474][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2026.02.19-20.29.30:474][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2026.02.19-20.29.30:474][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2026.02.19-20.29.30:474][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2026.02.19-20.29.30:474][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2026.02.19-20.29.30:474][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2026.02.19-20.29.30:475][788]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2026.02.19-20.29.30:477][788]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2026.02.19-20.29.30:477][788]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2026.02.19-20.29.30:478][788]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.02.19-20.29.30:479][788]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_9 IpNetDriver listening on port 17777
+[2026.02.19-20.29.30:493][788]PIE: Server logged in
+[2026.02.19-20.29.30:496][788]PIE: Play in editor total start time 1.084 seconds.
+[2026.02.19-20.29.30:597][788]LogAutomationController: Ignoring very large delta of 2.13 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-20.29.36:992][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.19-20.29.36:993][187]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_AnimationSequencing
+[2026.02.19-20.29.36:999][187]LogWorld: UWorld::CleanupWorld for AnimationSequencing, bSessionEnded=true, bCleanupResources=true
+[2026.02.19-20.29.37:001][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.19-20.29.37:008][187]LogNet: World NetDriver shutdown IpNetDriver_9 [GameNetDriver]
+[2026.02.19-20.29.37:008][187]LogNet: DestroyNamedNetDriver IpNetDriver_9 [GameNetDriver]
+[2026.02.19-20.29.37:008][187]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_9 shut down
+[2026.02.19-20.29.37:016][187]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.19-20.29.37:034][187]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.19-20.29.37:127][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.19-20.29.37:128][187]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2026.02.19-20.29.37:129][187]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2026.02.19-20.29.37:137][187]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2026.02.19-20.29.37:164][187]LogUObjectHash: Compacting FUObjectHashTables data took   7.44ms
+[2026.02.19-20.29.37:290][188]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2026.02.19-20.33.24:167][ 36]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 82928.906250
+[2026.02.19-20.33.24:360][ 45]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-20.33.24:360][ 45]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 82929.085938, Update Interval: 337.459045
+[2026.02.19-20.34.45:293][ 58]Cmd: TRANSACTION UNDO
+[2026.02.19-20.34.45:294][ 58]LogEditorTransaction: Undo Delete Keys
+[2026.02.19-20.34.48:258][ 58]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.34.48:644][ 58]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.34.48:727][ 58]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.34.48:953][ 58]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.34.48:981][ 58]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.34.48:990][ 58]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.34.49:016][ 58]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.34.49:051][ 58]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.34.50:621][ 58]LogAutomationController: Ignoring very large delta of 5.33 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-20.37.50:174][124]Cmd: TRANSACTION UNDO
+[2026.02.19-20.37.50:174][124]LogEditorTransaction: Undo Move Control
+[2026.02.19-20.37.52:015][124]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.37.52:177][124]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.37.52:245][124]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.37.52:446][124]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.37.52:465][124]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.37.52:466][124]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.37.52:470][124]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.37.52:476][124]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.37.53:220][124]LogAutomationController: Ignoring very large delta of 3.06 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-20.38.22:856][397]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Marquee Select entirely.
+[2026.02.19-20.38.37:926][ 17]Cmd: TRANSACTION UNDO
+[2026.02.19-20.38.37:926][ 17]LogEditorTransaction: Undo Move Control
+[2026.02.19-20.38.39:844][ 17]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.38.40:024][ 17]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.38.40:094][ 17]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.38.40:297][ 17]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.38.40:314][ 17]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.38.40:316][ 17]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.38.40:319][ 17]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.38.40:325][ 17]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.38.41:122][ 17]LogAutomationController: Ignoring very large delta of 3.20 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-20.39.49:027][890]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 83322.867188
+[2026.02.19-20.39.49:204][898]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-20.39.49:204][898]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 83323.023438, Update Interval: 327.666260
+[2026.02.19-20.40.40:867][250]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.02.19-20.46.11:903][365]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 83724.289062
+[2026.02.19-20.46.12:105][372]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-20.46.12:105][372]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 83724.460938, Update Interval: 300.633575
+[2026.02.19-20.48.47:658][318]Cmd: TRANSACTION UNDO
+[2026.02.19-20.48.47:658][318]LogEditorTransaction: Undo Move Control
+[2026.02.19-20.48.49:506][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.48.49:670][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.48.49:738][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.48.49:936][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.48.49:954][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.48.49:955][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.48.49:958][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.48.49:981][318]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.48.50:738][318]LogAutomationController: Ignoring very large delta of 3.08 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-20.49.33:220][311]Cmd: TRANSACTION UNDO
+[2026.02.19-20.49.33:220][311]LogEditorTransaction: Undo Move Control
+[2026.02.19-20.49.35:070][311]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.49.35:230][311]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.49.35:298][311]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.49.35:496][311]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.49.35:514][311]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.49.35:516][311]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.49.35:519][311]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.49.35:546][311]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.49.36:292][311]LogAutomationController: Ignoring very large delta of 3.07 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-20.51.50:395][245]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 84072.710938
+[2026.02.19-20.51.50:554][252]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-20.51.50:554][252]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 84072.851562, Update Interval: 357.141632
+[2026.02.19-20.52.03:978][860]Cmd: TRANSACTION UNDO
+[2026.02.19-20.52.03:978][860]LogEditorTransaction: Undo Delete Keys
+[2026.02.19-20.52.05:832][860]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.52.05:993][860]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.52.06:058][860]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.52.06:258][860]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.52.06:275][860]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.52.06:277][860]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.52.06:279][860]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.52.06:286][860]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.52.07:042][860]LogAutomationController: Ignoring very large delta of 3.06 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-20.53.21:204][119]Cmd: TRANSACTION UNDO
+[2026.02.19-20.53.21:204][119]LogEditorTransaction: Undo Move Control
+[2026.02.19-20.53.23:058][119]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.53.23:220][119]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.53.23:286][119]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.53.23:482][119]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.53.23:500][119]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.53.23:501][119]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.53.23:505][119]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.53.23:510][119]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-20.53.24:259][119]LogAutomationController: Ignoring very large delta of 3.06 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-20.58.28:228][653]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 84485.546875
+[2026.02.19-20.58.28:397][661]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-20.58.28:398][661]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 84485.695312, Update Interval: 353.061920
+[2026.02.19-21.00.29:838][112]Cmd: TRANSACTION UNDO
+[2026.02.19-21.00.29:839][112]LogEditorTransaction: Undo Paste Keys
+[2026.02.19-21.00.31:683][112]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.31:849][112]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.31:917][112]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.32:115][112]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.32:134][112]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.32:135][112]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.32:138][112]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.32:144][112]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.32:914][112]LogAutomationController: Ignoring very large delta of 3.08 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-21.00.45:087][665]Cmd: TRANSACTION UNDO
+[2026.02.19-21.00.45:087][665]LogEditorTransaction: Undo Delete Keys
+[2026.02.19-21.00.46:959][665]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.47:127][665]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.47:195][665]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.47:390][665]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.47:408][665]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.47:409][665]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.47:412][665]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.47:417][665]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.48:175][665]LogAutomationController: Ignoring very large delta of 3.09 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-21.00.49:300][718]Cmd: TRANSACTION UNDO
+[2026.02.19-21.00.49:300][718]LogEditorTransaction: Undo Delete Keys
+[2026.02.19-21.00.51:087][718]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.51:238][718]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.51:299][718]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.51:483][718]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.51:500][718]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.51:501][718]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.51:505][718]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.51:511][718]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.52:111][718]LogAutomationController: Ignoring very large delta of 2.82 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-21.00.55:227][864]Cmd: TRANSACTION UNDO
+[2026.02.19-21.00.55:227][864]LogEditorTransaction: Undo Move Control
+[2026.02.19-21.00.57:084][864]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.57:232][864]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.57:295][864]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.57:481][864]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.57:498][864]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.57:499][864]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.57:502][864]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.57:508][864]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.00.58:259][864]LogAutomationController: Ignoring very large delta of 3.04 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-21.05.05:546][990]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 84899.078125
+[2026.02.19-21.05.05:745][998]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-21.05.05:745][998]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 84899.242188, Update Interval: 346.349060
+[2026.02.19-21.06.49:677][497]Cmd: TRANSACTION UNDO
+[2026.02.19-21.06.49:677][497]LogEditorTransaction: Undo Move Control
+[2026.02.19-21.06.51:532][497]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.06.51:693][497]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.06.51:760][497]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.06.51:954][497]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.06.51:971][497]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.06.51:973][497]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.06.51:976][497]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.06.52:004][497]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.06.52:760][497]LogAutomationController: Ignoring very large delta of 3.09 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-21.08.10:815][965]Cmd: TRANSACTION UNDO
+[2026.02.19-21.08.10:815][965]LogEditorTransaction: Undo Move Control
+[2026.02.19-21.08.12:660][965]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.08.12:818][965]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.08.12:885][965]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.08.13:085][965]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.08.13:101][965]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.08.13:102][965]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.08.13:105][965]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.08.13:133][965]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-21.08.13:913][965]LogAutomationController: Ignoring very large delta of 3.10 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-21.11.35:300][880]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 85301.320312
+[2026.02.19-21.11.35:501][890]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-21.11.35:501][890]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 85301.507812, Update Interval: 348.984039
+[2026.02.19-21.14.43:251][314]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Marquee Select entirely.
+[2026.02.19-21.17.56:950][516]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 85692.960938
+[2026.02.19-21.17.57:130][525]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-21.17.57:130][525]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 85693.117188, Update Interval: 337.539612
+[2026.02.19-21.24.16:053][268]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 86075.359375
+[2026.02.19-21.24.16:255][278]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-21.24.16:256][278]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 86075.546875, Update Interval: 315.024261
+[2026.02.19-21.30.27:643][928]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 86451.835938
+[2026.02.19-21.30.27:816][935]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-21.30.27:817][936]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 86451.992188, Update Interval: 327.831055
+[2026.02.19-21.36.53:473][443]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 86846.296875
+[2026.02.19-21.36.53:663][449]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-21.36.53:663][449]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 86846.453125, Update Interval: 322.586761
+[2026.02.19-21.37.24:733][826]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Marquee Select entirely.
+[2026.02.19-21.40.40:877][960]LogDerivedDataCache: C:/Users/Fatty Patty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.02.19-21.43.10:763][979]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 87238.820312
+[2026.02.19-21.43.10:953][988]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-21.43.10:953][988]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 87238.992188, Update Interval: 335.726807
+[2026.02.19-21.47.56:551][891]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2026.02.19-21.47.56:581][891]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/AnimationSequencing' took 0.164
+[2026.02.19-21.47.56:584][891]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear] ([1] browsable assets)...
+[2026.02.19-21.47.56:585][891]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear]
+[2026.02.19-21.47.56:633][891]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear_Auto6
+[2026.02.19-21.47.56:634][891]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/LS_AttackSpear_Auto616D18C7F44EEFE87804EE3BD2D06B44E.tmp' to '../../../../../../Unreal Projects/Aura/Saved/Autosaves/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear_Auto6.uasset'
+[2026.02.19-21.47.56:645][891]LogFileHelpers: Auto-saving content packages took 0.065
+[2026.02.19-21.49.41:638][686]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 87636.750000
+[2026.02.19-21.49.41:797][694]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-21.49.41:797][694]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 87636.898438, Update Interval: 321.436798
+[2026.02.19-21.55.57:944][ 56]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 88020.203125
+[2026.02.19-21.55.58:111][ 65]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-21.55.58:111][ 65]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 88020.335938, Update Interval: 358.518616
+[2026.02.19-21.56.07:959][161]LogAutomationController: Ignoring very large delta of 7.39 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-21.56.18:424][639]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-21.56.18:596][639]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear] ([1] browsable assets)...
+[2026.02.19-21.56.18:596][639]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear]
+[2026.02.19-21.56.18:608][639]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear
+[2026.02.19-21.56.18:609][639]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/LS_AttackSpear735EDEB7435EEED54C230E99B2E82CAA.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear.uasset'
+[2026.02.19-21.56.18:623][639]LogFileHelpers: InternalPromptForCheckoutAndSave took 198.756 ms (total: 24.9 sec)
+[2026.02.19-21.56.18:793][639]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-21.56.18:794][639]LogContentValidation: Enabled validators:
+[2026.02.19-21.56.18:794][639]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-21.56.18:795][639]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-21.56.18:795][639]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-21.56.18:795][639]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-21.56.18:795][639]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-21.56.18:795][639]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-21.56.18:801][639]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear Validating asset
+[2026.02.19-22.00.05:160][758]Cmd: TRANSACTION UNDO
+[2026.02.19-22.00.05:161][758]LogEditorTransaction: Undo Delete Keys
+[2026.02.19-22.00.07:229][758]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-22.00.07:414][758]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-22.00.07:490][758]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-22.00.07:701][758]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-22.00.07:720][758]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_26:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-22.00.07:722][758]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-22.00.07:725][758]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-22.00.07:754][758]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_41:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.02.19-22.00.08:713][758]LogAutomationController: Ignoring very large delta of 3.56 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.02.19-22.00.16:333][ 57]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-22.00.16:483][ 57]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear] ([1] browsable assets)...
+[2026.02.19-22.00.16:483][ 57]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear]
+[2026.02.19-22.00.16:495][ 57]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear
+[2026.02.19-22.00.16:496][ 57]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/LS_AttackSpearB67A64FA4BDA95C24739968C30D559FB.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear.uasset'
+[2026.02.19-22.00.16:511][ 57]LogFileHelpers: InternalPromptForCheckoutAndSave took 178.670 ms (total: 25.0 sec)
+[2026.02.19-22.00.16:642][ 57]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-22.00.16:642][ 57]LogContentValidation: Enabled validators:
+[2026.02.19-22.00.16:643][ 57]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-22.00.16:643][ 57]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-22.00.16:643][ 57]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-22.00.16:643][ 57]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-22.00.16:643][ 57]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-22.00.16:643][ 57]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-22.00.16:644][ 57]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear Validating asset
+[2026.02.19-22.02.34:783][ 56]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 88424.531250
+[2026.02.19-22.02.34:995][ 63]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-22.02.34:996][ 63]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 88424.718750, Update Interval: 311.409637
+[2026.02.19-22.04.24:297][827]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Marquee Select entirely.
+[2026.02.19-22.08.17:886][653]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 88774.187500
+[2026.02.19-22.08.18:045][660]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-22.08.18:045][660]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 88774.328125, Update Interval: 312.468018
+[2026.02.19-22.09.32:518][ 67]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-22.09.32:681][ 67]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear] ([1] browsable assets)...
+[2026.02.19-22.09.32:681][ 67]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear]
+[2026.02.19-22.09.32:698][ 67]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear
+[2026.02.19-22.09.32:699][ 67]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/LS_AttackSpear47948F49458B40BDBC53CE87DFCD4FD7.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear.uasset'
+[2026.02.19-22.09.32:711][ 67]LogFileHelpers: InternalPromptForCheckoutAndSave took 193.747 ms (total: 25.2 sec)
+[2026.02.19-22.09.32:846][ 67]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-22.09.32:847][ 67]LogContentValidation: Enabled validators:
+[2026.02.19-22.09.32:847][ 67]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-22.09.32:847][ 67]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-22.09.32:847][ 67]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-22.09.32:847][ 67]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-22.09.32:847][ 67]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-22.09.32:847][ 67]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-22.09.32:849][ 67]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear Validating asset
+[2026.02.19-22.10.27:661][473]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-22.10.27:821][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AnimationSequencing" FILE="../../../../../../Unreal Projects/Aura/Content/Maps/AnimationSequencing.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.02.19-22.10.27:929][473]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.02.19-22.10.27:959][473]LogSavePackage: Moving output files for package: /Game/Maps/AnimationSequencing
+[2026.02.19-22.10.27:959][473]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/AnimationSequencingFC337ED54A5FA955A301EA8E93907C12.tmp' to '../../../../../../Unreal Projects/Aura/Content/Maps/AnimationSequencing.umap'
+[2026.02.19-22.10.28:023][473]LogFileHelpers: Saving map 'AnimationSequencing' took 0.205
+[2026.02.19-22.10.28:032][473]LogFileHelpers: InternalPromptForCheckoutAndSave took 370.419 ms (total: 25.6 sec)
+[2026.02.19-22.10.28:166][473]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-22.10.28:167][473]LogContentValidation: Enabled validators:
+[2026.02.19-22.10.28:167][473]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-22.10.28:167][473]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-22.10.28:167][473]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-22.10.28:167][473]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-22.10.28:167][473]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-22.10.28:167][473]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-22.10.28:168][473]AssetCheck: /Game/Maps/AnimationSequencing Validating asset
+[2026.02.19-22.13.00:495][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.02.19-22.13.00:502][243]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-22.13.00:633][243]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear] ([1] browsable assets)...
+[2026.02.19-22.13.00:633][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear]
+[2026.02.19-22.13.00:644][243]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear
+[2026.02.19-22.13.00:645][243]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/LS_AttackSpear8E1B9FC545BD723009160198BA4712E4.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear.uasset'
+[2026.02.19-22.13.00:655][243]LogFileHelpers: InternalPromptForCheckoutAndSave took 152.686 ms (total: 25.8 sec)
+[2026.02.19-22.13.00:798][243]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-22.13.00:799][243]LogContentValidation: Enabled validators:
+[2026.02.19-22.13.00:799][243]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-22.13.00:799][243]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-22.13.00:799][243]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-22.13.00:799][243]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-22.13.00:799][243]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-22.13.00:799][243]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-22.13.00:801][243]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear Validating asset
+[2026.02.19-22.13.25:788][543]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.19-22.13.25:820][543]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.19-22.13.25:821][543]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_AnimationSequencing
+[2026.02.19-22.13.25:824][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003201s)
+[2026.02.19-22.13.25:824][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AnimationSequencing.AnimationSequencing to /Game/Maps/UEDPIE_0_AnimationSequencing.AnimationSequencing (0.003511s)
+[2026.02.19-22.13.25:850][543]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2026.02.19-22.13.25:853][543]LogChaosDD: Creating Chaos Debug Draw Scene for world AnimationSequencing
+[2026.02.19-22.13.25:857][543]LogPlayLevel: PIE: World Init took: (0.003179s)
+[2026.02.19-22.13.25:859][543]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2026.02.19-22.13.25:860][543]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.19-22.13.25:860][543]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.19-22.13.25:860][543]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.19-22.13.25:861][543]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.19-22.13.25:861][543]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.19-22.13.25:861][543]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.19-22.13.25:861][543]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.19-22.13.25:861][543]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.19-22.13.25:861][543]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.19-22.13.25:861][543]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.19-22.13.25:861][543]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.19-22.13.25:866][543]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.19-22.13.25:918][543]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.02.19-22.13.25:919][543]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.19-22.13.25:919][543]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.19-22.13.25:919][543]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.19-22.13.25:920][543]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2026.02.19-22.13.25:920][543]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2026.02.19-22.13.25:925][543]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2026.02.19-22.13.25:926][543]LogInit: FAudioDevice initialized with ID 12.
+[2026.02.19-22.13.25:926][543]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2026.02.19-22.13.25:926][543]LogAudio: Display: Audio Device (ID: 12) registered with world 'AnimationSequencing'.
+[2026.02.19-22.13.25:926][543]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2026.02.19-22.13.25:936][543]LogLoad: Game class is 'GameModeBase'
+[2026.02.19-22.13.25:938][543]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AnimationSequencing.AnimationSequencing up for play (max tick rate 0) at 2026.02.19-14.13.25
+[2026.02.19-22.13.25:942][543]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2026.02.19-22.13.25:943][543]LogWorld: Bringing up level for play took: 0.006214
+[2026.02.19-22.13.25:945][543]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2026.02.19-22.13.25:945][543]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2026.02.19-22.13.25:946][543]LogPushModel: PushModel HandleCreation is now enabled
+[2026.02.19-22.13.25:946][543]LogNet: InitBase GameNetDriver (NetDriverDefinition GameNetDriver) using replication model Generic
+[2026.02.19-22.13.25:946][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumConnections
+[2026.02.19-22.13.25:946][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Connections
+[2026.02.19-22.13.25:946][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric GatherPrioritizeTimeMS
+[2026.02.19-22.13.25:947][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientAvg
+[2026.02.19-22.13.25:947][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsClientMax
+[2026.02.19-22.13.25:947][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfActiveActors
+[2026.02.19-22.13.25:947][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumberOfFullyDormantActors
+[2026.02.19-22.13.25:947][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumClientUpdateLevelVisibility
+[2026.02.19-22.13.25:947][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumOpenChannels
+[2026.02.19-22.13.25:947][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumReplicateActorCallsPerConAvg
+[2026.02.19-22.13.25:947][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumSkippedObjectEmptyUpdates
+[2026.02.19-22.13.25:947][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric NumTickingChannels
+[2026.02.19-22.13.25:948][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutKBytes
+[2026.02.19-22.13.25:948][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutNetGUIDKBytesSec
+[2026.02.19-22.13.25:948][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientAvg
+[2026.02.19-22.13.25:948][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsClientMax
+[2026.02.19-22.13.25:948][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ReplicateActorTimeMS
+[2026.02.19-22.13.25:948][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SatConnections
+[2026.02.19-22.13.25:948][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric ServerReplicateActorTimeMS
+[2026.02.19-22.13.25:948][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyHit
+[2026.02.19-22.13.25:949][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationPropertyMiss
+[2026.02.19-22.13.25:949][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCHit
+[2026.02.19-22.13.25:949][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric SharedSerializationRPCMiss
+[2026.02.19-22.13.25:949][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutgoingReliableMessageQueueMaxSize
+[2026.02.19-22.13.25:949][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric IncomingReliableMessageQueueMaxSize
+[2026.02.19-22.13.25:949][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsPerFrame
+[2026.02.19-22.13.25:949][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsPerFrame
+[2026.02.19-22.13.25:949][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InLostPacketsFoundPerFrame
+[2026.02.19-22.13.25:949][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutLostPacketsFoundPerFrame
+[2026.02.19-22.13.25:949][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric Ping
+[2026.02.19-22.13.25:949][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InRate
+[2026.02.19-22.13.25:949][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutRate
+[2026.02.19-22.13.25:949][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric AverageJitterInMS
+[2026.02.19-22.13.25:949][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric InPacketsLost
+[2026.02.19-22.13.25:950][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsCSV_Replication for metric OutPacketsLost
+[2026.02.19-22.13.25:950][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumConnections
+[2026.02.19-22.13.25:950][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AvgPing
+[2026.02.19-22.13.25:950][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InBunches
+[2026.02.19-22.13.25:950][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPackets
+[2026.02.19-22.13.25:950][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondAvg
+[2026.02.19-22.13.25:950][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMax
+[2026.02.19-22.13.25:950][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsClientPerSecondMin
+[2026.02.19-22.13.25:950][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InPacketsLost
+[2026.02.19-22.13.25:951][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRate
+[2026.02.19-22.13.25:951][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientAvg
+[2026.02.19-22.13.25:951][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMax
+[2026.02.19-22.13.25:951][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric InRateClientMin
+[2026.02.19-22.13.25:951][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPacketOverhead
+[2026.02.19-22.13.25:951][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MaxPing
+[2026.02.19-22.13.25:951][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric MinPing
+[2026.02.19-22.13.25:952][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric NumClients
+[2026.02.19-22.13.25:952][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric Connections
+[2026.02.19-22.13.25:952][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutBunches
+[2026.02.19-22.13.25:952][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPackets
+[2026.02.19-22.13.25:952][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondAvg
+[2026.02.19-22.13.25:952][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMax
+[2026.02.19-22.13.25:952][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsClientPerSecondMin
+[2026.02.19-22.13.25:952][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutPacketsLost
+[2026.02.19-22.13.25:952][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRate
+[2026.02.19-22.13.25:952][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientAvg
+[2026.02.19-22.13.25:952][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMax
+[2026.02.19-22.13.25:952][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric OutRateClientMin
+[2026.02.19-22.13.25:953][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt0
+[2026.02.19-22.13.25:953][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt1
+[2026.02.19-22.13.25:953][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt2
+[2026.02.19-22.13.25:953][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt3
+[2026.02.19-22.13.25:953][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt4
+[2026.02.19-22.13.25:953][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt5
+[2026.02.19-22.13.25:953][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt6
+[2026.02.19-22.13.25:953][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric PingBucketInt7
+[2026.02.19-22.13.25:953][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric ClosedConnectionsDueToReliableBufferOverflow
+[2026.02.19-22.13.25:953][543]LogNet: Registering network metrics listener /Script/Engine.NetworkMetricsPerfCounters for metric AddedConnections
+[2026.02.19-22.13.25:953][543]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2026.02.19-22.13.25:953][543]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2026.02.19-22.13.25:953][543]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2026.02.19-22.13.25:953][543]LogNet: Name:GameNetDriver Def:GameNetDriver IpNetDriver_10 IpNetDriver listening on port 17777
+[2026.02.19-22.13.25:956][543]PIE: Server logged in
+[2026.02.19-22.13.25:958][543]PIE: Play in editor total start time 0.148 seconds.
+[2026.02.19-22.13.27:436][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.19-22.13.27:436][609]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_AnimationSequencing
+[2026.02.19-22.13.27:437][609]LogWorld: UWorld::CleanupWorld for AnimationSequencing, bSessionEnded=true, bCleanupResources=true
+[2026.02.19-22.13.27:437][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.19-22.13.27:438][609]LogNet: World NetDriver shutdown IpNetDriver_10 [GameNetDriver]
+[2026.02.19-22.13.27:439][609]LogNet: DestroyNamedNetDriver IpNetDriver_10 [GameNetDriver]
+[2026.02.19-22.13.27:439][609]LogExit: Name:GameNetDriver Def:GameNetDriver IpNetDriver_10 shut down
+[2026.02.19-22.13.27:442][609]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.19-22.13.27:461][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.19-22.13.27:488][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.19-22.13.27:489][609]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2026.02.19-22.13.27:490][609]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2026.02.19-22.13.27:494][609]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2026.02.19-22.13.27:505][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.02.19-22.13.27:593][610]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2026.02.19-22.14.01:594][299]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.02.19-22.14.01:734][299]LogContentBrowser: Creating deferred item: NewFolder
+[2026.02.19-22.14.01:755][300]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.02.19-22.14.08:536][620]LogContentBrowser: Attempting asset rename: NewFolder -> ReworkedAnimations
+[2026.02.19-22.14.08:539][620]LogContentBrowser: End creating deferred item NewFolder
+[2026.02.19-22.14.12:636][801]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 89130.523438
+[2026.02.19-22.14.12:793][809]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.19-22.14.12:793][809]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 89130.671875, Update Interval: 349.562683
+[2026.02.19-22.14.19:070][256]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-22.14.19:070][256]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/ReworkedAnimations/SpearAttack_fixed] ([1] browsable assets)...
+[2026.02.19-22.14.19:071][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/ReworkedAnimations/SpearAttack_fixed]
+[2026.02.19-22.14.19:080][256]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/ReworkedAnimations/SpearAttack_fixed
+[2026.02.19-22.14.19:080][256]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/SpearAttack_fixed3E3973B84A45761CAC8708B42B2E3D9C.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/ReworkedAnimations/SpearAttack_fixed.uasset'
+[2026.02.19-22.14.19:208][256]LogFileHelpers: InternalPromptForCheckoutAndSave took 138.889 ms (total: 25.9 sec)
+[2026.02.19-22.14.19:398][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.02.19-22.14.19:431][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.02.19-22.14.19:455][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2026.02.19-22.14.19:571][256]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2026.02.19-22.14.19:571][256]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-22.14.19:571][256]LogContentValidation: Enabled validators:
+[2026.02.19-22.14.19:572][256]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-22.14.19:572][256]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-22.14.19:572][256]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-22.14.19:572][256]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-22.14.19:572][256]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-22.14.19:572][256]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-22.14.19:573][256]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/ReworkedAnimations/SpearAttack_fixed Validating asset
+[2026.02.19-22.14.22:505][475]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.02.19-22.14.22:510][475]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.19-22.14.22:649][475]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear] ([1] browsable assets)...
+[2026.02.19-22.14.22:649][475]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear]
+[2026.02.19-22.14.22:660][475]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear
+[2026.02.19-22.14.22:661][475]LogSavePackage: Moving '../../../../../../Unreal Projects/Aura/Saved/LS_AttackSpear90EC30C343118E9D87A8ED865B21033D.tmp' to '../../../../../../Unreal Projects/Aura/Content/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear.uasset'
+[2026.02.19-22.14.22:668][475]LogFileHelpers: InternalPromptForCheckoutAndSave took 157.975 ms (total: 26.0 sec)
+[2026.02.19-22.14.22:817][475]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.19-22.14.22:818][475]LogContentValidation: Enabled validators:
+[2026.02.19-22.14.22:818][475]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.19-22.14.22:818][475]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.19-22.14.22:818][475]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.19-22.14.22:818][475]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.19-22.14.22:818][475]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.19-22.14.22:818][475]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.19-22.14.22:819][475]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/Sequences/LS_AttackSpear Validating asset
+[2026.02.19-22.14.47:615][285]LogSlate: Window 'Create a New Animation Asset' being destroyed
+[2026.02.19-22.14.48:886][285]LogSlate: Window 'Animation Sequence Options' being destroyed
+[2026.02.19-22.14.48:948][285]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/ReworkedAnimations/Run.Run (Required Memory Estimate: 0.11 MB)
+[2026.02.19-22.14.48:954][285]LogAnimationCompression: Display: Storing compressed animation data for /Game/Blueprints/Character/TestAI_Characters/UndeadGolbinWarrior2/Animation/ReworkedAnimations/Run.Run, at AnimationSequence/5a4e727fa507109b0275f7b9e9b3950829331d49
+[2026.02.19-22.14.49:061][285]LogAutomationController: Ignoring very large delta of 10.21 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
