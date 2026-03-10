@@ -2338,3 +2338,221 @@ An asset already exists at the import location: /Game/Blueprints/Character/TestA
 [2026.03.10-21.57.46:690][552]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1670.662598
 [2026.03.10-21.57.47:693][555]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.03.10-21.57.47:693][555]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1671.331177, Update Interval: 319.259613
+[2026.03.10-21.58.13:583][818]LogSlate: External Image Picker: DecompressImage failed
+[2026.03.10-21.58.44:560][ 85]LogSlate: Window 'Project Settings' being destroyed
+[2026.03.10-21.58.44:567][ 85]LogSlate: Window 'Project Settings' being destroyed
+[2026.03.10-21.58.45:152][119]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2026.03.10-21.58.45:184][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.03.10-21.58.46:333][253]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.10-21.58.46:341][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.10-21.58.46:341][253]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.03.10-21.58.46:350][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009564s)
+[2026.03.10-21.58.46:350][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.009747s)
+[2026.03.10-21.58.46:367][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.03.10-21.58.46:368][253]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.03.10-21.58.46:369][253]LogPlayLevel: PIE: World Init took: (0.001231s)
+[2026.03.10-21.58.46:370][253]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2026.03.10-21.58.46:370][253]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.10-21.58.46:370][253]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.10-21.58.46:371][253]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.10-21.58.46:371][253]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.10-21.58.46:371][253]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.10-21.58.46:371][253]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.10-21.58.46:371][253]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.10-21.58.46:371][253]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.10-21.58.46:371][253]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.10-21.58.46:371][253]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.10-21.58.46:371][253]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.10-21.58.46:373][253]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.10-21.58.46:391][253]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.03.10-21.58.46:391][253]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.10-21.58.46:391][253]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.10-21.58.46:392][253]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.10-21.58.46:392][253]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2026.03.10-21.58.46:392][253]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2026.03.10-21.58.46:394][253]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2026.03.10-21.58.46:394][253]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2026.03.10-21.58.46:394][253]LogInit: FAudioDevice initialized with ID 11.
+[2026.03.10-21.58.46:394][253]LogAudio: Display: Audio Device (ID: 11) registered with world 'StartupMap'.
+[2026.03.10-21.58.46:394][253]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2026.03.10-21.58.46:396][253]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.03.10-21.58.46:401][253]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2026.03.10-14.58.46
+[2026.03.10-21.58.46:402][253]LogWorld: Bringing up level for play took: 0.005748
+[2026.03.10-21.58.46:404][253]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2026.03.10-21.58.46:411][253]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.03.10-21.58.46:411][253]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.03.10-21.58.46:411][253]PIE: Server logged in
+[2026.03.10-21.58.46:412][253]PIE: Play in editor total start time 0.073 seconds.
+[2026.03.10-21.58.51:757][889]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-21.58.51:757][889]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-21.58.51:757][889]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-21.58.51:757][889]LogBlueprintUserMessages: [GA_FireBolt_C_0] X=1057.860 Y=-706.509 Z=109.983
+[2026.03.10-21.58.53:073][ 47]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.10-21.58.53:174][ 59]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-21.58.53:174][ 59]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-21.58.53:174][ 59]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-21.58.53:174][ 59]LogBlueprintUserMessages: [GA_FireBolt_C_1] X=946.644 Y=-719.578 Z=116.509
+[2026.03.10-21.58.54:632][234]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.10-21.58.54:633][234]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.10-21.58.58:755][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.10-21.58.58:755][724]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.03.10-21.58.58:756][724]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.10-21.58.58:757][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.10-21.58.58:760][724]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.10-21.58.58:760][724]LogNiagaraEditor: onPieEnd
+[2026.03.10-21.58.58:761][724]LogNiagaraEditor: onPieEnd
+[2026.03.10-21.58.58:761][724]LogNiagaraEditor: onPieEnd
+[2026.03.10-21.58.58:761][724]LogNiagaraEditor: onPieEnd
+[2026.03.10-21.58.58:761][724]LogNiagaraEditor: onPieEnd
+[2026.03.10-21.58.58:761][724]LogNiagaraEditor: onPieEnd
+[2026.03.10-21.58.58:761][724]LogNiagaraEditor: onPieEnd
+[2026.03.10-21.58.58:771][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.10-21.58.58:785][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.10-21.58.58:786][724]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2026.03.10-21.58.58:786][724]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2026.03.10-21.58.58:788][724]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2026.03.10-21.58.58:796][724]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2026.03.10-21.58.58:846][725]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2026.03.10-21.58.59:247][769]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.10-21.58.59:254][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.10-21.58.59:254][769]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.03.10-21.58.59:264][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009378s)
+[2026.03.10-21.58.59:264][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.009596s)
+[2026.03.10-21.58.59:280][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2026.03.10-21.58.59:282][769]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.03.10-21.58.59:284][769]LogPlayLevel: PIE: World Init took: (0.001226s)
+[2026.03.10-21.58.59:285][769]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2026.03.10-21.58.59:285][769]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.10-21.58.59:285][769]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.10-21.58.59:285][769]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.10-21.58.59:286][769]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.10-21.58.59:286][769]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.10-21.58.59:286][769]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.10-21.58.59:286][769]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.10-21.58.59:286][769]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.10-21.58.59:286][769]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.10-21.58.59:286][769]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.10-21.58.59:286][769]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.10-21.58.59:288][769]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.10-21.58.59:304][769]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.03.10-21.58.59:304][769]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.10-21.58.59:304][769]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.10-21.58.59:304][769]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.10-21.58.59:305][769]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2026.03.10-21.58.59:305][769]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2026.03.10-21.58.59:307][769]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2026.03.10-21.58.59:307][769]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2026.03.10-21.58.59:307][769]LogInit: FAudioDevice initialized with ID 12.
+[2026.03.10-21.58.59:307][769]LogAudio: Display: Audio Device (ID: 12) registered with world 'StartupMap'.
+[2026.03.10-21.58.59:307][769]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2026.03.10-21.58.59:309][769]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.03.10-21.58.59:314][769]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2026.03.10-14.58.59
+[2026.03.10-21.58.59:315][769]LogWorld: Bringing up level for play took: 0.005404
+[2026.03.10-21.58.59:317][769]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2026.03.10-21.58.59:323][769]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.03.10-21.58.59:323][769]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.03.10-21.58.59:324][769]PIE: Server logged in
+[2026.03.10-21.58.59:324][769]PIE: Play in editor total start time 0.072 seconds.
+[2026.03.10-21.59.12:708][370]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-21.59.12:708][370]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-21.59.12:709][370]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-21.59.12:709][370]LogBlueprintUserMessages: [GA_FireBolt_C_0] X=-651.326 Y=-1640.403 Z=109.532
+[2026.03.10-21.59.13:984][523]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.10-21.59.15:342][686]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-21.59.15:343][686]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-21.59.15:343][686]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-21.59.15:343][686]LogBlueprintUserMessages: [GA_FireBolt_C_1] X=-942.211 Y=-1936.764 Z=112.539
+[2026.03.10-21.59.16:560][832]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.10-21.59.18:051][ 11]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-21.59.18:051][ 11]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-21.59.18:051][ 11]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-21.59.18:051][ 11]LogBlueprintUserMessages: [GA_FireBolt_C_2] X=-1346.470 Y=-2086.787 Z=115.073
+[2026.03.10-21.59.19:251][155]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.10-21.59.24:206][744]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.10-21.59.24:206][744]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.03.10-21.59.24:207][744]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.10-21.59.24:208][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.10-21.59.24:211][744]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.10-21.59.24:211][744]LogNiagaraEditor: onPieEnd
+[2026.03.10-21.59.24:211][744]LogNiagaraEditor: onPieEnd
+[2026.03.10-21.59.24:211][744]LogNiagaraEditor: onPieEnd
+[2026.03.10-21.59.24:211][744]LogNiagaraEditor: onPieEnd
+[2026.03.10-21.59.24:211][744]LogNiagaraEditor: onPieEnd
+[2026.03.10-21.59.24:211][744]LogNiagaraEditor: onPieEnd
+[2026.03.10-21.59.24:211][744]LogNiagaraEditor: onPieEnd
+[2026.03.10-21.59.24:220][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.10-21.59.24:235][744]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.10-21.59.24:236][744]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2026.03.10-21.59.24:236][744]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2026.03.10-21.59.24:238][744]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2026.03.10-21.59.24:246][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.03.10-21.59.24:295][745]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2026.03.10-22.00.18:649][ 75]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.10-22.00.18:656][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.10-22.00.18:656][ 75]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.03.10-22.00.18:665][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008983s)
+[2026.03.10-22.00.18:665][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.009160s)
+[2026.03.10-22.00.18:681][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.03.10-22.00.18:684][ 75]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.03.10-22.00.18:685][ 75]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2026.03.10-22.00.18:685][ 75]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2026.03.10-22.00.18:685][ 75]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.10-22.00.18:687][ 75]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.10-22.00.18:687][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.10-22.00.18:687][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.10-22.00.18:687][ 75]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.10-22.00.18:687][ 75]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.10-22.00.18:687][ 75]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.10-22.00.18:687][ 75]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.10-22.00.18:687][ 75]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.10-22.00.18:687][ 75]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.10-22.00.18:687][ 75]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.10-22.00.18:689][ 75]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.10-22.00.18:704][ 75]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.03.10-22.00.18:705][ 75]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.10-22.00.18:705][ 75]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.10-22.00.18:705][ 75]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.10-22.00.18:705][ 75]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2026.03.10-22.00.18:705][ 75]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2026.03.10-22.00.18:708][ 75]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2026.03.10-22.00.18:708][ 75]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2026.03.10-22.00.18:708][ 75]LogInit: FAudioDevice initialized with ID 13.
+[2026.03.10-22.00.18:708][ 75]LogAudio: Display: Audio Device (ID: 13) registered with world 'StartupMap'.
+[2026.03.10-22.00.18:708][ 75]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2026.03.10-22.00.18:710][ 75]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.03.10-22.00.18:714][ 75]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2026.03.10-15.00.18
+[2026.03.10-22.00.18:715][ 75]LogWorld: Bringing up level for play took: 0.005236
+[2026.03.10-22.00.18:717][ 75]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2026.03.10-22.00.18:723][ 75]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.03.10-22.00.18:723][ 75]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.03.10-22.00.18:723][ 75]PIE: Server logged in
+[2026.03.10-22.00.18:724][ 75]PIE: Play in editor total start time 0.069 seconds.
+[2026.03.10-22.00.21:260][375]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-22.00.21:260][375]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-22.00.21:260][375]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-22.00.21:260][375]LogBlueprintUserMessages: [GA_FireBolt_C_0] X=1697.125 Y=-511.276 Z=117.479
+[2026.03.10-22.00.22:735][552]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.10-22.00.27:284][ 98]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-22.00.27:285][ 98]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-22.00.27:285][ 98]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (FGameplayEffectModifierMagnitude::AttemptCalculateMagnitude from effect Default__GE_Cost_FireBolt_C).
+[2026.03.10-22.00.27:285][ 98]LogBlueprintUserMessages: [GA_FireBolt_C_1] X=1036.196 Y=-708.298 Z=84.941
+[2026.03.10-22.00.28:877][289]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.10-22.00.34:499][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.10-22.00.34:499][961]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.03.10-22.00.34:499][961]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.10-22.00.34:501][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.10-22.00.34:503][961]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.10-22.00.34:503][961]LogNiagaraEditor: onPieEnd
+[2026.03.10-22.00.34:504][961]LogNiagaraEditor: onPieEnd
+[2026.03.10-22.00.34:504][961]LogNiagaraEditor: onPieEnd
+[2026.03.10-22.00.34:504][961]LogNiagaraEditor: onPieEnd
+[2026.03.10-22.00.34:504][961]LogNiagaraEditor: onPieEnd
+[2026.03.10-22.00.34:504][961]LogNiagaraEditor: onPieEnd
+[2026.03.10-22.00.34:504][961]LogNiagaraEditor: onPieEnd
+[2026.03.10-22.00.34:514][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.10-22.00.34:528][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.10-22.00.34:529][961]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2026.03.10-22.00.34:529][961]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2026.03.10-22.00.34:531][961]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2026.03.10-22.00.34:538][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2026.03.10-22.00.34:584][962]LogPlayLevel: Display: Destroying online subsystem :Context_38
