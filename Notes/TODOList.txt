@@ -31,6 +31,12 @@ Gameplay Abilities:
 - Placeable energy becon ability that rotates in a 360 for x number of seconds doing damage to any enemy hit by the beam
 
 - Passive: Arcane shards have a chance to ensnare enemies. While ensnared Arcane explosion splinters have a 100% chance to crit. Or all Arcane abilities have a 100% chance to crit.
+
+- Mobility Abilities:
+	Fire: Teleport to an area and cause a fire blast to enemies in radius and knock them back
+		Incentivize player to teleport into the middle of the action. Maybe the more enemies you blast back you get some sort of buff
+	Lightning: Teleport to a location and spawn a chain of lightning that causes lightning blast in trail between locations
+	Arcane (still figuring this one out): Maybe turn into a mass of particles for x amount of time, gain extra speed, and any cause debuff and damage to enemies you touch. Also paint the map with some sort of debuff gas that stays for x amount of time (kind of like the gas that appears after a mine explodes). 
 	
 	
 Niagara Effect Ideas:
@@ -49,6 +55,14 @@ Enhancements:
 - Renaming abilities with better names
 - Better icons
 - Better sound effects
+- Refactor EventGraph logic of BP_BattleMage into parent class (AuraCharacter), so that it doesn't have to beam
+  reimplemented every time a new character BP is made
+-- Or, do some other type of refactoring so that this logic can be shared between new player characters
+
+Ideas for Enemies:
+- Some type of enemy that increases the speed of other enemies in its radius (kind of like Lucio)
+-- Make him a flying enemy so that he can be reasonably targeted
+-- Maybe he shoots projectiles
 	
 	
 BUGS:
