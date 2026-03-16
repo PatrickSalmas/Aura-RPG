@@ -94,6 +94,7 @@ public:
 	FGameplayTag Abilities_Lightning_Electrocute;
 	FGameplayTag Abilities_Lightning_ElectricSurge;
 	FGameplayTag Abilities_Lightning_ElectricDomination;
+	FGameplayTag Abilities_Lightning_LightningStep;
 	FGameplayTag Abilities_Arcane_ArcaneShards;
 	FGameplayTag Abilities_Arcane_ArcaneExplosion;
 	FGameplayTag Abilities_Arcane_ArcaneMine;
