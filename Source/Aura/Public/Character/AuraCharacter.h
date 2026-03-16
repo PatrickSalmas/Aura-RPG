@@ -53,6 +53,21 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TObjectPtr<USpringArmComponent> CameraBoom;
+	
+	/*
+	 * Character animations and montages
+	 */ 
+	UPROPERTY(Category="Animations", EditDefaultsOnly, BlueprintReadOnly)
+	UAnimMontage* FireBoltMontage;
+	
+	UPROPERTY(Category="Animations", EditDefaultsOnly, BlueprintReadOnly)
+	UAnimMontage* FlameFlurryMontage;
+	
+	UPROPERTY(Category="Animations", EditDefaultsOnly, BlueprintReadOnly)
+	UAnimMontage* ArcaneShardsMontage;
+	
+	UPROPERTY(Category="Animations", EditDefaultsOnly, BlueprintReadOnly)
+	UAnimMontage* ElectrocuteMontage;
 
 private:
 
