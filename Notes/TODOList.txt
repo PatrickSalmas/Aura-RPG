@@ -59,7 +59,6 @@ Enhancements:
   reimplemented every time a new character BP is made
 -- Or, do some other type of refactoring so that this logic can be shared between new player characters
 - Going to need to remake HitReact animation from scratch for BattleMage
-- Refactor abilities so that the animations aren't 'hardcoded' in. They need to look at the character blueprint and then get the respective animation
 - Create some sort of automatic pull/gravity for item pickups (potions) toward play, only if player needs that resource
 - Don't allow player to pick up potions/items they don't need
 
