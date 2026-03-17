@@ -58,6 +58,8 @@ AAuraCharacterBase::AAuraCharacterBase()
 	LifeSiphonNiagaraComponent->SetupAttachment(EffectAttachComponent);
 	ManaSiphonNiagaraComponent = CreateDefaultSubobject<UPassiveNiagaraComponent>("ManaSiphonNiagaraComponent");
 	ManaSiphonNiagaraComponent->SetupAttachment(EffectAttachComponent);
+	
+	GetCapsuleComponent()->ComponentTags.Add("CollisionCapsule");
 }
 
 void AAuraCharacterBase::Tick(float DeltaTime)
