@@ -4424,3 +4424,843 @@ FPackageName: Unable to identify a valid mount point associated with skipped pac
 [2026.03.19-22.40.46:594][638]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2828.238770
 [2026.03.19-22.40.47:594][641]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.03.19-22.40.47:594][641]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2828.905273, Update Interval: 355.017548
+[2026.03.19-22.42.25:856][491]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.19-22.42.25:866][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.19-22.42.25:866][491]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.03.19-22.42.25:877][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010813s)
+[2026.03.19-22.42.25:877][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.010987s)
+[2026.03.19-22.42.25:893][491]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2026.03.19-22.42.25:896][491]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.03.19-22.42.25:897][491]LogPlayLevel: PIE: World Init took: (0.001151s)
+[2026.03.19-22.42.25:897][491]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2026.03.19-22.42.25:897][491]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.19-22.42.25:897][491]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.19-22.42.25:897][491]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.19-22.42.25:897][491]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.19-22.42.25:897][491]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.19-22.42.25:897][491]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.19-22.42.25:897][491]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.19-22.42.25:897][491]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.19-22.42.25:897][491]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.19-22.42.25:899][491]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.19-22.42.25:899][491]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.19-22.42.25:901][491]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.19-22.42.25:916][491]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.03.19-22.42.25:917][491]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.19-22.42.25:917][491]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.19-22.42.25:917][491]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.19-22.42.25:917][491]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2026.03.19-22.42.25:917][491]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2026.03.19-22.42.25:919][491]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2026.03.19-22.42.25:919][491]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2026.03.19-22.42.25:920][491]LogInit: FAudioDevice initialized with ID 24.
+[2026.03.19-22.42.25:920][491]LogAudio: Display: Audio Device (ID: 24) registered with world 'StartupMap'.
+[2026.03.19-22.42.25:920][491]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2026.03.19-22.42.25:922][491]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.03.19-22.42.25:928][491]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.03.19-15.42.25
+[2026.03.19-22.42.25:929][491]LogWorld: Bringing up level for play took: 0.007707
+[2026.03.19-22.42.25:931][491]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2026.03.19-22.42.25:938][491]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.03.19-22.42.25:938][491]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.03.19-22.42.25:938][491]PIE: Server logged in
+[2026.03.19-22.42.25:939][491]PIE: Play in editor total start time 0.074 seconds.
+[2026.03.19-22.42.33:465][942]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.33:465][942]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.33:466][942]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.33:466][942]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.33:466][942]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.35:615][ 71]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.35:615][ 71]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.35:616][ 71]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.38:365][236]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.38:366][236]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.38:366][236]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.39:682][315]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.41:865][446]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.41:865][446]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.41:865][446]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.41:865][446]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.41:865][446]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.41:866][446]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.41:866][446]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.41:866][446]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.46:236][708]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.46:236][708]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.46:236][708]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.49:403][898]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.49:403][898]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.49:403][898]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.49:403][898]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.49:403][898]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.49:403][898]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.49:404][898]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.51:703][ 36]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.53:954][171]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.42.55:611][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.19-22.42.55:611][268]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.03.19-22.42.55:612][268]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.19-22.42.55:614][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.19-22.42.55:617][268]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.19-22.42.55:623][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.19-22.42.55:638][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.19-22.42.55:639][268]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2026.03.19-22.42.55:639][268]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2026.03.19-22.42.55:641][268]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2026.03.19-22.42.55:649][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.03.19-22.42.55:696][269]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2026.03.19-22.42.58:064][410]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.03.19-22.42.58:068][410]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.19-22.42.58:115][410]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Effects/FlameRupture/NS_FlameRupture] ([1] browsable assets)...
+[2026.03.19-22.42.58:115][410]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Effects/FlameRupture/NS_FlameRupture]
+[2026.03.19-22.42.58:240][410]LogSavePackage: Moving output files for package: /Game/Assets/Effects/FlameRupture/NS_FlameRupture
+[2026.03.19-22.42.58:240][410]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/NS_FlameRuptureF07B2A71452FE267149B078F26D57578.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/Effects/FlameRupture/NS_FlameRupture.uasset'
+[2026.03.19-22.42.58:245][410]LogFileHelpers: InternalPromptForCheckoutAndSave took 176.987 ms (total: 4.96 sec)
+[2026.03.19-22.42.58:279][410]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.19-22.42.58:279][410]LogContentValidation: Enabled validators:
+[2026.03.19-22.42.58:279][410]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.19-22.42.58:279][410]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.19-22.42.58:279][410]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.19-22.42.58:280][410]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.19-22.42.58:280][410]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.19-22.42.58:280][410]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.19-22.42.58:280][410]AssetCheck: /Game/Assets/Effects/FlameRupture/NS_FlameRupture Validating asset
+[2026.03.19-22.43.52:911][686]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.19-22.43.52:920][686]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.19-22.43.52:920][686]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.03.19-22.43.52:930][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010482s)
+[2026.03.19-22.43.52:931][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.010640s)
+[2026.03.19-22.43.52:947][686]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.03.19-22.43.52:949][686]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.03.19-22.43.52:950][686]LogPlayLevel: PIE: World Init took: (0.001335s)
+[2026.03.19-22.43.52:951][686]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2026.03.19-22.43.52:951][686]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.19-22.43.52:951][686]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.19-22.43.52:951][686]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.19-22.43.52:951][686]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.19-22.43.52:951][686]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.19-22.43.52:951][686]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.19-22.43.52:951][686]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.19-22.43.52:951][686]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.19-22.43.52:951][686]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.19-22.43.52:951][686]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.19-22.43.52:951][686]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.19-22.43.52:954][686]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.19-22.43.52:969][686]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.03.19-22.43.52:969][686]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.19-22.43.52:969][686]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.19-22.43.52:969][686]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.19-22.43.52:970][686]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2026.03.19-22.43.52:970][686]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2026.03.19-22.43.52:971][686]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2026.03.19-22.43.52:971][686]LogInit: FAudioDevice initialized with ID 25.
+[2026.03.19-22.43.52:971][686]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2026.03.19-22.43.52:971][686]LogAudio: Display: Audio Device (ID: 25) registered with world 'StartupMap'.
+[2026.03.19-22.43.52:971][686]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2026.03.19-22.43.52:974][686]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.03.19-22.43.52:980][686]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.03.19-15.43.52
+[2026.03.19-22.43.52:982][686]LogWorld: Bringing up level for play took: 0.007547
+[2026.03.19-22.43.52:983][686]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2026.03.19-22.43.52:990][686]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.03.19-22.43.52:990][686]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.03.19-22.43.52:990][686]PIE: Server logged in
+[2026.03.19-22.43.52:991][686]PIE: Play in editor total start time 0.072 seconds.
+[2026.03.19-22.44.00:633][144]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.00:633][144]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.00:633][144]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.03:849][337]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.03:849][337]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.03:849][337]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.07:133][534]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.07:133][534]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.07:133][534]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.12:450][853]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Abilities/Shock/sfx_Shock.sfx_Shock' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.03.19-22.44.12:686][867]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Abilities/Shock/sfx_ShockLoop.sfx_ShockLoop' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.03.19-22.44.13:767][932]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.13:867][938]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.13:967][944]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.14:070][950]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.14:167][956]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.14:267][962]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.14:367][968]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.14:417][971]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.15:050][  9]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.15:050][  9]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.15:050][  9]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.15:051][  9]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.19:000][246]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.19:000][246]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.20:050][309]LogActor: Warning: BP_MagicCircle_C /Game/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.BP_MagicCircle_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2026.03.19-22.44.23:917][541]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.27:618][763]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.28:635][824]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.29:617][883]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.29:635][884]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetLivePlayersWithinRadius_OutOverlappingActors' of length 0 in '/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricDomination/GA_ElectricDomination.GA_ElectricDomination_C:ExecuteUbergraph_GA_ElectricDomination'!
+[2026.03.19-22.44.29:635][884]LogScript: Warning: Script Msg called by: GA_ElectricDomination_C /Game/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.BP_AuraPlayerState_C_0.GA_ElectricDomination_C_0
+[2026.03.19-22.44.30:117][913]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.31:017][967]LogCharacterMovement: BP_UndeadGoblin_C_1 is stuck and failed to move! Velocity: X=-7.78 Y=-33.23 Z=0.00 Location: X=2078.28 Y=200.08 Z=71.54 Normal: X=0.63 Y=0.77 Z=0.00 PenetrationDepth:37.794 Actor:BP_UndeadGoblin_C_6 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2026.03.19-22.44.31:617][  3]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.31:617][  3]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.31:617][  3]LogScript: Warning: Attempted to access AudioComponent_0 via property AbilityAudio, but AudioComponent_0 is not valid (pending kill or garbage)
+	GA_ElectricDomination_C /Game/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.BP_AuraPlayerState_C_0.GA_ElectricDomination_C_0
+	Function /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricDomination/GA_ElectricDomination.GA_ElectricDomination_C:PrepareEndAbility:0370
+[2026.03.19-22.44.31:618][  3]PIE: Error: Blueprint Runtime Error: "Attempted to access AudioComponent_0 via property AbilityAudio, but AudioComponent_0 is not valid (pending kill or garbage)". Node:  Stop Graph:  PrepareEndAbility Function:  Prepare End Ability Blueprint:  GA_ElectricDomination
+[2026.03.19-22.44.32:351][ 47]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.34:067][150]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.35:084][211]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.36:067][270]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.36:567][300]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.37:084][331]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.38:067][390]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.38:068][390]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.38:068][390]LogScript: Warning: Attempted to access AudioComponent_1 via property AbilityAudio, but AudioComponent_1 is not valid (pending kill or garbage)
+	GA_ElectricDomination_C /Game/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.BP_AuraPlayerState_C_0.GA_ElectricDomination_C_1
+	Function /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricDomination/GA_ElectricDomination.GA_ElectricDomination_C:PrepareEndAbility:0370
+[2026.03.19-22.44.38:068][390]PIE: Error: Blueprint Runtime Error: "Attempted to access AudioComponent_1 via property AbilityAudio, but AudioComponent_1 is not valid (pending kill or garbage)". Node:  Stop Graph:  PrepareEndAbility Function:  Prepare End Ability Blueprint:  GA_ElectricDomination
+[2026.03.19-22.44.38:068][390]LogScript: Warning: Attempted to access AudioComponent_1 via property AbilityAudio, but AudioComponent_1 is not valid (pending kill or garbage)
+	GA_ElectricDomination_C /Game/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.BP_AuraPlayerState_C_0.GA_ElectricDomination_C_1
+	Function /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricDomination/GA_ElectricDomination.GA_ElectricDomination_C:PrepareEndAbility:0370
+[2026.03.19-22.44.38:068][390]PIE: Error: Blueprint Runtime Error: "Attempted to access AudioComponent_1 via property AbilityAudio, but AudioComponent_1 is not valid (pending kill or garbage)". Node:  Stop Graph:  PrepareEndAbility Function:  Prepare End Ability Blueprint:  GA_ElectricDomination
+[2026.03.19-22.44.38:568][420]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.40:168][516]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.40:168][516]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.40:168][516]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.40:168][516]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.40:168][516]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.40:168][516]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.40:168][516]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.40:168][516]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.40:168][516]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.41:250][581]LogBlueprintUserMessages: [GA_FlameRupture_C_0] Flame Rupture!
+[2026.03.19-22.44.41:251][581]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Actors Overlapped: 5
+[2026.03.19-22.44.41:251][581]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Damage Target: BP_UndeadGoblin4
+[2026.03.19-22.44.41:252][581]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Damage Target: BP_UndeadGoblin3
+[2026.03.19-22.44.41:252][581]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Damage Target: BP_UndeadGoblin
+[2026.03.19-22.44.41:252][581]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Damage Target: BP_UndeadGoblin6
+[2026.03.19-22.44.41:253][581]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Damage Target: BP_UndeadGoblin2
+[2026.03.19-22.44.42:234][640]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.42:234][640]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.42:235][640]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.42:235][640]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.42:235][640]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.44:156][755]LogBlueprintUserMessages: [GA_FlameRupture_C_1] Flame Rupture!
+[2026.03.19-22.44.44:157][755]LogBlueprintUserMessages: [BP_FlameBlast_C_1] Actors Overlapped: 3
+[2026.03.19-22.44.44:157][755]LogBlueprintUserMessages: [BP_FlameBlast_C_1] Damage Target: BP_UndeadGoblin
+[2026.03.19-22.44.44:158][755]LogBlueprintUserMessages: [BP_FlameBlast_C_1] Damage Target: BP_UndeadGoblin2
+[2026.03.19-22.44.44:158][755]LogBlueprintUserMessages: [BP_FlameBlast_C_1] Damage Target: BP_UndeadGoblin5
+[2026.03.19-22.44.45:139][814]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.45:139][814]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.45:139][814]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.46:007][866]LogBlueprintUserMessages: [GA_FlameRupture_C_2] Flame Rupture!
+[2026.03.19-22.44.46:007][866]LogBlueprintUserMessages: [BP_FlameBlast_C_2] Actors Overlapped: 2
+[2026.03.19-22.44.46:008][866]LogBlueprintUserMessages: [BP_FlameBlast_C_2] Damage Target: BP_UndeadGoblin3
+[2026.03.19-22.44.46:008][866]LogBlueprintUserMessages: [BP_FlameBlast_C_2] Damage Target: BP_UndeadGoblin4
+[2026.03.19-22.44.46:989][925]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.46:989][925]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-22.44.48:566][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.19-22.44.48:566][ 18]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.03.19-22.44.48:567][ 18]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.19-22.44.48:569][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.19-22.44.48:569][ 18]LogAbilitySystem: Display:   GameplayCueNotify Class 'GC_ShockLoop_C' was used simultaneously 1 times. The CDO default is only 0 preallocated instances.
+[2026.03.19-22.44.48:569][ 18]LogAbilitySystem: Display:   GameplayCueNotify Class 'GC_ElectricDominationShockLoop_C' was used simultaneously 2 times. The CDO default is only 0 preallocated instances.
+[2026.03.19-22.44.48:571][ 18]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.19-22.44.48:578][ 18]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.19-22.44.48:593][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.19-22.44.48:594][ 18]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2026.03.19-22.44.48:594][ 18]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2026.03.19-22.44.48:596][ 18]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2026.03.19-22.44.48:603][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.03.19-22.44.48:733][ 19]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2026.03.19-22.44.59:495][648]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricDomination/GA_ElectricDomination.GA_ElectricDomination
+[2026.03.19-22.44.59:495][648]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2026.03.19-22.45.57:781][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.03.19-22.45.57:790][ 83]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.19-22.45.57:837][ 83]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricDomination/GA_ElectricDomination] ([2] browsable assets)...
+[2026.03.19-22.45.57:837][ 83]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricDomination/GA_ElectricDomination]
+[2026.03.19-22.45.57:856][ 83]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricDomination/GA_ElectricDomination
+[2026.03.19-22.45.57:856][ 83]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/GA_ElectricDomination7407424849DEE6954D00888F61440371.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricDomination/GA_ElectricDomination.uasset'
+[2026.03.19-22.45.57:864][ 83]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.835 ms (total: 5.04 sec)
+[2026.03.19-22.45.57:917][ 83]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.19-22.45.57:917][ 83]LogContentValidation: Enabled validators:
+[2026.03.19-22.45.57:917][ 83]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.19-22.45.57:917][ 83]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.19-22.45.57:917][ 83]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.19-22.45.57:917][ 83]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.19-22.45.57:917][ 83]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.19-22.45.57:917][ 83]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.19-22.45.57:918][ 83]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricDomination/GA_ElectricDomination Validating asset
+[2026.03.19-22.46.06:128][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2026.03.19-22.46.06:133][566]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.19-22.46.06:186][566]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricDomination/GA_ElectricDomination] ([2] browsable assets)...
+[2026.03.19-22.46.06:186][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricDomination/GA_ElectricDomination]
+[2026.03.19-22.46.06:204][566]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricDomination/GA_ElectricDomination
+[2026.03.19-22.46.06:205][566]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/GA_ElectricDomination832CF23F4E3BC23674A1D0BE8721D501.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricDomination/GA_ElectricDomination.uasset'
+[2026.03.19-22.46.06:209][566]LogFileHelpers: InternalPromptForCheckoutAndSave took 77.185 ms (total: 5.11 sec)
+[2026.03.19-22.46.06:269][566]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.19-22.46.06:269][566]LogContentValidation: Enabled validators:
+[2026.03.19-22.46.06:269][566]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.19-22.46.06:269][566]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.19-22.46.06:269][566]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.19-22.46.06:269][566]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.19-22.46.06:269][566]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.19-22.46.06:269][566]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.19-22.46.06:269][566]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Lightning/ElectricDomination/GA_ElectricDomination Validating asset
+[2026.03.19-22.46.08:589][704]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.03.19-22.47.20:702][265]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3222.314697
+[2026.03.19-22.47.21:701][268]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.19-22.47.21:701][268]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3222.981445, Update Interval: 308.928497
+[2026.03.19-22.53.27:423][365]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3589.036377
+[2026.03.19-22.53.28:423][368]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.19-22.53.28:423][368]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3589.702881, Update Interval: 346.151306
+[2026.03.19-22.55.30:927][736]LogDerivedDataCache: C:/Users/psalm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.03.19-22.57.29:625][196]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2026.03.19-22.57.29:625][196]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.19-22.57.29:688][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.03.19-22.57.37:924][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.03.19-22.57.37:929][689]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.19-22.57.37:981][689]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Fire/FlameRupture/BP_FlameBlast] ([2] browsable assets)...
+[2026.03.19-22.57.37:981][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Fire/FlameRupture/BP_FlameBlast]
+[2026.03.19-22.57.37:988][689]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Fire/FlameRupture/BP_FlameBlast
+[2026.03.19-22.57.37:988][689]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_FlameBlast94112B7A4759EA360D88F4991EB86908.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Fire/FlameRupture/BP_FlameBlast.uasset'
+[2026.03.19-22.57.37:997][689]LogFileHelpers: InternalPromptForCheckoutAndSave took 68.364 ms (total: 5.18 sec)
+[2026.03.19-22.57.38:047][689]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.19-22.57.38:047][689]LogContentValidation: Enabled validators:
+[2026.03.19-22.57.38:047][689]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.19-22.57.38:047][689]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.19-22.57.38:047][689]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.19-22.57.38:047][689]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.19-22.57.38:047][689]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.19-22.57.38:047][689]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.19-22.57.38:048][689]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Fire/FlameRupture/BP_FlameBlast Validating asset
+[2026.03.19-22.57.50:296][406]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.03.19-22.57.50:302][406]LogContentBrowser: Creating deferred item: NewFolder
+[2026.03.19-22.57.50:315][407]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.03.19-22.58.54:345][249]LogContentBrowser: Attempting asset rename: NewFolder -> FlameRupture
+[2026.03.19-22.58.54:345][249]LogContentBrowser: End creating deferred item NewFolder
+[2026.03.19-22.59.02:349][724]LogStreaming: Display: FlushAsyncLoading(475): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.19-22.59.02:351][724]LogMetaSound: Display: Resave recommended: Asset 'sfx_Template_multi' at '/Game/Assets/Sounds/sfx_Template_multi.sfx_Template_multi' successfully migrated editor data in target document version 'v1.12'.
+[2026.03.19-22.59.42:285][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.03.19-22.59.42:290][ 23]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/StartupMap' took 0.024
+[2026.03.19-22.59.42:291][ 23]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Sounds/Abilities/FlameRupture/sfx_Template_multi] ([1] browsable assets)...
+[2026.03.19-22.59.42:291][ 23]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Abilities/FlameRupture/sfx_Template_multi]
+[2026.03.19-22.59.42:300][ 23]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/Sounds/Abilities/FlameRupture/sfx_Template_multi_Auto2
+[2026.03.19-22.59.42:300][ 23]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/sfx_Template_multi_Auto22251A32342E4819FEF7E299BA62A5F19.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/Autosaves/Game/Assets/Sounds/Abilities/FlameRupture/sfx_Template_multi_Auto2.uasset'
+[2026.03.19-22.59.42:300][ 23]LogFileHelpers: Auto-saving content packages took 0.010
+[2026.03.19-22.59.52:558][ 54]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3974.180176
+[2026.03.19-22.59.53:559][ 57]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.19-22.59.53:559][ 57]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3974.846680, Update Interval: 326.660980
+[2026.03.19-22.59.56:243][161]LogStreaming: Display: FlushAsyncLoading(476): 1 QueuedPackages, 0 AsyncPackages
+[2026.03.19-23.00.01:302][161]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 ../../../../../../Users/psalm/Downloads/flame-rupture-1.mp3)
+[2026.03.19-23.00.01:308][161]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave flame-rupture-1...
+[2026.03.19-23.00.01:312][161]LogAudioDerivedData: Display: flame-rupture-1 compressed to 22.20% (from 202KB to 44KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.19-23.00.01:312][161]LogAudio: Display: Chunk stats for (SoundWave /Game/Assets/Sounds/Abilities/FlameRupture/flame-rupture-1.flame-rupture-1: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=46031 bytes, ChunkN=0)
+[2026.03.19-23.00.01:313][161]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave flame-rupture-1...
+[2026.03.19-23.00.01:317][161]LogAudioDerivedData: Display: flame-rupture-1 compressed to 22.20% (from 202KB to 44KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.03.19-23.00.01:317][161]LogAudio: Display: Chunk stats for (SoundWave /Game/Assets/Sounds/Abilities/FlameRupture/flame-rupture-1.flame-rupture-1: Duration=0.00 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=46031 bytes, ChunkN=0)
+[2026.03.19-23.00.01:323][161]LogAutomationController: Ignoring very large delta of 5.10 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.03.19-23.00.02:412][226]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.03.19-23.00.02:416][226]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.19-23.00.02:467][226]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Sounds/Abilities/FlameRupture/sfx_Template_multi] ([1] browsable assets)...
+[2026.03.19-23.00.02:467][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Abilities/FlameRupture/sfx_Template_multi]
+[2026.03.19-23.00.02:475][226]LogSavePackage: Moving output files for package: /Game/Assets/Sounds/Abilities/FlameRupture/sfx_Template_multi
+[2026.03.19-23.00.02:476][226]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/sfx_Template_multi0B9431AE4AC55BEA433D26975FA8D8E7.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/Sounds/Abilities/FlameRupture/sfx_Template_multi.uasset'
+[2026.03.19-23.00.02:477][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Sounds/Abilities/FlameRupture/flame-rupture-1] ([1] browsable assets)...
+[2026.03.19-23.00.02:479][226]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Assets/Sounds/Abilities/FlameRupture/flame-rupture-1.flame-rupture-1]
+[2026.03.19-23.00.02:479][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Abilities/FlameRupture/flame-rupture-1]
+[2026.03.19-23.00.02:481][226]LogSavePackage: Moving output files for package: /Game/Assets/Sounds/Abilities/FlameRupture/flame-rupture-1
+[2026.03.19-23.00.02:481][226]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/flame-rupture-1C7C5CB26431237EF73E81BB04A79A892.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/Sounds/Abilities/FlameRupture/flame-rupture-1.uasset'
+[2026.03.19-23.00.02:489][226]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.708 ms (total: 5.26 sec)
+[2026.03.19-23.00.02:550][226]LogContentValidation: Display: Starting to validate 2 assets
+[2026.03.19-23.00.02:550][226]LogContentValidation: Enabled validators:
+[2026.03.19-23.00.02:550][226]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.19-23.00.02:550][226]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.19-23.00.02:550][226]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.19-23.00.02:550][226]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.19-23.00.02:552][226]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.19-23.00.02:552][226]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.19-23.00.02:552][226]AssetCheck: /Game/Assets/Sounds/Abilities/FlameRupture/sfx_Template_multi Validating asset
+[2026.03.19-23.00.02:552][226]AssetCheck: /Game/Assets/Sounds/Abilities/FlameRupture/flame-rupture-1 Validating asset
+[2026.03.19-23.00.03:295][270]LogAssetEditorSubsystem: Opening Asset editor for MetaSoundSource /Game/Assets/Sounds/Abilities/FlameRupture/sfx_Template_multi.sfx_Template_multi
+[2026.03.19-23.00.03:305][270]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Abilities/FireBolt/sfx_FireBolt_Impact.sfx_FireBolt_Impact' node class 'UE.Wave Player.Mono (v1.0)': Interface change detected.
+[2026.03.19-23.00.03:305][270]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Abilities/FireBolt/sfx_FireBoltHiss.sfx_FireBoltHiss' node class 'UE.Wave Player.Mono (v1.0)': Interface change detected.
+[2026.03.19-23.00.03:307][270]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/FootSteps/sfx_Footsteps.sfx_Footsteps' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.03.19-23.00.03:308][270]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/sfx_Template_multi.sfx_Template_multi' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.03.19-23.00.03:309][270]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Abilities/FlameRupture/sfx_Template_multi.sfx_Template_multi' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.03.19-23.00.03:347][270]LogSlate: The tab "MetasoundEditor_Pages" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v14' but failed for some reason. It will not be displayed.
+[2026.03.19-23.00.03:885][291]LogMetaSound: Display: Resave recommended: Asset 'sfx_Template_single' at '/Game/Assets/Sounds/sfx_Template_single.sfx_Template_single' successfully migrated editor data in target document version 'v1.12'.
+[2026.03.19-23.00.03:888][291]LogMetaSound: Display: Resave recommended: Asset 'sfx_FireBoltLow' at '/Game/Assets/Sounds/Abilities/FireBolt/sfx_FireBoltLow.sfx_FireBoltLow' successfully migrated editor data in target document version 'v1.12'.
+[2026.03.19-23.00.03:901][292]LogMetaSound: Display: Resave recommended: Asset 'sfx_Slingshot_Fire' at '/Game/Assets/Sounds/Slingshot/sfx_Slingshot_Fire.sfx_Slingshot_Fire' successfully migrated editor data in target document version 'v1.12'.
+[2026.03.19-23.00.03:902][292]LogMetaSound: Display: Resave recommended: Asset 'sfx_Potion_Spawn' at '/Game/Assets/Sounds/Potions/Spawn/sfx_Potion_Spawn.sfx_Potion_Spawn' successfully migrated editor data in target document version 'v1.12'.
+[2026.03.19-23.00.03:903][292]LogMetaSound: Display: Resave recommended: Asset 'sfx_Potion_HitGround' at '/Game/Assets/Sounds/Potions/HitGround/sfx_Potion_HitGround.sfx_Potion_HitGround' successfully migrated editor data in target document version 'v1.12'.
+[2026.03.19-23.00.03:904][292]LogMetaSound: Display: Resave recommended: Asset 'sfx_Potion_Consume' at '/Game/Assets/Sounds/Potions/Consume/sfx_Potion_Consume.sfx_Potion_Consume' successfully migrated editor data in target document version 'v1.12'.
+[2026.03.19-23.00.03:916][293]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/sfx_Template_single.sfx_Template_single' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.03.19-23.00.03:933][294]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Abilities/FireBolt/sfx_FireBoltLow.sfx_FireBoltLow' node class 'UE.Wave Player.Mono (v1.0)': Interface change detected.
+[2026.03.19-23.00.03:934][294]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Slingshot/sfx_Slingshot_Fire.sfx_Slingshot_Fire' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.03.19-23.00.03:935][294]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Potions/Spawn/sfx_Potion_Spawn.sfx_Potion_Spawn' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.03.19-23.00.03:936][294]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Potions/HitGround/sfx_Potion_HitGround.sfx_Potion_HitGround' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.03.19-23.00.03:937][294]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Potions/Consume/sfx_Potion_Consume.sfx_Potion_Consume' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.03.19-23.00.13:383][849]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.03.19-23.00.13:389][849]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.19-23.00.13:417][849]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Sounds/Abilities/FlameRupture/sfx_Template_multi] ([1] browsable assets)...
+[2026.03.19-23.00.13:417][849]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Abilities/FlameRupture/sfx_Template_multi]
+[2026.03.19-23.00.13:443][849]LogSavePackage: Moving output files for package: /Game/Assets/Sounds/Abilities/FlameRupture/sfx_Template_multi
+[2026.03.19-23.00.13:443][849]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/sfx_Template_multiDB021AA14687BC7097FD60844799D3B9.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/Sounds/Abilities/FlameRupture/sfx_Template_multi.uasset'
+[2026.03.19-23.00.13:450][849]LogFileHelpers: InternalPromptForCheckoutAndSave took 61.384 ms (total: 5.32 sec)
+[2026.03.19-23.00.13:502][849]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.19-23.00.13:502][849]LogContentValidation: Enabled validators:
+[2026.03.19-23.00.13:502][849]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.19-23.00.13:502][849]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.19-23.00.13:502][849]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.19-23.00.13:502][849]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.19-23.00.13:502][849]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.19-23.00.13:502][849]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.19-23.00.13:502][849]AssetCheck: /Game/Assets/Sounds/Abilities/FlameRupture/sfx_Template_multi Validating asset
+[2026.03.19-23.00.26:979][652]LogContentBrowser: Attempting asset rename: sfx_Template_multi -> sfx_FlameRupture
+[2026.03.19-23.00.27:104][652]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.19-23.00.27:104][652]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Sounds/Abilities/FlameRupture/sfx_FlameRupture] ([1] browsable assets)...
+[2026.03.19-23.00.27:104][652]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Abilities/FlameRupture/sfx_FlameRupture]
+[2026.03.19-23.00.27:113][652]LogSavePackage: Moving output files for package: /Game/Assets/Sounds/Abilities/FlameRupture/sfx_FlameRupture
+[2026.03.19-23.00.27:113][652]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/sfx_FlameRupture5E3FA8724D190E87D28E848EADB67B85.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/Sounds/Abilities/FlameRupture/sfx_FlameRupture.uasset'
+[2026.03.19-23.00.27:115][652]LogFileHelpers: InternalPromptForCheckoutAndSave took 10.063 ms (total: 5.33 sec)
+[2026.03.19-23.00.27:139][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.03.19-23.00.27:157][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2026.03.19-23.00.27:170][652]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2026.03.19-23.00.27:234][652]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.19-23.00.27:234][652]LogContentValidation: Enabled validators:
+[2026.03.19-23.00.27:234][652]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.19-23.00.27:234][652]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.19-23.00.27:234][652]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.19-23.00.27:234][652]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.19-23.00.27:234][652]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.19-23.00.27:234][652]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.19-23.00.27:235][652]AssetCheck: /Game/Assets/Sounds/Abilities/FlameRupture/sfx_FlameRupture Validating asset
+[2026.03.19-23.00.28:397][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.03.19-23.00.30:368][839]LogAssetEditorSubsystem: Opening Asset editor for MetaSoundSource /Game/Assets/Sounds/Abilities/FlameRupture/sfx_FlameRupture.sfx_FlameRupture
+[2026.03.19-23.00.30:391][839]LogSlate: The tab "MetasoundEditor_Pages" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v14' but failed for some reason. It will not be displayed.
+[2026.03.19-23.01.03:795][826]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.03.19-23.01.03:800][826]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.19-23.01.03:852][826]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Sounds/Abilities/FlameRupture/sfx_FlameRupture] ([1] browsable assets)...
+[2026.03.19-23.01.03:852][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Sounds/Abilities/FlameRupture/sfx_FlameRupture]
+[2026.03.19-23.01.03:877][826]LogSavePackage: Moving output files for package: /Game/Assets/Sounds/Abilities/FlameRupture/sfx_FlameRupture
+[2026.03.19-23.01.03:878][826]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/sfx_FlameRuptureF53A5648466C6C1CBC1779BA29F579B5.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/Sounds/Abilities/FlameRupture/sfx_FlameRupture.uasset'
+[2026.03.19-23.01.03:887][826]LogFileHelpers: InternalPromptForCheckoutAndSave took 86.419 ms (total: 5.41 sec)
+[2026.03.19-23.01.03:932][826]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.19-23.01.03:932][826]LogContentValidation: Enabled validators:
+[2026.03.19-23.01.03:932][826]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.19-23.01.03:932][826]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.19-23.01.03:933][826]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.19-23.01.03:933][826]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.19-23.01.03:933][826]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.19-23.01.03:933][826]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.19-23.01.03:933][826]AssetCheck: /Game/Assets/Sounds/Abilities/FlameRupture/sfx_FlameRupture Validating asset
+[2026.03.19-23.01.31:398][422]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.03.19-23.01.43:313][120]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2026.03.19-23.01.43:322][120]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.19-23.01.43:353][120]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Fire/FlameRupture/BP_FlameBlast] ([2] browsable assets)...
+[2026.03.19-23.01.43:353][120]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Fire/FlameRupture/BP_FlameBlast]
+[2026.03.19-23.01.43:360][120]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Fire/FlameRupture/BP_FlameBlast
+[2026.03.19-23.01.43:361][120]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_FlameBlastE5CEDDA046899F7E2B95B18088343B90.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Fire/FlameRupture/BP_FlameBlast.uasset'
+[2026.03.19-23.01.43:367][120]LogFileHelpers: InternalPromptForCheckoutAndSave took 45.239 ms (total: 5.46 sec)
+[2026.03.19-23.01.43:417][120]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.19-23.01.43:417][120]LogContentValidation: Enabled validators:
+[2026.03.19-23.01.43:417][120]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.19-23.01.43:417][120]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.19-23.01.43:418][120]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.19-23.01.43:418][120]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.19-23.01.43:418][120]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.19-23.01.43:418][120]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.19-23.01.43:418][120]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Fire/FlameRupture/BP_FlameBlast Validating asset
+[2026.03.19-23.01.44:726][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.03.19-23.01.45:662][247]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.19-23.01.45:680][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.19-23.01.45:680][247]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.03.19-23.01.45:690][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010556s)
+[2026.03.19-23.01.45:690][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.010751s)
+[2026.03.19-23.01.45:707][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.03.19-23.01.45:713][247]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.03.19-23.01.45:715][247]LogPlayLevel: PIE: World Init took: (0.001299s)
+[2026.03.19-23.01.45:716][247]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2026.03.19-23.01.45:716][247]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.19-23.01.45:716][247]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.19-23.01.45:716][247]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.19-23.01.45:716][247]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.19-23.01.45:716][247]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.19-23.01.45:716][247]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.19-23.01.45:716][247]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.19-23.01.45:716][247]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.19-23.01.45:716][247]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.19-23.01.45:717][247]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.19-23.01.45:717][247]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.19-23.01.45:719][247]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.19-23.01.45:736][247]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.03.19-23.01.45:736][247]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.19-23.01.45:736][247]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.19-23.01.45:736][247]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.19-23.01.45:737][247]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2026.03.19-23.01.45:737][247]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2026.03.19-23.01.45:739][247]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2026.03.19-23.01.45:739][247]LogInit: FAudioDevice initialized with ID 26.
+[2026.03.19-23.01.45:739][247]LogAudio: Display: Audio Device (ID: 26) registered with world 'StartupMap'.
+[2026.03.19-23.01.45:739][247]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2026.03.19-23.01.45:739][247]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2026.03.19-23.01.45:741][247]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.03.19-23.01.45:747][247]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.03.19-16.01.45
+[2026.03.19-23.01.45:749][247]LogWorld: Bringing up level for play took: 0.007944
+[2026.03.19-23.01.45:750][247]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2026.03.19-23.01.45:758][247]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.03.19-23.01.45:758][247]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.03.19-23.01.45:759][247]PIE: Server logged in
+[2026.03.19-23.01.45:759][247]PIE: Play in editor total start time 0.088 seconds.
+[2026.03.19-23.01.46:965][318]LogBlueprintUserMessages: [GA_FlameRupture_C_0] Flame Rupture!
+[2026.03.19-23.01.46:966][318]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Actors Overlapped: 0
+[2026.03.19-23.01.49:415][465]LogBlueprintUserMessages: [GA_FlameRupture_C_1] Flame Rupture!
+[2026.03.19-23.01.49:416][465]LogBlueprintUserMessages: [BP_FlameBlast_C_1] Actors Overlapped: 6
+[2026.03.19-23.01.49:416][465]LogBlueprintUserMessages: [BP_FlameBlast_C_1] Damage Target: BP_UndeadGoblin5
+[2026.03.19-23.01.49:417][465]LogBlueprintUserMessages: [BP_FlameBlast_C_1] Damage Target: BP_UndeadGoblin4
+[2026.03.19-23.01.49:417][465]LogBlueprintUserMessages: [BP_FlameBlast_C_1] Damage Target: BP_UndeadGoblin2
+[2026.03.19-23.01.49:418][465]LogBlueprintUserMessages: [BP_FlameBlast_C_1] Damage Target: BP_UndeadGoblin
+[2026.03.19-23.01.49:418][465]LogBlueprintUserMessages: [BP_FlameBlast_C_1] Damage Target: BP_UndeadGoblin6
+[2026.03.19-23.01.49:418][465]LogBlueprintUserMessages: [BP_FlameBlast_C_1] Damage Target: BP_UndeadGoblin3
+[2026.03.19-23.01.50:399][524]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.50:399][524]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.50:400][524]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.50:400][524]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.50:400][524]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.50:400][524]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.52:065][624]LogBlueprintUserMessages: [GA_FlameRupture_C_2] Flame Rupture!
+[2026.03.19-23.01.52:066][624]LogBlueprintUserMessages: [BP_FlameBlast_C_2] Actors Overlapped: 3
+[2026.03.19-23.01.52:067][624]LogBlueprintUserMessages: [BP_FlameBlast_C_2] Damage Target: BP_UndeadGoblin5
+[2026.03.19-23.01.52:067][624]LogBlueprintUserMessages: [BP_FlameBlast_C_2] Damage Target: BP_UndeadGoblin3
+[2026.03.19-23.01.52:068][624]LogBlueprintUserMessages: [BP_FlameBlast_C_2] Damage Target: BP_UndeadGoblin6
+[2026.03.19-23.01.53:049][683]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.53:049][683]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.53:049][683]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.54:116][747]LogBlueprintUserMessages: [GA_FlameRupture_C_3] Flame Rupture!
+[2026.03.19-23.01.54:117][747]LogBlueprintUserMessages: [BP_FlameBlast_C_3] Actors Overlapped: 3
+[2026.03.19-23.01.54:117][747]LogBlueprintUserMessages: [BP_FlameBlast_C_3] Damage Target: BP_UndeadGoblin4
+[2026.03.19-23.01.54:117][747]LogBlueprintUserMessages: [BP_FlameBlast_C_3] Damage Target: BP_UndeadGoblin2
+[2026.03.19-23.01.54:118][747]LogBlueprintUserMessages: [BP_FlameBlast_C_3] Damage Target: BP_UndeadGoblin
+[2026.03.19-23.01.55:100][806]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.55:100][806]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.55:100][806]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.56:516][891]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.56:516][891]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.56:516][891]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.56:516][891]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.57:049][923]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.57:049][923]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.57:099][926]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.57:099][926]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.57:482][949]LogBlueprintUserMessages: [GA_FlameRupture_C_4] Flame Rupture!
+[2026.03.19-23.01.57:483][949]LogBlueprintUserMessages: [BP_FlameBlast_C_4] Actors Overlapped: 4
+[2026.03.19-23.01.57:483][949]LogBlueprintUserMessages: [BP_FlameBlast_C_4] Damage Target: BP_UndeadGoblin6
+[2026.03.19-23.01.57:484][949]LogBlueprintUserMessages: [BP_FlameBlast_C_4] Damage Target: BP_UndeadGoblin2
+[2026.03.19-23.01.57:484][949]LogBlueprintUserMessages: [BP_FlameBlast_C_4] Damage Target: BP_UndeadGoblin
+[2026.03.19-23.01.57:485][949]LogBlueprintUserMessages: [BP_FlameBlast_C_4] Damage Target: BP_UndeadGoblin3
+[2026.03.19-23.01.57:516][951]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.57:516][951]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.58:050][983]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.58:050][983]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.58:099][986]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.58:099][986]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.58:466][  8]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.58:466][  8]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.58:467][  8]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.01.58:467][  8]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.00:716][143]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.00:717][143]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.02:966][278]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.02:966][278]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.03:299][298]LogBlueprintUserMessages: [GA_FlameRupture_C_5] Flame Rupture!
+[2026.03.19-23.02.03:300][298]LogBlueprintUserMessages: [BP_FlameBlast_C_5] Actors Overlapped: 3
+[2026.03.19-23.02.03:300][298]LogBlueprintUserMessages: [BP_FlameBlast_C_5] Damage Target: BP_UndeadGoblin2
+[2026.03.19-23.02.03:300][298]LogBlueprintUserMessages: [BP_FlameBlast_C_5] Damage Target: BP_UndeadGoblin
+[2026.03.19-23.02.03:301][298]LogBlueprintUserMessages: [BP_FlameBlast_C_5] Damage Target: BP_UndeadGoblin5
+[2026.03.19-23.02.04:282][357]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.04:282][357]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.04:283][357]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.05:465][428]LogBlueprintUserMessages: [GA_FlameRupture_C_6] Flame Rupture!
+[2026.03.19-23.02.05:466][428]LogBlueprintUserMessages: [BP_FlameBlast_C_6] Actors Overlapped: 2
+[2026.03.19-23.02.05:466][428]LogBlueprintUserMessages: [BP_FlameBlast_C_6] Damage Target: BP_UndeadGoblin6
+[2026.03.19-23.02.05:467][428]LogBlueprintUserMessages: [BP_FlameBlast_C_6] Damage Target: BP_UndeadGoblin4
+[2026.03.19-23.02.06:449][487]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.06:449][487]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.08:632][618]LogBlueprintUserMessages: [GA_FlameRupture_C_7] Flame Rupture!
+[2026.03.19-23.02.08:633][618]LogBlueprintUserMessages: [BP_FlameBlast_C_7] Actors Overlapped: 1
+[2026.03.19-23.02.08:633][618]LogBlueprintUserMessages: [BP_FlameBlast_C_7] Damage Target: BP_UndeadGoblin6
+[2026.03.19-23.02.09:616][677]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.12:047][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.19-23.02.12:047][821]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.03.19-23.02.12:048][821]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.19-23.02.12:049][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.19-23.02.12:052][821]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.19-23.02.12:060][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.19-23.02.12:074][821]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.19-23.02.12:074][821]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2026.03.19-23.02.12:075][821]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2026.03.19-23.02.12:077][821]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2026.03.19-23.02.12:080][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.19-23.02.12:084][821]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.03.19-23.02.12:134][822]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2026.03.19-23.02.12:404][838]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.19-23.02.12:421][838]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.19-23.02.12:421][838]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.03.19-23.02.12:433][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011366s)
+[2026.03.19-23.02.12:433][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.011564s)
+[2026.03.19-23.02.12:449][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.03.19-23.02.12:452][838]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.03.19-23.02.12:453][838]LogPlayLevel: PIE: World Init took: (0.001129s)
+[2026.03.19-23.02.12:454][838]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2026.03.19-23.02.12:454][838]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.19-23.02.12:454][838]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.19-23.02.12:454][838]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.19-23.02.12:454][838]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.19-23.02.12:454][838]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.19-23.02.12:454][838]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.19-23.02.12:454][838]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.19-23.02.12:454][838]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.19-23.02.12:454][838]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.19-23.02.12:455][838]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.19-23.02.12:455][838]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.19-23.02.12:456][838]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.19-23.02.12:472][838]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.03.19-23.02.12:472][838]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.19-23.02.12:472][838]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.19-23.02.12:472][838]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.19-23.02.12:473][838]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2026.03.19-23.02.12:473][838]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2026.03.19-23.02.12:475][838]LogInit: FAudioDevice initialized with ID 27.
+[2026.03.19-23.02.12:475][838]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2026.03.19-23.02.12:475][838]LogAudio: Display: Audio Device (ID: 27) registered with world 'StartupMap'.
+[2026.03.19-23.02.12:475][838]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2026.03.19-23.02.12:475][838]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2026.03.19-23.02.12:477][838]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.03.19-23.02.12:483][838]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.03.19-16.02.12
+[2026.03.19-23.02.12:484][838]LogWorld: Bringing up level for play took: 0.007683
+[2026.03.19-23.02.12:487][838]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2026.03.19-23.02.12:495][838]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.03.19-23.02.12:495][838]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.03.19-23.02.12:495][838]PIE: Server logged in
+[2026.03.19-23.02.12:496][838]PIE: Play in editor total start time 0.084 seconds.
+[2026.03.19-23.02.14:417][952]LogBlueprintUserMessages: [GA_FlameRupture_C_0] Flame Rupture!
+[2026.03.19-23.02.14:418][952]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Actors Overlapped: 6
+[2026.03.19-23.02.14:418][952]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Damage Target: BP_UndeadGoblin5
+[2026.03.19-23.02.14:419][952]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Damage Target: BP_UndeadGoblin6
+[2026.03.19-23.02.14:419][952]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Damage Target: BP_UndeadGoblin3
+[2026.03.19-23.02.14:420][952]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Damage Target: BP_UndeadGoblin4
+[2026.03.19-23.02.14:420][952]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Damage Target: BP_UndeadGoblin2
+[2026.03.19-23.02.14:420][952]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Damage Target: BP_UndeadGoblin
+[2026.03.19-23.02.15:400][ 11]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.15:401][ 11]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.15:401][ 11]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.15:401][ 11]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.15:401][ 11]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.15:401][ 11]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.16:534][ 79]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.16:534][ 79]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.17:057][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.19-23.02.17:057][109]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.03.19-23.02.17:058][109]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.19-23.02.17:060][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.19-23.02.17:063][109]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.19-23.02.17:070][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.19-23.02.17:085][109]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.19-23.02.17:085][109]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2026.03.19-23.02.17:085][109]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2026.03.19-23.02.17:087][109]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2026.03.19-23.02.17:091][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.19-23.02.17:095][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.03.19-23.02.17:145][110]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2026.03.19-23.02.17:379][124]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.19-23.02.17:396][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.19-23.02.17:397][124]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.03.19-23.02.17:407][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010447s)
+[2026.03.19-23.02.17:407][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.010659s)
+[2026.03.19-23.02.17:423][124]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.03.19-23.02.17:426][124]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.03.19-23.02.17:427][124]LogPlayLevel: PIE: World Init took: (0.001243s)
+[2026.03.19-23.02.17:428][124]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2026.03.19-23.02.17:428][124]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.19-23.02.17:428][124]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.19-23.02.17:428][124]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.19-23.02.17:429][124]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.19-23.02.17:429][124]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.19-23.02.17:429][124]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.19-23.02.17:429][124]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.19-23.02.17:429][124]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.19-23.02.17:429][124]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.19-23.02.17:429][124]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.19-23.02.17:429][124]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.19-23.02.17:431][124]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.19-23.02.17:447][124]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.03.19-23.02.17:447][124]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.19-23.02.17:447][124]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.19-23.02.17:448][124]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.19-23.02.17:448][124]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2026.03.19-23.02.17:448][124]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2026.03.19-23.02.17:450][124]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2026.03.19-23.02.17:450][124]LogInit: FAudioDevice initialized with ID 28.
+[2026.03.19-23.02.17:450][124]LogAudio: Display: Audio Device (ID: 28) registered with world 'StartupMap'.
+[2026.03.19-23.02.17:450][124]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2026.03.19-23.02.17:450][124]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2026.03.19-23.02.17:452][124]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.03.19-23.02.17:458][124]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.03.19-16.02.17
+[2026.03.19-23.02.17:460][124]LogWorld: Bringing up level for play took: 0.007669
+[2026.03.19-23.02.17:462][124]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2026.03.19-23.02.17:469][124]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.03.19-23.02.17:469][124]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.03.19-23.02.17:470][124]PIE: Server logged in
+[2026.03.19-23.02.17:470][124]PIE: Play in editor total start time 0.083 seconds.
+[2026.03.19-23.02.19:309][233]LogBlueprintUserMessages: [GA_FlameRupture_C_0] Flame Rupture!
+[2026.03.19-23.02.19:311][233]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Actors Overlapped: 6
+[2026.03.19-23.02.19:311][233]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Damage Target: BP_UndeadGoblin5
+[2026.03.19-23.02.19:311][233]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Damage Target: BP_UndeadGoblin6
+[2026.03.19-23.02.19:312][233]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Damage Target: BP_UndeadGoblin3
+[2026.03.19-23.02.19:312][233]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Damage Target: BP_UndeadGoblin4
+[2026.03.19-23.02.19:313][233]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Damage Target: BP_UndeadGoblin2
+[2026.03.19-23.02.19:313][233]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Damage Target: BP_UndeadGoblin
+[2026.03.19-23.02.20:294][292]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.20:294][292]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.20:294][292]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.20:294][292]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.20:294][292]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.20:294][292]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.21:477][363]LogBlueprintUserMessages: [GA_FlameRupture_C_1] Flame Rupture!
+[2026.03.19-23.02.21:478][363]LogBlueprintUserMessages: [BP_FlameBlast_C_1] Actors Overlapped: 3
+[2026.03.19-23.02.21:478][363]LogBlueprintUserMessages: [BP_FlameBlast_C_1] Damage Target: BP_UndeadGoblin2
+[2026.03.19-23.02.21:478][363]LogBlueprintUserMessages: [BP_FlameBlast_C_1] Damage Target: BP_UndeadGoblin
+[2026.03.19-23.02.21:479][363]LogBlueprintUserMessages: [BP_FlameBlast_C_1] Damage Target: BP_UndeadGoblin6
+[2026.03.19-23.02.22:461][422]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.22:461][422]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.22:461][422]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.23:847][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.19-23.02.23:847][503]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.03.19-23.02.23:848][503]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.19-23.02.23:850][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.19-23.02.23:853][503]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.19-23.02.23:860][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.19-23.02.23:875][503]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.19-23.02.23:875][503]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2026.03.19-23.02.23:875][503]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2026.03.19-23.02.23:877][503]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2026.03.19-23.02.23:881][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.19-23.02.23:885][503]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.03.19-23.02.23:936][504]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2026.03.19-23.02.29:578][842]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.19-23.02.29:595][842]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.19-23.02.29:595][842]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.03.19-23.02.29:605][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010697s)
+[2026.03.19-23.02.29:605][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.010904s)
+[2026.03.19-23.02.29:622][842]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.03.19-23.02.29:625][842]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.03.19-23.02.29:626][842]LogPlayLevel: PIE: World Init took: (0.001131s)
+[2026.03.19-23.02.29:626][842]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2026.03.19-23.02.29:626][842]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.19-23.02.29:626][842]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.19-23.02.29:626][842]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.19-23.02.29:627][842]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.19-23.02.29:627][842]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.19-23.02.29:627][842]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.19-23.02.29:627][842]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.19-23.02.29:627][842]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.19-23.02.29:627][842]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.19-23.02.29:627][842]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.19-23.02.29:627][842]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.19-23.02.29:629][842]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.19-23.02.29:645][842]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.03.19-23.02.29:645][842]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.19-23.02.29:645][842]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.19-23.02.29:645][842]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.19-23.02.29:645][842]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2026.03.19-23.02.29:646][842]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2026.03.19-23.02.29:648][842]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2026.03.19-23.02.29:648][842]LogInit: FAudioDevice initialized with ID 29.
+[2026.03.19-23.02.29:648][842]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2026.03.19-23.02.29:648][842]LogAudio: Display: Audio Device (ID: 29) registered with world 'StartupMap'.
+[2026.03.19-23.02.29:648][842]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2026.03.19-23.02.29:650][842]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.03.19-23.02.29:656][842]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.03.19-16.02.29
+[2026.03.19-23.02.29:658][842]LogWorld: Bringing up level for play took: 0.007594
+[2026.03.19-23.02.29:659][842]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2026.03.19-23.02.29:666][842]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.03.19-23.02.29:666][842]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.03.19-23.02.29:668][842]PIE: Server logged in
+[2026.03.19-23.02.29:669][842]PIE: Play in editor total start time 0.082 seconds.
+[2026.03.19-23.02.30:989][920]LogBlueprintUserMessages: [GA_FlameRupture_C_0] Flame Rupture!
+[2026.03.19-23.02.30:990][920]LogBlueprintUserMessages: [BP_FlameBlast_C_0] Actors Overlapped: 0
+[2026.03.19-23.02.32:656][ 20]LogBlueprintUserMessages: [GA_FlameRupture_C_1] Flame Rupture!
+[2026.03.19-23.02.32:657][ 20]LogBlueprintUserMessages: [BP_FlameBlast_C_1] Actors Overlapped: 0
+[2026.03.19-23.02.35:539][193]LogBlueprintUserMessages: [GA_FlameRupture_C_2] Flame Rupture!
+[2026.03.19-23.02.35:540][193]LogBlueprintUserMessages: [BP_FlameBlast_C_2] Actors Overlapped: 6
+[2026.03.19-23.02.35:540][193]LogBlueprintUserMessages: [BP_FlameBlast_C_2] Damage Target: BP_UndeadGoblin5
+[2026.03.19-23.02.35:540][193]LogBlueprintUserMessages: [BP_FlameBlast_C_2] Damage Target: BP_UndeadGoblin4
+[2026.03.19-23.02.35:541][193]LogBlueprintUserMessages: [BP_FlameBlast_C_2] Damage Target: BP_UndeadGoblin2
+[2026.03.19-23.02.35:541][193]LogBlueprintUserMessages: [BP_FlameBlast_C_2] Damage Target: BP_UndeadGoblin
+[2026.03.19-23.02.35:542][193]LogBlueprintUserMessages: [BP_FlameBlast_C_2] Damage Target: BP_UndeadGoblin6
+[2026.03.19-23.02.35:542][193]LogBlueprintUserMessages: [BP_FlameBlast_C_2] Damage Target: BP_UndeadGoblin3
+[2026.03.19-23.02.36:523][252]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.36:523][252]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.36:523][252]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.36:524][252]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.36:524][252]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.36:524][252]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.37:905][335]LogBlueprintUserMessages: [GA_FlameRupture_C_3] Flame Rupture!
+[2026.03.19-23.02.37:906][335]LogBlueprintUserMessages: [BP_FlameBlast_C_3] Actors Overlapped: 2
+[2026.03.19-23.02.37:907][335]LogBlueprintUserMessages: [BP_FlameBlast_C_3] Damage Target: BP_UndeadGoblin2
+[2026.03.19-23.02.37:907][335]LogBlueprintUserMessages: [BP_FlameBlast_C_3] Damage Target: BP_UndeadGoblin
+[2026.03.19-23.02.38:890][394]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.38:890][394]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.40:540][493]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.40:540][493]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.40:889][514]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.41:023][522]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.41:023][522]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.41:489][550]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.41:490][550]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.41:523][552]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.41:523][552]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.41:540][553]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.41:890][574]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.42:023][582]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.42:490][610]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.42:540][613]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.42:890][634]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.43:023][642]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.43:056][644]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.43:490][670]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.43:540][673]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.43:889][694]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.44:023][702]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.44:489][730]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.44:539][733]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.45:023][762]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.45:106][767]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.45:106][767]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.45:490][790]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.45:539][793]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.45:639][799]LogBlueprintUserMessages: [GA_FlameRupture_C_4] Flame Rupture!
+[2026.03.19-23.02.45:640][799]LogBlueprintUserMessages: [BP_FlameBlast_C_4] Actors Overlapped: 5
+[2026.03.19-23.02.45:640][799]LogBlueprintUserMessages: [BP_FlameBlast_C_4] Damage Target: BP_UndeadGoblin3
+[2026.03.19-23.02.45:641][799]LogBlueprintUserMessages: [BP_FlameBlast_C_4] Damage Target: BP_UndeadGoblin5
+[2026.03.19-23.02.45:641][799]LogBlueprintUserMessages: [BP_FlameBlast_C_4] Damage Target: BP_UndeadGoblin6
+[2026.03.19-23.02.45:642][799]LogBlueprintUserMessages: [BP_FlameBlast_C_4] Damage Target: BP_UndeadGoblin2
+[2026.03.19-23.02.45:642][799]LogBlueprintUserMessages: [BP_FlameBlast_C_4] Damage Target: BP_UndeadGoblin
+[2026.03.19-23.02.46:023][822]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.46:490][850]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.46:623][858]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.46:623][858]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.46:623][858]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.46:623][858]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.46:623][858]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.03.19-23.02.48:528][970]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.19-23.02.48:528][970]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.03.19-23.02.48:529][970]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.03.19-23.02.48:531][970]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.19-23.02.48:534][970]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.19-23.02.48:541][970]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.19-23.02.48:556][970]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.19-23.02.48:556][970]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2026.03.19-23.02.48:556][970]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2026.03.19-23.02.48:559][970]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2026.03.19-23.02.48:563][970]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.19-23.02.48:567][970]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2026.03.19-23.02.48:618][971]LogPlayLevel: Display: Destroying online subsystem :Context_47
