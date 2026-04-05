@@ -140,6 +140,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Abilities_Arcane_ArcaneShards = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Abilities.Arcane.ArcaneShards"), FString("ArcaneShards Ability Tag"));
 	GameplayTags.Abilities_Arcane_ArcaneExplosion = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Abilities.Arcane.ArcaneExplosion"), FString("ArcaneExplosion Ability Tag"));
 	GameplayTags.Abilities_Arcane_ArcaneMine = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Abilities.Arcane.ArcaneMine"), FString("ArcaneMine Ability Tag"));
+	GameplayTags.Abilities_Arcane_TimeDilation = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Abilities.Arcane.TimeDilation"), FString("TimeDilation Ability Tag"));
 	
 	
 	GameplayTags.Abilities_HitReact = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Abilities.HitReact"), FString("Hit React Ability"));
