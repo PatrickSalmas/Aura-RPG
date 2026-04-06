@@ -28,7 +28,6 @@ Gameplay Abilities:
 	Upgraded version pulses out and in a second time
 	Upgraded version causes ball to return and explode (instead of being a default feature)
 	
-
 - Arcane Mine
 	Upgraded version causes slowing effect to enemies within damage aura
 
@@ -37,6 +36,15 @@ Gameplay Abilities:
 - Placeable energy becon ability that rotates in a 360 for x number of seconds doing damage to any enemy hit by the beam
 
 - Passive: Arcane shards have a chance to ensnare enemies. While ensnared Arcane explosion splinters have a 100% chance to crit. Or all Arcane abilities have a 100% chance to crit.
+
+- Flame Rupture
+	Make player invisible while in animation
+	Need to figure out a way so that the player doesn't glitch out when landing directly ontop of another actor
+		Maybe place them at closest nearest spot
+		OR apply the damage knockback right before the land at their location
+		
+- LightningStep
+	Need to figure out a way so that the player doesn't glitch out when landing directly ontop of another actor
 
 - Mobility Abilities:
 	Fire: Teleport to an area and cause a fire blast to enemies in radius and knock them back
@@ -47,6 +55,13 @@ Gameplay Abilities:
 - Time Dilation:
 	Upgrade can as well speed up cooldown speed with in dilation
 	
+- General Upgrade Idea:
+	Each ability has 3-5 different upgrade/augments. Each time you upgrade an ability, you can choose any of the x number of augments for that ability. This give more build variety and allows the player to be more creative as they don't have to go down as much of a linear path when creating their build
+		- How to we allow the player to put points into abilities but still allow them have fun trying new builds. The more points the player puts into certain abilities, the more tied they will feel to using that build/those abilities. Of course they will have the freedom to to respec and spend their points again, but when you want to expirement that could get tedious.
+			- We could just give them multiple save builds they can switch between. Do we want there to be some restictions on how often or where they can change their build? Or just say screw it and let them have fun. Sometimes a certain level of friction can actually be good for the player experience.
+	
+	
+- When blending two abilties, the player gets the passive stacking effect from both spell schools. This really adds to build creativity and felxibilty to incorporating spells from different schools into your preffered build/play style
 	
 Niagara Effect Ideas:
 
@@ -94,6 +109,11 @@ BUGS:
 -- They should either, be rooted to the ground (if they are a ground enemy), OR play some sort of InAir animation
 
 
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------
 
 BACKSTORY:
 - Some sort of undead force/army is preying upon some hopeless species/population
