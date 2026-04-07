@@ -11,9 +11,11 @@ Gameplay Abilities:
 - Some sort of ability that bounces off of walls
 	Maybe water
 	Maybe energy ball
+	
 - Arcane Blast
-	Launches homing shards outward from the player. Shards attach to enemies, slow, and then explode
+	Upgrade: Shards explode when expired causing aoe damage
 	Make splinters attach "better" to enemy
+	
 - Arcane Shards
 	Allow shards to spawn sideways out of walls if the ground space isn't available
 		Increase cooldown
@@ -53,8 +55,8 @@ Gameplay Abilities:
 	Arcane (still figuring this one out): Maybe turn into a mass of particles for x amount of time, gain extra speed, and any cause debuff and damage to enemies you touch. Also paint the map with some sort of debuff gas that stays for x amount of time (kind of like the gas that appears after a mine explodes). 
 	
 - Time Dilation:
-	-- Upgrade can as well speed up cooldown speed with in dilation
-	-- Dilation persists when actor leaves field
+	-- Upgrade: can as well speed up cooldown speed with in dilation
+	-- Upgrade: Dilation persists when actor leaves field
 	
 - General Upgrade Idea:
 	Each ability has 3-5 different upgrade/augments. Each time you upgrade an ability, you can choose any of the x number of augments for that ability. This give more build variety and allows the player to be more creative as they don't have to go down as much of a linear path when creating their build
@@ -89,12 +91,13 @@ Enhancements:
 - Refactor Gameplay Abilities so that the Startup Input Tag can be setup per playable character.
 -- Like you did for the animations
 - Need to create Base Class for the Player
--- See example 
+-- See example in BP_DilationField. Functions ApplyDilationToActor and RemoveDilationFromActor are casting to BP_BattleMage
 
 Ideas for Enemies:
 - Some type of enemy that increases the speed of other enemies in its radius (kind of like Lucio)
 -- Make him a flying enemy so that he can be reasonably targeted
 -- Maybe he shoots projectiles
+-- Does a ground pound when close to its target
 - An enemy that puts fire or some sort of area of effect on the ground
 	
 	
