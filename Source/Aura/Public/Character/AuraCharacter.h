@@ -68,6 +68,18 @@ public:
 	
 	UPROPERTY(Category="Animations", EditDefaultsOnly, BlueprintReadOnly)
 	UAnimMontage* ElectrocuteMontage;
+	
+	UPROPERTY(Category="Animations", EditDefaultsOnly, BlueprintReadOnly)
+	UAnimMontage* TimeDilationMontage;
+	
+	UPROPERTY(Category="Animations", EditDefaultsOnly, BlueprintReadOnly)
+	UAnimMontage* FlameRuptureRisingMontage;
+	
+	UPROPERTY(Category="Animations", EditDefaultsOnly, BlueprintReadOnly)
+	UAnimMontage* FlameRuptureFinishMontage;
+	
+	UPROPERTY(Category="Animations", EditDefaultsOnly, BlueprintReadOnly)
+	UAnimMontage* LightningStepMontage;
 
 private:
 
