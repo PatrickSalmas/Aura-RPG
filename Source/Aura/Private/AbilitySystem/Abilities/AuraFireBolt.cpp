@@ -119,7 +119,22 @@ void UAuraFireBolt::SpawnProjectiles(const FVector& ProjectileTargetLocation, co
 
 		if (HomingTarget && HomingTarget->Implements<UCombatInterface>())
 		{
-			Projectile->ProjectileMovement->HomingTargetComponent = HomingTarget->GetRootComponent();
+			if (HomingTarget->GetRootComponent()->ComponentHasTag(FName("HitSphereCollision")))
+			{
+				Projectile->ProjectileMovement->HomingTargetComponent = HomingTarget->GetRootComponent();
+			}
+			else
+			{
+				TArray<USceneComponent*> Children;
+				HomingTarget->GetRootComponent()->GetChildrenComponents(true, Children);
+				for (USceneComponent* Child : Children)
+				{
+					if (Child->ComponentHasTag(FName("HitSphereCollision")))
+					{
+						Projectile->ProjectileMovement->HomingTargetComponent = Child;
+					}
+				}
+			}
 		}
 		else
 		{
