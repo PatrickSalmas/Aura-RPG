@@ -21,21 +21,45 @@ AAuraCharacterBase::AAuraCharacterBase()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	BurnDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("BurnDebuffComponent"));
-	BurnDebuffComponent->SetupAttachment(GetRootComponent());
-	BurnDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Burn;
+	// TArray<USceneComponent*> ChildrenComponents;
+	// GetRootComponent()->GetChildrenComponents(true, ChildrenComponents);
+	// for (USceneComponent* Child : ChildrenComponents)
+	// {
+	// 	if (Child->ComponentHasTag(FName("CharacterMeshComponent")))
+	// 	{
+			BurnDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("BurnDebuffComponent"));
+			BurnDebuffComponent->SetupAttachment(GetMesh());
+			BurnDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Burn;
 
-	StunDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("StunDebuffComponent"));
-	StunDebuffComponent->SetupAttachment(GetRootComponent());
-	StunDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Stun;
+			StunDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("StunDebuffComponent"));
+			StunDebuffComponent->SetupAttachment(GetMesh());
+			StunDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Stun;
 
-	ImmobilizeDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("ImmobilizeDebuffComponent"));
-	ImmobilizeDebuffComponent->SetupAttachment(GetRootComponent());
-	ImmobilizeDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Immobilize;
+			ImmobilizeDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("ImmobilizeDebuffComponent"));
+			ImmobilizeDebuffComponent->SetupAttachment(GetMesh());
+			ImmobilizeDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Immobilize;
 
-	SlowDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("SlowDebuffComponent"));
-	SlowDebuffComponent->SetupAttachment(GetRootComponent());
-	SlowDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Slow;
+			SlowDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("SlowDebuffComponent"));
+			SlowDebuffComponent->SetupAttachment(GetMesh());
+			SlowDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Slow;
+	// 	}
+	// }
+	
+	// BurnDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("BurnDebuffComponent"));
+	// BurnDebuffComponent->SetupAttachment(GetRootComponent());
+	// BurnDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Burn;
+	//
+	// StunDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("StunDebuffComponent"));
+	// StunDebuffComponent->SetupAttachment(GetRootComponent());
+	// StunDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Stun;
+	//
+	// ImmobilizeDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("ImmobilizeDebuffComponent"));
+	// ImmobilizeDebuffComponent->SetupAttachment(GetRootComponent());
+	// ImmobilizeDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Immobilize;
+	//
+	// SlowDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("SlowDebuffComponent"));
+	// SlowDebuffComponent->SetupAttachment(GetRootComponent());
+	// SlowDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Slow;
 
 	// ArcanePullComponent = CreateDefaultSubobject<UNiagaraComponent>(TEXT("ArcanePullComponent"));
 	// ArcanePullComponent->SetupAttachment(GetRootComponent());
