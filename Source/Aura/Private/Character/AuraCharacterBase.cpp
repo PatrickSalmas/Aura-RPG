@@ -232,6 +232,22 @@ FVector AAuraCharacterBase::GetCombatSocketLocation_Implementation(const FGamepl
 	{
 		return GetMesh()->GetSocketLocation(TailSocketName);
 	}
+	if (MontageTag.MatchesTagExact(GameplayTags.CombatSocket_LeftTentacle1))
+	{
+		return GetMesh()->GetSocketLocation(LeftTentacle1SocketName);
+	}
+	if (MontageTag.MatchesTagExact(GameplayTags.CombatSocket_LeftTentacle2))
+	{
+		return GetMesh()->GetSocketLocation(LeftTentacle2SocketName);
+	}
+	if (MontageTag.MatchesTagExact(GameplayTags.CombatSocket_RightTentacle1))
+	{
+		return GetMesh()->GetSocketLocation(RightTentacle1SocketName);
+	}
+	if (MontageTag.MatchesTagExact(GameplayTags.CombatSocket_RightTentacle2))
+	{
+		return GetMesh()->GetSocketLocation(RightTentacle2SocketName);
+	}
 	return FVector();
 }
 

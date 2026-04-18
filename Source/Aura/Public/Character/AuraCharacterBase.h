@@ -113,6 +113,18 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category="Combat")
 	FName TailSocketName;
+	
+	UPROPERTY(EditAnywhere, Category="Combat")
+	FName LeftTentacle1SocketName;
+	
+	UPROPERTY(EditAnywhere, Category="Combat")
+	FName LeftTentacle2SocketName;
+	
+	UPROPERTY(EditAnywhere, Category="Combat")
+	FName RightTentacle1SocketName;
+	
+	UPROPERTY(EditAnywhere, Category="Combat")
+	FName RightTentacle2SocketName;
 
 	UPROPERTY()
 	TObjectPtr<AAuraAIController> AuraAIController;

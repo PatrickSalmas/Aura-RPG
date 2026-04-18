@@ -114,6 +114,10 @@ public:
 	FGameplayTag CombatSocket_RightHand;
 	FGameplayTag CombatSocket_LeftHand;
 	FGameplayTag CombatSocket_Tail;
+	FGameplayTag CombatSocket_LeftTentacle1;
+	FGameplayTag CombatSocket_LeftTentacle2;
+	FGameplayTag CombatSocket_RightTentacle1;
+	FGameplayTag CombatSocket_RightTentacle2;
 	
 	FGameplayTag Montage_Attack_1;
 	FGameplayTag Montage_Attack_2;
