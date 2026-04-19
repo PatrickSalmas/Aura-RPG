@@ -125,6 +125,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	
 	GameplayTags.Abilities_Attack = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Abilities.Attack"), FString("Attack Ability Tag"));
 	GameplayTags.Abilities_Summon = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Abilities.Summon"), FString("Summon Ability Tag"));
+	GameplayTags.Abilities_Buff = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Abilities.Buff"), FString("Buff Ability Tag"));
 
 	/*
 	* Offensive
@@ -168,7 +169,8 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Cooldown_Fire_FireBlast = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Fire.FireBlast"), FString("FireBlast Cooldown Tag"));
 	GameplayTags.Cooldown_Lightning_Electrocute = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Lightning.Electrocute"), FString("Electrocute Cooldown Tag"));
 	GameplayTags.Cooldown_Arcane_ArcaneShards = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Arcane.ArcaneShards"), FString("ArcaneShards Cooldown Tag"));
-	
+	GameplayTags.Cooldown_Buff_ApplySpeedToAllies = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Buff.ApplySpeedToAllies"), FString("ApplySpeedToAllies Cooldown Tag"));
+
 	/*
 	 * Combat Sockets
 	 */
