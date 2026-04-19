@@ -56,6 +56,18 @@ void AAuraEnemy::PossessedBy(AController* NewController)
 	}
 }
 
+void AAuraEnemy::ApplySpeedBuff(float PercentBuff)
+{
+	CurrentWalkSpeed = BaseWalkSpeed + (BaseWalkSpeed * PercentBuff);
+	GetCharacterMovement()->MaxWalkSpeed = CurrentWalkSpeed;
+}
+
+void AAuraEnemy::RevertToBaseWalkSpeed()
+{
+	CurrentWalkSpeed = BaseWalkSpeed;
+	GetCharacterMovement()->MaxWalkSpeed = CurrentWalkSpeed;
+}
+
 void AAuraEnemy::BeginPlay()
 {
 	Super::BeginPlay();

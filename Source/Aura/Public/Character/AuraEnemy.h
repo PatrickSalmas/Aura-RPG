@@ -50,6 +50,12 @@ public:
 	UPROPERTY(BlueprintReadWrite, Category = "Combat")
 	TObjectPtr<AActor> CombatTarget;
 	
+	UFUNCTION(BlueprintCallable, Category = "Combat")
+	void ApplySpeedBuff(float PercentBuff);
+
+	UFUNCTION(BlueprintCallable, Category = "Combat")
+	void RevertToBaseWalkSpeed();
+	
 protected:
 	virtual void BeginPlay() override;
 	virtual void InitAbilityActorInfo() override;
