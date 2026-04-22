@@ -41,6 +41,9 @@ public:
 
 	UPROPERTY(BlueprintAssignable)
 	FOnAttributeChangedSignature OnMaxHealthChanged;
+	
+	UPROPERTY(BlueprintAssignable)
+	FOnAttributeChangedSignature OnSpeedBuffChanged;
 
 	void HitReactTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
 

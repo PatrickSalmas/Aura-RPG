@@ -464,3 +464,8 @@ void UAuraAttributeSet::OnRep_PhysicalResistance(const FGameplayAttributeData& O
 {
 	GAMEPLAYATTRIBUTE_REPNOTIFY(UAuraAttributeSet, PhysicalResistance, OldPhysicalResistance);
 }
+
+void UAuraAttributeSet::OnRep_SpeedBuff(const FGameplayAttributeData& OldSpeedBuff) const
+{
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UAuraAttributeSet, SpeedBuff, OldSpeedBuff);
+}

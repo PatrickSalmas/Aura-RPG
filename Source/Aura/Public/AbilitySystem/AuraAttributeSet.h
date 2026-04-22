@@ -161,6 +161,13 @@ public:
 	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_PhysicalResistance, Category="Resistance Attributes")
 	FGameplayAttributeData PhysicalResistance;
 	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, PhysicalResistance);
+	
+	/*
+	 * Buffs Attributes
+	 */
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_SpeedBuff, Category="Primary Attributes")
+	FGameplayAttributeData SpeedBuff;
+	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, SpeedBuff);
 
 	/*
 	 * Meta Attributes
@@ -234,6 +241,9 @@ public:
 
 	UFUNCTION()
 	void OnRep_PhysicalResistance(const FGameplayAttributeData& OldPhysicalResistance) const;
+	
+	UFUNCTION()
+	void OnRep_SpeedBuff(const FGameplayAttributeData& OldSpeedBuff) const;
 
 private:
 	void HandleIncomingDamage(const FEffectProperties& Props);

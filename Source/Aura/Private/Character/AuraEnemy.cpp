@@ -99,6 +99,13 @@ void AAuraEnemy::BeginPlay()
 			}
 		);
 		
+		AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(AuraAS->GetSpeedBuffAttribute()).AddLambda(
+			[this](const FOnAttributeChangeData& Data)
+			{
+				OnSpeedBuffChanged.Broadcast(Data.NewValue);
+			}
+		);
+		
 		AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().Effects_HitReact, EGameplayTagEventType::NewOrRemoved).AddUObject(
 			this,
 			&AAuraEnemy::HitReactTagChanged
