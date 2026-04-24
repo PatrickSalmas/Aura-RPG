@@ -77,6 +77,7 @@ public:
 	FGameplayTag Abilities_Attack;
 	FGameplayTag Abilities_Summon;
 	FGameplayTag Abilities_Buff;
+	FGameplayTag Abilities_Physical_ChargeAttack;
 	
 	FGameplayTag Abilities_HitReact;
 
@@ -111,6 +112,7 @@ public:
 	FGameplayTag Cooldown_Lightning_Electrocute;
 	FGameplayTag Cooldown_Arcane_ArcaneShards;
 	FGameplayTag Cooldown_Buff_ApplySpeedToAllies;
+	FGameplayTag Cooldown_ChargeAttack;
 	
 	FGameplayTag CombatSocket_Weapon;
 	FGameplayTag CombatSocket_RightHand;
