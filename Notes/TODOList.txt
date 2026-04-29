@@ -14,7 +14,9 @@ Gameplay Abilities:
 	
 - Arcane Blast
 	Upgrade: Shards explode when expired causing aoe damage
+	Upgraded version does damage in radius to nearby enemies when slow effect expires
 	Make splinters attach "better" to enemy
+	
 	
 - Arcane Shards
 	Allow shards to spawn sideways out of walls if the ground space isn't available
@@ -22,9 +24,6 @@ Gameplay Abilities:
 	Upgraded version drains life from enemies and is absorbed by the player
 	
 - Actually implement Passive Abilities
-
-- Arcane Blast
-	Upgraded version does damage in radius to nearby enemies when slow effect expires
 
 - Fireblast
 	Upgraded version pulses out and in a second time
@@ -64,7 +63,7 @@ Gameplay Abilities:
 	
 - General Upgrade Idea:
 	Each ability has 3-5 different upgrade/augments. Each time you upgrade an ability, you can choose any of the x number of augments for that ability. This give more build variety and allows the player to be more creative as they don't have to go down as much of a linear path when creating their build
-		- How to we allow the player to put points into abilities but still allow them have fun trying new builds. The more points the player puts into certain abilities, the more tied they will feel to using that build/those abilities. Of course they will have the freedom to to respec and spend their points again, but when you want to expirement that could get tedious.
+		- How do we allow the player to put points into abilities but still allow them have fun trying new builds. The more points the player puts into certain abilities, the more tied they will feel to using that build/those abilities. Of course they will have the freedom to to respec and spend their points again, but when you want to expirement that could get tedious.
 			- We could just give them multiple save builds they can switch between. Do we want there to be some restictions on how often or where they can change their build? Or just say screw it and let them have fun. Sometimes a certain level of friction can actually be good for the player experience.
 	
 	
@@ -75,8 +74,6 @@ Niagara Effect Ideas:
 
 Enhancements:
 - When using an ability, give brief highlight to ability used in equipped spell row of UI (kind of like WOW does)
-- New Main character model... something cooler
-- New, cooler enemies
 - Add Niagara effect to Immobilize
 - Add Niagara effect to Slow
 - Change Key bindings
@@ -103,8 +100,6 @@ Ideas for Enemies:
 -- Maybe he shoots projectiles
 -- Does a ground pound when close to its target
 - An enemy that puts fire or some sort of area of effect on the ground
-- Give one of the enemies the ability to charge (like in RE4 Remake)
--- Probably can just give it to the goblin with a spear
 - Slow shielded melee enemy that takes more damage to kill
 -- Think about the shielded enemies in RE4 Remake or Halo Jackles. Couldn't make exactly same because there isn't precision shooting to attack their week spot
 	
