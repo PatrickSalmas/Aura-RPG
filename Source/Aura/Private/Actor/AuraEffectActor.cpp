@@ -46,6 +46,25 @@ void AAuraEffectActor::ApplyEffectToTarget(AActor* TargetActor, TSubclassOf<UGam
 	}
 }
 
+bool AAuraEffectActor::DoesCharacterNeedResource(AActor* TargetActor, FGameplayAttribute BaseAttribute,
+	FGameplayAttribute MaxAttribute)
+{
+	if (TargetActor == nullptr) return false;
+	
+	auto TargetASC = UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(TargetActor);
+	bool bSuccessfullyFoundBaseAttribute = false;
+	bool bSuccessfullyFoundMaxAttribute = false;
+	// TargetASC->
+	float baseAttributeValue = UAbilitySystemBlueprintLibrary::GetFloatAttributeFromAbilitySystemComponent(TargetASC, BaseAttribute, bSuccessfullyFoundBaseAttribute);
+	float maxAttributeValue = UAbilitySystemBlueprintLibrary::GetFloatAttributeFromAbilitySystemComponent(TargetASC, MaxAttribute, bSuccessfullyFoundMaxAttribute);
+	if (baseAttributeValue < maxAttributeValue)
+	{
+		return true;
+	}
+	
+	return false;
+}
+
 void AAuraEffectActor::OnOverlap(AActor* TargetActor)
 {
 	if (InstantEffectApplicationPolicy == EEffectApplicationPolicy::ApplyOnOverlap)

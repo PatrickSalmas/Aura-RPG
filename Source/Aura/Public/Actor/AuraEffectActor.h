@@ -4,10 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "ActiveGameplayEffectHandle.h"
+#include "AttributeSet.h"
 #include "Components/SphereComponent.h"
 #include "GameFramework/Actor.h"
 #include "AuraEffectActor.generated.h"
 
+class UAttributeSet;
 class UAbilitySystemComponent;
 class UGameplayEffect;
 
@@ -43,6 +45,9 @@ protected:
 
 	UFUNCTION(BlueprintCallable)
 	void ApplyEffectToTarget(AActor* TargetActor, TSubclassOf<UGameplayEffect> GameplayEffectClass);
+	
+	UFUNCTION(BlueprintCallable, BlueprintPure)
+	bool DoesCharacterNeedResource(AActor* TargetActor,  FGameplayAttribute BaseAttribute, FGameplayAttribute MaxAttribute);
 
 	UFUNCTION(BlueprintCallable)
 	void OnOverlap(AActor* TargetActor);
