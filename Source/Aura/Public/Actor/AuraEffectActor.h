@@ -9,7 +9,7 @@
 #include "GameFramework/Actor.h"
 #include "AuraEffectActor.generated.h"
 
-class UAttributeSet;
+// class UAttributeSet;
 class UAbilitySystemComponent;
 class UGameplayEffect;
 
