@@ -137,10 +137,10 @@ protected:
 	
 	virtual void SlowedTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Combat")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
 	float BaseWalkSpeed = 250.f;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Combat")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
 	float CurrentWalkSpeed = BaseWalkSpeed;
 	
 	UPROPERTY()

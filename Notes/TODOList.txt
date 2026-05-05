@@ -87,12 +87,11 @@ Enhancements:
   reimplemented every time a new character BP is made
 -- Or, do some other type of refactoring so that this logic can be shared between new player characters
 - Going to need to remake HitReact animation from scratch for BattleMage
-- Create some sort of automatic pull/gravity for item pickups (potions) toward play, only if player needs that resource
-- Don't allow player to pick up potions/items they don't need
 - Refactor Gameplay Abilities so that the Startup Input Tag can be setup per playable character.
 -- Like you did for the animations
 - Need to create Base Class for the Player
 -- See example in BP_DilationField. Functions ApplyDilationToActor and RemoveDilationFromActor are casting to BP_BattleMage
+-- Zoom logic can be refactored into parent class
 
 Ideas for Enemies:
 - Some type of enemy that increases the speed of other enemies in its radius (kind of like Lucio)
