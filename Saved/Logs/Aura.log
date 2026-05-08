@@ -4957,3 +4957,716 @@ This may lead to unexpected results.'
 [2026.05.08-22.08.52:025][676]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21429.117188
 [2026.05.08-22.08.53:026][679]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.05.08-22.08.53:026][679]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 21429.785156, Update Interval: 309.781799
+[2026.05.08-22.12.06:568][573]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.12.06:568][573]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.12.06:568][573]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.12.06:568][573]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.12.06:568][573]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.12.06:568][573]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.12.22:171][  4]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkeletalMeshActor
+[2026.05.08-22.12.22:172][  4]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkeletalMeshActor as actor: SkeletalMeshActor /Game/Maps/StartupMap.StartupMap:PersistentLevel.Class_1
+[2026.05.08-22.12.33:269][892]Cmd: TRANSACTION UNDO
+[2026.05.08-22.12.33:269][892]LogEditorTransaction: Undo Move Control
+[2026.05.08-22.12.34:060][892]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.12.34:071][892]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.12.34:073][892]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.12.34:074][892]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.12.34:075][892]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.12.34:102][892]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.12.34:658][894]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.12.34:658][894]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.12.34:658][894]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.12.34:658][894]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.12.34:658][894]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.12.34:659][894]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.13.39:508][606]LogDerivedDataCache: C:/Users/psalm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.05.08-22.14.39:591][882]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 21775.566406
+[2026.05.08-22.14.39:761][898]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.08-22.14.39:761][898]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 21775.720703, Update Interval: 337.682434
+[2026.05.08-22.17.25:653][645]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.17.25:667][645]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.17.25:837][645]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.18.04:894][759]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.18.04:910][759]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.18.05:079][759]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.18.22:607][260]LogRigVM: Warning: Instruction[635] 'Root: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Bone(spine_03)' is not valid.'
+[2026.05.08-22.18.22:608][260]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.18.22:608][260]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.18.22:608][260]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.18.22:608][260]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_r_ctrl) after setting child (Root:Spine:Leg_1:foot_r_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.18.22:608][260]LogRigVM: Error: Instruction[1772] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (0) out of bounds (count 0).'
+[2026.05.08-22.18.22:608][260]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.18.22:608][260]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.18.25:961][569]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkeletalMeshActor
+[2026.05.08-22.18.25:961][569]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkeletalMeshActor as actor: SkeletalMeshActor /Game/Maps/StartupMap.StartupMap:PersistentLevel.Class_2
+[2026.05.08-22.19.17:319][264]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.19.17:334][264]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.19.17:503][264]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.19.32:764][243]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.19.32:779][243]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.19.32:946][243]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.19.52:983][702]Cmd: TRANSACTION UNDO
+[2026.05.08-22.19.52:983][702]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.08-22.19.53:772][702]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.19.53:786][702]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.19.53:786][702]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.19.53:787][702]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.19.53:788][702]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.19.53:819][702]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.20.00:292][149]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.20.00:308][149]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.20.00:480][149]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.20.00:518][149]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.20.00:519][149]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.20.00:519][149]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.20.00:519][149]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.20.00:519][149]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.20.00:519][149]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.20.41:899][ 59]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.20.41:915][ 59]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.20.42:085][ 59]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.21.00:349][780]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22155.761719
+[2026.05.08-22.21.00:590][805]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.08-22.21.00:590][805]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22155.996094, Update Interval: 334.587860
+[2026.05.08-22.22.15:287][  5]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.22.15:304][  5]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.22.15:471][  5]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.22.28:769][876]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.22.28:785][876]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.22.28:951][876]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.22.34:081][265]Cmd: TRANSACTION UNDO
+[2026.05.08-22.22.34:081][265]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.08-22.22.34:889][265]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.34:901][265]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.34:902][265]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.34:902][265]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.34:904][265]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.34:931][265]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.36:120][332]Cmd: TRANSACTION UNDO
+[2026.05.08-22.22.36:121][332]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.08-22.22.36:195][332]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.22.36:195][332]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.22.36:195][332]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.22.36:195][332]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.22.36:195][332]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.22.36:195][332]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.22.36:965][332]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.36:977][332]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.36:978][332]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.36:978][332]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.36:979][332]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.37:007][332]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.39:369][512]Cmd: TRANSACTION UNDO
+[2026.05.08-22.22.39:369][512]LogEditorTransaction: Undo Move Control
+[2026.05.08-22.22.40:147][512]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.40:160][512]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.40:160][512]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.40:161][512]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.40:162][512]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.40:189][512]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.42:558][663]Cmd: TRANSACTION REDO
+[2026.05.08-22.22.42:558][663]LogEditorTransaction: Redo Move Control
+[2026.05.08-22.22.42:564][663]LogRigVM: Error: Array Index (1) out of bounds (count 0).
+[2026.05.08-22.22.42:564][663]LogRigVM: Error: Array Index (2) out of bounds (count 0).
+[2026.05.08-22.22.42:564][663]LogRigVM: Error: Array Index (3) out of bounds (count 0).
+[2026.05.08-22.22.42:564][663]LogRigVM: Error: Array Index (-1) out of bounds (count 0).
+[2026.05.08-22.22.42:564][663]LogRigVM: Error: Array Index (0) out of bounds (count 0).
+[2026.05.08-22.22.43:324][663]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.43:336][663]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.43:337][663]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.43:337][663]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.43:339][663]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.43:365][663]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.47:178][ 33]Cmd: TRANSACTION REDO
+[2026.05.08-22.22.47:178][ 33]LogEditorTransaction: Redo Paint Skin Weights
+[2026.05.08-22.22.47:252][ 33]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.22.47:252][ 33]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.22.47:252][ 33]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.22.47:252][ 33]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.22.47:252][ 33]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.22.47:252][ 33]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.22.48:018][ 33]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.48:031][ 33]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.48:031][ 33]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.48:032][ 33]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.48:033][ 33]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.48:060][ 33]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.54:330][581]Cmd: TRANSACTION UNDO
+[2026.05.08-22.22.54:330][581]LogEditorTransaction: Undo Move Control
+[2026.05.08-22.22.55:096][581]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.55:108][581]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.55:109][581]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.55:109][581]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.55:111][581]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.55:139][581]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.56:485][675]Cmd: TRANSACTION UNDO
+[2026.05.08-22.22.56:485][675]LogEditorTransaction: Undo Move Control
+[2026.05.08-22.22.57:257][675]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.57:269][675]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.57:269][675]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.57:270][675]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.57:271][675]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.22.57:299][675]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.06:066][476]Cmd: TRANSACTION UNDO
+[2026.05.08-22.23.06:066][476]LogEditorTransaction: Undo Move Control
+[2026.05.08-22.23.06:834][476]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.06:846][476]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.06:847][476]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.06:847][476]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.06:848][476]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.06:877][476]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.07:604][505]Cmd: TRANSACTION UNDO
+[2026.05.08-22.23.07:604][505]LogEditorTransaction: Undo Move Control
+[2026.05.08-22.23.08:372][505]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.08:384][505]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.08:385][505]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.08:385][505]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.08:387][505]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.08:415][505]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.09:712][594]Cmd: TRANSACTION UNDO
+[2026.05.08-22.23.09:712][594]LogEditorTransaction: Undo Move Control
+[2026.05.08-22.23.10:487][594]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.10:500][594]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.10:500][594]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.10:501][594]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.10:502][594]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.10:531][594]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.11:557][654]Cmd: TRANSACTION UNDO
+[2026.05.08-22.23.11:557][654]LogEditorTransaction: Undo Move Control
+[2026.05.08-22.23.12:329][654]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.12:341][654]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.12:342][654]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.12:343][654]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.12:344][654]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.12:374][654]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.14:549][840]Cmd: TRANSACTION UNDO
+[2026.05.08-22.23.14:549][840]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.08-22.23.14:627][840]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.23.14:627][840]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.23.14:627][840]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.23.14:627][840]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.23.14:627][840]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.23.14:627][840]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.23.15:403][840]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.15:414][840]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.15:415][840]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.15:416][840]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.15:417][840]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.15:446][840]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.23.44:753][899]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.23.44:769][899]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.23.44:938][899]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.23.44:978][899]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.23.44:979][899]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.23.44:979][899]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.23.44:979][899]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.23.44:979][899]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.23.44:979][899]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.24.25:768][973]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.24.25:784][973]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.24.25:952][973]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.24.47:701][308]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.24.47:717][308]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.24.47:885][308]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.25.07:201][738]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.25.07:215][738]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.25.07:386][738]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.25.19:179][489]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.25.19:195][489]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.25.19:361][489]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.25.44:347][457]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.25.44:363][457]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.25.44:530][457]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.26.25:975][774]Cmd: TRANSACTION UNDO
+[2026.05.08-22.26.25:975][774]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.08-22.26.26:778][774]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.26.26:791][774]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.26.26:792][774]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.26.26:792][774]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.26.26:794][774]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.26.26:828][774]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.26.32:204][123]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.26.32:221][123]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.26.32:391][123]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.26.32:434][123]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.26.32:434][123]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.26.32:434][123]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.26.32:434][123]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.26.32:434][123]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.26.32:434][123]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.26.53:418][711]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.26.53:434][711]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.26.53:600][711]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.27.08:993][ 59]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22525.591797
+[2026.05.08-22.27.09:227][ 79]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.08-22.27.09:227][ 79]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22525.816406, Update Interval: 324.485596
+[2026.05.08-22.28.14:158][ 37]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.28.14:174][ 37]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.28.14:341][ 37]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.28.39:918][ 45]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.28.39:935][ 45]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.28.40:103][ 45]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.28.53:311][951]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.28.53:328][951]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.28.53:498][951]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.29.10:134][147]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.29.10:150][147]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.29.10:320][147]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.29.19:305][596]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.29.19:321][596]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.29.19:488][596]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.29.35:795][713]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.29.35:810][713]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.29.35:979][713]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.30.02:644][810]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.30.02:659][810]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.30.02:828][810]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.30.05:823][996]Cmd: TRANSACTION UNDO
+[2026.05.08-22.30.05:823][996]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.08-22.30.06:645][996]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.30.06:658][996]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.30.06:658][996]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.30.06:659][996]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.30.06:660][996]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.30.06:691][996]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.30.18:852][708]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.30.18:870][708]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.30.19:038][708]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.30.19:086][708]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.30.19:086][708]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.30.19:086][708]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.30.19:086][708]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.30.19:086][708]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.30.19:086][708]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.30.33:415][636]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.30.33:431][636]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.30.33:600][636]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.30.57:138][512]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.30.57:154][512]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.30.57:324][512]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.31.30:320][282]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.31.30:335][282]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.31.30:506][282]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.33.09:980][186]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22888.076172
+[2026.05.08-22.33.10:199][203]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.08-22.33.10:199][203]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22888.271484, Update Interval: 323.399750
+[2026.05.08-22.33.27:801][580]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.33.27:816][580]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.33.27:985][580]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.33.32:802][938]Cmd: TRANSACTION UNDO
+[2026.05.08-22.33.32:802][938]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.08-22.33.33:624][938]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.33.33:637][938]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.33.33:638][938]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.33.33:638][938]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.33.33:640][938]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.33.33:671][938]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.34.57:166][372]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.34.57:182][372]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.34.57:350][372]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.34.57:401][372]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.34.57:401][372]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.34.57:401][372]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.34.57:401][372]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.34.57:401][372]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.34.57:401][372]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.36.01:114][ 44]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.36.01:129][ 44]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.36.01:301][ 44]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.37.08:300][878]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2026.05.08-22.37.08:306][878]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/StartupMap' took 0.169
+[2026.05.08-22.37.08:307][878]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle] ([1] browsable assets)...
+[2026.05.08-22.37.08:320][878]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle]
+[2026.05.08-22.37.08:320][878]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle]
+[2026.05.08-22.37.08:342][878]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle_Auto2
+[2026.05.08-22.37.08:343][878]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/SKM_LavaTurtle_Auto26AAE7F594F60B559823671BBD86355E0.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/Autosaves/Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle_Auto2.uasset'
+[2026.05.08-22.37.08:344][878]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/Animations/LevelSequences/LS_Test] ([1] browsable assets)...
+[2026.05.08-22.37.08:344][878]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/Animations/LevelSequences/LS_Test]
+[2026.05.08-22.37.08:350][878]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/Animations/LevelSequences/LS_Test_Auto2
+[2026.05.08-22.37.08:350][878]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/LS_Test_Auto2B2498BB6442F3204ECBEB68D0B9DDF49.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/Autosaves/Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/Animations/LevelSequences/LS_Test_Auto2.uasset'
+[2026.05.08-22.37.08:352][878]LogFileHelpers: Auto-saving content packages took 0.046
+[2026.05.08-22.38.20:602][778]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.38.20:619][778]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.38.20:790][778]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.39.31:059][894]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23269.531250
+[2026.05.08-22.39.31:325][916]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.08-22.39.31:325][916]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23269.787109, Update Interval: 311.252167
+[2026.05.08-22.40.10:482][892]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.40.10:498][892]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.40.10:665][892]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.41.05:410][596]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.41.05:426][596]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.41.05:594][596]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.41.26:140][ 72]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.41.26:156][ 72]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.41.26:325][ 72]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.41.43:804][165]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.41.43:820][165]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.41.43:987][165]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.42.52:599][388]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.42.52:614][388]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.42.52:787][388]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.43.01:459][845]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.43.01:474][845]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.43.01:641][845]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.43.46:470][379]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.43.46:485][379]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.43.46:654][379]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.43.54:547][ 20]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Marquee Select entirely.
+[2026.05.08-22.44.25:322][514]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.44.25:337][514]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.44.25:506][514]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.45.28:734][868]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23629.279297
+[2026.05.08-22.45.28:909][880]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.08-22.45.28:909][880]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23629.431641, Update Interval: 324.298828
+[2026.05.08-22.45.41:325][875]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.45.41:341][875]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.45.41:511][875]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.46.57:092][155]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.46.57:109][155]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.46.57:276][155]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.47.21:128][507]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.47.21:144][507]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.47.21:313][507]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.47.44:593][524]Cmd: TRANSACTION UNDO
+[2026.05.08-22.47.44:593][524]LogEditorTransaction: Undo Move Control
+[2026.05.08-22.47.45:404][524]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.45:416][524]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.45:417][524]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.45:417][524]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.45:419][524]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.45:453][524]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.50:839][  5]Cmd: TRANSACTION UNDO
+[2026.05.08-22.47.50:839][  5]LogEditorTransaction: Undo Move Control
+[2026.05.08-22.47.51:638][  5]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.51:651][  5]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.51:651][  5]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.51:652][  5]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.51:653][  5]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.51:683][  5]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.52:842][ 57]Cmd: TRANSACTION UNDO
+[2026.05.08-22.47.52:842][ 57]LogEditorTransaction: Undo Move Control
+[2026.05.08-22.47.53:633][ 57]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.53:645][ 57]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.53:645][ 57]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.53:646][ 57]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.53:647][ 57]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.53:677][ 57]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.58:110][435]Cmd: TRANSACTION UNDO
+[2026.05.08-22.47.58:110][435]LogEditorTransaction: Undo Move Control
+[2026.05.08-22.47.58:908][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.58:921][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.58:922][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.58:922][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.58:923][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.58:954][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.47.59:986][492]Cmd: TRANSACTION UNDO
+[2026.05.08-22.47.59:986][492]LogEditorTransaction: Undo Move Control
+[2026.05.08-22.48.00:779][492]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.00:790][492]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.00:792][492]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.00:793][492]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.00:794][492]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.00:824][492]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.02:652][635]Cmd: TRANSACTION UNDO
+[2026.05.08-22.48.02:652][635]LogEditorTransaction: Undo Move Control
+[2026.05.08-22.48.03:440][635]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.03:453][635]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.03:453][635]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.03:454][635]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.03:455][635]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.03:486][635]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.04:571][701]Cmd: TRANSACTION UNDO
+[2026.05.08-22.48.04:571][701]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.08-22.48.04:665][701]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.48.04:665][701]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.48.04:665][701]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.48.04:665][701]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.48.04:665][701]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.48.04:665][701]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.48.05:442][701]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.05:455][701]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.05:455][701]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.05:456][701]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.05:457][701]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.05:489][701]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.08:282][955]Cmd: TRANSACTION UNDO
+[2026.05.08-22.48.08:282][955]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.08-22.48.08:374][955]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.48.08:374][955]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.48.08:374][955]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.48.08:374][955]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.48.08:374][955]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.48.08:374][955]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.48.09:159][955]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.09:171][955]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.09:172][955]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.09:172][955]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.09:174][955]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.48.09:205][955]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.50.25:040][142]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.50.25:040][142]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.50.25:040][142]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.50.25:040][142]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.50.25:040][142]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.50.25:040][142]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.50.28:270][409]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkeletalMeshActor
+[2026.05.08-22.50.28:271][409]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkeletalMeshActor as actor: SkeletalMeshActor /Game/Maps/StartupMap.StartupMap:PersistentLevel.Class_3
+[2026.05.08-22.51.02:174][905]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.05.08-22.51.02:191][905]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.08-22.51.02:248][905]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle] ([1] browsable assets)...
+[2026.05.08-22.51.02:262][905]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle]
+[2026.05.08-22.51.02:262][905]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle]
+[2026.05.08-22.51.02:284][905]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle
+[2026.05.08-22.51.02:285][905]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/SKM_LavaTurtleE075C3254AADCA9A8DA9FC98448F9F42.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.uasset'
+[2026.05.08-22.51.02:287][905]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/Animations/LevelSequences/LS_Test] ([1] browsable assets)...
+[2026.05.08-22.51.02:287][905]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/Animations/LevelSequences/LS_Test]
+[2026.05.08-22.51.02:294][905]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/Animations/LevelSequences/LS_Test
+[2026.05.08-22.51.02:294][905]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/LS_Test7B31B0F74830F92B429AEFAF71FBEBE0.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle5/Animations/LevelSequences/LS_Test.uasset'
+[2026.05.08-22.51.02:303][905]LogFileHelpers: InternalPromptForCheckoutAndSave took 112.777 ms (total: 2.11 sec)
+[2026.05.08-22.51.02:345][905]LogContentValidation: Display: Starting to validate 2 assets
+[2026.05.08-22.51.02:345][905]LogContentValidation: Enabled validators:
+[2026.05.08-22.51.02:346][905]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.08-22.51.02:346][905]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.08-22.51.02:346][905]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.08-22.51.02:346][905]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.08-22.51.02:346][905]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.08-22.51.02:346][905]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.08-22.51.02:347][905]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle Validating asset
+[2026.05.08-22.51.02:347][905]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/Animations/LevelSequences/LS_Test Validating asset
+[2026.05.08-22.51.24:130][928]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23987.492188
+[2026.05.08-22.51.24:284][942]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.08-22.51.24:284][942]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23987.636719, Update Interval: 316.119263
+[2026.05.08-22.51.59:116][708]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.51.59:132][708]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.51.59:303][708]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.52.05:010][161]Cmd: TRANSACTION UNDO
+[2026.05.08-22.52.05:010][161]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.08-22.52.05:848][161]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.05:859][161]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.05:859][161]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.05:861][161]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.05:862][161]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.05:894][161]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.15:485][697]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.52.15:500][697]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.52.15:673][697]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.52.15:731][697]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.52.15:731][697]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.52.15:731][697]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.52.15:731][697]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.52.15:731][697]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.52.15:731][697]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.52.28:813][571]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.52.28:829][571]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.52.28:998][571]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.52.36:381][178]Cmd: TRANSACTION UNDO
+[2026.05.08-22.52.36:381][178]LogEditorTransaction: Undo Set Transform Key
+[2026.05.08-22.52.37:179][178]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.37:192][178]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.37:193][178]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.37:193][178]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.37:195][178]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.37:227][178]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.41:126][506]Cmd: TRANSACTION UNDO
+[2026.05.08-22.52.41:126][506]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.08-22.52.41:222][506]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.52.41:222][506]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.52.41:222][506]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.52.41:222][506]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.52.41:222][506]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.52.41:222][506]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.52.42:014][506]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.42:026][506]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.42:027][506]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.42:028][506]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.42:029][506]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.42:061][506]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.43:629][618]Cmd: TRANSACTION UNDO
+[2026.05.08-22.52.43:629][618]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.08-22.52.43:727][618]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.52.43:727][618]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.52.43:727][618]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.52.43:727][618]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.52.43:727][618]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.52.43:727][618]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.52.44:514][618]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.44:526][618]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.44:526][618]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.44:527][618]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.44:528][618]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.52.44:560][618]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.53.12:436][695]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.53.12:452][695]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.53.12:620][695]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.53.12:680][695]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.53.12:680][695]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.53.12:680][695]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.53.12:680][695]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.53.12:680][695]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.53.12:680][695]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.53.15:317][845]Cmd: TRANSACTION UNDO
+[2026.05.08-22.53.15:317][845]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.08-22.53.16:160][845]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.53.16:173][845]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.53.16:173][845]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.53.16:174][845]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.53.16:175][845]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.53.16:208][845]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.53.26:679][480]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.53.26:695][480]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.53.26:865][480]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.53.26:924][480]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.53.26:924][480]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.53.26:924][480]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.53.26:924][480]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.53.26:924][480]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.53.26:924][480]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.53.29:114][586]Cmd: TRANSACTION UNDO
+[2026.05.08-22.53.29:114][586]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.08-22.53.29:948][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.53.29:961][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.53.29:962][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.53.29:963][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.53.29:964][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.53.29:996][586]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.53.38:769][ 65]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.53.38:784][ 65]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.53.38:950][ 65]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.53.39:011][ 65]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.53.39:011][ 65]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.53.39:011][ 65]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.53.39:011][ 65]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.53.39:011][ 65]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.53.39:011][ 65]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.53.50:311][699]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.53.50:326][699]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.53.50:492][699]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.54.10:944][223]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.54.10:959][223]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.54.11:129][223]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.54.25:663][194]Cmd: TRANSACTION UNDO
+[2026.05.08-22.54.25:663][194]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.08-22.54.26:465][194]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.54.26:477][194]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.54.26:478][194]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.54.26:479][194]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.54.26:480][194]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.54.26:513][194]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.54.32:091][540]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.54.32:107][540]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.54.32:275][540]LogSkeletalMesh: Built Skeletal Mesh [0.18s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.54.32:337][540]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.54.32:337][540]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.54.32:337][540]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.54.32:337][540]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.54.32:337][540]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.54.32:337][540]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.54.56:495][355]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.54.56:511][355]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.54.56:681][355]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.55.46:549][726]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.55.46:564][726]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.55.46:736][726]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.56.15:740][613]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.05.08-22.56.15:745][613]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/StartupMap' took 0.044
+[2026.05.08-22.56.15:746][613]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle] ([1] browsable assets)...
+[2026.05.08-22.56.15:758][613]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle]
+[2026.05.08-22.56.15:758][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle]
+[2026.05.08-22.56.15:782][613]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle_Auto3
+[2026.05.08-22.56.15:782][613]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/SKM_LavaTurtle_Auto35787AD91452BC344F21132ADBED7CC91.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/Autosaves/Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle_Auto3.uasset'
+[2026.05.08-22.56.15:782][613]LogFileHelpers: Auto-saving content packages took 0.037
+[2026.05.08-22.57.17:920][838]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24345.951172
+[2026.05.08-22.57.18:073][851]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.08-22.57.18:073][851]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24346.091797, Update Interval: 309.578552
+[2026.05.08-22.58.09:166][720]Cmd: TRANSACTION UNDO
+[2026.05.08-22.58.09:166][720]LogEditorTransaction: Undo Move Control
+[2026.05.08-22.58.09:983][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.58.09:996][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.58.09:996][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.58.09:997][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.58.09:998][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.58.10:033][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.58.27:692][211]Cmd: SELECT NONE
+[2026.05.08-22.59.16:742][432]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle...
+[2026.05.08-22.59.16:756][432]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle) ...
+[2026.05.08-22.59.16:927][432]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.08-22.59.16:991][432]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.59.16:991][432]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.59.16:991][432]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.59.16:991][432]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.59.16:991][432]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.59.16:991][432]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.59.26:464][196]Cmd: TRANSACTION UNDO
+[2026.05.08-22.59.26:464][196]LogEditorTransaction: Undo Move Control
+[2026.05.08-22.59.27:257][196]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.59.27:270][196]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.59.27:271][196]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.59.27:271][196]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.59.27:273][196]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.59.27:306][196]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.59.29:619][385]Cmd: TRANSACTION UNDO
+[2026.05.08-22.59.29:619][385]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.08-22.59.29:725][385]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.08-22.59.29:725][385]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.08-22.59.29:725][385]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.08-22.59.29:725][385]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.59.29:725][385]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.08-22.59.29:725][385]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.08-22.59.30:517][385]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.59.30:529][385]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.59.30:530][385]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.59.30:530][385]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.59.30:532][385]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.59.30:565][385]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.08-22.59.52:248][406]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Marquee Select entirely.
+[2026.05.08-23.02.24:423][611]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Marquee Select entirely.
+[2026.05.08-23.03.18:160][172]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24711.048828
+[2026.05.08-23.03.19:162][175]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.08-23.03.19:162][175]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24711.718750, Update Interval: 351.131927
