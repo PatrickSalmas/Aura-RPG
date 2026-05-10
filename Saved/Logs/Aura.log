@@ -2394,3 +2394,66 @@ This may lead to unexpected results.'
 [2026.05.10-22.40.27:801][670]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3220.931152
 [2026.05.10-22.40.28:802][673]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.05.10-22.40.28:802][673]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3221.597900, Update Interval: 357.430939
+[2026.05.10-22.46.37:167][539]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.10-22.46.37:183][539]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.10-22.46.37:812][539]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.10-22.47.08:471][756]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3621.606934
+[2026.05.10-22.47.08:621][774]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.10-22.47.08:621][774]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3621.749512, Update Interval: 300.536530
+[2026.05.10-22.47.10:236][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2026.05.10-22.47.10:244][950]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.10-22.47.10:300][950]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6] ([1] browsable assets)...
+[2026.05.10-22.47.10:313][950]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6]
+[2026.05.10-22.47.10:313][950]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6]
+[2026.05.10-22.47.10:370][950]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6
+[2026.05.10-22.47.10:371][950]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/SKM_LavaTurtle6D38840414E5F4FB6AAE641BF480A647C.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.uasset'
+[2026.05.10-22.47.10:373][950]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST] ([1] browsable assets)...
+[2026.05.10-22.47.10:373][950]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST]
+[2026.05.10-22.47.10:374][950]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST
+[2026.05.10-22.47.10:374][950]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/LS_TEST3CD0F2EA455AF3F636A3198541325541.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST.uasset'
+[2026.05.10-22.47.10:381][950]LogFileHelpers: InternalPromptForCheckoutAndSave took 137.184 ms (total: 1.10 sec)
+[2026.05.10-22.47.10:415][950]LogContentValidation: Display: Starting to validate 2 assets
+[2026.05.10-22.47.10:415][950]LogContentValidation: Enabled validators:
+[2026.05.10-22.47.10:415][950]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.10-22.47.10:415][950]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.10-22.47.10:415][950]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.10-22.47.10:415][950]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.10-22.47.10:415][950]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.10-22.47.10:415][950]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.10-22.47.10:416][950]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6 Validating asset
+[2026.05.10-22.47.10:416][950]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST Validating asset
+[2026.05.10-22.47.14:238][346]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.10-22.47.14:239][346]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6 as actor: SkeletalMeshActor /Game/Maps/StartupMap.StartupMap:PersistentLevel.SKM_LavaTurtle6_1
+[2026.05.10-22.47.20:194][760]LogSlate: Window 'Options For Baking' being destroyed
+[2026.05.10-22.48.29:527][544]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.10-22.48.29:544][544]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.10-22.48.30:180][544]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.10-22.48.40:192][445]LogDerivedDataCache: C:/Users/psalm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.05.10-22.49.20:851][268]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.10-22.49.20:867][268]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.10-22.49.21:510][268]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.10-22.50.24:917][136]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.10-22.50.24:933][136]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.10-22.50.25:583][136]LogSkeletalMesh: Built Skeletal Mesh [0.67s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.10-22.51.03:578][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2026.05.10-22.51.03:585][ 26]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.10-22.51.03:631][ 26]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6] ([1] browsable assets)...
+[2026.05.10-22.51.03:644][ 26]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6]
+[2026.05.10-22.51.03:644][ 26]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6]
+[2026.05.10-22.51.03:703][ 26]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6
+[2026.05.10-22.51.03:704][ 26]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/SKM_LavaTurtle68B035BB947FB00F1342573B4FF07B63A.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.uasset'
+[2026.05.10-22.51.03:706][ 26]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST] ([1] browsable assets)...
+[2026.05.10-22.51.03:706][ 26]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST]
+[2026.05.10-22.51.03:711][ 26]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST
+[2026.05.10-22.51.03:711][ 26]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/LS_TESTC662D03C40F4C80AD768D3A597DDC8DE.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST.uasset'
+[2026.05.10-22.51.03:718][ 26]LogFileHelpers: InternalPromptForCheckoutAndSave took 133.320 ms (total: 1.23 sec)
+[2026.05.10-22.51.03:764][ 26]LogContentValidation: Display: Starting to validate 2 assets
+[2026.05.10-22.51.03:764][ 26]LogContentValidation: Enabled validators:
+[2026.05.10-22.51.03:764][ 26]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.10-22.51.03:764][ 26]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.10-22.51.03:764][ 26]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.10-22.51.03:764][ 26]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.10-22.51.03:764][ 26]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.10-22.51.03:764][ 26]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.10-22.51.03:765][ 26]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6 Validating asset
+[2026.05.10-22.51.03:765][ 26]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST Validating asset
