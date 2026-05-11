@@ -1281,3 +1281,233 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.05.11-15.34.35:412][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
 [2026.05.11-15.34.35:419][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
 [2026.05.11-15.34.36:040][  0]LogAssetRegistry: Display: Asset registry cache written as 42.6 MiB to ../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Intermediate/CachedAssetRegistry_*.bin
+[2026.05.11-15.34.38:148][  0]LogStreaming: Display: ImportPackages: SkipPackage: /Game/Fab/Megascans/3D/Concrete_Rubble_rhlxZ/Mid/Materials/Concrete_Rubble_rhlxZ_Mid_2K (0x6FB8963147771A08) /Game/Fab/Megascans/3D/Concrete_Rubble_rhlxZ/Mid/Materials/Concrete_Rubble_rhlxZ_Mid_2K (0x6FB8963147771A08) - Skipping non mounted imported package /FabLauncher/MSPresets/MS_DefaultTextures/T_Alpha_Black (0x447FBA97BC395504)
+[2026.05.11-15.34.39:008][  0]LogMetaSound: Display: Resave recommended: Asset 'sfx_FireBolt_Impact' at '/Game/Assets/Sounds/Abilities/FireBolt/sfx_FireBolt_Impact.sfx_FireBolt_Impact' successfully migrated editor data in target document version 'v1.12'.
+[2026.05.11-15.34.39:008][  0]LogMetaSound: Display: Resave recommended: Asset 'sfx_FireBoltHiss' at '/Game/Assets/Sounds/Abilities/FireBolt/sfx_FireBoltHiss.sfx_FireBoltHiss' successfully migrated editor data in target document version 'v1.12'.
+[2026.05.11-15.34.39:928][  0]LogMetaSound: Display: Resave recommended: Asset 'sfx_Footsteps' at '/Game/Assets/Sounds/FootSteps/sfx_Footsteps.sfx_Footsteps' successfully migrated editor data in target document version 'v1.12'.
+[2026.05.11-15.34.40:085][  0]LogGameplayTags: Warning: [AssetLog] C:\Users\psalm\UnrealProjects\Aura_Copy_test\Content\Blueprints\UI\SpellMenu\WBP_EquippedSpellsRow.uasset: Invalid GameplayTag PassiveAbility.1 found in property /Game/Blueprints/UI/SpellGlobes/WBP_EquippedRow_Button.WBP_EquippedRow_Button_C:InputTag.
+[2026.05.11-15.34.40:085][  0]LogGameplayTags: Warning: [AssetLog] C:\Users\psalm\UnrealProjects\Aura_Copy_test\Content\Blueprints\UI\SpellMenu\WBP_EquippedSpellsRow.uasset: Invalid GameplayTag PassiveAbility.2 found in property /Game/Blueprints/UI/SpellGlobes/WBP_EquippedRow_Button.WBP_EquippedRow_Button_C:InputTag.
+[2026.05.11-15.34.40:221][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2026.05.11-15.34.40:353][  0]LogNiagara: Converted parameter User.Beam End from vec3 to position type in asset /Game/Assets/Effects/ArcaneShards/NS_ArcanePullBeam.NS_ArcanePullBeam
+[2026.05.11-15.34.40:354][  0]LogCurveTable: Warning: UCurveTable::FindCurve : Row 'Abilities.FireBolt' not found in CurveTable '/Game/Blueprints/AbilitySystem/Data/CT_SpellCosts.CT_SpellCosts' (/Game/Blueprints/AbilitySystem/Aura/Abilities/Fire/Firebolt/GE_Cost_FireBolt.Default__GE_Cost_FireBolt_C.ScalableFloatMagnitude).
+[2026.05.11-15.34.40:704][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'StartupMap'.
+[2026.05.11-15.34.40:705][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.05.11-15.34.40:752][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.05.11-15.34.40:816][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2026.05.11-15.34.40:817][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.05.11-15.34.40:818][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.047ms to complete.
+[2026.05.11-15.34.40:834][  0]LogUnrealEdMisc: Total Editor Startup Time, took 23.356
+[2026.05.11-15.34.40:968][  0]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2026.05.11-15.34.40:994][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2026.05.11-15.34.41:045][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.11-15.34.41:070][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.11-15.34.41:095][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.11-15.34.41:120][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.11-15.34.41:121][  0]LogSlate: The tab "TopRightModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2026.05.11-15.34.41:154][  0]LogSlate: The tab "BottomRightModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2026.05.11-15.34.41:219][  0]LogPakFile: Initializing PakPlatformFile
+[2026.05.11-15.34.41:224][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.5/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2026.05.11-15.34.41:224][  0]LogPakFile: Initializing PakPlatformFile
+[2026.05.11-15.34.41:230][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.5/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2026.05.11-15.34.41:230][  0]LogPakFile: Initializing PakPlatformFile
+[2026.05.11-15.34.41:235][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.5/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2026.05.11-15.34.41:235][  0]LogPakFile: Initializing PakPlatformFile
+[2026.05.11-15.34.41:238][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.5/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2026.05.11-15.34.41:239][  0]LogPakFile: Initializing PakPlatformFile
+[2026.05.11-15.34.41:243][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.5/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2026.05.11-15.34.41:243][  0]LogPakFile: Initializing PakPlatformFile
+[2026.05.11-15.34.41:247][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.5/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2026.05.11-15.34.41:247][  0]LogPakFile: Initializing PakPlatformFile
+[2026.05.11-15.34.41:252][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.5/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2026.05.11-15.34.41:252][  0]LogPakFile: Initializing PakPlatformFile
+[2026.05.11-15.34.41:257][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.5/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2026.05.11-15.34.41:257][  0]LogPakFile: Initializing PakPlatformFile
+[2026.05.11-15.34.41:262][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.5/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2026.05.11-15.34.41:262][  0]LogPakFile: Initializing PakPlatformFile
+[2026.05.11-15.34.41:266][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.5/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2026.05.11-15.34.41:504][  0]LogSlate: Took 0.003177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2026.05.11-15.34.41:510][  0]LogSlate: Took 0.003012 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2026.05.11-15.34.41:511][  0]LogSlate: Took 0.000417 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2026.05.11-15.34.41:774][  0]LogStall: Startup...
+[2026.05.11-15.34.41:776][  0]LogStall: Startup complete.
+[2026.05.11-15.34.41:786][  0]LogLoad: (Engine Initialization) Total time: 24.31 seconds
+[2026.05.11-15.34.41:915][  0]LogAssetRegistry: AssetRegistryGather time 0.0946s: AssetDataDiscovery 0.0167s, AssetDataGather 0.0280s, StoreResults 0.0499s. Wall time 15.0320s.
+	NumCachedDirectories 0. NumUncachedDirectories 1908. NumCachedFiles 8805. NumUncachedFiles 8.
+	BackgroundTickInterruptions 0.
+[2026.05.11-15.34.41:944][  0]LogStats: UGameplayCueManager::InitializeEditorObjectLibrary -  0.001 s
+[2026.05.11-15.34.41:955][  0]LogSourceControl: Uncontrolled asset enumeration started...
+[2026.05.11-15.34.41:955][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2026.05.11-15.34.41:962][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2026.05.11-15.34.41:962][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2026.05.11-15.34.42:023][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.11-15.34.42:027][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.5/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2026.05.11-15.34.42:167][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2026.05.11-15.34.42:175][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.5/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 147.372 ms
+[2026.05.11-15.34.42:226][  0]LogSourceControl: Uncontrolled asset enumeration finished in 0.271579 seconds (Found 8789 uncontrolled assets)
+[2026.05.11-15.34.42:233][  0]LoadErrors: Warning: While trying to load package /Game/Fab/Megascans/3D/Concrete_Rubble_rhlxZ/Mid/Materials/Concrete_Rubble_rhlxZ_Mid_2K, a dependent package /FabLauncher/MSPresets/MS_DefaultTextures/T_Alpha_Black was not available. Additional explanatory information follows:
+FPackageName: Unable to identify a valid mount point associated with skipped package /FabLauncher/MSPresets/MS_DefaultTextures/T_Alpha_Black. The package root is unknown.
+
+[2026.05.11-15.34.42:236][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: AuraEditor Win64 Development
+[2026.05.11-15.34.42:763][  5]LogSlate: Took 0.003832 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2026.05.11-15.34.43:122][  6]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 9.723826
+[2026.05.11-15.34.43:123][  6]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2026.05.11-15.34.43:124][  6]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10.051678
+[2026.05.11-15.34.44:407][ 10]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2026.05.11-15.34.45:077][ 12]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 11.670795
+[2026.05.11-15.34.45:078][ 12]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1016772990
+[2026.05.11-15.34.45:078][ 12]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11.670795, Update Interval: 358.804291
+[2026.05.11-15.34.47:404][ 19]LogMetaSound: Display: Resave recommended: Asset 'sfx_ShockLoop' at '/Game/Assets/Sounds/Abilities/Shock/sfx_ShockLoop.sfx_ShockLoop' successfully migrated editor data in target document version 'v1.12'.
+[2026.05.11-15.34.47:732][ 20]LogMetaSound: Display: Resave recommended: Asset 'sfx_Shock' at '/Game/Assets/Sounds/Abilities/Shock/sfx_Shock.sfx_Shock' successfully migrated editor data in target document version 'v1.12'.
+[2026.05.11-15.34.54:398][ 40]LogStreaming: Display: FlushAsyncLoading(344): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.11-15.34.54:459][ 40]LogNiagara: SkeletalMesh data interface with no resident LODs. Sampling will fail. NiagaraDataInterfaceSkeletalMesh /Game/Assets/Effects/SpeedBoost/NS_SpeedBoostTrail_ThinChar.NS_SpeedBoostTrail_ThinChar:LUpperArm_Trail_4.SpawnScript.NiagaraDataInterfaceSkeletalMesh_0
+[2026.05.11-15.34.54:459][ 40]LogNiagara: SkeletalMesh data interface with no resident LODs. Sampling will fail. NiagaraDataInterfaceSkeletalMesh /Game/Assets/Effects/SpeedBoost/NS_SpeedBoostTrail_ThinChar.NS_SpeedBoostTrail_ThinChar:RUpperArm_Trail_5.SpawnScript.NiagaraDataInterfaceSkeletalMesh_0
+[2026.05.11-15.34.54:459][ 40]LogNiagara: SkeletalMesh data interface with no resident LODs. Sampling will fail. NiagaraDataInterfaceSkeletalMesh /Game/Assets/Effects/SpeedBoost/NS_SpeedBoostTrail_ThinChar.NS_SpeedBoostTrail_ThinChar:HeadTrail_6.SpawnScript.NiagaraDataInterfaceSkeletalMesh_0
+[2026.05.11-15.34.54:476][ 40]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SpeedDemon_Stylized) ...
+[2026.05.11-15.34.56:634][292]LogStreaming: Display: FlushAsyncLoading(345): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.11-15.34.56:665][292]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST.LS_TEST
+[2026.05.11-15.34.56:780][292]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/SKM_LavaTurtle.SKM_LavaTurtle
+[2026.05.11-15.34.56:793][292]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.05.11-15.34.56:829][292]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.34.57:132][292]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SK_LavaTurtle6.SK_LavaTurtle6
+[2026.05.11-15.34.57:133][292]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.05.11-15.34.57:139][292]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.34.57:301][292]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.05.11-15.34.57:331][292]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.34.57:332][292]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.05.11-15.34.57:335][292]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.34.57:665][292]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2026.05.11-15.34.57:839][295]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.05.11-15.35.02:778][711]LogSlate: Took 0.005007 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2026.05.11-15.36.25:812][294]LogDerivedDataCache: C:/Users/psalm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.05.11-15.36.59:635][148]LogStreaming: Display: FlushAsyncLoading(352): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.11-15.40.42:540][886]Cmd: TRANSACTION UNDO
+[2026.05.11-15.40.42:541][886]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-15.40.42:832][886]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.40.42:833][886]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.40.42:834][886]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.40.43:561][945]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 370.491058
+[2026.05.11-15.40.43:694][961]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-15.40.43:695][961]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 370.615082, Update Interval: 333.851746
+[2026.05.11-15.40.54:757][930]Cmd: TRANSACTION UNDO
+[2026.05.11-15.40.54:757][930]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-15.40.55:052][930]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.40.55:052][930]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.40.55:054][930]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.31:009][ 54]Cmd: TRANSACTION UNDO
+[2026.05.11-15.41.31:009][ 54]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-15.41.31:307][ 54]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.31:307][ 54]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.31:309][ 54]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.31:551][ 56]Cmd: TRANSACTION UNDO
+[2026.05.11-15.41.31:551][ 56]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-15.41.31:832][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.31:833][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.31:834][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.31:846][ 56]Cmd: TRANSACTION UNDO
+[2026.05.11-15.41.31:846][ 56]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-15.41.32:132][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.32:133][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.32:134][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.32:147][ 56]Cmd: TRANSACTION UNDO
+[2026.05.11-15.41.32:147][ 56]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-15.41.32:437][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.32:438][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.32:439][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.32:452][ 56]Cmd: TRANSACTION UNDO
+[2026.05.11-15.41.32:452][ 56]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-15.41.32:744][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.32:745][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.32:746][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.32:759][ 56]Cmd: TRANSACTION UNDO
+[2026.05.11-15.41.32:759][ 56]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-15.41.33:049][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.33:050][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.33:051][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.33:065][ 56]Cmd: TRANSACTION UNDO
+[2026.05.11-15.41.33:065][ 56]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-15.41.33:356][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.33:357][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.33:358][ 56]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.35:625][233]Cmd: TRANSACTION REDO
+[2026.05.11-15.41.35:625][233]LogEditorTransaction: Redo Paint skin weights.
+[2026.05.11-15.41.35:901][233]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.35:902][233]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.35:903][233]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.37:130][364]Cmd: TRANSACTION REDO
+[2026.05.11-15.41.37:130][364]LogEditorTransaction: Redo Paint skin weights.
+[2026.05.11-15.41.37:406][364]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.37:407][364]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.37:408][364]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.39:183][539]Cmd: TRANSACTION REDO
+[2026.05.11-15.41.39:183][539]LogEditorTransaction: Redo Paint skin weights.
+[2026.05.11-15.41.39:464][539]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.39:464][539]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.39:466][539]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.40:331][628]Cmd: TRANSACTION REDO
+[2026.05.11-15.41.40:331][628]LogEditorTransaction: Redo Paint skin weights.
+[2026.05.11-15.41.40:612][628]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.40:613][628]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.41.40:614][628]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.42.27:449][117]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.42.27:465][117]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.42.28:101][117]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.42.57:656][797]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.42.57:672][797]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.42.58:307][797]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.43.22:600][123]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.43.22:615][123]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.43.23:247][123]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.44.12:020][ 85]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.44.12:035][ 85]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.44.12:672][ 85]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.44.30:296][836]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.44.30:311][836]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.44.30:950][836]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.45.41:427][426]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.45.41:442][426]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.45.42:076][426]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.46.19:899][536]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 706.830383
+[2026.05.11-15.46.20:049][554]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-15.46.20:049][554]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 706.971680, Update Interval: 328.847321
+[2026.05.11-15.46.56:286][394]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.46.56:301][394]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.46.56:941][394]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.48.36:427][ 10]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.48.36:442][ 10]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.48.37:118][ 10]LogSkeletalMesh: Built Skeletal Mesh [0.69s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.49.06:223][ 12]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.49.06:239][ 12]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.49.06:881][ 12]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.50.00:299][446]Cmd: TRANSACTION UNDO
+[2026.05.11-15.50.00:299][446]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-15.50.00:587][446]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.50.00:588][446]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.50.00:589][446]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.51.01:163][279]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.51.01:178][279]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.51.01:814][279]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.51.47:548][496]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.51.47:563][496]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.51.48:202][496]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.51.56:413][385]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1043.347534
+[2026.05.11-15.51.56:564][403]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-15.51.56:564][403]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1043.489990, Update Interval: 344.159058
+[2026.05.11-15.52.23:653][225]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.52.23:669][225]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.52.24:300][225]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.53.06:736][552]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.53.06:752][552]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.53.07:394][552]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.53.54:399][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2026.05.11-15.53.54:402][ 70]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/StartupMap' took 0.217
+[2026.05.11-15.53.54:410][ 70]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST] ([1] browsable assets)...
+[2026.05.11-15.53.54:411][ 70]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST]
+[2026.05.11-15.53.54:416][ 70]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST_Auto1
+[2026.05.11-15.53.54:416][ 70]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/LS_TEST_Auto1FA42DAD34C92CDB518E593A89A19F1DC.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/Autosaves/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST_Auto1.uasset'
+[2026.05.11-15.53.54:418][ 70]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6] ([1] browsable assets)...
+[2026.05.11-15.53.54:511][ 70]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6]
+[2026.05.11-15.53.54:512][ 70]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6]
+[2026.05.11-15.53.54:569][ 70]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_Auto1
+[2026.05.11-15.53.54:569][ 70]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/SKM_LavaTurtle6_Auto139F2388245D62289B4B5AE83B2651D93.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/Autosaves/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_Auto1.uasset'
+[2026.05.11-15.53.54:570][ 70]LogFileHelpers: Auto-saving content packages took 0.167
