@@ -1511,3 +1511,396 @@ FPackageName: Unable to identify a valid mount point associated with skipped pac
 [2026.05.11-15.53.54:569][ 70]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_Auto1
 [2026.05.11-15.53.54:569][ 70]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/SKM_LavaTurtle6_Auto139F2388245D62289B4B5AE83B2651D93.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/Autosaves/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_Auto1.uasset'
 [2026.05.11-15.53.54:570][ 70]LogFileHelpers: Auto-saving content packages took 0.167
+[2026.05.11-15.54.30:472][284]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.05.11-15.54.30:486][284]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.11-15.54.30:520][284]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST] ([1] browsable assets)...
+[2026.05.11-15.54.30:520][284]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST]
+[2026.05.11-15.54.30:523][284]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST
+[2026.05.11-15.54.30:524][284]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/LS_TEST785C18374E52A816C673C188E558FE40.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST.uasset'
+[2026.05.11-15.54.30:525][284]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6] ([1] browsable assets)...
+[2026.05.11-15.54.30:525][284]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6]
+[2026.05.11-15.54.30:584][284]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6
+[2026.05.11-15.54.30:585][284]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/SKM_LavaTurtle68610F2E441FB935894CEE48B62980883.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.uasset'
+[2026.05.11-15.54.30:595][284]LogFileHelpers: InternalPromptForCheckoutAndSave took 108.759 ms
+[2026.05.11-15.54.30:652][284]LogContentValidation: Display: Starting to validate 2 assets
+[2026.05.11-15.54.30:652][284]LogContentValidation: Enabled validators:
+[2026.05.11-15.54.30:652][284]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.11-15.54.30:652][284]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.11-15.54.30:653][284]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.11-15.54.30:653][284]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.11-15.54.30:653][284]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.11-15.54.30:653][284]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.11-15.54.30:655][284]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_TEST Validating asset
+[2026.05.11-15.54.30:655][284]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6 Validating asset
+[2026.05.11-15.55.29:154][925]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.55.29:169][925]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.55.29:812][925]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.56.39:226][516]Cmd: TRANSACTION UNDO
+[2026.05.11-15.56.39:226][516]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-15.56.39:515][516]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.56.39:516][516]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.56.39:517][516]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.56.47:841][ 99]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.56.47:856][ 99]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.56.48:493][ 99]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.56.55:191][831]Cmd: TRANSACTION UNDO
+[2026.05.11-15.56.55:191][831]LogEditorTransaction: Undo Move Control
+[2026.05.11-15.56.55:476][831]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.56.55:476][831]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.56.55:478][831]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.56.56:934][955]Cmd: TRANSACTION UNDO
+[2026.05.11-15.56.56:934][955]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.11-15.56.57:039][955]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.56.57:344][955]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.56.57:344][955]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.56.57:346][955]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.57.14:211][698]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.57.14:227][698]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.57.14:858][698]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.57.25:814][745]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.57.25:830][745]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.57.26:457][745]LogSkeletalMesh: Built Skeletal Mesh [0.64s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.57.40:313][ 59]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.57.40:329][ 59]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.57.40:962][ 59]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.57.52:663][170]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1399.601807
+[2026.05.11-15.57.52:819][183]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-15.57.52:819][183]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1399.742310, Update Interval: 318.737762
+[2026.05.11-15.57.55:591][418]Cmd: TRANSACTION UNDO
+[2026.05.11-15.57.55:591][418]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-15.57.55:876][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.57.55:877][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.57.55:878][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-15.57.56:784][469]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.57.56:800][469]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.57.57:439][469]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-15.59.23:766][879]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-15.59.23:782][879]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-15.59.24:430][879]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.01.58:559][114]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.01.58:574][114]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.01.59:217][114]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.03.30:460][316]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1737.394531
+[2026.05.11-16.03.30:641][327]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-16.03.30:642][327]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1737.553223, Update Interval: 343.302094
+[2026.05.11-16.03.45:951][398]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.03.45:967][398]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.03.46:606][398]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.04.16:937][370]Cmd: TRANSACTION UNDO
+[2026.05.11-16.04.16:939][370]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.04.17:232][370]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.17:233][370]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.17:234][370]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.17:737][390]Cmd: TRANSACTION UNDO
+[2026.05.11-16.04.17:737][390]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.04.18:022][390]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.18:023][390]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.18:024][390]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.18:439][425]Cmd: TRANSACTION UNDO
+[2026.05.11-16.04.18:439][425]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.04.18:719][425]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.18:720][425]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.18:721][425]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.19:133][460]Cmd: TRANSACTION UNDO
+[2026.05.11-16.04.19:133][460]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.04.19:414][460]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.19:414][460]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.19:416][460]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.19:826][495]Cmd: TRANSACTION UNDO
+[2026.05.11-16.04.19:826][495]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.04.20:111][495]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.20:112][495]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.20:113][495]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.20:422][515]Cmd: TRANSACTION UNDO
+[2026.05.11-16.04.20:422][515]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.04.20:704][515]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.20:704][515]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.20:705][515]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.21:089][544]Cmd: TRANSACTION UNDO
+[2026.05.11-16.04.21:089][544]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.04.21:370][544]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.21:371][544]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.21:372][544]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.21:684][549]Cmd: TRANSACTION UNDO
+[2026.05.11-16.04.21:684][549]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.04.21:966][549]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.21:966][549]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.21:968][549]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.22:453][592]Cmd: TRANSACTION UNDO
+[2026.05.11-16.04.22:453][592]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.04.22:734][592]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.22:735][592]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.22:736][592]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.23:073][619]Cmd: TRANSACTION UNDO
+[2026.05.11-16.04.23:073][619]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.04.23:361][619]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.23:362][619]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.23:363][619]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.04.36:087][633]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.04.36:102][633]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.04.36:738][633]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.04.48:936][727]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.04.48:951][727]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.04.49:589][727]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.05.08:217][432]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.05.08:234][432]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.05.08:873][432]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.05.17:712][210]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.05.17:729][210]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.05.18:369][210]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.05.34:047][716]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.05.34:063][716]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.05.34:699][716]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.06.03:790][367]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.06.03:805][367]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.06.04:450][367]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.06.12:288][  0]Cmd: TRANSACTION UNDO
+[2026.05.11-16.06.12:288][  0]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.06.12:575][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.06.12:576][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.06.12:577][  0]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.06.18:979][409]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.06.18:994][409]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.06.19:647][409]LogSkeletalMesh: Built Skeletal Mesh [0.67s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.06.34:666][785]Cmd: TRANSACTION UNDO
+[2026.05.11-16.06.34:666][785]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.06.34:957][785]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.06.34:957][785]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.06.34:959][785]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.06.38:976][ 11]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.06.38:992][ 11]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.06.39:631][ 11]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.06.47:615][674]Cmd: TRANSACTION UNDO
+[2026.05.11-16.06.47:615][674]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.06.47:899][674]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.06.47:900][674]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.06.47:901][674]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.06.56:392][271]Cmd: TRANSACTION UNDO
+[2026.05.11-16.06.56:392][271]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.06.56:677][271]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.06.56:677][271]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.06.56:679][271]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.07.01:045][502]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.07.01:062][502]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.07.01:702][502]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.07.12:148][357]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.07.12:164][357]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.07.12:804][357]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.07.25:879][201]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.07.25:895][201]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.07.26:531][201]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.07.28:154][337]Cmd: TRANSACTION UNDO
+[2026.05.11-16.07.28:154][337]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.11-16.07.28:260][337]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.07.28:566][337]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.07.28:566][337]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.07.28:568][337]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.07.34:458][790]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.07.34:473][790]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.07.35:118][790]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.07.56:736][969]Cmd: TRANSACTION UNDO
+[2026.05.11-16.07.56:736][969]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.07.57:031][969]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.07.57:032][969]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.07.57:034][969]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.07.57:606][  6]Cmd: TRANSACTION UNDO
+[2026.05.11-16.07.57:606][  6]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.07.57:890][  6]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.07.57:891][  6]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.07.57:892][  6]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.07.58:354][ 48]Cmd: TRANSACTION UNDO
+[2026.05.11-16.07.58:354][ 48]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.07.58:635][ 48]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.07.58:635][ 48]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.07.58:637][ 48]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.07.59:298][114]Cmd: TRANSACTION UNDO
+[2026.05.11-16.07.59:298][114]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.07.59:583][114]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.07.59:583][114]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.07.59:585][114]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.08.08:849][698]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.08.08:865][698]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.08.09:502][698]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.08.10:829][807]Cmd: TRANSACTION UNDO
+[2026.05.11-16.08.10:829][807]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.11-16.08.10:934][807]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.08.11:237][807]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.08.11:238][807]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.08.11:239][807]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.08.25:552][782]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.08.25:568][782]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.08.26:211][782]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.08.27:938][932]Cmd: TRANSACTION UNDO
+[2026.05.11-16.08.27:938][932]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.11-16.08.28:043][932]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.08.28:348][932]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.08.28:349][932]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.08.28:350][932]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.08.42:728][322]Cmd: TRANSACTION UNDO
+[2026.05.11-16.08.42:728][322]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.08.43:025][322]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.08.43:026][322]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.08.43:027][322]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.08.43:993][392]Cmd: TRANSACTION UNDO
+[2026.05.11-16.08.43:993][392]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.08.44:281][392]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.08.44:281][392]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.08.44:283][392]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.09.01:781][752]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.09.01:796][752]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.09.02:446][752]LogSkeletalMesh: Built Skeletal Mesh [0.67s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.09.03:778][858]Cmd: TRANSACTION UNDO
+[2026.05.11-16.09.03:778][858]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.11-16.09.03:886][858]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.09.04:193][858]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.09.04:193][858]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.09.04:195][858]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.09.22:082][374]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.09.22:098][374]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.09.22:744][374]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.09.32:466][ 46]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.09.32:481][ 46]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.09.33:129][ 46]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.09.55:809][989]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2122.740234
+[2026.05.11-16.09.55:973][997]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-16.09.55:973][997]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2122.882080, Update Interval: 314.515198
+[2026.05.11-16.09.58:210][144]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.09.58:225][144]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.09.58:877][144]LogSkeletalMesh: Built Skeletal Mesh [0.67s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.10.15:985][422]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.10.16:001][422]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.10.16:681][422]LogSkeletalMesh: Built Skeletal Mesh [0.70s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.10.40:150][ 83]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.10.40:166][ 83]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.10.40:808][ 83]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.10.55:252][216]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.10.55:268][216]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.10.55:904][216]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.11.08:375][ 22]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.11.08:389][ 22]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.11.09:071][ 22]LogSkeletalMesh: Built Skeletal Mesh [0.70s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.11.22:564][213]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.11.22:580][213]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.11.23:232][213]LogSkeletalMesh: Built Skeletal Mesh [0.67s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.11.34:126][ 16]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.11.34:142][ 16]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.11.34:791][ 16]LogSkeletalMesh: Built Skeletal Mesh [0.67s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.12.04:279][957]Cmd: TRANSACTION UNDO
+[2026.05.11-16.12.04:279][957]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.12.04:569][957]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.12.04:570][957]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.12.04:571][957]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.12.09:514][345]Cmd: TRANSACTION UNDO
+[2026.05.11-16.12.09:514][345]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.12.09:801][345]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.12.09:801][345]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.12.09:802][345]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.12.18:916][211]Cmd: TRANSACTION UNDO
+[2026.05.11-16.12.18:916][211]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.12.19:203][211]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.12.19:204][211]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.12.19:205][211]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.12.26:835][878]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.12.26:850][878]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.12.27:502][878]LogSkeletalMesh: Built Skeletal Mesh [0.67s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.13.07:013][913]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.13.07:030][913]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.13.07:687][913]LogSkeletalMesh: Built Skeletal Mesh [0.67s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.15.24:828][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2026.05.11-16.15.24:836][854]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/StartupMap' took 0.670
+[2026.05.11-16.15.24:837][854]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6] ([1] browsable assets)...
+[2026.05.11-16.15.24:849][854]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6]
+[2026.05.11-16.15.24:849][854]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6]
+[2026.05.11-16.15.24:905][854]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_Auto2
+[2026.05.11-16.15.24:905][854]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/SKM_LavaTurtle6_Auto26E8180DE4832A38F70C393B15C74536D.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/Autosaves/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_Auto2.uasset'
+[2026.05.11-16.15.24:906][854]LogFileHelpers: Auto-saving content packages took 0.069
+[2026.05.11-16.16.04:756][630]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2491.690918
+[2026.05.11-16.16.04:889][646]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-16.16.04:890][646]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2491.815918, Update Interval: 322.987762
+[2026.05.11-16.17.49:818][875]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.17.49:833][875]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.17.50:487][875]LogSkeletalMesh: Built Skeletal Mesh [0.67s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.18.08:882][578]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.18.08:898][578]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.18.09:541][578]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.18.20:998][538]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.18.21:013][538]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.18.21:657][538]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.18.29:708][153]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.18.29:724][153]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.18.30:360][153]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.18.42:529][245]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.18.42:544][245]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.18.43:182][245]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.19.05:568][527]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.19.05:583][527]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.19.06:223][527]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.19.15:633][180]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.19.15:648][180]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.19.16:281][180]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.19.28:862][239]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.19.28:878][239]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.19.29:521][239]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.19.45:161][390]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.19.45:178][390]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.19.45:814][390]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.20.04:627][179]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.20.04:643][179]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.20.05:270][179]LogSkeletalMesh: Built Skeletal Mesh [0.64s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.20.15:020][831]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.20.15:035][831]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.20.15:671][831]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.20.18:526][106]Cmd: TRANSACTION UNDO
+[2026.05.11-16.20.18:526][106]LogEditorTransaction: Undo Paint Skin Weights
+[2026.05.11-16.20.18:632][106]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.20.18:941][106]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.20.18:943][106]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.20.18:944][106]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.20.28:478][820]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.20.28:494][820]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.20.29:129][820]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.20.40:179][747]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.20.40:195][747]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.20.40:831][747]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.21.10:481][726]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.21.10:497][726]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.21.11:142][726]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.21.28:011][254]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.21.28:026][254]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.21.28:666][254]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.22.07:724][957]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.22.07:739][957]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.22.08:381][957]LogSkeletalMesh: Built Skeletal Mesh [0.66s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.22.18:856][ 97]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2865.795898
+[2026.05.11-16.22.19:014][116]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-16.22.19:015][116]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2865.946533, Update Interval: 320.266724
+[2026.05.11-16.22.37:769][764]Cmd: TRANSACTION UNDO
+[2026.05.11-16.22.37:769][764]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.22.38:064][764]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.22.38:064][764]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.22.38:066][764]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.23.20:507][945]Cmd: TRANSACTION UNDO
+[2026.05.11-16.23.20:507][945]LogEditorTransaction: Undo Paint skin weights.
+[2026.05.11-16.23.20:804][945]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.23.20:804][945]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.23.20:805][945]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.23.42:911][118]LogSkeletalMesh: Building Skeletal Mesh SKM_LavaTurtle6...
+[2026.05.11-16.23.42:926][118]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_LavaTurtle6) ...
+[2026.05.11-16.23.43:565][118]LogSkeletalMesh: Built Skeletal Mesh [0.65s] /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6
+[2026.05.11-16.24.31:335][439]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2026.05.11-16.24.31:344][439]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.11-16.24.31:393][439]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6] ([1] browsable assets)...
+[2026.05.11-16.24.31:406][439]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.SKM_LavaTurtle6]
+[2026.05.11-16.24.31:406][439]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6]
+[2026.05.11-16.24.31:463][439]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6
+[2026.05.11-16.24.31:464][439]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/SKM_LavaTurtle6442682894B28B41F849E17953A16EA8E.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6.uasset'
+[2026.05.11-16.24.31:476][439]LogFileHelpers: InternalPromptForCheckoutAndSave took 131.900 ms (total: 240.659 ms)
+[2026.05.11-16.24.31:511][439]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.11-16.24.31:511][439]LogContentValidation: Enabled validators:
+[2026.05.11-16.24.31:511][439]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.11-16.24.31:511][439]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.11-16.24.31:511][439]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.11-16.24.31:511][439]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.11-16.24.31:512][439]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.11-16.24.31:512][439]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.11-16.24.31:513][439]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6 Validating asset
