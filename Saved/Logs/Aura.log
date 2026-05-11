@@ -1904,3 +1904,505 @@ FPackageName: Unable to identify a valid mount point associated with skipped pac
 [2026.05.11-16.24.31:512][439]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.05.11-16.24.31:512][439]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.05.11-16.24.31:513][439]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6 Validating asset
+[2026.05.11-16.25.41:118][827]LogSlate: Took 0.000686 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.05.11-16.25.41:144][828]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SkeletalMesh_64.svg'. File could not be found
+[2026.05.11-16.25.41:276][840]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2026.05.11-16.25.42:704][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2026.05.11-16.25.57:969][739]LogStreaming: Display: FlushAsyncLoading(354): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.11-16.25.59:318][742]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2026.05.11-16.26.00:543][887]LogAssetEditorSubsystem: Opening Asset editor for ControlRigBlueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig.SKM_LavaTurtle6_CtrlRig
+[2026.05.11-16.26.00:544][887]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2026.05.11-16.26.00:969][887]LogStreaming: Display: FlushAsyncLoading(356): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.11-16.26.01:322][887]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2026.05.11-16.26.01:382][887]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.ControlRigSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.26.01:382][887]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.ControlRigSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.26.01:413][887]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2026.05.11-16.26.01:427][887]LogRigVM: Warning: Connector 'Root' is not resolved.
+[2026.05.11-16.26.01:427][887]LogControlRig: Warning: /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.ControlRigSkeletalMeshComponent_0.SKM_LavaTurtle6_CtrlRig_C_1: Construction is being called recursively.
+[2026.05.11-16.26.01:917][887]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.26.08:215][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2026.05.11-16.26.08:228][559]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.26.08:725][600]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.05.11-16.26.08:729][600]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.11-16.26.08:764][600]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig] ([2] browsable assets)...
+[2026.05.11-16.26.08:778][600]OBJ SavePackage:     Rendered thumbnail for [ControlRigBlueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig.SKM_LavaTurtle6_CtrlRig]
+[2026.05.11-16.26.08:778][600]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig]
+[2026.05.11-16.26.08:781][600]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig
+[2026.05.11-16.26.08:781][600]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/SKM_LavaTurtle6_CtrlRigBD105C48493A8A4F5C13A2815AE5C402.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig.uasset'
+[2026.05.11-16.26.08:842][600]LogFileHelpers: InternalPromptForCheckoutAndSave took 114.083 ms (total: 354.743 ms)
+[2026.05.11-16.26.08:878][600]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.11-16.26.08:879][600]LogContentValidation: Enabled validators:
+[2026.05.11-16.26.08:879][600]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.11-16.26.08:879][600]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.11-16.26.08:879][600]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.11-16.26.08:879][600]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.11-16.26.08:879][600]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.11-16.26.08:879][600]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.11-16.26.08:879][600]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig Validating asset
+[2026.05.11-16.26.17:908][588]LogStreaming: Display: FlushAsyncLoading(466): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.11-16.26.18:978][599]LogRigVM: Warning: Connector 'Spine Primary' is not resolved.
+[2026.05.11-16.26.18:999][599]LogRigVM: Warning: Connector 'Spine End Bone' is not resolved.
+[2026.05.11-16.26.19:004][599]LogRigVM: Warning: Connector 'Pelvis Bone' is not resolved.
+[2026.05.11-16.26.19:009][599]LogRigVM: Warning: Connector 'Spine Start Bone' is not resolved.
+[2026.05.11-16.26.19:015][599]LogStreaming: Display: FlushAsyncLoading(468): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.11-16.26.19:141][600]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.26.19:143][600]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.26.19:143][600]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.26.33:259][ 46]LogStreaming: Display: FlushAsyncLoading(472): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.11-16.26.34:808][ 59]LogRigVM: Warning: Connector 'Leg Primary' is not resolved.
+[2026.05.11-16.26.34:844][ 59]LogRigVM: Warning: Connector 'Thigh Bone' is not resolved.
+[2026.05.11-16.26.34:853][ 59]LogRigVM: Warning: Connector 'Foot Bone' is not resolved.
+[2026.05.11-16.26.34:865][ 59]LogRigVM: Warning: Connector 'Knee Bone' is not resolved.
+[2026.05.11-16.26.34:896][ 59]LogStreaming: Display: FlushAsyncLoading(474): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.11-16.26.35:005][ 60]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.26.35:005][ 60]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.26.35:005][ 60]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.26.35:005][ 60]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.26.35:005][ 60]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg:foot_l_ctrl) after setting child (Root:Spine:Leg:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.26.39:220][441]LogEditorTransaction: Undo Add and Connect Module
+[2026.05.11-16.26.39:532][441]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.26.39:533][441]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.26.39:534][441]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.26.39:788][443]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.26.39:788][443]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.26.39:788][443]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.26.39:788][443]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.26.39:788][443]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg:foot_l_ctrl) after setting child (Root:Spine:Leg:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.26.42:204][713]LogRigVM: Warning: Connector 'Leg Primary' is not resolved.
+[2026.05.11-16.26.42:239][713]LogRigVM: Warning: Connector 'Thigh Bone' is not resolved.
+[2026.05.11-16.26.42:249][713]LogRigVM: Warning: Connector 'Foot Bone' is not resolved.
+[2026.05.11-16.26.42:260][713]LogRigVM: Warning: Connector 'Knee Bone' is not resolved.
+[2026.05.11-16.26.42:369][714]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.26.42:369][714]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.26.42:369][714]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.26.42:369][714]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.26.42:369][714]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg:foot_l_ctrl) after setting child (Root:Spine:Leg:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.26.47:845][300]LogRigVM: Warning: Connector 'Leg Primary' is not resolved.
+[2026.05.11-16.26.47:891][300]LogRigVM: Warning: Connector 'Thigh Bone' is not resolved.
+[2026.05.11-16.26.47:905][300]LogRigVM: Warning: Connector 'Foot Bone' is not resolved.
+[2026.05.11-16.26.47:921][300]LogRigVM: Warning: Connector 'Knee Bone' is not resolved.
+[2026.05.11-16.26.47:992][301]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.26.47:993][301]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.26.47:993][301]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.26.47:993][301]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.26.47:993][301]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.27.11:105][ 18]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.27.11:105][ 18]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.27.11:105][ 18]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.27.11:105][ 18]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.27.11:105][ 18]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.27.11:105][ 18]LogRigVM: Warning: Instruction[1412] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(thigh_r_fk_ctrl) does not exist.'
+[2026.05.11-16.27.13:485][288]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.27.13:485][288]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.27.13:485][288]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.27.13:485][288]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.27.13:485][288]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.27.13:485][288]LogRigVM: Warning: Instruction[1412] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(calf_r_fk_ctrl) does not exist.'
+[2026.05.11-16.27.15:694][539]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.27.15:694][539]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.27.15:694][539]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.27.15:694][539]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.27.15:694][539]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.27.15:694][539]LogRigVM: Warning: Instruction[1412] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(calf_r_fk_ctrl) does not exist.'
+[2026.05.11-16.27.36:693][982]LogStreaming: Display: FlushAsyncLoading(476): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.11-16.27.37:916][120]LogRigVM: Warning: Connector 'Arm Primary' is not resolved.
+[2026.05.11-16.27.37:971][120]LogRigVM: Warning: Connector 'Hand Bone' is not resolved.
+[2026.05.11-16.27.37:995][120]LogRigVM: Warning: Connector 'Shoulder Bone' is not resolved.
+[2026.05.11-16.27.38:001][120]LogRigVM: Warning: Connector 'Elbow Bone' is not resolved.
+[2026.05.11-16.27.38:073][121]LogStreaming: Display: FlushAsyncLoading(477): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.11-16.27.38:093][121]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.27.38:093][121]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.27.38:093][121]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.27.38:093][121]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.27.38:093][121]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.27.38:093][121]LogRigVM: Warning: Instruction[1412] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(calf_r_fk_ctrl) does not exist.'
+[2026.05.11-16.27.38:093][121]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm:hand_l_ctrl) after setting child (Root:Spine:Arm:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.27.38:093][121]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.27.40:683][360]LogEditorTransaction: Undo Add and Connect Module
+[2026.05.11-16.27.41:006][360]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.27.41:006][360]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.27.41:008][360]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.27.41:298][362]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.27.41:298][362]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.27.41:298][362]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.27.41:298][362]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.27.41:298][362]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.27.41:298][362]LogRigVM: Warning: Instruction[1412] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(calf_r_fk_ctrl) does not exist.'
+[2026.05.11-16.27.41:298][362]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm:hand_l_ctrl) after setting child (Root:Spine:Arm:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.27.41:298][362]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.27.43:339][588]LogRigVM: Warning: Connector 'Arm Primary' is not resolved.
+[2026.05.11-16.27.43:393][588]LogRigVM: Warning: Connector 'Hand Bone' is not resolved.
+[2026.05.11-16.27.43:416][588]LogRigVM: Warning: Connector 'Shoulder Bone' is not resolved.
+[2026.05.11-16.27.43:422][588]LogRigVM: Warning: Connector 'Elbow Bone' is not resolved.
+[2026.05.11-16.27.43:496][589]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.27.43:496][589]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.27.43:497][589]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.27.43:497][589]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.27.43:497][589]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.27.43:497][589]LogRigVM: Warning: Instruction[1412] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(calf_r_fk_ctrl) does not exist.'
+[2026.05.11-16.27.43:497][589]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm:hand_l_ctrl) after setting child (Root:Spine:Arm:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.27.43:497][589]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.27.46:642][915]LogRigVM: Warning: Connector 'Arm Primary' is not resolved.
+[2026.05.11-16.27.46:707][915]LogRigVM: Warning: Connector 'Hand Bone' is not resolved.
+[2026.05.11-16.27.46:735][915]LogRigVM: Warning: Connector 'Shoulder Bone' is not resolved.
+[2026.05.11-16.27.46:743][915]LogRigVM: Warning: Connector 'Elbow Bone' is not resolved.
+[2026.05.11-16.27.46:828][916]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.27.46:828][916]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.27.46:828][916]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.27.46:828][916]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.27.46:828][916]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.27.46:828][916]LogRigVM: Warning: Instruction[1412] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(calf_r_fk_ctrl) does not exist.'
+[2026.05.11-16.27.46:828][916]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.27.46:828][916]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.28.08:038][411]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.28.08:039][411]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.28.08:039][411]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.28.08:039][411]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.28.08:039][411]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.28.08:039][411]LogRigVM: Warning: Instruction[1412] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(calf_r_fk_ctrl) does not exist.'
+[2026.05.11-16.28.08:039][411]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.28.08:039][411]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.28.08:039][411]LogRigVM: Warning: Instruction[1452] 'Root:Spine:Arm: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(spine_03_fk_ctrl) does not exist.'
+[2026.05.11-16.28.12:737][958]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.28.12:737][958]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.28.12:737][958]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.28.12:737][958]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.28.12:737][958]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.28.12:737][958]LogRigVM: Warning: Instruction[1412] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(calf_r_fk_ctrl) does not exist.'
+[2026.05.11-16.28.12:737][958]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.28.12:737][958]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.28.12:737][958]LogRigVM: Warning: Instruction[1452] 'Root:Spine:Arm: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(spine_03_fk_ctrl) does not exist.'
+[2026.05.11-16.28.17:295][486]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.28.17:296][486]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.28.17:296][486]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.28.17:296][486]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.28.17:296][486]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.28.17:296][486]LogRigVM: Warning: Instruction[1412] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(calf_r_fk_ctrl) does not exist.'
+[2026.05.11-16.28.17:296][486]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.28.17:296][486]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.28.17:296][486]LogRigVM: Warning: Instruction[1452] 'Root:Spine:Arm: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(spine_03_fk_ctrl) does not exist.'
+[2026.05.11-16.28.24:003][271]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.28.24:004][271]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.28.24:004][271]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.28.24:004][271]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.28.24:004][271]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.28.24:004][271]LogRigVM: Warning: Instruction[1412] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(calf_r_fk_ctrl) does not exist.'
+[2026.05.11-16.28.24:004][271]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.28.24:004][271]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.28.24:004][271]LogRigVM: Warning: Instruction[1452] 'Root:Spine:Arm_1: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(upperarm_l_fk_ctrl) does not exist.'
+[2026.05.11-16.28.25:946][486]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.28.25:946][486]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.28.25:946][486]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.28.25:946][486]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.28.25:946][486]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.28.25:946][486]LogRigVM: Warning: Instruction[1412] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(calf_r_fk_ctrl) does not exist.'
+[2026.05.11-16.28.25:946][486]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.28.25:946][486]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.28.25:946][486]LogRigVM: Warning: Instruction[1452] 'Root:Spine:Arm_1: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(lowerarm_l_fk_ctrl) does not exist.'
+[2026.05.11-16.28.27:437][648]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.28.27:437][648]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.28.27:437][648]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.28.27:437][648]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.28.27:437][648]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.28.27:437][648]LogRigVM: Warning: Instruction[1412] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(calf_r_fk_ctrl) does not exist.'
+[2026.05.11-16.28.27:437][648]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.28.27:437][648]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.28.27:437][648]LogRigVM: Warning: Instruction[1452] 'Root:Spine:Arm_1: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(lowerarm_l_fk_ctrl) does not exist.'
+[2026.05.11-16.28.38:941][845]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3245.891113
+[2026.05.11-16.28.39:103][861]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2026.05.11-16.28.39:112][861]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.11-16.28.39:165][861]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig] ([2] browsable assets)...
+[2026.05.11-16.28.39:182][861]OBJ SavePackage:     Rendered thumbnail for [ControlRigBlueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig.SKM_LavaTurtle6_CtrlRig]
+[2026.05.11-16.28.39:182][861]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig]
+[2026.05.11-16.28.39:188][861]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig
+[2026.05.11-16.28.39:189][861]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/SKM_LavaTurtle6_CtrlRig8654CC874026FC2B279041808517413A.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig.uasset'
+[2026.05.11-16.28.39:204][861]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.014 ms (total: 446.757 ms)
+[2026.05.11-16.28.39:231][861]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.11-16.28.39:231][861]LogContentValidation: Enabled validators:
+[2026.05.11-16.28.39:231][861]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.11-16.28.39:231][861]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.11-16.28.39:231][861]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.11-16.28.39:232][861]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.11-16.28.39:232][861]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.11-16.28.39:232][861]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.11-16.28.39:232][861]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig Validating asset
+[2026.05.11-16.28.39:254][861]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.11-16.28.39:254][861]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3246.017090, Update Interval: 359.653931
+[2026.05.11-16.28.44:844][487]LogStreaming: Display: FlushAsyncLoading(478): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.11-16.28.44:955][494]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2026.05.11-16.28.44:978][495]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2026.05.11-16.28.44:992][496]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2026.05.11-16.28.45:007][497]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2026.05.11-16.28.45:043][499]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2026.05.11-16.28.52:571][379]LogStreaming: Display: FlushAsyncLoading(479): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.11-16.28.53:283][379]LogAssetEditorSubsystem: Opening Asset editor for ControlRigBlueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle5/MR_LavaTurtle.MR_LavaTurtle
+[2026.05.11-16.28.53:283][379]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2026.05.11-16.28.53:329][379]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2026.05.11-16.28.53:335][379]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.ControlRigSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.28.53:335][379]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.ControlRigSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.28.53:370][379]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.05.11-16.28.53:760][379]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.28.53:760][379]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.28.53:760][379]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.28.53:760][379]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.28.53:760][379]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.28.53:760][379]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.28.53:837][381]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2026.05.11-16.29.12:983][565]LogRigVM: Warning: Connector 'Neck Primary' is not resolved.
+[2026.05.11-16.29.13:003][565]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.29.13:003][565]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.29.13:003][565]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.29.13:003][565]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.29.13:003][565]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.29.13:003][565]LogRigVM: Warning: Instruction[1412] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(calf_r_fk_ctrl) does not exist.'
+[2026.05.11-16.29.13:003][565]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.29.13:003][565]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.29.13:003][565]LogRigVM: Warning: Instruction[1452] 'Root:Spine:Arm_1: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(lowerarm_l_fk_ctrl) does not exist.'
+[2026.05.11-16.29.27:339][102]LogControlRig: Error: Could not connect Connector(Root:Spine:Neck:Neck Start Bone) to Bone(neck): Cannot resolve connector Connector(Root:Spine:Neck:Neck Start Bone) because primary connector is not resolved
+[2026.05.11-16.29.35:457][ 52]LogControlRig: Error: Could not connect Connector(Root:Spine:Neck:Head Bone) to Bone(head): Cannot resolve connector Connector(Root:Spine:Neck:Head Bone) because primary connector is not resolved
+[2026.05.11-16.29.40:717][648]LogRigVM: Warning: Connector 'Neck Start Bone' is not resolved.
+[2026.05.11-16.29.40:814][650]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.29.40:815][650]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.29.40:815][650]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.29.40:815][650]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.29.40:815][650]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.29.40:815][650]LogRigVM: Warning: Instruction[1412] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(calf_r_fk_ctrl) does not exist.'
+[2026.05.11-16.29.40:815][650]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.29.40:815][650]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.29.40:815][650]LogRigVM: Warning: Instruction[1452] 'Root:Spine:Arm_1: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(lowerarm_l_fk_ctrl) does not exist.'
+[2026.05.11-16.29.45:270][143]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.29.45:270][143]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.29.45:271][143]LogRigVM: Error: Instruction[1092] 'Root:Spine: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.11-16.29.45:271][143]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.29.45:271][143]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.29.45:271][143]LogRigVM: Warning: Instruction[1412] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(calf_r_fk_ctrl) does not exist.'
+[2026.05.11-16.29.45:271][143]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.29.45:271][143]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.29.45:271][143]LogRigVM: Warning: Instruction[1452] 'Root:Spine:Arm_1: FRigUnit_SetDefaultParent::Execute': 'Parent item Control(lowerarm_l_fk_ctrl) does not exist.'
+[2026.05.11-16.29.53:022][976]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.05.11-16.29.53:027][976]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.11-16.29.53:085][976]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig] ([2] browsable assets)...
+[2026.05.11-16.29.53:103][976]OBJ SavePackage:     Rendered thumbnail for [ControlRigBlueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig.SKM_LavaTurtle6_CtrlRig]
+[2026.05.11-16.29.53:103][976]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig]
+[2026.05.11-16.29.53:109][976]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig
+[2026.05.11-16.29.53:109][976]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/SKM_LavaTurtle6_CtrlRig9CED5AAB49C0CC5F3970A594F9565528.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig.uasset'
+[2026.05.11-16.29.53:126][976]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.973 ms (total: 544.730 ms)
+[2026.05.11-16.29.53:183][976]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.11-16.29.53:184][976]LogContentValidation: Enabled validators:
+[2026.05.11-16.29.53:184][976]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.11-16.29.53:184][976]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.11-16.29.53:184][976]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.11-16.29.53:184][976]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.11-16.29.53:184][976]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.11-16.29.53:184][976]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.11-16.29.53:184][976]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig Validating asset
+[2026.05.11-16.30.51:810][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.05.11-16.30.51:850][469]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.30.51:851][469]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.30.51:851][469]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.30.51:851][469]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.30.51:851][469]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.30.51:851][469]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.32.21:825][580]LogEditorTransaction: Undo Move Control
+[2026.05.11-16.32.22:224][580]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.32.22:224][580]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.32.22:226][580]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.11-16.32.22:508][582]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.32.22:508][582]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.32.22:508][582]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.32.22:508][582]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.32.22:508][582]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.32.22:508][582]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.32.22:516][582]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.32.22:516][582]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.32.22:516][582]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.32.22:516][582]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.32.22:516][582]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.32.22:516][582]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.32.43:579][829]Cmd: SELECT NONE
+[2026.05.11-16.33.27:579][929]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.33.27:579][929]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.33.27:579][929]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.33.27:579][929]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.27:579][929]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.27:579][929]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.33.29:471][125]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.33.29:471][125]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.33.29:471][125]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.33.29:471][125]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.29:471][125]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.29:471][125]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.33.32:175][410]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.33.32:175][410]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.33.32:175][410]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.33.32:175][410]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.32:175][410]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.32:175][410]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.33.38:671][999]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.33.38:671][999]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.33.38:671][999]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.33.38:671][999]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.38:671][999]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.38:671][999]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.33.39:696][103]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.33.39:696][103]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.33.39:696][103]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.33.39:696][103]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.39:696][103]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.39:696][103]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.33.40:782][217]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.33.40:783][217]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.33.40:783][217]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.33.40:783][217]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.40:783][217]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.40:783][217]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.33.45:963][710]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.33.45:964][710]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.33.45:964][710]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.33.45:964][710]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.45:964][710]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.45:964][710]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.33.47:879][911]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.33.47:880][911]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.33.47:880][911]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.33.47:880][911]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.47:880][911]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.47:880][911]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.33.49:690][100]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.33.49:690][100]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.33.49:690][100]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.33.49:690][100]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.49:690][100]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.49:690][100]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.33.55:115][662]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.33.55:115][662]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.33.55:115][662]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.33.55:115][662]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.55:115][662]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.55:115][662]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.33.56:624][820]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.33.56:624][820]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.33.56:625][820]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.33.56:625][820]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.56:625][820]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.56:625][820]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.33.58:399][  5]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.33.58:399][  5]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.33.58:399][  5]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.33.58:399][  5]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.58:399][  5]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.33.58:399][  5]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.34.03:197][463]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.34.03:198][463]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.34.03:198][463]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.34.03:198][463]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.34.03:198][463]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.34.03:198][463]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.34.04:202][567]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.34.04:202][567]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.34.04:202][567]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.34.04:202][567]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.34.04:202][567]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.34.04:202][567]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.34.07:236][885]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.34.07:237][885]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.34.07:237][885]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.34.07:237][885]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.34.07:237][885]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.34.07:237][885]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.34.10:008][176]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.11-16.34.10:008][176]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.11-16.34.10:008][176]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.11-16.34.10:008][176]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.34.10:008][176]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.11-16.34.10:008][176]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.11-16.34.17:889][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.05.11-16.34.17:898][979]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.11-16.34.17:957][979]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig] ([2] browsable assets)...
+[2026.05.11-16.34.17:973][979]OBJ SavePackage:     Rendered thumbnail for [ControlRigBlueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig.SKM_LavaTurtle6_CtrlRig]
+[2026.05.11-16.34.17:973][979]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig]
+[2026.05.11-16.34.17:979][979]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig
+[2026.05.11-16.34.17:980][979]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/SKM_LavaTurtle6_CtrlRigDC06CC5345F494B632148CB69F026906.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig.uasset'
+[2026.05.11-16.34.17:998][979]LogFileHelpers: InternalPromptForCheckoutAndSave took 99.976 ms (total: 644.706 ms)
+[2026.05.11-16.34.18:055][979]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.11-16.34.18:055][979]LogContentValidation: Enabled validators:
+[2026.05.11-16.34.18:055][979]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.11-16.34.18:055][979]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.11-16.34.18:055][979]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.11-16.34.18:055][979]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.11-16.34.18:055][979]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.11-16.34.18:055][979]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.11-16.34.18:056][979]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig Validating asset
