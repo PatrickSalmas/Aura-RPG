@@ -2550,3 +2550,1135 @@ This may lead to unexpected results.'
 [2026.05.13-22.21.11:866][737]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22616.146484
 [2026.05.13-22.21.12:001][751]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.05.13-22.21.12:001][751]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22616.277344, Update Interval: 326.104309
+[2026.05.13-22.27.23:697][271]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22996.779297
+[2026.05.13-22.27.23:831][286]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.13-22.27.23:831][286]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22996.908203, Update Interval: 338.403870
+[2026.05.13-22.34.00:136][943]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23400.496094
+[2026.05.13-22.34.00:259][956]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.13-22.34.00:259][956]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23400.613281, Update Interval: 318.027283
+[2026.05.13-22.38.38:863][364]Cmd: TRANSACTION UNDO
+[2026.05.13-22.38.38:863][364]LogEditorTransaction: Undo Set Transform Key
+[2026.05.13-22.38.40:383][364]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.38.40:401][364]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.38.40:402][364]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.38.40:403][364]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.38.40:420][364]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.38.40:430][364]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.38.40:431][364]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.38.40:433][364]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.38.40:440][364]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.38.40:447][364]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.38.41:163][365]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-22.38.41:163][365]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-22.38.41:163][365]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-22.38.41:163][365]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-22.38.41:163][365]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-22.38.41:163][365]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-22.38.41:172][365]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-22.38.41:172][365]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-22.38.41:172][365]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-22.38.41:172][365]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-22.38.41:172][365]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-22.38.41:172][365]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-22.40.08:621][934]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23775.535156
+[2026.05.13-22.40.08:780][953]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.13-22.40.08:780][953]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23775.679688, Update Interval: 320.215454
+[2026.05.13-22.44.54:070][249]Cmd: SELECT NONE
+[2026.05.13-22.45.59:126][ 45]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24131.173828
+[2026.05.13-22.45.59:291][ 59]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.13-22.45.59:291][ 59]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24131.330078, Update Interval: 317.159332
+[2026.05.13-22.51.44:254][310]Cmd: TRANSACTION UNDO
+[2026.05.13-22.51.44:254][310]LogEditorTransaction: Undo Move Control
+[2026.05.13-22.51.45:736][310]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.51.45:754][310]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.51.45:755][310]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.51.45:756][310]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.51.45:774][310]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.51.45:783][310]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.51.45:783][310]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.51.45:785][310]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.51.45:794][310]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.51.45:799][310]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.51.46:505][311]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-22.51.46:505][311]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-22.51.46:505][311]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-22.51.46:505][311]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-22.51.46:505][311]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-22.51.46:505][311]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-22.51.46:555][311]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-22.51.46:555][311]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-22.51.46:555][311]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-22.51.46:555][311]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-22.51.46:555][311]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-22.51.46:555][311]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-22.51.47:432][394]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24481.849609
+[2026.05.13-22.51.47:591][410]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.13-22.51.47:591][410]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24481.996094, Update Interval: 328.926056
+[2026.05.13-22.54.30:116][306]Cmd: TRANSACTION UNDO
+[2026.05.13-22.54.30:116][306]LogEditorTransaction: Undo Paste Keys
+[2026.05.13-22.54.31:582][306]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.54.31:596][306]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.54.31:597][306]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.54.31:598][306]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.54.31:614][306]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.54.31:624][306]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.54.31:625][306]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.54.31:627][306]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.54.31:635][306]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.54.31:641][306]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.54.32:338][307]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-22.54.32:338][307]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-22.54.32:338][307]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-22.54.32:338][307]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-22.54.32:338][307]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-22.54.32:338][307]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-22.54.32:389][307]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-22.54.32:390][307]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-22.54.32:390][307]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-22.54.32:390][307]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-22.54.32:390][307]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-22.54.32:390][307]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-22.56.18:397][327]Cmd: TRANSACTION UNDO
+[2026.05.13-22.56.18:397][327]LogEditorTransaction: Undo Move Control
+[2026.05.13-22.56.19:891][327]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.56.19:907][327]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.56.19:908][327]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.56.19:909][327]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.56.19:926][327]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.56.19:935][327]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.56.19:935][327]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.56.19:938][327]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.56.19:946][327]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.56.19:952][327]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-22.56.20:679][328]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-22.56.20:680][328]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-22.56.20:680][328]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-22.56.20:680][328]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-22.56.20:680][328]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-22.56.20:680][328]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-22.56.20:687][328]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-22.56.20:687][328]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-22.56.20:687][328]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-22.56.20:687][328]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-22.56.20:687][328]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-22.56.20:687][328]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-22.58.08:893][346]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24866.943359
+[2026.05.13-22.58.09:065][360]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.13-22.58.09:065][360]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24867.099609, Update Interval: 344.063843
+[2026.05.13-22.58.50:767][241]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2026.05.13-22.58.50:781][241]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.13-22.58.50:830][241]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run] ([1] browsable assets)...
+[2026.05.13-22.58.50:830][241]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run]
+[2026.05.13-22.58.50:837][241]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run
+[2026.05.13-22.58.50:838][241]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/LS_Run1F9AAC7242D67D42F66ECA8D01F9B15D.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run.uasset'
+[2026.05.13-22.58.50:847][241]LogFileHelpers: InternalPromptForCheckoutAndSave took 65.652 ms (total: 628.908 ms)
+[2026.05.13-22.58.50:895][241]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.13-22.58.50:896][241]LogContentValidation: Enabled validators:
+[2026.05.13-22.58.50:896][241]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.13-22.58.50:896][241]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.13-22.58.50:896][241]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.13-22.58.50:896][241]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.13-22.58.50:896][241]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.13-22.58.50:896][241]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.13-22.58.50:897][241]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run Validating asset
+[2026.05.13-22.59.40:160][276]LogSlate: Window 'Create a New Animation Asset' being destroyed
+[2026.05.13-22.59.42:225][276]LogSlate: Window 'Animation Sequence Options' being destroyed
+[2026.05.13-22.59.42:248][276]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run.Run (Required Memory Estimate: 0.06 MB)
+[2026.05.13-22.59.42:248][276]LogAnimationCompression: Display: Storing compressed animation data for /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run.Run, at AnimationSequence/c7014af66290efd432f7dbcfae78ba874e3d4dd1
+[2026.05.13-23.00.06:433][624]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2026.05.13-23.00.06:442][624]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/StartupMap' took 0.028
+[2026.05.13-23.00.06:442][624]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run] ([1] browsable assets)...
+[2026.05.13-23.00.06:459][624]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run.Run]
+[2026.05.13-23.00.06:459][624]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run]
+[2026.05.13-23.00.06:462][624]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run_Auto4
+[2026.05.13-23.00.06:462][624]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/Run_Auto46E7D7E9D43D83741F156C4923C918387.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/Autosaves/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run_Auto4.uasset'
+[2026.05.13-23.00.06:463][624]LogFileHelpers: Auto-saving content packages took 0.020
+[2026.05.13-23.01.41:169][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.05.13-23.01.41:177][413]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.13-23.01.41:216][413]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run] ([1] browsable assets)...
+[2026.05.13-23.01.41:217][413]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run]
+[2026.05.13-23.01.41:223][413]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run
+[2026.05.13-23.01.41:224][413]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/LS_RunF1EB17134B8047DD7F0439B368191115.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run.uasset'
+[2026.05.13-23.01.41:225][413]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run] ([1] browsable assets)...
+[2026.05.13-23.01.41:225][413]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run]
+[2026.05.13-23.01.41:227][413]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run
+[2026.05.13-23.01.41:227][413]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/RunC93FCDCC4A28290E2A81ADA6CD970764.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run.uasset'
+[2026.05.13-23.01.41:296][413]LogFileHelpers: InternalPromptForCheckoutAndSave took 118.659 ms (total: 747.568 ms)
+[2026.05.13-23.01.41:348][413]LogContentValidation: Display: Starting to validate 2 assets
+[2026.05.13-23.01.41:349][413]LogContentValidation: Enabled validators:
+[2026.05.13-23.01.41:349][413]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.13-23.01.41:349][413]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.13-23.01.41:349][413]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.13-23.01.41:349][413]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.13-23.01.41:349][413]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.13-23.01.41:349][413]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.13-23.01.41:352][413]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run Validating asset
+[2026.05.13-23.01.41:352][413]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run Validating asset
+[2026.05.13-23.03.52:640][675]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.05.13-23.03.52:654][675]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.13-23.03.52:701][675]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run] ([1] browsable assets)...
+[2026.05.13-23.03.52:701][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run]
+[2026.05.13-23.03.52:707][675]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run
+[2026.05.13-23.03.52:707][675]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/LS_RunF23CB54E4A27049BC75CC888D4B60439.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run.uasset'
+[2026.05.13-23.03.52:715][675]LogFileHelpers: InternalPromptForCheckoutAndSave took 60.038 ms (total: 807.606 ms)
+[2026.05.13-23.03.52:767][675]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.13-23.03.52:767][675]LogContentValidation: Enabled validators:
+[2026.05.13-23.03.52:767][675]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.13-23.03.52:767][675]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.13-23.03.52:767][675]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.13-23.03.52:767][675]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.13-23.03.52:767][675]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.13-23.03.52:767][675]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.13-23.03.52:768][675]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run Validating asset
+[2026.05.13-23.04.26:156][106]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25250.181641
+[2026.05.13-23.04.26:317][122]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.13-23.04.26:317][122]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25250.330078, Update Interval: 346.219055
+[2026.05.13-23.04.40:697][445]Cmd: TRANSACTION UNDO
+[2026.05.13-23.04.40:697][445]LogEditorTransaction: Undo Delete Keys
+[2026.05.13-23.04.42:171][445]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.04.42:186][445]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.04.42:186][445]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.04.42:188][445]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.04.42:204][445]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.04.42:213][445]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.04.42:214][445]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.04.42:216][445]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.04.42:224][445]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.04.42:229][445]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.04.42:970][446]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.04.42:970][446]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.04.42:970][446]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.04.42:970][446]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.04.42:970][446]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.04.42:970][446]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.04.42:978][446]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.04.42:978][446]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.04.42:978][446]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.04.42:978][446]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.04.42:978][446]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.04.42:978][446]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.05.18:702][397]LogSlate: Window 'Create a New Animation Asset' being destroyed
+[2026.05.13-23.05.19:761][397]LogSlate: Window 'Message' being destroyed
+[2026.05.13-23.05.19:766][397]Message dialog closed, result: Yes, title: Message, text: Do you want to replace the existing asset?
+
+An asset already exists at the import location: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run
+[2026.05.13-23.05.21:043][397]LogSlate: Window 'Animation Sequence Options' being destroyed
+[2026.05.13-23.05.21:066][397]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run.Run (Required Memory Estimate: 0.07 MB)
+[2026.05.13-23.05.21:067][397]LogAnimationCompression: Display: Storing compressed animation data for /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run.Run, at AnimationSequence/f21d8a0f473a5a6e124b4787a49fce5b86577e15
+[2026.05.13-23.05.50:938][427]LogStreaming: Display: FlushAsyncLoading(490): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.13-23.05.52:134][495]LogRigVM: Warning: Connector 'Tail Primary' is not resolved.
+[2026.05.13-23.05.52:165][495]LogRigVM: Warning: Connector 'Tail Primary' is not resolved.
+[2026.05.13-23.05.52:273][496]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.05.52:273][496]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.05.52:273][496]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.05.52:273][496]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.05.52:273][496]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.05.52:273][496]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.05.52:273][496]LogRigVM: Warning: Instruction[1607] 'Root:Spine:Tail: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Tail Primary)' is not valid.'
+[2026.05.13-23.05.52:273][496]LogRigVM: Error: Instruction[1622] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.05.52:273][496]LogRigVM: Error: Instruction[1623] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.05.52:273][496]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.06.07:771][244]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.06.11:937][731]LogControlRig: Error: Could not connect Connector(Root:Spine:Tail:Start Bone) to Bone(tail_01): Cannot resolve connector Connector(Root:Spine:Tail:Start Bone) because primary connector is not resolved
+[2026.05.13-23.06.40:840][ 22]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.06.40:840][ 22]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.06.40:840][ 22]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.06.40:840][ 22]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.06.40:840][ 22]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.06.40:840][ 22]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.06.40:840][ 22]LogRigVM: Warning: Instruction[1607] 'Root:Spine:Tail: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Tail Primary)' is not valid.'
+[2026.05.13-23.06.40:840][ 22]LogRigVM: Error: Instruction[1622] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.06.40:840][ 22]LogRigVM: Error: Instruction[1623] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.06.40:841][ 22]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.06.51:658][224]LogStreaming: Display: FlushAsyncLoading(492): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.13-23.06.51:887][224]LogTexture: Display: Building textures: /ControlRigModules/Modules/Icons/ModRigChain256.ModRigChain256 (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 11.333209 MB), EncodeSpeed: Fast
+[2026.05.13-23.06.52:635][301]LogRigVM: Warning: Connector 'Chain Primary' is not resolved.
+[2026.05.13-23.06.52:659][301]LogRigVM: Warning: Connector 'Chain Primary' is not resolved.
+[2026.05.13-23.06.52:788][302]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.06.52:788][302]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.06.52:788][302]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.06.52:788][302]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.06.52:788][302]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.06.52:789][302]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.06.52:789][302]LogRigVM: Warning: Instruction[1607] 'Root:Spine:Tail: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Tail Primary)' is not valid.'
+[2026.05.13-23.06.52:789][302]LogRigVM: Error: Instruction[1622] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.06.52:789][302]LogRigVM: Error: Instruction[1623] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.06.52:789][302]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.06.52:789][302]LogRigVM: Warning: Instruction[1065] 'Root:Spine:Chain: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Chain Primary)' is not valid.'
+[2026.05.13-23.06.52:789][302]LogRigVM: Error: Instruction[1080] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.06.52:789][302]LogRigVM: Error: Instruction[1081] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.06.52:789][302]LogRigVM: Error: Instruction[1000] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.06.58:125][915]LogControlRig: Error: Could not connect Connector(Root:Spine:Chain:Chain Primary) to Bone(spine_03): The target Bone(spine_03) is not a valid match for connector Connector(Root:Spine:Chain:Chain Primary)
+[2026.05.13-23.07.00:800][219]LogRigVM: Warning: Connector 'Start Bone' is not resolved.
+[2026.05.13-23.07.00:860][219]LogRigVM: Warning: Connector 'End Bone' is not resolved.
+[2026.05.13-23.07.01:133][221]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.07.01:133][221]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.07.01:133][221]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.07.01:133][221]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.07.01:133][221]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.07.01:134][221]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.07.01:134][221]LogRigVM: Warning: Instruction[1607] 'Root:Spine:Tail: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Tail Primary)' is not valid.'
+[2026.05.13-23.07.01:134][221]LogRigVM: Error: Instruction[1622] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.07.01:134][221]LogRigVM: Error: Instruction[1623] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.07.01:134][221]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.07.01:134][221]LogRigVM: Warning: Instruction[1065] 'Root:Spine:Chain: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Chain Primary)' is not valid.'
+[2026.05.13-23.07.01:134][221]LogRigVM: Error: Instruction[1080] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.07.01:134][221]LogRigVM: Error: Instruction[1081] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.07.01:134][221]LogRigVM: Error: Instruction[1000] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.07.01:134][221]LogRigVM: Warning: Instruction[519] 'Root:Spine:Leg_1:Chain: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.07.04:467][550]LogEditorTransaction: Undo Resolve Connector
+[2026.05.13-23.07.05:751][550]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.05:768][550]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.05:768][550]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.05:770][550]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.05:792][550]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.05:801][550]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.05:802][550]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.05:803][550]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.05:811][550]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.05:817][550]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.06:450][550]LogRigVM: Warning: Connector 'Chain Primary' is not resolved.
+[2026.05.13-23.07.06:594][551]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.07.06:594][551]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.07.06:594][551]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.07.06:594][551]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.07.06:594][551]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.07.06:594][551]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.07.06:618][552]LogRigVM: Warning: Connector 'Chain Primary' is not resolved.
+[2026.05.13-23.07.06:665][552]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.07.06:665][552]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.07.06:666][552]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.07.06:666][552]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.07.06:666][552]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.07.06:666][552]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.07.06:666][552]LogRigVM: Warning: Instruction[1607] 'Root:Spine:Tail: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Tail Primary)' is not valid.'
+[2026.05.13-23.07.06:666][552]LogRigVM: Error: Instruction[1622] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.07.06:666][552]LogRigVM: Error: Instruction[1623] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.07.06:666][552]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.07.06:666][552]LogRigVM: Warning: Instruction[1065] 'Root:Spine:Chain: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Chain Primary)' is not valid.'
+[2026.05.13-23.07.06:666][552]LogRigVM: Error: Instruction[1080] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.07.06:666][552]LogRigVM: Error: Instruction[1081] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.07.06:666][552]LogRigVM: Error: Instruction[1000] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.07.06:666][552]LogRigVM: Warning: Instruction[519] 'Root:Spine:Leg_1:Chain: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.07.09:198][824]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.07.09:198][824]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.07.09:198][824]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.07.09:198][824]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.07.09:198][824]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.07.09:198][824]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.07.09:199][824]LogRigVM: Warning: Instruction[1607] 'Root:Spine:Tail: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Tail Primary)' is not valid.'
+[2026.05.13-23.07.09:199][824]LogRigVM: Error: Instruction[1622] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.07.09:199][824]LogRigVM: Error: Instruction[1623] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.07.09:199][824]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.07.09:199][824]LogRigVM: Warning: Instruction[1065] 'Root:Spine:Chain: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Chain Primary)' is not valid.'
+[2026.05.13-23.07.09:199][824]LogRigVM: Error: Instruction[1080] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.07.09:199][824]LogRigVM: Error: Instruction[1081] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.07.09:199][824]LogRigVM: Error: Instruction[1000] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.07.09:199][824]LogRigVM: Warning: Instruction[519] 'Root:Spine:Leg_1:Chain: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.07.21:422][127]LogRigVM: Warning: Connector 'Tail Primary' is not resolved.
+[2026.05.13-23.07.21:448][127]LogRigVM: Warning: Connector 'Tail Primary' is not resolved.
+[2026.05.13-23.07.21:570][128]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.07.21:570][128]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.07.21:570][128]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.07.21:570][128]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.07.21:570][128]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.07.21:570][128]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.07.21:570][128]LogRigVM: Warning: Instruction[1607] 'Root:Spine:Tail: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Tail Primary)' is not valid.'
+[2026.05.13-23.07.21:570][128]LogRigVM: Error: Instruction[1622] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.07.21:571][128]LogRigVM: Error: Instruction[1623] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.07.21:571][128]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.07.21:571][128]LogRigVM: Warning: Instruction[1065] 'Root:Spine:Chain: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Chain Primary)' is not valid.'
+[2026.05.13-23.07.21:571][128]LogRigVM: Error: Instruction[1080] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.07.21:571][128]LogRigVM: Error: Instruction[1081] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.07.21:571][128]LogRigVM: Error: Instruction[1000] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.07.21:571][128]LogRigVM: Warning: Instruction[519] 'Root:Spine:Leg_1:Chain: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.07.25:807][602]LogRigVM: Warning: Connector 'Start Bone' is not resolved.
+[2026.05.13-23.07.25:868][602]LogRigVM: Warning: Connector 'End Bone' is not resolved.
+[2026.05.13-23.07.25:913][602]LogStreaming: Display: FlushAsyncLoading(494): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.13-23.07.26:234][604]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.07.26:234][604]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.07.26:234][604]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.07.26:234][604]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.07.26:234][604]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.07.26:234][604]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.07.26:234][604]LogRigVM: Warning: Instruction[1607] 'Root:Spine:Tail: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Tail Primary)' is not valid.'
+[2026.05.13-23.07.26:234][604]LogRigVM: Error: Instruction[1622] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.07.26:234][604]LogRigVM: Error: Instruction[1623] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.07.26:234][604]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.07.26:234][604]LogRigVM: Warning: Instruction[1065] 'Root:Spine:Chain: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Chain Primary)' is not valid.'
+[2026.05.13-23.07.26:234][604]LogRigVM: Error: Instruction[1080] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.07.26:234][604]LogRigVM: Error: Instruction[1081] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.07.26:234][604]LogRigVM: Error: Instruction[1000] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.07.26:234][604]LogRigVM: Warning: Instruction[519] 'Root:Spine:Leg_1:Chain: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.07.26:234][604]LogRigVM: Warning: Instruction[846] 'Root:Tail: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.07.26:235][604]LogRigVM: Error: Instruction[1258] 'Root:Tail: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.13-23.07.35:414][545]LogEditorTransaction: Undo Resolve Connector
+[2026.05.13-23.07.36:694][545]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.36:709][545]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.36:710][545]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.36:711][545]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.36:734][545]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.36:743][545]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.36:743][545]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.36:744][545]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.36:752][545]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.36:757][545]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.07.37:420][545]LogRigVM: Warning: Connector 'Tail Primary' is not resolved.
+[2026.05.13-23.07.37:580][546]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.07.37:580][546]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.07.37:580][546]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.07.37:580][546]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.07.37:580][546]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.07.37:580][546]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.07.37:609][547]LogRigVM: Warning: Connector 'Tail Primary' is not resolved.
+[2026.05.13-23.07.37:658][547]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.07.37:658][547]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.07.37:658][547]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.07.37:658][547]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.07.37:658][547]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.07.37:659][547]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.07.37:659][547]LogRigVM: Warning: Instruction[1607] 'Root:Spine:Tail: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Tail Primary)' is not valid.'
+[2026.05.13-23.07.37:659][547]LogRigVM: Error: Instruction[1622] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.07.37:659][547]LogRigVM: Error: Instruction[1623] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.07.37:659][547]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.07.37:659][547]LogRigVM: Warning: Instruction[1065] 'Root:Spine:Chain: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Chain Primary)' is not valid.'
+[2026.05.13-23.07.37:659][547]LogRigVM: Error: Instruction[1080] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.07.37:659][547]LogRigVM: Error: Instruction[1081] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.07.37:659][547]LogRigVM: Error: Instruction[1000] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.07.37:659][547]LogRigVM: Warning: Instruction[519] 'Root:Spine:Leg_1:Chain: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.07.37:659][547]LogRigVM: Warning: Instruction[846] 'Root:Tail: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.07.37:659][547]LogRigVM: Error: Instruction[1258] 'Root:Tail: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.13-23.07.52:059][183]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.07.52:059][183]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.07.52:059][183]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.07.52:059][183]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.07.52:059][183]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.07.52:059][183]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.07.52:059][183]LogRigVM: Warning: Instruction[1607] 'Root:Spine:Tail: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Tail Primary)' is not valid.'
+[2026.05.13-23.07.52:059][183]LogRigVM: Error: Instruction[1622] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.07.52:059][183]LogRigVM: Error: Instruction[1623] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.07.52:059][183]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.07.52:059][183]LogRigVM: Warning: Instruction[1065] 'Root:Spine:Chain: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Chain Primary)' is not valid.'
+[2026.05.13-23.07.52:061][183]LogRigVM: Error: Instruction[1080] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.07.52:061][183]LogRigVM: Error: Instruction[1081] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.07.52:061][183]LogRigVM: Error: Instruction[1000] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.07.52:061][183]LogRigVM: Warning: Instruction[519] 'Root:Spine:Leg_1:Chain: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.07.52:061][183]LogRigVM: Warning: Instruction[846] 'Root:Tail: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.07.52:061][183]LogRigVM: Error: Instruction[1258] 'Root:Tail: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.13-23.08.02:145][326]LogStreaming: Display: FlushAsyncLoading(495): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.13-23.08.02:188][326]LogTexture: Display: Building textures: /ControlRigModules/Modules/Icons/ModuleConstraint_256.ModuleConstraint_256 (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2026.05.13-23.08.03:143][429]LogRigVM: Warning: Connector 'Constraint' is not resolved.
+[2026.05.13-23.08.03:167][429]LogRigVM: Warning: Connector 'Constraint' is not resolved.
+[2026.05.13-23.08.03:273][430]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.08.03:273][430]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.08.03:273][430]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.08.03:273][430]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.08.03:274][430]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.08.03:274][430]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.08.03:274][430]LogRigVM: Warning: Instruction[1607] 'Root:Spine:Tail: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Tail Primary)' is not valid.'
+[2026.05.13-23.08.03:274][430]LogRigVM: Error: Instruction[1622] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.08.03:274][430]LogRigVM: Error: Instruction[1623] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.08.03:274][430]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.08.03:274][430]LogRigVM: Warning: Instruction[1065] 'Root:Spine:Chain: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Chain Primary)' is not valid.'
+[2026.05.13-23.08.03:274][430]LogRigVM: Error: Instruction[1080] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.08.03:274][430]LogRigVM: Error: Instruction[1081] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.08.03:274][430]LogRigVM: Error: Instruction[1000] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.08.03:274][430]LogRigVM: Warning: Instruction[519] 'Root:Spine:Leg_1:Chain: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.08.03:274][430]LogRigVM: Warning: Instruction[846] 'Root:Tail: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.08.03:274][430]LogRigVM: Error: Instruction[1258] 'Root:Tail: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.13-23.08.16:336][967]LogRigVM: Warning: Connector 'Parent' is not resolved.
+[2026.05.13-23.08.16:418][968]LogRigVM: Warning: Connector 'Parent' is not resolved.
+[2026.05.13-23.08.16:442][969]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.08.16:442][969]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.08.16:442][969]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.08.16:442][969]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.08.16:442][969]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.08.16:443][969]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.08.16:443][969]LogRigVM: Warning: Instruction[1607] 'Root:Spine:Tail: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Tail Primary)' is not valid.'
+[2026.05.13-23.08.16:443][969]LogRigVM: Error: Instruction[1622] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.08.16:443][969]LogRigVM: Error: Instruction[1623] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.08.16:443][969]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.08.16:443][969]LogRigVM: Warning: Instruction[1065] 'Root:Spine:Chain: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Chain Primary)' is not valid.'
+[2026.05.13-23.08.16:443][969]LogRigVM: Error: Instruction[1080] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.08.16:443][969]LogRigVM: Error: Instruction[1081] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.08.16:443][969]LogRigVM: Error: Instruction[1000] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.08.16:443][969]LogRigVM: Warning: Instruction[519] 'Root:Spine:Leg_1:Chain: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.08.16:443][969]LogRigVM: Warning: Instruction[846] 'Root:Tail: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.08.16:443][969]LogRigVM: Error: Instruction[1258] 'Root:Tail: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.13-23.08.21:013][479]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.08.21:014][479]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.08.21:014][479]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.08.21:014][479]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.08.21:014][479]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.08.21:014][479]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.08.21:014][479]LogRigVM: Warning: Instruction[1607] 'Root:Spine:Tail: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Tail Primary)' is not valid.'
+[2026.05.13-23.08.21:014][479]LogRigVM: Error: Instruction[1622] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.08.21:014][479]LogRigVM: Error: Instruction[1623] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.08.21:014][479]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.08.21:014][479]LogRigVM: Warning: Instruction[1065] 'Root:Spine:Chain: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Chain Primary)' is not valid.'
+[2026.05.13-23.08.21:014][479]LogRigVM: Error: Instruction[1080] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.08.21:014][479]LogRigVM: Error: Instruction[1081] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.08.21:014][479]LogRigVM: Error: Instruction[1000] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.08.21:014][479]LogRigVM: Warning: Instruction[519] 'Root:Spine:Leg_1:Chain: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.08.21:014][479]LogRigVM: Warning: Instruction[846] 'Root:Tail: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.08.21:014][479]LogRigVM: Error: Instruction[1258] 'Root:Tail: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.13-23.08.24:938][900]LogRigVM: Warning: Connector 'Tail Primary' is not resolved.
+[2026.05.13-23.08.24:964][900]LogRigVM: Warning: Connector 'Tail Primary' is not resolved.
+[2026.05.13-23.08.25:069][901]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.08.25:069][901]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.08.25:069][901]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.08.25:069][901]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.08.25:069][901]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.08.25:069][901]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.08.25:069][901]LogRigVM: Warning: Instruction[1607] 'Root:Spine:Tail: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Tail Primary)' is not valid.'
+[2026.05.13-23.08.25:069][901]LogRigVM: Error: Instruction[1622] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.08.25:069][901]LogRigVM: Error: Instruction[1623] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.08.25:069][901]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.08.25:070][901]LogRigVM: Warning: Instruction[1065] 'Root:Spine:Chain: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Chain Primary)' is not valid.'
+[2026.05.13-23.08.25:070][901]LogRigVM: Error: Instruction[1080] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.08.25:070][901]LogRigVM: Error: Instruction[1081] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.08.25:070][901]LogRigVM: Error: Instruction[1000] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.08.25:070][901]LogRigVM: Warning: Instruction[519] 'Root:Spine:Leg_1:Chain: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.08.25:070][901]LogRigVM: Warning: Instruction[846] 'Root:Tail: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.08.25:070][901]LogRigVM: Error: Instruction[1258] 'Root:Tail: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.13-23.08.30:689][548]LogControlRig: Error: Could not connect Connector(Root:Spine:Tail:Tail Primary) to Bone(Root): The target Bone(Root) is not a valid match for connector Connector(Root:Spine:Tail:Tail Primary)
+[2026.05.13-23.08.32:094][709]LogDerivedDataCache: C:/Users/psalm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.05.13-23.08.34:579][  4]LogRigVM: Warning: Connector 'Start Bone' is not resolved.
+[2026.05.13-23.08.34:748][  5]LogRigVM: Warning: Connector 'Start Bone' is not resolved.
+[2026.05.13-23.08.34:794][  6]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.08.34:795][  6]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.08.34:795][  6]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.08.34:795][  6]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.08.34:795][  6]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.08.34:795][  6]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.08.34:795][  6]LogRigVM: Warning: Instruction[1607] 'Root:Spine:Tail: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Tail Primary)' is not valid.'
+[2026.05.13-23.08.34:795][  6]LogRigVM: Error: Instruction[1622] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.08.34:795][  6]LogRigVM: Error: Instruction[1623] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Socket(Root:Spine:neck_socket) because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.08.34:795][  6]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.08.34:795][  6]LogRigVM: Warning: Instruction[1065] 'Root:Spine:Chain: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Chain Primary)' is not valid.'
+[2026.05.13-23.08.34:795][  6]LogRigVM: Error: Instruction[1080] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.08.34:795][  6]LogRigVM: Error: Instruction[1081] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.08.34:795][  6]LogRigVM: Error: Instruction[1000] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.08.34:795][  6]LogRigVM: Warning: Instruction[519] 'Root:Spine:Leg_1:Chain: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.08.34:795][  6]LogRigVM: Warning: Instruction[846] 'Root:Tail: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.08.34:795][  6]LogRigVM: Error: Instruction[1258] 'Root:Tail: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.13-23.08.47:699][458]LogRigVM: Warning: Connector 'End Bone' is not resolved.
+[2026.05.13-23.08.47:804][459]LogRigVM: Warning: Connector 'End Bone' is not resolved.
+[2026.05.13-23.08.47:830][460]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.08.47:830][460]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.08.47:830][460]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.08.47:830][460]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.08.47:830][460]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.08.47:830][460]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.08.47:830][460]LogRigVM: Warning: Instruction[1607] 'Root:Spine:Tail: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Tail Primary)' is not valid.'
+[2026.05.13-23.08.47:830][460]LogRigVM: Error: Instruction[1622] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.08.47:830][460]LogRigVM: Error: Instruction[1623] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Socket(Root:Spine:neck_socket) because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.08.47:830][460]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.08.47:830][460]LogRigVM: Warning: Instruction[1065] 'Root:Spine:Chain: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Chain Primary)' is not valid.'
+[2026.05.13-23.08.47:830][460]LogRigVM: Error: Instruction[1080] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.08.47:830][460]LogRigVM: Error: Instruction[1081] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.08.47:830][460]LogRigVM: Error: Instruction[1000] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.08.47:830][460]LogRigVM: Warning: Instruction[519] 'Root:Spine:Leg_1:Chain: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.08.47:830][460]LogRigVM: Warning: Instruction[846] 'Root:Tail: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.08.47:830][460]LogRigVM: Error: Instruction[1258] 'Root:Tail: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.13-23.08.52:624][973]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.08.52:624][973]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.08.52:624][973]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.08.52:624][973]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.08.52:624][973]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.08.52:624][973]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.08.52:624][973]LogRigVM: Warning: Instruction[1607] 'Root:Spine:Tail: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Tail Primary)' is not valid.'
+[2026.05.13-23.08.52:624][973]LogRigVM: Error: Instruction[1622] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.08.52:624][973]LogRigVM: Error: Instruction[1623] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Socket(Root:Spine:neck_socket) because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.08.52:624][973]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.08.52:624][973]LogRigVM: Warning: Instruction[1065] 'Root:Spine:Chain: FRigUnit_CollectionChildrenArray::Execute': 'Parent 'Connector(Chain Primary)' is not valid.'
+[2026.05.13-23.08.52:624][973]LogRigVM: Error: Instruction[1080] 'DISPATCH_RigVMDispatch_ArrayGetAtIndex::Array:TArray<FRigElementKey>,Index:int32,Element:FRigElementKey': 'Array Index (-1) out of bounds (count 0).'
+[2026.05.13-23.08.52:624][973]LogRigVM: Error: Instruction[1081] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.08.52:624][973]LogRigVM: Error: Instruction[1000] 'Root:Spine:Chain: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Curve(None) because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.08.52:625][973]LogRigVM: Warning: Instruction[519] 'Root:Spine:Leg_1:Chain: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.08.52:625][973]LogRigVM: Warning: Instruction[846] 'Root:Tail: FRigUnit_SetDefaultParent::Execute': 'Parent item Connector(Parent Control) does not exist.'
+[2026.05.13-23.08.52:625][973]LogRigVM: Error: Instruction[1258] 'Root:Tail: FRigUnit_HierarchyAddAnimationChannelBool::Execute': 'Animation Channel could not be added. Is Parent valid?'
+[2026.05.13-23.08.56:897][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2026.05.13-23.08.57:006][409]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.08.57:006][409]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.08.57:006][409]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.08.57:006][409]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.08.57:006][409]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.08.57:006][409]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.08.57:251][411]LogRigVM: Error: Instruction[1623] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match Socket(Root:Spine:neck_socket) because it is not part of Connector(End Bone) matches.'
+[2026.05.13-23.08.57:251][411]LogRigVM: Error: Instruction[1542] 'Root:Spine:Tail: FRigUnit_SetDefaultMatch::Execute': 'Cannot set default match  because it is not part of Connector(Start Bone) matches.'
+[2026.05.13-23.09.15:461][395]Cmd: TRANSACTION UNDO
+[2026.05.13-23.09.15:461][395]LogEditorTransaction: Undo Move Control
+[2026.05.13-23.09.16:943][395]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.16:956][395]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.16:957][395]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.16:959][395]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.16:976][395]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.16:986][395]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.16:987][395]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.16:989][395]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.16:996][395]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.17:002][395]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.17:704][396]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.09.17:705][396]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.09.17:705][396]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.09.17:705][396]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.09.17:705][396]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.09.17:705][396]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.09.27:764][453]Cmd: TRANSACTION UNDO
+[2026.05.13-23.09.27:764][453]LogEditorTransaction: Undo Set Transform Key
+[2026.05.13-23.09.29:253][453]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.29:267][453]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.29:268][453]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.29:269][453]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.29:285][453]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.29:295][453]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.29:296][453]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.29:298][453]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.29:305][453]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.29:311][453]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.30:043][454]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.09.30:043][454]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.09.30:043][454]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.09.30:043][454]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.09.30:043][454]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.09.30:043][454]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.09.56:241][719]Cmd: TRANSACTION UNDO
+[2026.05.13-23.09.56:241][719]LogEditorTransaction: Undo Set Transform Key
+[2026.05.13-23.09.57:761][719]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.57:774][719]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.57:775][719]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.57:776][719]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.57:793][719]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.57:803][719]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.57:803][719]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.57:805][719]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.57:813][719]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.57:820][719]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.09.58:538][720]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.09.58:539][720]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.09.58:539][720]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.09.58:539][720]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.09.58:539][720]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.09.58:539][720]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.09.59:139][783]Cmd: TRANSACTION UNDO
+[2026.05.13-23.09.59:139][783]LogEditorTransaction: Undo Move Control
+[2026.05.13-23.10.00:635][783]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.00:649][783]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.00:650][783]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.00:651][783]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.00:667][783]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.00:677][783]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.00:677][783]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.00:680][783]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.00:689][783]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.00:696][783]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.01:377][784]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.10.01:377][784]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.10.01:377][784]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.10.01:377][784]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.10.01:377][784]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.10.01:377][784]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.10.03:528][966]Cmd: TRANSACTION UNDO
+[2026.05.13-23.10.03:528][966]LogEditorTransaction: Undo Set Transform Key
+[2026.05.13-23.10.05:013][966]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.05:026][966]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.05:027][966]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.05:028][966]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.05:044][966]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.05:054][966]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.05:054][966]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.05:057][966]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.05:065][966]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.05:070][966]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.05:788][967]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.10.05:788][967]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.10.05:788][967]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.10.05:788][967]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.10.05:788][967]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.10.05:788][967]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.10.46:031][923]Cmd: TRANSACTION UNDO
+[2026.05.13-23.10.46:031][923]LogEditorTransaction: Undo Move Control
+[2026.05.13-23.10.47:536][923]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.47:550][923]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.47:550][923]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.47:552][923]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.47:568][923]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.47:578][923]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.47:579][923]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.47:581][923]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.47:591][923]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.47:597][923]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.10.48:338][924]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.10.48:338][924]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.10.48:338][924]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.10.48:338][924]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.10.48:338][924]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.10.48:338][924]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.11.02:004][332]LogEditorTransaction: Undo Set Property
+[2026.05.13-23.11.03:273][332]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.03:288][332]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.03:289][332]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.03:290][332]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.03:311][332]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.03:321][332]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.03:322][332]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.03:324][332]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.03:331][332]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.03:337][332]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.04:054][333]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.11.04:055][333]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.11.04:055][333]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.11.04:055][333]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.11.04:055][333]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.11.04:055][333]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.11.10:758][ 66]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 25649.503906
+[2026.05.13-23.11.10:904][ 83]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.13-23.11.10:905][ 83]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 25649.636719, Update Interval: 323.474854
+[2026.05.13-23.11.20:436][ 76]Cmd: TRANSACTION UNDO
+[2026.05.13-23.11.20:436][ 76]LogEditorTransaction: Undo Move Control
+[2026.05.13-23.11.21:934][ 76]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.21:947][ 76]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.21:948][ 76]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.21:950][ 76]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.21:966][ 76]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.21:975][ 76]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.21:975][ 76]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.21:978][ 76]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.21:986][ 76]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.21:991][ 76]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_39:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.11.22:704][ 77]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.11.22:705][ 77]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.11.22:705][ 77]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.11.22:705][ 77]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.11.22:705][ 77]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.11.22:705][ 77]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.12.16:815][188]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.05.13-23.12.16:833][188]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.13-23.12.16:892][188]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig] ([2] browsable assets)...
+[2026.05.13-23.12.16:903][188]OBJ SavePackage:     Rendered thumbnail for [ControlRigBlueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig.SKM_LavaTurtle6_CtrlRig]
+[2026.05.13-23.12.16:904][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig]
+[2026.05.13-23.12.16:911][188]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig
+[2026.05.13-23.12.16:911][188]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/SKM_LavaTurtle6_CtrlRigA0D604334A73A3C8E2D877B84BDC2BD0.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig.uasset'
+[2026.05.13-23.12.16:971][188]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run] ([1] browsable assets)...
+[2026.05.13-23.12.16:971][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run]
+[2026.05.13-23.12.16:980][188]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run
+[2026.05.13-23.12.16:981][188]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/LS_RunC0C6B0994DB0708A55B5B0AF5AC25919.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run.uasset'
+[2026.05.13-23.12.16:982][188]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run] ([1] browsable assets)...
+[2026.05.13-23.12.16:988][188]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run.Run]
+[2026.05.13-23.12.16:988][188]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run]
+[2026.05.13-23.12.16:990][188]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run
+[2026.05.13-23.12.16:990][188]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/RunAC728623464A43536B03B28F0C1C8951.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run.uasset'
+[2026.05.13-23.12.17:000][188]LogFileHelpers: InternalPromptForCheckoutAndSave took 166.227 ms (total: 973.834 ms)
+[2026.05.13-23.12.17:057][188]LogContentValidation: Display: Starting to validate 3 assets
+[2026.05.13-23.12.17:057][188]LogContentValidation: Enabled validators:
+[2026.05.13-23.12.17:057][188]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.13-23.12.17:057][188]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.13-23.12.17:057][188]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.13-23.12.17:057][188]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.13-23.12.17:057][188]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.13-23.12.17:057][188]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.13-23.12.17:059][188]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/SKM_LavaTurtle6_CtrlRig Validating asset
+[2026.05.13-23.12.17:059][188]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run Validating asset
+[2026.05.13-23.12.17:059][188]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run Validating asset
+[2026.05.13-23.14.25:822][425]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2026.05.13-23.14.25:835][425]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.13-23.14.25:893][425]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run] ([1] browsable assets)...
+[2026.05.13-23.14.25:893][425]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run]
+[2026.05.13-23.14.25:902][425]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run
+[2026.05.13-23.14.25:902][425]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/LS_RunBDAECDC54C5F85D97434E99640645A44.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run.uasset'
+[2026.05.13-23.14.25:911][425]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.575 ms (total: 1.04 sec)
+[2026.05.13-23.14.25:958][425]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.13-23.14.25:959][425]LogContentValidation: Enabled validators:
+[2026.05.13-23.14.25:959][425]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.13-23.14.25:959][425]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.13-23.14.25:959][425]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.13-23.14.25:959][425]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.13-23.14.25:959][425]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.13-23.14.25:959][425]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.13-23.14.25:961][425]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run Validating asset
+[2026.05.13-23.14.44:192][340]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.05.13-23.14.44:203][340]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.13-23.14.44:259][340]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run] ([1] browsable assets)...
+[2026.05.13-23.14.44:259][340]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run]
+[2026.05.13-23.14.44:268][340]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run
+[2026.05.13-23.14.44:268][340]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/LS_Run1C25F9844FBE37D37E60A592E250E599.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run.uasset'
+[2026.05.13-23.14.44:277][340]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.538 ms (total: 1.12 sec)
+[2026.05.13-23.14.44:326][340]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.13-23.14.44:326][340]LogContentValidation: Enabled validators:
+[2026.05.13-23.14.44:326][340]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.13-23.14.44:326][340]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.13-23.14.44:326][340]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.13-23.14.44:326][340]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.13-23.14.44:326][340]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.13-23.14.44:326][340]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.13-23.14.44:328][340]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/LevelSequences/LS_Run Validating asset
+[2026.05.13-23.15.15:026][711]LogSlate: Window 'Create a New Animation Asset' being destroyed
+[2026.05.13-23.15.16:390][711]LogSlate: Window 'Animation Sequence Options' being destroyed
+[2026.05.13-23.15.16:416][711]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run1.Run1 (Required Memory Estimate: 0.07 MB)
+[2026.05.13-23.15.16:417][711]LogAnimationCompression: Display: Storing compressed animation data for /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run1.Run1, at AnimationSequence/2648c025026ec3b722a312b677ba8b6c5926b50f
+[2026.05.13-23.15.19:578][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.05.13-23.15.19:590][992]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/StartupMap' took 0.030
+[2026.05.13-23.15.19:590][992]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run1] ([1] browsable assets)...
+[2026.05.13-23.15.19:606][992]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run1.Run1]
+[2026.05.13-23.15.19:606][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run1]
+[2026.05.13-23.15.19:609][992]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run1_Auto5
+[2026.05.13-23.15.19:609][992]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/Run1_Auto51451ADB647078F275239569BEC4F1581.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/Autosaves/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run1_Auto5.uasset'
+[2026.05.13-23.15.19:610][992]LogFileHelpers: Auto-saving content packages took 0.019
+[2026.05.13-23.16.14:238][306]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/Blueprints/Character/TestAI_Characters/Cartoon_UndeadGoblin2/Animation/BS_IdleWalkRun.BS_IdleWalkRun
+[2026.05.13-23.16.14:239][306]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_43
+[2026.05.13-23.16.14:249][306]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.16.14:419][306]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_44
+[2026.05.13-23.16.36:434][ 93]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Idle.Idle
+[2026.05.13-23.16.36:434][ 93]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_45
+[2026.05.13-23.16.36:443][ 93]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.16.36:610][ 93]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_46
+[2026.05.13-23.16.36:722][ 93]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_45:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.16.37:031][ 93]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_47
+[2026.05.13-23.17.08:390][931]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2026.05.13-23.17.08:402][931]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.13-23.17.08:462][931]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run1] ([1] browsable assets)...
+[2026.05.13-23.17.08:462][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run1]
+[2026.05.13-23.17.08:465][931]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run1
+[2026.05.13-23.17.08:465][931]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/Run1B731E1B6448C4D36699379B40D3986C4.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run1.uasset'
+[2026.05.13-23.17.08:550][931]LogFileHelpers: InternalPromptForCheckoutAndSave took 148.560 ms (total: 1.27 sec)
+[2026.05.13-23.17.08:594][931]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.13-23.17.08:594][931]LogContentValidation: Enabled validators:
+[2026.05.13-23.17.08:594][931]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.13-23.17.08:594][931]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.13-23.17.08:594][931]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.13-23.17.08:594][931]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.13-23.17.08:594][931]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.13-23.17.08:594][931]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.13-23.17.08:598][931]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/Run1 Validating asset
+[2026.05.13-23.17.08:663][931]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 26004.873047
+[2026.05.13-23.17.08:861][945]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.13-23.17.08:862][945]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 26005.058594, Update Interval: 321.028473
+[2026.05.13-23.17.13:688][418]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.05.13-23.17.13:761][418]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_48
+[2026.05.13-23.17.22:179][418]LogSlate: Window 'Pick Skeleton' being destroyed
+[2026.05.13-23.17.22:206][418]LogContentBrowser: Deferred new asset file creation: NewBlendSpace
+[2026.05.13-23.17.22:224][418]LogContentBrowser: Creating deferred item: NewBlendSpace
+[2026.05.13-23.17.22:263][419]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlendSpace).
+[2026.05.13-23.17.22:336][420]LogContentBrowser: Attempting asset rename: NewBlendSpace -> NewBlendSpace
+[2026.05.13-23.17.22:418][420]LogContentBrowser: End creating deferred item NewBlendSpace
+[2026.05.13-23.17.26:078][738]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2026.05.13-23.17.26:078][738]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.13-23.17.26:133][739]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.05.13-23.17.37:732][580]LogContentBrowser: Attempting asset rename: NewBlendSpace -> BS_WalkIdleRun
+[2026.05.13-23.17.37:816][580]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.13-23.17.37:816][580]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/BS_WalkIdleRun] ([1] browsable assets)...
+[2026.05.13-23.17.37:821][580]OBJ SavePackage:     Rendered thumbnail for [BlendSpace /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/BS_WalkIdleRun.BS_WalkIdleRun]
+[2026.05.13-23.17.37:821][580]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/BS_WalkIdleRun]
+[2026.05.13-23.17.37:822][580]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/BS_WalkIdleRun
+[2026.05.13-23.17.37:822][580]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BS_WalkIdleRunC46AB90E4D65DF64D271489AAB889FF1.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/BS_WalkIdleRun.uasset'
+[2026.05.13-23.17.37:903][580]LogFileHelpers: InternalPromptForCheckoutAndSave took 87.295 ms (total: 1.35 sec)
+[2026.05.13-23.17.37:927][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.05.13-23.17.37:946][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.05.13-23.17.37:963][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.05.13-23.17.38:029][580]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.13-23.17.38:029][580]LogContentValidation: Enabled validators:
+[2026.05.13-23.17.38:029][580]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.13-23.17.38:029][580]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.13-23.17.38:029][580]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.13-23.17.38:029][580]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.13-23.17.38:029][580]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.13-23.17.38:029][580]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.13-23.17.38:032][580]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/BS_WalkIdleRun Validating asset
+[2026.05.13-23.17.38:888][634]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.05.13-23.19.20:229][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2026.05.13-23.19.20:241][995]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.13-23.19.20:298][995]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/BS_WalkIdleRun] ([1] browsable assets)...
+[2026.05.13-23.19.20:312][995]OBJ SavePackage:     Rendered thumbnail for [BlendSpace /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/BS_WalkIdleRun.BS_WalkIdleRun]
+[2026.05.13-23.19.20:312][995]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/BS_WalkIdleRun]
+[2026.05.13-23.19.20:313][995]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/BS_WalkIdleRun
+[2026.05.13-23.19.20:314][995]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BS_WalkIdleRunED99D30A4A82C83A8EF0A7A1174C986A.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/BS_WalkIdleRun.uasset'
+[2026.05.13-23.19.20:320][995]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.584 ms (total: 1.43 sec)
+[2026.05.13-23.19.20:380][995]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.13-23.19.20:380][995]LogContentValidation: Enabled validators:
+[2026.05.13-23.19.20:380][995]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.13-23.19.20:380][995]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.13-23.19.20:380][995]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.13-23.19.20:380][995]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.13-23.19.20:380][995]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.13-23.19.20:380][995]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.13-23.19.20:383][995]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/Animations/BS_WalkIdleRun Validating asset
+[2026.05.13-23.19.34:389][457]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_49
+[2026.05.13-23.19.36:208][457]LogStreaming: Display: FlushAsyncLoading(497): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.13-23.19.36:247][457]LogSkeletalMesh: Building Skeletal Mesh SKM_Shaman...
+[2026.05.13-23.19.36:352][457]LogTexture: Display: Building textures: /Game/Assets/Enemies/Shaman/Materials/Shaman_low_M_Shaman_Body_OcclusionRoughnessMetallic.Shaman_low_M_Shaman_Body_OcclusionRoughnessMetallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2026.05.13-23.19.36:432][457]LogSkeletalMesh: Built Skeletal Mesh [0.19s] /Game/Assets/Enemies/Shaman/SKM_Shaman.SKM_Shaman
+[2026.05.13-23.19.36:454][457]LogTexture: Display: Building textures: /Game/Assets/Enemies/Shaman/Materials/Shaman_low_M_Shaman_Body_Normal.Shaman_low_M_Shaman_Body_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2026.05.13-23.19.36:472][457]LogTexture: Display: Building textures: /Game/Assets/Enemies/Shaman/Materials/Shaman_low_M_Shaman_Body_BaseColor.Shaman_low_M_Shaman_Body_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2026.05.13-23.19.40:591][457]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2026.05.13-23.20.02:929][509]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_50
+[2026.05.13-23.20.02:947][509]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_51
+[2026.05.13-23.20.02:955][509]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_52
+[2026.05.13-23.20.02:963][509]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_53
+[2026.05.13-23.20.16:372][509]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2026.05.13-23.20.16:380][509]LogContentBrowser: Deferred new asset file creation: NewAnimBlueprint
+[2026.05.13-23.20.16:393][509]LogContentBrowser: Creating deferred item: NewAnimBlueprint
+[2026.05.13-23.20.16:466][510]LogContentBrowser: Renaming the item being created (Deferred Item: NewAnimBlueprint).
+[2026.05.13-23.20.24:924][349]LogContentBrowser: Attempting asset rename: NewAnimBlueprint -> ABP_LavaTurtle
+[2026.05.13-23.20.25:016][349]LogContentBrowser: End creating deferred item NewAnimBlueprint
+[2026.05.13-23.20.25:016][349]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_54
+[2026.05.13-23.20.26:032][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.05.13-23.20.26:047][447]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.13-23.20.26:099][447]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/ABP_LavaTurtle] ([2] browsable assets)...
+[2026.05.13-23.20.26:112][447]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/ABP_LavaTurtle.ABP_LavaTurtle]
+[2026.05.13-23.20.26:113][447]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/ABP_LavaTurtle]
+[2026.05.13-23.20.26:115][447]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/ABP_LavaTurtle
+[2026.05.13-23.20.26:115][447]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/ABP_LavaTurtleF8FC15744629CABF8BC6B490B88A8D51.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/ABP_LavaTurtle.uasset'
+[2026.05.13-23.20.26:211][447]LogFileHelpers: InternalPromptForCheckoutAndSave took 164.316 ms (total: 1.60 sec)
+[2026.05.13-23.20.26:264][447]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.13-23.20.26:264][447]LogContentValidation: Enabled validators:
+[2026.05.13-23.20.26:264][447]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.13-23.20.26:264][447]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.13-23.20.26:264][447]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.13-23.20.26:264][447]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.13-23.20.26:264][447]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.13-23.20.26:264][447]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.13-23.20.26:267][447]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/ABP_LavaTurtle Validating asset
+[2026.05.13-23.20.27:031][508]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/ABP_LavaTurtle.ABP_LavaTurtle
+[2026.05.13-23.20.27:032][508]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_55
+[2026.05.13-23.20.27:036][508]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_56
+[2026.05.13-23.20.27:046][508]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_56:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.05.13-23.20.27:258][508]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_57
+[2026.05.13-23.20.34:907][191]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2026.05.13-23.20.42:627][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.05.13-23.20.42:634][873]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.13-23.20.42:665][873]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/ABP_LavaTurtle] ([2] browsable assets)...
+[2026.05.13-23.20.42:679][873]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/ABP_LavaTurtle.ABP_LavaTurtle]
+[2026.05.13-23.20.42:679][873]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/ABP_LavaTurtle]
+[2026.05.13-23.20.42:682][873]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/ABP_LavaTurtle
+[2026.05.13-23.20.42:682][873]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/ABP_LavaTurtleF5DF927F44C71734A81EDF80654DD8A9.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/ABP_LavaTurtle.uasset'
+[2026.05.13-23.20.42:688][873]LogFileHelpers: InternalPromptForCheckoutAndSave took 53.644 ms (total: 1.65 sec)
+[2026.05.13-23.20.42:748][873]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.13-23.20.42:748][873]LogContentValidation: Enabled validators:
+[2026.05.13-23.20.42:748][873]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.13-23.20.42:748][873]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.13-23.20.42:748][873]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.13-23.20.42:748][873]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.13-23.20.42:748][873]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.13-23.20.42:748][873]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.13-23.20.42:751][873]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/ABP_LavaTurtle Validating asset
+[2026.05.13-23.20.58:350][436]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2026.05.13-23.20.58:350][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.13-23.20.58:387][436]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/BP_LavaTurtle6.BP_LavaTurtle6
+[2026.05.13-23.20.58:388][436]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_58
+[2026.05.13-23.20.58:777][436]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2026.05.13-23.21.11:806][809]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'DefaultForeground'.'
+[2026.05.13-23.21.16:787][354]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.05.13-23.21.16:795][354]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.13-23.21.16:833][354]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/BP_LavaTurtle6] ([2] browsable assets)...
+[2026.05.13-23.21.16:847][354]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/BP_LavaTurtle6.BP_LavaTurtle6]
+[2026.05.13-23.21.16:847][354]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/BP_LavaTurtle6]
+[2026.05.13-23.21.16:852][354]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/BP_LavaTurtle6
+[2026.05.13-23.21.16:852][354]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_LavaTurtle6C16FEA3742017ADD6D7B3689519EEF28.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle6/BP_LavaTurtle6.uasset'
+[2026.05.13-23.21.16:859][354]LogFileHelpers: InternalPromptForCheckoutAndSave took 63.184 ms (total: 1.71 sec)
+[2026.05.13-23.21.16:915][354]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.13-23.21.16:915][354]LogContentValidation: Enabled validators:
+[2026.05.13-23.21.16:915][354]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.13-23.21.16:915][354]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.13-23.21.16:915][354]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.13-23.21.16:915][354]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.13-23.21.16:915][354]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.13-23.21.16:915][354]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.13-23.21.16:918][354]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle6/BP_LavaTurtle6 Validating asset
+[2026.05.13-23.21.19:189][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2026.05.13-23.21.29:640][263]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.13-23.21.29:655][263]LogPlayLevel: [PlayLevel] Compiling MR_LavaTurtle before play...
+[2026.05.13-23.21.29:747][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.05.13-23.21.29:751][263]LogPlayLevel: PlayLevel: Blueprint regeneration took 97 ms (1 blueprints)
+[2026.05.13-23.21.29:756][263]LogOnline: OSS: Created online subsystem instance for: NULL
+[2026.05.13-23.21.29:756][263]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2026.05.13-23.21.29:757][263]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.13-23.21.29:768][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011081s)
+[2026.05.13-23.21.29:768][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.011247s)
+[2026.05.13-23.21.29:783][263]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.05.13-23.21.29:786][263]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.05.13-23.21.29:787][263]LogPlayLevel: PIE: World Init took: (0.001192s)
+[2026.05.13-23.21.29:788][263]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.05.13-23.21.29:788][263]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.13-23.21.29:788][263]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.13-23.21.29:788][263]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.13-23.21.29:788][263]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.13-23.21.29:788][263]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.13-23.21.29:788][263]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.13-23.21.29:788][263]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.13-23.21.29:788][263]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.13-23.21.29:788][263]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.13-23.21.29:788][263]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.13-23.21.29:788][263]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.13-23.21.29:790][263]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.13-23.21.29:808][263]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.05.13-23.21.29:808][263]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.13-23.21.29:809][263]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.13-23.21.29:809][263]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.13-23.21.29:809][263]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.05.13-23.21.29:809][263]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.05.13-23.21.29:811][263]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.05.13-23.21.29:811][263]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.05.13-23.21.29:811][263]LogInit: FAudioDevice initialized with ID 2.
+[2026.05.13-23.21.29:811][263]LogAudio: Display: Audio Device (ID: 2) registered with world 'StartupMap'.
+[2026.05.13-23.21.29:811][263]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.05.13-23.21.29:814][263]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.05.13-23.21.29:819][263]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2026.05.13-16.21.29
+[2026.05.13-23.21.29:824][263]LogWorld: Bringing up level for play took: 0.009097
+[2026.05.13-23.21.29:825][263]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2026.05.13-23.21.29:829][263]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.13-23.21.29:842][263]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.05.13-23.21.29:842][263]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.05.13-23.21.29:843][263]PIE: Server logged in
+[2026.05.13-23.21.29:843][263]PIE: Play in editor total start time 0.191 seconds.
+[2026.05.13-23.21.29:943][264]LogRigVM: Warning: Instruction[829] 'Root: FRigUnit_SetDefaultParent::Execute': 'Parent item  does not exist.'
+[2026.05.13-23.21.29:943][264]LogRigVM: Warning: Instruction[136] 'Root:Spine: FRigUnit_AimBoneMath::Execute': 'Invalid secondary target.'
+[2026.05.13-23.21.29:943][264]LogRigVM: Warning: Instruction[1185] 'Root:Spine:Leg: FRigUnit_SetDefaultParent::Execute': 'Child item Control(None) does not exist.'
+[2026.05.13-23.21.29:943][264]LogRigVM: Display: Instruction[1195] 'Root:Spine:Leg_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Leg_1:foot_l_ctrl) after setting child (Root:Spine:Leg_1:foot_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.21.29:943][264]LogRigVM: Display: Instruction[1228] 'Root:Spine:Arm_1: FRigUnit_SetTransform::Execute': 'Setting transform of parent (Root:Spine:Arm_1:hand_l_ctrl) after setting child (Root:Spine:Arm_1:hand_l_ctrl_effector).
+This may lead to unexpected results.'
+[2026.05.13-23.21.29:943][264]LogRigVM: Warning: Instruction[400] 'Root:Spine:Arm: FRigVMFunction_MathFloatDiv::Execute': 'B is nearly 0.f'
+[2026.05.13-23.21.46:312][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.13-23.21.46:312][190]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.13-23.21.46:312][190]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.13-23.21.46:314][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.13-23.21.46:317][190]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.13-23.21.46:317][190]LogNiagaraEditor: onPieEnd
+[2026.05.13-23.21.46:317][190]LogNiagaraEditor: onPieEnd
+[2026.05.13-23.21.46:317][190]LogNiagaraEditor: onPieEnd
+[2026.05.13-23.21.46:318][190]LogNiagaraEditor: onPieEnd
+[2026.05.13-23.21.46:318][190]LogNiagaraEditor: onPieEnd
+[2026.05.13-23.21.46:318][190]LogNiagaraEditor: onPieEnd
+[2026.05.13-23.21.46:318][190]LogNiagaraEditor: onPieEnd
+[2026.05.13-23.21.46:318][190]LogNiagaraEditor: onPieEnd
+[2026.05.13-23.21.46:318][190]LogNiagaraEditor: onPieEnd
+[2026.05.13-23.21.46:318][190]LogNiagaraEditor: onPieEnd
+[2026.05.13-23.21.46:318][190]LogNiagaraEditor: onPieEnd
+[2026.05.13-23.21.46:318][190]LogNiagaraEditor: onPieEnd
+[2026.05.13-23.21.46:318][190]LogNiagaraEditor: onPieEnd
+[2026.05.13-23.21.46:318][190]LogNiagaraEditor: onPieEnd
+[2026.05.13-23.21.46:329][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.13-23.21.46:347][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.13-23.21.46:347][190]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.05.13-23.21.46:348][190]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2026.05.13-23.21.46:349][190]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2026.05.13-23.21.46:357][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2026.05.13-23.21.46:397][191]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2026.05.13-23.21.52:353][705]LogShaderCompilers: Display: ================================================
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: Total job queries 349, among them cache hits 65 (18.62%), DDC hits 259 (74.21%), Duplicates 15 (4.30%)
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: Tracking 269 distinct input hashes that result in 215 distinct outputs (79.93%)
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: RAM used: 148.19 KiB of 3.20 GiB budget. Usage: 0.00%
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: Shaders Compiled: 10
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: Jobs assigned 10, completed 10 (100%)
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: Time job spent in pending queue: average 0.35 s, longest 1.35 s
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: Job execution time: average 1.07 s, max 1.25 s
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: Job life time (pending + execution): average 1.42 s, max 1.75
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: Shader code size: average 8.236 KiB, min 3.598 KiB, max 15.172 KiB
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.76 s
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: Jobs were issued in 10 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: Average processing rate: 5.69 jobs/sec
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: Total thread time: 2.015 s
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: Total thread preprocess time: 3.023 s
+[2026.05.13-23.21.52:354][705]LogShaderCompilers: Display: Percentage time preprocessing: 149.98%
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display: Effective parallelization: 1.15 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display:             TShadowDepthPSPixelShadowDepth_OnePassPointLight (compiled    1 times, average 0.19 sec, max 0.19 sec, min 0.19 sec)
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display:         TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect (compiled    1 times, average 0.17 sec, max 0.17 sec, min 0.17 sec)
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.17 sec, max 0.17 sec, min 0.17 sec)
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.17 sec, max 0.17 sec, min 0.17 sec)
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.93% of total time (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display:             TShadowDepthPSPixelShadowDepth_OnePassPointLight - 9.27% of total time (compiled    1 times, average 0.19 sec, max 0.19 sec, min 0.19 sec)
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display:         TShadowDepthPSPixelShadowDepth_NonPerspectiveCorrect - 8.66% of total time (compiled    1 times, average 0.17 sec, max 0.17 sec, min 0.17 sec)
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display:                                                  FHitProxyPS - 8.61% of total time (compiled    1 times, average 0.17 sec, max 0.17 sec, min 0.17 sec)
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.20% of total time (compiled    1 times, average 0.17 sec, max 0.17 sec, min 0.17 sec)
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display: === Material stats ===
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display: Materials Translated:    203
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display: Material Total Translate Time: 0.18 s
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display: Material Translation Only: 0.04 s (24%)
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.05.13-23.21.52:355][705]LogShaderCompilers: Display: Material Cache Hits: 60 (30%)
+[2026.05.13-23.21.52:356][705]LogShaderCompilers: Display: ================================================
