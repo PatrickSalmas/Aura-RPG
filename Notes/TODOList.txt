@@ -111,6 +111,8 @@ Enhancements:
 -- See example in BP_DilationField. Functions ApplyDilationToActor and RemoveDilationFromActor are casting to BP_BattleMage
 -- Zoom logic can be refactored into parent class
 - Create new and improved health bars that float above enemies heads
+- Figure out classes of enemies. Right now they are pretty general. (Look at DA_CharacterInfo)
+-- May need to make more specific classes. Or can make a class for each enemy specifically.
 
 Ideas for Enemies:
 - SpeedDemon
