@@ -167,7 +167,15 @@ public:
 	static void GetLivePlayersWithinRadius(const UObject* WorldContextObject, TArray<AActor*>& OutOverlappingActors,
 	                                       const TArray<AActor*>& ActorsToIgnore, float Radius,
 	                                       const FVector SphereOrigin);
-
+	
+	UFUNCTION(BlueprintCallable, Category="AuraAbilitySystemLibrary|GameplayMechanics")
+	static void GetLivePlayersWithinRadiusByTag(const UObject* WorldContextObject, TArray<AActor*>& OutOverlappingActors,
+										   const TArray<AActor*>& ActorsToIgnore, float Radius,
+										   const FVector SphereOrigin, FName TagName);
+	
+	UFUNCTION(BlueprintCallable, Category="AuraAbilitySystemLibrary|GameplayMechanics")
+	static void FilterActorsByTag(const TArray<AActor*>& Actors, FName Tag, TArray<AActor*>& OutFilteredActors);
+	
 	UFUNCTION(BlueprintCallable, Category="AuraAbilitySystemLibrary|GameplayMechanics")
 	static void GetClosestTargets(int32 MaxTargets, const TArray<AActor*>& Actors, TArray<AActor*>& OutClosestTargets, const FVector& Origin);
 

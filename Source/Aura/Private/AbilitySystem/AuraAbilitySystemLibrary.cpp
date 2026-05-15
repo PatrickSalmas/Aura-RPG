@@ -444,8 +444,44 @@ void UAuraAbilitySystemLibrary::GetLivePlayersWithinRadius(const UObject* WorldC
 	}
 }
 
+void UAuraAbilitySystemLibrary::GetLivePlayersWithinRadiusByTag(const UObject* WorldContextObject,
+	TArray<AActor*>& OutOverlappingActors, const TArray<AActor*>& ActorsToIgnore, float Radius,
+	const FVector SphereOrigin, FName TagName)
+{
+	FCollisionQueryParams SphereParams;
+	SphereParams.AddIgnoredActors(ActorsToIgnore);
+
+	TArray<FOverlapResult> Overlaps;
+	if (const UWorld* World = GEngine->GetWorldFromContextObject(WorldContextObject, EGetWorldErrorMode::LogAndReturnNull))
+	{
+		World->OverlapMultiByObjectType(Overlaps, SphereOrigin, FQuat::Identity,
+										FCollisionObjectQueryParams(
+											FCollisionObjectQueryParams::InitType::AllDynamicObjects),
+										FCollisionShape::MakeSphere(Radius), SphereParams);
+		for (FOverlapResult& Overlap : Overlaps)
+		{
+			AActor* OverlapActor = Overlap.GetActor();
+			if (OverlapActor->Implements<UCombatInterface>() && !ICombatInterface::Execute_IsDead(Overlap.GetActor()) && OverlapActor->Tags.Contains(TagName))
+			{
+				OutOverlappingActors.AddUnique(ICombatInterface::Execute_GetAvatar(Overlap.GetActor()));
+			}
+		}
+	}
+}
+
+void UAuraAbilitySystemLibrary::FilterActorsByTag(const TArray<AActor*>& Actors, FName Tag, TArray<AActor*>& OutFilteredActors)
+{
+	for (AActor* Actor : Actors)
+	{
+		if (Actor->Tags.Contains(Tag))
+		{
+			OutFilteredActors.AddUnique(Actor);
+		}
+	}
+}
+
 void UAuraAbilitySystemLibrary::GetClosestTargets(int32 MaxTargets, const TArray<AActor*>& Actors,
-	TArray<AActor*>& OutClosestTargets, const FVector& Origin)
+                                                  TArray<AActor*>& OutClosestTargets, const FVector& Origin)
 {
 	if (Actors.Num() <= 0) return;
 

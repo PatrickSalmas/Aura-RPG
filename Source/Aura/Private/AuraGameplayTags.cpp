@@ -9,6 +9,12 @@ FAuraGameplayTags FAuraGameplayTags::GameplayTags;
 void FAuraGameplayTags::InitializeNativeGameplayTags()
 {
 	/*
+	 * Actor Tags
+	 */
+	GameplayTags.Actor_Player = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Actor.Player"), FString("Tag for the Player actor"));
+	GameplayTags.Actor_Enemy = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Actor.Enemy"), FString("Tag for the Enemy actor"));
+	
+	/*
 	 * Primary Attributes
 	 */
 	GameplayTags.Attributes_Primary_Strength = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Attributes.Primary.Strength"), FString("Increases physical damage, Crit Chance, and Crit Damage"));
