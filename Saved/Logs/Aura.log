@@ -4253,3 +4253,319 @@ Sampler Limit: 32
 [2026.05.20-03.02.04:663][572]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2026.05.20-03.02.04:667][572]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
 [2026.05.20-03.02.04:696][573]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2026.05.20-03.08.10:028][552]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18739.955078
+[2026.05.20-03.08.11:028][555]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-03.08.11:028][555]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18740.623047, Update Interval: 359.461670
+[2026.05.20-03.14.26:724][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2026.05.20-03.14.26:730][558]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-03.14.26:757][558]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/AbilitySystem/Enemy/Abilities/LavaTurtle/BP_LavaArea] ([2] browsable assets)...
+[2026.05.20-03.14.26:775][558]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/AbilitySystem/Enemy/Abilities/LavaTurtle/BP_LavaArea.BP_LavaArea]
+[2026.05.20-03.14.26:775][558]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Enemy/Abilities/LavaTurtle/BP_LavaArea]
+[2026.05.20-03.14.26:779][558]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Enemy/Abilities/LavaTurtle/BP_LavaArea
+[2026.05.20-03.14.26:779][558]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_LavaArea6EBACA3941176540A0EC7482D5FD6776.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Enemy/Abilities/LavaTurtle/BP_LavaArea.uasset'
+[2026.05.20-03.14.26:785][558]LogFileHelpers: InternalPromptForCheckoutAndSave took 55.475 ms (total: 1.52 sec)
+[2026.05.20-03.14.26:822][558]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-03.14.26:822][558]LogContentValidation: Enabled validators:
+[2026.05.20-03.14.26:822][558]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-03.14.26:822][558]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-03.14.26:822][558]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-03.14.26:822][558]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-03.14.26:822][558]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-03.14.26:823][558]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-03.14.26:823][558]AssetCheck: /Game/Blueprints/AbilitySystem/Enemy/Abilities/LavaTurtle/BP_LavaArea Validating asset
+[2026.05.20-03.14.40:205][355]LogSlate: Took 0.004797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2026.05.20-03.15.08:478][810]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19158.960938
+[2026.05.20-03.15.10:811][817]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-03.15.10:811][817]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19160.962891, Update Interval: 341.302521
+[2026.05.20-03.16.55:531][360]LogShaderCompilers: Display: ================================================
+[2026.05.20-03.16.55:531][360]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: Total job queries 808, among them cache hits 367 (45.42%), DDC hits 296 (36.63%), Duplicates 6 (0.74%)
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: Tracking 435 distinct input hashes that result in 300 distinct outputs (68.97%)
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: RAM used: 182.43 KiB of 3.20 GiB budget. Usage: 0.01%
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: Shaders Compiled: 139
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: Jobs assigned 139, completed 139 (100%)
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: Average time worker was idle: 828.57 s
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.11 s
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: Job execution time: average 0.43 s, max 1.33 s
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: Job life time (pending + execution): average 0.49 s, max 1.34
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: Shader code size: average 8.052 KiB, min 2.777 KiB, max 14.125 KiB
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 17.00 s
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: Jobs were issued in 139 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: Average processing rate: 8.17 jobs/sec
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: Total thread time: 30.856 s
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: Total thread preprocess time: 6.365 s
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: Percentage time preprocessing: 20.63%
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: Effective parallelization: 1.81 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    9 times, average 0.55 sec, max 0.58 sec, min 0.54 sec)
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.29 sec, max 0.29 sec, min 0.29 sec)
+[2026.05.20-03.16.55:532][360]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   17 times, average 0.28 sec, max 0.78 sec, min 0.19 sec)
+[2026.05.20-03.16.55:533][360]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   17 times, average 0.22 sec, max 0.67 sec, min 0.13 sec)
+[2026.05.20-03.16.55:533][360]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled   15 times, average 0.20 sec, max 0.68 sec, min 0.14 sec)
+[2026.05.20-03.16.55:533][360]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.05.20-03.16.55:533][360]LogShaderCompilers: Display:                                             FDebugViewModePS - 16.14% of total time (compiled    9 times, average 0.55 sec, max 0.58 sec, min 0.54 sec)
+[2026.05.20-03.16.55:533][360]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.38% of total time (compiled   17 times, average 0.28 sec, max 0.78 sec, min 0.19 sec)
+[2026.05.20-03.16.55:533][360]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.90% of total time (compiled   17 times, average 0.22 sec, max 0.67 sec, min 0.13 sec)
+[2026.05.20-03.16.55:533][360]LogShaderCompilers: Display:                                                  FHitProxyPS - 9.51% of total time (compiled   15 times, average 0.20 sec, max 0.68 sec, min 0.14 sec)
+[2026.05.20-03.16.55:533][360]LogShaderCompilers: Display:                                                  FHitProxyVS - 8.95% of total time (compiled   15 times, average 0.18 sec, max 0.63 sec, min 0.14 sec)
+[2026.05.20-03.16.55:533][360]LogShaderCompilers: Display: === Material stats ===
+[2026.05.20-03.16.55:533][360]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.05.20-03.16.55:533][360]LogShaderCompilers: Display: Materials Translated:    301
+[2026.05.20-03.16.55:533][360]LogShaderCompilers: Display: Material Total Translate Time: 0.17 s
+[2026.05.20-03.16.55:533][360]LogShaderCompilers: Display: Material Translation Only: 0.06 s (33%)
+[2026.05.20-03.16.55:533][360]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.05.20-03.16.55:533][360]LogShaderCompilers: Display: Material Cache Hits: 71 (24%)
+[2026.05.20-03.16.55:533][360]LogShaderCompilers: Display: ================================================
+[2026.05.20-03.18.42:828][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2026.05.20-03.19.08:719][643]LogStreaming: Display: FlushAsyncLoading(485): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.20-03.19.11:877][643]LogInterchangeEngine: [Pending] Importing
+[2026.05.20-03.19.11:877][643]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/psalm/Downloads/LavaPoolTexture_New.png]
+[2026.05.20-03.19.11:973][645]LogStreaming: Display: FlushAsyncLoading(495): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.20-03.19.12:053][649]LogTexture: Display: Building textures: /Game/Assets/Effects/ShieldLavaSurge/Take1/LavaPoolTexture_New.LavaPoolTexture_New (BGRA8, 1254x1254 x1x1x1) (Required Memory Estimate: 54.988052 MB), EncodeSpeed: Fast
+[2026.05.20-03.19.12:092][650]LogInterchangeEngine: Display: Interchange import completed [C:/Users/psalm/Downloads/LavaPoolTexture_New.png]
+[2026.05.20-03.19.12:093][650]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2026.05.20-03.19.12:093][650]LogInterchangeEngine: [Success] Import Done
+[2026.05.20-03.19.13:600][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2026.05.20-03.19.13:605][739]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-03.19.13:662][739]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Effects/ShieldLavaSurge/Take1/LavaPoolTexture_New] ([1] browsable assets)...
+[2026.05.20-03.19.13:663][739]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Effects/ShieldLavaSurge/Take1/LavaPoolTexture_New.LavaPoolTexture_New]
+[2026.05.20-03.19.13:663][739]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Effects/ShieldLavaSurge/Take1/LavaPoolTexture_New]
+[2026.05.20-03.19.13:676][739]LogSavePackage: Moving output files for package: /Game/Assets/Effects/ShieldLavaSurge/Take1/LavaPoolTexture_New
+[2026.05.20-03.19.13:676][739]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/LavaPoolTexture_NewAD967A674CFBF70C686CB192D2A229C5.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/Effects/ShieldLavaSurge/Take1/LavaPoolTexture_New.uasset'
+[2026.05.20-03.19.13:684][739]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.392 ms (total: 1.60 sec)
+[2026.05.20-03.19.13:711][739]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-03.19.13:711][739]LogContentValidation: Enabled validators:
+[2026.05.20-03.19.13:711][739]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-03.19.13:711][739]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-03.19.13:711][739]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-03.19.13:711][739]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-03.19.13:711][739]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-03.19.13:711][739]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-03.19.13:711][739]AssetCheck: /Game/Assets/Effects/ShieldLavaSurge/Take1/LavaPoolTexture_New Validating asset
+[2026.05.20-03.19.24:476][383]MaterialEditorStats: Texture samplers: 0/16
+[2026.05.20-03.19.24:476][383]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(1)
+[2026.05.20-03.19.24:476][383]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.05.20-03.19.24:476][383]MaterialEditorStats: Shader Count: 0
+[2026.05.20-03.19.24:476][383]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.05.20-03.19.25:143][419]MaterialEditorStats: Base pass shader without light map: 146 instructions
+Stats: Resources Used: 3
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2026.05.20-03.19.25:143][419]MaterialEditorStats: Base pass vertex shader: 382 instructions
+Stats: Resources Used: 9
+Resource Limit: 64
+Samplers Used: 3
+Sampler Limit: 32
+
+[2026.05.20-03.19.25:143][419]MaterialEditorStats: Texture samplers: 3/16
+[2026.05.20-03.19.25:143][419]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(1)
+[2026.05.20-03.19.25:143][419]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.05.20-03.19.25:143][419]MaterialEditorStats: Shader Count: 6
+[2026.05.20-03.19.25:143][419]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.05.20-03.19.32:563][849]MaterialEditorStats: Texture samplers: 0/16
+[2026.05.20-03.19.32:564][849]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(1)
+[2026.05.20-03.19.32:564][849]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.05.20-03.19.32:564][849]MaterialEditorStats: Shader Count: 0
+[2026.05.20-03.19.32:564][849]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.05.20-03.19.32:594][851]MaterialEditorStats: Base pass shader without light map: 146 instructions
+Stats: Resources Used: 3
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2026.05.20-03.19.32:594][851]MaterialEditorStats: Base pass vertex shader: 382 instructions
+Stats: Resources Used: 9
+Resource Limit: 64
+Samplers Used: 3
+Sampler Limit: 32
+
+[2026.05.20-03.19.32:594][851]MaterialEditorStats: Texture samplers: 3/16
+[2026.05.20-03.19.32:594][851]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(1)
+[2026.05.20-03.19.32:594][851]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.05.20-03.19.32:594][851]MaterialEditorStats: Shader Count: 6
+[2026.05.20-03.19.32:594][851]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.05.20-03.19.34:796][979]MaterialEditorStats: Texture samplers: 0/16
+[2026.05.20-03.19.34:796][979]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(3)
+[2026.05.20-03.19.34:796][979]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.05.20-03.19.34:796][979]MaterialEditorStats: Shader Count: 0
+[2026.05.20-03.19.34:796][979]MaterialEditorStats: Preshaders: 4  (4 param fetches, 6 ops)
+[2026.05.20-03.19.34:824][981]MaterialEditorStats: Base pass shader without light map: 157 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.05.20-03.19.34:824][981]MaterialEditorStats: Base pass vertex shader: 382 instructions
+Stats: Resources Used: 9
+Resource Limit: 64
+Samplers Used: 3
+Sampler Limit: 32
+
+[2026.05.20-03.19.34:824][981]MaterialEditorStats: Texture samplers: 4/16
+[2026.05.20-03.19.34:824][981]MaterialEditorStats: Texture Lookups (Est.): VS(4), PS(3)
+[2026.05.20-03.19.34:824][981]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.05.20-03.19.34:824][981]MaterialEditorStats: Shader Count: 6
+[2026.05.20-03.19.34:824][981]MaterialEditorStats: Preshaders: 4  (4 param fetches, 6 ops)
+[2026.05.20-03.19.36:011][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2026.05.20-03.19.42:073][415]LogMaterialEditor: Applying material M_LavaPool_Master
+[2026.05.20-03.19.42:128][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.05.20-03.19.43:037][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.05.20-03.19.49:789][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.05.20-03.19.49:793][817]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-03.19.49:846][817]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Effects/ShieldLavaSurge/Take1/M_LavaPool_Master] ([1] browsable assets)...
+[2026.05.20-03.19.49:893][817]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Effects/ShieldLavaSurge/Take1/M_LavaPool_Master.M_LavaPool_Master]
+[2026.05.20-03.19.49:894][817]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Effects/ShieldLavaSurge/Take1/M_LavaPool_Master]
+[2026.05.20-03.19.49:897][817]LogSavePackage: Moving output files for package: /Game/Assets/Effects/ShieldLavaSurge/Take1/M_LavaPool_Master
+[2026.05.20-03.19.49:897][817]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/M_LavaPool_Master068ECB6F451C454F2A27CDBFBE2BFAFB.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/Effects/ShieldLavaSurge/Take1/M_LavaPool_Master.uasset'
+[2026.05.20-03.19.49:904][817]LogFileHelpers: InternalPromptForCheckoutAndSave took 111.245 ms (total: 1.71 sec)
+[2026.05.20-03.19.49:946][817]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-03.19.49:946][817]LogContentValidation: Enabled validators:
+[2026.05.20-03.19.49:946][817]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-03.19.49:946][817]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-03.19.49:947][817]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-03.19.49:947][817]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-03.19.49:947][817]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-03.19.49:947][817]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-03.19.49:947][817]AssetCheck: /Game/Assets/Effects/ShieldLavaSurge/Take1/M_LavaPool_Master Validating asset
+[2026.05.20-03.19.55:534][152]LogShaderCompilers: Display: ================================================
+[2026.05.20-03.19.55:534][152]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.05.20-03.19.55:534][152]LogShaderCompilers: Display: Total job queries 862, among them cache hits 413 (47.91%), DDC hits 296 (34.34%), Duplicates 6 (0.70%)
+[2026.05.20-03.19.55:534][152]LogShaderCompilers: Display: Tracking 443 distinct input hashes that result in 305 distinct outputs (68.85%)
+[2026.05.20-03.19.55:534][152]LogShaderCompilers: Display: RAM used: 184.46 KiB of 3.20 GiB budget. Usage: 0.01%
+[2026.05.20-03.19.55:534][152]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.05.20-03.19.55:534][152]LogShaderCompilers: Display: Shaders Compiled: 147
+[2026.05.20-03.19.55:534][152]LogShaderCompilers: Display: Jobs assigned 147, completed 147 (100%)
+[2026.05.20-03.19.55:534][152]LogShaderCompilers: Display: Average time worker was idle: 819.97 s
+[2026.05.20-03.19.55:534][152]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.11 s
+[2026.05.20-03.19.55:534][152]LogShaderCompilers: Display: Job execution time: average 0.43 s, max 1.33 s
+[2026.05.20-03.19.55:534][152]LogShaderCompilers: Display: Job life time (pending + execution): average 0.49 s, max 1.34
+[2026.05.20-03.19.55:535][152]LogShaderCompilers: Display: Shader code size: average 8.067 KiB, min 2.777 KiB, max 14.125 KiB
+[2026.05.20-03.19.55:535][152]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 18.32 s
+[2026.05.20-03.19.55:535][152]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2026.05.20-03.19.55:535][152]LogShaderCompilers: Display: Jobs were issued in 147 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.05.20-03.19.55:535][152]LogShaderCompilers: Display: Average processing rate: 8.02 jobs/sec
+[2026.05.20-03.19.55:535][152]LogShaderCompilers: Display: Total thread time: 32.583 s
+[2026.05.20-03.19.55:535][152]LogShaderCompilers: Display: Total thread preprocess time: 6.748 s
+[2026.05.20-03.19.55:535][152]LogShaderCompilers: Display: Percentage time preprocessing: 20.71%
+[2026.05.20-03.19.55:535][152]LogShaderCompilers: Display: Effective parallelization: 1.78 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2026.05.20-03.19.55:535][152]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.05.20-03.19.55:535][152]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   10 times, average 0.55 sec, max 0.58 sec, min 0.53 sec)
+[2026.05.20-03.19.55:535][152]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.29 sec, max 0.29 sec, min 0.29 sec)
+[2026.05.20-03.19.55:535][152]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   18 times, average 0.28 sec, max 0.78 sec, min 0.19 sec)
+[2026.05.20-03.19.55:535][152]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   18 times, average 0.21 sec, max 0.67 sec, min 0.13 sec)
+[2026.05.20-03.19.55:535][152]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled   16 times, average 0.19 sec, max 0.68 sec, min 0.14 sec)
+[2026.05.20-03.19.55:535][152]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.05.20-03.19.55:536][152]LogShaderCompilers: Display:                                             FDebugViewModePS - 16.90% of total time (compiled   10 times, average 0.55 sec, max 0.58 sec, min 0.53 sec)
+[2026.05.20-03.19.55:536][152]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.36% of total time (compiled   18 times, average 0.28 sec, max 0.78 sec, min 0.19 sec)
+[2026.05.20-03.19.55:536][152]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.86% of total time (compiled   18 times, average 0.21 sec, max 0.67 sec, min 0.13 sec)
+[2026.05.20-03.19.55:536][152]LogShaderCompilers: Display:                                                  FHitProxyPS - 9.51% of total time (compiled   16 times, average 0.19 sec, max 0.68 sec, min 0.14 sec)
+[2026.05.20-03.19.55:536][152]LogShaderCompilers: Display:                                                  FHitProxyVS - 8.94% of total time (compiled   16 times, average 0.18 sec, max 0.63 sec, min 0.14 sec)
+[2026.05.20-03.19.55:536][152]LogShaderCompilers: Display: === Material stats ===
+[2026.05.20-03.19.55:536][152]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.05.20-03.19.55:536][152]LogShaderCompilers: Display: Materials Translated:    316
+[2026.05.20-03.19.55:536][152]LogShaderCompilers: Display: Material Total Translate Time: 0.18 s
+[2026.05.20-03.19.55:536][152]LogShaderCompilers: Display: Material Translation Only: 0.06 s (34%)
+[2026.05.20-03.19.55:536][152]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.05.20-03.19.55:536][152]LogShaderCompilers: Display: Material Cache Hits: 71 (22%)
+[2026.05.20-03.19.55:536][152]LogShaderCompilers: Display: ================================================
+[2026.05.20-03.20.01:439][506]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.20-03.20.01:446][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.20-03.20.01:446][506]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.20-03.20.01:456][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010734s)
+[2026.05.20-03.20.01:456][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.010905s)
+[2026.05.20-03.20.01:473][506]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.05.20-03.20.01:476][506]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.05.20-03.20.01:477][506]LogPlayLevel: PIE: World Init took: (0.001231s)
+[2026.05.20-03.20.01:478][506]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2026.05.20-03.20.01:478][506]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.20-03.20.01:478][506]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.20-03.20.01:478][506]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.20-03.20.01:478][506]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.20-03.20.01:478][506]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.20-03.20.01:478][506]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.20-03.20.01:478][506]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.20-03.20.01:478][506]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.20-03.20.01:478][506]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.20-03.20.01:478][506]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.20-03.20.01:478][506]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.20-03.20.01:481][506]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.20-03.20.01:497][506]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.05.20-03.20.01:497][506]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.20-03.20.01:497][506]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.20-03.20.01:497][506]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.20-03.20.01:498][506]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2026.05.20-03.20.01:498][506]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2026.05.20-03.20.01:500][506]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2026.05.20-03.20.01:500][506]LogInit: FAudioDevice initialized with ID 15.
+[2026.05.20-03.20.01:500][506]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2026.05.20-03.20.01:500][506]LogAudio: Display: Audio Device (ID: 15) registered with world 'StartupMap'.
+[2026.05.20-03.20.01:500][506]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2026.05.20-03.20.01:502][506]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.05.20-03.20.01:507][506]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.05.19-20.20.01
+[2026.05.20-03.20.01:509][506]LogWorld: Bringing up level for play took: 0.005909
+[2026.05.20-03.20.01:510][506]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2026.05.20-03.20.01:511][506]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.20-03.20.01:515][506]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.05.20-03.20.01:515][506]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.05.20-03.20.01:516][506]PIE: Server logged in
+[2026.05.20-03.20.01:517][506]PIE: Play in editor total start time 0.072 seconds.
+[2026.05.20-03.20.02:443][561]LogNiagara: Warning: Skeletal Mesh Data Interface is trying to sample from filtered bones that don't exist in it's skeleton. Mesh(SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/Weapons/LavaShield/SKM_LavaShield.SKM_LavaShield) Bones(hand_l) System(NiagaraSystem /Game/Assets/Effects/ShieldLavaSurge/NS_LavaShieldTest.NS_LavaShieldTest)
+[2026.05.20-03.20.02:443][561]LogNiagara: Warning: Skeletal Mesh Data Interface is trying to sample from filtered bones that don't exist in it's skeleton. Mesh(SkeletalMesh /Game/Blueprints/Character/TestAI_Characters/Weapons/LavaShield/SKM_LavaShield.SKM_LavaShield) Bones(hand_l) System(NiagaraSystem /Game/Assets/Effects/ShieldLavaSurge/NS_LavaShieldTest.NS_LavaShieldTest)
+[2026.05.20-03.20.10:143][ 17]Cmd: DELETE
+[2026.05.20-03.20.10:143][ 17]Cmd: ACTOR DELETE
+[2026.05.20-03.20.10:144][ 17]LogEditorActor: Deleted Actor: BP_LavaTurtle_C
+[2026.05.20-03.20.10:163][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.05.20-03.20.10:165][ 17]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2026.05.20-03.20.21:739][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.05.20-03.20.21:746][710]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-03.20.21:746][710]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/AbilitySystem/Enemy/Abilities/LavaTurtle/BP_LavaArea] ([2] browsable assets)...
+[2026.05.20-03.20.21:764][710]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/AbilitySystem/Enemy/Abilities/LavaTurtle/BP_LavaArea.BP_LavaArea]
+[2026.05.20-03.20.21:764][710]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Enemy/Abilities/LavaTurtle/BP_LavaArea]
+[2026.05.20-03.20.21:767][710]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Enemy/Abilities/LavaTurtle/BP_LavaArea
+[2026.05.20-03.20.21:767][710]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_LavaArea0A2A3ECF43DED45B93C7E79B08AAA784.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Enemy/Abilities/LavaTurtle/BP_LavaArea.uasset'
+[2026.05.20-03.20.21:768][710]LogFileHelpers: InternalPromptForCheckoutAndSave took 22.197 ms (total: 1.73 sec)
+[2026.05.20-03.20.21:771][710]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-03.20.21:771][710]LogContentValidation: Enabled validators:
+[2026.05.20-03.20.21:771][710]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-03.20.21:771][710]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-03.20.21:772][710]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-03.20.21:772][710]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-03.20.21:772][710]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-03.20.21:772][710]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-03.20.21:772][710]AssetCheck: /Game/Blueprints/AbilitySystem/Enemy/Abilities/LavaTurtle/BP_LavaArea Validating asset
+[2026.05.20-03.20.26:627][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.05.20-03.20.26:630][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-03.20.26:631][  0]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/AbilitySystem/Enemy/Abilities/LavaTurtle/BP_LavaArea] ([2] browsable assets)...
+[2026.05.20-03.20.26:648][  0]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/AbilitySystem/Enemy/Abilities/LavaTurtle/BP_LavaArea.BP_LavaArea]
+[2026.05.20-03.20.26:648][  0]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Enemy/Abilities/LavaTurtle/BP_LavaArea]
+[2026.05.20-03.20.26:652][  0]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Enemy/Abilities/LavaTurtle/BP_LavaArea
+[2026.05.20-03.20.26:652][  0]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_LavaArea1944BBBD400EBDDD625B529BE91FE6CE.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Enemy/Abilities/LavaTurtle/BP_LavaArea.uasset'
+[2026.05.20-03.20.26:653][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 22.434 ms (total: 1.75 sec)
+[2026.05.20-03.20.26:657][  0]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-03.20.26:657][  0]LogContentValidation: Enabled validators:
+[2026.05.20-03.20.26:657][  0]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-03.20.26:657][  0]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-03.20.26:657][  0]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-03.20.26:657][  0]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-03.20.26:657][  0]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-03.20.26:657][  0]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-03.20.26:657][  0]AssetCheck: /Game/Blueprints/AbilitySystem/Enemy/Abilities/LavaTurtle/BP_LavaArea Validating asset
+[2026.05.20-03.21.04:414][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-03.21.04:414][263]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.20-03.21.04:415][263]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.20-03.21.04:417][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-03.21.04:419][263]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.20-03.21.04:431][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-03.21.04:447][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-03.21.04:448][263]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2026.05.20-03.21.04:448][263]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2026.05.20-03.21.04:450][263]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2026.05.20-03.21.04:458][263]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.05.20-03.21.04:487][264]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2026.05.20-03.21.30:966][826]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19542.490234
+[2026.05.20-03.21.31:967][829]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-03.21.31:967][829]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19543.158203, Update Interval: 316.046021
