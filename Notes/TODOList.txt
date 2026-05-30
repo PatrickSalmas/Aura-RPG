@@ -101,8 +101,6 @@ Enhancements:
 - Renaming abilities with better names
 - Better icons
 - Better sound effects
-- Refactor EventGraph logic of BP_BattleMage into parent class (AuraCharacter), so that it doesn't have to beam
-  reimplemented every time a new character BP is made
 -- Or, do some other type of refactoring so that this logic can be shared between new player characters
 - Going to need to remake HitReact animation from scratch for BattleMage
 - Refactor Gameplay Abilities so that the Startup Input Tag can be setup per playable character.
