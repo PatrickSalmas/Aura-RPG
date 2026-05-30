@@ -2713,3 +2713,1641 @@ FPackageName: Unable to identify a valid mount point associated with skipped pac
 [2026.05.30-17.37.21:321][768]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.05.30-17.37.21:321][768]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.05.30-17.37.21:321][768]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.05.30-17.41.00:864][ 83]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1035.362427
+[2026.05.30-17.41.01:031][ 93]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.30-17.41.01:031][ 93]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1035.512573, Update Interval: 359.609985
+[2026.05.30-17.47.08:989][170]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1403.489380
+[2026.05.30-17.47.09:238][185]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.30-17.47.09:238][185]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1403.722534, Update Interval: 358.586395
+[2026.05.30-17.53.37:746][495]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1792.244385
+[2026.05.30-17.53.37:946][507]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.30-17.53.37:946][507]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1792.427856, Update Interval: 313.762634
+[2026.05.30-17.56.28:086][715]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.30-17.56.28:093][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.30-17.56.28:093][715]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-17.56.28:104][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010615s)
+[2026.05.30-17.56.28:104][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.010777s)
+[2026.05.30-17.56.28:121][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.05.30-17.56.28:123][715]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.05.30-17.56.28:124][715]LogPlayLevel: PIE: World Init took: (0.001175s)
+[2026.05.30-17.56.28:124][715]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2026.05.30-17.56.28:124][715]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.30-17.56.28:125][715]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.30-17.56.28:125][715]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.30-17.56.28:125][715]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.30-17.56.28:125][715]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.30-17.56.28:125][715]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.30-17.56.28:125][715]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.30-17.56.28:125][715]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.30-17.56.28:125][715]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.30-17.56.28:125][715]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.30-17.56.28:125][715]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.30-17.56.28:127][715]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.30-17.56.28:145][715]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.05.30-17.56.28:146][715]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.30-17.56.28:146][715]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.30-17.56.28:146][715]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.30-17.56.28:146][715]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2026.05.30-17.56.28:146][715]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2026.05.30-17.56.28:148][715]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2026.05.30-17.56.28:148][715]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2026.05.30-17.56.28:148][715]LogInit: FAudioDevice initialized with ID 17.
+[2026.05.30-17.56.28:148][715]LogAudio: Display: Audio Device (ID: 17) registered with world 'StartupMap'.
+[2026.05.30-17.56.28:148][715]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2026.05.30-17.56.28:150][715]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.05.30-17.56.28:154][715]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.05.30-10.56.28
+[2026.05.30-17.56.28:155][715]LogWorld: Bringing up level for play took: 0.005547
+[2026.05.30-17.56.28:157][715]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2026.05.30-17.56.28:158][715]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-17.56.28:164][715]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.05.30-17.56.28:164][715]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.05.30-17.56.28:164][715]PIE: Server logged in
+[2026.05.30-17.56.28:165][715]PIE: Play in editor total start time 0.072 seconds.
+[2026.05.30-17.56.30:344][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-17.56.30:345][844]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-17.56.30:345][844]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-17.56.30:347][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-17.56.30:349][844]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.30-17.56.30:355][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-17.56.30:369][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-17.56.30:370][844]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2026.05.30-17.56.30:370][844]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2026.05.30-17.56.30:372][844]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2026.05.30-17.56.30:378][844]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.05.30-17.56.30:433][847]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2026.05.30-17.56.39:388][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2026.05.30-17.56.39:392][381]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-17.56.39:443][381]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle] ([2] browsable assets)...
+[2026.05.30-17.56.39:582][381]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.BP_LavaTurtle]
+[2026.05.30-17.56.39:582][381]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle]
+[2026.05.30-17.56.39:596][381]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle
+[2026.05.30-17.56.39:597][381]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_LavaTurtle72EA730A4DB154A55CD280BA23FA4D42.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.uasset'
+[2026.05.30-17.56.39:604][381]LogFileHelpers: InternalPromptForCheckoutAndSave took 211.917 ms (total: 2.98 sec)
+[2026.05.30-17.56.39:660][381]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-17.56.39:660][381]LogContentValidation: Enabled validators:
+[2026.05.30-17.56.39:660][381]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-17.56.39:660][381]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-17.56.39:660][381]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-17.56.39:660][381]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-17.56.39:660][381]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-17.56.39:661][381]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-17.56.39:661][381]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle Validating asset
+[2026.05.30-17.56.40:326][418]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_0 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_0:PersistentLevel.REINST_BP_LavaTurtle_C_0.CharacterMesh0.ABP_LavaTurtle_C_1
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-17.56.40:326][418]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_0 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_16:PersistentLevel.REINST_BP_LavaTurtle_C_0.CharacterMesh0.ABP_LavaTurtle_C_0
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-17.56.40:342][418]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.05.30-17.56.41:304][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.05.30-17.56.41:308][466]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-17.56.41:360][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.05.30-17.56.41:391][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.05.30-17.56.41:430][466]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.05.30-17.56.41:431][466]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMap0D361C7545ED4DA9C2F30096FBF1EFD9.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.05.30-17.56.41:440][466]LogFileHelpers: Saving map 'StartupMap' took 0.081
+[2026.05.30-17.56.41:445][466]LogFileHelpers: InternalPromptForCheckoutAndSave took 137.296 ms (total: 3.12 sec)
+[2026.05.30-17.56.41:476][466]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-17.56.41:476][466]LogContentValidation: Enabled validators:
+[2026.05.30-17.56.41:476][466]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-17.56.41:477][466]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-17.56.41:477][466]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-17.56.41:477][466]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-17.56.41:477][466]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-17.56.41:477][466]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-17.56.41:477][466]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.05.30-17.56.42:573][532]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.30-17.56.42:580][532]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.30-17.56.42:580][532]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-17.56.42:590][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010053s)
+[2026.05.30-17.56.42:591][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.010204s)
+[2026.05.30-17.56.42:606][532]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2026.05.30-17.56.42:607][532]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.05.30-17.56.42:609][532]LogPlayLevel: PIE: World Init took: (0.001111s)
+[2026.05.30-17.56.42:609][532]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2026.05.30-17.56.42:609][532]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.30-17.56.42:609][532]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.30-17.56.42:609][532]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.30-17.56.42:610][532]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.30-17.56.42:610][532]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.30-17.56.42:610][532]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.30-17.56.42:610][532]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.30-17.56.42:610][532]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.30-17.56.42:610][532]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.30-17.56.42:610][532]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.30-17.56.42:610][532]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.30-17.56.42:612][532]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.30-17.56.42:627][532]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.05.30-17.56.42:627][532]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.30-17.56.42:628][532]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.30-17.56.42:628][532]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.30-17.56.42:628][532]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2026.05.30-17.56.42:628][532]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2026.05.30-17.56.42:630][532]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2026.05.30-17.56.42:630][532]LogInit: FAudioDevice initialized with ID 18.
+[2026.05.30-17.56.42:630][532]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2026.05.30-17.56.42:630][532]LogAudio: Display: Audio Device (ID: 18) registered with world 'StartupMap'.
+[2026.05.30-17.56.42:630][532]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2026.05.30-17.56.42:632][532]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.05.30-17.56.42:636][532]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.05.30-10.56.42
+[2026.05.30-17.56.42:637][532]LogWorld: Bringing up level for play took: 0.005360
+[2026.05.30-17.56.42:639][532]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2026.05.30-17.56.42:640][532]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-17.56.42:646][532]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.05.30-17.56.42:646][532]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.05.30-17.56.42:647][532]PIE: Server logged in
+[2026.05.30-17.56.42:647][532]PIE: Play in editor total start time 0.067 seconds.
+[2026.05.30-17.56.59:909][567]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Abilities/Shock/sfx_Shock.sfx_Shock' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.05.30-17.57.00:146][581]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Abilities/Shock/sfx_ShockLoop.sfx_ShockLoop' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.05.30-17.57.01:226][646]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.05.30-17.57.01:326][652]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.05.30-17.57.01:426][658]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.05.30-17.57.01:526][664]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.05.30-17.57.01:626][670]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.05.30-17.57.06:925][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-17.57.06:925][986]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-17.57.06:927][986]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-17.57.06:928][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-17.57.06:928][986]LogAbilitySystem: Display:   GameplayCueNotify Class 'GC_ShockLoop_C' was used simultaneously 1 times. The CDO default is only 0 preallocated instances.
+[2026.05.30-17.57.06:931][986]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.30-17.57.06:936][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-17.57.06:951][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-17.57.06:952][986]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2026.05.30-17.57.06:952][986]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2026.05.30-17.57.06:954][986]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2026.05.30-17.57.06:961][986]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.05.30-17.57.06:999][988]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2026.05.30-17.57.24:789][ 52]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-17.57.24:789][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-17.57.24:807][ 52]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-17.57.24:808][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-17.57.24:871][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.05.30-17.57.25:898][108]LogNiagara: Compiling System NiagaraSystem /Game/Assets/Effects/ShieldFlameThrower/NS_PreFlameThrower.NS_PreFlameThrower took 1.143618 sec (time since issued), 1.000329 sec (combined shader worker time).
+[2026.05.30-17.57.25:962][111]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-17.57.25:962][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-17.57.25:981][111]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-17.57.25:981][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-17.57.26:014][111]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-17.57.26:014][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-17.57.26:043][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.05.30-17.57.29:901][342]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-17.57.29:901][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-17.57.29:934][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.05.30-17.57.31:703][441]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-17.57.31:704][441]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-17.57.31:721][441]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-17.57.31:721][441]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-17.57.31:762][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2026.05.30-17.57.32:943][506]LogNiagara: Compiling System NiagaraSystem /Game/Assets/Effects/ShieldFlameThrower/NS_ShieldFlameThrower.NS_ShieldFlameThrower took 1.345870 sec (time since issued), 1.264660 sec (combined shader worker time).
+[2026.05.30-17.57.40:459][934]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SkeletalMesh_64.svg'. File could not be found
+[2026.05.30-17.57.40:574][941]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2026.05.30-17.57.40:589][942]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2026.05.30-17.57.40:607][943]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2026.05.30-17.57.40:615][943]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_20
+[2026.05.30-17.57.40:619][943]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-17.57.52:973][683]LogSlate: Window 'Find in Blueprints' being destroyed
+[2026.05.30-17.57.52:978][683]LogSlate: Window 'Find in Blueprints' being destroyed
+[2026.05.30-17.59.03:874][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2026.05.30-17.59.03:881][145]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-17.59.03:914][145]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle] ([2] browsable assets)...
+[2026.05.30-17.59.04:042][145]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.BP_LavaTurtle]
+[2026.05.30-17.59.04:042][145]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle]
+[2026.05.30-17.59.04:057][145]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle
+[2026.05.30-17.59.04:058][145]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_LavaTurtle8F0BABA14365ED5CDEDAD98753AB7735.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.uasset'
+[2026.05.30-17.59.04:064][145]LogFileHelpers: InternalPromptForCheckoutAndSave took 182.741 ms (total: 3.30 sec)
+[2026.05.30-17.59.04:114][145]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-17.59.04:114][145]LogContentValidation: Enabled validators:
+[2026.05.30-17.59.04:114][145]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-17.59.04:114][145]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-17.59.04:114][145]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-17.59.04:114][145]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-17.59.04:114][145]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-17.59.04:114][145]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-17.59.04:115][145]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle Validating asset
+[2026.05.30-17.59.27:394][524]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2141.860840
+[2026.05.30-17.59.27:577][535]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.30-17.59.27:578][535]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2142.026855, Update Interval: 341.835388
+[2026.05.30-17.59.38:107][166]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.05.30-17.59.38:117][166]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-17.59.38:163][166]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle] ([2] browsable assets)...
+[2026.05.30-17.59.38:290][166]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.BP_LavaTurtle]
+[2026.05.30-17.59.38:290][166]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle]
+[2026.05.30-17.59.38:305][166]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle
+[2026.05.30-17.59.38:305][166]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_LavaTurtleA1A27CE74F16E5227E91D6ABF3D45770.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.uasset'
+[2026.05.30-17.59.38:312][166]LogFileHelpers: InternalPromptForCheckoutAndSave took 195.295 ms (total: 3.50 sec)
+[2026.05.30-17.59.38:348][166]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-17.59.38:348][166]LogContentValidation: Enabled validators:
+[2026.05.30-17.59.38:348][166]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-17.59.38:348][166]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-17.59.38:348][166]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-17.59.38:349][166]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-17.59.38:349][166]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-17.59.38:349][166]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-17.59.38:349][166]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle Validating asset
+[2026.05.30-17.59.39:623][241]LogBlueprint: Error: [AssetLog] C:\Users\psalm\UnrealProjects\Aura_Copy_test\Content\Blueprints\Character\TestAI_Characters\LavaTurtle\BP_LavaTurtle.uasset: [Compiler] The type of  Object  is undetermined.  Connect something to  Cast To BP_AuraCharacter  to imply a specific type.
+[2026.05.30-17.59.39:624][241]LogBlueprint: Error: [AssetLog] C:\Users\psalm\UnrealProjects\Aura_Copy_test\Content\Blueprints\Character\TestAI_Characters\LavaTurtle\BP_LavaTurtle.uasset: [Compiler] The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2026.05.30-17.59.39:673][241]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_0 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_0:PersistentLevel.REINST_BP_LavaTurtle_C_0.CharacterMesh0.ABP_LavaTurtle_C_1
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-17.59.39:673][241]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_0 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_16:PersistentLevel.REINST_BP_LavaTurtle_C_0.CharacterMesh0.ABP_LavaTurtle_C_0
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-17.59.39:690][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.05.30-17.59.56:600][249]LogShaderCompilers: Display: ================================================
+[2026.05.30-17.59.56:600][249]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.05.30-17.59.56:600][249]LogShaderCompilers: Display: Total job queries 393, among them cache hits 71 (18.07%), DDC hits 300 (76.34%), Duplicates 11 (2.80%)
+[2026.05.30-17.59.56:600][249]LogShaderCompilers: Display: Tracking 311 distinct input hashes that result in 250 distinct outputs (80.39%)
+[2026.05.30-17.59.56:600][249]LogShaderCompilers: Display: RAM used: 157.38 KiB of 3.20 GiB budget. Usage: 0.00%
+[2026.05.30-17.59.56:600][249]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.05.30-17.59.56:600][249]LogShaderCompilers: Display: Shaders Compiled: 11
+[2026.05.30-17.59.56:600][249]LogShaderCompilers: Display: Jobs assigned 11, completed 11 (100%)
+[2026.05.30-17.59.56:600][249]LogShaderCompilers: Display: Average time worker was idle: 202.43 s
+[2026.05.30-17.59.56:601][249]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.10 s
+[2026.05.30-17.59.56:601][249]LogShaderCompilers: Display: Job execution time: average 0.20 s, max 0.41 s
+[2026.05.30-17.59.56:601][249]LogShaderCompilers: Display: Job life time (pending + execution): average 0.27 s, max 0.47
+[2026.05.30-17.59.56:601][249]LogShaderCompilers: Display: Shader code size: average 17.223 KiB, min 7.689 KiB, max 45.219 KiB
+[2026.05.30-17.59.56:601][249]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.77 s
+[2026.05.30-17.59.56:601][249]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2026.05.30-17.59.56:601][249]LogShaderCompilers: Display: Jobs were issued in 11 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.05.30-17.59.56:601][249]LogShaderCompilers: Display: Average processing rate: 3.97 jobs/sec
+[2026.05.30-17.59.56:601][249]LogShaderCompilers: Display: Total thread time: 0.728 s
+[2026.05.30-17.59.56:601][249]LogShaderCompilers: Display: Total thread preprocess time: 3.305 s
+[2026.05.30-17.59.56:601][249]LogShaderCompilers: Display: Percentage time preprocessing: 453.71%
+[2026.05.30-17.59.56:601][249]LogShaderCompilers: Display: Effective parallelization: 0.26 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2026.05.30-17.59.56:601][249]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.05.30-17.59.56:601][249]LogShaderCompilers: Display:                                               FNiagaraShader (compiled   11 times, average 0.07 sec, max 0.13 sec, min 0.03 sec)
+[2026.05.30-17.59.56:601][249]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.30-17.59.56:601][249]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.30-17.59.56:602][249]LogShaderCompilers: Display:                                                FAnisotropyPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.30-17.59.56:602][249]LogShaderCompilers: Display:                                                FAnisotropyVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.30-17.59.56:602][249]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.05.30-17.59.56:602][249]LogShaderCompilers: Display:                                               FNiagaraShader - 100.00% of total time (compiled   11 times, average 0.07 sec, max 0.13 sec, min 0.03 sec)
+[2026.05.30-17.59.56:602][249]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.30-17.59.56:602][249]LogShaderCompilers: Display:                                                FAnisotropyPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.30-17.59.56:602][249]LogShaderCompilers: Display:                                                FAnisotropyVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.30-17.59.56:602][249]LogShaderCompilers: Display:                                                  FVelocityPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.30-17.59.56:602][249]LogShaderCompilers: Display: === Material stats ===
+[2026.05.30-17.59.56:602][249]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.05.30-17.59.56:602][249]LogShaderCompilers: Display: Materials Translated:    206
+[2026.05.30-17.59.56:602][249]LogShaderCompilers: Display: Material Total Translate Time: 0.24 s
+[2026.05.30-17.59.56:602][249]LogShaderCompilers: Display: Material Translation Only: 0.04 s (19%)
+[2026.05.30-17.59.56:602][249]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.05.30-17.59.56:603][249]LogShaderCompilers: Display: Material Cache Hits: 55 (27%)
+[2026.05.30-17.59.56:603][249]LogShaderCompilers: Display: ================================================
+[2026.05.30-18.00.04:659][722]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.05.30-18.00.04:667][722]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.00.04:699][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.05.30-18.00.04:732][722]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.05.30-18.00.04:769][722]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.05.30-18.00.04:769][722]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMapE7D72EEF4BC920B3DE6052B9455DABFB.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.05.30-18.00.04:778][722]LogFileHelpers: Saving map 'StartupMap' took 0.081
+[2026.05.30-18.00.04:779][722]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle] ([2] browsable assets)...
+[2026.05.30-18.00.04:906][722]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.BP_LavaTurtle]
+[2026.05.30-18.00.04:906][722]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle]
+[2026.05.30-18.00.04:920][722]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle
+[2026.05.30-18.00.04:920][722]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_LavaTurtleFEFBD9CF41B59D9CBE3FA49DA2C6DCD3.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.uasset'
+[2026.05.30-18.00.04:927][722]LogFileHelpers: InternalPromptForCheckoutAndSave took 259.752 ms (total: 3.76 sec)
+[2026.05.30-18.00.04:980][722]LogContentValidation: Display: Starting to validate 2 assets
+[2026.05.30-18.00.04:980][722]LogContentValidation: Enabled validators:
+[2026.05.30-18.00.04:980][722]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.00.04:980][722]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.00.04:980][722]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.00.04:980][722]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.00.04:980][722]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.00.04:981][722]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.00.04:981][722]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.05.30-18.00.04:981][722]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle Validating asset
+[2026.05.30-18.00.05:499][750]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_1 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_1 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_0:PersistentLevel.REINST_BP_LavaTurtle_C_1.CharacterMesh0.ABP_LavaTurtle_C_1
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-18.00.05:499][750]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_0 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_16:PersistentLevel.REINST_BP_LavaTurtle_C_0.CharacterMesh0.ABP_LavaTurtle_C_0
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-18.00.05:514][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.05.30-18.00.07:498][862]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.05.30-18.00.07:508][862]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.00.07:564][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.05.30-18.00.07:597][862]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.05.30-18.00.07:635][862]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.05.30-18.00.07:636][862]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMapF42C6F0440FD79E9A956D790D3D225F1.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.05.30-18.00.07:644][862]LogFileHelpers: Saving map 'StartupMap' took 0.080
+[2026.05.30-18.00.07:651][862]LogFileHelpers: InternalPromptForCheckoutAndSave took 144.079 ms (total: 3.90 sec)
+[2026.05.30-18.00.07:696][862]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.00.07:696][862]LogContentValidation: Enabled validators:
+[2026.05.30-18.00.07:696][862]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.00.07:696][862]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.00.07:696][862]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.00.07:697][862]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.00.07:697][862]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.00.07:697][862]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.00.07:697][862]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.05.30-18.00.09:257][956]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.30-18.00.09:268][956]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.30-18.00.09:268][956]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.00.09:279][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011131s)
+[2026.05.30-18.00.09:279][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.011347s)
+[2026.05.30-18.00.09:295][956]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.05.30-18.00.09:297][956]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.05.30-18.00.09:298][956]LogPlayLevel: PIE: World Init took: (0.001214s)
+[2026.05.30-18.00.09:299][956]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2026.05.30-18.00.09:299][956]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.30-18.00.09:299][956]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.30-18.00.09:299][956]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.30-18.00.09:299][956]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.30-18.00.09:299][956]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.30-18.00.09:299][956]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.30-18.00.09:299][956]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.30-18.00.09:299][956]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.30-18.00.09:299][956]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.30-18.00.09:299][956]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.30-18.00.09:299][956]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.30-18.00.09:302][956]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.30-18.00.09:318][956]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.05.30-18.00.09:318][956]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.30-18.00.09:318][956]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.30-18.00.09:318][956]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.30-18.00.09:318][956]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2026.05.30-18.00.09:319][956]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2026.05.30-18.00.09:320][956]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2026.05.30-18.00.09:320][956]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2026.05.30-18.00.09:320][956]LogInit: FAudioDevice initialized with ID 19.
+[2026.05.30-18.00.09:320][956]LogAudio: Display: Audio Device (ID: 19) registered with world 'StartupMap'.
+[2026.05.30-18.00.09:320][956]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2026.05.30-18.00.09:323][956]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.05.30-18.00.09:328][956]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.05.30-11.00.09
+[2026.05.30-18.00.09:330][956]LogWorld: Bringing up level for play took: 0.005997
+[2026.05.30-18.00.09:331][956]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2026.05.30-18.00.09:332][956]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.00.09:337][956]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.05.30-18.00.09:337][956]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.05.30-18.00.09:338][956]PIE: Server logged in
+[2026.05.30-18.00.09:338][956]PIE: Play in editor total start time 0.075 seconds.
+[2026.05.30-18.00.20:330][615]LogAbilitySystem: Warning: UAbilityTask_PlayMontageAndWait called in Ability GA_MeleeAttack_C_0 failed to play montage None; Task Instance Name None.
+[2026.05.30-18.00.23:030][777]LogAbilitySystem: Warning: UAbilityTask_PlayMontageAndWait called in Ability GA_MeleeAttack_C_0 failed to play montage None; Task Instance Name None.
+[2026.05.30-18.00.29:944][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.00.29:944][190]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.00.29:945][190]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-18.00.29:947][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.00.29:950][190]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.30-18.00.29:950][190]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.00.29:951][190]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.00.29:951][190]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.00.29:951][190]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.00.29:951][190]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.00.29:951][190]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.00.29:951][190]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.00.29:951][190]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.00.29:956][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.00.29:970][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.00.29:971][190]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2026.05.30-18.00.29:971][190]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2026.05.30-18.00.29:974][190]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2026.05.30-18.00.29:981][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.05.30-18.00.30:017][192]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2026.05.30-18.00.49:243][340]LogSlate: Took 0.013346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2026.05.30-18.01.04:194][ 73]LogSlate: Window 'Change Variable Type' being destroyed
+[2026.05.30-18.01.06:019][172]LogSlate: Window 'Find in Blueprints' being destroyed
+[2026.05.30-18.01.06:022][172]LogSlate: Window 'Find in Blueprints' being destroyed
+[2026.05.30-18.01.08:862][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.05.30-18.01.08:872][333]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.01.08:931][333]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle] ([2] browsable assets)...
+[2026.05.30-18.01.09:069][333]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.BP_LavaTurtle]
+[2026.05.30-18.01.09:069][333]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle]
+[2026.05.30-18.01.09:084][333]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle
+[2026.05.30-18.01.09:085][333]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_LavaTurtle16C49E2B474FD511D60A55A2CABEDA77.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.uasset'
+[2026.05.30-18.01.09:091][333]LogFileHelpers: InternalPromptForCheckoutAndSave took 219.832 ms (total: 4.12 sec)
+[2026.05.30-18.01.09:148][333]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.01.09:148][333]LogContentValidation: Enabled validators:
+[2026.05.30-18.01.09:148][333]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.01.09:149][333]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.01.09:149][333]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.01.09:149][333]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.01.09:149][333]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.01.09:149][333]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.01.09:149][333]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle Validating asset
+[2026.05.30-18.01.10:224][397]LogBlueprint: Error: [AssetLog] C:\Users\psalm\UnrealProjects\Aura_Copy_test\Content\Blueprints\Character\TestAI_Characters\LavaTurtle\BP_LavaTurtle.uasset: [Compiler] In use pin  Stored Attack Target  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2026.05.30-18.01.10:224][397]LogBlueprint: Error: [AssetLog] C:\Users\psalm\UnrealProjects\Aura_Copy_test\Content\Blueprints\Character\TestAI_Characters\LavaTurtle\BP_LavaTurtle.uasset: [Compiler] In use pin  Stored Attack Target  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2026.05.30-18.01.10:272][397]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_0 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_0:PersistentLevel.REINST_BP_LavaTurtle_C_0.CharacterMesh0.ABP_LavaTurtle_C_1
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-18.01.10:272][397]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_0 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_16:PersistentLevel.REINST_BP_LavaTurtle_C_0.CharacterMesh0.ABP_LavaTurtle_C_0
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-18.01.10:288][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.05.30-18.01.20:602][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.05.30-18.01.20:612][996]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.01.20:666][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.05.30-18.01.20:701][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.05.30-18.01.20:740][996]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.05.30-18.01.20:740][996]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMap818CBA384959B2B2C58E1A9C1C268D6E.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.05.30-18.01.20:749][996]LogFileHelpers: Saving map 'StartupMap' took 0.084
+[2026.05.30-18.01.20:750][996]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle] ([2] browsable assets)...
+[2026.05.30-18.01.20:890][996]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.BP_LavaTurtle]
+[2026.05.30-18.01.20:890][996]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle]
+[2026.05.30-18.01.20:904][996]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle
+[2026.05.30-18.01.20:904][996]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_LavaTurtleBE1A223A4F3538C786C1FA849ED84D08.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.uasset'
+[2026.05.30-18.01.20:911][996]LogFileHelpers: InternalPromptForCheckoutAndSave took 299.824 ms (total: 4.42 sec)
+[2026.05.30-18.01.20:964][996]LogContentValidation: Display: Starting to validate 2 assets
+[2026.05.30-18.01.20:964][996]LogContentValidation: Enabled validators:
+[2026.05.30-18.01.20:965][996]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.01.20:965][996]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.01.20:965][996]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.01.20:965][996]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.01.20:965][996]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.01.20:965][996]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.01.20:965][996]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.05.30-18.01.20:965][996]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle Validating asset
+[2026.05.30-18.01.26:023][289]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2026.05.30-18.01.26:030][289]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.01.26:082][289]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle] ([2] browsable assets)...
+[2026.05.30-18.01.26:202][289]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.BP_LavaTurtle]
+[2026.05.30-18.01.26:202][289]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle]
+[2026.05.30-18.01.26:215][289]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle
+[2026.05.30-18.01.26:215][289]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_LavaTurtleFD38EE5C492A8414D1FB63B2F2BEDB4B.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.uasset'
+[2026.05.30-18.01.26:221][289]LogFileHelpers: InternalPromptForCheckoutAndSave took 190.570 ms (total: 4.61 sec)
+[2026.05.30-18.01.26:266][289]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.01.26:266][289]LogContentValidation: Enabled validators:
+[2026.05.30-18.01.26:266][289]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.01.26:266][289]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.01.26:266][289]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.01.26:266][289]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.01.26:266][289]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.01.26:266][289]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.01.26:266][289]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle Validating asset
+[2026.05.30-18.01.26:898][324]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_1 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_1 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_0:PersistentLevel.REINST_BP_LavaTurtle_C_1.CharacterMesh0.ABP_LavaTurtle_C_1
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-18.01.26:898][324]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_0 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_16:PersistentLevel.REINST_BP_LavaTurtle_C_0.CharacterMesh0.ABP_LavaTurtle_C_0
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-18.01.26:913][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.05.30-18.01.27:879][372]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.05.30-18.01.27:888][372]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.01.27:949][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.05.30-18.01.27:982][372]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.05.30-18.01.28:021][372]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.05.30-18.01.28:021][372]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMap3D894A42428812DF54904BB7E72EEBEE.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.05.30-18.01.28:031][372]LogFileHelpers: Saving map 'StartupMap' took 0.082
+[2026.05.30-18.01.28:037][372]LogFileHelpers: InternalPromptForCheckoutAndSave took 149.239 ms (total: 4.76 sec)
+[2026.05.30-18.01.28:081][372]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.01.28:081][372]LogContentValidation: Enabled validators:
+[2026.05.30-18.01.28:081][372]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.01.28:081][372]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.01.28:081][372]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.01.28:081][372]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.01.28:081][372]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.01.28:081][372]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.01.28:081][372]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.05.30-18.01.28:340][388]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.30-18.01.28:350][388]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.30-18.01.28:350][388]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.01.28:360][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010234s)
+[2026.05.30-18.01.28:360][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.010403s)
+[2026.05.30-18.01.28:375][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.05.30-18.01.28:377][388]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.05.30-18.01.28:378][388]LogPlayLevel: PIE: World Init took: (0.001102s)
+[2026.05.30-18.01.28:379][388]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2026.05.30-18.01.28:379][388]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.30-18.01.28:379][388]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.30-18.01.28:379][388]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.30-18.01.28:379][388]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.30-18.01.28:379][388]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.30-18.01.28:379][388]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.30-18.01.28:379][388]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.30-18.01.28:379][388]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.30-18.01.28:379][388]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.30-18.01.28:379][388]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.30-18.01.28:380][388]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.30-18.01.28:381][388]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.30-18.01.28:398][388]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.05.30-18.01.28:398][388]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.30-18.01.28:399][388]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.30-18.01.28:399][388]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.30-18.01.28:399][388]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2026.05.30-18.01.28:399][388]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2026.05.30-18.01.28:401][388]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2026.05.30-18.01.28:401][388]LogInit: FAudioDevice initialized with ID 20.
+[2026.05.30-18.01.28:401][388]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2026.05.30-18.01.28:401][388]LogAudio: Display: Audio Device (ID: 20) registered with world 'StartupMap'.
+[2026.05.30-18.01.28:401][388]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2026.05.30-18.01.28:403][388]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.05.30-18.01.28:407][388]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.05.30-11.01.28
+[2026.05.30-18.01.28:408][388]LogWorld: Bringing up level for play took: 0.005426
+[2026.05.30-18.01.28:410][388]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2026.05.30-18.01.28:411][388]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.01.28:416][388]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.05.30-18.01.28:417][388]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.05.30-18.01.28:417][388]PIE: Server logged in
+[2026.05.30-18.01.28:418][388]PIE: Play in editor total start time 0.071 seconds.
+[2026.05.30-18.01.38:466][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.01.38:467][989]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.01.38:467][989]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-18.01.38:469][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.01.38:472][989]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.30-18.01.38:473][989]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.01.38:473][989]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.01.38:473][989]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.01.38:473][989]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.01.38:473][989]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.01.38:473][989]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.01.38:473][989]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.01.38:473][989]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.01.38:480][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.01.38:494][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.01.38:495][989]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2026.05.30-18.01.38:495][989]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2026.05.30-18.01.38:496][989]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2026.05.30-18.01.38:503][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.05.30-18.01.38:541][991]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2026.05.30-18.02.15:852][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.05.30-18.02.15:857][199]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.02.15:916][199]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle] ([2] browsable assets)...
+[2026.05.30-18.02.16:055][199]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.BP_LavaTurtle]
+[2026.05.30-18.02.16:055][199]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle]
+[2026.05.30-18.02.16:070][199]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle
+[2026.05.30-18.02.16:070][199]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_LavaTurtleF49145F148869ADF0A2A098B0D9B7F6E.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.uasset'
+[2026.05.30-18.02.16:077][199]LogFileHelpers: InternalPromptForCheckoutAndSave took 219.398 ms (total: 4.98 sec)
+[2026.05.30-18.02.16:132][199]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.02.16:132][199]LogContentValidation: Enabled validators:
+[2026.05.30-18.02.16:132][199]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.02.16:132][199]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.02.16:132][199]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.02.16:132][199]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.02.16:132][199]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.02.16:132][199]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.02.16:133][199]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle Validating asset
+[2026.05.30-18.02.22:171][556]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_0 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_0:PersistentLevel.REINST_BP_LavaTurtle_C_0.CharacterMesh0.ABP_LavaTurtle_C_1
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-18.02.22:171][556]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_0 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_16:PersistentLevel.REINST_BP_LavaTurtle_C_0.CharacterMesh0.ABP_LavaTurtle_C_0
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-18.02.22:186][556]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.05.30-18.02.23:188][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.05.30-18.02.23:195][602]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.02.23:251][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.05.30-18.02.23:282][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.05.30-18.02.23:320][602]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.05.30-18.02.23:320][602]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMapFA0474014B80BDD95C07FC9BE7825544.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.05.30-18.02.23:331][602]LogFileHelpers: Saving map 'StartupMap' took 0.080
+[2026.05.30-18.02.23:337][602]LogFileHelpers: InternalPromptForCheckoutAndSave took 141.501 ms (total: 5.12 sec)
+[2026.05.30-18.02.23:381][602]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.02.23:381][602]LogContentValidation: Enabled validators:
+[2026.05.30-18.02.23:381][602]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.02.23:382][602]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.02.23:382][602]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.02.23:382][602]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.02.23:382][602]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.02.23:382][602]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.02.23:382][602]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.05.30-18.02.23:709][622]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.30-18.02.23:717][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.30-18.02.23:717][622]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.02.23:728][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010337s)
+[2026.05.30-18.02.23:728][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.010520s)
+[2026.05.30-18.02.23:743][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.05.30-18.02.23:745][622]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.05.30-18.02.23:746][622]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2026.05.30-18.02.23:746][622]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2026.05.30-18.02.23:746][622]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.30-18.02.23:747][622]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.30-18.02.23:747][622]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.30-18.02.23:747][622]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.30-18.02.23:747][622]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.30-18.02.23:747][622]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.30-18.02.23:747][622]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.30-18.02.23:747][622]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.30-18.02.23:747][622]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.30-18.02.23:747][622]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.30-18.02.23:747][622]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.30-18.02.23:749][622]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.30-18.02.23:766][622]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.05.30-18.02.23:766][622]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.30-18.02.23:766][622]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.30-18.02.23:766][622]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.30-18.02.23:768][622]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2026.05.30-18.02.23:768][622]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2026.05.30-18.02.23:770][622]LogInit: FAudioDevice initialized with ID 21.
+[2026.05.30-18.02.23:770][622]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2026.05.30-18.02.23:770][622]LogAudio: Display: Audio Device (ID: 21) registered with world 'StartupMap'.
+[2026.05.30-18.02.23:770][622]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2026.05.30-18.02.23:770][622]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2026.05.30-18.02.23:772][622]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.05.30-18.02.23:776][622]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.05.30-11.02.23
+[2026.05.30-18.02.23:777][622]LogWorld: Bringing up level for play took: 0.005490
+[2026.05.30-18.02.23:779][622]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2026.05.30-18.02.23:780][622]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.02.23:785][622]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.05.30-18.02.23:785][622]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.05.30-18.02.23:785][622]PIE: Server logged in
+[2026.05.30-18.02.23:787][622]PIE: Play in editor total start time 0.072 seconds.
+[2026.05.30-18.02.31:410][ 79]LogAbilitySystem: Warning: UAbilityTask_PlayMontageAndWait called in Ability GA_MeleeAttack_C_0 failed to play montage None; Task Instance Name None.
+[2026.05.30-18.02.31:648][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.02.31:649][ 91]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.02.31:649][ 91]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-18.02.31:651][ 91]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.02.31:654][ 91]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.30-18.02.31:654][ 91]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.02.31:655][ 91]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.02.31:655][ 91]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.02.31:655][ 91]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.02.31:655][ 91]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.02.31:655][ 91]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.02.31:655][ 91]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.02.31:655][ 91]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.02.31:661][ 91]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.02.31:676][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.02.31:677][ 91]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2026.05.30-18.02.31:677][ 91]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2026.05.30-18.02.31:679][ 91]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2026.05.30-18.02.31:687][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.05.30-18.02.31:723][ 93]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2026.05.30-18.03.04:269][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.05.30-18.03.04:275][ 10]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.03.04:335][ 10]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle] ([2] browsable assets)...
+[2026.05.30-18.03.04:463][ 10]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.BP_LavaTurtle]
+[2026.05.30-18.03.04:463][ 10]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle]
+[2026.05.30-18.03.04:478][ 10]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle
+[2026.05.30-18.03.04:479][ 10]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_LavaTurtle71A9D91C4FCB5788D78CD6BE8A37D49F.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.uasset'
+[2026.05.30-18.03.04:486][ 10]LogFileHelpers: InternalPromptForCheckoutAndSave took 210.427 ms (total: 5.33 sec)
+[2026.05.30-18.03.04:533][ 10]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.03.04:533][ 10]LogContentValidation: Enabled validators:
+[2026.05.30-18.03.04:533][ 10]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.03.04:533][ 10]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.03.04:534][ 10]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.03.04:534][ 10]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.03.04:534][ 10]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.03.04:534][ 10]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.03.04:534][ 10]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle Validating asset
+[2026.05.30-18.03.05:223][ 48]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_0 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_0:PersistentLevel.REINST_BP_LavaTurtle_C_0.CharacterMesh0.ABP_LavaTurtle_C_1
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-18.03.05:223][ 48]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_0 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_16:PersistentLevel.REINST_BP_LavaTurtle_C_0.CharacterMesh0.ABP_LavaTurtle_C_0
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-18.03.05:238][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.05.30-18.03.06:116][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.05.30-18.03.06:122][ 94]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.03.06:166][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.05.30-18.03.06:197][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.05.30-18.03.06:236][ 94]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.05.30-18.03.06:237][ 94]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMapB6AF230A4CF53C2E86322895C1E0D59F.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.05.30-18.03.06:246][ 94]LogFileHelpers: Saving map 'StartupMap' took 0.080
+[2026.05.30-18.03.06:251][ 94]LogFileHelpers: InternalPromptForCheckoutAndSave took 129.112 ms (total: 5.46 sec)
+[2026.05.30-18.03.06:300][ 94]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.03.06:300][ 94]LogContentValidation: Enabled validators:
+[2026.05.30-18.03.06:300][ 94]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.03.06:300][ 94]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.03.06:300][ 94]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.03.06:300][ 94]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.03.06:300][ 94]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.03.06:300][ 94]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.03.06:300][ 94]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.05.30-18.03.07:266][151]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.30-18.03.07:275][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.30-18.03.07:275][151]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.03.07:285][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010028s)
+[2026.05.30-18.03.07:285][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.010174s)
+[2026.05.30-18.03.07:301][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.05.30-18.03.07:303][151]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.05.30-18.03.07:304][151]LogPlayLevel: PIE: World Init took: (0.001147s)
+[2026.05.30-18.03.07:305][151]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2026.05.30-18.03.07:305][151]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.30-18.03.07:305][151]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.30-18.03.07:305][151]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.30-18.03.07:305][151]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.30-18.03.07:305][151]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.30-18.03.07:305][151]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.30-18.03.07:305][151]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.30-18.03.07:305][151]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.30-18.03.07:305][151]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.30-18.03.07:305][151]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.30-18.03.07:305][151]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.30-18.03.07:307][151]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.30-18.03.07:323][151]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.05.30-18.03.07:323][151]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.30-18.03.07:323][151]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.30-18.03.07:323][151]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.30-18.03.07:323][151]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2026.05.30-18.03.07:323][151]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2026.05.30-18.03.07:325][151]LogInit: FAudioDevice initialized with ID 22.
+[2026.05.30-18.03.07:325][151]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2026.05.30-18.03.07:326][151]LogAudio: Display: Audio Device (ID: 22) registered with world 'StartupMap'.
+[2026.05.30-18.03.07:326][151]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2026.05.30-18.03.07:326][151]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2026.05.30-18.03.07:328][151]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.05.30-18.03.07:333][151]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.05.30-11.03.07
+[2026.05.30-18.03.07:334][151]LogWorld: Bringing up level for play took: 0.005398
+[2026.05.30-18.03.07:336][151]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2026.05.30-18.03.07:337][151]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.03.07:341][151]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.05.30-18.03.07:341][151]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.05.30-18.03.07:342][151]PIE: Server logged in
+[2026.05.30-18.03.07:342][151]PIE: Play in editor total start time 0.071 seconds.
+[2026.05.30-18.03.13:281][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.03.13:281][504]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.03.13:282][504]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-18.03.13:283][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.03.13:286][504]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.30-18.03.13:287][504]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.03.13:287][504]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.03.13:287][504]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.03.13:287][504]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.03.13:287][504]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.03.13:287][504]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.03.13:287][504]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.03.13:287][504]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.03.13:293][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.03.13:307][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.03.13:308][504]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2026.05.30-18.03.13:308][504]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2026.05.30-18.03.13:309][504]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2026.05.30-18.03.13:316][504]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.05.30-18.03.13:337][505]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2026.05.30-18.03.32:619][632]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.05.30-18.03.32:624][632]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.03.32:684][632]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle] ([2] browsable assets)...
+[2026.05.30-18.03.32:815][632]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.BP_LavaTurtle]
+[2026.05.30-18.03.32:815][632]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle]
+[2026.05.30-18.03.32:830][632]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle
+[2026.05.30-18.03.32:831][632]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_LavaTurtle818250BF465CBD9BE9A6BB9F789403BE.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.uasset'
+[2026.05.30-18.03.32:837][632]LogFileHelpers: InternalPromptForCheckoutAndSave took 212.423 ms (total: 5.67 sec)
+[2026.05.30-18.03.32:867][632]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.03.32:867][632]LogContentValidation: Enabled validators:
+[2026.05.30-18.03.32:867][632]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.03.32:867][632]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.03.32:867][632]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.03.32:867][632]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.03.32:867][632]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.03.32:867][632]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.03.32:868][632]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle Validating asset
+[2026.05.30-18.03.33:736][677]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_0 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_0:PersistentLevel.REINST_BP_LavaTurtle_C_0.CharacterMesh0.ABP_LavaTurtle_C_1
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-18.03.33:736][677]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_0 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_16:PersistentLevel.REINST_BP_LavaTurtle_C_0.CharacterMesh0.ABP_LavaTurtle_C_0
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-18.03.33:751][677]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.05.30-18.03.34:535][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.05.30-18.03.34:543][717]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.03.34:601][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.05.30-18.03.34:633][717]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.05.30-18.03.34:672][717]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.05.30-18.03.34:672][717]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMap54A7CA05455D7749A8C34FACB54DC5D5.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.05.30-18.03.34:681][717]LogFileHelpers: Saving map 'StartupMap' took 0.081
+[2026.05.30-18.03.34:686][717]LogFileHelpers: InternalPromptForCheckoutAndSave took 143.395 ms (total: 5.82 sec)
+[2026.05.30-18.03.34:717][717]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.03.34:717][717]LogContentValidation: Enabled validators:
+[2026.05.30-18.03.34:717][717]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.03.34:717][717]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.03.34:717][717]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.03.34:717][717]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.03.34:718][717]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.03.34:718][717]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.03.34:718][717]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.05.30-18.03.36:009][787]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.30-18.03.36:018][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.30-18.03.36:019][787]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.03.36:030][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011023s)
+[2026.05.30-18.03.36:030][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.011214s)
+[2026.05.30-18.03.36:047][787]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.05.30-18.03.36:049][787]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.05.30-18.03.36:050][787]LogPlayLevel: PIE: World Init took: (0.001090s)
+[2026.05.30-18.03.36:050][787]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2026.05.30-18.03.36:050][787]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.30-18.03.36:050][787]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.30-18.03.36:050][787]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.30-18.03.36:050][787]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.30-18.03.36:050][787]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.30-18.03.36:050][787]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.30-18.03.36:050][787]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.30-18.03.36:050][787]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.30-18.03.36:050][787]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.30-18.03.36:051][787]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.30-18.03.36:051][787]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.30-18.03.36:053][787]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.30-18.03.36:068][787]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.05.30-18.03.36:068][787]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.30-18.03.36:068][787]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.30-18.03.36:068][787]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.30-18.03.36:068][787]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2026.05.30-18.03.36:069][787]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2026.05.30-18.03.36:070][787]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2026.05.30-18.03.36:070][787]LogInit: FAudioDevice initialized with ID 23.
+[2026.05.30-18.03.36:070][787]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2026.05.30-18.03.36:071][787]LogAudio: Display: Audio Device (ID: 23) registered with world 'StartupMap'.
+[2026.05.30-18.03.36:071][787]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2026.05.30-18.03.36:073][787]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.05.30-18.03.36:077][787]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.05.30-11.03.36
+[2026.05.30-18.03.36:078][787]LogWorld: Bringing up level for play took: 0.005317
+[2026.05.30-18.03.36:081][787]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2026.05.30-18.03.36:082][787]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.03.36:087][787]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.05.30-18.03.36:087][787]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.05.30-18.03.36:087][787]PIE: Server logged in
+[2026.05.30-18.03.36:088][787]PIE: Play in editor total start time 0.072 seconds.
+[2026.05.30-18.03.37:877][894]LogBlueprintUserMessages: [BP_LavaTurtle6_C_5] cast failed early
+[2026.05.30-18.03.39:451][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.03.39:451][986]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.03.39:452][986]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-18.03.39:454][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.03.39:456][986]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.30-18.03.39:457][986]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.03.39:457][986]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.03.39:457][986]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.03.39:457][986]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.03.39:457][986]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.03.39:457][986]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.03.39:457][986]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.03.39:457][986]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.03.39:463][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.03.39:478][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.03.39:480][986]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2026.05.30-18.03.39:480][986]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2026.05.30-18.03.39:482][986]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2026.05.30-18.03.39:489][986]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.05.30-18.03.39:512][987]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2026.05.30-18.03.59:991][204]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
+[2026.05.30-18.04.00:041][207]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_22
+[2026.05.30-18.04.06:377][580]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_23
+[2026.05.30-18.04.06:439][582]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_24
+[2026.05.30-18.04.06:458][583]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2026.05.30-18.04.07:272][631]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2026.05.30-18.04.07:291][632]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_27
+[2026.05.30-18.04.07:355][636]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_28
+[2026.05.30-18.04.09:794][782]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter
+[2026.05.30-18.04.09:794][782]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_29
+[2026.05.30-18.05.56:617][ 43]LogShaderCompilers: Display: ================================================
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Total job queries 449, among them cache hits 102 (22.72%), DDC hits 318 (70.82%), Duplicates 16 (3.56%)
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Tracking 331 distinct input hashes that result in 262 distinct outputs (79.15%)
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: RAM used: 161.88 KiB of 3.20 GiB budget. Usage: 0.00%
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Shaders Compiled: 13
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Jobs assigned 13, completed 13 (100%)
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Average time worker was idle: 237.14 s
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.10 s
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Job execution time: average 0.28 s, max 0.71 s
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Job life time (pending + execution): average 0.34 s, max 0.77
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Shader code size: average 18.642 KiB, min 7.689 KiB, max 45.219 KiB
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.54 s
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Jobs were issued in 13 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Average processing rate: 3.67 jobs/sec
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Total thread time: 1.594 s
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Total thread preprocess time: 3.758 s
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Percentage time preprocessing: 235.80%
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Effective parallelization: 0.45 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display:                                               FNiagaraShader (compiled   11 times, average 0.07 sec, max 0.13 sec, min 0.03 sec)
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display:                                                FAnisotropyPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display:                                                FAnisotropyVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.30-18.05.56:618][ 43]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.05.30-18.05.56:619][ 43]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 54.29% of total time (compiled    2 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2026.05.30-18.05.56:619][ 43]LogShaderCompilers: Display:                                               FNiagaraShader - 45.71% of total time (compiled   11 times, average 0.07 sec, max 0.13 sec, min 0.03 sec)
+[2026.05.30-18.05.56:619][ 43]LogShaderCompilers: Display:                                                FAnisotropyPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.30-18.05.56:619][ 43]LogShaderCompilers: Display:                                                FAnisotropyVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.30-18.05.56:619][ 43]LogShaderCompilers: Display:                                                  FVelocityPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.30-18.05.56:619][ 43]LogShaderCompilers: Display: === Material stats ===
+[2026.05.30-18.05.56:619][ 43]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.05.30-18.05.56:619][ 43]LogShaderCompilers: Display: Materials Translated:    206
+[2026.05.30-18.05.56:619][ 43]LogShaderCompilers: Display: Material Total Translate Time: 0.24 s
+[2026.05.30-18.05.56:619][ 43]LogShaderCompilers: Display: Material Translation Only: 0.04 s (19%)
+[2026.05.30-18.05.56:619][ 43]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.05.30-18.05.56:619][ 43]LogShaderCompilers: Display: Material Cache Hits: 55 (27%)
+[2026.05.30-18.05.56:619][ 43]LogShaderCompilers: Display: ================================================
+[2026.05.30-18.06.08:071][730]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2542.444092
+[2026.05.30-18.06.08:354][747]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.30-18.06.08:354][747]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2542.710449, Update Interval: 314.031799
+[2026.05.30-18.06.20:239][453]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_30
+[2026.05.30-18.06.20:254][454]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_31
+[2026.05.30-18.06.23:270][629]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.05.30-18.06.23:275][629]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.06.23:322][629]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle] ([2] browsable assets)...
+[2026.05.30-18.06.23:348][629]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.BP_LavaTurtle]
+[2026.05.30-18.06.23:348][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle]
+[2026.05.30-18.06.23:363][629]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle
+[2026.05.30-18.06.23:363][629]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_LavaTurtle6D8E53E0435101CEDCAA00A97CCF947F.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.uasset'
+[2026.05.30-18.06.23:369][629]LogFileHelpers: InternalPromptForCheckoutAndSave took 93.781 ms (total: 5.91 sec)
+[2026.05.30-18.06.23:419][629]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.06.23:419][629]LogContentValidation: Enabled validators:
+[2026.05.30-18.06.23:419][629]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.06.23:419][629]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.06.23:420][629]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.06.23:420][629]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.06.23:420][629]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.06.23:420][629]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.06.23:420][629]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle Validating asset
+[2026.05.30-18.06.54:964][507]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/BP_EnemyBase.BP_EnemyBase
+[2026.05.30-18.06.54:964][507]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_32
+[2026.05.30-18.06.55:178][507]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_32:PersistentLevel.BP_EnemyBase_C_0)
+[2026.05.30-18.06.55:178][507]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_32:PersistentLevel.BP_EnemyBase_C_0)
+[2026.05.30-18.06.55:178][507]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_32:PersistentLevel.BP_EnemyBase_C_0)
+[2026.05.30-18.06.55:178][507]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_32:PersistentLevel.BP_EnemyBase_C_0)
+[2026.05.30-18.06.55:178][507]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_32:PersistentLevel.BP_EnemyBase_C_0)
+[2026.05.30-18.06.55:179][507]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_32:PersistentLevel.BP_EnemyBase_C_0)
+[2026.05.30-18.07.51:775][854]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.05.30-18.07.51:792][854]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.05.30-18.07.51:801][854]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.05.30-18.07.51:818][855]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.05.30-18.07.53:876][979]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2026.05.30-18.07.53:890][979]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.05.30-18.07.55:342][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.05.30-18.07.56:919][ 63]LogSlate: Window 'Delete Assets' being destroyed
+[2026.05.30-18.07.56:952][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.05.30-18.07.56:966][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.05.30-18.07.56:980][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.05.30-18.08.24:969][497]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.05.30-18.08.24:977][497]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.05.30-18.08.24:986][497]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.05.30-18.08.24:995][498]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.05.30-18.08.30:471][827]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_PlayerBase
+[2026.05.30-18.08.30:476][827]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.05.30-18.08.35:633][135]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.05.30-18.08.35:638][135]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.08.35:688][135]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_PlayerBase] ([2] browsable assets)...
+[2026.05.30-18.08.35:688][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_PlayerBase]
+[2026.05.30-18.08.35:688][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_PlayerBase" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/BP_PlayerBase.uasset" SILENT=true
+[2026.05.30-18.08.35:691][135]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_PlayerBase
+[2026.05.30-18.08.35:691][135]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_PlayerBase511918444BE897FC41808B860AE2B131.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/BP_PlayerBase.uasset'
+[2026.05.30-18.08.35:699][135]LogFileHelpers: InternalPromptForCheckoutAndSave took 60.955 ms (total: 5.97 sec)
+[2026.05.30-18.08.35:753][135]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.08.35:753][135]LogContentValidation: Enabled validators:
+[2026.05.30-18.08.35:754][135]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.08.35:754][135]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.08.35:754][135]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.08.35:754][135]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.08.35:754][135]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.08.35:754][135]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.08.35:754][135]AssetCheck: /Game/Blueprints/Character/BP_PlayerBase Validating asset
+[2026.05.30-18.09.22:855][258]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/Blueprints/Character/TestAI_Characters/BattleMageTripo1/BP_BattleMage.BP_BattleMage from AuraCharacter to BP_PlayerBase_C...
+[2026.05.30-18.09.22:868][258]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.09.22:873][258]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.09.22:920][258]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.09.22:922][258]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.09.22:924][258]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.09.22:925][258]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.09.22:950][258]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.09.22:950][258]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.09.22:963][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.05.30-18.09.22:973][258]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.09.22:974][258]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.09.22:975][258]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.09.23:011][258]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.09.23:013][258]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.09.24:302][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.05.30-18.09.24:309][324]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.09.24:338][324]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/BattleMageTripo1/BP_BattleMage] ([2] browsable assets)...
+[2026.05.30-18.09.24:359][324]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/BattleMageTripo1/BP_BattleMage.BP_BattleMage]
+[2026.05.30-18.09.24:359][324]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/BattleMageTripo1/BP_BattleMage]
+[2026.05.30-18.09.24:370][324]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/BattleMageTripo1/BP_BattleMage
+[2026.05.30-18.09.24:371][324]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_BattleMageF50A904442D3337F136EA9B52222DDD2.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/BattleMageTripo1/BP_BattleMage.uasset'
+[2026.05.30-18.09.24:375][324]LogFileHelpers: InternalPromptForCheckoutAndSave took 65.219 ms (total: 6.04 sec)
+[2026.05.30-18.09.24:421][324]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.09.24:421][324]LogContentValidation: Enabled validators:
+[2026.05.30-18.09.24:421][324]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.09.24:421][324]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.09.24:421][324]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.09.24:421][324]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.09.24:421][324]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.09.24:421][324]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.09.24:421][324]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/BattleMageTripo1/BP_BattleMage Validating asset
+[2026.05.30-18.09.26:532][451]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.30-18.09.26:543][451]LogPlayLevel: [PlayLevel] Compiling ABP_LavaTurtle before play...
+[2026.05.30-18.09.26:544][451]LogPlayLevel: [PlayLevel]   Compiling BP_LavaTurtle as a dependent...
+[2026.05.30-18.09.26:599][451]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_0 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_0:PersistentLevel.REINST_BP_LavaTurtle_C_0.CharacterMesh0.ABP_LavaTurtle_C_1
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-18.09.26:599][451]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_0 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_16:PersistentLevel.REINST_BP_LavaTurtle_C_0.CharacterMesh0.ABP_LavaTurtle_C_0
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-18.09.26:634][451]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.05.30-18.09.26:637][451]LogPlayLevel: PlayLevel: Blueprint regeneration took 96 ms (2 blueprints)
+[2026.05.30-18.09.26:637][451]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.09.26:647][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009632s)
+[2026.05.30-18.09.26:647][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.009795s)
+[2026.05.30-18.09.26:659][451]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2026.05.30-18.09.26:661][451]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.05.30-18.09.26:662][451]LogPlayLevel: PIE: World Init took: (0.001114s)
+[2026.05.30-18.09.26:662][451]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2026.05.30-18.09.26:662][451]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.30-18.09.26:662][451]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.30-18.09.26:663][451]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.30-18.09.26:663][451]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.30-18.09.26:663][451]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.30-18.09.26:663][451]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.30-18.09.26:663][451]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.30-18.09.26:663][451]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.30-18.09.26:663][451]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.30-18.09.26:663][451]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.30-18.09.26:663][451]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.30-18.09.26:665][451]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.30-18.09.26:681][451]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.05.30-18.09.26:682][451]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.30-18.09.26:682][451]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.30-18.09.26:682][451]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.30-18.09.26:682][451]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2026.05.30-18.09.26:682][451]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2026.05.30-18.09.26:684][451]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2026.05.30-18.09.26:684][451]LogInit: FAudioDevice initialized with ID 24.
+[2026.05.30-18.09.26:684][451]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2026.05.30-18.09.26:684][451]LogAudio: Display: Audio Device (ID: 24) registered with world 'StartupMap'.
+[2026.05.30-18.09.26:684][451]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2026.05.30-18.09.26:686][451]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.05.30-18.09.26:690][451]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.05.30-11.09.26
+[2026.05.30-18.09.26:691][451]LogWorld: Bringing up level for play took: 0.005455
+[2026.05.30-18.09.26:693][451]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2026.05.30-18.09.26:694][451]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.09.26:699][451]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.05.30-18.09.26:699][451]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.05.30-18.09.26:699][451]PIE: Server logged in
+[2026.05.30-18.09.26:701][451]PIE: Play in editor total start time 0.163 seconds.
+[2026.05.30-18.09.29:425][614]LogActor: Warning: BP_MagicCircle_C /Game/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.BP_MagicCircle_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2026.05.30-18.09.33:350][828]LogNiagara: Compiling System NiagaraSystem /Game/Assets/Effects/ArcaneShards/NS_ArcaneShards_Longer.NS_ArcaneShards_Longer took 3.308082 sec (time since issued), 3.192045 sec (combined shader worker time).
+[2026.05.30-18.09.34:601][901]LogNiagara: Compiling System NiagaraSystem /Game/Assets/Effects/ArcaneShards/NS_ArcanePullBeam.NS_ArcanePullBeam took 1.047010 sec (time since issued), 1.023016 sec (combined shader worker time).
+[2026.05.30-18.09.36:026][987]LogActor: Warning: BP_MagicCircle_C /Game/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.BP_MagicCircle_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2026.05.30-18.09.38:274][117]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Abilities/FireBolt/sfx_FireBoltHiss.sfx_FireBoltHiss' node class 'UE.Wave Player.Mono (v1.0)': Interface change detected.
+[2026.05.30-18.09.39:049][157]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Abilities/FireBolt/sfx_FireBolt_Impact.sfx_FireBolt_Impact' node class 'UE.Wave Player.Mono (v1.0)': Interface change detected.
+[2026.05.30-18.09.40:240][217]LogNiagara: Compiling System NiagaraSystem /Game/Assets/Effects/Projectiles/FireBolt/NS_Fireball.NS_Fireball took 2.048025 sec (time since issued), 1.980897 sec (combined shader worker time).
+[2026.05.30-18.09.41:939][316]LogNiagara: Compiling System NiagaraSystem /Game/Assets/Effects/Projectiles/FireExplosion/NS_FireExplosion.NS_FireExplosion took 2.945069 sec (time since issued), 2.900242 sec (combined shader worker time).
+[2026.05.30-18.09.46:013][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.09.46:013][559]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.09.46:014][559]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-18.09.46:016][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.09.46:016][559]LogAbilitySystem: Display:   GameplayCueNotify Class 'GC_ShockLoop_C' was used simultaneously 1 times. The CDO default is only 0 preallocated instances.
+[2026.05.30-18.09.46:018][559]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.30-18.09.46:019][559]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.09.46:019][559]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.09.46:019][559]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.09.46:019][559]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.09.46:019][559]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.09.46:019][559]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.09.46:019][559]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.09.46:019][559]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.09.46:019][559]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.09.46:019][559]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.09.46:019][559]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.09.46:019][559]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.09.46:019][559]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.09.46:019][559]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.09.46:019][559]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.09.46:027][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.09.46:042][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.09.46:043][559]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2026.05.30-18.09.46:043][559]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2026.05.30-18.09.46:045][559]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2026.05.30-18.09.46:067][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.05.30-18.09.46:092][560]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2026.05.30-18.10.27:040][842]LogSlate: Window 'Change Variable Type' being destroyed
+[2026.05.30-18.10.28:745][933]LogSlate: Window 'Find in Blueprints' being destroyed
+[2026.05.30-18.10.28:748][933]LogSlate: Window 'Find in Blueprints' being destroyed
+[2026.05.30-18.11.16:152][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.05.30-18.11.16:162][710]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.11.16:192][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.05.30-18.11.16:224][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.05.30-18.11.16:263][710]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.05.30-18.11.16:263][710]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMap4CE33A8A4959990FA6F27ABA6018256F.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.05.30-18.11.16:272][710]LogFileHelpers: Saving map 'StartupMap' took 0.080
+[2026.05.30-18.11.16:272][710]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle] ([2] browsable assets)...
+[2026.05.30-18.11.16:409][710]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.BP_LavaTurtle]
+[2026.05.30-18.11.16:409][710]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle]
+[2026.05.30-18.11.16:422][710]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle
+[2026.05.30-18.11.16:423][710]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_LavaTurtleBE366E614D8713108A95CFB06D927885.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.uasset'
+[2026.05.30-18.11.16:428][710]LogFileHelpers: InternalPromptForCheckoutAndSave took 266.681 ms (total: 6.30 sec)
+[2026.05.30-18.11.16:455][710]LogContentValidation: Display: Starting to validate 2 assets
+[2026.05.30-18.11.16:455][710]LogContentValidation: Enabled validators:
+[2026.05.30-18.11.16:455][710]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.11.16:457][710]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.11.16:457][710]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.11.16:457][710]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.11.16:457][710]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.11.16:457][710]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.11.16:457][710]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.05.30-18.11.16:457][710]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle Validating asset
+[2026.05.30-18.11.28:751][430]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.05.30-18.11.28:760][430]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.11.28:808][430]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle] ([2] browsable assets)...
+[2026.05.30-18.11.28:934][430]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.BP_LavaTurtle]
+[2026.05.30-18.11.28:935][430]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle]
+[2026.05.30-18.11.28:949][430]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle
+[2026.05.30-18.11.28:950][430]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_LavaTurtle8B5B7CDC43E0379A526A0DB1C440BB8B.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.uasset'
+[2026.05.30-18.11.28:955][430]LogFileHelpers: InternalPromptForCheckoutAndSave took 195.313 ms (total: 6.50 sec)
+[2026.05.30-18.11.29:007][430]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.11.29:007][430]LogContentValidation: Enabled validators:
+[2026.05.30-18.11.29:007][430]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.11.29:007][430]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.11.29:007][430]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.11.29:007][430]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.11.29:007][430]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.11.29:007][430]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.11.29:007][430]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle Validating asset
+[2026.05.30-18.11.41:571][183]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.05.30-18.11.41:575][183]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.11.41:625][183]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle] ([2] browsable assets)...
+[2026.05.30-18.11.41:751][183]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.BP_LavaTurtle]
+[2026.05.30-18.11.41:751][183]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle]
+[2026.05.30-18.11.41:763][183]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle
+[2026.05.30-18.11.41:764][183]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_LavaTurtle6B3EB2F24586AC8DC2EC4EBBECA788DA.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle.uasset'
+[2026.05.30-18.11.41:770][183]LogFileHelpers: InternalPromptForCheckoutAndSave took 193.873 ms (total: 6.69 sec)
+[2026.05.30-18.11.41:860][183]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.11.41:860][183]LogContentValidation: Enabled validators:
+[2026.05.30-18.11.41:860][183]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.11.41:860][183]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.11.41:861][183]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.11.41:861][183]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.11.41:861][183]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.11.41:861][183]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.11.41:861][183]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/BP_LavaTurtle Validating asset
+[2026.05.30-18.11.49:177][619]LogScript: Warning: Attempted to access REINST_BP_LavaTurtle_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_LavaTurtle_C_0 is not valid (pending kill or garbage)
+	ABP_LavaTurtle_C /Engine/Transient.World_0:PersistentLevel.REINST_BP_LavaTurtle_C_0.CharacterMesh0.ABP_LavaTurtle_C_1
+	Function /Game/Blueprints/Character/TestAI_Characters/LavaTurtle/Animations/ABP_LavaTurtle.ABP_LavaTurtle_C:ExecuteUbergraph_ABP_LavaTurtle:034C
+[2026.05.30-18.11.49:193][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.05.30-18.11.50:006][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.05.30-18.11.50:015][661]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.11.50:075][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.05.30-18.11.50:107][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.05.30-18.11.50:146][661]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.05.30-18.11.50:146][661]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMap32BE822542E81B3D3B2F9FB8230D8B55.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.05.30-18.11.50:156][661]LogFileHelpers: Saving map 'StartupMap' took 0.080
+[2026.05.30-18.11.50:160][661]LogFileHelpers: InternalPromptForCheckoutAndSave took 146.079 ms (total: 6.84 sec)
+[2026.05.30-18.11.50:207][661]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.11.50:207][661]LogContentValidation: Enabled validators:
+[2026.05.30-18.11.50:207][661]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.11.50:207][661]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.11.50:207][661]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.11.50:207][661]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.11.50:207][661]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.11.50:207][661]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.11.50:207][661]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.05.30-18.11.51:518][734]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.30-18.11.51:528][734]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.30-18.11.51:528][734]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.11.51:538][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010703s)
+[2026.05.30-18.11.51:538][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.010860s)
+[2026.05.30-18.11.51:555][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.05.30-18.11.51:557][734]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.05.30-18.11.51:558][734]LogPlayLevel: PIE: World Init took: (0.001064s)
+[2026.05.30-18.11.51:558][734]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2026.05.30-18.11.51:558][734]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.30-18.11.51:558][734]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.30-18.11.51:559][734]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.30-18.11.51:559][734]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.30-18.11.51:559][734]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.30-18.11.51:559][734]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.30-18.11.51:559][734]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.30-18.11.51:559][734]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.30-18.11.51:559][734]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.30-18.11.51:559][734]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.30-18.11.51:559][734]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.30-18.11.51:561][734]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.30-18.11.51:577][734]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.05.30-18.11.51:577][734]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.30-18.11.51:577][734]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.30-18.11.51:577][734]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.30-18.11.51:577][734]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2026.05.30-18.11.51:577][734]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2026.05.30-18.11.51:579][734]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2026.05.30-18.11.51:579][734]LogInit: FAudioDevice initialized with ID 25.
+[2026.05.30-18.11.51:579][734]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2026.05.30-18.11.51:579][734]LogAudio: Display: Audio Device (ID: 25) registered with world 'StartupMap'.
+[2026.05.30-18.11.51:579][734]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2026.05.30-18.11.51:581][734]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.05.30-18.11.51:585][734]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.05.30-11.11.51
+[2026.05.30-18.11.51:587][734]LogWorld: Bringing up level for play took: 0.005431
+[2026.05.30-18.11.51:588][734]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2026.05.30-18.11.51:589][734]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.11.51:595][734]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.05.30-18.11.51:595][734]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.05.30-18.11.51:595][734]PIE: Server logged in
+[2026.05.30-18.11.51:596][734]PIE: Play in editor total start time 0.072 seconds.
+[2026.05.30-18.11.56:633][ 36]LogShaderCompilers: Display: ================================================
+[2026.05.30-18.11.56:633][ 36]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.05.30-18.11.56:633][ 36]LogShaderCompilers: Display: Total job queries 542, among them cache hits 131 (24.17%), DDC hits 334 (61.62%), Duplicates 16 (2.95%)
+[2026.05.30-18.11.56:633][ 36]LogShaderCompilers: Display: Tracking 395 distinct input hashes that result in 320 distinct outputs (81.01%)
+[2026.05.30-18.11.56:633][ 36]LogShaderCompilers: Display: RAM used: 181.84 KiB of 3.20 GiB budget. Usage: 0.01%
+[2026.05.30-18.11.56:633][ 36]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.05.30-18.11.56:633][ 36]LogShaderCompilers: Display: Shaders Compiled: 61
+[2026.05.30-18.11.56:633][ 36]LogShaderCompilers: Display: Jobs assigned 61, completed 61 (100%)
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display: Average time worker was idle: 59.99 s
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.10 s
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display: Job execution time: average 0.22 s, max 0.71 s
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display: Job life time (pending + execution): average 0.28 s, max 0.77
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display: Shader code size: average 16.757 KiB, min 3.038 KiB, max 61.179 KiB
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 11.63 s
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display: Jobs were issued in 61 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display: Average processing rate: 5.25 jobs/sec
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display: Total thread time: 7.259 s
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display: Total thread preprocess time: 4.282 s
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display: Percentage time preprocessing: 58.99%
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display: Effective parallelization: 0.62 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 0.28 sec, max 0.43 sec, min 0.15 sec)
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    2 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.18 sec, max 0.22 sec, min 0.16 sec)
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    2 times, average 0.18 sec, max 0.18 sec, min 0.17 sec)
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    2 times, average 0.17 sec, max 0.17 sec, min 0.16 sec)
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display:                                               FNiagaraShader - 49.25% of total time (compiled   45 times, average 0.08 sec, max 0.41 sec, min 0.02 sec)
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.28% of total time (compiled    6 times, average 0.28 sec, max 0.43 sec, min 0.15 sec)
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.47% of total time (compiled    3 times, average 0.18 sec, max 0.22 sec, min 0.16 sec)
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display:                                                  FVelocityPS - 5.27% of total time (compiled    2 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display:                                                  FHitProxyPS - 4.91% of total time (compiled    2 times, average 0.18 sec, max 0.18 sec, min 0.17 sec)
+[2026.05.30-18.11.56:634][ 36]LogShaderCompilers: Display: === Material stats ===
+[2026.05.30-18.11.56:635][ 36]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.05.30-18.11.56:635][ 36]LogShaderCompilers: Display: Materials Translated:    206
+[2026.05.30-18.11.56:635][ 36]LogShaderCompilers: Display: Material Total Translate Time: 0.24 s
+[2026.05.30-18.11.56:635][ 36]LogShaderCompilers: Display: Material Translation Only: 0.04 s (19%)
+[2026.05.30-18.11.56:635][ 36]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.05.30-18.11.56:635][ 36]LogShaderCompilers: Display: Material Cache Hits: 55 (27%)
+[2026.05.30-18.11.56:635][ 36]LogShaderCompilers: Display: ================================================
+[2026.05.30-18.11.57:719][101]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2892.033447
+[2026.05.30-18.11.57:886][111]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.30-18.11.57:886][111]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2892.183350, Update Interval: 341.765808
+[2026.05.30-18.12.10:889][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.12.10:889][889]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.12.10:890][889]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-18.12.10:892][889]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.12.10:895][889]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.30-18.12.10:896][889]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.12.10:896][889]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.12.10:896][889]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.12.10:896][889]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.12.10:896][889]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.12.10:896][889]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.12.10:896][889]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.12.10:896][889]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.12.10:896][889]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.12.10:896][889]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.12.10:896][889]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.12.10:896][889]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.12.10:897][889]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.12.10:897][889]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.12.10:897][889]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.12.10:903][889]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.12.10:918][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.12.10:920][889]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2026.05.30-18.12.10:920][889]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2026.05.30-18.12.10:922][889]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2026.05.30-18.12.10:930][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.05.30-18.12.10:952][890]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2026.05.30-18.12.24:412][664]LogSlate: External Image Picker: DecompressImage failed
+[2026.05.30-18.12.31:054][ 45]LogSlate: Window 'Project Settings' being destroyed
+[2026.05.30-18.12.31:056][ 45]LogSlate: Window 'Project Settings' being destroyed
+[2026.05.30-18.12.51:247][227]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_33
+[2026.05.30-18.12.58:070][633]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Game/BP_AuraGameMode.BP_AuraGameMode
+[2026.05.30-18.12.58:070][633]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_34
+[2026.05.30-18.13.07:905][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.05.30-18.13.07:911][205]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.13.07:962][205]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Game/BP_AuraGameMode] ([2] browsable assets)...
+[2026.05.30-18.13.07:962][205]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_AuraGameMode]
+[2026.05.30-18.13.07:962][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Game/BP_AuraGameMode" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Game/BP_AuraGameMode.uasset" SILENT=true
+[2026.05.30-18.13.07:964][205]LogSavePackage: Moving output files for package: /Game/Blueprints/Game/BP_AuraGameMode
+[2026.05.30-18.13.07:965][205]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_AuraGameMode5EE0C90543238C917A933890D01ABB30.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Game/BP_AuraGameMode.uasset'
+[2026.05.30-18.13.07:970][205]LogFileHelpers: InternalPromptForCheckoutAndSave took 58.615 ms (total: 6.90 sec)
+[2026.05.30-18.13.08:008][205]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.13.08:008][205]LogContentValidation: Enabled validators:
+[2026.05.30-18.13.08:008][205]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.13.08:010][205]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.13.08:010][205]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.13.08:010][205]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.13.08:010][205]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.13.08:010][205]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.13.08:010][205]AssetCheck: /Game/Blueprints/Game/BP_AuraGameMode Validating asset
+[2026.05.30-18.13.10:226][336]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.30-18.13.10:234][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.30-18.13.10:235][336]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.13.10:248][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013089s)
+[2026.05.30-18.13.10:248][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.013270s)
+[2026.05.30-18.13.10:265][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.05.30-18.13.10:267][336]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.05.30-18.13.10:268][336]LogPlayLevel: PIE: World Init took: (0.001124s)
+[2026.05.30-18.13.10:268][336]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2026.05.30-18.13.10:268][336]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.30-18.13.10:268][336]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.30-18.13.10:268][336]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.30-18.13.10:268][336]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.30-18.13.10:268][336]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.30-18.13.10:268][336]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.30-18.13.10:268][336]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.30-18.13.10:268][336]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.30-18.13.10:268][336]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.30-18.13.10:270][336]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.30-18.13.10:270][336]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.30-18.13.10:272][336]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.30-18.13.10:287][336]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.05.30-18.13.10:287][336]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.30-18.13.10:287][336]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.30-18.13.10:288][336]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.30-18.13.10:288][336]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2026.05.30-18.13.10:288][336]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2026.05.30-18.13.10:290][336]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2026.05.30-18.13.10:290][336]LogInit: FAudioDevice initialized with ID 26.
+[2026.05.30-18.13.10:290][336]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2026.05.30-18.13.10:290][336]LogAudio: Display: Audio Device (ID: 26) registered with world 'StartupMap'.
+[2026.05.30-18.13.10:290][336]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2026.05.30-18.13.10:292][336]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.05.30-18.13.10:296][336]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.05.30-11.13.10
+[2026.05.30-18.13.10:298][336]LogWorld: Bringing up level for play took: 0.005764
+[2026.05.30-18.13.10:299][336]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2026.05.30-18.13.10:305][336]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.05.30-18.13.10:305][336]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.05.30-18.13.10:306][336]PIE: Server logged in
+[2026.05.30-18.13.10:307][336]PIE: Play in editor total start time 0.075 seconds.
+[2026.05.30-18.13.10:698][359]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/FootSteps/sfx_Footsteps.sfx_Footsteps' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.05.30-18.13.17:633][772]LogNiagara: Compiling System NiagaraSystem /Game/Assets/Effects/FlameFlurry/NS_FlameFlurry.NS_FlameFlurry took 0.095228 sec (time since issued), 0.067606 sec (combined shader worker time).
+[2026.05.30-18.13.19:571][889]LogAbilitySystem: Warning: UAbilityTask_PlayMontageAndWait called in Ability GA_LightningStep_C_0 failed to play montage None; Task Instance Name None.
+[2026.05.30-18.13.24:220][168]LogActor: Warning: BP_MagicCircle_C /Game/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.BP_MagicCircle_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2026.05.30-18.13.30:471][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.13.30:471][541]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.13.30:471][541]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-18.13.30:474][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.13.30:478][541]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.30-18.13.30:478][541]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.13.30:478][541]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.13.30:478][541]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.13.30:478][541]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.13.30:478][541]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.13.30:478][541]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.13.30:479][541]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.13.30:479][541]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.13.30:479][541]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.13.30:479][541]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.13.30:479][541]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.13.30:479][541]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.13.30:479][541]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.13.30:479][541]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.13.30:479][541]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.13.30:485][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.13.30:500][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.13.30:501][541]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2026.05.30-18.13.30:501][541]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2026.05.30-18.13.30:502][541]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2026.05.30-18.13.30:510][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.05.30-18.13.30:547][542]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2026.05.30-18.13.38:992][ 42]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter from AuraCharacter to BP_PlayerBase_C...
+[2026.05.30-18.13.39:091][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.05.30-18.13.39:952][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.05.30-18.13.39:960][ 85]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.13.40:011][ 85]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Aura/BP_AuraCharacter] ([2] browsable assets)...
+[2026.05.30-18.13.40:116][ 85]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Aura/BP_AuraCharacter.BP_AuraCharacter]
+[2026.05.30-18.13.40:116][ 85]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Aura/BP_AuraCharacter]
+[2026.05.30-18.13.40:127][ 85]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Aura/BP_AuraCharacter
+[2026.05.30-18.13.40:128][ 85]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_AuraCharacterBA399458489CB52923826A86673DC3F0.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/Aura/BP_AuraCharacter.uasset'
+[2026.05.30-18.13.40:133][ 85]LogFileHelpers: InternalPromptForCheckoutAndSave took 172.905 ms (total: 7.07 sec)
+[2026.05.30-18.13.40:192][ 85]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.13.40:192][ 85]LogContentValidation: Enabled validators:
+[2026.05.30-18.13.40:192][ 85]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.13.40:192][ 85]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.13.40:192][ 85]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.13.40:192][ 85]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.13.40:193][ 85]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.13.40:193][ 85]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.13.40:193][ 85]AssetCheck: /Game/Blueprints/Character/Aura/BP_AuraCharacter Validating asset
+[2026.05.30-18.13.41:903][180]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.30-18.13.41:914][180]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.30-18.13.41:914][180]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.13.41:925][180]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010851s)
+[2026.05.30-18.13.41:925][180]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.011033s)
+[2026.05.30-18.13.41:942][180]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.05.30-18.13.41:944][180]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.05.30-18.13.41:945][180]LogPlayLevel: PIE: World Init took: (0.001092s)
+[2026.05.30-18.13.41:946][180]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2026.05.30-18.13.41:946][180]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.30-18.13.41:946][180]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.30-18.13.41:946][180]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.30-18.13.41:946][180]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.30-18.13.41:946][180]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.30-18.13.41:946][180]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.30-18.13.41:946][180]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.30-18.13.41:946][180]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.30-18.13.41:946][180]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.30-18.13.41:946][180]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.30-18.13.41:946][180]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.30-18.13.41:948][180]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.30-18.13.41:963][180]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.05.30-18.13.41:963][180]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.30-18.13.41:963][180]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.30-18.13.41:964][180]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.30-18.13.41:964][180]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2026.05.30-18.13.41:964][180]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2026.05.30-18.13.41:966][180]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2026.05.30-18.13.41:966][180]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2026.05.30-18.13.41:966][180]LogInit: FAudioDevice initialized with ID 27.
+[2026.05.30-18.13.41:966][180]LogAudio: Display: Audio Device (ID: 27) registered with world 'StartupMap'.
+[2026.05.30-18.13.41:966][180]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2026.05.30-18.13.41:968][180]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.05.30-18.13.41:973][180]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.05.30-11.13.41
+[2026.05.30-18.13.41:974][180]LogWorld: Bringing up level for play took: 0.005528
+[2026.05.30-18.13.41:975][180]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2026.05.30-18.13.41:981][180]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.05.30-18.13.41:981][180]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.05.30-18.13.41:982][180]PIE: Server logged in
+[2026.05.30-18.13.41:983][180]PIE: Play in editor total start time 0.073 seconds.
+[2026.05.30-18.14.03:079][443]LogNiagara: Compiling System NiagaraSystem /Game/Assets/Effects/ArcaneMine/NS_Mine.NS_Mine took 1.052891 sec (time since issued), 1.027583 sec (combined shader worker time).
+[2026.05.30-18.14.03:936][477]LogNiagara: Compiling System NiagaraSystem /Game/Assets/Effects/ArcaneMine/NS_ArcaneDamageAura.NS_ArcaneDamageAura took 0.621918 sec (time since issued), 0.588188 sec (combined shader worker time).
+[2026.05.30-18.14.03:937][477]LogNiagara: Compiling System NiagaraSystem /Game/Assets/Effects/ArcaneMine/NS_MineActivationRing.NS_MineActivationRing took 1.172351 sec (time since issued), 1.143724 sec (combined shader worker time).
+[2026.05.30-18.14.04:156][488]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.05.30-18.14.06:527][615]LogNiagara: Compiling System NiagaraSystem /Game/Assets/Effects/LevelUp/NS_LevelUp.NS_LevelUp took 3.367176 sec (time since issued), 3.233974 sec (combined shader worker time).
+[2026.05.30-18.14.06:844][633]LogNiagara: Compiling System NiagaraSystem /Game/Assets/Effects/ArcaneMine/NS_ArcaneMineExplosion.NS_ArcaneMineExplosion took 3.592381 sec (time since issued), 3.432031 sec (combined shader worker time).
+[2026.05.30-18.14.13:133][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.14.13:133][  9]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.14.13:134][  9]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-18.14.13:135][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.14.13:139][  9]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.30-18.14.13:140][  9]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.13:140][  9]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.13:140][  9]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.13:140][  9]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.13:140][  9]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.13:140][  9]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.13:140][  9]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.13:147][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.14.13:180][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.14.13:181][  9]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2026.05.30-18.14.13:181][  9]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2026.05.30-18.14.13:182][  9]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2026.05.30-18.14.13:204][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.05.30-18.14.13:245][ 10]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2026.05.30-18.14.13:515][ 26]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.30-18.14.13:523][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.30-18.14.13:523][ 26]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.14.13:535][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012044s)
+[2026.05.30-18.14.13:535][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.012193s)
+[2026.05.30-18.14.13:551][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.05.30-18.14.13:561][ 26]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.05.30-18.14.13:563][ 26]LogPlayLevel: PIE: World Init took: (0.001051s)
+[2026.05.30-18.14.13:563][ 26]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2026.05.30-18.14.13:563][ 26]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.30-18.14.13:563][ 26]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.30-18.14.13:564][ 26]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.30-18.14.13:564][ 26]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.30-18.14.13:564][ 26]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.30-18.14.13:564][ 26]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.30-18.14.13:564][ 26]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.30-18.14.13:564][ 26]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.30-18.14.13:564][ 26]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.30-18.14.13:564][ 26]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.30-18.14.13:564][ 26]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.30-18.14.13:566][ 26]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.30-18.14.13:581][ 26]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.05.30-18.14.13:581][ 26]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.30-18.14.13:581][ 26]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.30-18.14.13:581][ 26]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.30-18.14.13:581][ 26]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2026.05.30-18.14.13:581][ 26]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2026.05.30-18.14.13:584][ 26]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2026.05.30-18.14.13:584][ 26]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2026.05.30-18.14.13:584][ 26]LogInit: FAudioDevice initialized with ID 28.
+[2026.05.30-18.14.13:584][ 26]LogAudio: Display: Audio Device (ID: 28) registered with world 'StartupMap'.
+[2026.05.30-18.14.13:584][ 26]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2026.05.30-18.14.13:586][ 26]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.05.30-18.14.13:590][ 26]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.05.30-11.14.13
+[2026.05.30-18.14.13:591][ 26]LogWorld: Bringing up level for play took: 0.005419
+[2026.05.30-18.14.13:593][ 26]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2026.05.30-18.14.13:599][ 26]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.05.30-18.14.13:599][ 26]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.05.30-18.14.13:599][ 26]PIE: Server logged in
+[2026.05.30-18.14.13:600][ 26]PIE: Play in editor total start time 0.08 seconds.
+[2026.05.30-18.14.19:642][388]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.05.30-18.14.20:143][418]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.05.30-18.14.26:534][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.14.26:534][800]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.14.26:535][800]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-18.14.26:537][800]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.14.26:539][800]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.30-18.14.26:540][800]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.26:540][800]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.26:540][800]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.26:540][800]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.26:540][800]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.26:540][800]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.26:540][800]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.26:546][800]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.14.26:561][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.14.26:562][800]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2026.05.30-18.14.26:562][800]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2026.05.30-18.14.26:563][800]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2026.05.30-18.14.26:571][800]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.05.30-18.14.26:625][802]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2026.05.30-18.14.42:678][760]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.05.30-18.14.42:683][760]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.30-18.14.42:712][760]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Game/BP_AuraGameMode] ([2] browsable assets)...
+[2026.05.30-18.14.42:712][760]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_AuraGameMode]
+[2026.05.30-18.14.42:712][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Game/BP_AuraGameMode" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Game/BP_AuraGameMode.uasset" SILENT=true
+[2026.05.30-18.14.42:714][760]LogSavePackage: Moving output files for package: /Game/Blueprints/Game/BP_AuraGameMode
+[2026.05.30-18.14.42:715][760]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_AuraGameModeADBA9E5841CE16F36AFF3DA9F127A1B3.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Game/BP_AuraGameMode.uasset'
+[2026.05.30-18.14.42:720][760]LogFileHelpers: InternalPromptForCheckoutAndSave took 36.915 ms (total: 7.11 sec)
+[2026.05.30-18.14.42:781][760]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.30-18.14.42:781][760]LogContentValidation: Enabled validators:
+[2026.05.30-18.14.42:781][760]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.30-18.14.42:781][760]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.30-18.14.42:781][760]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.30-18.14.42:781][760]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.30-18.14.42:781][760]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.30-18.14.42:781][760]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.30-18.14.42:781][760]AssetCheck: /Game/Blueprints/Game/BP_AuraGameMode Validating asset
+[2026.05.30-18.14.44:058][834]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.05.30-18.14.45:106][890]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.05.30-18.14.45:114][890]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.30-18.14.45:114][890]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.14.45:125][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010296s)
+[2026.05.30-18.14.45:125][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.010453s)
+[2026.05.30-18.14.45:140][890]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.05.30-18.14.45:144][890]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.05.30-18.14.45:145][890]LogPlayLevel: PIE: World Init took: (0.001037s)
+[2026.05.30-18.14.45:146][890]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2026.05.30-18.14.45:146][890]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.30-18.14.45:146][890]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.30-18.14.45:146][890]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.30-18.14.45:146][890]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.30-18.14.45:146][890]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.30-18.14.45:146][890]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.30-18.14.45:146][890]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.30-18.14.45:146][890]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.30-18.14.45:146][890]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.30-18.14.45:146][890]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.30-18.14.45:146][890]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.30-18.14.45:148][890]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.30-18.14.45:163][890]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.05.30-18.14.45:163][890]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.30-18.14.45:163][890]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.30-18.14.45:163][890]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.30-18.14.45:163][890]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2026.05.30-18.14.45:163][890]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2026.05.30-18.14.45:165][890]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2026.05.30-18.14.45:165][890]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2026.05.30-18.14.45:165][890]LogInit: FAudioDevice initialized with ID 29.
+[2026.05.30-18.14.45:165][890]LogAudio: Display: Audio Device (ID: 29) registered with world 'StartupMap'.
+[2026.05.30-18.14.45:165][890]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2026.05.30-18.14.45:167][890]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.05.30-18.14.45:171][890]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.05.30-11.14.45
+[2026.05.30-18.14.45:173][890]LogWorld: Bringing up level for play took: 0.005285
+[2026.05.30-18.14.45:175][890]LogOnline: OSS: Created online subsystem instance for: :Context_63
+[2026.05.30-18.14.45:176][890]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.05.30-18.14.45:181][890]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.05.30-18.14.45:181][890]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.05.30-18.14.45:182][890]PIE: Server logged in
+[2026.05.30-18.14.45:182][890]PIE: Play in editor total start time 0.071 seconds.
+[2026.05.30-18.14.56:345][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.14.56:345][558]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.05.30-18.14.56:346][558]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.05.30-18.14.56:348][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.14.56:351][558]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.30-18.14.56:351][558]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.56:351][558]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.56:351][558]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.56:351][558]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.56:351][558]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.56:351][558]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.56:352][558]LogNiagaraEditor: onPieEnd
+[2026.05.30-18.14.56:357][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.30-18.14.56:372][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.30-18.14.56:373][558]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2026.05.30-18.14.56:373][558]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2026.05.30-18.14.56:374][558]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2026.05.30-18.14.56:381][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2026.05.30-18.14.56:434][560]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2026.05.30-18.14.56:635][572]LogShaderCompilers: Display: ================================================
+[2026.05.30-18.14.56:635][572]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.05.30-18.14.56:635][572]LogShaderCompilers: Display: Total job queries 615, among them cache hits 141 (22.93%), DDC hits 348 (56.59%), Duplicates 17 (2.76%)
+[2026.05.30-18.14.56:635][572]LogShaderCompilers: Display: Tracking 457 distinct input hashes that result in 372 distinct outputs (81.40%)
+[2026.05.30-18.14.56:635][572]LogShaderCompilers: Display: RAM used: 193.95 KiB of 3.20 GiB budget. Usage: 0.01%
+[2026.05.30-18.14.56:635][572]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.05.30-18.14.56:635][572]LogShaderCompilers: Display: Shaders Compiled: 109
+[2026.05.30-18.14.56:635][572]LogShaderCompilers: Display: Jobs assigned 109, completed 109 (100%)
+[2026.05.30-18.14.56:635][572]LogShaderCompilers: Display: Average time worker was idle: 43.74 s
+[2026.05.30-18.14.56:635][572]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.11 s
+[2026.05.30-18.14.56:635][572]LogShaderCompilers: Display: Job execution time: average 0.21 s, max 0.71 s
+[2026.05.30-18.14.56:635][572]LogShaderCompilers: Display: Job life time (pending + execution): average 0.26 s, max 0.77
+[2026.05.30-18.14.56:635][572]LogShaderCompilers: Display: Shader code size: average 15.407 KiB, min 1.877 KiB, max 61.179 KiB
+[2026.05.30-18.14.56:635][572]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 17.42 s
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display: Jobs were issued in 109 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display: Average processing rate: 6.26 jobs/sec
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display: Total thread time: 11.746 s
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display: Total thread preprocess time: 4.567 s
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display: Percentage time preprocessing: 38.88%
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display: Effective parallelization: 0.67 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    9 times, average 0.26 sec, max 0.43 sec, min 0.15 sec)
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    3 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.18 sec, max 0.18 sec, min 0.18 sec)
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    2 times, average 0.18 sec, max 0.18 sec, min 0.17 sec)
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    1 times, average 0.18 sec, max 0.18 sec, min 0.18 sec)
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display:                                               FNiagaraShader - 49.79% of total time (compiled   82 times, average 0.07 sec, max 0.41 sec, min 0.02 sec)
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 20.26% of total time (compiled    9 times, average 0.26 sec, max 0.43 sec, min 0.15 sec)
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.24% of total time (compiled    7 times, average 0.17 sec, max 0.24 sec, min 0.13 sec)
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display:                                                  FVelocityPS - 4.84% of total time (compiled    3 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2026.05.30-18.14.56:636][572]LogShaderCompilers: Display:                                                  FVelocityVS - 4.24% of total time (compiled    3 times, average 0.17 sec, max 0.17 sec, min 0.16 sec)
+[2026.05.30-18.14.56:637][572]LogShaderCompilers: Display: === Material stats ===
+[2026.05.30-18.14.56:637][572]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.05.30-18.14.56:637][572]LogShaderCompilers: Display: Materials Translated:    206
+[2026.05.30-18.14.56:637][572]LogShaderCompilers: Display: Material Total Translate Time: 0.24 s
+[2026.05.30-18.14.56:637][572]LogShaderCompilers: Display: Material Translation Only: 0.04 s (19%)
+[2026.05.30-18.14.56:637][572]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.05.30-18.14.56:637][572]LogShaderCompilers: Display: Material Cache Hits: 55 (27%)
+[2026.05.30-18.14.56:637][572]LogShaderCompilers: Display: ================================================
