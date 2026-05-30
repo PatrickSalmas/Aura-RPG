@@ -92,6 +92,44 @@ float UAuraDamageGameplayAbility::GetDamageAtLevel() const
 	return Damage.GetValueAtLevel(GetAbilityLevel());
 }
 
+bool UAuraDamageGameplayAbility::GetGroundLocationFromTarget(const FVector& Target,
+	FVector& OutGroundLocation) const
+{
+	if (!GetWorld())
+	{
+		OutGroundLocation = Target;
+		return false;
+	}
+
+	const FVector TraceStart = Target + FVector(0.f, 0.f, 500.f);
+	const FVector TraceEnd   = Target + FVector(0.f, 0.f, -2000.f);
+
+	FHitResult HitResult;
+
+	FCollisionQueryParams QueryParams;
+	QueryParams.bTraceComplex = false;
+	QueryParams.AddIgnoredActor(GetAvatarActorFromActorInfo());
+
+	const bool bHit = GetWorld()->LineTraceSingleByChannel(
+		HitResult,
+		TraceStart,
+		TraceEnd,
+		ECC_Visibility,
+		QueryParams
+	);
+
+	if (bHit)
+	{
+		OutGroundLocation = HitResult.Location;
+	}
+	else
+	{
+		OutGroundLocation = Target;
+	}
+
+	return bHit;
+}
+
 FTaggedMontage UAuraDamageGameplayAbility::GetRandomTaggedMontageFromArray(const TArray<FTaggedMontage>& TaggedMontages)
 {
 	if (TaggedMontages.Num() > 0)

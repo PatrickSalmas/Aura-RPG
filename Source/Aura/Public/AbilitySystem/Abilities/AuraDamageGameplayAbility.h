@@ -35,6 +35,9 @@ public:
 	UFUNCTION(BlueprintPure)
 	float GetDamageAtLevel() const;
 	
+	UFUNCTION(BlueprintCallable, Category = "Ground Trace")
+	bool GetGroundLocationFromTarget(const FVector& Target, FVector& OutGroundLocation) const;
+	
 protected:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
