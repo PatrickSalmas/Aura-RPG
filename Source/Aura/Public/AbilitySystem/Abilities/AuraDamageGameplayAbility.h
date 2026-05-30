@@ -36,7 +36,22 @@ public:
 	float GetDamageAtLevel() const;
 	
 	UFUNCTION(BlueprintCallable, Category = "Ground Trace")
-	bool GetGroundLocationFromTarget(const FVector& Target, FVector& OutGroundLocation) const;
+	bool GetGroundLocationFromTarget(
+		const FVector& TargetLocation,
+		FVector& OutGroundLocation,
+		AActor* ActorToIgnore = nullptr
+	) const;
+	
+	// This version makes it so the returned ground location won't be on top of an enemy. It will find
+	// the nearest valid ground location if the target happens to be on an enemy
+	UFUNCTION(BlueprintCallable, Category = "Targeting")
+	bool GetNearestValidGroundLocationFromTarget(
+		const FVector& MouseHitLocation,
+		AActor* MouseHitActor,
+		FVector& OutGroundLocation,
+		FVector& OutTeleportLocation,
+		float ExtraDistanceFromTarget = 90.f
+	) const;
 	
 protected:
 
