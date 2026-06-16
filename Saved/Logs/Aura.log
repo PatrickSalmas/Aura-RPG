@@ -6917,3 +6917,609 @@ Sampler Limit: 32
 [2026.06.16-02.49.26:626][492]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 42096.882812
 [2026.06.16-02.49.27:626][495]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.06.16-02.49.27:626][495]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 42097.546875, Update Interval: 342.624603
+[2026.06.16-02.55.51:647][647]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 42480.558594
+[2026.06.16-02.55.52:647][650]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.16-02.55.52:647][650]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 42481.222656, Update Interval: 338.513733
+[2026.06.16-02.56.40:422][164]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.06.16-02.56.40:430][164]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.06.16-02.56.40:430][164]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.16-02.56.40:484][164]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053415s)
+[2026.06.16-02.56.40:484][164]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 to /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 (0.053608s)
+[2026.06.16-02.56.40:502][164]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2026.06.16-02.56.40:505][164]LogChaosDD: Creating Chaos Debug Draw Scene for world L_PCG_Stylescape_Prototype_01
+[2026.06.16-02.56.40:506][164]LogPlayLevel: PIE: World Init took: (0.001294s)
+[2026.06.16-02.56.40:507][164]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2026.06.16-02.56.40:507][164]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.06.16-02.56.40:507][164]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.06.16-02.56.40:507][164]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.06.16-02.56.40:507][164]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.06.16-02.56.40:507][164]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.06.16-02.56.40:507][164]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.06.16-02.56.40:507][164]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.06.16-02.56.40:507][164]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.06.16-02.56.40:507][164]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.06.16-02.56.40:507][164]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.06.16-02.56.40:507][164]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.06.16-02.56.40:511][164]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.06.16-02.56.40:528][164]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.06.16-02.56.40:528][164]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.06.16-02.56.40:528][164]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.06.16-02.56.40:528][164]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.06.16-02.56.40:529][164]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2026.06.16-02.56.40:529][164]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2026.06.16-02.56.40:530][164]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2026.06.16-02.56.40:530][164]LogInit: FAudioDevice initialized with ID 24.
+[2026.06.16-02.56.40:530][164]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2026.06.16-02.56.40:530][164]LogAudio: Display: Audio Device (ID: 24) registered with world 'L_PCG_Stylescape_Prototype_01'.
+[2026.06.16-02.56.40:530][164]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2026.06.16-02.56.40:532][164]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.06.16-02.56.40:539][164]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.06.16-02.56.40:541][164]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 up for play (max tick rate 0) at 2026.06.15-19.56.40
+[2026.06.16-02.56.40:543][164]LogWorld: Bringing up level for play took: 0.010843
+[2026.06.16-02.56.40:545][164]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2026.06.16-02.56.40:546][164]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.06.16-02.56.40:551][164]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.06.16-02.56.40:552][164]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.06.16-02.56.40:552][164]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.06.16-02.56.40:552][164]PIE: Server logged in
+[2026.06.16-02.56.40:553][164]PIE: Play in editor total start time 0.124 seconds.
+[2026.06.16-02.56.42:923][409]LogBlueprintUserMessages: [GA_ChargeAttack_C_0] Activating Charge Attack
+[2026.06.16-02.56.43:248][447]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 214
+[2026.06.16-02.56.43:248][447]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 217
+[2026.06.16-02.56.53:255][639]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 214
+[2026.06.16-02.56.53:255][639]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 217
+[2026.06.16-02.58.27:520][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.16-02.58.27:520][884]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.16-02.58.27:521][884]LogWorld: UWorld::CleanupWorld for L_PCG_Stylescape_Prototype_01, bSessionEnded=true, bCleanupResources=true
+[2026.06.16-02.58.27:523][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.16-02.58.27:525][884]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.06.16-02.58.27:532][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.16-02.58.27:546][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.16-02.58.27:550][884]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2026.06.16-02.58.27:550][884]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2026.06.16-02.58.27:551][884]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2026.06.16-02.58.27:561][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.06.16-02.58.27:591][886]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2026.06.16-02.59.18:742][722]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.06.16-02.59.18:753][722]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.16-02.59.18:833][722]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.06.16-02.59.19:005][722]LogSavePackage: Moving output files for package: /Game/Maps/L_PCG_Stylescape_Prototype_01
+[2026.06.16-02.59.19:006][722]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_PCG_Stylescape_Prototype_018A34455B49DA0528957756A95B717F98.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_PCG_Stylescape_Prototype_01.umap'
+[2026.06.16-02.59.19:018][722]LogFileHelpers: Saving map 'L_PCG_Stylescape_Prototype_01' took 0.222
+[2026.06.16-02.59.19:018][722]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_CorruptionMask_StylescapeGroundCheckpoint] ([1] browsable assets)...
+[2026.06.16-02.59.19:018][722]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_CorruptionMask_StylescapeGroundCheckpoint]
+[2026.06.16-02.59.19:071][722]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_CorruptionMask_StylescapeGroundCheckpoint
+[2026.06.16-02.59.19:071][722]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/PCG_Graph_CorruptionMask_StylescB16DB5E141178187CE47779CAFBBFC3A.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/Graphs/PCG_Graph_CorruptionMask_StylescapeGroundCheckpoint.uasset'
+[2026.06.16-02.59.19:079][722]LogFileHelpers: InternalPromptForCheckoutAndSave took 326.419 ms (total: 40.0 sec)
+[2026.06.16-02.59.19:129][722]LogContentValidation: Display: Starting to validate 2 assets
+[2026.06.16-02.59.19:129][722]LogContentValidation: Enabled validators:
+[2026.06.16-02.59.19:129][722]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.16-02.59.19:129][722]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.16-02.59.19:129][722]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.16-02.59.19:129][722]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.16-02.59.19:129][722]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.16-02.59.19:129][722]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.16-02.59.19:129][722]AssetCheck: /Game/Maps/L_PCG_Stylescape_Prototype_01 Validating asset
+[2026.06.16-02.59.19:130][722]AssetCheck: /Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_CorruptionMask_StylescapeGroundCheckpoint Validating asset
+[2026.06.16-02.59.19:410][755]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.06.16-02.59.19:419][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.06.16-02.59.19:419][755]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.16-02.59.19:470][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051898s)
+[2026.06.16-02.59.19:470][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 to /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 (0.052060s)
+[2026.06.16-02.59.19:487][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.06.16-02.59.19:489][755]LogChaosDD: Creating Chaos Debug Draw Scene for world L_PCG_Stylescape_Prototype_01
+[2026.06.16-02.59.19:490][755]LogPlayLevel: PIE: World Init took: (0.001243s)
+[2026.06.16-02.59.19:491][755]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2026.06.16-02.59.19:491][755]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.06.16-02.59.19:491][755]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.06.16-02.59.19:491][755]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.06.16-02.59.19:491][755]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.06.16-02.59.19:491][755]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.06.16-02.59.19:491][755]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.06.16-02.59.19:491][755]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.06.16-02.59.19:491][755]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.06.16-02.59.19:491][755]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.06.16-02.59.19:491][755]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.06.16-02.59.19:491][755]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.06.16-02.59.19:493][755]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.06.16-02.59.19:510][755]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.06.16-02.59.19:510][755]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.06.16-02.59.19:510][755]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.06.16-02.59.19:510][755]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.06.16-02.59.19:510][755]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2026.06.16-02.59.19:510][755]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2026.06.16-02.59.19:512][755]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2026.06.16-02.59.19:512][755]LogInit: FAudioDevice initialized with ID 25.
+[2026.06.16-02.59.19:512][755]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2026.06.16-02.59.19:512][755]LogAudio: Display: Audio Device (ID: 25) registered with world 'L_PCG_Stylescape_Prototype_01'.
+[2026.06.16-02.59.19:512][755]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2026.06.16-02.59.19:514][755]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.06.16-02.59.19:521][755]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.06.16-02.59.19:524][755]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 up for play (max tick rate 0) at 2026.06.15-19.59.19
+[2026.06.16-02.59.19:525][755]LogWorld: Bringing up level for play took: 0.010480
+[2026.06.16-02.59.19:527][755]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2026.06.16-02.59.19:528][755]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.06.16-02.59.19:533][755]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.06.16-02.59.19:534][755]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.06.16-02.59.19:534][755]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.06.16-02.59.19:534][755]PIE: Server logged in
+[2026.06.16-02.59.19:535][755]PIE: Play in editor total start time 0.118 seconds.
+[2026.06.16-02.59.21:913][ 25]LogBlueprintUserMessages: [GA_ChargeAttack_C_0] Activating Charge Attack
+[2026.06.16-02.59.22:242][ 62]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 221
+[2026.06.16-02.59.22:242][ 62]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 224
+[2026.06.16-02.59.32:251][247]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 221
+[2026.06.16-02.59.32:251][247]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 224
+[2026.06.16-03.01.37:710][530]LogAbilitySystem: Warning: UAbilityTask_PlayMontageAndWait called in Ability GA_MeleeAttack_C_0 failed to play montage None; Task Instance Name None.
+[2026.06.16-03.01.41:423][921]LogAbilitySystem: Warning: UAbilityTask_PlayMontageAndWait called in Ability GA_MeleeAttack_C_0 failed to play montage None; Task Instance Name None.
+[2026.06.16-03.01.43:980][191]LogAbilitySystem: Warning: UAbilityTask_PlayMontageAndWait called in Ability GA_MeleeAttack_C_0 failed to play montage None; Task Instance Name None.
+[2026.06.16-03.01.45:319][325]LogAbilitySystem: Warning: UAbilityTask_PlayMontageAndWait called in Ability GA_MeleeAttack_C_0 failed to play montage None; Task Instance Name None.
+[2026.06.16-03.01.45:414][335]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.06.16-03.01.45:414][335]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.06.16-03.01.46:058][403]LogAbilitySystem: Warning: UAbilityTask_PlayMontageAndWait called in Ability GA_MeleeAttack_C_0 failed to play montage None; Task Instance Name None.
+[2026.06.16-03.01.46:416][441]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.06.16-03.01.46:728][472]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.06.16-03.01.46:728][472]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.06.16-03.01.46:979][499]LogAbilitySystem: Warning: UAbilityTask_PlayMontageAndWait called in Ability GA_MeleeAttack_C_0 failed to play montage None; Task Instance Name None.
+[2026.06.16-03.01.47:106][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.16-03.01.47:106][509]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.16-03.01.47:107][509]LogWorld: UWorld::CleanupWorld for L_PCG_Stylescape_Prototype_01, bSessionEnded=true, bCleanupResources=true
+[2026.06.16-03.01.47:109][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.16-03.01.47:112][509]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.06.16-03.01.47:118][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.16-03.01.47:136][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.16-03.01.47:137][509]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2026.06.16-03.01.47:137][509]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2026.06.16-03.01.47:139][509]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2026.06.16-03.01.47:150][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.06.16-03.01.47:178][510]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2026.06.16-03.01.48:128][623]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.06.16-03.01.48:136][623]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.06.16-03.01.48:137][623]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.16-03.01.48:190][623]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052697s)
+[2026.06.16-03.01.48:190][623]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 to /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 (0.052880s)
+[2026.06.16-03.01.48:206][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.06.16-03.01.48:209][623]LogChaosDD: Creating Chaos Debug Draw Scene for world L_PCG_Stylescape_Prototype_01
+[2026.06.16-03.01.48:210][623]LogPlayLevel: PIE: World Init took: (0.001204s)
+[2026.06.16-03.01.48:210][623]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2026.06.16-03.01.48:211][623]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.06.16-03.01.48:211][623]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.06.16-03.01.48:211][623]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.06.16-03.01.48:211][623]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.06.16-03.01.48:211][623]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.06.16-03.01.48:211][623]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.06.16-03.01.48:211][623]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.06.16-03.01.48:211][623]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.06.16-03.01.48:211][623]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.06.16-03.01.48:211][623]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.06.16-03.01.48:211][623]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.06.16-03.01.48:213][623]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.06.16-03.01.48:230][623]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.06.16-03.01.48:230][623]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.06.16-03.01.48:230][623]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.06.16-03.01.48:230][623]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.06.16-03.01.48:230][623]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2026.06.16-03.01.48:230][623]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2026.06.16-03.01.48:232][623]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2026.06.16-03.01.48:232][623]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2026.06.16-03.01.48:232][623]LogInit: FAudioDevice initialized with ID 26.
+[2026.06.16-03.01.48:232][623]LogAudio: Display: Audio Device (ID: 26) registered with world 'L_PCG_Stylescape_Prototype_01'.
+[2026.06.16-03.01.48:232][623]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2026.06.16-03.01.48:235][623]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.06.16-03.01.48:242][623]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.06.16-03.01.48:244][623]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 up for play (max tick rate 0) at 2026.06.15-20.01.48
+[2026.06.16-03.01.48:245][623]LogWorld: Bringing up level for play took: 0.010653
+[2026.06.16-03.01.48:247][623]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2026.06.16-03.01.48:248][623]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.06.16-03.01.48:253][623]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.06.16-03.01.48:254][623]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.06.16-03.01.48:254][623]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.06.16-03.01.48:255][623]PIE: Server logged in
+[2026.06.16-03.01.48:255][623]PIE: Play in editor total start time 0.12 seconds.
+[2026.06.16-03.01.50:638][889]LogBlueprintUserMessages: [GA_ChargeAttack_C_0] Activating Charge Attack
+[2026.06.16-03.01.50:968][926]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 231
+[2026.06.16-03.01.50:968][926]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 234
+[2026.06.16-03.02.00:975][ 28]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 231
+[2026.06.16-03.02.00:975][ 28]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 234
+[2026.06.16-03.02.04:355][408]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 42830.996094
+[2026.06.16-03.02.04:532][428]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.16-03.02.04:532][428]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 42831.148438, Update Interval: 330.837738
+[2026.06.16-03.02.55:211][293]LogDerivedDataCache: C:/Users/psalm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.06.16-03.03.02:689][132]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.16-03.03.02:689][132]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.16-03.03.02:690][132]LogWorld: UWorld::CleanupWorld for L_PCG_Stylescape_Prototype_01, bSessionEnded=true, bCleanupResources=true
+[2026.06.16-03.03.02:692][132]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.16-03.03.02:695][132]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.06.16-03.03.02:703][132]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.16-03.03.02:718][132]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.16-03.03.02:721][132]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2026.06.16-03.03.02:721][132]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2026.06.16-03.03.02:723][132]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2026.06.16-03.03.02:732][132]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.06.16-03.03.02:760][133]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2026.06.16-03.03.03:007][159]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.06.16-03.03.03:011][159]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.16-03.03.03:104][159]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2026.06.16-03.03.03:273][159]LogSavePackage: Moving output files for package: /Game/Maps/L_PCG_Stylescape_Prototype_01
+[2026.06.16-03.03.03:273][159]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_PCG_Stylescape_Prototype_016A5B81EA43A4A9C8068B5EB4D2E5D812.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_PCG_Stylescape_Prototype_01.umap'
+[2026.06.16-03.03.03:287][159]LogFileHelpers: Saving map 'L_PCG_Stylescape_Prototype_01' took 0.220
+[2026.06.16-03.03.03:287][159]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_CorruptionMask_StylescapeGroundCheckpoint] ([1] browsable assets)...
+[2026.06.16-03.03.03:287][159]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_CorruptionMask_StylescapeGroundCheckpoint]
+[2026.06.16-03.03.03:339][159]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_CorruptionMask_StylescapeGroundCheckpoint
+[2026.06.16-03.03.03:340][159]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/PCG_Graph_CorruptionMask_StylescBCD8CF444E4D9781D092408CEDEC1DED.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/Graphs/PCG_Graph_CorruptionMask_StylescapeGroundCheckpoint.uasset'
+[2026.06.16-03.03.03:347][159]LogFileHelpers: InternalPromptForCheckoutAndSave took 336.342 ms (total: 40.4 sec)
+[2026.06.16-03.03.03:383][159]LogContentValidation: Display: Starting to validate 2 assets
+[2026.06.16-03.03.03:383][159]LogContentValidation: Enabled validators:
+[2026.06.16-03.03.03:383][159]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.16-03.03.03:383][159]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.16-03.03.03:383][159]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.16-03.03.03:383][159]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.16-03.03.03:383][159]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.16-03.03.03:383][159]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.16-03.03.03:383][159]AssetCheck: /Game/Maps/L_PCG_Stylescape_Prototype_01 Validating asset
+[2026.06.16-03.03.03:383][159]AssetCheck: /Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_CorruptionMask_StylescapeGroundCheckpoint Validating asset
+[2026.06.16-03.03.08:361][746]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.06.16-03.03.24:628][589]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.06.16-03.03.32:054][415]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.06.16-03.03.32:061][415]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.06.16-03.03.32:061][415]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.16-03.03.32:116][415]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053568s)
+[2026.06.16-03.03.32:116][415]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 to /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 (0.053756s)
+[2026.06.16-03.03.32:132][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.06.16-03.03.32:134][415]LogChaosDD: Creating Chaos Debug Draw Scene for world L_PCG_Stylescape_Prototype_01
+[2026.06.16-03.03.32:135][415]LogPlayLevel: PIE: World Init took: (0.001226s)
+[2026.06.16-03.03.32:136][415]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2026.06.16-03.03.32:136][415]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.06.16-03.03.32:136][415]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.06.16-03.03.32:136][415]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.06.16-03.03.32:136][415]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.06.16-03.03.32:136][415]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.06.16-03.03.32:136][415]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.06.16-03.03.32:137][415]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.06.16-03.03.32:137][415]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.06.16-03.03.32:137][415]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.06.16-03.03.32:137][415]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.06.16-03.03.32:137][415]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.06.16-03.03.32:138][415]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.06.16-03.03.32:154][415]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.06.16-03.03.32:154][415]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.06.16-03.03.32:154][415]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.06.16-03.03.32:154][415]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.06.16-03.03.32:155][415]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2026.06.16-03.03.32:155][415]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2026.06.16-03.03.32:157][415]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2026.06.16-03.03.32:157][415]LogInit: FAudioDevice initialized with ID 27.
+[2026.06.16-03.03.32:157][415]LogAudio: Display: Audio Device (ID: 27) registered with world 'L_PCG_Stylescape_Prototype_01'.
+[2026.06.16-03.03.32:157][415]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2026.06.16-03.03.32:157][415]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2026.06.16-03.03.32:159][415]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.06.16-03.03.32:166][415]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.06.16-03.03.32:168][415]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 up for play (max tick rate 0) at 2026.06.15-20.03.32
+[2026.06.16-03.03.32:169][415]LogWorld: Bringing up level for play took: 0.010625
+[2026.06.16-03.03.32:171][415]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2026.06.16-03.03.32:172][415]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.06.16-03.03.32:177][415]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.06.16-03.03.32:178][415]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.06.16-03.03.32:178][415]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.06.16-03.03.32:178][415]PIE: Server logged in
+[2026.06.16-03.03.32:180][415]PIE: Play in editor total start time 0.119 seconds.
+[2026.06.16-03.03.34:555][679]LogBlueprintUserMessages: [GA_ChargeAttack_C_0] Activating Charge Attack
+[2026.06.16-03.03.34:883][716]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 238
+[2026.06.16-03.03.34:883][716]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 241
+[2026.06.16-03.03.44:885][779]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 238
+[2026.06.16-03.03.44:885][779]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 241
+[2026.06.16-03.05.21:815][638]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup1/M_CrustedBreakup1_Master.M_CrustedBreakup1_Master
+[2026.06.16-03.05.21:817][638]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_31
+[2026.06.16-03.05.22:082][638]MaterialEditorStats: Texture samplers: 0/16
+[2026.06.16-03.05.22:082][638]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.06.16-03.05.22:082][638]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.06.16-03.05.22:082][638]MaterialEditorStats: Shader Count: 0
+[2026.06.16-03.05.22:082][638]MaterialEditorStats: Preshaders: 5  (5 param fetches, 7 ops)
+[2026.06.16-03.05.22:152][640]MaterialEditorStats: Base pass shader: 221 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.06.16-03.05.22:152][640]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.06.16-03.05.22:152][640]MaterialEditorStats: Texture samplers: 4/16
+[2026.06.16-03.05.22:152][640]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.06.16-03.05.22:152][640]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.06.16-03.05.22:152][640]MaterialEditorStats: Shader Count: 4
+[2026.06.16-03.05.22:152][640]MaterialEditorStats: Preshaders: 5  (5 param fetches, 7 ops)
+[2026.06.16-03.05.33:942][994]MaterialEditorStats: Texture samplers: 0/16
+[2026.06.16-03.05.33:942][994]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.06.16-03.05.33:943][994]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.06.16-03.05.33:943][994]MaterialEditorStats: Shader Count: 0
+[2026.06.16-03.05.33:943][994]MaterialEditorStats: Preshaders: 5  (5 param fetches, 7 ops)
+[2026.06.16-03.05.33:977][997]MaterialEditorStats: Base pass shader: 221 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.06.16-03.05.33:978][997]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.06.16-03.05.33:978][997]MaterialEditorStats: Texture samplers: 4/16
+[2026.06.16-03.05.33:978][997]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.06.16-03.05.33:978][997]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.06.16-03.05.33:978][997]MaterialEditorStats: Shader Count: 4
+[2026.06.16-03.05.33:978][997]MaterialEditorStats: Preshaders: 5  (5 param fetches, 7 ops)
+[2026.06.16-03.05.35:788][207]LogMaterialEditor: Applying material M_CrustedBreakup1_Master
+[2026.06.16-03.05.35:853][207]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2026.06.16-03.05.35:979][207]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.06.16-03.05.35:990][207]MaterialEditorStats: Base pass shader: 221 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.06.16-03.05.35:991][207]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.06.16-03.05.35:991][207]MaterialEditorStats: MaxSampler: 270 instructions
+Stats: Resources Used: 11
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.06.16-03.05.35:991][207]MaterialEditorStats: Nanite Compute Shader: 869 instructions
+Stats: Resources Used: 13
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.06.16-03.05.35:991][207]MaterialEditorStats: Texture samplers: 5/16
+[2026.06.16-03.05.35:991][207]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.06.16-03.05.35:991][207]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.06.16-03.05.35:991][207]MaterialEditorStats: Shader Count: 41
+[2026.06.16-03.05.35:991][207]MaterialEditorStats: Preshaders: 5  (5 param fetches, 7 ops)
+[2026.06.16-03.06.09:291][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2026.06.16-03.06.09:295][109]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.16-03.06.09:295][109]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup1/M_CrustedBreakup1_Master] ([1] browsable assets)...
+[2026.06.16-03.06.09:307][109]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup1/M_CrustedBreakup1_Master.M_CrustedBreakup1_Master]
+[2026.06.16-03.06.09:307][109]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup1/M_CrustedBreakup1_Master]
+[2026.06.16-03.06.09:309][109]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup1/M_CrustedBreakup1_Master
+[2026.06.16-03.06.09:310][109]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/M_CrustedBreakup1_Master37DAB8FA497F627D9652EDAFB2D8521A.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup1/M_CrustedBreakup1_Master.uasset'
+[2026.06.16-03.06.09:310][109]LogFileHelpers: InternalPromptForCheckoutAndSave took 14.824 ms (total: 40.4 sec)
+[2026.06.16-03.06.09:314][109]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.16-03.06.09:314][109]LogContentValidation: Enabled validators:
+[2026.06.16-03.06.09:314][109]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.16-03.06.09:314][109]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.16-03.06.09:314][109]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.16-03.06.09:314][109]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.16-03.06.09:314][109]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.16-03.06.09:314][109]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.16-03.06.09:314][109]AssetCheck: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup1/M_CrustedBreakup1_Master Validating asset
+[2026.06.16-03.06.31:256][697]MaterialEditorStats: Base pass shader: 221 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.06.16-03.06.31:257][697]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.06.16-03.06.31:257][697]MaterialEditorStats: Texture samplers: 4/16
+[2026.06.16-03.06.31:257][697]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.06.16-03.06.31:257][697]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.06.16-03.06.31:257][697]MaterialEditorStats: Shader Count: 4
+[2026.06.16-03.06.31:257][697]MaterialEditorStats: Preshaders: 5  (5 param fetches, 7 ops)
+[2026.06.16-03.06.35:053][143]MaterialEditorStats: Texture samplers: 0/16
+[2026.06.16-03.06.35:053][143]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.06.16-03.06.35:053][143]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.06.16-03.06.35:053][143]MaterialEditorStats: Shader Count: 0
+[2026.06.16-03.06.35:053][143]MaterialEditorStats: Preshaders: 5  (5 param fetches, 7 ops)
+[2026.06.16-03.06.35:067][145]MaterialEditorStats: Texture samplers: 2/16
+[2026.06.16-03.06.35:067][145]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.06.16-03.06.35:067][145]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.06.16-03.06.35:068][145]MaterialEditorStats: Shader Count: 2
+[2026.06.16-03.06.35:068][145]MaterialEditorStats: Preshaders: 5  (5 param fetches, 7 ops)
+[2026.06.16-03.06.35:076][146]MaterialEditorStats: Base pass shader: 221 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.06.16-03.06.35:076][146]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.06.16-03.06.35:076][146]MaterialEditorStats: Texture samplers: 4/16
+[2026.06.16-03.06.35:076][146]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.06.16-03.06.35:076][146]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.06.16-03.06.35:076][146]MaterialEditorStats: Shader Count: 4
+[2026.06.16-03.06.35:076][146]MaterialEditorStats: Preshaders: 5  (5 param fetches, 7 ops)
+[2026.06.16-03.06.38:195][514]MaterialEditorStats: Texture samplers: 0/16
+[2026.06.16-03.06.38:195][514]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.06.16-03.06.38:195][514]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.06.16-03.06.38:195][514]MaterialEditorStats: Shader Count: 0
+[2026.06.16-03.06.38:195][514]MaterialEditorStats: Preshaders: 5  (5 param fetches, 7 ops)
+[2026.06.16-03.06.38:211][516]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.06.16-03.06.38:211][516]MaterialEditorStats: Texture samplers: 2/16
+[2026.06.16-03.06.38:211][516]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.06.16-03.06.38:211][516]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.06.16-03.06.38:211][516]MaterialEditorStats: Shader Count: 3
+[2026.06.16-03.06.38:211][516]MaterialEditorStats: Preshaders: 5  (5 param fetches, 7 ops)
+[2026.06.16-03.06.38:226][517]MaterialEditorStats: Base pass shader: 221 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.06.16-03.06.38:226][517]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.06.16-03.06.38:226][517]MaterialEditorStats: Texture samplers: 4/16
+[2026.06.16-03.06.38:226][517]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.06.16-03.06.38:227][517]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.06.16-03.06.38:227][517]MaterialEditorStats: Shader Count: 4
+[2026.06.16-03.06.38:227][517]MaterialEditorStats: Preshaders: 5  (5 param fetches, 7 ops)
+[2026.06.16-03.07.19:457][337]MaterialEditorStats: Texture samplers: 0/16
+[2026.06.16-03.07.19:457][337]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.06.16-03.07.19:457][337]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.06.16-03.07.19:457][337]MaterialEditorStats: Shader Count: 0
+[2026.06.16-03.07.19:457][337]MaterialEditorStats: Preshaders: 5  (5 param fetches, 7 ops)
+[2026.06.16-03.07.19:473][339]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.06.16-03.07.19:473][339]MaterialEditorStats: Texture samplers: 2/16
+[2026.06.16-03.07.19:473][339]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.06.16-03.07.19:475][339]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.06.16-03.07.19:475][339]MaterialEditorStats: Shader Count: 3
+[2026.06.16-03.07.19:475][339]MaterialEditorStats: Preshaders: 5  (5 param fetches, 7 ops)
+[2026.06.16-03.07.19:483][340]MaterialEditorStats: Base pass shader: 221 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.06.16-03.07.19:483][340]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.06.16-03.07.19:483][340]MaterialEditorStats: Texture samplers: 4/16
+[2026.06.16-03.07.19:483][340]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.06.16-03.07.19:483][340]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.06.16-03.07.19:483][340]MaterialEditorStats: Shader Count: 4
+[2026.06.16-03.07.19:483][340]MaterialEditorStats: Preshaders: 5  (5 param fetches, 7 ops)
+[2026.06.16-03.07.21:973][624]LogMaterialEditor: Applying material M_CrustedBreakup2_Master
+[2026.06.16-03.07.22:049][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.06.16-03.07.22:176][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.06.16-03.07.22:188][624]MaterialEditorStats: Base pass shader: 221 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.06.16-03.07.22:189][624]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.06.16-03.07.22:189][624]MaterialEditorStats: MaxSampler: 270 instructions
+Stats: Resources Used: 11
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.06.16-03.07.22:189][624]MaterialEditorStats: Nanite Compute Shader: 869 instructions
+Stats: Resources Used: 13
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.06.16-03.07.22:189][624]MaterialEditorStats: Texture samplers: 5/16
+[2026.06.16-03.07.22:189][624]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.06.16-03.07.22:189][624]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.06.16-03.07.22:189][624]MaterialEditorStats: Shader Count: 41
+[2026.06.16-03.07.22:189][624]MaterialEditorStats: Preshaders: 5  (5 param fetches, 7 ops)
+[2026.06.16-03.07.24:289][865]LogMaterialEditor: Applying material M_CrustedBreakup3_Master
+[2026.06.16-03.07.24:349][865]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.06.16-03.07.24:475][865]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.06.16-03.07.24:481][865]MaterialEditorStats: Base pass shader: 221 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.06.16-03.07.24:481][865]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.06.16-03.07.24:481][865]MaterialEditorStats: MaxSampler: 270 instructions
+Stats: Resources Used: 11
+Resource Limit: 64
+Samplers Used: 5
+Sampler Limit: 32
+
+[2026.06.16-03.07.24:481][865]MaterialEditorStats: Nanite Compute Shader: 869 instructions
+Stats: Resources Used: 13
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2026.06.16-03.07.24:481][865]MaterialEditorStats: Texture samplers: 5/16
+[2026.06.16-03.07.24:481][865]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.06.16-03.07.24:481][865]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.06.16-03.07.24:481][865]MaterialEditorStats: Shader Count: 41
+[2026.06.16-03.07.24:481][865]MaterialEditorStats: Preshaders: 5  (5 param fetches, 7 ops)
+[2026.06.16-03.07.27:406][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2026.06.16-03.07.27:411][198]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.16-03.07.27:411][198]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup2/M_CrustedBreakup2_Master] ([1] browsable assets)...
+[2026.06.16-03.07.27:422][198]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup2/M_CrustedBreakup2_Master.M_CrustedBreakup2_Master]
+[2026.06.16-03.07.27:422][198]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup2/M_CrustedBreakup2_Master]
+[2026.06.16-03.07.27:425][198]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup2/M_CrustedBreakup2_Master
+[2026.06.16-03.07.27:425][198]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/M_CrustedBreakup2_Master373E498A4257145E0D32A98EC44BB4C3.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup2/M_CrustedBreakup2_Master.uasset'
+[2026.06.16-03.07.27:426][198]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup3/M_CrustedBreakup3_Master] ([1] browsable assets)...
+[2026.06.16-03.07.27:431][198]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup3/M_CrustedBreakup3_Master.M_CrustedBreakup3_Master]
+[2026.06.16-03.07.27:431][198]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup3/M_CrustedBreakup3_Master]
+[2026.06.16-03.07.27:433][198]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup3/M_CrustedBreakup3_Master
+[2026.06.16-03.07.27:433][198]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/M_CrustedBreakup3_MasterDE9BE87749344316DD8A7BA508B4489D.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup3/M_CrustedBreakup3_Master.uasset'
+[2026.06.16-03.07.27:434][198]LogFileHelpers: InternalPromptForCheckoutAndSave took 23.398 ms (total: 40.4 sec)
+[2026.06.16-03.07.27:437][198]LogContentValidation: Display: Starting to validate 2 assets
+[2026.06.16-03.07.27:437][198]LogContentValidation: Enabled validators:
+[2026.06.16-03.07.27:437][198]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.16-03.07.27:437][198]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.16-03.07.27:437][198]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.16-03.07.27:437][198]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.16-03.07.27:437][198]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.16-03.07.27:437][198]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.16-03.07.27:437][198]AssetCheck: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup2/M_CrustedBreakup2_Master Validating asset
+[2026.06.16-03.07.27:437][198]AssetCheck: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/CrustedBreakup/CrustedBreakup3/M_CrustedBreakup3_Master Validating asset
+[2026.06.16-03.08.11:995][441]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 43177.019531
+[2026.06.16-03.08.12:253][472]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.16-03.08.12:254][472]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 43177.253906, Update Interval: 304.969635
+[2026.06.16-03.10.08:809][652]LogBlueprintUserMessages: [GA_ChargeAttack_C_1] Activating Charge Attack
+[2026.06.16-03.10.09:136][689]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 238
+[2026.06.16-03.10.09:136][689]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 243
+[2026.06.16-03.10.19:136][883]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 238
+[2026.06.16-03.10.19:136][883]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 243
+[2026.06.16-03.13.47:666][784]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 43490.281250
+[2026.06.16-03.13.47:824][803]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.16-03.13.47:824][803]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 43490.421875, Update Interval: 340.546265
+[2026.06.16-03.13.54:871][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.16-03.13.54:871][624]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.16-03.13.54:871][624]LogWorld: UWorld::CleanupWorld for L_PCG_Stylescape_Prototype_01, bSessionEnded=true, bCleanupResources=true
+[2026.06.16-03.13.54:873][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.16-03.13.54:876][624]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.06.16-03.13.54:884][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.16-03.13.54:899][624]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.06.16-03.13.54:899][624]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2026.06.16-03.13.54:899][624]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2026.06.16-03.13.54:901][624]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2026.06.16-03.13.54:906][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.16-03.13.54:913][624]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2026.06.16-03.13.54:941][625]LogPlayLevel: Display: Destroying online subsystem :Context_57
