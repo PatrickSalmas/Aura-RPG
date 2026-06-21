@@ -2554,3 +2554,745 @@ Sampler Limit: 32
 [2026.06.21-19.13.34:484][341]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.06.21-19.13.34:486][341]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7796.782227, Update Interval: 305.608704
 [2026.06.21-19.13.37:571][705]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.06.21-19.16.51:517][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2026.06.21-19.16.53:210][ 33]LogSlate: Window 'Delete Assets' being destroyed
+[2026.06.21-19.16.53:733][ 33]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.06.21-19.16.53:733][ 33]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2026.06.21-19.16.53:733][ 33]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.21-19.16.53:769][ 33]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/BP_CorruptionFlow_MVP.BP_CorruptionFlow_MVP
+	Asset Type: Blueprint
+[2026.06.21-19.16.54:170][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.06.21-19.16.54:224][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2026.06.21-19.16.54:239][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.06.21-19.16.54:254][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.06.21-19.16.54:279][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.06.21-19.16.54:288][ 33]LogAutomationController: Ignoring very large delta of 2.79 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.06.21-19.17.39:427][357]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.06.21-19.17.39:427][357]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2026.06.21-19.17.39:427][357]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.21-19.17.39:481][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.06.21-19.17.47:798][294]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource.BP_CorruptionSource
+[2026.06.21-19.17.47:798][294]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_23
+[2026.06.21-19.18.30:708][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.06.21-19.18.30:719][ 14]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.21-19.18.30:795][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.06.21-19.18.30:855][ 14]LogSavePackage: Moving output files for package: /Game/Maps/L_PCG_Stylescape_Prototype_01
+[2026.06.21-19.18.30:856][ 14]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_PCG_Stylescape_Prototype_014648806D4B97FC9E5BF7E186E175B8BC.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_PCG_Stylescape_Prototype_01.umap'
+[2026.06.21-19.18.30:868][ 14]LogFileHelpers: Saving map 'L_PCG_Stylescape_Prototype_01' took 0.112
+[2026.06.21-19.18.30:868][ 14]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource] ([2] browsable assets)...
+[2026.06.21-19.18.30:883][ 14]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource.BP_CorruptionSource]
+[2026.06.21-19.18.30:883][ 14]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource]
+[2026.06.21-19.18.30:886][ 14]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource
+[2026.06.21-19.18.30:887][ 14]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_CorruptionSource13EDF43E4C179694A076B2B5DE867A0C.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource.uasset'
+[2026.06.21-19.18.30:893][ 14]LogFileHelpers: InternalPromptForCheckoutAndSave took 173.843 ms (total: 3.15 sec)
+[2026.06.21-19.18.30:954][ 14]LogContentValidation: Display: Starting to validate 2 assets
+[2026.06.21-19.18.30:954][ 14]LogContentValidation: Enabled validators:
+[2026.06.21-19.18.30:954][ 14]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.21-19.18.30:954][ 14]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.21-19.18.30:954][ 14]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.21-19.18.30:954][ 14]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.21-19.18.30:954][ 14]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.21-19.18.30:954][ 14]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.21-19.18.30:954][ 14]AssetCheck: /Game/Maps/L_PCG_Stylescape_Prototype_01 Validating asset
+[2026.06.21-19.18.30:954][ 14]AssetCheck: /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource Validating asset
+[2026.06.21-19.19.02:350][777]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.06.21-19.19.03:307][877]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2026.06.21-19.19.09:668][564]Cmd: EDIT COPY
+[2026.06.21-19.19.09:991][602]Cmd: EDIT PASTE
+[2026.06.21-19.19.13:143][975]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8135.371094
+[2026.06.21-19.19.13:342][999]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.21-19.19.13:342][999]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8135.562012, Update Interval: 339.030121
+[2026.06.21-19.19.51:629][415]Cmd: EDIT COPY
+[2026.06.21-19.19.52:468][515]Cmd: EDIT PASTE
+[2026.06.21-19.20.46:059][792]Cmd: TRANSACTION UNDO
+[2026.06.21-19.20.46:059][792]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.21.53:184][684]Cmd: TRANSACTION UNDO
+[2026.06.21-19.21.53:185][684]LogEditorTransaction: Undo Clicking on Elements
+[2026.06.21-19.21.53:913][715]Cmd: TRANSACTION UNDO
+[2026.06.21-19.21.53:913][715]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.23.34:556][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2026.06.21-19.23.34:595][328]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.21-19.23.34:689][328]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2026.06.21-19.23.34:752][328]LogSavePackage: Moving output files for package: /Game/Maps/L_PCG_Stylescape_Prototype_01
+[2026.06.21-19.23.34:752][328]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_PCG_Stylescape_Prototype_01A78304754EEF302D3E549988E7CF659B.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_PCG_Stylescape_Prototype_01.umap'
+[2026.06.21-19.23.34:764][328]LogFileHelpers: Saving map 'L_PCG_Stylescape_Prototype_01' took 0.117
+[2026.06.21-19.23.34:772][328]LogFileHelpers: InternalPromptForCheckoutAndSave took 177.225 ms (total: 3.33 sec)
+[2026.06.21-19.23.34:829][328]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.21-19.23.34:829][328]LogContentValidation: Enabled validators:
+[2026.06.21-19.23.34:829][328]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.21-19.23.34:829][328]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.21-19.23.34:829][328]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.21-19.23.34:829][328]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.21-19.23.34:829][328]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.21-19.23.34:829][328]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.21-19.23.34:829][328]AssetCheck: /Game/Maps/L_PCG_Stylescape_Prototype_01 Validating asset
+[2026.06.21-19.23.44:074][398]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.06.21-19.23.44:083][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.06.21-19.23.44:083][398]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.21-19.23.44:101][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017205s)
+[2026.06.21-19.23.44:101][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 to /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 (0.017401s)
+[2026.06.21-19.23.44:120][398]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.06.21-19.23.44:122][398]LogChaosDD: Creating Chaos Debug Draw Scene for world L_PCG_Stylescape_Prototype_01
+[2026.06.21-19.23.44:123][398]LogPlayLevel: PIE: World Init took: (0.001305s)
+[2026.06.21-19.23.44:124][398]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.06.21-19.23.44:124][398]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.06.21-19.23.44:124][398]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.06.21-19.23.44:124][398]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.06.21-19.23.44:124][398]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.06.21-19.23.44:124][398]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.06.21-19.23.44:124][398]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.06.21-19.23.44:124][398]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.06.21-19.23.44:124][398]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.06.21-19.23.44:124][398]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.06.21-19.23.44:124][398]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.06.21-19.23.44:124][398]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.06.21-19.23.44:127][398]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.06.21-19.23.44:145][398]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.06.21-19.23.44:145][398]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.06.21-19.23.44:145][398]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.06.21-19.23.44:146][398]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.06.21-19.23.44:146][398]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.06.21-19.23.44:146][398]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2026.06.21-19.23.44:148][398]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.06.21-19.23.44:148][398]LogInit: FAudioDevice initialized with ID 3.
+[2026.06.21-19.23.44:148][398]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.06.21-19.23.44:148][398]LogAudio: Display: Audio Device (ID: 3) registered with world 'L_PCG_Stylescape_Prototype_01'.
+[2026.06.21-19.23.44:148][398]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2026.06.21-19.23.44:150][398]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.06.21-19.23.44:157][398]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 up for play (max tick rate 0) at 2026.06.21-12.23.44
+[2026.06.21-19.23.44:157][398]LogWorld: Bringing up level for play took: 0.007002
+[2026.06.21-19.23.44:159][398]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2026.06.21-19.23.44:160][398]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.06.21-19.23.44:165][398]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.06.21-19.23.44:165][398]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.06.21-19.23.44:165][398]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.06.21-19.23.44:166][398]PIE: Server logged in
+[2026.06.21-19.23.44:166][398]PIE: Play in editor total start time 0.084 seconds.
+[2026.06.21-19.24.10:175][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.21-19.24.10:175][503]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.21-19.24.10:175][503]LogWorld: UWorld::CleanupWorld for L_PCG_Stylescape_Prototype_01, bSessionEnded=true, bCleanupResources=true
+[2026.06.21-19.24.10:177][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.21-19.24.10:180][503]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.06.21-19.24.10:187][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.21-19.24.10:205][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.21-19.24.10:207][503]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2026.06.21-19.24.10:207][503]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2026.06.21-19.24.10:209][503]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2026.06.21-19.24.10:216][503]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.06.21-19.24.10:266][504]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2026.06.21-19.24.38:015][581]Cmd: TRANSACTION UNDO
+[2026.06.21-19.24.38:015][581]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.25.12:514][401]Cmd: EDIT COPY
+[2026.06.21-19.25.13:007][460]Cmd: EDIT PASTE
+[2026.06.21-19.25.33:641][920]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8516.201172
+[2026.06.21-19.25.33:866][947]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.21-19.25.33:866][947]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8516.417969, Update Interval: 342.073425
+[2026.06.21-19.26.04:143][482]Cmd: EDIT COPY
+[2026.06.21-19.26.04:383][510]Cmd: EDIT PASTE
+[2026.06.21-19.26.07:730][896]Cmd: TRANSACTION UNDO
+[2026.06.21-19.26.07:730][896]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.31.58:100][896]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8900.672852
+[2026.06.21-19.31.59:100][899]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.21-19.31.59:100][899]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8901.338867, Update Interval: 351.309540
+[2026.06.21-19.34.00:869][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2026.06.21-19.34.00:965][264]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/L_PCG_Stylescape_Prototype_01_Auto6
+[2026.06.21-19.34.00:965][264]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_PCG_Stylescape_Prototype_01_Au0251E6554F1E7DAC03759FA6B1738136.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/Autosaves/Game/Maps/L_PCG_Stylescape_Prototype_01_Auto6.umap'
+[2026.06.21-19.34.00:974][264]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/L_PCG_Stylescape_Prototype_01' took 0.146
+[2026.06.21-19.34.00:974][264]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.146
+[2026.06.21-19.36.35:461][976]LogStreaming: Display: FlushAsyncLoading(511): 1 QueuedPackages, 0 AsyncPackages
+[2026.06.21-19.36.50:451][473]LogShaderCompilers: Display: ================================================
+[2026.06.21-19.36.50:451][473]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.06.21-19.36.50:451][473]LogShaderCompilers: Display: Total job queries 754, among them cache hits 101 (13.40%), DDC hits 544 (72.15%), Duplicates 79 (10.48%)
+[2026.06.21-19.36.50:451][473]LogShaderCompilers: Display: Tracking 574 distinct input hashes that result in 358 distinct outputs (62.37%)
+[2026.06.21-19.36.50:451][473]LogShaderCompilers: Display: RAM used: 254.73 KiB of 3.20 GiB budget. Usage: 0.01%
+[2026.06.21-19.36.50:451][473]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.06.21-19.36.50:451][473]LogShaderCompilers: Display: Shaders Compiled: 30
+[2026.06.21-19.36.50:451][473]LogShaderCompilers: Display: Jobs assigned 30, completed 30 (100%)
+[2026.06.21-19.36.50:451][473]LogShaderCompilers: Display: Average time worker was idle: 2048.53 s
+[2026.06.21-19.36.50:451][473]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.10 s
+[2026.06.21-19.36.50:451][473]LogShaderCompilers: Display: Job execution time: average 0.92 s, max 1.74 s
+[2026.06.21-19.36.50:451][473]LogShaderCompilers: Display: Job life time (pending + execution): average 0.97 s, max 1.75
+[2026.06.21-19.36.50:451][473]LogShaderCompilers: Display: Shader code size: average 7.786 KiB, min 2.445 KiB, max 15.004 KiB
+[2026.06.21-19.36.50:452][473]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.87 s
+[2026.06.21-19.36.50:452][473]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.06.21-19.36.50:452][473]LogShaderCompilers: Display: Jobs were issued in 30 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.06.21-19.36.50:452][473]LogShaderCompilers: Display: Average processing rate: 5.11 jobs/sec
+[2026.06.21-19.36.50:452][473]LogShaderCompilers: Display: Total thread time: 11.958 s
+[2026.06.21-19.36.50:452][473]LogShaderCompilers: Display: Total thread preprocess time: 6.296 s
+[2026.06.21-19.36.50:452][473]LogShaderCompilers: Display: Percentage time preprocessing: 52.65%
+[2026.06.21-19.36.50:452][473]LogShaderCompilers: Display: Effective parallelization: 2.04 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2026.06.21-19.36.50:452][473]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.06.21-19.36.50:452][473]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    7 times, average 0.42 sec, max 0.52 sec, min 0.32 sec)
+[2026.06.21-19.36.50:452][473]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    6 times, average 0.32 sec, max 0.38 sec, min 0.28 sec)
+[2026.06.21-19.36.50:452][473]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    6 times, average 0.30 sec, max 0.36 sec, min 0.26 sec)
+[2026.06.21-19.36.50:452][473]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2026.06.21-19.36.50:452][473]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    6 times, average 0.25 sec, max 0.28 sec, min 0.23 sec)
+[2026.06.21-19.36.50:452][473]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.06.21-19.36.50:452][473]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.76% of total time (compiled    7 times, average 0.42 sec, max 0.52 sec, min 0.32 sec)
+[2026.06.21-19.36.50:452][473]LogShaderCompilers: Display:                                                  FVelocityPS - 15.89% of total time (compiled    6 times, average 0.32 sec, max 0.38 sec, min 0.28 sec)
+[2026.06.21-19.36.50:453][473]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 15.15% of total time (compiled    6 times, average 0.30 sec, max 0.36 sec, min 0.26 sec)
+[2026.06.21-19.36.50:453][473]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.73% of total time (compiled    7 times, average 0.23 sec, max 0.28 sec, min 0.21 sec)
+[2026.06.21-19.36.50:453][473]LogShaderCompilers: Display:                                                  FVelocityVS - 12.60% of total time (compiled    6 times, average 0.25 sec, max 0.28 sec, min 0.23 sec)
+[2026.06.21-19.36.50:453][473]LogShaderCompilers: Display: === Material stats ===
+[2026.06.21-19.36.50:453][473]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.06.21-19.36.50:453][473]LogShaderCompilers: Display: Materials Translated:    291
+[2026.06.21-19.36.50:453][473]LogShaderCompilers: Display: Material Total Translate Time: 0.29 s
+[2026.06.21-19.36.50:453][473]LogShaderCompilers: Display: Material Translation Only: 0.09 s (31%)
+[2026.06.21-19.36.50:453][473]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.06.21-19.36.50:453][473]LogShaderCompilers: Display: Material Cache Hits: 91 (31%)
+[2026.06.21-19.36.50:453][473]LogShaderCompilers: Display: ================================================
+[2026.06.21-19.37.35:176][518]Cmd: EDIT COPY
+[2026.06.21-19.37.35:849][592]Cmd: EDIT PASTE
+[2026.06.21-19.37.45:690][695]Cmd: SELECT NONE
+[2026.06.21-19.38.41:636][192]Cmd: TRANSACTION UNDO
+[2026.06.21-19.38.41:636][192]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.38.46:437][712]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9309.143555
+[2026.06.21-19.38.46:663][739]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.21-19.38.46:663][739]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9309.363281, Update Interval: 325.357208
+[2026.06.21-19.38.50:149][156]Cmd: TRANSACTION UNDO
+[2026.06.21-19.38.50:149][156]LogEditorTransaction: Undo Scale Elements
+[2026.06.21-19.38.56:441][786]Cmd: TRANSACTION UNDO
+[2026.06.21-19.38.56:442][786]LogEditorTransaction: Undo Scale Elements
+[2026.06.21-19.39.07:085][948]Cmd: TRANSACTION UNDO
+[2026.06.21-19.39.07:085][948]LogEditorTransaction: Undo Scale Elements
+[2026.06.21-19.39.07:665][957]Cmd: TRANSACTION UNDO
+[2026.06.21-19.39.07:665][957]LogEditorTransaction: Undo Clicking on Elements
+[2026.06.21-19.39.08:240][ 16]Cmd: TRANSACTION UNDO
+[2026.06.21-19.39.08:240][ 16]LogEditorTransaction: Undo Clicking on Elements
+[2026.06.21-19.39.08:748][ 69]Cmd: TRANSACTION UNDO
+[2026.06.21-19.39.08:748][ 69]LogEditorTransaction: Undo Clicking on Elements
+[2026.06.21-19.39.09:238][122]Cmd: TRANSACTION UNDO
+[2026.06.21-19.39.09:238][122]LogEditorTransaction: Undo Scale Elements
+[2026.06.21-19.39.11:148][347]Cmd: TRANSACTION REDO
+[2026.06.21-19.39.11:148][347]LogEditorTransaction: Redo Scale Elements
+[2026.06.21-19.39.14:638][705]Cmd: TRANSACTION UNDO
+[2026.06.21-19.39.14:638][705]LogEditorTransaction: Undo Scale Elements
+[2026.06.21-19.39.26:127][983]Cmd: TRANSACTION UNDO
+[2026.06.21-19.39.26:127][983]LogEditorTransaction: Undo Scale Elements
+[2026.06.21-19.39.27:040][ 35]Cmd: TRANSACTION UNDO
+[2026.06.21-19.39.27:040][ 35]LogEditorTransaction: Undo Clicking on Elements
+[2026.06.21-19.39.28:485][201]Cmd: TRANSACTION REDO
+[2026.06.21-19.39.28:485][201]LogEditorTransaction: Redo Clicking on Elements
+[2026.06.21-19.41.00:835][920]Cmd: TRANSACTION UNDO
+[2026.06.21-19.41.00:835][920]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.41.58:074][460]Cmd: TRANSACTION UNDO
+[2026.06.21-19.41.58:074][460]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.42.14:879][328]Cmd: DELETE
+[2026.06.21-19.42.14:880][328]Cmd: ACTOR DELETE
+[2026.06.21-19.42.14:894][328]LogEditorActor: Deleted Actor: DecalActor
+[2026.06.21-19.42.14:935][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2026.06.21-19.42.14:950][328]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2026.06.21-19.42.44:306][754]Cmd: SELECT NONE
+[2026.06.21-19.42.58:085][373]Cmd: TRANSACTION UNDO
+[2026.06.21-19.42.58:085][373]LogEditorTransaction: Undo Scale Elements
+[2026.06.21-19.43.03:400][953]Cmd: TRANSACTION UNDO
+[2026.06.21-19.43.03:400][953]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.43.54:454][916]Cmd: TRANSACTION UNDO
+[2026.06.21-19.43.54:454][916]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.44.29:594][973]Cmd: EDIT COPY
+[2026.06.21-19.44.29:860][  5]Cmd: EDIT PASTE
+[2026.06.21-19.44.55:588][ 27]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9678.640625
+[2026.06.21-19.44.55:830][ 56]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.21-19.44.55:830][ 56]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9678.875977, Update Interval: 324.562531
+[2026.06.21-19.44.57:632][267]Cmd: EDIT COPY
+[2026.06.21-19.44.57:899][299]Cmd: EDIT PASTE
+[2026.06.21-19.45.06:129][250]Cmd: EDIT COPY
+[2026.06.21-19.45.06:379][280]Cmd: EDIT PASTE
+[2026.06.21-19.45.11:641][881]Cmd: EDIT COPY
+[2026.06.21-19.45.11:925][915]Cmd: EDIT PASTE
+[2026.06.21-19.45.16:104][410]Cmd: SELECT NONE
+[2026.06.21-19.45.32:983][368]Cmd: TRANSACTION UNDO
+[2026.06.21-19.45.32:983][368]LogEditorTransaction: Undo Clicking on Elements
+[2026.06.21-19.45.33:607][385]Cmd: TRANSACTION UNDO
+[2026.06.21-19.45.33:607][385]LogEditorTransaction: Undo Clicking on Actors
+[2026.06.21-19.45.34:333][466]Cmd: TRANSACTION UNDO
+[2026.06.21-19.45.34:333][466]LogEditorTransaction: Undo Clicking on Actors
+[2026.06.21-19.45.35:075][550]Cmd: TRANSACTION UNDO
+[2026.06.21-19.45.35:075][550]LogEditorTransaction: Undo Clicking on Actors
+[2026.06.21-19.45.35:926][647]Cmd: TRANSACTION UNDO
+[2026.06.21-19.45.35:928][647]LogEditorTransaction: Undo Clicking on Elements
+[2026.06.21-19.45.36:576][721]Cmd: TRANSACTION UNDO
+[2026.06.21-19.45.36:576][721]LogEditorTransaction: Undo Select None
+[2026.06.21-19.45.37:230][745]Cmd: TRANSACTION UNDO
+[2026.06.21-19.45.37:230][745]LogEditorTransaction: Undo Edit Decal Material
+[2026.06.21-19.45.37:857][817]Cmd: TRANSACTION UNDO
+[2026.06.21-19.45.37:858][817]LogEditorTransaction: Undo Paste
+[2026.06.21-19.45.38:528][891]Cmd: TRANSACTION UNDO
+[2026.06.21-19.45.38:528][891]LogEditorTransaction: Undo Clicking on Elements
+[2026.06.21-19.45.39:223][969]Cmd: TRANSACTION UNDO
+[2026.06.21-19.45.39:223][969]LogEditorTransaction: Undo Edit Decal Material
+[2026.06.21-19.45.39:583][  9]Cmd: TRANSACTION UNDO
+[2026.06.21-19.45.39:583][  9]LogEditorTransaction: Undo Paste
+[2026.06.21-19.45.39:973][ 49]Cmd: TRANSACTION UNDO
+[2026.06.21-19.45.39:973][ 49]LogEditorTransaction: Undo Clicking on Elements
+[2026.06.21-19.45.40:399][ 94]Cmd: TRANSACTION UNDO
+[2026.06.21-19.45.40:399][ 94]LogEditorTransaction: Undo Edit Decal Material
+[2026.06.21-19.45.40:757][101]Cmd: TRANSACTION UNDO
+[2026.06.21-19.45.40:757][101]LogEditorTransaction: Undo Paste
+[2026.06.21-19.45.41:243][135]Cmd: TRANSACTION UNDO
+[2026.06.21-19.45.41:243][135]LogEditorTransaction: Undo Clicking on Elements
+[2026.06.21-19.45.41:686][183]Cmd: TRANSACTION UNDO
+[2026.06.21-19.45.41:686][183]LogEditorTransaction: Undo Edit Decal Material
+[2026.06.21-19.45.43:480][395]Cmd: TRANSACTION REDO
+[2026.06.21-19.45.43:480][395]LogEditorTransaction: Redo Edit Decal Material
+[2026.06.21-19.46.01:684][565]Cmd: TRANSACTION UNDO
+[2026.06.21-19.46.01:684][565]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.46.25:081][219]Cmd: EDIT COPY
+[2026.06.21-19.46.25:455][264]Cmd: EDIT PASTE
+[2026.06.21-19.46.25:456][264]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'EDIT'. 
+[2026.06.21-19.46.55:183][797]Cmd: TRANSACTION UNDO
+[2026.06.21-19.46.55:184][797]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.46.55:659][806]Cmd: TRANSACTION UNDO
+[2026.06.21-19.46.55:659][806]LogEditorTransaction: Undo Rename Actor
+[2026.06.21-19.46.56:385][883]Cmd: TRANSACTION UNDO
+[2026.06.21-19.46.56:386][883]LogEditorTransaction: Undo Edit Decal Material
+[2026.06.21-19.46.58:491][131]Cmd: TRANSACTION UNDO
+[2026.06.21-19.46.58:491][131]LogEditorTransaction: Undo Paste
+[2026.06.21-19.46.59:570][233]Cmd: SELECT NONE
+[2026.06.21-19.47.10:195][466]Cmd: EDIT COPY
+[2026.06.21-19.47.10:466][498]Cmd: EDIT PASTE
+[2026.06.21-19.47.10:884][546]Cmd: EDIT PASTE
+[2026.06.21-19.47.11:294][593]Cmd: EDIT PASTE
+[2026.06.21-19.47.11:554][622]Cmd: EDIT PASTE
+[2026.06.21-19.47.11:773][646]Cmd: EDIT PASTE
+[2026.06.21-19.47.11:979][668]Cmd: EDIT PASTE
+[2026.06.21-19.47.12:230][696]Cmd: EDIT PASTE
+[2026.06.21-19.47.13:338][826]Cmd: TRANSACTION UNDO
+[2026.06.21-19.47.13:338][826]LogEditorTransaction: Undo Paste
+[2026.06.21-19.47.13:593][830]Cmd: TRANSACTION UNDO
+[2026.06.21-19.47.13:593][830]LogEditorTransaction: Undo Paste
+[2026.06.21-19.47.13:842][833]Cmd: TRANSACTION UNDO
+[2026.06.21-19.47.13:842][833]LogEditorTransaction: Undo Paste
+[2026.06.21-19.47.14:048][841]Cmd: TRANSACTION UNDO
+[2026.06.21-19.47.14:048][841]LogEditorTransaction: Undo Paste
+[2026.06.21-19.47.14:293][864]Cmd: TRANSACTION UNDO
+[2026.06.21-19.47.14:293][864]LogEditorTransaction: Undo Paste
+[2026.06.21-19.47.14:546][888]Cmd: TRANSACTION UNDO
+[2026.06.21-19.47.14:547][888]LogEditorTransaction: Undo Paste
+[2026.06.21-19.47.14:933][927]Cmd: TRANSACTION UNDO
+[2026.06.21-19.47.14:933][927]LogEditorTransaction: Undo Paste
+[2026.06.21-19.47.29:236][571]Cmd: TRANSACTION UNDO
+[2026.06.21-19.47.29:236][571]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.47.30:025][608]Cmd: TRANSACTION UNDO
+[2026.06.21-19.47.30:025][608]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.47.35:178][164]Cmd: TRANSACTION UNDO
+[2026.06.21-19.47.35:178][164]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.48.31:727][655]Cmd: TRANSACTION UNDO
+[2026.06.21-19.48.31:727][655]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.48.49:246][583]Cmd: SELECT NONE
+[2026.06.21-19.48.55:583][302]Cmd: SELECT NONE
+[2026.06.21-19.49.20:798][220]Cmd: TRANSACTION UNDO
+[2026.06.21-19.49.20:798][220]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.49.38:333][183]Cmd: TRANSACTION UNDO
+[2026.06.21-19.49.38:333][183]LogEditorTransaction: Undo Clicking on Elements
+[2026.06.21-19.49.49:863][444]Cmd: TRANSACTION UNDO
+[2026.06.21-19.49.49:863][444]LogEditorTransaction: Undo Clicking on Elements
+[2026.06.21-19.50.50:396][322]Cmd: TRANSACTION UNDO
+[2026.06.21-19.50.50:396][322]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.50.51:480][397]Cmd: TRANSACTION UNDO
+[2026.06.21-19.50.51:480][397]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.51.11:291][682]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10054.692383
+[2026.06.21-19.51.11:552][703]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.21-19.51.11:552][703]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10054.942383, Update Interval: 320.944244
+[2026.06.21-19.52.44:805][527]Cmd: EDIT COPY
+[2026.06.21-19.52.46:065][670]Cmd: EDIT PASTE
+[2026.06.21-19.52.46:197][670]LogTexture: Display: Building textures: /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.Weightmap_10 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2026.06.21-19.52.46:202][670]LogTexture: Display: Building textures: /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.Weightmap_15 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.06.21-19.52.46:208][670]LogTexture: Display: Building textures: /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.Weightmap_21 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.140617 MB), EncodeSpeed: Fast
+[2026.06.21-19.52.46:210][670]LogTexture: Display: Building textures: /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.Weightmap_23 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2026.06.21-19.52.49:187][920]Cmd: TRANSACTION UNDO
+[2026.06.21-19.52.49:187][920]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.52.52:628][267]Cmd: TRANSACTION UNDO
+[2026.06.21-19.52.52:628][267]LogEditorTransaction: Undo Paste
+[2026.06.21-19.52.52:744][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.52:744][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.52:745][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.52:745][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.52:745][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.52:745][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.52:745][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.52:745][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.52:745][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.52:745][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.52:745][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.52:745][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.52:745][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.52:745][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.52:745][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.52:745][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.52:745][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.52:745][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.52:746][267]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.Landscape_2.RootComponent0) Trying to register component with IsValid() == false. Aborting.
+[2026.06.21-19.52.59:492][999]Cmd: EDIT COPY
+[2026.06.21-19.52.59:942][ 53]Cmd: EDIT PASTE
+[2026.06.21-19.53.06:433][783]Cmd: TRANSACTION UNDO
+[2026.06.21-19.53.06:433][783]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.53.21:880][507]Cmd: EDIT COPY
+[2026.06.21-19.53.22:164][541]Cmd: EDIT PASTE
+[2026.06.21-19.53.32:035][601]Cmd: SELECT NONE
+[2026.06.21-19.53.47:372][432]Cmd: TRANSACTION UNDO
+[2026.06.21-19.53.47:372][432]LogEditorTransaction: Undo Select None
+[2026.06.21-19.53.48:409][499]Cmd: TRANSACTION UNDO
+[2026.06.21-19.53.48:409][499]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.53.48:981][564]Cmd: TRANSACTION UNDO
+[2026.06.21-19.53.48:981][564]LogEditorTransaction: Undo Move Elements
+[2026.06.21-19.53.49:693][646]Cmd: TRANSACTION UNDO
+[2026.06.21-19.53.49:693][646]LogEditorTransaction: Undo Paste
+[2026.06.21-19.53.51:153][813]Cmd: TRANSACTION UNDO
+[2026.06.21-19.53.51:153][813]LogEditorTransaction: Undo Clicking on Elements
+[2026.06.21-19.53.53:359][ 24]Cmd: TRANSACTION UNDO
+[2026.06.21-19.53.53:359][ 24]LogEditorTransaction: Undo Paste
+[2026.06.21-19.53.55:261][244]Cmd: SELECT NONE
+[2026.06.21-19.54.21:482][258]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/MI_Decal_CorruptionVein_Branch_01.MI_Decal_CorruptionVein_Branch_01
+[2026.06.21-19.54.21:483][258]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_24
+[2026.06.21-19.55.24:427][143]Cmd: EDIT COPY
+[2026.06.21-19.55.24:691][174]Cmd: EDIT PASTE
+[2026.06.21-19.55.34:154][248]Cmd: SELECT NONE
+[2026.06.21-19.57.34:090][720]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2026.06.21-19.57.34:150][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2026.06.21-19.57.34:195][720]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B.BP_CorruptionSource_B
+[2026.06.21-19.57.34:195][720]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2026.06.21-19.57.34:476][720]LogAutomationController: Ignoring very large delta of 18.08 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.06.21-19.57.34:477][720]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10438.188477
+[2026.06.21-19.57.34:723][735]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.21-19.57.34:724][735]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10438.423828, Update Interval: 338.272034
+[2026.06.21-19.57.36:122][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.06.21-19.57.36:127][899]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.21-19.57.36:216][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.06.21-19.57.36:280][899]LogSavePackage: Moving output files for package: /Game/Maps/L_PCG_Stylescape_Prototype_01
+[2026.06.21-19.57.36:281][899]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_PCG_Stylescape_Prototype_0141179003448E6CCC815B81A6870E3D96.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_PCG_Stylescape_Prototype_01.umap'
+[2026.06.21-19.57.36:292][899]LogFileHelpers: Saving map 'L_PCG_Stylescape_Prototype_01' took 0.115
+[2026.06.21-19.57.36:292][899]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/MI_Decal_CorruptionVein_Branch_01] ([1] browsable assets)...
+[2026.06.21-19.57.36:307][899]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/MI_Decal_CorruptionVein_Branch_01.MI_Decal_CorruptionVein_Branch_01]
+[2026.06.21-19.57.36:307][899]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/MI_Decal_CorruptionVein_Branch_01]
+[2026.06.21-19.57.36:325][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.06.21-19.57.36:341][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.06.21-19.57.36:344][899]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/MI_Decal_CorruptionVein_Branch_01
+[2026.06.21-19.57.36:344][899]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_Decal_CorruptionVein_Branch_0FE54130B4BF1F0E55BADE48F0D9EABA7.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/MI_Decal_CorruptionVein_Branch_01.uasset'
+[2026.06.21-19.57.36:345][899]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B] ([2] browsable assets)...
+[2026.06.21-19.57.36:346][899]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2026.06.21-19.57.36:357][899]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B.BP_CorruptionSource_B]
+[2026.06.21-19.57.36:357][899]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B]
+[2026.06.21-19.57.36:360][899]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B
+[2026.06.21-19.57.36:360][899]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_CorruptionSource_B91EF41F64E81FB1FB10FAA9739A08C09.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B.uasset'
+[2026.06.21-19.57.36:370][899]LogFileHelpers: InternalPromptForCheckoutAndSave took 243.371 ms (total: 3.57 sec)
+[2026.06.21-19.57.36:426][899]LogContentValidation: Display: Starting to validate 3 assets
+[2026.06.21-19.57.36:426][899]LogContentValidation: Enabled validators:
+[2026.06.21-19.57.36:426][899]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.21-19.57.36:426][899]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.21-19.57.36:426][899]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.21-19.57.36:426][899]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.21-19.57.36:426][899]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.21-19.57.36:426][899]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.21-19.57.36:427][899]AssetCheck: /Game/Maps/L_PCG_Stylescape_Prototype_01 Validating asset
+[2026.06.21-19.57.36:427][899]AssetCheck: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/MI_Decal_CorruptionVein_Branch_01 Validating asset
+[2026.06.21-19.57.36:427][899]AssetCheck: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B Validating asset
+[2026.06.21-19.57.52:199][701]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.BP_CorruptionSource_B:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B.PackageMetaData'
+[2026.06.21-19.57.52:199][701]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.SKEL_BP_CorruptionSource_B_C' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B.PackageMetaData'
+[2026.06.21-19.57.52:200][701]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.BP_CorruptionSource_B_C' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B.PackageMetaData'
+[2026.06.21-19.57.52:200][701]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.BP_CorruptionSource_B:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B.PackageMetaData'
+[2026.06.21-19.57.52:200][701]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.BP_CorruptionSource_B:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B.PackageMetaData'
+[2026.06.21-19.57.52:200][701]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.BP_CorruptionSource_B:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B.PackageMetaData'
+[2026.06.21-19.57.52:200][701]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.SKEL_BP_CorruptionSource_B_C:ReceiveBeginPlay' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B.PackageMetaData'
+[2026.06.21-19.57.52:200][701]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.SKEL_BP_CorruptionSource_B_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B.PackageMetaData'
+[2026.06.21-19.57.52:200][701]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.SKEL_BP_CorruptionSource_B_C:ReceiveTick' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B.PackageMetaData'
+[2026.06.21-19.57.52:200][701]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.SKEL_BP_CorruptionSource_B_C:UserConstructionScript' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B.PackageMetaData'
+[2026.06.21-19.57.52:227][701]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.21-19.57.52:227][701]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B] ([2] browsable assets)...
+[2026.06.21-19.57.52:227][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B]
+[2026.06.21-19.57.52:231][701]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B
+[2026.06.21-19.57.52:231][701]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_CorruptionSource_B2C529A2E485705C93BDCC49A6821C783.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.uasset'
+[2026.06.21-19.57.52:235][701]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B] ([5] browsable assets)...
+[2026.06.21-19.57.52:235][701]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B]
+[2026.06.21-19.57.52:236][701]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B
+[2026.06.21-19.57.52:236][701]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_CorruptionSource_BD091659B4838EC3EAB2C74915E6B61BA.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B.uasset'
+[2026.06.21-19.57.52:238][701]LogFileHelpers: InternalPromptForCheckoutAndSave took 10.513 ms (total: 3.58 sec)
+[2026.06.21-19.57.52:251][701]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2026.06.21-19.57.52:252][701]LogContentValidation: Display: Starting to validate 4 assets
+[2026.06.21-19.57.52:252][701]LogContentValidation: Enabled validators:
+[2026.06.21-19.57.52:252][701]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.21-19.57.52:252][701]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.21-19.57.52:252][701]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.21-19.57.52:252][701]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.21-19.57.52:252][701]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.21-19.57.52:252][701]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.21-19.57.52:252][701]AssetCheck: /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B Validating asset
+[2026.06.21-19.57.52:252][701]AssetCheck: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B Validating asset
+[2026.06.21-19.57.52:252][701]AssetCheck: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B Validating asset
+[2026.06.21-19.57.52:252][701]AssetCheck: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_B Validating asset
+[2026.06.21-19.57.57:353][301]LogContentBrowser: Attempting asset rename: BP_CorruptionSource -> BP_CorruptionSource_A
+[2026.06.21-19.57.57:418][301]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_A.BP_CorruptionSource_A_C' ref from Metadata '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource.PackageMetaData'
+[2026.06.21-19.57.57:418][301]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_A.SKEL_BP_CorruptionSource_A_C' ref from Metadata '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource.PackageMetaData'
+[2026.06.21-19.57.57:418][301]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_A.BP_CorruptionSource_A:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource.PackageMetaData'
+[2026.06.21-19.57.57:418][301]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_A.BP_CorruptionSource_A:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource.PackageMetaData'
+[2026.06.21-19.57.57:418][301]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_A.BP_CorruptionSource_A:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource.PackageMetaData'
+[2026.06.21-19.57.57:418][301]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_A.BP_CorruptionSource_A:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource.PackageMetaData'
+[2026.06.21-19.57.57:418][301]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_A.SKEL_BP_CorruptionSource_A_C:UserConstructionScript' ref from Metadata '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource.PackageMetaData'
+[2026.06.21-19.57.57:418][301]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_A.SKEL_BP_CorruptionSource_A_C:ReceiveTick' ref from Metadata '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource.PackageMetaData'
+[2026.06.21-19.57.57:418][301]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_A.SKEL_BP_CorruptionSource_A_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource.PackageMetaData'
+[2026.06.21-19.57.57:418][301]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_A.SKEL_BP_CorruptionSource_A_C:ReceiveBeginPlay' ref from Metadata '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource.PackageMetaData'
+[2026.06.21-19.57.57:445][301]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.21-19.57.57:445][301]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_A] ([2] browsable assets)...
+[2026.06.21-19.57.57:446][301]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_27
+[2026.06.21-19.57.57:457][301]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_A.BP_CorruptionSource_A]
+[2026.06.21-19.57.57:457][301]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_A]
+[2026.06.21-19.57.57:460][301]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_A
+[2026.06.21-19.57.57:460][301]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_CorruptionSource_A1F0246C04AC8D3ED565605BFB961F124.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_A.uasset'
+[2026.06.21-19.57.57:464][301]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource] ([5] browsable assets)...
+[2026.06.21-19.57.57:464][301]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource]
+[2026.06.21-19.57.57:465][301]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource
+[2026.06.21-19.57.57:465][301]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_CorruptionSource5B3280B84E978D773B759FAD67487484.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource.uasset'
+[2026.06.21-19.57.57:467][301]LogFileHelpers: InternalPromptForCheckoutAndSave took 21.493 ms (total: 3.61 sec)
+[2026.06.21-19.57.57:526][301]LogContentValidation: Display: Starting to validate 4 assets
+[2026.06.21-19.57.57:526][301]LogContentValidation: Enabled validators:
+[2026.06.21-19.57.57:526][301]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.21-19.57.57:526][301]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.21-19.57.57:527][301]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.21-19.57.57:527][301]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.21-19.57.57:527][301]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.21-19.57.57:527][301]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.21-19.57.57:527][301]AssetCheck: /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_A Validating asset
+[2026.06.21-19.57.57:527][301]AssetCheck: /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource Validating asset
+[2026.06.21-19.57.57:527][301]AssetCheck: /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource Validating asset
+[2026.06.21-19.57.57:527][301]AssetCheck: /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource Validating asset
+[2026.06.21-19.57.58:371][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.06.21-19.58.07:389][419]Cmd: DELETE
+[2026.06.21-19.58.07:389][419]Cmd: ACTOR DELETE
+[2026.06.21-19.58.07:403][419]LogEditorActor: Deleted Actor: BP_CorruptionSource_A_C
+[2026.06.21-19.58.07:422][419]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2026.06.21-19.58.07:427][419]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2026.06.21-19.58.10:073][714]Cmd: DELETE
+[2026.06.21-19.58.10:073][714]Cmd: ACTOR DELETE
+[2026.06.21-19.58.10:084][714]LogEditorActor: Deleted Actor: BP_CorruptionSource_A_C
+[2026.06.21-19.58.10:103][714]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2026.06.21-19.58.10:106][714]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2026.06.21-19.58.12:947][ 36]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.BP_CorruptionSource_B_C
+[2026.06.21-19.58.12:947][ 36]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.BP_CorruptionSource_B_C
+[2026.06.21-19.58.12:950][ 36]LogActorFactory: Actor Factory spawned Blueprint /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.BP_CorruptionSource_B as actor: BP_CorruptionSource_B_C /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.BP_CorruptionSource_B_C_1
+[2026.06.21-19.58.12:951][ 36]LogActorFactory: Actor Factory spawned Blueprint /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.BP_CorruptionSource_B as actor: BP_CorruptionSource_B_C /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.BP_CorruptionSource_B_C_1
+[2026.06.21-19.58.13:818][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.06.21-19.58.13:823][127]LogEditorActor: Deleted 0 Actors (0.021 secs)
+[2026.06.21-19.58.13:827][127]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.BP_CorruptionSource_B_C
+[2026.06.21-19.58.13:827][127]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.BP_CorruptionSource_B_C
+[2026.06.21-19.58.13:828][127]LogActorFactory: Actor Factory spawned Blueprint /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.BP_CorruptionSource_B as actor: BP_CorruptionSource_B_C /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.BP_CorruptionSource_B_C_2
+[2026.06.21-19.58.13:830][127]LogActorFactory: Actor Factory spawned Blueprint /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_B.BP_CorruptionSource_B as actor: BP_CorruptionSource_B_C /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.BP_CorruptionSource_B_C_2
+[2026.06.21-19.58.14:422][194]Cmd: SELECT NONE
+[2026.06.21-20.02.50:812][282]Cmd: EDIT COPY
+[2026.06.21-20.02.51:095][316]Cmd: EDIT PASTE
+[2026.06.21-20.03.44:970][502]Cmd: DELETE
+[2026.06.21-20.03.44:970][502]Cmd: ACTOR DELETE
+[2026.06.21-20.03.44:983][502]LogEditorActor: Deleted Actor: DecalActor
+[2026.06.21-20.03.45:011][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.06.21-20.03.45:025][502]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2026.06.21-20.03.52:857][430]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10816.582031
+[2026.06.21-20.03.53:001][447]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.21-20.03.53:001][447]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10816.714844, Update Interval: 325.620911
+[2026.06.21-20.05.29:241][445]Cmd: SELECT NONE
+[2026.06.21-20.05.29:993][521]LogDerivedDataCache: C:/Users/psalm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.06.21-20.05.41:398][751]Cmd: DELETE
+[2026.06.21-20.05.41:398][751]Cmd: ACTOR DELETE
+[2026.06.21-20.05.41:412][751]LogEditorActor: Deleted Actor: Landscape
+[2026.06.21-20.05.41:491][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.06.21-20.05.41:499][751]LogEditorActor: Deleted 1 Actors (0.101 secs)
+[2026.06.21-20.07.27:956][943]Cmd: EDIT COPY
+[2026.06.21-20.07.28:194][971]Cmd: EDIT PASTE
+[2026.06.21-20.07.36:008][893]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2026.06.21-20.07.36:059][893]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/L_PCG_Stylescape_Prototype_01_Auto7
+[2026.06.21-20.07.36:059][893]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_PCG_Stylescape_Prototype_01_Au4799FA66485598BCA202CFB6FF5054C7.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/Autosaves/Game/Maps/L_PCG_Stylescape_Prototype_01_Auto7.umap'
+[2026.06.21-20.07.36:061][893]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/L_PCG_Stylescape_Prototype_01' took 0.071
+[2026.06.21-20.07.36:061][893]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.071
+[2026.06.21-20.07.48:439][346]Cmd: TRANSACTION UNDO
+[2026.06.21-20.07.48:439][346]LogEditorTransaction: Undo Clicking on Elements
+[2026.06.21-20.07.49:127][369]Cmd: TRANSACTION UNDO
+[2026.06.21-20.07.49:127][369]LogEditorTransaction: Undo Edit Decal Material
+[2026.06.21-20.07.49:917][456]Cmd: SELECT NONE
+[2026.06.21-20.09.30:820][323]Cmd: EDIT COPY
+[2026.06.21-20.09.31:919][454]Cmd: EDIT PASTE
+[2026.06.21-20.10.25:628][770]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2026.06.21-20.10.25:669][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.06.21-20.10.25:710][770]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C.BP_CorruptionSource_C
+[2026.06.21-20.10.25:710][770]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_28
+[2026.06.21-20.10.26:004][770]LogAutomationController: Ignoring very large delta of 16.94 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.06.21-20.10.26:004][770]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11209.882812
+[2026.06.21-20.10.26:324][799]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.21-20.10.26:324][799]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11210.191406, Update Interval: 336.146118
+[2026.06.21-20.10.27:100][891]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_29
+[2026.06.21-20.10.30:852][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.06.21-20.10.30:857][318]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.21-20.10.30:950][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.06.21-20.10.30:997][318]LogSavePackage: Moving output files for package: /Game/Maps/L_PCG_Stylescape_Prototype_01
+[2026.06.21-20.10.30:998][318]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_PCG_Stylescape_Prototype_01A97223C34FC2C66A91C651B07A823872.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_PCG_Stylescape_Prototype_01.umap'
+[2026.06.21-20.10.31:009][318]LogFileHelpers: Saving map 'L_PCG_Stylescape_Prototype_01' took 0.099
+[2026.06.21-20.10.31:009][318]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C] ([2] browsable assets)...
+[2026.06.21-20.10.31:015][318]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C.BP_CorruptionSource_C]
+[2026.06.21-20.10.31:015][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C]
+[2026.06.21-20.10.31:019][318]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C
+[2026.06.21-20.10.31:019][318]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_CorruptionSource_C1C443E8848CCA1120F006CAC16BC6514.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C.uasset'
+[2026.06.21-20.10.31:028][318]LogFileHelpers: InternalPromptForCheckoutAndSave took 171.016 ms (total: 3.78 sec)
+[2026.06.21-20.10.31:076][318]LogContentValidation: Display: Starting to validate 2 assets
+[2026.06.21-20.10.31:076][318]LogContentValidation: Enabled validators:
+[2026.06.21-20.10.31:076][318]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.21-20.10.31:076][318]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.21-20.10.31:076][318]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.21-20.10.31:076][318]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.21-20.10.31:076][318]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.21-20.10.31:077][318]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.21-20.10.31:077][318]AssetCheck: /Game/Maps/L_PCG_Stylescape_Prototype_01 Validating asset
+[2026.06.21-20.10.31:077][318]AssetCheck: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C Validating asset
+[2026.06.21-20.10.33:932][612]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.BP_CorruptionSource_C:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C.PackageMetaData'
+[2026.06.21-20.10.33:932][612]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.SKEL_BP_CorruptionSource_C_C' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C.PackageMetaData'
+[2026.06.21-20.10.33:932][612]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.BP_CorruptionSource_C_C' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C.PackageMetaData'
+[2026.06.21-20.10.33:932][612]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.BP_CorruptionSource_C:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C.PackageMetaData'
+[2026.06.21-20.10.33:932][612]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.BP_CorruptionSource_C:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C.PackageMetaData'
+[2026.06.21-20.10.33:932][612]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.BP_CorruptionSource_C:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C.PackageMetaData'
+[2026.06.21-20.10.33:932][612]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.SKEL_BP_CorruptionSource_C_C:ReceiveBeginPlay' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C.PackageMetaData'
+[2026.06.21-20.10.33:932][612]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.SKEL_BP_CorruptionSource_C_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C.PackageMetaData'
+[2026.06.21-20.10.33:932][612]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.SKEL_BP_CorruptionSource_C_C:ReceiveTick' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C.PackageMetaData'
+[2026.06.21-20.10.33:932][612]LogMetaData: Removing '/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.SKEL_BP_CorruptionSource_C_C:UserConstructionScript' ref from Metadata '/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C.PackageMetaData'
+[2026.06.21-20.10.33:956][612]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.21-20.10.33:956][612]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C] ([2] browsable assets)...
+[2026.06.21-20.10.33:956][612]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C]
+[2026.06.21-20.10.33:959][612]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C
+[2026.06.21-20.10.33:959][612]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_CorruptionSource_C8C4EC20749595BA12C1DF3B4E143516E.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.uasset'
+[2026.06.21-20.10.33:964][612]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C] ([5] browsable assets)...
+[2026.06.21-20.10.33:964][612]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C]
+[2026.06.21-20.10.33:965][612]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C
+[2026.06.21-20.10.33:965][612]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_CorruptionSource_C89E69D7342F1994F160B7E8A66BB8767.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C.uasset'
+[2026.06.21-20.10.33:967][612]LogFileHelpers: InternalPromptForCheckoutAndSave took 10.434 ms (total: 3.79 sec)
+[2026.06.21-20.10.33:981][612]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2026.06.21-20.10.33:981][612]LogContentValidation: Display: Starting to validate 4 assets
+[2026.06.21-20.10.33:981][612]LogContentValidation: Enabled validators:
+[2026.06.21-20.10.33:982][612]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.21-20.10.33:982][612]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.21-20.10.33:982][612]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.21-20.10.33:982][612]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.21-20.10.33:982][612]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.21-20.10.33:982][612]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.21-20.10.33:982][612]AssetCheck: /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C Validating asset
+[2026.06.21-20.10.33:982][612]AssetCheck: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C Validating asset
+[2026.06.21-20.10.33:982][612]AssetCheck: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C Validating asset
+[2026.06.21-20.10.33:982][612]AssetCheck: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/MajorCorruptionSource/Materials/BP_CorruptionSource_C Validating asset
+[2026.06.21-20.10.42:231][559]Cmd: DELETE
+[2026.06.21-20.10.42:231][559]Cmd: ACTOR DELETE
+[2026.06.21-20.10.42:241][559]LogEditorActor: Deleted Actor: BP_CorruptionSource_C_C
+[2026.06.21-20.10.42:283][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.06.21-20.10.42:287][559]LogEditorActor: Deleted 1 Actors (0.056 secs)
+[2026.06.21-20.11.10:822][728]Cmd: TRANSACTION UNDO
+[2026.06.21-20.11.10:822][728]LogEditorTransaction: Undo Set Rotation
+[2026.06.21-20.11.11:650][769]Cmd: TRANSACTION UNDO
+[2026.06.21-20.11.11:650][769]LogEditorTransaction: Undo Rotate Elements
+[2026.06.21-20.11.42:098][170]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.BP_CorruptionSource_C_C
+[2026.06.21-20.11.42:098][170]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.BP_CorruptionSource_C_C
+[2026.06.21-20.11.42:101][170]LogActorFactory: Actor Factory spawned Blueprint /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.BP_CorruptionSource_C as actor: BP_CorruptionSource_C_C /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.BP_CorruptionSource_C_C_1
+[2026.06.21-20.11.42:103][170]LogActorFactory: Actor Factory spawned Blueprint /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.BP_CorruptionSource_C as actor: BP_CorruptionSource_C_C /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.BP_CorruptionSource_C_C_1
+[2026.06.21-20.11.44:511][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.06.21-20.11.44:523][372]LogEditorActor: Deleted 0 Actors (0.050 secs)
+[2026.06.21-20.11.44:527][372]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.BP_CorruptionSource_C_C
+[2026.06.21-20.11.44:527][372]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.BP_CorruptionSource_C_C
+[2026.06.21-20.11.44:530][372]LogActorFactory: Actor Factory spawned Blueprint /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.BP_CorruptionSource_C as actor: BP_CorruptionSource_C_C /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.BP_CorruptionSource_C_C_2
+[2026.06.21-20.11.44:533][372]LogActorFactory: Actor Factory spawned Blueprint /Game/Expirements/PCG_Prototype/Blueprints/BP_CorruptionSource_C.BP_CorruptionSource_C as actor: BP_CorruptionSource_C_C /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01:PersistentLevel.BP_CorruptionSource_C_C_2
+[2026.06.21-20.12.31:424][579]Cmd: TRANSACTION UNDO
+[2026.06.21-20.12.31:424][579]LogEditorTransaction: Undo Clicking on Elements
+[2026.06.21-20.12.31:843][586]Cmd: TRANSACTION UNDO
+[2026.06.21-20.12.31:843][586]LogEditorTransaction: Undo Move Elements
+[2026.06.21-20.12.32:210][612]Cmd: TRANSACTION UNDO
+[2026.06.21-20.12.32:210][612]LogEditorTransaction: Undo Move Elements
+[2026.06.21-20.12.32:596][650]Cmd: TRANSACTION UNDO
+[2026.06.21-20.12.32:596][650]LogEditorTransaction: Undo Move Elements
+[2026.06.21-20.12.33:024][693]Cmd: TRANSACTION UNDO
+[2026.06.21-20.12.33:024][693]LogEditorTransaction: Undo Clicking on Elements
+[2026.06.21-20.12.33:569][747]Cmd: TRANSACTION UNDO
+[2026.06.21-20.12.33:569][747]LogEditorTransaction: Undo Clicking on Elements
+[2026.06.21-20.12.34:106][801]Cmd: TRANSACTION UNDO
+[2026.06.21-20.12.34:106][801]LogEditorTransaction: Undo Move Elements
+[2026.06.21-20.12.45:613][ 38]Cmd: DELETE
+[2026.06.21-20.12.45:613][ 38]Cmd: ACTOR DELETE
+[2026.06.21-20.12.45:623][ 38]LogEditorActor: Deleted Actor: Landscape
+[2026.06.21-20.12.45:630][ 38]LogEditorActor: Deleted Actor: BP_CorruptionSource_A_C
+[2026.06.21-20.12.45:631][ 38]LogEditorActor: Deleted Actor: BP_CorruptionSource_A_C
+[2026.06.21-20.12.45:663][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.06.21-20.12.45:676][ 38]LogEditorActor: Deleted 3 Actors (0.063 secs)
+[2026.06.21-20.12.46:551][ 91]Cmd: TRANSACTION UNDO
+[2026.06.21-20.12.46:551][ 91]LogEditorTransaction: Undo Delete Elements
+[2026.06.21-20.12.48:006][204]Cmd: SELECT NONE
+[2026.06.21-20.12.52:333][714]Cmd: DELETE
+[2026.06.21-20.12.52:333][714]Cmd: ACTOR DELETE
+[2026.06.21-20.12.52:345][714]LogEditorActor: Deleted Actor: BP_CorruptionSource_A_C
+[2026.06.21-20.12.52:346][714]LogEditorActor: Deleted Actor: BP_CorruptionSource_A_C
+[2026.06.21-20.12.52:370][714]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2026.06.21-20.12.52:376][714]LogEditorActor: Deleted 2 Actors (0.043 secs)
+[2026.06.21-20.12.55:155][ 42]Cmd: SELECT NONE
+[2026.06.21-20.13.02:085][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2026.06.21-20.13.02:091][830]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.21-20.13.02:187][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.06.21-20.13.02:231][830]LogSavePackage: Moving output files for package: /Game/Maps/L_PCG_Stylescape_Prototype_01
+[2026.06.21-20.13.02:231][830]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_PCG_Stylescape_Prototype_01B8C6A39F47F80988DC0A46BA94A0B0C1.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_PCG_Stylescape_Prototype_01.umap'
+[2026.06.21-20.13.02:243][830]LogFileHelpers: Saving map 'L_PCG_Stylescape_Prototype_01' took 0.095
+[2026.06.21-20.13.02:249][830]LogFileHelpers: InternalPromptForCheckoutAndSave took 158.076 ms (total: 3.94 sec)
+[2026.06.21-20.13.02:280][830]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.21-20.13.02:280][830]LogContentValidation: Enabled validators:
+[2026.06.21-20.13.02:280][830]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.21-20.13.02:280][830]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.21-20.13.02:280][830]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.21-20.13.02:280][830]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.21-20.13.02:281][830]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.21-20.13.02:281][830]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.21-20.13.02:281][830]AssetCheck: /Game/Maps/L_PCG_Stylescape_Prototype_01 Validating asset
+[2026.06.21-20.13.02:750][877]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.06.21-20.13.02:759][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.06.21-20.13.02:759][877]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.21-20.13.02:770][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010068s)
+[2026.06.21-20.13.02:770][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 to /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 (0.010212s)
+[2026.06.21-20.13.02:789][877]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.06.21-20.13.02:791][877]LogChaosDD: Creating Chaos Debug Draw Scene for world L_PCG_Stylescape_Prototype_01
+[2026.06.21-20.13.02:792][877]LogPlayLevel: PIE: World Init took: (0.001233s)
+[2026.06.21-20.13.02:792][877]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2026.06.21-20.13.02:792][877]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.06.21-20.13.02:792][877]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.06.21-20.13.02:793][877]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.06.21-20.13.02:793][877]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.06.21-20.13.02:793][877]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.06.21-20.13.02:793][877]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.06.21-20.13.02:793][877]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.06.21-20.13.02:793][877]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.06.21-20.13.02:793][877]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.06.21-20.13.02:793][877]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.06.21-20.13.02:793][877]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.06.21-20.13.02:795][877]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.06.21-20.13.02:813][877]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.06.21-20.13.02:813][877]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.06.21-20.13.02:813][877]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.06.21-20.13.02:813][877]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.06.21-20.13.02:814][877]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2026.06.21-20.13.02:814][877]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2026.06.21-20.13.02:815][877]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2026.06.21-20.13.02:815][877]LogInit: FAudioDevice initialized with ID 4.
+[2026.06.21-20.13.02:815][877]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2026.06.21-20.13.02:815][877]LogAudio: Display: Audio Device (ID: 4) registered with world 'L_PCG_Stylescape_Prototype_01'.
+[2026.06.21-20.13.02:815][877]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2026.06.21-20.13.02:818][877]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.06.21-20.13.02:824][877]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 up for play (max tick rate 0) at 2026.06.21-13.13.02
+[2026.06.21-20.13.02:825][877]LogWorld: Bringing up level for play took: 0.006107
+[2026.06.21-20.13.02:826][877]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2026.06.21-20.13.02:827][877]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.06.21-20.13.02:831][877]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.06.21-20.13.02:832][877]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.06.21-20.13.02:832][877]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.06.21-20.13.02:832][877]PIE: Server logged in
+[2026.06.21-20.13.02:833][877]PIE: Play in editor total start time 0.075 seconds.
+[2026.06.21-20.16.45:515][795]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11589.359375
+[2026.06.21-20.16.46:516][798]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.21-20.16.46:516][798]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11590.026367, Update Interval: 325.282135
+[2026.06.21-20.18.34:711][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.21-20.18.34:711][388]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.21-20.18.34:712][388]LogWorld: UWorld::CleanupWorld for L_PCG_Stylescape_Prototype_01, bSessionEnded=true, bCleanupResources=true
+[2026.06.21-20.18.34:712][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.21-20.18.34:716][388]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.06.21-20.18.34:724][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.21-20.18.34:742][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.21-20.18.34:742][388]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2026.06.21-20.18.34:743][388]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2026.06.21-20.18.34:745][388]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2026.06.21-20.18.34:752][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2026.06.21-20.18.34:785][389]LogPlayLevel: Display: Destroying online subsystem :Context_33
