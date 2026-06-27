@@ -4255,3 +4255,487 @@ FPackageName: Unable to identify a valid mount point associated with skipped pac
 [2026.06.27-20.24.34:724][841]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9699.585938
 [2026.06.27-20.24.35:723][844]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.06.27-20.24.35:723][844]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9700.251953, Update Interval: 329.182404
+[2026.06.27-20.29.32:858][909]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2026.06.27-20.29.32:867][909]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.27-20.29.32:978][909]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2026.06.27-20.29.33:022][909]LogSavePackage: Moving output files for package: /Game/Maps/L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.29.33:023][909]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_PCG_Stylescape_Prototype_01D32E3BD0424EE3F14AD77D95C921E0E5.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_PCG_Stylescape_Prototype_01.umap'
+[2026.06.27-20.29.33:035][909]LogFileHelpers: Saving map 'L_PCG_Stylescape_Prototype_01' took 0.108
+[2026.06.27-20.29.33:036][909]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph] ([1] browsable assets)...
+[2026.06.27-20.29.33:036][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph]
+[2026.06.27-20.29.33:122][909]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph
+[2026.06.27-20.29.33:123][909]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/PCG_Graph_MainGraph74D5D9224B42EEFEAF731B96E49E068B.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph.uasset'
+[2026.06.27-20.29.33:138][909]LogFileHelpers: InternalPromptForCheckoutAndSave took 270.855 ms (total: 16.0 sec)
+[2026.06.27-20.29.33:189][909]LogContentValidation: Display: Starting to validate 2 assets
+[2026.06.27-20.29.33:190][909]LogContentValidation: Enabled validators:
+[2026.06.27-20.29.33:190][909]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.27-20.29.33:190][909]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.27-20.29.33:190][909]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.27-20.29.33:190][909]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.27-20.29.33:190][909]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.27-20.29.33:190][909]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.27-20.29.33:190][909]AssetCheck: /Game/Maps/L_PCG_Stylescape_Prototype_01 Validating asset
+[2026.06.27-20.29.33:190][909]AssetCheck: /Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph Validating asset
+[2026.06.27-20.29.45:360][310]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2026.06.27-20.29.45:368][310]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.27-20.29.45:407][310]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph] ([1] browsable assets)...
+[2026.06.27-20.29.45:407][310]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph]
+[2026.06.27-20.29.45:493][310]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph
+[2026.06.27-20.29.45:493][310]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/PCG_Graph_MainGraph965DEBC648F273B9BA6830A1BFA7DF95.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph.uasset'
+[2026.06.27-20.29.45:498][310]LogFileHelpers: InternalPromptForCheckoutAndSave took 130.442 ms (total: 16.1 sec)
+[2026.06.27-20.29.45:540][310]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.27-20.29.45:540][310]LogContentValidation: Enabled validators:
+[2026.06.27-20.29.45:540][310]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.27-20.29.45:540][310]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.27-20.29.45:540][310]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.27-20.29.45:540][310]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.27-20.29.45:540][310]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.27-20.29.45:540][310]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.27-20.29.45:540][310]AssetCheck: /Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph Validating asset
+[2026.06.27-20.30.05:194][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2026.06.27-20.30.05:204][500]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.27-20.30.05:258][500]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph] ([1] browsable assets)...
+[2026.06.27-20.30.05:258][500]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph]
+[2026.06.27-20.30.05:344][500]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph
+[2026.06.27-20.30.05:345][500]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/PCG_Graph_MainGraph9A3A419B433573345C72C1ADCFB9D60F.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph.uasset'
+[2026.06.27-20.30.05:349][500]LogFileHelpers: InternalPromptForCheckoutAndSave took 145.570 ms (total: 16.2 sec)
+[2026.06.27-20.30.05:390][500]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.27-20.30.05:390][500]LogContentValidation: Enabled validators:
+[2026.06.27-20.30.05:390][500]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.27-20.30.05:390][500]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.27-20.30.05:390][500]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.27-20.30.05:390][500]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.27-20.30.05:391][500]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.27-20.30.05:391][500]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.27-20.30.05:391][500]AssetCheck: /Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph Validating asset
+[2026.06.27-20.30.21:917][326]LogAssetEditorSubsystem: Opening Asset editor for PCGGraph /Game/Expirements/PCG_Prototype/Graphs/PCG_CorruptionSource_Dressing_MVP.PCG_CorruptionSource_Dressing_MVP
+[2026.06.27-20.30.38:080][174]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.06.27-20.30.38:086][174]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.27-20.30.38:188][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2026.06.27-20.30.38:233][174]LogSavePackage: Moving output files for package: /Game/Maps/L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.30.38:233][174]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_PCG_Stylescape_Prototype_01E3BD5B9249E4588C15B9E59A56B3E0ED.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_PCG_Stylescape_Prototype_01.umap'
+[2026.06.27-20.30.38:246][174]LogFileHelpers: Saving map 'L_PCG_Stylescape_Prototype_01' took 0.105
+[2026.06.27-20.30.38:251][174]LogFileHelpers: InternalPromptForCheckoutAndSave took 165.748 ms (total: 16.4 sec)
+[2026.06.27-20.30.38:307][174]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.27-20.30.38:307][174]LogContentValidation: Enabled validators:
+[2026.06.27-20.30.38:307][174]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.27-20.30.38:307][174]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.27-20.30.38:307][174]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.27-20.30.38:307][174]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.27-20.30.38:307][174]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.27-20.30.38:307][174]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.27-20.30.38:307][174]AssetCheck: /Game/Maps/L_PCG_Stylescape_Prototype_01 Validating asset
+[2026.06.27-20.30.52:710][841]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10077.655273
+[2026.06.27-20.30.52:860][859]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.27-20.30.52:860][859]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10077.796875, Update Interval: 343.184906
+[2026.06.27-20.31.21:977][319]Cmd: TRANSACTION UNDO
+[2026.06.27-20.31.21:977][319]LogEditorTransaction: Undo Edit Core Rock Density
+[2026.06.27-20.31.22:342][321]Cmd: TRANSACTION UNDO
+[2026.06.27-20.31.22:342][321]LogEditorTransaction: Undo Clicking on Elements
+[2026.06.27-20.31.22:581][322]Cmd: TRANSACTION UNDO
+[2026.06.27-20.31.22:581][322]LogEditorTransaction: Undo Create Pin Link
+[2026.06.27-20.31.22:949][323]Cmd: TRANSACTION UNDO
+[2026.06.27-20.31.22:949][323]LogEditorTransaction: Undo Edit Graph
+[2026.06.27-20.32.08:192][514]Cmd: SELECT NONE
+[2026.06.27-20.35.44:619][970]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2026.06.27-20.35.44:627][970]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.27-20.35.44:733][970]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2026.06.27-20.35.44:848][970]LogSavePackage: Moving output files for package: /Game/Maps/L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.35.44:849][970]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_PCG_Stylescape_Prototype_01BFCE30A041F442A95B2BD0A16D37985B.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_PCG_Stylescape_Prototype_01.umap'
+[2026.06.27-20.35.44:862][970]LogFileHelpers: Saving map 'L_PCG_Stylescape_Prototype_01' took 0.180
+[2026.06.27-20.35.44:863][970]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph] ([1] browsable assets)...
+[2026.06.27-20.35.44:863][970]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph]
+[2026.06.27-20.35.44:948][970]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph
+[2026.06.27-20.35.44:948][970]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/PCG_Graph_MainGraph4E702DDF4BD9D7675F4028A5143F9895.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph.uasset'
+[2026.06.27-20.35.44:954][970]LogFileHelpers: InternalPromptForCheckoutAndSave took 327.259 ms (total: 16.7 sec)
+[2026.06.27-20.35.45:013][970]LogContentValidation: Display: Starting to validate 2 assets
+[2026.06.27-20.35.45:014][970]LogContentValidation: Enabled validators:
+[2026.06.27-20.35.45:014][970]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.27-20.35.45:014][970]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.27-20.35.45:014][970]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.27-20.35.45:014][970]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.27-20.35.45:014][970]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.27-20.35.45:014][970]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.27-20.35.45:014][970]AssetCheck: /Game/Maps/L_PCG_Stylescape_Prototype_01 Validating asset
+[2026.06.27-20.35.45:014][970]AssetCheck: /Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph Validating asset
+[2026.06.27-20.35.45:237][992]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.06.27-20.35.45:247][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.06.27-20.35.45:247][992]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.35.45:273][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026209s)
+[2026.06.27-20.35.45:273][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 to /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 (0.026376s)
+[2026.06.27-20.35.45:300][992]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2026.06.27-20.35.45:303][992]LogChaosDD: Creating Chaos Debug Draw Scene for world L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.35.45:305][992]LogPlayLevel: PIE: World Init took: (0.001304s)
+[2026.06.27-20.35.45:305][992]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.06.27-20.35.45:305][992]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.06.27-20.35.45:305][992]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.06.27-20.35.45:305][992]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.06.27-20.35.45:306][992]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.06.27-20.35.45:306][992]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.06.27-20.35.45:306][992]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.06.27-20.35.45:306][992]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.06.27-20.35.45:306][992]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.06.27-20.35.45:306][992]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.06.27-20.35.45:306][992]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.06.27-20.35.45:306][992]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.06.27-20.35.45:308][992]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.06.27-20.35.45:325][992]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.06.27-20.35.45:325][992]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.06.27-20.35.45:325][992]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.06.27-20.35.45:325][992]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.06.27-20.35.45:326][992]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.06.27-20.35.45:326][992]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2026.06.27-20.35.45:328][992]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.06.27-20.35.45:328][992]LogInit: FAudioDevice initialized with ID 3.
+[2026.06.27-20.35.45:328][992]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.06.27-20.35.45:328][992]LogAudio: Display: Audio Device (ID: 3) registered with world 'L_PCG_Stylescape_Prototype_01'.
+[2026.06.27-20.35.45:328][992]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2026.06.27-20.35.45:330][992]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.06.27-20.35.45:338][992]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 up for play (max tick rate 0) at 2026.06.27-13.35.45
+[2026.06.27-20.35.45:339][992]LogWorld: Bringing up level for play took: 0.007444
+[2026.06.27-20.35.45:340][992]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2026.06.27-20.35.45:341][992]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.06.27-20.35.45:346][992]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.06.27-20.35.45:347][992]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.06.27-20.35.45:347][992]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.06.27-20.35.45:347][992]PIE: Server logged in
+[2026.06.27-20.35.45:348][992]PIE: Play in editor total start time 0.102 seconds.
+[2026.06.27-20.35.51:663][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.27-20.35.51:663][729]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.35.51:664][729]LogWorld: UWorld::CleanupWorld for L_PCG_Stylescape_Prototype_01, bSessionEnded=true, bCleanupResources=true
+[2026.06.27-20.35.51:665][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.27-20.35.51:670][729]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.06.27-20.35.51:682][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.27-20.35.51:710][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.27-20.35.51:713][729]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2026.06.27-20.35.51:713][729]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2026.06.27-20.35.51:715][729]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2026.06.27-20.35.51:723][729]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2026.06.27-20.35.51:786][730]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2026.06.27-20.35.56:183][178]Cmd: DELETE
+[2026.06.27-20.35.56:183][178]Cmd: ACTOR DELETE
+[2026.06.27-20.35.56:248][178]LogEditorActor: Deleted Actor: BP_CorruptionSource_D_C
+[2026.06.27-20.35.56:277][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2026.06.27-20.35.56:282][178]LogEditorActor: Deleted 1 Actors (0.098 secs)
+[2026.06.27-20.35.59:723][527]Cmd: DELETE
+[2026.06.27-20.35.59:723][527]Cmd: ACTOR DELETE
+[2026.06.27-20.35.59:785][527]LogEditorActor: Deleted Actor: BP_CorruptionSource_D_C
+[2026.06.27-20.35.59:810][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.06.27-20.35.59:816][527]LogEditorActor: Deleted 1 Actors (0.093 secs)
+[2026.06.27-20.36.32:771][ 17]Cmd: SELECT NONE
+[2026.06.27-20.36.35:519][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.06.27-20.36.35:527][324]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.27-20.36.35:633][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2026.06.27-20.36.35:743][324]LogSavePackage: Moving output files for package: /Game/Maps/L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.36.35:743][324]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_PCG_Stylescape_Prototype_01421E675E49754F015194A18881C41B04.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_PCG_Stylescape_Prototype_01.umap'
+[2026.06.27-20.36.35:758][324]LogFileHelpers: Saving map 'L_PCG_Stylescape_Prototype_01' took 0.175
+[2026.06.27-20.36.35:762][324]LogFileHelpers: InternalPromptForCheckoutAndSave took 235.822 ms (total: 17.0 sec)
+[2026.06.27-20.36.35:815][324]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.27-20.36.35:815][324]LogContentValidation: Enabled validators:
+[2026.06.27-20.36.35:815][324]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.27-20.36.35:815][324]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.27-20.36.35:815][324]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.27-20.36.35:815][324]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.27-20.36.35:815][324]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.27-20.36.35:815][324]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.27-20.36.35:815][324]AssetCheck: /Game/Maps/L_PCG_Stylescape_Prototype_01 Validating asset
+[2026.06.27-20.37.07:191][ 30]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10452.234375
+[2026.06.27-20.37.07:326][ 46]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.27-20.37.07:326][ 46]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10452.359375, Update Interval: 335.752441
+[2026.06.27-20.40.24:356][309]Cmd: SELECT NONE
+[2026.06.27-20.41.03:526][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2026.06.27-20.41.03:534][909]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.27-20.41.03:619][909]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2026.06.27-20.41.03:716][909]LogSavePackage: Moving output files for package: /Game/Maps/L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.41.03:717][909]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_PCG_Stylescape_Prototype_01AB948C8A4BC2F3D00209E08DD874582A.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_PCG_Stylescape_Prototype_01.umap'
+[2026.06.27-20.41.03:730][909]LogFileHelpers: Saving map 'L_PCG_Stylescape_Prototype_01' took 0.159
+[2026.06.27-20.41.03:730][909]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph] ([1] browsable assets)...
+[2026.06.27-20.41.03:730][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph]
+[2026.06.27-20.41.03:818][909]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph
+[2026.06.27-20.41.03:818][909]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/PCG_Graph_MainGraph804F50C54F21A2006F8D1D88D0729850.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph.uasset'
+[2026.06.27-20.41.03:823][909]LogFileHelpers: InternalPromptForCheckoutAndSave took 289.987 ms (total: 17.2 sec)
+[2026.06.27-20.41.03:869][909]LogContentValidation: Display: Starting to validate 2 assets
+[2026.06.27-20.41.03:870][909]LogContentValidation: Enabled validators:
+[2026.06.27-20.41.03:870][909]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.27-20.41.03:870][909]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.27-20.41.03:870][909]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.27-20.41.03:870][909]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.27-20.41.03:870][909]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.27-20.41.03:870][909]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.27-20.41.03:870][909]AssetCheck: /Game/Maps/L_PCG_Stylescape_Prototype_01 Validating asset
+[2026.06.27-20.41.03:870][909]AssetCheck: /Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph Validating asset
+[2026.06.27-20.43.07:152][398]LogMaterial: Display: Material /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk1/M_SnappedTrunk1.M_SnappedTrunk1 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2026.06.27-20.43.07:157][398]LogMaterial: Display: Material /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk2/M_SnappedTrunk2.M_SnappedTrunk2 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2026.06.27-20.43.07:162][398]LogMaterial: Display: Material /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk3/M_SnappedTrunk3.M_SnappedTrunk3 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2026.06.27-20.43.07:168][398]LogMaterial: Display: Material /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk4/M_SnappedTrunk4.M_SnappedTrunk4 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2026.06.27-20.43.10:031][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2026.06.27-20.43.10:039][718]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.27-20.43.10:141][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2026.06.27-20.43.10:241][718]LogSavePackage: Moving output files for package: /Game/Maps/L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.43.10:241][718]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_PCG_Stylescape_Prototype_01151EB50448347339BDCD97B0D92AADF6.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_PCG_Stylescape_Prototype_01.umap'
+[2026.06.27-20.43.10:257][718]LogFileHelpers: Saving map 'L_PCG_Stylescape_Prototype_01' took 0.167
+[2026.06.27-20.43.10:257][718]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph] ([1] browsable assets)...
+[2026.06.27-20.43.10:257][718]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph]
+[2026.06.27-20.43.10:344][718]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph
+[2026.06.27-20.43.10:345][718]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/PCG_Graph_MainGraph51250AE745BBAF212C74B1BB2274A478.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph.uasset'
+[2026.06.27-20.43.10:346][718]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk1/M_SnappedTrunk1] ([1] browsable assets)...
+[2026.06.27-20.43.10:346][718]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk1/M_SnappedTrunk1]
+[2026.06.27-20.43.10:347][718]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk1/M_SnappedTrunk1
+[2026.06.27-20.43.10:347][718]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/M_SnappedTrunk12C14DACE425CA1BF4892789632103B91.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk1/M_SnappedTrunk1.uasset'
+[2026.06.27-20.43.10:348][718]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk2/M_SnappedTrunk2] ([1] browsable assets)...
+[2026.06.27-20.43.10:348][718]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk2/M_SnappedTrunk2]
+[2026.06.27-20.43.10:350][718]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk2/M_SnappedTrunk2
+[2026.06.27-20.43.10:350][718]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/M_SnappedTrunk2874F9E064C53E3347578048B14DA0EDE.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk2/M_SnappedTrunk2.uasset'
+[2026.06.27-20.43.10:351][718]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk3/M_SnappedTrunk3] ([1] browsable assets)...
+[2026.06.27-20.43.10:351][718]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk3/M_SnappedTrunk3]
+[2026.06.27-20.43.10:352][718]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk3/M_SnappedTrunk3
+[2026.06.27-20.43.10:353][718]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/M_SnappedTrunk35F4F514745F51E13E6D0CD9DBC947C33.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk3/M_SnappedTrunk3.uasset'
+[2026.06.27-20.43.10:354][718]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk4/M_SnappedTrunk4] ([1] browsable assets)...
+[2026.06.27-20.43.10:354][718]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk4/M_SnappedTrunk4]
+[2026.06.27-20.43.10:355][718]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk4/M_SnappedTrunk4
+[2026.06.27-20.43.10:355][718]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/M_SnappedTrunk407C103E14D70EA6027F368BED3ED14B9.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk4/M_SnappedTrunk4.uasset'
+[2026.06.27-20.43.10:360][718]LogFileHelpers: InternalPromptForCheckoutAndSave took 321.752 ms (total: 17.6 sec)
+[2026.06.27-20.43.10:422][718]LogContentValidation: Display: Starting to validate 6 assets
+[2026.06.27-20.43.10:422][718]LogContentValidation: Enabled validators:
+[2026.06.27-20.43.10:422][718]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.27-20.43.10:422][718]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.27-20.43.10:422][718]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.27-20.43.10:422][718]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.27-20.43.10:422][718]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.27-20.43.10:422][718]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.27-20.43.10:423][718]AssetCheck: /Game/Maps/L_PCG_Stylescape_Prototype_01 Validating asset
+[2026.06.27-20.43.10:423][718]AssetCheck: /Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph Validating asset
+[2026.06.27-20.43.10:423][718]AssetCheck: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk1/M_SnappedTrunk1 Validating asset
+[2026.06.27-20.43.10:423][718]AssetCheck: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk2/M_SnappedTrunk2 Validating asset
+[2026.06.27-20.43.10:423][718]AssetCheck: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk3/M_SnappedTrunk3 Validating asset
+[2026.06.27-20.43.10:423][718]AssetCheck: /Game/Expirements/PCG_Prototype/GeneratedAssets/GroundFoliage/SnappedTrunks/Trunk4/M_SnappedTrunk4 Validating asset
+[2026.06.27-20.43.15:427][286]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10820.465820
+[2026.06.27-20.43.15:570][303]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.27-20.43.15:570][303]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10820.601562, Update Interval: 330.949432
+[2026.06.27-20.44.47:221][211]LogDerivedDataCache: C:/Users/psalm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.06.27-20.44.58:822][553]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2026.06.27-20.44.58:829][553]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.27-20.44.58:927][553]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2026.06.27-20.44.59:026][553]LogSavePackage: Moving output files for package: /Game/Maps/L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.44.59:027][553]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_PCG_Stylescape_Prototype_01B9CF684549045C165BE458BDDA7C49EC.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_PCG_Stylescape_Prototype_01.umap'
+[2026.06.27-20.44.59:040][553]LogFileHelpers: Saving map 'L_PCG_Stylescape_Prototype_01' took 0.163
+[2026.06.27-20.44.59:040][553]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph] ([1] browsable assets)...
+[2026.06.27-20.44.59:040][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph]
+[2026.06.27-20.44.59:127][553]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph
+[2026.06.27-20.44.59:127][553]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/PCG_Graph_MainGraphF2DC4AD1406F21468D5F39B7FF5B7A18.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph.uasset'
+[2026.06.27-20.44.59:132][553]LogFileHelpers: InternalPromptForCheckoutAndSave took 303.492 ms (total: 17.9 sec)
+[2026.06.27-20.44.59:192][553]LogContentValidation: Display: Starting to validate 2 assets
+[2026.06.27-20.44.59:192][553]LogContentValidation: Enabled validators:
+[2026.06.27-20.44.59:192][553]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.27-20.44.59:192][553]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.27-20.44.59:192][553]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.27-20.44.59:192][553]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.27-20.44.59:192][553]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.27-20.44.59:192][553]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.27-20.44.59:193][553]AssetCheck: /Game/Maps/L_PCG_Stylescape_Prototype_01 Validating asset
+[2026.06.27-20.44.59:193][553]AssetCheck: /Game/Expirements/PCG_Prototype/Graphs/PCG_Graph_MainGraph Validating asset
+[2026.06.27-20.44.59:872][630]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.06.27-20.44.59:882][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.06.27-20.44.59:882][630]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.44.59:904][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022243s)
+[2026.06.27-20.44.59:904][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 to /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 (0.022402s)
+[2026.06.27-20.44.59:931][630]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.06.27-20.44.59:935][630]LogChaosDD: Creating Chaos Debug Draw Scene for world L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.44.59:937][630]LogPlayLevel: PIE: World Init took: (0.001320s)
+[2026.06.27-20.44.59:937][630]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2026.06.27-20.44.59:937][630]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.06.27-20.44.59:937][630]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.06.27-20.44.59:937][630]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.06.27-20.44.59:938][630]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.06.27-20.44.59:938][630]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.06.27-20.44.59:938][630]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.06.27-20.44.59:938][630]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.06.27-20.44.59:938][630]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.06.27-20.44.59:938][630]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.06.27-20.44.59:938][630]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.06.27-20.44.59:938][630]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.06.27-20.44.59:940][630]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.06.27-20.44.59:956][630]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.06.27-20.44.59:956][630]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.06.27-20.44.59:956][630]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.06.27-20.44.59:956][630]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.06.27-20.44.59:957][630]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2026.06.27-20.44.59:957][630]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2026.06.27-20.44.59:959][630]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2026.06.27-20.44.59:959][630]LogInit: FAudioDevice initialized with ID 4.
+[2026.06.27-20.44.59:959][630]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2026.06.27-20.44.59:959][630]LogAudio: Display: Audio Device (ID: 4) registered with world 'L_PCG_Stylescape_Prototype_01'.
+[2026.06.27-20.44.59:959][630]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2026.06.27-20.44.59:961][630]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.06.27-20.44.59:968][630]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 up for play (max tick rate 0) at 2026.06.27-13.44.59
+[2026.06.27-20.44.59:968][630]LogWorld: Bringing up level for play took: 0.007533
+[2026.06.27-20.44.59:970][630]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2026.06.27-20.44.59:971][630]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.06.27-20.44.59:976][630]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.06.27-20.44.59:976][630]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.06.27-20.44.59:976][630]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.06.27-20.44.59:977][630]PIE: Server logged in
+[2026.06.27-20.44.59:978][630]PIE: Play in editor total start time 0.096 seconds.
+[2026.06.27-20.45.36:396][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.27-20.45.36:396][973]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.45.36:397][973]LogWorld: UWorld::CleanupWorld for L_PCG_Stylescape_Prototype_01, bSessionEnded=true, bCleanupResources=true
+[2026.06.27-20.45.36:398][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.27-20.45.36:404][973]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.06.27-20.45.36:416][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.27-20.45.36:441][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.27-20.45.36:444][973]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2026.06.27-20.45.36:444][973]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2026.06.27-20.45.36:446][973]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2026.06.27-20.45.36:454][973]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2026.06.27-20.45.36:513][974]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2026.06.27-20.46.16:975][608]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.06.27-20.46.16:984][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.06.27-20.46.16:984][608]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.46.17:007][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022409s)
+[2026.06.27-20.46.17:007][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 to /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 (0.022549s)
+[2026.06.27-20.46.17:035][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2026.06.27-20.46.17:039][608]LogChaosDD: Creating Chaos Debug Draw Scene for world L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.46.17:040][608]LogPlayLevel: PIE: World Init took: (0.001232s)
+[2026.06.27-20.46.17:041][608]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.06.27-20.46.17:041][608]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.06.27-20.46.17:041][608]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.06.27-20.46.17:041][608]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.06.27-20.46.17:041][608]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.06.27-20.46.17:041][608]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.06.27-20.46.17:041][608]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.06.27-20.46.17:041][608]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.06.27-20.46.17:041][608]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.06.27-20.46.17:041][608]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.06.27-20.46.17:041][608]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.06.27-20.46.17:041][608]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.06.27-20.46.17:043][608]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.06.27-20.46.17:059][608]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.06.27-20.46.17:060][608]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.06.27-20.46.17:060][608]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.06.27-20.46.17:060][608]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.06.27-20.46.17:060][608]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.06.27-20.46.17:060][608]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.06.27-20.46.17:062][608]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.06.27-20.46.17:062][608]LogInit: FAudioDevice initialized with ID 5.
+[2026.06.27-20.46.17:062][608]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.06.27-20.46.17:062][608]LogAudio: Display: Audio Device (ID: 5) registered with world 'L_PCG_Stylescape_Prototype_01'.
+[2026.06.27-20.46.17:062][608]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.06.27-20.46.17:064][608]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.06.27-20.46.17:072][608]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 up for play (max tick rate 0) at 2026.06.27-13.46.17
+[2026.06.27-20.46.17:072][608]LogWorld: Bringing up level for play took: 0.007131
+[2026.06.27-20.46.17:074][608]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2026.06.27-20.46.17:075][608]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.06.27-20.46.17:079][608]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.06.27-20.46.17:079][608]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.06.27-20.46.17:079][608]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.06.27-20.46.17:080][608]PIE: Server logged in
+[2026.06.27-20.46.17:080][608]PIE: Play in editor total start time 0.097 seconds.
+[2026.06.27-20.46.28:288][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.27-20.46.28:288][905]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.46.28:289][905]LogWorld: UWorld::CleanupWorld for L_PCG_Stylescape_Prototype_01, bSessionEnded=true, bCleanupResources=true
+[2026.06.27-20.46.28:290][905]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.27-20.46.28:296][905]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.06.27-20.46.28:308][905]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.27-20.46.28:337][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.27-20.46.28:340][905]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2026.06.27-20.46.28:340][905]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2026.06.27-20.46.28:342][905]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2026.06.27-20.46.28:353][905]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.06.27-20.46.28:417][906]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2026.06.27-20.47.22:140][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2026.06.27-20.47.22:150][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.27-20.47.22:227][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2026.06.27-20.47.22:327][ 87]LogSavePackage: Moving output files for package: /Game/Maps/L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.47.22:328][ 87]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_PCG_Stylescape_Prototype_01B9041319466EC8253A3B4CAC6582481B.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_PCG_Stylescape_Prototype_01.umap'
+[2026.06.27-20.47.22:341][ 87]LogFileHelpers: Saving map 'L_PCG_Stylescape_Prototype_01' took 0.164
+[2026.06.27-20.47.22:341][ 87]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Expirements/PCG_Prototype/Blueprints/CorruptionSources/BP_CorruptionSource_D] ([2] browsable assets)...
+[2026.06.27-20.47.22:357][ 87]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Expirements/PCG_Prototype/Blueprints/CorruptionSources/BP_CorruptionSource_D.BP_CorruptionSource_D]
+[2026.06.27-20.47.22:357][ 87]OBJ SavePackage: Finished generating thumbnails for package [/Game/Expirements/PCG_Prototype/Blueprints/CorruptionSources/BP_CorruptionSource_D]
+[2026.06.27-20.47.22:361][ 87]LogSavePackage: Moving output files for package: /Game/Expirements/PCG_Prototype/Blueprints/CorruptionSources/BP_CorruptionSource_D
+[2026.06.27-20.47.22:361][ 87]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_CorruptionSource_DE888B4574328CECB30E8DFA3B58EC635.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Expirements/PCG_Prototype/Blueprints/CorruptionSources/BP_CorruptionSource_D.uasset'
+[2026.06.27-20.47.22:367][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave took 217.885 ms (total: 18.1 sec)
+[2026.06.27-20.47.22:426][ 87]LogContentValidation: Display: Starting to validate 2 assets
+[2026.06.27-20.47.22:426][ 87]LogContentValidation: Enabled validators:
+[2026.06.27-20.47.22:426][ 87]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.27-20.47.22:426][ 87]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.27-20.47.22:427][ 87]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.27-20.47.22:427][ 87]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.27-20.47.22:427][ 87]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.27-20.47.22:427][ 87]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.27-20.47.22:427][ 87]AssetCheck: /Game/Maps/L_PCG_Stylescape_Prototype_01 Validating asset
+[2026.06.27-20.47.22:427][ 87]AssetCheck: /Game/Expirements/PCG_Prototype/Blueprints/CorruptionSources/BP_CorruptionSource_D Validating asset
+[2026.06.27-20.47.24:603][337]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.06.27-20.47.24:614][337]LogPlayLevel: [PlayLevel] Compiling BP_CorruptionSource_D before play...
+[2026.06.27-20.47.25:395][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.06.27-20.47.25:399][337]LogPlayLevel: PlayLevel: Blueprint regeneration took 786 ms (1 blueprints)
+[2026.06.27-20.47.25:399][337]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.47.25:424][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023619s)
+[2026.06.27-20.47.25:424][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 to /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 (0.023815s)
+[2026.06.27-20.47.25:452][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.06.27-20.47.25:455][337]LogChaosDD: Creating Chaos Debug Draw Scene for world L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.47.25:456][337]LogPlayLevel: PIE: World Init took: (0.001318s)
+[2026.06.27-20.47.25:457][337]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2026.06.27-20.47.25:457][337]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.06.27-20.47.25:457][337]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.06.27-20.47.25:457][337]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.06.27-20.47.25:457][337]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.06.27-20.47.25:457][337]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.06.27-20.47.25:457][337]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.06.27-20.47.25:457][337]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.06.27-20.47.25:457][337]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.06.27-20.47.25:457][337]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.06.27-20.47.25:457][337]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.06.27-20.47.25:457][337]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.06.27-20.47.25:460][337]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.06.27-20.47.25:476][337]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.06.27-20.47.25:476][337]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.06.27-20.47.25:476][337]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.06.27-20.47.25:476][337]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.06.27-20.47.25:476][337]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2026.06.27-20.47.25:476][337]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2026.06.27-20.47.25:478][337]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2026.06.27-20.47.25:478][337]LogInit: FAudioDevice initialized with ID 6.
+[2026.06.27-20.47.25:478][337]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2026.06.27-20.47.25:478][337]LogAudio: Display: Audio Device (ID: 6) registered with world 'L_PCG_Stylescape_Prototype_01'.
+[2026.06.27-20.47.25:478][337]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2026.06.27-20.47.25:481][337]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.06.27-20.47.25:489][337]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01.L_PCG_Stylescape_Prototype_01 up for play (max tick rate 0) at 2026.06.27-13.47.25
+[2026.06.27-20.47.25:489][337]LogWorld: Bringing up level for play took: 0.007508
+[2026.06.27-20.47.25:490][337]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2026.06.27-20.47.25:491][337]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.06.27-20.47.25:496][337]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.06.27-20.47.25:496][337]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.06.27-20.47.25:496][337]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.06.27-20.47.25:497][337]PIE: Server logged in
+[2026.06.27-20.47.25:497][337]PIE: Play in editor total start time 0.885 seconds.
+[2026.06.27-20.47.51:012][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.27-20.47.51:012][383]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.47.51:013][383]LogWorld: UWorld::CleanupWorld for L_PCG_Stylescape_Prototype_01, bSessionEnded=true, bCleanupResources=true
+[2026.06.27-20.47.51:014][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.27-20.47.51:020][383]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.06.27-20.47.51:032][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.06.27-20.47.51:061][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.06.27-20.47.51:064][383]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2026.06.27-20.47.51:064][383]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2026.06.27-20.47.51:066][383]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2026.06.27-20.47.51:077][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2026.06.27-20.47.51:165][384]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2026.06.27-20.48.17:145][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2026.06.27-20.48.17:153][269]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.06.27-20.48.17:248][269]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2026.06.27-20.48.17:348][269]LogSavePackage: Moving output files for package: /Game/Maps/L_PCG_Stylescape_Prototype_01
+[2026.06.27-20.48.17:348][269]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_PCG_Stylescape_Prototype_01987EDE6B4A2BDCB3CA4E5191431193BB.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_PCG_Stylescape_Prototype_01.umap'
+[2026.06.27-20.48.17:362][269]LogFileHelpers: Saving map 'L_PCG_Stylescape_Prototype_01' took 0.165
+[2026.06.27-20.48.17:367][269]LogFileHelpers: InternalPromptForCheckoutAndSave took 214.015 ms (total: 18.3 sec)
+[2026.06.27-20.48.17:428][269]LogContentValidation: Display: Starting to validate 1 assets
+[2026.06.27-20.48.17:428][269]LogContentValidation: Enabled validators:
+[2026.06.27-20.48.17:428][269]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.06.27-20.48.17:428][269]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.06.27-20.48.17:428][269]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.06.27-20.48.17:428][269]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.06.27-20.48.17:428][269]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.06.27-20.48.17:429][269]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.06.27-20.48.17:429][269]AssetCheck: /Game/Maps/L_PCG_Stylescape_Prototype_01 Validating asset
+[2026.06.27-20.49.42:504][639]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11207.443359
+[2026.06.27-20.49.43:503][642]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.06.27-20.49.43:503][642]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11208.110352, Update Interval: 349.326447
