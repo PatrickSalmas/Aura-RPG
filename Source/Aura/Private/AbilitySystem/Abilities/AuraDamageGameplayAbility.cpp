@@ -5,6 +5,7 @@
 
 #include "AbilitySystemBlueprintLibrary.h"
 #include "AbilitySystemComponent.h"
+#include "LandscapeHeightfieldCollisionComponent.h"
 #include "NavigationSystem.h"
 #include "Character/AuraCharacter.h"
 #include "Character/AuraEnemy.h"
@@ -99,8 +100,44 @@ float UAuraDamageGameplayAbility::GetDamageAtLevel() const
 	return Damage.GetValueAtLevel(GetAbilityLevel());
 }
 
-bool UAuraDamageGameplayAbility::GetGroundLocationFromTarget(const FVector& TargetLocation, FVector& OutGroundLocation,
-	AActor* ActorToIgnore) const
+bool UAuraDamageGameplayAbility::IsValidTeleportGround(const FHitResult& Hit)
+{
+	const UPrimitiveComponent* HitComponent = Hit.GetComponent();
+
+	if (!HitComponent)
+	{
+		return false;
+	}
+
+	// Landscapes are valid ground.
+	if (HitComponent->IsA<ULandscapeHeightfieldCollisionComponent>())
+	{
+		return true;
+	}
+
+	static const FName TeleportGroundTag = FName("TeleportGround");
+
+	if (HitComponent->ComponentHasTag(TeleportGroundTag))
+	{
+		return true;
+	}
+
+	if (const AActor* HitActor = Hit.GetActor())
+	{
+		if (HitActor->ActorHasTag(TeleportGroundTag))
+		{
+			return true;
+		}
+	}
+
+	return false;
+}
+
+bool UAuraDamageGameplayAbility::GetGroundLocationFromTarget(
+	const FVector& TargetLocation,
+	FVector& OutGroundLocation,
+	AActor* ActorToIgnore
+) const
 {
 	if (!GetWorld())
 	{
@@ -108,10 +145,10 @@ bool UAuraDamageGameplayAbility::GetGroundLocationFromTarget(const FVector& Targ
 		return false;
 	}
 
-	const FVector TraceStart = TargetLocation + FVector(0.f, 0.f, 500.f);
-	const FVector TraceEnd   = TargetLocation + FVector(0.f, 0.f, -2000.f);
+	const FVector TraceStart = TargetLocation + FVector(0.f, 0.f, 2000.f);
+	const FVector TraceEnd   = TargetLocation + FVector(0.f, 0.f, -5000.f);
 
-	FHitResult HitResult;
+	TArray<FHitResult> HitResults;
 
 	FCollisionQueryParams QueryParams;
 	QueryParams.bTraceComplex = false;
@@ -122,23 +159,30 @@ bool UAuraDamageGameplayAbility::GetGroundLocationFromTarget(const FVector& Targ
 		QueryParams.AddIgnoredActor(ActorToIgnore);
 	}
 
-	// Important:
-	// Prefer tracing only against WorldStatic so enemies do not count as "ground".
 	FCollisionObjectQueryParams ObjectQueryParams;
 	ObjectQueryParams.AddObjectTypesToQuery(ECC_WorldStatic);
 
-	const bool bHit = GetWorld()->LineTraceSingleByObjectType(
-		HitResult,
+	const bool bHit = GetWorld()->LineTraceMultiByObjectType(
+		HitResults,
 		TraceStart,
 		TraceEnd,
 		ObjectQueryParams,
 		QueryParams
 	);
 
-	if (bHit)
+	if (!bHit)
 	{
-		OutGroundLocation = HitResult.Location;
-		return true;
+		OutGroundLocation = TargetLocation;
+		return false;
+	}
+
+	for (const FHitResult& Hit : HitResults)
+	{
+		if (IsValidTeleportGround(Hit))
+		{
+			OutGroundLocation = Hit.ImpactPoint;
+			return true;
+		}
 	}
 
 	OutGroundLocation = TargetLocation;

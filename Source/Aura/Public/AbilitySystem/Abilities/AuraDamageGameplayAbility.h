@@ -99,4 +99,8 @@ protected:
 
 	UFUNCTION(BlueprintPure)
 	FTaggedMontage GetRandomTaggedMontageFromArray(const TArray<FTaggedMontage>& TaggedMontages);
+	
+private:
+	static bool IsValidTeleportGround(const FHitResult& Hit);
+	
 };
