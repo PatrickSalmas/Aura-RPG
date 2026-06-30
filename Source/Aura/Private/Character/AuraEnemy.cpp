@@ -162,6 +162,7 @@ void AAuraEnemy::StunTaggedChanged(const FGameplayTag CallbackTag, int32 NewCoun
 	{
 		AuraAIController->GetBlackboardComponent()->SetValueAsBool(FName("Stunned"), bIsStunned);
 	}
+	CancelActions();
 }
 
 void AAuraEnemy::ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 NewCount)

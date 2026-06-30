@@ -95,6 +95,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void AddToAttachActors(AActor* AttachActor);
 	
+	UFUNCTION(BlueprintImplementableEvent)
+	void CancelActions();
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
