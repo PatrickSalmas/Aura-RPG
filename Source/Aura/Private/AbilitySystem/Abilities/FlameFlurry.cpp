@@ -27,12 +27,21 @@ void UFlameFlurry::SpawnFlameWave(FDamageEffectParams DamageEffectParams)
 		return;
 	}
 
+	Wave->NiagaraSystem = FlameFlurryNiagaraSystem;
+	
 	Wave->Shape = EAOEShape::Cone;
 	Wave->Origin = Origin;
 	Wave->MaxRadius = 1200.f;
 	Wave->WaveSpeed = 2400.f;
 	Wave->WaveForward = AvatarActor->GetActorForwardVector();
 	Wave->DoesCancelActions = true;
+	
+	// if (Shape == EAOEShape::Cone)
+	// {
+	// 	NiagaraComponent->SetWorldRotation(GetActorRotation(GetAvatarActorFromActorInfo()));
+	// }
+	
+	// FlameFlurryNiagaraSystem->SetWorldRotation(GetActorRotation(GetAvatarActorFromActorInfo()));
 
 	// Start with filled expansion.
 	// Later we can test WaveThickness.

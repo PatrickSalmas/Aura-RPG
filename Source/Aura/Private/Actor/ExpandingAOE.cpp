@@ -14,6 +14,8 @@ AExpandingAOE::AExpandingAOE()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	NiagaraComponent = CreateDefaultSubobject<UNiagaraComponent>("NiagaraComponent");
+	SetRootComponent(NiagaraComponent);
 }
 
 // Called when the game starts or when spawned
@@ -28,6 +30,20 @@ void AExpandingAOE::BeginPlay()
 
 	WaveForward.Z = 0.f;
 	WaveForward.Normalize();
+	
+	if (NiagaraComponent && NiagaraSystem)
+	{
+		if (Shape == EAOEShape::Cone)
+		{
+			NiagaraComponent->SetWorldRotation(WaveForward.Rotation());
+		}
+		NiagaraComponent->SetAsset(NiagaraSystem);
+		NiagaraComponent->Activate(true);
+
+		// NiagaraComponent->SetFloatParameter(MaxRadiusParameterName, MaxRadius);
+		// NiagaraComponent->SetFloatParameter(ConeAngleParameterName, ConeAngleDegrees);
+		// NiagaraComponent->SetFloatParameter(WaveThicknessParameterName, WaveThickness);
+	}
 }
 
 void AExpandingAOE::UpdateWave(float DeltaTime)
@@ -161,8 +177,6 @@ void AExpandingAOE::ApplyHit(AActor* Target)
 				CharacterBase->CancelActions();
 			}
 		}
-		
-		// Destroy();
 	}
 }
 

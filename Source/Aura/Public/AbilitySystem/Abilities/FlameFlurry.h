@@ -21,4 +21,7 @@ public:
 	
 	UPROPERTY(EditDefaultsOnly, Category = "AOE")
 	TSubclassOf<AExpandingAOE> ExpandingAOEClass;
+	
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "VFX")
+	TObjectPtr<UNiagaraSystem> FlameFlurryNiagaraSystem;
 };

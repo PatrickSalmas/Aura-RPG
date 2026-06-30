@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "AuraAbilityTypes.h"
 #include "GameplayEffect.h"
+#include "NiagaraSystem.h"
 #include "GameFramework/Actor.h"
 #include "ExpandingAOE.generated.h"
 
@@ -36,6 +37,12 @@ private:
 	void ApplyHit(AActor* Target);
 
 public:
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "VFX")
+	TObjectPtr<UNiagaraComponent> NiagaraComponent;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "VFX")
+	TObjectPtr<UNiagaraSystem> NiagaraSystem;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AOE")
 	EAOEShape Shape = EAOEShape::FullCircle;
 
