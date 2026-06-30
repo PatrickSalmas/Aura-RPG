@@ -56,6 +56,9 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, Category = "AOE")
 	FVector WaveForward = FVector::ForwardVector;
+	
+	UPROPERTY(BlueprintReadWrite, Category = "AOE")
+	bool DoesCancelActions = false;
 
 	UPROPERTY(BlueprintReadWrite, Category = "AOE")
 	TObjectPtr<UAbilitySystemComponent> SourceASC;

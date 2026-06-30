@@ -38,10 +38,8 @@ void ULightningNova::SpawnLightningNovaWave()
 
 	Wave->SourceASC = SourceASC;
 	Wave->DamageEffectClass = DamageEffectClass;
-	// Wave->DamageEffectParams = DamageEffectParams;
 	
 	Wave->DamageEffectParams = MakeDamageEffectParamsFromClassDefaults();
-	// Wave->DebuffEffectClass = StunEffectClass;
 
 	Wave->FinishSpawning(FTransform(Origin));
 }

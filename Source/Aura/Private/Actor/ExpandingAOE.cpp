@@ -5,6 +5,7 @@
 
 #include "AbilitySystemBlueprintLibrary.h"
 #include "AbilitySystem/AuraAbilitySystemLibrary.h"
+#include "Character/AuraCharacterBase.h"
 #include "Kismet/KismetSystemLibrary.h"
 
 // Sets default values
@@ -145,21 +146,24 @@ void AExpandingAOE::ApplyHit(AActor* Target)
 			const FVector DeathImpulse = GetActorForwardVector() * DamageEffectParams.DeathImpulseMagnitude;
 			DamageEffectParams.DeathImpulse = DeathImpulse;
 			
-			FRotator Rotation = GetActorRotation();
-			Rotation.Pitch = 45.f;
-			const  FVector KnockbackDirection = Rotation.Vector();
-			DamageEffectParams.KnockBackImpulse = KnockbackDirection * DamageEffectParams.KnockBackImpulseMagnitude;
+			// FRotator Rotation = GetActorRotation();
+			// Rotation.Pitch = 45.f;
+			// const  FVector KnockbackDirection = Rotation.Vector();
+			// DamageEffectParams.KnockBackImpulse = KnockbackDirection * DamageEffectParams.KnockBackImpulseMagnitude;
 			
 			DamageEffectParams.TargetAbilitySystemComponent = TargetASC;
 			UAuraAbilitySystemLibrary::ApplyDamageEffect(DamageEffectParams);
+			
+			if (DoesCancelActions)
+			{
+				// Target
+				AAuraCharacterBase* CharacterBase = Cast<AAuraCharacterBase>(Target);
+				CharacterBase->CancelActions();
+			}
 		}
 		
 		// Destroy();
 	}
-	// TODO:
-	// Apply damage gameplay effect.
-	// Apply debuff gameplay effect.
-	// Or call your existing Aura damage effect params logic.
 }
 
 // Called every frame
