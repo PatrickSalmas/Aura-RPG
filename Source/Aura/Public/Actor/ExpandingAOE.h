@@ -35,6 +35,8 @@ private:
 	void CheckForHits();
 	bool IsTargetInsideWave(AActor* Target) const;
 	void ApplyHit(AActor* Target);
+	void FinishWave();
+	void DestroySelf();
 
 public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "VFX")
@@ -42,6 +44,25 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "VFX")
 	TObjectPtr<UNiagaraSystem> NiagaraSystem;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "VFX")
+	FName RadiusParameterName = "User.Radius";
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "VFX")
+	FName MaxRadiusParameterName = "User.MaxRadius";
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "VFX")
+	FName ConeAngleParameterName = "User.ConeAngleDegrees";
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "VFX")
+	FName WaveThicknessParameterName = "User.WaveThickness";
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "VFX")
+	float VFXTailDuration = 1.0f;
+
+	bool bWaveFinished = false;
+
+	FTimerHandle DestroyTimerHandle;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AOE")
 	EAOEShape Shape = EAOEShape::FullCircle;

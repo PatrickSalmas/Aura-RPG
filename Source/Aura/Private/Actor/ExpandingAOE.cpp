@@ -40,9 +40,9 @@ void AExpandingAOE::BeginPlay()
 		NiagaraComponent->SetAsset(NiagaraSystem);
 		NiagaraComponent->Activate(true);
 
-		// NiagaraComponent->SetFloatParameter(MaxRadiusParameterName, MaxRadius);
-		// NiagaraComponent->SetFloatParameter(ConeAngleParameterName, ConeAngleDegrees);
-		// NiagaraComponent->SetFloatParameter(WaveThicknessParameterName, WaveThickness);
+		NiagaraComponent->SetFloatParameter(MaxRadiusParameterName, MaxRadius);
+		NiagaraComponent->SetFloatParameter(ConeAngleParameterName, ConeAngleDegrees);
+		NiagaraComponent->SetFloatParameter(WaveThicknessParameterName, WaveThickness);
 	}
 }
 
@@ -52,6 +52,14 @@ void AExpandingAOE::UpdateWave(float DeltaTime)
 
 	PreviousRadius = CurrentRadius;
 	CurrentRadius = FMath::Min(ElapsedTime * WaveSpeed, MaxRadius);
+	
+	if (NiagaraComponent)
+	{
+		NiagaraComponent->SetFloatParameter(TEXT("User.CurrentRadius"), CurrentRadius);
+		NiagaraComponent->SetFloatParameter(MaxRadiusParameterName, MaxRadius);
+		NiagaraComponent->SetFloatParameter(ConeAngleParameterName, ConeAngleDegrees);
+		NiagaraComponent->SetFloatParameter(WaveThicknessParameterName, WaveThickness);
+	}
 }
 
 void AExpandingAOE::CheckForHits()
@@ -185,12 +193,41 @@ void AExpandingAOE::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (bWaveFinished) return;
+
 	UpdateWave(DeltaTime);
 	CheckForHits();
 
 	if (CurrentRadius >= MaxRadius)
 	{
-		Destroy();
+		FinishWave();
 	}
+}
+
+void AExpandingAOE::FinishWave()
+{
+	bWaveFinished = true;
+
+	// Stop doing gameplay hit checks.
+	SetActorTickEnabled(false);
+
+	// Stop spawning new Niagara particles, but allow existing particles to finish.
+	if (NiagaraComponent)
+	{
+		NiagaraComponent->Deactivate();
+	}
+
+	GetWorldTimerManager().SetTimer(
+		DestroyTimerHandle,
+		this,
+		&AExpandingAOE::DestroySelf,
+		VFXTailDuration,
+		false
+	);
+}
+
+void AExpandingAOE::DestroySelf()
+{
+	Destroy();
 }
 
