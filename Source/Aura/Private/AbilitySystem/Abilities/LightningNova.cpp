@@ -29,8 +29,8 @@ void ULightningNova::SpawnLightningNovaWave()
 
 	Wave->Shape = EAOEShape::FullCircle;
 	Wave->Origin = Origin;
-	Wave->MaxRadius = 1200.f;
-	Wave->WaveSpeed = 2400.f;
+	Wave->MaxRadius = 700.f;
+	Wave->WaveSpeed = 2200.f;
 
 	// Start with filled expansion.
 	// Later we can test WaveThickness.
