@@ -32,15 +32,9 @@ void AAuraEnemySpawner::StartSpawning()
 	}
 
 	bIsActive = true;
+	CurrentSpawnInterval = InitialSpawnInterval;
 
-	GetWorldTimerManager().SetTimer(
-		SpawnTimerHandle,
-		this,
-		&AAuraEnemySpawner::SpawnEnemy,
-		SpawnInterval,
-		true,
-		0.f
-	);
+	ScheduleNextSpawn();
 }
 
 void AAuraEnemySpawner::StopSpawning()
@@ -82,8 +76,10 @@ void AAuraEnemySpawner::SpawnEnemy()
 		{
 			bExhausted = true;
 			StopSpawning();
+			return;
 		}
 
+		ScheduleNextSpawn();
 		return;
 	}
 
@@ -157,7 +153,11 @@ void AAuraEnemySpawner::SpawnEnemy()
 	{
 		bExhausted = true;
 		StopSpawning();
+		return;
 	}
+
+	UpdateSpawnInterval();
+	ScheduleNextSpawn();
 }
 
 void AAuraEnemySpawner::ExecutePendingSpawn(FPendingEnemySpawn PendingSpawn)
@@ -335,4 +335,33 @@ bool AAuraEnemySpawner::IsSpawnLocationSafe(const FVector& SpawnLocation) const
 	const float DistanceToPlayer = FVector::Dist2D(SpawnLocation, PlayerPawn->GetActorLocation());
 
 	return DistanceToPlayer >= MinDistanceFromPlayer;
+}
+
+void AAuraEnemySpawner::ScheduleNextSpawn()
+{
+	if (!bIsActive || bExhausted)
+	{
+		return;
+	}
+
+	GetWorldTimerManager().SetTimer(
+		SpawnTimerHandle,
+		this,
+		&AAuraEnemySpawner::SpawnEnemy,
+		CurrentSpawnInterval,
+		false
+	);
+}
+
+void AAuraEnemySpawner::UpdateSpawnInterval()
+{
+	if (!bDecreaseSpawnIntervalOverTime)
+	{
+		return;
+	}
+
+	CurrentSpawnInterval = FMath::Max(
+		MinimumSpawnInterval,
+		CurrentSpawnInterval - SpawnIntervalDecreasePerSpawn
+	);
 }

@@ -62,8 +62,23 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Spawner|Enemies")
 	TArray<FEnemySpawnEntry> SpawnEntries;
 
+	// UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Spawner|Timing", meta=(ClampMin="0.1"))
+	// float SpawnInterval = 3.f;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Spawner|Timing", meta=(ClampMin="0.1"))
-	float SpawnInterval = 3.f;
+	float InitialSpawnInterval = 4.f;
+	
+	UPROPERTY(BlueprintReadOnly, Category="Spawner|State")
+	float CurrentSpawnInterval = 3.f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Spawner|Timing", meta=(ClampMin="0.1"))
+	float MinimumSpawnInterval = 1.f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Spawner|Timing")
+	bool bDecreaseSpawnIntervalOverTime = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Spawner|Timing", meta=(EditCondition="bDecreaseSpawnIntervalOverTime", ClampMin="0.0"))
+	float SpawnIntervalDecreasePerSpawn = 0.25f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Spawner|Limits")
 	bool bInfiniteSpawns = false;
@@ -146,4 +161,8 @@ private:
 	bool IsSpawnLocationSafe(const FVector& SpawnLocation) const;
 	
 	void ExecutePendingSpawn(FPendingEnemySpawn PendingSpawn);
+	
+	void ScheduleNextSpawn();
+	
+	void UpdateSpawnInterval();
 };
