@@ -115,6 +115,7 @@ public:
 
 	FGameplayTag Cooldown_Fire_FireBolt;
 	FGameplayTag Cooldown_Fire_FireBlast;
+	FGameplayTag Cooldown_Fire_FlameFlurry;
 	FGameplayTag Cooldown_Fire_LavaCannonShot;
 	FGameplayTag Cooldown_Lightning_Electrocute;
 	FGameplayTag Cooldown_Arcane_ArcaneShards;
