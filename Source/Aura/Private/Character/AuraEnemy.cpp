@@ -213,6 +213,7 @@ void AAuraEnemy::Die(const FVector& DeathImpulse)
 		}
 	}
 
+	OnDeathEvent();
 	Super::Die(DeathImpulse);
 }
 

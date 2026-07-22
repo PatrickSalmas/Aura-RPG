@@ -98,6 +98,12 @@ public:
 	UFUNCTION(BlueprintImplementableEvent)
 	void CancelActions();
 	
+	UFUNCTION(BlueprintImplementableEvent)
+	void SetIsBurningEvent();
+	
+	UFUNCTION(BlueprintImplementableEvent)
+	void SetIsNotBurningEvent();
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

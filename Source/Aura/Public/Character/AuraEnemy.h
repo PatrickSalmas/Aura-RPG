@@ -58,6 +58,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Combat")
 	void RevertToBaseWalkSpeed();
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "Combat")
+	void OnDeathEvent();
 	
 protected:
 	virtual void BeginPlay() override;

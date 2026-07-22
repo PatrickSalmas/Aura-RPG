@@ -5,6 +5,8 @@
 
 #include "AbilitySystemBlueprintLibrary.h"
 #include "AbilitySystemComponent.h"
+#include "AuraGameplayTags.h"
+#include "Character/AuraCharacterBase.h"
 #include "Interaction/CombatInterface.h"
 
 UDebuffNiagaraComponent::UDebuffNiagaraComponent()
@@ -45,11 +47,24 @@ void UDebuffNiagaraComponent::DebuffTagChanged(const FGameplayTag CallbackTag, i
 		if (IsValid(GetOwner()) && CombatInterface && !CombatInterface->Execute_IsDead(GetOwner()))
 		{
 			Activate();
+			if (CallbackTag.MatchesTagExact(FGameplayTag::RequestGameplayTag("Debuff.Burn")))
+			{
+				AAuraCharacterBase* TargetCharacter = Cast<AAuraCharacterBase>(GetOwner());
+				TargetCharacter->bIsBurned = true;
+				TargetCharacter->SetIsBurningEvent();
+			}
 		}
 	}
 	else
 	{
 		Deactivate();
+		// if (CallbackTag == GameplayTag)
+		if (CallbackTag.MatchesTagExact(FGameplayTag::RequestGameplayTag("Debuff.Burn")))
+		{
+			AAuraCharacterBase* TargetCharacter = Cast<AAuraCharacterBase>(GetOwner());
+			TargetCharacter->bIsBurned = false;
+			TargetCharacter->SetIsNotBurningEvent();
+		}
 	}
 }
 

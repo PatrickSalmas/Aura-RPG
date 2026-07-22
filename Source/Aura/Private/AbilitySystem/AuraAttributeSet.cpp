@@ -240,7 +240,6 @@ void UAuraAttributeSet::Debuff(const FEffectProperties& Props)
 	UTargetTagsGameplayEffectComponent& Component = Effect->AddComponent<UTargetTagsGameplayEffectComponent>();
 	Component.SetAndApplyTargetTagChanges(InheritedTags);
 
-
 	Effect->StackingType = EGameplayEffectStackingType::AggregateBySource;
 	Effect->StackLimitCount = 1;
 
@@ -260,6 +259,12 @@ void UAuraAttributeSet::Debuff(const FEffectProperties& Props)
 		AuraContext->SetShouldHitReact(false);
 		Props.TargetASC->ApplyGameplayEffectSpecToSelf(*MutableSpec);
 	}
+	
+	// if (DamageTag.MatchesTagExact(GameplayTags.Debuff_Burn))
+	// {
+	// 	AAuraCharacterBase* TargetCharacter = Cast<AAuraCharacterBase>(Props.TargetCharacter);
+	// 	TargetCharacter->SetIsBurningEvent(true);
+	// }
 
 }
 
