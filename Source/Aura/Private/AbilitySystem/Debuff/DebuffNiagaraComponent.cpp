@@ -51,7 +51,7 @@ void UDebuffNiagaraComponent::DebuffTagChanged(const FGameplayTag CallbackTag, i
 			{
 				AAuraCharacterBase* TargetCharacter = Cast<AAuraCharacterBase>(GetOwner());
 				TargetCharacter->bIsBurned = true;
-				TargetCharacter->SetIsBurningEvent();
+				TargetCharacter->SetIsBurningEvent(GetOwner());
 			}
 		}
 	}

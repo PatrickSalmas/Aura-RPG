@@ -99,7 +99,7 @@ public:
 	void CancelActions();
 	
 	UFUNCTION(BlueprintImplementableEvent)
-	void SetIsBurningEvent();
+	void SetIsBurningEvent(AActor* SourceActor);
 	
 	UFUNCTION(BlueprintImplementableEvent)
 	void SetIsNotBurningEvent();
