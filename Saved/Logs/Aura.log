@@ -7010,3 +7010,758 @@ FPackageName: Unable to identify a valid mount point associated with skipped pac
 [2026.07.23-16.55.22:859][647]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
 [2026.07.23-16.55.22:908][648]LogPlayLevel: Display: Destroying online subsystem :Context_20
 [2026.07.23-16.55.24:226][793]LogStreaming: Display: FlushAsyncLoading(467): 1 QueuedPackages, 0 AsyncPackages
+[2026.07.23-16.58.37:260][263]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1370.028198
+[2026.07.23-16.58.37:385][278]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-16.58.37:385][278]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1370.144775, Update Interval: 309.798279
+[2026.07.23-16.58.49:441][711]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2026.07.23-16.58.49:445][711]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.07.23-16.58.49:491][711]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_EnemyBase] ([2] browsable assets)...
+[2026.07.23-16.58.49:491][711]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_EnemyBase]
+[2026.07.23-16.58.49:491][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_EnemyBase" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/BP_EnemyBase.uasset" SILENT=true
+[2026.07.23-16.58.49:519][711]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_EnemyBase
+[2026.07.23-16.58.49:520][711]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EnemyBase7AE0EB1B4F51CAD8E58EF6BD3FF21197.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/BP_EnemyBase.uasset'
+[2026.07.23-16.58.49:525][711]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.829 ms (total: 708.659 ms)
+[2026.07.23-16.58.49:558][711]LogContentValidation: Display: Starting to validate 1 assets
+[2026.07.23-16.58.49:558][711]LogContentValidation: Enabled validators:
+[2026.07.23-16.58.49:558][711]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.07.23-16.58.49:558][711]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.07.23-16.58.49:558][711]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.07.23-16.58.49:558][711]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.07.23-16.58.49:558][711]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.07.23-16.58.49:558][711]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.07.23-16.58.49:558][711]AssetCheck: /Game/Blueprints/Character/BP_EnemyBase Validating asset
+[2026.07.23-16.59.13:246][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.07.23-16.59.13:250][520]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.07.23-16.59.13:292][520]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_EnemyBase] ([2] browsable assets)...
+[2026.07.23-16.59.13:292][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_EnemyBase]
+[2026.07.23-16.59.13:292][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_EnemyBase" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/BP_EnemyBase.uasset" SILENT=true
+[2026.07.23-16.59.13:318][520]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_EnemyBase
+[2026.07.23-16.59.13:318][520]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EnemyBase52B0671544665E38607781BE0FE894A4.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/BP_EnemyBase.uasset'
+[2026.07.23-16.59.13:324][520]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.838 ms (total: 782.497 ms)
+[2026.07.23-16.59.13:358][520]LogContentValidation: Display: Starting to validate 1 assets
+[2026.07.23-16.59.13:358][520]LogContentValidation: Enabled validators:
+[2026.07.23-16.59.13:358][520]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.07.23-16.59.13:358][520]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.07.23-16.59.13:358][520]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.07.23-16.59.13:358][520]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.07.23-16.59.13:358][520]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.07.23-16.59.13:358][520]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.07.23-16.59.13:358][520]AssetCheck: /Game/Blueprints/Character/BP_EnemyBase Validating asset
+[2026.07.23-17.04.10:250][145]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1703.021729
+[2026.07.23-17.04.10:417][165]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-17.04.10:417][165]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1703.180054, Update Interval: 358.200012
+[2026.07.23-17.10.43:595][321]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2096.376465
+[2026.07.23-17.10.43:745][339]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-17.10.43:745][340]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2096.517578, Update Interval: 300.439453
+[2026.07.23-17.16.34:597][439]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2447.368164
+[2026.07.23-17.16.34:739][456]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-17.16.34:739][456]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2447.500977, Update Interval: 359.139374
+[2026.07.23-17.23.09:337][806]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2842.091309
+[2026.07.23-17.23.09:487][824]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-17.23.09:487][824]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2842.233154, Update Interval: 327.351288
+[2026.07.23-17.29.24:567][832]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3217.319336
+[2026.07.23-17.29.24:734][852]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-17.29.24:734][852]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3217.477295, Update Interval: 322.603241
+[2026.07.23-17.35.18:978][357]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3571.716309
+[2026.07.23-17.35.19:120][374]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-17.35.19:120][374]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3571.849609, Update Interval: 327.625977
+[2026.07.23-17.37.37:290][954]LogDerivedDataCache: C:/Users/psalm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.07.23-17.41.22:372][963]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3935.132812
+[2026.07.23-17.41.22:514][980]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-17.41.22:514][980]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3935.265869, Update Interval: 357.381500
+[2026.07.23-17.48.17:747][807]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4350.713379
+[2026.07.23-17.48.17:905][826]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-17.48.17:905][826]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4350.862793, Update Interval: 310.080261
+[2026.07.23-17.54.03:797][332]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4697.021973
+[2026.07.23-17.54.03:954][351]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-17.54.03:954][351]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4697.170898, Update Interval: 344.832916
+[2026.07.23-18.00.47:972][832]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5101.393066
+[2026.07.23-18.00.48:097][847]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-18.00.48:097][847]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5101.509277, Update Interval: 326.556610
+[2026.07.23-18.06.46:054][801]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5459.655762
+[2026.07.23-18.06.46:212][820]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-18.06.46:212][820]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5459.806152, Update Interval: 339.586792
+[2026.07.23-18.13.07:229][541]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5841.051270
+[2026.07.23-18.13.07:362][557]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-18.13.07:362][557]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5841.177734, Update Interval: 334.342468
+[2026.07.23-18.19.30:461][528]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6224.414062
+[2026.07.23-18.19.30:595][544]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-18.19.30:595][544]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6224.538574, Update Interval: 323.813599
+[2026.07.23-18.25.52:961][427]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6607.159668
+[2026.07.23-18.25.53:102][444]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-18.25.53:102][444]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6607.293457, Update Interval: 312.764679
+[2026.07.23-18.31.38:101][843]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6952.500977
+[2026.07.23-18.31.38:243][860]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-18.31.38:243][860]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6952.633789, Update Interval: 309.823914
+[2026.07.23-18.37.22:658][189]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7297.240723
+[2026.07.23-18.37.22:800][206]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-18.37.22:800][206]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7297.374023, Update Interval: 339.183929
+[2026.07.23-18.37.37:294][946]LogDerivedDataCache: C:/Users/psalm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.07.23-18.43.45:650][147]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7680.428223
+[2026.07.23-18.43.45:809][166]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-18.43.45:809][166]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7680.580078, Update Interval: 332.721954
+[2026.07.23-18.49.54:608][421]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8049.583984
+[2026.07.23-18.49.54:767][440]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-18.49.54:767][440]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8049.733398, Update Interval: 359.514771
+[2026.07.23-18.56.47:993][ 26]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8463.325195
+[2026.07.23-18.56.48:126][ 42]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-18.56.48:126][ 42]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8463.451172, Update Interval: 355.609009
+[2026.07.23-19.03.37:901][214]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8873.696289
+[2026.07.23-19.03.38:051][232]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-19.03.38:051][232]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8873.835938, Update Interval: 310.065613
+[2026.07.23-19.09.45:985][383]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9242.166992
+[2026.07.23-19.09.46:144][402]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-19.09.46:144][402]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9242.318359, Update Interval: 300.986969
+[2026.07.23-19.15.22:714][789]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9579.171875
+[2026.07.23-19.15.22:856][806]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-19.15.22:856][806]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9579.303711, Update Interval: 355.248260
+[2026.07.23-19.21.51:148][401]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9968.176758
+[2026.07.23-19.21.51:298][418]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-19.21.51:298][418]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9968.319336, Update Interval: 345.274200
+[2026.07.23-19.28.16:373][626]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10353.966797
+[2026.07.23-19.28.16:497][641]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-19.28.16:497][642]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10354.083008, Update Interval: 313.077789
+[2026.07.23-19.34.09:181][962]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10707.440430
+[2026.07.23-19.34.09:322][979]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-19.34.09:322][979]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10707.575195, Update Interval: 323.249603
+[2026.07.23-19.37.37:297][936]LogDerivedDataCache: C:/Users/psalm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.07.23-19.40.27:172][320]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11086.141602
+[2026.07.23-19.40.27:322][338]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-19.40.27:322][338]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11086.285156, Update Interval: 310.320129
+[2026.07.23-19.46.16:037][183]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11435.182617
+[2026.07.23-19.46.16:188][201]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-19.46.16:188][201]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11435.324219, Update Interval: 359.359100
+[2026.07.23-19.52.52:587][768]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11831.923828
+[2026.07.23-19.52.52:737][786]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-19.52.52:737][786]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11832.065430, Update Interval: 359.154022
+[2026.07.23-19.59.49:455][791]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12249.011719
+[2026.07.23-19.59.49:589][807]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-19.59.49:589][807]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12249.136719, Update Interval: 312.717072
+[2026.07.23-20.05.44:506][396]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12604.385742
+[2026.07.23-20.05.44:648][413]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-20.05.44:648][413]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12604.518555, Update Interval: 357.233185
+[2026.07.23-20.12.21:159][123]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13001.027344
+[2026.07.23-20.12.22:160][126]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-20.12.22:160][126]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13001.695312, Update Interval: 332.710968
+[2026.07.23-20.18.41:558][264]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13381.373047
+[2026.07.23-20.18.42:559][267]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-20.18.42:559][267]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13382.040039, Update Interval: 303.041473
+[2026.07.23-20.24.43:288][349]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13743.056641
+[2026.07.23-20.24.44:287][352]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-20.24.44:287][352]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13743.723633, Update Interval: 352.038330
+[2026.07.23-20.31.26:682][559]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14146.405273
+[2026.07.23-20.31.27:683][562]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-20.31.27:683][562]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14147.073242, Update Interval: 308.366333
+[2026.07.23-20.37.13:733][600]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14493.418945
+[2026.07.23-20.37.14:734][603]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-20.37.14:734][603]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14494.086914, Update Interval: 334.109924
+[2026.07.23-20.37.37:302][671]LogDerivedDataCache: C:/Users/psalm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.07.23-20.43.48:468][784]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14888.096680
+[2026.07.23-20.43.49:468][787]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-20.43.49:468][787]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14888.762695, Update Interval: 319.812622
+[2026.07.23-20.49.53:191][878]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15252.768555
+[2026.07.23-20.49.54:192][881]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-20.49.54:192][881]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15253.434570, Update Interval: 301.642517
+[2026.07.23-20.55.55:254][964]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15614.791016
+[2026.07.23-20.55.56:253][967]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-20.55.56:253][967]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15615.457031, Update Interval: 331.216766
+[2026.07.23-21.01.58:985][ 55]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15978.473633
+[2026.07.23-21.01.59:985][ 58]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-21.01.59:985][ 58]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15979.139648, Update Interval: 343.358856
+[2026.07.23-21.08.13:721][179]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16353.166992
+[2026.07.23-21.08.14:720][182]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-21.08.14:720][182]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16353.833008, Update Interval: 338.826874
+[2026.07.23-21.14.43:966][355]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16745.574219
+[2026.07.23-21.14.44:965][358]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-21.14.44:965][358]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16746.240234, Update Interval: 345.616638
+[2026.07.23-21.21.17:698][536]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17139.675781
+[2026.07.23-21.21.18:699][539]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-21.21.18:699][539]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17140.343750, Update Interval: 341.130402
+[2026.07.23-21.27.58:430][738]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17540.740234
+[2026.07.23-21.27.59:430][741]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-21.27.59:430][741]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17541.408203, Update Interval: 305.908997
+[2026.07.23-21.33.48:814][789]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 17891.468750
+[2026.07.23-21.33.49:814][792]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-21.33.49:814][792]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 17892.136719, Update Interval: 355.220795
+[2026.07.23-21.37.37:303][475]LogDerivedDataCache: C:/Users/psalm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.07.23-21.40.23:870][974]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18286.916016
+[2026.07.23-21.40.24:870][977]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-21.40.24:870][977]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18287.583984, Update Interval: 315.049896
+[2026.07.23-21.46.10:928][ 15]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18634.343750
+[2026.07.23-21.46.11:928][ 18]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-21.46.11:929][ 18]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18635.011719, Update Interval: 331.533569
+[2026.07.23-21.51.17:533][950]Cmd: TRANSACTION UNDO
+[2026.07.23-21.51.17:533][950]LogEditorTransaction: Undo Delete current selection
+[2026.07.23-21.51.17:545][950]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.17:545][950]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.17:546][950]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.17:546][950]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.17:546][950]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.17:546][950]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.17:546][950]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.17:546][950]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.17:547][950]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.17:547][950]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.18:827][ 45]Cmd: TRANSACTION UNDO
+[2026.07.23-21.51.18:827][ 45]LogEditorTransaction: Undo Delete current selection
+[2026.07.23-21.51.18:854][ 45]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.18:854][ 45]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.18:854][ 45]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.18:854][ 45]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.18:854][ 45]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.18:854][ 45]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.18:855][ 45]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.18:855][ 45]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.18:855][ 45]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.18:855][ 45]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.51.43:358][907]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2026.07.23-21.51.43:361][907]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/StartupMap' took 0.020
+[2026.07.23-21.51.43:362][907]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_EnemyBase] ([2] browsable assets)...
+[2026.07.23-21.51.43:362][907]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_EnemyBase]
+[2026.07.23-21.51.43:388][907]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Character/BP_EnemyBase_Auto1
+[2026.07.23-21.51.43:388][907]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EnemyBase_Auto1CC1DF5924AC06148BB2E6FAAB7E5A5C3.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/Autosaves/Game/Blueprints/Character/BP_EnemyBase_Auto1.uasset'
+[2026.07.23-21.51.43:389][907]LogFileHelpers: Auto-saving content packages took 0.029
+[2026.07.23-21.52.29:296][414]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19008.134766
+[2026.07.23-21.52.29:421][429]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-21.52.29:421][429]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19008.246094, Update Interval: 344.961090
+[2026.07.23-21.56.30:863][167]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2026.07.23-21.56.30:867][167]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.07.23-21.56.30:895][167]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_EnemyBase] ([2] browsable assets)...
+[2026.07.23-21.56.30:895][167]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_EnemyBase]
+[2026.07.23-21.56.30:895][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_EnemyBase" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/BP_EnemyBase.uasset" SILENT=true
+[2026.07.23-21.56.30:922][167]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_EnemyBase
+[2026.07.23-21.56.30:923][167]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EnemyBase257F6254470F7B70E8B3FAB08D9CEF4B.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/BP_EnemyBase.uasset'
+[2026.07.23-21.56.30:928][167]LogFileHelpers: InternalPromptForCheckoutAndSave took 61.507 ms (total: 844.005 ms)
+[2026.07.23-21.56.30:960][167]LogContentValidation: Display: Starting to validate 1 assets
+[2026.07.23-21.56.30:960][167]LogContentValidation: Enabled validators:
+[2026.07.23-21.56.30:960][167]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.07.23-21.56.30:960][167]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.07.23-21.56.30:960][167]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.07.23-21.56.30:960][167]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.07.23-21.56.30:960][167]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.07.23-21.56.30:960][167]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.07.23-21.56.30:960][167]AssetCheck: /Game/Blueprints/Character/BP_EnemyBase Validating asset
+[2026.07.23-21.56.38:225][ 35]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.56.38:225][ 35]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.56.38:225][ 35]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.56.38:225][ 35]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.56.38:226][ 35]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.56.38:226][ 35]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.56.38:226][ 35]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.56.38:226][ 35]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.56.38:226][ 35]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.56.38:226][ 35]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-21.59.07:121][890]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19384.929688
+[2026.07.23-21.59.07:287][910]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-21.59.07:287][910]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19385.080078, Update Interval: 358.895844
+[2026.07.23-22.00.42:456][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2026.07.23-22.00.42:460][310]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.07.23-22.00.42:499][310]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_EnemyBase] ([2] browsable assets)...
+[2026.07.23-22.00.42:499][310]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_EnemyBase]
+[2026.07.23-22.00.42:499][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_EnemyBase" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/BP_EnemyBase.uasset" SILENT=true
+[2026.07.23-22.00.42:525][310]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_EnemyBase
+[2026.07.23-22.00.42:526][310]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EnemyBaseC2A7C16440F111F74122ED887A2B8404.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/BP_EnemyBase.uasset'
+[2026.07.23-22.00.42:531][310]LogFileHelpers: InternalPromptForCheckoutAndSave took 71.112 ms (total: 915.117 ms)
+[2026.07.23-22.00.42:564][310]LogContentValidation: Display: Starting to validate 1 assets
+[2026.07.23-22.00.42:564][310]LogContentValidation: Enabled validators:
+[2026.07.23-22.00.42:564][310]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.07.23-22.00.42:564][310]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.07.23-22.00.42:564][310]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.07.23-22.00.42:564][310]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.07.23-22.00.42:564][310]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.07.23-22.00.42:564][310]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.07.23-22.00.42:564][310]AssetCheck: /Game/Blueprints/Character/BP_EnemyBase Validating asset
+[2026.07.23-22.00.57:864][130]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.00.57:864][130]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.00.57:864][130]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.00.57:864][130]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.00.57:864][130]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.00.57:864][130]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.00.57:865][130]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.00.57:865][130]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.00.57:865][130]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.00.57:865][130]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.02:263][641]LogEditorTransaction: Undo Add Node
+[2026.07.23-22.01.02:284][641]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.02:284][641]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.02:284][641]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.02:284][641]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.02:285][641]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.02:285][641]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.02:285][641]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.02:285][641]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.02:285][641]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.02:285][641]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.27:530][594]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.27:530][594]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.27:530][594]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.27:530][594]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.27:531][594]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.27:531][594]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.27:531][594]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.27:531][594]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.27:531][594]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.01.27:531][594]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.02.40:406][267]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.02.40:406][267]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.02.40:406][267]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.02.40:406][267]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.02.40:406][267]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.02.40:406][267]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.02.40:407][267]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.02.40:407][267]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.02.40:407][267]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.02.40:407][267]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.03.58:008][560]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.03.58:008][560]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.03.58:008][560]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.03.58:008][560]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.03.58:008][560]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.03.58:008][560]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.03.58:008][560]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.03.58:009][560]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.03.58:009][560]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.03.58:009][560]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.33:533][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.07.23-22.04.33:538][803]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.07.23-22.04.33:568][803]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character/BP_EnemyBase] ([2] browsable assets)...
+[2026.07.23-22.04.33:568][803]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/BP_EnemyBase]
+[2026.07.23-22.04.33:568][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/BP_EnemyBase" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/BP_EnemyBase.uasset" SILENT=true
+[2026.07.23-22.04.33:595][803]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/BP_EnemyBase
+[2026.07.23-22.04.33:596][803]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EnemyBase5DFD616241EE61B4FE97F88E4317C0AE.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/BP_EnemyBase.uasset'
+[2026.07.23-22.04.33:601][803]LogFileHelpers: InternalPromptForCheckoutAndSave took 62.807 ms (total: 977.925 ms)
+[2026.07.23-22.04.33:634][803]LogContentValidation: Display: Starting to validate 1 assets
+[2026.07.23-22.04.33:634][803]LogContentValidation: Enabled validators:
+[2026.07.23-22.04.33:634][803]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.07.23-22.04.33:635][803]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.07.23-22.04.33:635][803]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.07.23-22.04.33:635][803]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.07.23-22.04.33:635][803]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.07.23-22.04.33:635][803]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.07.23-22.04.33:635][803]AssetCheck: /Game/Blueprints/Character/BP_EnemyBase Validating asset
+[2026.07.23-22.04.34:441][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:441][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:441][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:441][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:441][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:441][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:442][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:442][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:442][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:442][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:442][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:442][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:541][888]LogScript: Warning: Attempted to access REINST_BP_Goblin_Slingshot_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_Goblin_Slingshot_C_0 is not valid (pending kill or garbage)
+	ABP_Golbin_Slingshot_C /Engine/Transient.World_3:PersistentLevel.REINST_BP_Goblin_Slingshot_C_0.CharacterMesh0.ABP_Golbin_Slingshot_C_1
+	Function /Game/Blueprints/Character/ABP_Enemy.ABP_Enemy_C:ExecuteUbergraph_ABP_Enemy:009F
+[2026.07.23-22.04.34:565][888]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.07.23-22.04.34:571][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:571][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:572][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:572][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:572][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:572][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:572][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:572][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:572][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:572][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:614][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:614][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:614][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:614][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:615][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:615][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:615][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:615][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:615][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocket): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.34:615][888]LogSkinnedMeshComp: Warning: GetSocketInfoByName(WeaponHandSocketR): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_EnemyBase_C /Engine/Transient.World_1:PersistentLevel.BP_EnemyBase_C_0)
+[2026.07.23-22.04.35:970][ 27]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.07.23-22.04.35:983][ 27]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.07.23-22.04.35:983][ 27]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.07.23-22.04.36:004][ 27]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021315s)
+[2026.07.23-22.04.36:004][ 27]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.021437s)
+[2026.07.23-22.04.36:023][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.07.23-22.04.36:032][ 27]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.07.23-22.04.36:033][ 27]LogPlayLevel: PIE: World Init took: (0.001185s)
+[2026.07.23-22.04.36:034][ 27]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2026.07.23-22.04.36:034][ 27]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.07.23-22.04.36:034][ 27]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.07.23-22.04.36:034][ 27]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.07.23-22.04.36:034][ 27]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.07.23-22.04.36:034][ 27]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.07.23-22.04.36:034][ 27]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.07.23-22.04.36:034][ 27]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.07.23-22.04.36:034][ 27]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.07.23-22.04.36:034][ 27]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.07.23-22.04.36:034][ 27]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.07.23-22.04.36:034][ 27]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.07.23-22.04.36:037][ 27]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.07.23-22.04.36:052][ 27]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.07.23-22.04.36:052][ 27]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.07.23-22.04.36:052][ 27]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.07.23-22.04.36:052][ 27]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.07.23-22.04.36:052][ 27]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2026.07.23-22.04.36:052][ 27]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2026.07.23-22.04.36:054][ 27]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2026.07.23-22.04.36:054][ 27]LogInit: FAudioDevice initialized with ID 11.
+[2026.07.23-22.04.36:054][ 27]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2026.07.23-22.04.36:054][ 27]LogAudio: Display: Audio Device (ID: 11) registered with world 'StartupMap'.
+[2026.07.23-22.04.36:054][ 27]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2026.07.23-22.04.36:057][ 27]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.07.23-22.04.36:070][ 27]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2026.07.23-15.04.36
+[2026.07.23-22.04.36:075][ 27]LogWorld: Bringing up level for play took: 0.019412
+[2026.07.23-22.04.36:078][ 27]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2026.07.23-22.04.36:079][ 27]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.07.23-22.04.36:085][ 27]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.07.23-22.04.36:092][ 27]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.07.23-22.04.36:092][ 27]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.07.23-22.04.36:092][ 27]PIE: Server logged in
+[2026.07.23-22.04.36:093][ 27]PIE: Play in editor total start time 0.115 seconds.
+[2026.07.23-22.04.39:340][408]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.39:340][408]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.40:100][493]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.40:110][494]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.40:342][518]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.40:862][568]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.40:872][569]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.41:111][591]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.41:350][612]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.41:614][634]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.41:626][635]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.41:865][654]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.42:110][673]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.42:361][692]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.42:376][693]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.42:376][693]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.42:621][711]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.42:878][729]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.43:105][744]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.43:137][746]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.43:152][747]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.43:358][760]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.43:375][761]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.43:636][777]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.43:877][791]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.43:896][792]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.43:912][793]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.44:122][805]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.44:142][806]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.44:344][817]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.44:382][819]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.44:644][832]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.44:644][832]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.44:664][833]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.44:870][843]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.44:912][845]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.45:115][855]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.45:136][856]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.45:366][867]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.45:366][867]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.45:410][869]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.45:431][870]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.45:636][880]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.45:657][881]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.45:881][892]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.45:903][893]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.46:142][904]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.46:164][905]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.46:187][906]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.46:369][914]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.46:369][914]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.46:417][916]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.46:634][925]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.46:684][927]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.46:909][936]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.46:936][937]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.46:962][938]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.47:170][946]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.47:170][946]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.47:355][953]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.47:381][954]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.47:436][956]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.47:676][965]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.47:703][966]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.47:730][967]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.47:893][973]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.47:950][975]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.48:172][983]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.48:172][983]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.48:375][990]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.48:434][992]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.48:463][993]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.48:492][994]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.48:666][  0]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.48:724][  2]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.48:900][  8]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.48:958][ 10]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.49:197][ 18]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.49:228][ 19]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.49:258][ 20]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.49:348][ 23]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.49:409][ 25]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.49:470][ 27]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.49:682][ 34]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.49:713][ 35]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.49:932][ 42]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.49:962][ 43]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.49:993][ 44]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.50:179][ 50]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.50:241][ 52]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.50:427][ 58]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.50:458][ 59]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.50:736][ 68]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.50:736][ 68]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.50:951][ 75]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.50:981][ 76]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.51:196][ 83]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.51:227][ 84]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.51:475][ 92]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.51:720][100]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.51:972][108]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.52:003][109]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.52:250][117]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.52:470][124]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.52:719][132]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.52:998][141]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.53:247][149]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.53:463][156]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.53:995][173]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.54:243][181]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.54:992][205]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.04.59:270][342]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_24
+[2026.07.23-22.04.59:303][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_10
+[2026.07.23-22.04.59:304][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_1
+[2026.07.23-22.04.59:304][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_11
+[2026.07.23-22.04.59:304][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_8
+[2026.07.23-22.04.59:304][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_0
+[2026.07.23-22.04.59:305][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_4
+[2026.07.23-22.04.59:305][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_9
+[2026.07.23-22.04.59:305][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_16
+[2026.07.23-22.04.59:306][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_26
+[2026.07.23-22.04.59:306][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_15
+[2026.07.23-22.04.59:306][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_3
+[2026.07.23-22.04.59:306][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_2
+[2026.07.23-22.04.59:306][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_12
+[2026.07.23-22.04.59:306][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_17
+[2026.07.23-22.04.59:307][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_27
+[2026.07.23-22.04.59:307][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_19
+[2026.07.23-22.04.59:307][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_28
+[2026.07.23-22.04.59:307][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_20
+[2026.07.23-22.04.59:307][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_29
+[2026.07.23-22.04.59:308][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_6
+[2026.07.23-22.04.59:308][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_22
+[2026.07.23-22.04.59:308][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_31
+[2026.07.23-22.04.59:308][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_14
+[2026.07.23-22.04.59:309][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_21
+[2026.07.23-22.04.59:309][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_23
+[2026.07.23-22.04.59:309][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_7
+[2026.07.23-22.04.59:309][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_18
+[2026.07.23-22.04.59:309][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_5
+[2026.07.23-22.04.59:310][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_13
+[2026.07.23-22.04.59:310][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_25
+[2026.07.23-22.04.59:310][343]LogTemp: Warning: Expanding AOE hit: BP_Goblin_Spear1_C_30
+[2026.07.23-22.05.00:230][376]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:255][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:255][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:256][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:256][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:256][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:256][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:256][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:256][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:256][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:256][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:256][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:256][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:256][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:256][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:256][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:256][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:256][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:256][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:257][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:257][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:257][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:257][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:257][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:257][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:257][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:257][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:257][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:257][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:257][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:257][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.00:257][378]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.02:905][486]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.04:576][548]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.05:971][601]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.07:454][659]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.07:455][659]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.08:245][690]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.08:272][691]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.08:478][699]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.09:005][719]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.09:032][720]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.09:266][729]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.09:503][738]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.09:766][748]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.09:819][750]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.10:029][758]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.10:268][767]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.10:481][775]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.10:535][777]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.10:564][778]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.10:798][787]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.11:006][795]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.11:241][804]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.11:318][807]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.11:345][808]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.11:471][813]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.11:547][816]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.11:774][825]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.12:027][835]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.12:077][837]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.12:103][838]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.12:255][844]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.12:330][847]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.12:480][853]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.12:557][856]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.12:785][865]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.12:834][867]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.12:860][868]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.13:009][874]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.13:084][877]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.13:236][883]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.13:311][886]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.13:464][892]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.13:539][895]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.13:589][897]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.13:615][898]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.13:789][905]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.13:841][907]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.14:016][914]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.14:091][917]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.14:320][926]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.14:345][927]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.14:371][928]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.14:471][932]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.14:547][935]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.14:599][937]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.14:797][945]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.14:848][947]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.15:078][956]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.15:104][957]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.15:131][958]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.15:329][966]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.15:354][967]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.15:478][972]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.15:553][975]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.15:602][977]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.15:852][987]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.15:853][987]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.15:877][988]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.16:106][997]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.16:106][997]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.16:304][  5]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.16:379][  8]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.16:456][ 11]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.16:605][ 17]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.16:605][ 17]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.16:631][ 18]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.16:851][ 27]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.16:876][ 28]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.17:096][ 37]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.17:121][ 38]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.17:369][ 48]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.17:369][ 48]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.17:395][ 49]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.17:468][ 52]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.17:615][ 58]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.17:615][ 58]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.17:837][ 67]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.17:862][ 68]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.18:115][ 78]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.18:140][ 79]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.18:165][ 80]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.18:363][ 88]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.18:388][ 89]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.18:617][ 98]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.18:617][ 98]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.18:885][107]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.18:913][108]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.18:940][109]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.19:131][116]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.19:159][117]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.19:375][125]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.19:375][125]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.19:628][134]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.19:656][135]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.19:686][136]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.19:882][143]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.19:940][145]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.20:107][151]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.20:136][152]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.20:395][161]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.20:424][162]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.20:452][163]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.20:655][170]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.20:684][171]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.20:867][177]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.20:924][179]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.21:157][187]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.21:189][188]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.21:217][189]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.21:391][195]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.21:452][197]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.21:656][204]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.21:656][204]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.21:922][213]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.21:953][214]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.21:981][215]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.22:156][221]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.22:214][223]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.22:387][229]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.22:447][231]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.22:680][239]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.22:710][240]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.22:912][247]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.22:971][249]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.23:146][255]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.23:205][257]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.23:441][265]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.23:672][273]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.23:929][282]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.23:959][283]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.24:190][291]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.24:420][299]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.24:679][308]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.24:935][317]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.25:195][326]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.25:433][334]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.25:937][351]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.26:209][360]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.26:941][384]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.07.23-22.05.28:470][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.07.23-22.05.28:470][435]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.07.23-22.05.28:472][435]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.07.23-22.05.28:475][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.23-22.05.28:479][435]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.07.23-22.05.28:479][435]LogNiagaraEditor: onPieEnd
+[2026.07.23-22.05.28:479][435]LogNiagaraEditor: onPieEnd
+[2026.07.23-22.05.28:479][435]LogNiagaraEditor: onPieEnd
+[2026.07.23-22.05.28:479][435]LogNiagaraEditor: onPieEnd
+[2026.07.23-22.05.28:479][435]LogNiagaraEditor: onPieEnd
+[2026.07.23-22.05.28:479][435]LogNiagaraEditor: onPieEnd
+[2026.07.23-22.05.28:479][435]LogNiagaraEditor: onPieEnd
+[2026.07.23-22.05.28:479][435]LogNiagaraEditor: onPieEnd
+[2026.07.23-22.05.28:486][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.23-22.05.28:505][435]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.07.23-22.05.28:506][435]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2026.07.23-22.05.28:506][435]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2026.07.23-22.05.28:508][435]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2026.07.23-22.05.28:511][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.07.23-22.05.28:519][435]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.07.23-22.05.28:573][436]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2026.07.23-22.05.48:260][782]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 19767.607422
+[2026.07.23-22.05.48:410][800]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.23-22.05.48:410][800]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19767.740234, Update Interval: 321.973328
