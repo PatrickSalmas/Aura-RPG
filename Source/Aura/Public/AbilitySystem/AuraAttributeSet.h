@@ -248,6 +248,7 @@ public:
 private:
 	void HandleIncomingDamage(const FEffectProperties& Props);
 	void HandleIncomingXP(const FEffectProperties& Props);
+	void HandleReaction(const FEffectProperties& Props);
 	void Debuff(const FEffectProperties& Props);
 	void ApplyReactiveStatus(const FEffectProperties& Props);
 	void Knockback(const FEffectProperties& Props);

@@ -82,6 +82,9 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	
 	GameplayTags.ReactiveStatus_Chance = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("ReactiveStatus.Chance"), FString("Chance for a Reactive Status to be applied"));
 	
+	GameplayTags.Reaction_FireOnCharged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.FireOnCharged"), FString("Fire on charged recation occurred"));
+	GameplayTags.Reaction_ArcaneOnCharged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.ArcaneOnCharged"), FString("Arcane on charged recation occurred"));
+	
 	GameplayTags.Hit_ReactionInert = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Hit.ReactionInert"), FString("Tag to represent that hit should not cause hit react"));
 	
 	GameplayTags.Mechanic_Charged_Unlocked = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Mechanic.Charged.Unlocked"), FString("Tag for charged mechanic being unlocked"));

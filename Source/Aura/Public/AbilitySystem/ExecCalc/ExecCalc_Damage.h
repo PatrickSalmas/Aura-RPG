@@ -22,6 +22,9 @@ public:
 	
 	void DetermineReactiveStatus(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
 							const FGameplayEffectSpec& Spec) const;
+	
+	void DetermineReaction(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
+						const FGameplayEffectSpec& Spec) const;
 
 	void DetermineKnockback(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
 	                        const FGameplayEffectSpec& Spec, FAggregatorEvaluateParameters EvaluationParameters) const;

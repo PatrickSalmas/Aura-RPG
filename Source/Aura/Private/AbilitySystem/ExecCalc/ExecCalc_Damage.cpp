@@ -163,6 +163,76 @@ void UExecCalc_Damage::DetermineReactiveStatus(const FGameplayEffectCustomExecut
 	}
 }
 
+void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
+	const FGameplayEffectSpec& Spec) const
+{
+	UAbilitySystemComponent* TargetASC =
+	   ExecutionParams.GetTargetAbilitySystemComponent();
+
+	if (!TargetASC)
+	{
+		return;
+	}
+
+	const FAuraGameplayTags& GameplayTags =
+		FAuraGameplayTags::Get();
+
+	// Later, check Hit.ReactionInert here.
+	/*
+	if (UAuraAbilitySystemLibrary::IsReactionInert(Spec.GetContext()))
+	{
+		return;
+	}
+	*/
+
+	if (!TargetASC->HasMatchingGameplayTag(
+			GameplayTags.Debuff_Charged))
+	{
+		return;
+	}
+
+	const float FireDamage =
+		Spec.GetSetByCallerMagnitude(
+			GameplayTags.Damage_Fire,
+			false,
+			-1.f);
+
+	const float ArcaneDamage =
+		Spec.GetSetByCallerMagnitude(
+			GameplayTags.Damage_Arcane,
+			false,
+			-1.f);
+
+	FGameplayTag TriggeredReaction;
+
+	if (FireDamage > 0.f)
+	{
+		TriggeredReaction =
+			GameplayTags.Reaction_FireOnCharged;
+	}
+	else if (ArcaneDamage > 0.f)
+	{
+		TriggeredReaction =
+			GameplayTags.Reaction_ArcaneOnCharged;
+	}
+
+	if (!TriggeredReaction.IsValid())
+	{
+		return;
+	}
+
+	FGameplayEffectContextHandle ContextHandle =
+		Spec.GetContext();
+
+	UAuraAbilitySystemLibrary::SetTriggeredReaction(
+		ContextHandle,
+		TriggeredReaction);
+
+	UAuraAbilitySystemLibrary::SetReactiveStatusToConsume(
+		ContextHandle,
+		GameplayTags.Debuff_Charged);
+}
+
 void UExecCalc_Damage::DetermineKnockback(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
                                           const FGameplayEffectSpec& Spec, FAggregatorEvaluateParameters EvaluationParameters) const
 {
@@ -217,6 +287,8 @@ void UExecCalc_Damage::Execute_Implementation(const FGameplayEffectCustomExecuti
 	EvaluationParameters.SourceTags = SourceTags;
 	EvaluationParameters.TargetTags = TargetTags;
 
+	DetermineReaction(ExecutionParams, Spec);
+	
 	// Debuff
 	DetermineDebuff(ExecutionParams, Spec, EvaluationParameters, TagsToCaptureDefs);
 	

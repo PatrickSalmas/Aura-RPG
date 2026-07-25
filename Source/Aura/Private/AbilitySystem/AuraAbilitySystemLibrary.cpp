@@ -228,6 +228,31 @@ float UAuraAbilitySystemLibrary::GetDebuffFrequency(const FGameplayEffectContext
 	return 0.f;
 }
 
+FGameplayTag UAuraAbilitySystemLibrary::GetTriggeredReaction(const FGameplayEffectContextHandle& EffectContextHandle)
+{
+	if (const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		if (AuraEffectContext->GetTriggeredReaction().IsValid())
+		{
+			return AuraEffectContext->GetTriggeredReaction();
+		}
+	}
+	return FGameplayTag();
+}
+
+FGameplayTag UAuraAbilitySystemLibrary::GetReactiveStatusToConsume(
+	const FGameplayEffectContextHandle& EffectContextHandle)
+{
+	if (const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		if (AuraEffectContext->GetReactiveStatusToConsume().IsValid())
+		{
+			return AuraEffectContext->GetReactiveStatusToConsume();
+		}
+	}
+	return FGameplayTag();
+}
+
 FGameplayTag UAuraAbilitySystemLibrary::GetDamageType(const FGameplayEffectContextHandle& EffectContextHandle)
 {
 	if (const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
@@ -307,6 +332,24 @@ void UAuraAbilitySystemLibrary::SetSuccessfulReactiveStatus(FGameplayEffectConte
 	if (FAuraGameplayEffectContext* AuraEffectContext = static_cast<FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
 	{
 		AuraEffectContext->SetSuccessfulReactiveStatus(InReactiveStatus);
+	}
+}
+
+void UAuraAbilitySystemLibrary::SetTriggeredReaction(FGameplayEffectContextHandle& EffectContextHandle,
+	FGameplayTag InTriggeredReaction)
+{
+	if (FAuraGameplayEffectContext* AuraEffectContext = static_cast<FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		AuraEffectContext->SetTriggeredReaction(InTriggeredReaction);
+	}
+}
+
+void UAuraAbilitySystemLibrary::SetReactiveStatusToConsume(FGameplayEffectContextHandle& EffectContextHandle,
+	FGameplayTag InConsumedStatus)
+{
+	if (FAuraGameplayEffectContext* AuraEffectContext = static_cast<FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		AuraEffectContext->SetReactiveStatusToConsume(InConsumedStatus);
 	}
 }
 

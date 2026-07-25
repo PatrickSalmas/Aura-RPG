@@ -97,6 +97,8 @@ public:
 	float GetDebuffDamage() const { return DebuffDamage; }
 	float GetDebuffDuration() const { return DebuffDuration; }
 	float GetDebuffFrequency() const { return DebuffFrequency; }
+	FGameplayTag GetTriggeredReaction() const { return TriggeredReaction; }
+	FGameplayTag GetReactiveStatusToConsume() const { return ReactiveStatusToConsume; }
 	TSharedPtr<FGameplayTag> GetDamageType() const { return DamageType; }
 	FVector GetDeathImpulse() const { return DeathImpulse; }
 	FVector GetKnockbackImpulse() const { return KnockBackImpulse; }
@@ -110,6 +112,8 @@ public:
 	
 	void SetIsSuccessfulDebuff(bool bInIsSuccessfulDebuff ) { bIsSuccessfulDebuff = bInIsSuccessfulDebuff; }
 	void SetIsSuccessfulReactiveStatus(bool bInIsSuccessfulReactiveStatus ) { bIsSuccessfulReactiveStatus = bInIsSuccessfulReactiveStatus; }
+	void SetTriggeredReaction(FGameplayTag InTriggeredReaction) { TriggeredReaction = InTriggeredReaction; }
+	void SetReactiveStatusToConsume(FGameplayTag InReactiveStatusToConsume) { ReactiveStatusToConsume = InReactiveStatusToConsume; }
 	
 	void SetSuccessfulReactiveStatus(FGameplayTag InReactiveStatus ) { ReactiveStatus = InReactiveStatus; }
 	void SetIsSuccessfulKnockback(bool bInIsSuccessfulKnockback ) { bIsSuccessfulKnockback = bInIsSuccessfulKnockback; }
@@ -177,6 +181,12 @@ protected:
 	
 	UPROPERTY()
 	FGameplayTag ReactiveStatus;
+	
+	UPROPERTY()
+	FGameplayTag TriggeredReaction;
+
+	UPROPERTY()
+	FGameplayTag ReactiveStatusToConsume;
 
 	UPROPERTY()
 	bool bIsSuccessfulKnockback = false;

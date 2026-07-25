@@ -201,6 +201,8 @@ void UAuraAttributeSet::HandleIncomingDamage(const FEffectProperties& Props)
 			Debuff(Props);
 		}
 		
+		HandleReaction(Props);
+		
 		if (UAuraAbilitySystemLibrary::IsSuccessfulReactiveStatus(Props.EffectContextHandle))
 		{
 			ApplyReactiveStatus(Props);
@@ -381,6 +383,32 @@ void UAuraAttributeSet::HandleIncomingXP(const FEffectProperties& Props)
 			
 		IPlayerInterface::Execute_AddToXP(Props.SourceCharacter, LocalIncomingXP);
 	}
+}
+
+void UAuraAttributeSet::HandleReaction(const FEffectProperties& Props)
+{
+	const FGameplayTag ReactionTag =
+	UAuraAbilitySystemLibrary::GetTriggeredReaction(
+		Props.EffectContextHandle);
+
+	const FGameplayTag StatusToConsume =
+		UAuraAbilitySystemLibrary::GetReactiveStatusToConsume(
+			Props.EffectContextHandle);
+
+	if (!ReactionTag.IsValid() ||
+		!StatusToConsume.IsValid() ||
+		!Props.TargetASC)
+	{
+		return;
+	}
+
+	FGameplayTagContainer TagsToRemove;
+	TagsToRemove.AddTag(StatusToConsume);
+
+	Props.TargetASC->RemoveActiveEffectsWithGrantedTags(
+		TagsToRemove);
+
+	// Dispatch reaction after Charged has been removed.
 }
 
 void UAuraAttributeSet::PostAttributeChange(const FGameplayAttribute& Attribute, float OldValue, float NewValue)

@@ -76,6 +76,9 @@ public:
 	
 	FGameplayTag ReactiveStatus_Chance;
 	
+	FGameplayTag Reaction_FireOnCharged;
+	FGameplayTag Reaction_ArcaneOnCharged;
+	
 	FGameplayTag Hit_ReactionInert;
 	
 	FGameplayTag Mechanic_Charged_Unlocked;
