@@ -133,6 +133,10 @@ void AAuraEnemy::InitAbilityActorInfo()
 	AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().Debuff_Stun,
 												 EGameplayTagEventType::NewOrRemoved).AddUObject(
 													this, &AAuraEnemy::StunTaggedChanged);
+	
+	AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().Debuff_Charged,
+											 EGameplayTagEventType::NewOrRemoved).AddUObject(
+												this, &AAuraEnemy::ChargeTagChanged);
 
 	AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().Debuff_Immobilize,
 											 EGameplayTagEventType::NewOrRemoved).AddUObject(

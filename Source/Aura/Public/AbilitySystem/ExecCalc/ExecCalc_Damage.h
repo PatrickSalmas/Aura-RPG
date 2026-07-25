@@ -19,6 +19,9 @@ public:
 	                     const FGameplayEffectSpec& Spec,
 	                     FAggregatorEvaluateParameters EvaluationParameters,
 	                     const TMap<FGameplayTag, FGameplayEffectAttributeCaptureDefinition>& InTagsToDefs) const;
+	
+	void DetermineReactiveStatus(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
+							const FGameplayEffectSpec& Spec) const;
 
 	void DetermineKnockback(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
 	                        const FGameplayEffectSpec& Spec, FAggregatorEvaluateParameters EvaluationParameters) const;

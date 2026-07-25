@@ -51,6 +51,9 @@ struct FDamageEffectParams
 
 	UPROPERTY(BlueprintReadWrite)
 	FVector DeathImpulse = FVector::ZeroVector;
+	
+	UPROPERTY(BlueprintReadWrite)
+	float ReactiveStatusChance = 0.f;
 
 	/* Knockback Properties */
 	UPROPERTY(BlueprintReadWrite)
@@ -89,6 +92,7 @@ public:
 	bool isBlockedHit() const { return bIsBlockedHit; }
 	bool GetShouldHitReact() const { return bShouldHitReact; }
 	bool IsSuccessfulDebuff() const { return bIsSuccessfulDebuff; }
+	bool IsSuccessfulReactiveStatus() const { return bIsSuccessfulReactiveStatus; }
 	bool IsSuccessfulKnockback() const { return bIsSuccessfulKnockback; }
 	float GetDebuffDamage() const { return DebuffDamage; }
 	float GetDebuffDuration() const { return DebuffDuration; }
@@ -105,6 +109,9 @@ public:
 	void SetIsBlockedHit(bool bInIsBlockedHit) { bIsBlockedHit = bInIsBlockedHit; }
 	
 	void SetIsSuccessfulDebuff(bool bInIsSuccessfulDebuff ) { bIsSuccessfulDebuff = bInIsSuccessfulDebuff; }
+	void SetIsSuccessfulReactiveStatus(bool bInIsSuccessfulReactiveStatus ) { bIsSuccessfulReactiveStatus = bInIsSuccessfulReactiveStatus; }
+	
+	void SetSuccessfulReactiveStatus(FGameplayTag InReactiveStatus ) { ReactiveStatus = InReactiveStatus; }
 	void SetIsSuccessfulKnockback(bool bInIsSuccessfulKnockback ) { bIsSuccessfulKnockback = bInIsSuccessfulKnockback; }
 	void SetDebuffDamage(float InDamage) { DebuffDamage = InDamage; }
 	void SetDebuffDuration(float InDuration) { DebuffDuration = InDuration; }
@@ -164,6 +171,12 @@ protected:
 
 	UPROPERTY()
 	bool bIsSuccessfulDebuff = false;
+	
+	UPROPERTY()
+	bool bIsSuccessfulReactiveStatus = false;
+	
+	UPROPERTY()
+	FGameplayTag ReactiveStatus;
 
 	UPROPERTY()
 	bool bIsSuccessfulKnockback = false;

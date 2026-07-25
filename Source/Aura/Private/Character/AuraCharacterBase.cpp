@@ -34,6 +34,10 @@ AAuraCharacterBase::AAuraCharacterBase()
 			StunDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("StunDebuffComponent"));
 			StunDebuffComponent->SetupAttachment(GetMesh());
 			StunDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Stun;
+	
+			ChargedDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("ChargedDebuffComponent"));
+			ChargedDebuffComponent->SetupAttachment(GetMesh());
+			ChargedDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Charged;
 
 			ImmobilizeDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("ImmobilizeDebuffComponent"));
 			ImmobilizeDebuffComponent->SetupAttachment(GetMesh());
@@ -175,6 +179,20 @@ void AAuraCharacterBase::StunTaggedChanged(const FGameplayTag CallbackTag, int32
 	}
 }
 
+void AAuraCharacterBase::ChargeTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
+{
+	bIsCharged = NewCount > 0;
+	if (bIsCharged)
+	{
+		ChargedDebuffComponent->SetVariableLinearColor(FName("User.Color"), ChargedColor);
+		ChargedDebuffComponent->Activate();
+	}
+	else
+	{
+		ChargedDebuffComponent->Deactivate();
+	}
+}
+
 void AAuraCharacterBase::ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
 {
 	bIsImmobilized = NewCount > 0;
@@ -199,6 +217,10 @@ void AAuraCharacterBase::SlowedTagChanged(const FGameplayTag CallbackTag, int32 
 void AAuraCharacterBase::OnRep_Stunned()
 {
 	
+}
+
+void AAuraCharacterBase::OnRep_Charged()
+{
 }
 
 void AAuraCharacterBase::OnRep_Burned()

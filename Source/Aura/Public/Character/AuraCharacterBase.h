@@ -73,6 +73,9 @@ public:
 	
 	UPROPERTY(ReplicatedUsing=OnRep_Stunned, BlueprintReadOnly)
 	bool bIsStunned = false;
+	
+	UPROPERTY(ReplicatedUsing=OnRep_Charged, BlueprintReadOnly)
+	bool bIsCharged = false;
 
 	UPROPERTY(BlueprintReadOnly)
 	bool bIsImmobilized = false;
@@ -88,6 +91,9 @@ public:
 	
 	UFUNCTION()
 	virtual void OnRep_Stunned();
+	
+	UFUNCTION()
+	virtual void OnRep_Charged();
 
 	UFUNCTION()
 	virtual void OnRep_Burned();
@@ -144,6 +150,8 @@ protected:
 	bool bDead = false;
 
 	virtual void StunTaggedChanged(const FGameplayTag CallbackTag, int32 NewCount);
+	
+	virtual void ChargeTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
 
 	virtual void ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
 	
@@ -212,17 +220,23 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Character Class Defaults")
 	ECharacterClass CharacterClass = ECharacterClass::Warrior;
 
-	UPROPERTY(VisibleDefaultsOnly)
+	UPROPERTY(VisibleDefaultsOnly, Category="Niagara")
 	TObjectPtr<UDebuffNiagaraComponent> BurnDebuffComponent;
 
-	UPROPERTY(VisibleDefaultsOnly)
+	UPROPERTY(VisibleDefaultsOnly, Category="Niagara")
 	TObjectPtr<UDebuffNiagaraComponent> StunDebuffComponent;
+	
+	UPROPERTY(VisibleDefaultsOnly, Category="Niagara")
+	TObjectPtr<UDebuffNiagaraComponent> ChargedDebuffComponent;
 
-	UPROPERTY(VisibleDefaultsOnly)
+	UPROPERTY(VisibleDefaultsOnly, Category="Niagara")
 	TObjectPtr<UDebuffNiagaraComponent> ImmobilizeDebuffComponent;
 
-	UPROPERTY(VisibleDefaultsOnly)
+	UPROPERTY(VisibleDefaultsOnly, Category="Niagara")
 	TObjectPtr<UDebuffNiagaraComponent> SlowDebuffComponent;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Niagara")
+	FLinearColor ChargedColor =FLinearColor(0.05f, 0.35f, 1.f, 1.f);
 
 	// UPROPERTY(BlueprintReadWrite)
 	// TObjectPtr<UNiagaraComponent> ArcanePullComponent;

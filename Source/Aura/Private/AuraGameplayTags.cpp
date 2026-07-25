@@ -70,6 +70,8 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Debuff_Burn = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Burn"), FString("Debuff for Fire Damage"));
 	GameplayTags.Debuff_Physical = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Physical"), FString("Debuff for Physical Damage"));
 	GameplayTags.Debuff_Stun = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Stun"), FString("Debuff for Lightning Damage"));
+	GameplayTags.Debuff_Charged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Charged"), FString("Exploitable Debuff for Lightning Damage"));
+	GameplayTags.Debuff_Exploitable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Exploitable"), FString("Exploitable Debuff tag"));
 	GameplayTags.Debuff_Immobilize = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Immobilize"), FString("Debuff for Arcane Damage"));
 	GameplayTags.Debuff_Slow = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Slow"), FString("Debuff for Arcane Damage"));
 	
@@ -77,7 +79,13 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Debuff_Damage = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Damage"), FString("Debuff Damage"));
 	GameplayTags.Debuff_Duration = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Duration"), FString("Debuff Duration"));
 	GameplayTags.Debuff_Frequency = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Frequency"), FString("Debuff Frequency"));
-
+	
+	GameplayTags.ReactiveStatus_Chance = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("ReactiveStatus.Chance"), FString("Chance for a Reactive Status to be applied"));
+	
+	GameplayTags.Hit_ReactionInert = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Hit.ReactionInert"), FString("Tag to represent that hit should not cause hit react"));
+	
+	GameplayTags.Mechanic_Charged_Unlocked = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Mechanic.Charged.Unlocked"), FString("Tag for charged mechanic being unlocked"));
+	
 	/*
 	 * Knockback
 	 */
@@ -118,6 +126,10 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_ArcaneImmobilize, GameplayTags.Debuff_Immobilize);
 	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_ArcaneSlow, GameplayTags.Debuff_Slow);
 	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_Physical, GameplayTags.Debuff_Physical);
+	
+	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Lightning,GameplayTags.Debuff_Charged);
+	
+	GameplayTags.SuccessfulReactiveStatus = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reactive.SuccessfulReactiveStatus"), FString("Has Successful Reactive status"));
 	
 	/*
 	 * Effects

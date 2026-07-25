@@ -62,6 +62,8 @@ public:
 
 	FGameplayTag Debuff_Burn;
 	FGameplayTag Debuff_Stun;
+	FGameplayTag Debuff_Charged;
+	FGameplayTag Debuff_Exploitable;
 	FGameplayTag Debuff_Immobilize;
 	FGameplayTag Debuff_Slow;
 	FGameplayTag Debuff_Arcane;
@@ -71,6 +73,12 @@ public:
 	FGameplayTag Debuff_Damage;
 	FGameplayTag Debuff_Duration;
 	FGameplayTag Debuff_Frequency;
+	
+	FGameplayTag ReactiveStatus_Chance;
+	
+	FGameplayTag Hit_ReactionInert;
+	
+	FGameplayTag Mechanic_Charged_Unlocked;
 
 	FGameplayTag KnockBack_Chance;
 	FGameplayTag KnockBack_ImpulseMagnitude;
@@ -138,6 +146,9 @@ public:
 
 	TMap<FGameplayTag, FGameplayTag> DamageTypesToResistances;
 	TMap<FGameplayTag, FGameplayTag> DamageTypesToDebuffs;
+	TMap<FGameplayTag, FGameplayTag> DamageTypesToReactiveStatuses;
+	
+	FGameplayTag SuccessfulReactiveStatus;
 	
 	FGameplayTag Effects_HitReact;
 

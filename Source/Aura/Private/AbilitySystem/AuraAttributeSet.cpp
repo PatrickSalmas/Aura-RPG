@@ -200,6 +200,11 @@ void UAuraAttributeSet::HandleIncomingDamage(const FEffectProperties& Props)
 			// Handle Debuff
 			Debuff(Props);
 		}
+		
+		if (UAuraAbilitySystemLibrary::IsSuccessfulReactiveStatus(Props.EffectContextHandle))
+		{
+			ApplyReactiveStatus(Props);
+		}
 
 		if (UAuraAbilitySystemLibrary::IsSuccessfulKnockback(Props.EffectContextHandle))
 		{
@@ -266,6 +271,64 @@ void UAuraAttributeSet::Debuff(const FEffectProperties& Props)
 	// 	TargetCharacter->SetIsBurningEvent(true);
 	// }
 
+}
+
+void UAuraAttributeSet::ApplyReactiveStatus(const FEffectProperties& Props)
+{
+	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
+	FGameplayEffectContextHandle EffectContextHandle = Props.SourceASC->MakeEffectContext();
+	EffectContextHandle.AddSourceObject(Props.SourceAvatarActor);
+
+	const FGameplayTag DamageType = UAuraAbilitySystemLibrary::GetDamageType(Props.EffectContextHandle);
+	if (DamageType.ToString() == "None")
+	{
+		return;
+	}
+	
+	// const float DebuffDamage = UAuraAbilitySystemLibrary::GetDebuffDamage(Props.EffectContextHandle);
+	const float DebuffDuration = 8;
+	const float DebuffFrequency = 2;
+	
+	FGameplayTag ReactiveStatusTag = GameplayTags.DamageTypesToReactiveStatuses[DamageType];
+	FString DebuffName = FString::Printf(TEXT("DynamicDebuff_%s"), *ReactiveStatusTag.ToString());
+	UGameplayEffect* Effect = NewObject<UGameplayEffect>(GetTransientPackage(), FName(DebuffName));
+
+	Effect->DurationPolicy = EGameplayEffectDurationType::HasDuration;
+	Effect->Period = DebuffFrequency;
+	Effect->DurationMagnitude = FScalableFloat(DebuffDuration);
+
+	// const FGameplayTag DebuffTag = GameplayTags.DamageTypesToDebuffs[DamageType];
+	FInheritedTagContainer InheritedTags = FInheritedTagContainer();
+	InheritedTags.AddTag(ReactiveStatusTag);
+	if (ReactiveStatusTag.MatchesTagExact(GameplayTags.Debuff_Charged))
+	{
+		InheritedTags.AddTag(GameplayTags.Player_Block_CursorTrace);
+		InheritedTags.AddTag(GameplayTags.Player_Block_InputHeld);
+		InheritedTags.AddTag(GameplayTags.Player_Block_InputPressed);
+		InheritedTags.AddTag(GameplayTags.Player_Block_InputReleased);
+	}
+	UTargetTagsGameplayEffectComponent& Component = Effect->AddComponent<UTargetTagsGameplayEffectComponent>();
+	Component.SetAndApplyTargetTagChanges(InheritedTags);
+
+	Effect->StackingType = EGameplayEffectStackingType::AggregateBySource;
+	Effect->StackLimitCount = 1;
+
+	const int32 Index = Effect->Modifiers.Num();
+	Effect->Modifiers.Add(FGameplayModifierInfo());
+	FGameplayModifierInfo& ModifierInfo = Effect->Modifiers[Index];
+
+	// ModifierInfo.ModifierMagnitude = FScalableFloat(DebuffDamage);
+	ModifierInfo.ModifierOp = EGameplayModOp::Additive;
+	ModifierInfo.Attribute = UAuraAttributeSet::GetIncomingDamageAttribute();
+
+	if (FGameplayEffectSpec* MutableSpec = new FGameplayEffectSpec(Effect, EffectContextHandle, 1.f))
+	{
+		FAuraGameplayEffectContext* AuraContext = static_cast<FAuraGameplayEffectContext*>(MutableSpec->GetContext().Get());
+		TSharedPtr<FGameplayTag> ReactiveStatusDamageType = MakeShareable(new FGameplayTag(DamageType));
+		AuraContext->SetDamageType(ReactiveStatusDamageType);
+		AuraContext->SetShouldHitReact(false);
+		Props.TargetASC->ApplyGameplayEffectSpecToSelf(*MutableSpec);
+	}
 }
 
 void UAuraAttributeSet::Knockback(const FEffectProperties& Props)

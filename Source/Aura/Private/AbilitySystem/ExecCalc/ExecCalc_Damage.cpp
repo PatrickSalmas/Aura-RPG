@@ -108,8 +108,63 @@ void UExecCalc_Damage::DetermineDebuff(const FGameplayEffectCustomExecutionParam
 	}
 }
 
+void UExecCalc_Damage::DetermineReactiveStatus(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
+	const FGameplayEffectSpec& Spec) const
+{
+	FGameplayEffectContextHandle EffectContextHandle = Spec.GetContext();
+	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
+
+	const float LightningDamage =
+		Spec.GetSetByCallerMagnitude(
+			GameplayTags.Damage_Lightning,
+			false,
+			-1.f);
+
+	if (LightningDamage <= -.5f)
+	{
+		return;
+	}
+
+	const UAbilitySystemComponent* SourceASC =
+		ExecutionParams.GetSourceAbilitySystemComponent();
+
+	if (!SourceASC)
+	{
+		return;
+	}
+
+	// Add this check once the Charged mechanic has an unlock tag.
+	/*
+	if (!SourceASC->HasMatchingGameplayTag(
+		GameplayTags.Mechanic_Charged_Unlocked))
+	{
+		return;
+	}
+	*/
+
+	const float ChargedChance =
+		Spec.GetSetByCallerMagnitude(
+			GameplayTags.ReactiveStatus_Chance,
+			false,
+			0.f);
+	
+
+	const bool bApplyCharged =
+		FMath::FRandRange(0.f, 100.f) <
+		FMath::Clamp(ChargedChance, 0.f, 100.f);
+
+	if (bApplyCharged)
+	{
+		UAuraAbilitySystemLibrary::SetIsSuccessfulReactiveStatus(EffectContextHandle, true);
+		// UAuraAbilitySystemLibrary::IsSuccessfulReactiveStatus(EffectContextHandle, true);
+		UAuraAbilitySystemLibrary::SetSuccessfulReactiveStatus(
+			EffectContextHandle,
+			GameplayTags.Debuff_Charged);
+	}
+}
+
 void UExecCalc_Damage::DetermineKnockback(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
-	const FGameplayEffectSpec& Spec, FAggregatorEvaluateParameters EvaluationParameters) const
+                                          const FGameplayEffectSpec& Spec, FAggregatorEvaluateParameters EvaluationParameters) const
 {
 	FGameplayEffectContextHandle EffectContextHandle = Spec.GetContext();
 	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
@@ -164,6 +219,9 @@ void UExecCalc_Damage::Execute_Implementation(const FGameplayEffectCustomExecuti
 
 	// Debuff
 	DetermineDebuff(ExecutionParams, Spec, EvaluationParameters, TagsToCaptureDefs);
+	
+	//DetermineReactiveStatus
+	DetermineReactiveStatus(ExecutionParams, Spec);
 
 	// Determine if there should be Knockback
 	DetermineKnockback(ExecutionParams, Spec, EvaluationParameters);
