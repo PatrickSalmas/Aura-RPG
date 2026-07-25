@@ -191,17 +191,9 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 		return;
 	}
 
-	const float FireDamage =
-		Spec.GetSetByCallerMagnitude(
-			GameplayTags.Damage_Fire,
-			false,
-			-1.f);
+	const float FireDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Fire,false,-1.f);
 
-	const float ArcaneDamage =
-		Spec.GetSetByCallerMagnitude(
-			GameplayTags.Damage_Arcane,
-			false,
-			-1.f);
+	const float ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Arcane,false,-1.f);
 
 	FGameplayTag TriggeredReaction;
 
@@ -289,12 +281,12 @@ void UExecCalc_Damage::Execute_Implementation(const FGameplayEffectCustomExecuti
 
 	DetermineReaction(ExecutionParams, Spec);
 	
+	//DetermineReactiveStatus
+	DetermineReactiveStatus(ExecutionParams, Spec);
+	
 	// Debuff
 	DetermineDebuff(ExecutionParams, Spec, EvaluationParameters, TagsToCaptureDefs);
 	
-	//DetermineReactiveStatus
-	DetermineReactiveStatus(ExecutionParams, Spec);
-
 	// Determine if there should be Knockback
 	DetermineKnockback(ExecutionParams, Spec, EvaluationParameters);
 	

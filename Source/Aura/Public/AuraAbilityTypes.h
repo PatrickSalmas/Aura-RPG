@@ -79,6 +79,12 @@ struct FDamageEffectParams
 
 	UPROPERTY(BlueprintReadWrite)
 	bool bShouldHitReact = true;
+	
+	UPROPERTY(BlueprintReadWrite)
+	bool bCanApplyReactionStatus = true;
+	
+	UPROPERTY(BlueprintReadWrite)
+	bool bCanTriggerReaction = true;
 };
 
 USTRUCT(BlueprintType)
@@ -91,6 +97,8 @@ public:
 	bool isCriticalHit() const { return bIsCriticalHit; }
 	bool isBlockedHit() const { return bIsBlockedHit; }
 	bool GetShouldHitReact() const { return bShouldHitReact; }
+	bool GetCanApplyReactionStatus() const { return bCanApplyReactionStatus; }
+	bool GetCanTriggerReaction() const { return bCanTriggerReaction; }
 	bool IsSuccessfulDebuff() const { return bIsSuccessfulDebuff; }
 	bool IsSuccessfulReactiveStatus() const { return bIsSuccessfulReactiveStatus; }
 	bool IsSuccessfulKnockback() const { return bIsSuccessfulKnockback; }
@@ -122,6 +130,8 @@ public:
 	void SetDebuffFrequency(float InFreq) { DebuffFrequency = InFreq; }
 	void SetDamageType(TSharedPtr<FGameplayTag> InDamageType) { DamageType = InDamageType; }
 	void SetShouldHitReact(bool InShouldHitReact) { bShouldHitReact = InShouldHitReact; }
+	void SetCanApplyReactionStatus(bool InCanApplyReactionStatus) { bCanApplyReactionStatus = InCanApplyReactionStatus; }
+	void SetCanTriggerReaction(bool InCanTriggerReaction) { bCanTriggerReaction = InCanTriggerReaction; }
 	void SetDeathImpulse(const FVector& InDeathImpulse) { DeathImpulse = InDeathImpulse; }
 	void SetKnockbackImpulse(const FVector& InKnockbackImpulse) { KnockBackImpulse = InKnockbackImpulse; }
 	void SetIsRadialDamage(bool bInIsRadialDamage) { bIsRadialDamage = bInIsRadialDamage; }
@@ -187,6 +197,12 @@ protected:
 
 	UPROPERTY()
 	FGameplayTag ReactiveStatusToConsume;
+	
+	UPROPERTY()
+	bool bCanApplyReactionStatus = true;
+	
+	UPROPERTY()
+	bool bCanTriggerReaction = true;
 
 	UPROPERTY()
 	bool bIsSuccessfulKnockback = false;

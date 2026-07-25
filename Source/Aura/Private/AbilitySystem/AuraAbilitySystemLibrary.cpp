@@ -165,6 +165,24 @@ bool UAuraAbilitySystemLibrary::GetShouldHitReact(const FGameplayEffectContextHa
 	return false;
 }
 
+bool UAuraAbilitySystemLibrary::GetCanApplyReactionStatus(const FGameplayEffectContextHandle& EffectContextHandle)
+{
+	if (const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		return AuraEffectContext->GetCanApplyReactionStatus();
+	}
+	return false;
+}
+
+bool UAuraAbilitySystemLibrary::GetCanTriggerReaction(const FGameplayEffectContextHandle& EffectContextHandle)
+{
+	if (const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		return AuraEffectContext->GetCanTriggerReaction();
+	}
+	return false;
+}
+
 bool UAuraAbilitySystemLibrary::IsCriticalHit(const FGameplayEffectContextHandle& EffectContextHandle)
 {
 	if (const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
@@ -299,8 +317,26 @@ void UAuraAbilitySystemLibrary::SetShouldHitReact(FGameplayEffectContextHandle& 
 	}
 }
 
+void UAuraAbilitySystemLibrary::SetCanApplyReactionStatus(FGameplayEffectContextHandle& EffectContextHandle,
+	bool bInCanApplyReactionStatus)
+{
+	if (FAuraGameplayEffectContext* AuraEffectContext = static_cast<FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		AuraEffectContext->SetCanApplyReactionStatus(bInCanApplyReactionStatus);
+	}
+}
+
+void UAuraAbilitySystemLibrary::SetCanTriggerReaction(FGameplayEffectContextHandle& EffectContextHandle,
+	bool bInCanTriggerReaction)
+{
+	if (FAuraGameplayEffectContext* AuraEffectContext = static_cast<FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		AuraEffectContext->SetCanTriggerReaction(bInCanTriggerReaction);
+	}
+}
+
 void UAuraAbilitySystemLibrary::SetIsCriticalHit(FGameplayEffectContextHandle& EffectContextHandle,
-	bool bInIsCriticalHit)
+                                                 bool bInIsCriticalHit)
 {
 	if (FAuraGameplayEffectContext* AuraEffectContext = static_cast<FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
 	{
@@ -626,6 +662,8 @@ FGameplayEffectContextHandle UAuraAbilitySystemLibrary::ApplyDamageEffect(const 
 	SetRadialDamageOuterRadius(EffectContextHandle, DamageEffectParams.RadialDamageOuterRadius);
 	SetRadialDamageOrigin(EffectContextHandle, DamageEffectParams.RadialDamageOrigin);
 	SetShouldHitReact(EffectContextHandle, DamageEffectParams.bShouldHitReact);
+	SetCanApplyReactionStatus(EffectContextHandle, DamageEffectParams.bCanApplyReactionStatus);
+	SetCanTriggerReaction(EffectContextHandle, DamageEffectParams.bCanTriggerReaction);
 	
 	FGameplayEffectSpecHandle SpecHandle = DamageEffectParams.SourceAbilitySystemComponent->MakeOutgoingSpec(
 		DamageEffectParams.DamageGameplayEffectClass, DamageEffectParams.AbilityLevel, EffectContextHandle);
