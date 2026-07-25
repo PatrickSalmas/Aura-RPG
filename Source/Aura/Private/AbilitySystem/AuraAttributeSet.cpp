@@ -221,62 +221,300 @@ void UAuraAttributeSet::HandleIncomingDamage(const FEffectProperties& Props)
 
 void UAuraAttributeSet::Debuff(const FEffectProperties& Props)
 {
-	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
-	FGameplayEffectContextHandle EffectContextHandle = Props.SourceASC->MakeEffectContext();
-	EffectContextHandle.AddSourceObject(Props.SourceAvatarActor);
+	if (!Props.SourceASC || !Props.TargetASC)
+	{
+		return;
+	}
 
-	const FGameplayTag DamageType = UAuraAbilitySystemLibrary::GetDamageType(Props.EffectContextHandle);
-	const float DebuffDamage = UAuraAbilitySystemLibrary::GetDebuffDamage(Props.EffectContextHandle);
-	const float DebuffDuration = UAuraAbilitySystemLibrary::GetDebuffDuration(Props.EffectContextHandle);
-	const float DebuffFrequency = UAuraAbilitySystemLibrary::GetDebuffFrequency(Props.EffectContextHandle);
-	
-	FString DebuffName = FString::Printf(TEXT("DynamicDebuff_%s"), *DamageType.ToString());
-	UGameplayEffect* Effect = NewObject<UGameplayEffect>(GetTransientPackage(), FName(DebuffName));
+	const FAuraGameplayTags& GameplayTags =
+		FAuraGameplayTags::Get();
 
-	Effect->DurationPolicy = EGameplayEffectDurationType::HasDuration;
+	/*
+	 * Retrieve the incoming debuff information from the damage
+	 * Gameplay Effect's context.
+	 */
+	const FGameplayTag DamageType =
+		UAuraAbilitySystemLibrary::GetDamageType(
+			Props.EffectContextHandle);
+
+	const float DebuffDamage =
+		UAuraAbilitySystemLibrary::GetDebuffDamage(
+			Props.EffectContextHandle);
+
+	const float DebuffDuration =
+		UAuraAbilitySystemLibrary::GetDebuffDuration(
+			Props.EffectContextHandle);
+
+	const float DebuffFrequency =
+		UAuraAbilitySystemLibrary::GetDebuffFrequency(
+			Props.EffectContextHandle);
+
+	const FGameplayTag* DebuffTagPtr =
+		GameplayTags.DamageTypesToDebuffs.Find(DamageType);
+
+	if (!DebuffTagPtr)
+	{
+		UE_LOG(
+			LogTemp,
+			Warning,
+			TEXT("Debuff: No debuff tag mapped to damage type %s"),
+			*DamageType.ToString());
+
+		return;
+	}
+
+	const FGameplayTag DebuffTag = *DebuffTagPtr;
+
+	const bool bIsBurn =
+		DebuffTag.MatchesTagExact(GameplayTags.Debuff_Burn);
+
+	/*
+	 * Handle strongest-Burn-wins before constructing the incoming
+	 * dynamic Gameplay Effect.
+	 *
+	 * This ordering is important. Creating another Gameplay Effect
+	 * with the same outer/name before querying could reconstruct the
+	 * definition referenced by the existing active effect.
+	 */
+	if (bIsBurn)
+	{
+		FGameplayTagContainer BurnTags;
+		BurnTags.AddTag(DebuffTag);
+
+		const FGameplayEffectQuery BurnQuery =
+			FGameplayEffectQuery::MakeQuery_MatchAnyOwningTags(
+				BurnTags);
+
+		const TArray<FActiveGameplayEffectHandle>
+			ExistingBurnHandles =
+				Props.TargetASC->GetActiveEffects(BurnQuery);
+
+		const float IncomingDPS =
+			DebuffFrequency > KINDA_SMALL_NUMBER
+				? DebuffDamage / DebuffFrequency
+				: DebuffDamage;
+
+		float StrongestExistingDPS = 0.f;
+
+		for (const FActiveGameplayEffectHandle& Handle :
+			 ExistingBurnHandles)
+		{
+			const FActiveGameplayEffect* ActiveEffect =
+				Props.TargetASC->GetActiveGameplayEffect(Handle);
+
+			if (!ActiveEffect)
+			{
+				continue;
+			}
+
+			const float ExistingDamage =
+				ActiveEffect->Spec.GetSetByCallerMagnitude(
+					GameplayTags.Debuff_Damage,
+					false,
+					0.f);
+
+			const float ExistingFrequency =
+				ActiveEffect->Spec.GetSetByCallerMagnitude(
+					GameplayTags.Debuff_Frequency,
+					false,
+					0.f);
+
+			const float ExistingDPS =
+				ExistingFrequency > KINDA_SMALL_NUMBER
+					? ExistingDamage / ExistingFrequency
+					: ExistingDamage;
+
+			StrongestExistingDPS =
+				FMath::Max(
+					StrongestExistingDPS,
+					ExistingDPS);
+		}
+
+		/*
+		 * Keep the currently active Burn if it is equal to or
+		 * stronger than the incoming Burn.
+		 *
+		 * Equal DPS does not refresh the duration.
+		 */
+		if (!ExistingBurnHandles.IsEmpty() &&
+			StrongestExistingDPS >= IncomingDPS)
+		{
+			return;
+		}
+
+		/*
+		 * The incoming Burn is stronger, so remove every currently
+		 * active Burn before applying it.
+		 */
+		for (const FActiveGameplayEffectHandle& Handle :
+			 ExistingBurnHandles)
+		{
+			Props.TargetASC->RemoveActiveGameplayEffect(Handle);
+		}
+	}
+
+	/*
+	 * Construct the Gameplay Effect only after inspecting and,
+	 * if necessary, removing the existing Burn.
+	 */
+	UGameplayEffect* Effect = nullptr;
+
+	if (bIsBurn)
+	{
+		/*
+		 * Omitting the name causes Unreal to generate a unique
+		 * transient UObject name for this Burn definition.
+		 */
+		Effect =
+			NewObject<UGameplayEffect>(
+				GetTransientPackage());
+	}
+	else
+	{
+		/*
+		 * Retain the stable definition identity used by the other
+		 * debuffs so their AggregateBySource stacking behavior
+		 * continues to function as before.
+		 */
+		const FString DebuffName =
+			FString::Printf(
+				TEXT("DynamicDebuff_%s"),
+				*DamageType.ToString());
+
+		Effect =
+			NewObject<UGameplayEffect>(
+				GetTransientPackage(),
+				FName(*DebuffName));
+	}
+
+	if (!Effect)
+	{
+		return;
+	}
+
+	Effect->DurationPolicy =
+		EGameplayEffectDurationType::HasDuration;
+
 	Effect->Period = DebuffFrequency;
-	Effect->DurationMagnitude = FScalableFloat(DebuffDuration);
 
-	const FGameplayTag DebuffTag = GameplayTags.DamageTypesToDebuffs[DamageType];
-	FInheritedTagContainer InheritedTags = FInheritedTagContainer();
-	FGameplayTag DamageTag = GameplayTags.DamageTypesToDebuffs[DamageType];
-	InheritedTags.AddTag(DamageTag);
+	Effect->DurationMagnitude =
+		FScalableFloat(DebuffDuration);
+
+	/*
+	 * Grant the debuff tag to the target while this Gameplay Effect
+	 * remains active.
+	 */
+	FInheritedTagContainer InheritedTags;
+	InheritedTags.Added.AddTag(DebuffTag);
+
 	if (DebuffTag.MatchesTagExact(GameplayTags.Debuff_Stun))
 	{
-		InheritedTags.AddTag(GameplayTags.Player_Block_CursorTrace);
-		InheritedTags.AddTag(GameplayTags.Player_Block_InputHeld);
-		InheritedTags.AddTag(GameplayTags.Player_Block_InputPressed);
-		InheritedTags.AddTag(GameplayTags.Player_Block_InputReleased);
+		InheritedTags.Added.AddTag(
+			GameplayTags.Player_Block_CursorTrace);
+
+		InheritedTags.Added.AddTag(
+			GameplayTags.Player_Block_InputHeld);
+
+		InheritedTags.Added.AddTag(
+			GameplayTags.Player_Block_InputPressed);
+
+		InheritedTags.Added.AddTag(
+			GameplayTags.Player_Block_InputReleased);
 	}
-	UTargetTagsGameplayEffectComponent& Component = Effect->AddComponent<UTargetTagsGameplayEffectComponent>();
-	Component.SetAndApplyTargetTagChanges(InheritedTags);
 
-	Effect->StackingType = EGameplayEffectStackingType::AggregateBySource;
-	Effect->StackLimitCount = 1;
+	UTargetTagsGameplayEffectComponent& TargetTagsComponent =
+		Effect->FindOrAddComponent<
+			UTargetTagsGameplayEffectComponent>();
 
-	const int32 Index = Effect->Modifiers.Num();
-	Effect->Modifiers.Add(FGameplayModifierInfo());
-	FGameplayModifierInfo& ModifierInfo = Effect->Modifiers[Index];
+	TargetTagsComponent.SetAndApplyTargetTagChanges(
+		InheritedTags);
 
-	ModifierInfo.ModifierMagnitude = FScalableFloat(DebuffDamage);
-	ModifierInfo.ModifierOp = EGameplayModOp::Additive;
-	ModifierInfo.Attribute = UAuraAttributeSet::GetIncomingDamageAttribute();
-
-	if (FGameplayEffectSpec* MutableSpec = new FGameplayEffectSpec(Effect, EffectContextHandle, 1.f))
+	/*
+	 * Burn replacement is handled manually above.
+	 *
+	 * Other debuffs retain the original one-stack-per-source
+	 * behavior.
+	 */
+	if (bIsBurn)
 	{
-		FAuraGameplayEffectContext* AuraContext = static_cast<FAuraGameplayEffectContext*>(MutableSpec->GetContext().Get());
-		TSharedPtr<FGameplayTag> DebuffDamageType = MakeShareable(new FGameplayTag(DamageType));
+		Effect->StackingType =
+			EGameplayEffectStackingType::None;
+	}
+	else
+	{
+		Effect->StackingType =
+			EGameplayEffectStackingType::AggregateBySource;
+
+		Effect->StackLimitCount = 1;
+	}
+
+	/*
+	 * Add the periodic IncomingDamage modifier.
+	 */
+	FGameplayModifierInfo& ModifierInfo =
+		Effect->Modifiers.AddDefaulted_GetRef();
+
+	ModifierInfo.ModifierMagnitude =
+		FScalableFloat(DebuffDamage);
+
+	ModifierInfo.ModifierOp =
+		EGameplayModOp::Additive;
+
+	ModifierInfo.Attribute =
+		UAuraAttributeSet::GetIncomingDamageAttribute();
+
+	/*
+	 * Build the spec on the stack. The ASC copies the spec when it
+	 * applies it, so heap allocation is unnecessary.
+	 */
+	FGameplayEffectContextHandle EffectContextHandle =
+		Props.SourceASC->MakeEffectContext();
+
+	EffectContextHandle.AddSourceObject(
+		Props.SourceAvatarActor);
+
+	FGameplayEffectSpec MutableSpec(
+		Effect,
+		EffectContextHandle,
+		1.f);
+
+	/*
+	 * Store the debuff values on the individual spec so future
+	 * applications can inspect the active Burn's damage and period.
+	 */
+	MutableSpec.SetSetByCallerMagnitude(
+		GameplayTags.Debuff_Damage,
+		DebuffDamage);
+
+	MutableSpec.SetSetByCallerMagnitude(
+		GameplayTags.Debuff_Frequency,
+		DebuffFrequency);
+
+	MutableSpec.SetSetByCallerMagnitude(
+		GameplayTags.Debuff_Duration,
+		DebuffDuration);
+
+	FAuraGameplayEffectContext* AuraContext =
+		static_cast<FAuraGameplayEffectContext*>(
+			MutableSpec.GetContext().Get());
+
+	if (AuraContext)
+	{
+		TSharedPtr<FGameplayTag> DebuffDamageType =
+			MakeShared<FGameplayTag>(DamageType);
+
 		AuraContext->SetDamageType(DebuffDamageType);
 		AuraContext->SetShouldHitReact(false);
-		Props.TargetASC->ApplyGameplayEffectSpecToSelf(*MutableSpec);
 	}
-	
-	// if (DamageTag.MatchesTagExact(GameplayTags.Debuff_Burn))
-	// {
-	// 	AAuraCharacterBase* TargetCharacter = Cast<AAuraCharacterBase>(Props.TargetCharacter);
-	// 	TargetCharacter->SetIsBurningEvent(true);
-	// }
 
+	const FActiveGameplayEffectHandle AppliedHandle =
+		Props.TargetASC->ApplyGameplayEffectSpecToSelf(
+			MutableSpec);
+
+	ensureMsgf(
+		AppliedHandle.IsValid(),
+		TEXT("Failed to apply debuff %s"),
+		*DebuffTag.ToString());
 }
 
 void UAuraAttributeSet::ApplyReactiveStatus(const FEffectProperties& Props)
