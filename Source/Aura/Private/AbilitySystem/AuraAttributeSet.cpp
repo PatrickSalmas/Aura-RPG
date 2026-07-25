@@ -405,10 +405,25 @@ void UAuraAttributeSet::HandleReaction(const FEffectProperties& Props)
 	FGameplayTagContainer TagsToRemove;
 	TagsToRemove.AddTag(StatusToConsume);
 
-	Props.TargetASC->RemoveActiveEffectsWithGrantedTags(
-		TagsToRemove);
+	const int32 NumRemoved =
+		Props.TargetASC->RemoveActiveEffectsWithGrantedTags(TagsToRemove);
+
+	if (NumRemoved <= 0)
+	{
+		return;
+	}
 
 	// Dispatch reaction after Charged has been removed.
+	FGameplayEventData Payload;
+	Payload.EventTag = ReactionTag;
+	Payload.Instigator = Props.SourceCharacter->GetInstigator();
+	Payload.Target = Props.TargetAvatarActor;
+	Payload.ContextHandle = Props.EffectContextHandle;
+
+	UAbilitySystemBlueprintLibrary::SendGameplayEventToActor(
+		Props.SourceCharacter->GetInstigator(),
+		ReactionTag,
+		Payload);
 }
 
 void UAuraAttributeSet::PostAttributeChange(const FGameplayAttribute& Attribute, float OldValue, float NewValue)
