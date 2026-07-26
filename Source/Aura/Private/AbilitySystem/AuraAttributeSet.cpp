@@ -437,8 +437,13 @@ void UAuraAttributeSet::Debuff(const FEffectProperties& Props)
 	 */
 	if (bIsBurn)
 	{
+		// Effect->StackingType =
+		// 	EGameplayEffectStackingType::None;
+		
 		Effect->StackingType =
-			EGameplayEffectStackingType::None;
+			EGameplayEffectStackingType::AggregateBySource;
+
+		Effect->StackLimitCount = 1;
 	}
 	else
 	{
