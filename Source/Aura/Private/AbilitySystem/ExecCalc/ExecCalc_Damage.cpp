@@ -194,7 +194,12 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 	const float FireDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Fire,false,-1.f);
 
 	float ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Arcane,false,-1.f);
-	ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow,false,-1.f) ? ArcaneDamage == -1.f : ArcaneDamage;
+	if (ArcaneDamage <= -1.f)
+	{
+		ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow,false,-1.f);
+	}
+	
+	const float LightningDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Lightning,false,-1.f);
 
 	FGameplayTag TriggeredReaction;
 
@@ -207,6 +212,11 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 	{
 		TriggeredReaction =
 			GameplayTags.Reaction_ArcaneOnCharged;
+	}
+	else if (LightningDamage > 0.f)
+	{
+		TriggeredReaction = 
+			GameplayTags.Reaction_LightningOnCharged;
 	}
 
 	if (!TriggeredReaction.IsValid())
