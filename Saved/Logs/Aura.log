@@ -2753,3 +2753,49 @@ FPackageName: Unable to identify a valid mount point associated with skipped pac
 [2026.07.27-16.34.59:106][406]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
 [2026.07.27-16.34.59:116][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
 [2026.07.27-16.34.59:167][407]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2026.07.27-16.36.34:533][733]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2026.07.27-16.36.34:533][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.27-16.36.34:581][733]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.07.27-16.36.36:807][997]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.07.27-16.36.36:807][997]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2026.07.27-16.36.36:807][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.27-16.36.36:853][997]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.07.27-16.36.41:006][490]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.07.27-16.36.41:006][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.07.27-16.36.41:048][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2026.07.27-16.37.16:049][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.07.27-16.37.16:057][614]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.07.27-16.37.16:115][614]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/LightningOnCharged/GA_Reaction_LightningOnCharged] ([2] browsable assets)...
+[2026.07.27-16.37.16:115][614]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/LightningOnCharged/GA_Reaction_LightningOnCharged]
+[2026.07.27-16.37.16:125][614]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/LightningOnCharged/GA_Reaction_LightningOnCharged
+[2026.07.27-16.37.16:125][614]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/GA_Reaction_LightningOnCharged487E0E1741E04C683FF175B67C0FEE32.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Reactions/LightningOnCharged/GA_Reaction_LightningOnCharged.uasset'
+[2026.07.27-16.37.16:132][614]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.521 ms (total: 1.03 sec)
+[2026.07.27-16.37.16:163][614]LogContentValidation: Display: Starting to validate 1 assets
+[2026.07.27-16.37.16:163][614]LogContentValidation: Enabled validators:
+[2026.07.27-16.37.16:163][614]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.07.27-16.37.16:163][614]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.07.27-16.37.16:163][614]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.07.27-16.37.16:163][614]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.07.27-16.37.16:164][614]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.07.27-16.37.16:164][614]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.07.27-16.37.16:164][614]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/LightningOnCharged/GA_Reaction_LightningOnCharged Validating asset
+[2026.07.27-16.37.19:818][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2026.07.27-16.37.27:666][977]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.07.27-16.37.27:715][977]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/LightningOnCharged/GA_Reaction_LightningOnCharged] ([2] browsable assets)...
+[2026.07.27-16.37.27:716][977]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/LightningOnCharged/GA_Reaction_LightningOnCharged]
+[2026.07.27-16.37.27:723][977]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/LightningOnCharged/GA_Reaction_LightningOnCharged
+[2026.07.27-16.37.27:723][977]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/GA_Reaction_LightningOnCharged1158095C49331BDD301261BB3C6FE861.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Reactions/LightningOnCharged/GA_Reaction_LightningOnCharged.uasset'
+[2026.07.27-16.37.27:729][977]LogFileHelpers: InternalPromptForCheckoutAndSave took 63.502 ms (total: 1.09 sec)
+[2026.07.27-16.37.27:763][977]LogContentValidation: Display: Starting to validate 1 assets
+[2026.07.27-16.37.27:763][977]LogContentValidation: Enabled validators:
+[2026.07.27-16.37.27:763][977]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.07.27-16.37.27:763][977]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.07.27-16.37.27:763][977]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.07.27-16.37.27:763][977]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.07.27-16.37.27:764][977]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.07.27-16.37.27:764][977]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.07.27-16.37.27:764][977]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/LightningOnCharged/GA_Reaction_LightningOnCharged Validating asset
+[2026.07.27-16.37.29:245][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.07.27-16.37.43:053][408]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 692.322998
+[2026.07.27-16.37.44:052][411]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.07.27-16.37.44:053][411]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 692.989441, Update Interval: 338.940399
