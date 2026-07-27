@@ -81,6 +81,9 @@ protected:
 
 	UPROPERTY(BlueprintReadWrite)
 	int32 ArcaneSplintersAttached = 0;
+	
+	UPROPERTY(BlueprintReadWrite)
+	bool HasSpecialTargeting = false;
 private:
 
 };
