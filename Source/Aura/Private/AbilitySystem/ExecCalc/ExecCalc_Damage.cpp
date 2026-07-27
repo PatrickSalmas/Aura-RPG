@@ -193,7 +193,8 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 
 	const float FireDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Fire,false,-1.f);
 
-	const float ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Arcane,false,-1.f);
+	float ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Arcane,false,-1.f);
+	ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow,false,-1.f) ? ArcaneDamage == -1.f : ArcaneDamage;
 
 	FGameplayTag TriggeredReaction;
 
