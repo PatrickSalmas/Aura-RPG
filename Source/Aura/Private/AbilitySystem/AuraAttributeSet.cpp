@@ -534,9 +534,9 @@ void UAuraAttributeSet::ApplyReactiveStatus(const FEffectProperties& Props)
 		return;
 	}
 	
-	// const float DebuffDamage = UAuraAbilitySystemLibrary::GetDebuffDamage(Props.EffectContextHandle);
-	const float DebuffDuration = 8;
-	const float DebuffFrequency = 2;
+	const float DebuffDamage = UAuraAbilitySystemLibrary::GetDebuffDamage(Props.EffectContextHandle);
+	const float DebuffDuration = UAuraAbilitySystemLibrary::GetDebuffDuration(Props.EffectContextHandle);
+	const float DebuffFrequency = UAuraAbilitySystemLibrary::GetDebuffFrequency(Props.EffectContextHandle);
 	
 	FGameplayTag ReactiveStatusTag = GameplayTags.DamageTypesToReactiveStatuses[DamageType];
 	FString DebuffName = FString::Printf(TEXT("DynamicDebuff_%s"), *ReactiveStatusTag.ToString());
@@ -545,6 +545,12 @@ void UAuraAttributeSet::ApplyReactiveStatus(const FEffectProperties& Props)
 	Effect->DurationPolicy = EGameplayEffectDurationType::HasDuration;
 	Effect->Period = DebuffFrequency;
 	Effect->DurationMagnitude = FScalableFloat(DebuffDuration);
+	FGameplayModifierInfo& DamageModifier = Effect->Modifiers.AddDefaulted_GetRef();
+
+	DamageModifier.ModifierOp = EGameplayModOp::Additive;
+	DamageModifier.Attribute = UAuraAttributeSet::GetIncomingDamageAttribute();
+
+	DamageModifier.ModifierMagnitude = FScalableFloat(DebuffDamage);
 
 	// const FGameplayTag DebuffTag = GameplayTags.DamageTypesToDebuffs[DamageType];
 	FInheritedTagContainer InheritedTags = FInheritedTagContainer();

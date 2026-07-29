@@ -152,6 +152,8 @@ protected:
 	virtual void StunTaggedChanged(const FGameplayTag CallbackTag, int32 NewCount);
 	
 	virtual void ChargeTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
+	
+	virtual void BurningTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
 
 	virtual void ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
 	

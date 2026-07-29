@@ -91,7 +91,7 @@ void UExecCalc_Damage::DetermineDebuff(const FGameplayEffectCustomExecutionParam
 			TargetDebuffResistance = FMath::Max<float>(TargetDebuffResistance, 0.f);
 			const float EffectiveDebuffChance = SourceDebuffChance * ( 100 - TargetDebuffResistance ) / 100.f;
 			const bool bDebuff = FMath::RandRange(1, 100) < EffectiveDebuffChance;
-			if (bDebuff)
+			if (bDebuff && DamageType != GameplayTags.Damage_Fire)
 			{
 				UAuraAbilitySystemLibrary::SetIsSuccessfulDebuff(EffectContextHandle, bDebuff);
 				UAuraAbilitySystemLibrary::SetDamageType(EffectContextHandle, DamageType);
@@ -119,8 +119,14 @@ void UExecCalc_Damage::DetermineReactiveStatus(const FGameplayEffectCustomExecut
 			GameplayTags.Damage_Lightning,
 			false,
 			-1.f);
+	
+	const float FireDamage =
+	Spec.GetSetByCallerMagnitude(
+		GameplayTags.Damage_Fire,
+		false,
+		-1.f);
 
-	if (LightningDamage <= -.5f)
+	if (LightningDamage <= -.5f && FireDamage <= -.5f)
 	{
 		return;
 	}
@@ -142,24 +148,46 @@ void UExecCalc_Damage::DetermineReactiveStatus(const FGameplayEffectCustomExecut
 	}
 	*/
 
-	const float ChargedChance =
+	const float ApplyReactiveStatusChance =
 		Spec.GetSetByCallerMagnitude(
 			GameplayTags.ReactiveStatus_Chance,
 			false,
 			0.f);
 	
 
-	const bool bApplyCharged =
+	const bool bApplyReactiveStatus =
 		FMath::FRandRange(0.f, 100.f) <
-		FMath::Clamp(ChargedChance, 0.f, 100.f);
+		FMath::Clamp(ApplyReactiveStatusChance, 0.f, 100.f);
 
-	if (bApplyCharged)
+	if (bApplyReactiveStatus)
 	{
 		UAuraAbilitySystemLibrary::SetIsSuccessfulReactiveStatus(EffectContextHandle, true);
-		// UAuraAbilitySystemLibrary::IsSuccessfulReactiveStatus(EffectContextHandle, true);
-		UAuraAbilitySystemLibrary::SetSuccessfulReactiveStatus(
-			EffectContextHandle,
-			GameplayTags.Debuff_Charged);
+		if (LightningDamage > 0)
+		{
+			UAuraAbilitySystemLibrary::SetSuccessfulReactiveStatus(
+				EffectContextHandle,
+				GameplayTags.DamageTypesToReactiveStatuses[GameplayTags.Damage_Lightning]);
+		}
+		else if (FireDamage > 0)
+		{
+			UAuraAbilitySystemLibrary::SetSuccessfulReactiveStatus(
+				EffectContextHandle,
+				GameplayTags.DamageTypesToReactiveStatuses[GameplayTags.Damage_Fire]);
+			
+			// UAuraAbilitySystemLibrary::SetIsSuccessfulDebuff(EffectContextHandle, true);
+			UAuraAbilitySystemLibrary::SetDamageType(EffectContextHandle, GameplayTags.Damage_Fire);
+			
+			const float DebuffDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Debuff_Damage, false, -1.f);
+			const float DebuffDuration = Spec.GetSetByCallerMagnitude(GameplayTags.Debuff_Duration, false, -1.f);
+			const float DebuffFrequency = Spec.GetSetByCallerMagnitude(GameplayTags.Debuff_Frequency, false, -1.f);
+					
+			UAuraAbilitySystemLibrary::SetDebuffDamage(EffectContextHandle, DebuffDamage);
+			UAuraAbilitySystemLibrary::SetDebuffDuration(EffectContextHandle, DebuffDuration);
+			UAuraAbilitySystemLibrary::SetDebuffFrequency(EffectContextHandle, DebuffFrequency);
+			// UAuraAbilitySystemLibrary::SetCanTriggerReaction(EffectContextHandle, true);
+			
+			// UAuraAbilitySystemLibrary::SetCanTriggerReaction(EffectContextHandle, false);
+		}
 	}
 }
 
@@ -185,8 +213,7 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 	}
 	*/
 
-	if (!TargetASC->HasMatchingGameplayTag(
-			GameplayTags.Debuff_Charged))
+	if (!TargetASC->HasMatchingGameplayTag(GameplayTags.Debuff_Charged) && !TargetASC->HasMatchingGameplayTag(GameplayTags.Debuff_Burning))
 	{
 		return;
 	}
@@ -202,22 +229,36 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 	const float LightningDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Lightning,false,-1.f);
 
 	FGameplayTag TriggeredReaction;
+	FGameplayTag ReactionToConsume;
 
-	if (FireDamage > 0.f)
+	if (TargetASC->HasMatchingGameplayTag(GameplayTags.Debuff_Charged))
 	{
-		TriggeredReaction =
-			GameplayTags.Reaction_FireOnCharged;
+		ReactionToConsume = GameplayTags.Debuff_Charged;
+		if (FireDamage > 0.f)
+		{
+			TriggeredReaction =
+				GameplayTags.Reaction_FireOnCharged;
+		}
+		else if (ArcaneDamage > 0.f)
+		{
+			TriggeredReaction =
+				GameplayTags.Reaction_ArcaneOnCharged;
+		}
+		else if (LightningDamage > 0.f)
+		{
+			TriggeredReaction = 
+				GameplayTags.Reaction_LightningOnCharged;
+		}
 	}
-	else if (ArcaneDamage > 0.f)
+	else if (TargetASC->HasMatchingGameplayTag(GameplayTags.Debuff_Burning))
 	{
-		TriggeredReaction =
-			GameplayTags.Reaction_ArcaneOnCharged;
+		ReactionToConsume = GameplayTags.Debuff_Burning;
+		if (FireDamage > 0.f)
+		{
+			TriggeredReaction = GameplayTags.Reaction_FireOnBurning;
+		}
 	}
-	else if (LightningDamage > 0.f)
-	{
-		TriggeredReaction = 
-			GameplayTags.Reaction_LightningOnCharged;
-	}
+		
 
 	if (!TriggeredReaction.IsValid())
 	{
@@ -233,7 +274,7 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 
 	UAuraAbilitySystemLibrary::SetReactiveStatusToConsume(
 		ContextHandle,
-		GameplayTags.Debuff_Charged);
+		ReactionToConsume);
 }
 
 void UExecCalc_Damage::DetermineKnockback(const FGameplayEffectCustomExecutionParameters& ExecutionParams,

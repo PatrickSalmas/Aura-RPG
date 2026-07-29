@@ -31,6 +31,11 @@ Gameplay Abilities:
 	
 - Actually implement Passive Abilities
 
+- Firebolt
+	Maybe make it so if there is a knockback, nearby enemies as well get knocked back from the central location of the blast.
+	This would help this constantly kiting problem for the player. Maybe, if burn is applied to main target, apply burn to nearby enemies
+	with fractional damage. This could start to become slightly homoginized with new Lightning starter ability if we aren't careful
+
 - Fireblast
 	Upgraded version pulses out and in a second time
 	Upgraded version causes ball to return and explode (instead of being a default feature)
@@ -65,6 +70,10 @@ Gameplay Abilities:
 		
 - LightningStep
 	Need to figure out a way so that the player doesn't glitch out when landing directly ontop of another actor
+	
+- Shock (or a better name)
+	New starter ability that shoots a fast moving projectile of electricty (bolt of lightning). Damages the main target, and if other enemies
+	are near the main target, do a fractional amount of damage to nearby targets
 
 - Mobility Abilities:
 	Arcane (still figuring this one out): Maybe turn into a mass of particles for x amount of time, gain extra speed, and any cause debuff and damage to enemies you touch. Also paint the map with some sort of debuff gas that stays for x amount of time (kind of like the gas that appears after a mine explodes). 
@@ -72,6 +81,7 @@ Gameplay Abilities:
 - Time Dilation:
 	-- Upgrade: can as well speed up cooldown speed with in dilation
 	-- Upgrade: Dilation persists when actor leaves field
+	-- Upgrade: Clears any harmful AOE from the ground
 
 - Flame Flurry
 	-- Upgrade: Fan the flames: Applying Flame Flurry to already burning targets doubles the DOT flame effect on targets

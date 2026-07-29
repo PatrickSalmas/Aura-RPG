@@ -71,6 +71,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Debuff_Physical = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Physical"), FString("Debuff for Physical Damage"));
 	GameplayTags.Debuff_Stun = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Stun"), FString("Debuff for Lightning Damage"));
 	GameplayTags.Debuff_Charged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Charged"), FString("Exploitable Debuff for Lightning Damage"));
+	GameplayTags.Debuff_Burning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Burning"), FString("Exploitable Debuff for Fire Damage"));
 	GameplayTags.Debuff_Exploitable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Exploitable"), FString("Exploitable Debuff tag"));
 	GameplayTags.Debuff_Immobilize = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Immobilize"), FString("Debuff for Arcane Damage"));
 	GameplayTags.Debuff_Slow = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Slow"), FString("Debuff for Arcane Damage"));
@@ -85,6 +86,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Reaction_FireOnCharged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.FireOnCharged"), FString("Fire on charged recation occurred"));
 	GameplayTags.Reaction_ArcaneOnCharged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.ArcaneOnCharged"), FString("Arcane on charged recation occurred"));
 	GameplayTags.Reaction_LightningOnCharged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.LightningOnCharged"), FString("Lightning on charged recation occurred"));
+	GameplayTags.Reaction_FireOnBurning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.FireOnBurning"), FString("Fire on burning recation occurred"));
 	
 	GameplayTags.Hit_ReactionInert = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Hit.ReactionInert"), FString("Tag to represent that hit should not cause hit react"));
 	
@@ -132,6 +134,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_Physical, GameplayTags.Debuff_Physical);
 	
 	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Lightning,GameplayTags.Debuff_Charged);
+	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Fire,GameplayTags.Debuff_Burning);
 	
 	GameplayTags.SuccessfulReactiveStatus = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reactive.SuccessfulReactiveStatus"), FString("Has Successful Reactive status"));
 	

@@ -193,6 +193,20 @@ void AAuraCharacterBase::ChargeTagChanged(const FGameplayTag CallbackTag, int32 
 	}
 }
 
+void AAuraCharacterBase::BurningTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
+{
+	bIsCharged = NewCount > 0;
+	if (bIsCharged)
+	{
+		// ChargedDebuffComponent->SetVariableLinearColor(FName("User.Color"), ChargedColor);
+		BurnDebuffComponent->Activate();
+	}
+	else
+	{
+		BurnDebuffComponent->Deactivate();
+	}
+}
+
 void AAuraCharacterBase::ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
 {
 	bIsImmobilized = NewCount > 0;

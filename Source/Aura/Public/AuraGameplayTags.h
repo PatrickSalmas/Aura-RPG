@@ -63,6 +63,7 @@ public:
 	FGameplayTag Debuff_Burn;
 	FGameplayTag Debuff_Stun;
 	FGameplayTag Debuff_Charged;
+	FGameplayTag Debuff_Burning;
 	FGameplayTag Debuff_Exploitable;
 	FGameplayTag Debuff_Immobilize;
 	FGameplayTag Debuff_Slow;
@@ -79,6 +80,7 @@ public:
 	FGameplayTag Reaction_FireOnCharged;
 	FGameplayTag Reaction_ArcaneOnCharged;
 	FGameplayTag Reaction_LightningOnCharged;
+	FGameplayTag Reaction_FireOnBurning;
 	
 	FGameplayTag Hit_ReactionInert;
 	
