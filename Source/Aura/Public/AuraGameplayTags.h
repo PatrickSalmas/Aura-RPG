@@ -82,7 +82,7 @@ public:
 	FGameplayTag Reaction_LightningOnCharged;
 	FGameplayTag Reaction_FireOnBurning;
 	FGameplayTag Reaction_LightningOnBurning;
-	
+	FGameplayTag Reaction_ArcaneOnBurning;
 	
 	FGameplayTag Hit_ReactionInert;
 	

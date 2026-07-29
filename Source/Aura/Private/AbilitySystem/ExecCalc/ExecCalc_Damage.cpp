@@ -257,9 +257,13 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 		{
 			TriggeredReaction = GameplayTags.Reaction_FireOnBurning;
 		}
-		if (LightningDamage > 0.f)
+		else if (LightningDamage > 0.f)
 		{
 			TriggeredReaction = GameplayTags.Reaction_LightningOnBurning;
+		}
+		else if (ArcaneDamage > 0.f)
+		{
+			TriggeredReaction = GameplayTags.Reaction_ArcaneOnBurning;
 		}
 	}
 		
