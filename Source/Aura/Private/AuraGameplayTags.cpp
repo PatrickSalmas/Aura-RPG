@@ -87,6 +87,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Reaction_ArcaneOnCharged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.ArcaneOnCharged"), FString("Arcane on charged recation occurred"));
 	GameplayTags.Reaction_LightningOnCharged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.LightningOnCharged"), FString("Lightning on charged recation occurred"));
 	GameplayTags.Reaction_FireOnBurning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.FireOnBurning"), FString("Fire on burning recation occurred"));
+	GameplayTags.Reaction_LightningOnBurning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.LightningOnBurning"), FString("Lightning on burning recation occurred"));
 	
 	GameplayTags.Hit_ReactionInert = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Hit.ReactionInert"), FString("Tag to represent that hit should not cause hit react"));
 	
