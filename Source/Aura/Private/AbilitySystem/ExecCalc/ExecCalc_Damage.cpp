@@ -267,6 +267,10 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 		{
 			TriggeredReaction = GameplayTags.Reaction_FireOnUnstable;
 		}
+		else if (LightningDamage > 0.f)
+		{
+			TriggeredReaction = GameplayTags.Reaction_LightningOnUnstable;
+		}
 	}
 		
 
