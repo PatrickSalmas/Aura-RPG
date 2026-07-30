@@ -72,6 +72,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Debuff_Stun = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Stun"), FString("Debuff for Lightning Damage"));
 	GameplayTags.Debuff_Charged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Charged"), FString("Exploitable Debuff for Lightning Damage"));
 	GameplayTags.Debuff_Burning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Burning"), FString("Exploitable Debuff for Fire Damage"));
+	GameplayTags.Debuff_Unstable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Unstable"), FString("Exploitable Debuff for Arcane Damage"));
 	GameplayTags.Debuff_Exploitable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Exploitable"), FString("Exploitable Debuff tag"));
 	GameplayTags.Debuff_Immobilize = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Immobilize"), FString("Debuff for Arcane Damage"));
 	GameplayTags.Debuff_Slow = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Slow"), FString("Debuff for Arcane Damage"));
@@ -137,6 +138,8 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	
 	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Lightning,GameplayTags.Debuff_Charged);
 	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Fire,GameplayTags.Debuff_Burning);
+	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Arcane,GameplayTags.Debuff_Unstable);
+	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_ArcaneSlow,GameplayTags.Debuff_Unstable);
 	
 	GameplayTags.SuccessfulReactiveStatus = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reactive.SuccessfulReactiveStatus"), FString("Has Successful Reactive status"));
 	

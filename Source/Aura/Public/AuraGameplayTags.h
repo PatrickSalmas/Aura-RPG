@@ -64,6 +64,7 @@ public:
 	FGameplayTag Debuff_Stun;
 	FGameplayTag Debuff_Charged;
 	FGameplayTag Debuff_Burning;
+	FGameplayTag Debuff_Unstable;
 	FGameplayTag Debuff_Exploitable;
 	FGameplayTag Debuff_Immobilize;
 	FGameplayTag Debuff_Slow;

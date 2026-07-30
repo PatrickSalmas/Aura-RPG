@@ -114,19 +114,15 @@ void UExecCalc_Damage::DetermineReactiveStatus(const FGameplayEffectCustomExecut
 	FGameplayEffectContextHandle EffectContextHandle = Spec.GetContext();
 	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
 
-	const float LightningDamage =
-		Spec.GetSetByCallerMagnitude(
-			GameplayTags.Damage_Lightning,
-			false,
-			-1.f);
-	
-	const float FireDamage =
-	Spec.GetSetByCallerMagnitude(
-		GameplayTags.Damage_Fire,
-		false,
-		-1.f);
+	const float LightningDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Lightning,false,-1.f);
+	const float FireDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Fire,false,-1.f);
+	float ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Arcane,false,-1.f);
+	if (ArcaneDamage <= -1.f)
+	{
+		ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow,false,-1.f);
+	}
 
-	if (LightningDamage <= -.5f && FireDamage <= -.5f)
+	if (LightningDamage <= -.5f && FireDamage <= -.5f && ArcaneDamage <= -.5f)
 	{
 		return;
 	}
@@ -148,17 +144,9 @@ void UExecCalc_Damage::DetermineReactiveStatus(const FGameplayEffectCustomExecut
 	}
 	*/
 
-	const float ApplyReactiveStatusChance =
-		Spec.GetSetByCallerMagnitude(
-			GameplayTags.ReactiveStatus_Chance,
-			false,
-			0.f);
+	const float ApplyReactiveStatusChance = Spec.GetSetByCallerMagnitude(GameplayTags.ReactiveStatus_Chance,false,0.f);
 	
-
-	const bool bApplyReactiveStatus =
-		FMath::FRandRange(0.f, 100.f) <
-		FMath::Clamp(ApplyReactiveStatusChance, 0.f, 100.f);
-
+	const bool bApplyReactiveStatus = FMath::FRandRange(0.f, 100.f) < FMath::Clamp(ApplyReactiveStatusChance, 0.f, 100.f);
 	if (bApplyReactiveStatus)
 	{
 		UAuraAbilitySystemLibrary::SetIsSuccessfulReactiveStatus(EffectContextHandle, true);
@@ -185,8 +173,13 @@ void UExecCalc_Damage::DetermineReactiveStatus(const FGameplayEffectCustomExecut
 			UAuraAbilitySystemLibrary::SetDebuffDuration(EffectContextHandle, DebuffDuration);
 			UAuraAbilitySystemLibrary::SetDebuffFrequency(EffectContextHandle, DebuffFrequency);
 			// UAuraAbilitySystemLibrary::SetCanTriggerReaction(EffectContextHandle, true);
-			
 			// UAuraAbilitySystemLibrary::SetCanTriggerReaction(EffectContextHandle, false);
+		}
+		else if (ArcaneDamage > 0)
+		{
+			UAuraAbilitySystemLibrary::SetSuccessfulReactiveStatus(
+				EffectContextHandle,
+				   GameplayTags.DamageTypesToReactiveStatuses[GameplayTags.Damage_Arcane]);
 		}
 	}
 }

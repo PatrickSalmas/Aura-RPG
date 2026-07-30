@@ -85,6 +85,9 @@ public:
 	
 	UPROPERTY(ReplicatedUsing=OnRep_Burned, BlueprintReadOnly)
 	bool bIsBurned = false;
+	
+	UPROPERTY(ReplicatedUsing=OnRep_Burned, BlueprintReadOnly)
+	bool bIsUnstable = false;
 
 	UPROPERTY(Replicated, BlueprintReadOnly)
 	bool bIsBeingShocked = false;
@@ -154,6 +157,8 @@ protected:
 	virtual void ChargeTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
 	
 	virtual void BurningTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
+	
+	virtual void UnstableTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
 
 	virtual void ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
 	
@@ -227,9 +232,12 @@ protected:
 
 	UPROPERTY(VisibleDefaultsOnly, Category="Niagara")
 	TObjectPtr<UDebuffNiagaraComponent> StunDebuffComponent;
-	
+
 	UPROPERTY(VisibleDefaultsOnly, Category="Niagara")
 	TObjectPtr<UDebuffNiagaraComponent> ChargedDebuffComponent;
+	
+	UPROPERTY(VisibleDefaultsOnly, Category="Niagara")
+	TObjectPtr<UDebuffNiagaraComponent> UnstableDebuffComponent;
 
 	UPROPERTY(VisibleDefaultsOnly, Category="Niagara")
 	TObjectPtr<UDebuffNiagaraComponent> ImmobilizeDebuffComponent;
@@ -239,6 +247,9 @@ protected:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Niagara")
 	FLinearColor ChargedColor =FLinearColor(0.05f, 0.35f, 1.f, 1.f);
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Niagara")
+	FLinearColor UnstableColor =FLinearColor(0.3f, 0.02f, 0.24f, 1.f);
 
 	// UPROPERTY(BlueprintReadWrite)
 	// TObjectPtr<UNiagaraComponent> ArcanePullComponent;

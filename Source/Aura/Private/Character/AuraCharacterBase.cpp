@@ -38,6 +38,10 @@ AAuraCharacterBase::AAuraCharacterBase()
 			ChargedDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("ChargedDebuffComponent"));
 			ChargedDebuffComponent->SetupAttachment(GetMesh());
 			ChargedDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Charged;
+	
+			UnstableDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("UnstableDebuffComponent"));
+			UnstableDebuffComponent->SetupAttachment(GetMesh());
+			UnstableDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Unstable;
 
 			ImmobilizeDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("ImmobilizeDebuffComponent"));
 			ImmobilizeDebuffComponent->SetupAttachment(GetMesh());
@@ -195,15 +199,28 @@ void AAuraCharacterBase::ChargeTagChanged(const FGameplayTag CallbackTag, int32 
 
 void AAuraCharacterBase::BurningTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
 {
-	bIsCharged = NewCount > 0;
-	if (bIsCharged)
+	bIsBurned = NewCount > 0;
+	if (bIsBurned)
 	{
-		// ChargedDebuffComponent->SetVariableLinearColor(FName("User.Color"), ChargedColor);
 		BurnDebuffComponent->Activate();
 	}
 	else
 	{
 		BurnDebuffComponent->Deactivate();
+	}
+}
+
+void AAuraCharacterBase::UnstableTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
+{
+	bIsUnstable = NewCount > 0;
+	if (bIsUnstable)
+	{
+		UnstableDebuffComponent->SetVariableLinearColor(FName("User.Color"), UnstableColor);
+		UnstableDebuffComponent->Activate();
+	}
+	else
+	{
+		UnstableDebuffComponent->Deactivate();
 	}
 }
 
