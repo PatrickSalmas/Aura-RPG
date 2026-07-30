@@ -188,7 +188,7 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 	const FGameplayEffectSpec& Spec) const
 {
 	UAbilitySystemComponent* TargetASC =
-	   ExecutionParams.GetTargetAbilitySystemComponent();
+		ExecutionParams.GetTargetAbilitySystemComponent();
 
 	if (!TargetASC)
 	{
@@ -206,7 +206,8 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 	}
 	*/
 
-	if (!TargetASC->HasMatchingGameplayTag(GameplayTags.Debuff_Charged) && !TargetASC->HasMatchingGameplayTag(GameplayTags.Debuff_Burning))
+	if (!TargetASC->HasMatchingGameplayTag(GameplayTags.Debuff_Charged) && !TargetASC->HasMatchingGameplayTag(GameplayTags.Debuff_Burning)
+		&& !TargetASC->HasMatchingGameplayTag(GameplayTags.Debuff_Unstable))
 	{
 		return;
 	}
@@ -257,6 +258,14 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 		else if (ArcaneDamage > 0.f)
 		{
 			TriggeredReaction = GameplayTags.Reaction_ArcaneOnBurning;
+		}
+	}
+	else if (TargetASC->HasMatchingGameplayTag(GameplayTags.Debuff_Unstable))
+	{
+		ReactionToConsume = GameplayTags.Debuff_Unstable;
+		if (FireDamage > 0.f)
+		{
+			TriggeredReaction = GameplayTags.Reaction_FireOnUnstable;
 		}
 	}
 		
