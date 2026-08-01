@@ -14,6 +14,7 @@
 #include "BehaviorTree/BehaviorTree.h"
 #include "BehaviorTree/BlackboardComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Kismet/KismetStringLibrary.h"
 
 AAuraEnemy::AAuraEnemy()
 {
@@ -119,7 +120,9 @@ void AAuraEnemy::BeginPlay()
 void AAuraEnemy::HitReactTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
 {
 	bHitReacting = NewCount > 0;
-	GetCharacterMovement()->MaxWalkSpeed = bHitReacting ? 0.f : CurrentWalkSpeed;
+	float NewWalkSpeed = bHitReacting ? 0.f : CurrentWalkSpeed;
+	// UE_LOG(LogTemp, Warning, TEXT("HitReact %s %f"), bHitReacting ? TEXT("true") : TEXT("false"), NewWalkSpeed);
+	GetCharacterMovement()->MaxWalkSpeed = NewWalkSpeed;
 	if (AuraAIController && AuraAIController->GetBlackboardComponent())
 	{
 		AuraAIController->GetBlackboardComponent()->SetValueAsBool(FName("HitReacting"), bHitReacting);

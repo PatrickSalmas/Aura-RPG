@@ -227,7 +227,9 @@ void AAuraCharacterBase::UnstableTagChanged(const FGameplayTag CallbackTag, int3
 void AAuraCharacterBase::ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
 {
 	bIsImmobilized = NewCount > 0;
-	GetCharacterMovement()->MaxWalkSpeed = bIsImmobilized ? 0.f : CurrentWalkSpeed;
+	float NewWalkSpeed = bIsImmobilized ? 0.f : CurrentWalkSpeed;
+	// UE_LOG(LogTemp, Warning, TEXT("Immobilized %s %f"), bIsImmobilized ? TEXT("true") : TEXT("false"), NewWalkSpeed);
+	GetCharacterMovement()->MaxWalkSpeed = NewWalkSpeed;
 }
 
 void AAuraCharacterBase::SlowedTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
@@ -236,11 +238,13 @@ void AAuraCharacterBase::SlowedTagChanged(const FGameplayTag CallbackTag, int32 
 	if (bIsSlowed)
 	{
 		CurrentWalkSpeed = CurrentWalkSpeed / 2;
+		// UE_LOG(LogTemp, Warning, TEXT("Slowed %s %f"), bIsSlowed ? TEXT("true") : TEXT("false"), CurrentWalkSpeed);
 		GetCharacterMovement()->MaxWalkSpeed = CurrentWalkSpeed;
 	}
 	else
 	{
 		CurrentWalkSpeed = BaseWalkSpeed; 
+		// UE_LOG(LogTemp, Warning, TEXT("Slowed %s %f"), bIsSlowed ? TEXT("true") : TEXT("false"), BaseWalkSpeed);
 		GetCharacterMovement()->MaxWalkSpeed = BaseWalkSpeed;
 	}
 }
