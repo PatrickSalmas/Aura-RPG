@@ -317,6 +317,16 @@ void UAuraAbilitySystemLibrary::SetShouldHitReact(FGameplayEffectContextHandle& 
 	}
 }
 
+void UAuraAbilitySystemLibrary::SetReactiveStatusChance(FGameplayEffectContextHandle& EffectContextHandle,
+	float ReactiveStatusChance)
+{
+	if (FAuraGameplayEffectContext* AuraEffectContext = static_cast<FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		AuraEffectContext->SetReactiveStatusChance(ReactiveStatusChance);
+	}
+}
+
+
 void UAuraAbilitySystemLibrary::SetCanApplyReactionStatus(FGameplayEffectContextHandle& EffectContextHandle,
 	bool bInCanApplyReactionStatus)
 {
@@ -657,11 +667,16 @@ FGameplayEffectContextHandle UAuraAbilitySystemLibrary::ApplyDamageEffect(const 
 	SetDeathImpulse(EffectContextHandle, DamageEffectParams.DeathImpulse);
 	SetKnockbackImpulse(EffectContextHandle, DamageEffectParams.KnockBackImpulse);
 
+	SetDamageType(EffectContextHandle, DamageEffectParams.DamageType);
+	// SetDebuffDamage(EffectContextHandle, DamageEffectParams.DebuffDamage);
+	// SetDebuffDuration(EffectContextHandle, DamageEffectParams.DebuffDuration);
+	// SetDebuffFrequency(EffectContextHandle, DamageEffectParams.DebuffFrequency);
 	SetIsRadialDamage(EffectContextHandle, DamageEffectParams.bIsRadialDamage);
 	SetRadialDamageInnerRadius(EffectContextHandle, DamageEffectParams.RadialDamageInnerRadius);
 	SetRadialDamageOuterRadius(EffectContextHandle, DamageEffectParams.RadialDamageOuterRadius);
 	SetRadialDamageOrigin(EffectContextHandle, DamageEffectParams.RadialDamageOrigin);
 	SetShouldHitReact(EffectContextHandle, DamageEffectParams.bShouldHitReact);
+	SetReactiveStatusChance(EffectContextHandle, DamageEffectParams.ReactiveStatusChance);
 	SetCanApplyReactionStatus(EffectContextHandle, DamageEffectParams.bCanApplyReactionStatus);
 	SetCanTriggerReaction(EffectContextHandle, DamageEffectParams.bCanTriggerReaction);
 	

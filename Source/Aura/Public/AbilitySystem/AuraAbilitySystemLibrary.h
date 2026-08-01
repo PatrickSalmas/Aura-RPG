@@ -124,6 +124,9 @@ public:
 	static void SetShouldHitReact(UPARAM(ref) FGameplayEffectContextHandle& EffectContextHandle, bool bInShouldHitReact);
 	
 	UFUNCTION(BlueprintCallable, Category="AuraAbilitySystemLibrary|GameplayEffects")
+	static void SetReactiveStatusChance(UPARAM(ref) FGameplayEffectContextHandle& EffectContextHandle, float InReactiveStatusChance);
+	
+	UFUNCTION(BlueprintCallable, Category="AuraAbilitySystemLibrary|GameplayEffects")
 	static void SetCanApplyReactionStatus(UPARAM(ref) FGameplayEffectContextHandle& EffectContextHandle, bool bInCanApplyReactionStatus);
 	
 	UFUNCTION(BlueprintCallable, Category="AuraAbilitySystemLibrary|GameplayEffects")

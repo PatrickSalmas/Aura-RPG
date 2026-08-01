@@ -121,6 +121,10 @@ void UExecCalc_Damage::DetermineReactiveStatus(const FGameplayEffectCustomExecut
 	{
 		ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow,false,-1.f);
 	}
+	if (ArcaneDamage <= -1.f)
+	{
+		ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneImmobilize,false,-1.f);
+	}
 
 	if (LightningDamage <= -.5f && FireDamage <= -.5f && ArcaneDamage <= -.5f)
 	{
@@ -219,6 +223,10 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 	{
 		ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow,false,-1.f);
 	}
+	if (ArcaneDamage <= -1.f)
+	{
+		ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneImmobilize,false,-1.f);
+	}
 	
 	const float LightningDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Lightning,false,-1.f);
 
@@ -270,6 +278,10 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 		else if (LightningDamage > 0.f)
 		{
 			TriggeredReaction = GameplayTags.Reaction_LightningOnUnstable;
+		}
+		else if (ArcaneDamage > 0.f)
+		{
+			TriggeredReaction = GameplayTags.Reaction_ArcaneOnUnstable;
 		}
 	}
 		

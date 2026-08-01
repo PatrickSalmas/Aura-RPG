@@ -640,6 +640,33 @@ void UAuraAttributeSet::HandleIncomingXP(const FEffectProperties& Props)
 
 void UAuraAttributeSet::HandleReaction(const FEffectProperties& Props)
 {
+	static thread_local int32 ReactionCallDepth = 0;
+	++ReactionCallDepth;
+
+	ON_SCOPE_EXIT
+	{
+		--ReactionCallDepth;
+	};
+
+	UE_LOG(
+		LogTemp,
+		Warning,
+		TEXT("HandleReaction entered. Depth: %d"),
+		ReactionCallDepth);
+
+	if (ReactionCallDepth >= 20)
+	{
+		UE_LOG(
+			LogTemp,
+			Error,
+			TEXT("Synchronous reaction recursion confirmed. Breaking chain at depth %d."),
+			ReactionCallDepth);
+
+		return; // Diagnostic guard only
+	}
+
+	// Existing HandleReaction code...
+	
 	const FGameplayTag ReactionTag =
 	UAuraAbilitySystemLibrary::GetTriggeredReaction(
 		Props.EffectContextHandle);

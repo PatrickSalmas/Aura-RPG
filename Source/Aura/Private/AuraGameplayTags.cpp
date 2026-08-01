@@ -92,6 +92,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Reaction_ArcaneOnBurning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.ArcaneOnBurning"), FString("Arcane on burning recation occurred"));
 	GameplayTags.Reaction_FireOnUnstable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.FireOnUnstable"), FString("Fire on unstable recation occurred"));
 	GameplayTags.Reaction_LightningOnUnstable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.LightningOnUnstable"), FString("Lightning on unstable recation occurred"));
+	GameplayTags.Reaction_ArcaneOnUnstable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.ArcaneOnUnstable"), FString("Lightning on unstable recation occurred"));
 	
 	GameplayTags.Hit_ReactionInert = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Hit.ReactionInert"), FString("Tag to represent that hit should not cause hit react"));
 	
@@ -142,6 +143,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Fire,GameplayTags.Debuff_Burning);
 	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Arcane,GameplayTags.Debuff_Unstable);
 	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_ArcaneSlow,GameplayTags.Debuff_Unstable);
+	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_ArcaneImmobilize,GameplayTags.Debuff_Unstable);
 	
 	GameplayTags.SuccessfulReactiveStatus = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reactive.SuccessfulReactiveStatus"), FString("Has Successful Reactive status"));
 	

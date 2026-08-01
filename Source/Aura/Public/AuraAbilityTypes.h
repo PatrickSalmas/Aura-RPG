@@ -130,6 +130,7 @@ public:
 	void SetDebuffFrequency(float InFreq) { DebuffFrequency = InFreq; }
 	void SetDamageType(TSharedPtr<FGameplayTag> InDamageType) { DamageType = InDamageType; }
 	void SetShouldHitReact(bool InShouldHitReact) { bShouldHitReact = InShouldHitReact; }
+	void SetReactiveStatusChance(float InReactiveStatusChance) { ReactiveStatusChance = InReactiveStatusChance; }
 	void SetCanApplyReactionStatus(bool InCanApplyReactionStatus) { bCanApplyReactionStatus = InCanApplyReactionStatus; }
 	void SetCanTriggerReaction(bool InCanTriggerReaction) { bCanTriggerReaction = InCanTriggerReaction; }
 	void SetDeathImpulse(const FVector& InDeathImpulse) { DeathImpulse = InDeathImpulse; }
@@ -191,6 +192,9 @@ protected:
 	
 	UPROPERTY()
 	FGameplayTag ReactiveStatus;
+	
+	UPROPERTY()
+	float ReactiveStatusChance = 0.f;
 	
 	UPROPERTY()
 	FGameplayTag TriggeredReaction;
