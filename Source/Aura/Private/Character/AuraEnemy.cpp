@@ -145,6 +145,10 @@ void AAuraEnemy::InitAbilityActorInfo()
 										 EGameplayTagEventType::NewOrRemoved).AddUObject(
 											this, &AAuraEnemy::BurningTagChanged);
 	
+	AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().Debuff_ArcaneFire,
+									 EGameplayTagEventType::NewOrRemoved).AddUObject(
+										this, &AAuraEnemy::ArcaneFireTagChanged);
+	
 	AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().Debuff_Unstable,
 									 EGameplayTagEventType::NewOrRemoved).AddUObject(
 										this, &AAuraEnemy::UnstableTagChanged);

@@ -158,6 +158,8 @@ protected:
 	
 	virtual void BurningTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
 	
+	virtual void ArcaneFireTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
+	
 	virtual void UnstableTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
 
 	virtual void ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
@@ -229,6 +231,9 @@ protected:
 
 	UPROPERTY(VisibleDefaultsOnly, Category="Niagara")
 	TObjectPtr<UDebuffNiagaraComponent> BurnDebuffComponent;
+	
+	UPROPERTY(VisibleDefaultsOnly, Category="Niagara")
+	TObjectPtr<UDebuffNiagaraComponent> ArcaneFireDebuffComponent;
 
 	UPROPERTY(VisibleDefaultsOnly, Category="Niagara")
 	TObjectPtr<UDebuffNiagaraComponent> StunDebuffComponent;

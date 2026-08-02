@@ -69,6 +69,7 @@ public:
 	FGameplayTag Debuff_Immobilize;
 	FGameplayTag Debuff_Slow;
 	FGameplayTag Debuff_Arcane;
+	FGameplayTag Debuff_ArcaneFire;
 	FGameplayTag Debuff_Physical;
 
 	FGameplayTag Debuff_Chance;

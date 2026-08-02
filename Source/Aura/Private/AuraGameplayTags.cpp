@@ -66,6 +66,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	 * Debuffs
 	 */
 	GameplayTags.Debuff_Arcane = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Arcane"), FString("Debuff for Arcane Damage"));
+	GameplayTags.Debuff_ArcaneFire = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.ArcaneFire"), FString("Debuff for ArcaneFire Damage Effect"));
 	// GameplayTags.Debuff_ArcaneSlow = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.ArcaneSlow"), FString("Debuff for Arcane Damage"));
 	GameplayTags.Debuff_Burn = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Burn"), FString("Debuff for Fire Damage"));
 	GameplayTags.Debuff_Physical = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Physical"), FString("Debuff for Physical Damage"));

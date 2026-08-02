@@ -30,6 +30,10 @@ AAuraCharacterBase::AAuraCharacterBase()
 			BurnDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("BurnDebuffComponent"));
 			BurnDebuffComponent->SetupAttachment(GetMesh());
 			BurnDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Burn;
+	
+			ArcaneFireDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("ArcaneFireDebuffComponent"));
+			ArcaneFireDebuffComponent->SetupAttachment(GetMesh());
+			ArcaneFireDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_ArcaneFire;
 
 			StunDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("StunDebuffComponent"));
 			StunDebuffComponent->SetupAttachment(GetMesh());
@@ -207,6 +211,19 @@ void AAuraCharacterBase::BurningTagChanged(const FGameplayTag CallbackTag, int32
 	else
 	{
 		BurnDebuffComponent->Deactivate();
+	}
+}
+
+void AAuraCharacterBase::ArcaneFireTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
+{
+	// bIsBurned = NewCount > 0;
+	if (NewCount > 0)
+	{
+		ArcaneFireDebuffComponent->Activate();
+	}
+	else
+	{
+		ArcaneFireDebuffComponent->Deactivate();
 	}
 }
 
