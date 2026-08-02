@@ -51,6 +51,7 @@ public:
 	FGameplayTag Damage_Fire;
 	FGameplayTag Damage_Lightning;
 	FGameplayTag Damage_Arcane;
+	FGameplayTag Damage_ArcaneFire;
 	FGameplayTag Damage_ArcaneImmobilize;
 	FGameplayTag Damage_ArcaneSlow;
 	FGameplayTag Damage_Physical;

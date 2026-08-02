@@ -195,6 +195,13 @@ void UAuraAttributeSet::HandleIncomingDamage(const FEffectProperties& Props)
 		const bool bBlock = UAuraAbilitySystemLibrary::IsBlockedHit(Props.EffectContextHandle);
 		const bool bCriticalHit = UAuraAbilitySystemLibrary::IsCriticalHit(Props.EffectContextHandle);
 		ShowFloatingText(Props, LocalIncomingDamage, bBlock, bCriticalHit);
+		
+		const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
+		if (UAuraAbilitySystemLibrary::GetDamageType(Props.EffectContextHandle) == GameplayTags.Damage_ArcaneFire)
+		{
+			bool testVar = false;
+		}
+		
 		if (UAuraAbilitySystemLibrary::IsSuccessfulDebuff(Props.EffectContextHandle))
 		{
 			// Handle Debuff
