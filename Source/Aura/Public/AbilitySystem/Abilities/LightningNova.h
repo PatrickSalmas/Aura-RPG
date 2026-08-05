@@ -17,7 +17,7 @@ class AURA_API ULightningNova : public UAuraDamageGameplayAbility
 	
 public:
 	UFUNCTION(BlueprintCallable)
-	void SpawnLightningNovaWave();
+	void SpawnLightningNovaWave(FVector OriginOverride);
 	
 	UPROPERTY(EditDefaultsOnly, Category = "AOE")
 	TSubclassOf<AExpandingAOE> ExpandingAOEClass;

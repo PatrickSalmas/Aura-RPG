@@ -130,6 +130,7 @@ public:
 	FGameplayTag Abilities_Arcane_ArcaneExplosion;
 	FGameplayTag Abilities_Arcane_ArcaneMine;
 	FGameplayTag Abilities_Arcane_TimeDilation;
+	FGameplayTag Abilities_Hybrid_PhaseJolt;
 	
 	FGameplayTag Abilities_Passive_HaloOfProtection;
 	FGameplayTag Abilities_Passive_LifeSiphon;

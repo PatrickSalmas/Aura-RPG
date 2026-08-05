@@ -3,15 +3,15 @@
 
 #include "AbilitySystem/Abilities/LightningNova.h"
 
-void ULightningNova::SpawnLightningNovaWave()
+void ULightningNova::SpawnLightningNovaWave(FVector OriginOverride)
 {
 	AActor* AvatarActor = GetAvatarActorFromActorInfo();
 	if (!IsValid(AvatarActor)) return;
 
 	UAbilitySystemComponent* SourceASC = GetAbilitySystemComponentFromActorInfo();
 	if (!SourceASC) return;
-
-	const FVector Origin = AvatarActor->GetActorLocation();
+	
+	const FVector Origin = !OriginOverride.IsZero() ? OriginOverride : AvatarActor->GetActorLocation();
 
 	AExpandingAOE* Wave = GetWorld()->SpawnActorDeferred<AExpandingAOE>(
 		ExpandingAOEClass,
