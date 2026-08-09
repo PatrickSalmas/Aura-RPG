@@ -122,7 +122,11 @@ void UExecCalc_Damage::DetermineReactiveStatus(const FGameplayEffectCustomExecut
 	float ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Arcane,false,-1.f);
 	if (ArcaneDamage <= -1.f)
 	{
-		ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow,false,-1.f);
+		ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow50,false,-1.f);
+	}
+	if (ArcaneDamage <= -1.f)
+	{
+		ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow75,false,-1.f);
 	}
 	if (ArcaneDamage <= -1.f)
 	{
@@ -224,7 +228,11 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 	float ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Arcane,false,-1.f);
 	if (ArcaneDamage <= -1.f)
 	{
-		ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow,false,-1.f);
+		ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow50,false,-1.f);
+	}
+	if (ArcaneDamage <= -1.f)
+	{
+		ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow75,false,-1.f);
 	}
 	if (ArcaneDamage <= -1.f)
 	{

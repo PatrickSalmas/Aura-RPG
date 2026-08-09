@@ -157,9 +157,13 @@ void AAuraEnemy::InitAbilityActorInfo()
 											 EGameplayTagEventType::NewOrRemoved).AddUObject(
 												this, &AAuraEnemy::ImmobilizedTagChanged);
 
-	AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().Debuff_Slow,
+	AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().Debuff_Slow50,
 										 EGameplayTagEventType::NewOrRemoved).AddUObject(
-											this, &AAuraEnemy::SlowedTagChanged);
+											this, &AAuraEnemy::SlowedTag50Changed);
+	
+	AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().Debuff_Slow75,
+									 EGameplayTagEventType::NewOrRemoved).AddUObject(
+										this, &AAuraEnemy::SlowedTag75Changed);
 
 	if (HasAuthority())
 	{

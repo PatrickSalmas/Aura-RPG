@@ -53,7 +53,7 @@ AAuraCharacterBase::AAuraCharacterBase()
 
 			SlowDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>(TEXT("SlowDebuffComponent"));
 			SlowDebuffComponent->SetupAttachment(GetMesh());
-			SlowDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Slow;
+			SlowDebuffComponent->DebuffTag = FAuraGameplayTags::Get().Debuff_Slow50;
 	// 	}
 	// }
 	
@@ -249,12 +249,29 @@ void AAuraCharacterBase::ImmobilizedTagChanged(const FGameplayTag CallbackTag, i
 	GetCharacterMovement()->MaxWalkSpeed = NewWalkSpeed;
 }
 
-void AAuraCharacterBase::SlowedTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
+void AAuraCharacterBase::SlowedTag50Changed(const FGameplayTag CallbackTag, int32 NewCount)
 {
 	bIsSlowed = NewCount > 0;
 	if (bIsSlowed)
 	{
 		CurrentWalkSpeed = CurrentWalkSpeed / 2;
+		// UE_LOG(LogTemp, Warning, TEXT("Slowed %s %f"), bIsSlowed ? TEXT("true") : TEXT("false"), CurrentWalkSpeed);
+		GetCharacterMovement()->MaxWalkSpeed = CurrentWalkSpeed;
+	}
+	else
+	{
+		CurrentWalkSpeed = BaseWalkSpeed; 
+		// UE_LOG(LogTemp, Warning, TEXT("Slowed %s %f"), bIsSlowed ? TEXT("true") : TEXT("false"), BaseWalkSpeed);
+		GetCharacterMovement()->MaxWalkSpeed = BaseWalkSpeed;
+	}
+}
+
+void AAuraCharacterBase::SlowedTag75Changed(const FGameplayTag CallbackTag, int32 NewCount)
+{
+	bIsSlowed = NewCount > 0;
+	if (bIsSlowed)
+	{
+		CurrentWalkSpeed = CurrentWalkSpeed * .25;
 		// UE_LOG(LogTemp, Warning, TEXT("Slowed %s %f"), bIsSlowed ? TEXT("true") : TEXT("false"), CurrentWalkSpeed);
 		GetCharacterMovement()->MaxWalkSpeed = CurrentWalkSpeed;
 	}

@@ -53,7 +53,8 @@ public:
 	FGameplayTag Damage_Arcane;
 	FGameplayTag Damage_ArcaneFire;
 	FGameplayTag Damage_ArcaneImmobilize;
-	FGameplayTag Damage_ArcaneSlow;
+	FGameplayTag Damage_ArcaneSlow50;
+	FGameplayTag Damage_ArcaneSlow75;
 	FGameplayTag Damage_Physical;
 
 	FGameplayTag Attributes_Resistance_Fire;
@@ -68,7 +69,8 @@ public:
 	FGameplayTag Debuff_Unstable;
 	FGameplayTag Debuff_Exploitable;
 	FGameplayTag Debuff_Immobilize;
-	FGameplayTag Debuff_Slow;
+	FGameplayTag Debuff_Slow50;
+	FGameplayTag Debuff_Slow75;
 	FGameplayTag Debuff_Arcane;
 	FGameplayTag Debuff_ArcaneFire;
 	FGameplayTag Debuff_Physical;

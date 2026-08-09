@@ -164,7 +164,9 @@ protected:
 
 	virtual void ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
 	
-	virtual void SlowedTagChanged(const FGameplayTag CallbackTag, int32 NewCount);
+	virtual void SlowedTag50Changed(const FGameplayTag CallbackTag, int32 NewCount);
+	
+	virtual void SlowedTag75Changed(const FGameplayTag CallbackTag, int32 NewCount);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
 	float BaseWalkSpeed = 250.f;

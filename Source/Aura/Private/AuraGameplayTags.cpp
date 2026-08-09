@@ -59,7 +59,8 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Damage_Arcane = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Damage.Arcane"), FString("Arcane Damage Type"));
 	GameplayTags.Damage_ArcaneFire = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Damage.ArcaneFire"), FString("ArcaneFire Damage Type"));
 	GameplayTags.Damage_ArcaneImmobilize = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Damage.ArcaneImmobilize"), FString("Arcane Damage Type"));
-	GameplayTags.Damage_ArcaneSlow = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Damage.ArcaneSlow"), FString("Arcane Damage Type"));
+	GameplayTags.Damage_ArcaneSlow50 = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Damage.ArcaneSlow50"), FString("Arcane Slow Damage Type for applying 50% speed debuff"));
+	GameplayTags.Damage_ArcaneSlow75 = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Damage.ArcaneSlow75"), FString("Arcane Slow Damage Type for applying 75% speed debuff"));
 	GameplayTags.Damage_Physical = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Damage.Physical"), FString("Physical Damage Type"));
 	// GameplayTags.DamageTypes.Add(GameplayTags.Damage_Fire);
 
@@ -77,7 +78,8 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Debuff_Unstable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Unstable"), FString("Exploitable Debuff for Arcane Damage"));
 	GameplayTags.Debuff_Exploitable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Exploitable"), FString("Exploitable Debuff tag"));
 	GameplayTags.Debuff_Immobilize = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Immobilize"), FString("Debuff for Arcane Damage"));
-	GameplayTags.Debuff_Slow = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Slow"), FString("Debuff for Arcane Damage"));
+	GameplayTags.Debuff_Slow50 = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Slow50"), FString("Debuff for Arcane Damage"));
+	GameplayTags.Debuff_Slow75 = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Slow75"), FString("Debuff for Arcane Damage"));
 	
 	GameplayTags.Debuff_Chance = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Chance"), FString("Debuff Chance"));
 	GameplayTags.Debuff_Damage = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Damage"), FString("Debuff Damage"));
@@ -127,7 +129,8 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.DamageTypesToResistances.Add(GameplayTags.Damage_Lightning, GameplayTags.Attributes_Resistance_Lightning);
 	GameplayTags.DamageTypesToResistances.Add(GameplayTags.Damage_Arcane, GameplayTags.Attributes_Resistance_Arcane);
 	GameplayTags.DamageTypesToResistances.Add(GameplayTags.Damage_ArcaneImmobilize, GameplayTags.Attributes_Resistance_Arcane);
-	GameplayTags.DamageTypesToResistances.Add(GameplayTags.Damage_ArcaneSlow, GameplayTags.Attributes_Resistance_Arcane);
+	GameplayTags.DamageTypesToResistances.Add(GameplayTags.Damage_ArcaneSlow50, GameplayTags.Attributes_Resistance_Arcane);
+	GameplayTags.DamageTypesToResistances.Add(GameplayTags.Damage_ArcaneSlow75, GameplayTags.Attributes_Resistance_Arcane);
 	GameplayTags.DamageTypesToResistances.Add(GameplayTags.Damage_ArcaneFire, GameplayTags.Attributes_Resistance_Arcane);
 	GameplayTags.DamageTypesToResistances.Add(GameplayTags.Damage_Physical, GameplayTags.Attributes_Resistance_Physical);
 	
@@ -140,13 +143,15 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	// GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_Arcane, GameplayTags.Debuff_Arcane);
 	// GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_Arcane, GameplayTags.Debuff_Immobilize);
 	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_ArcaneImmobilize, GameplayTags.Debuff_Immobilize);
-	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_ArcaneSlow, GameplayTags.Debuff_Slow);
+	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_ArcaneSlow50, GameplayTags.Debuff_Slow50);
+	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_ArcaneSlow75, GameplayTags.Debuff_Slow75);
 	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_Physical, GameplayTags.Debuff_Physical);
 	
 	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Lightning,GameplayTags.Debuff_Charged);
 	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Fire,GameplayTags.Debuff_Burning);
 	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Arcane,GameplayTags.Debuff_Unstable);
-	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_ArcaneSlow,GameplayTags.Debuff_Unstable);
+	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_ArcaneSlow50,GameplayTags.Debuff_Unstable);
+	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_ArcaneSlow75,GameplayTags.Debuff_Unstable);
 	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_ArcaneImmobilize,GameplayTags.Debuff_Unstable);
 	
 	GameplayTags.SuccessfulReactiveStatus = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reactive.SuccessfulReactiveStatus"), FString("Has Successful Reactive status"));
