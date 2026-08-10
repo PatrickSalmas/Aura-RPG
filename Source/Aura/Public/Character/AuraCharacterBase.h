@@ -172,7 +172,13 @@ protected:
 	float BaseWalkSpeed = 250.f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
+	float MinWalkSpeed = BaseWalkSpeed * .25;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
 	float CurrentWalkSpeed = BaseWalkSpeed;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
+	float SlowedWalkSpeed = BaseWalkSpeed;
 	
 	UPROPERTY()
 	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;
@@ -264,6 +270,8 @@ protected:
 	UPROPERTY()
 	TArray<AActor*> AttachedActors;
 	
+	float GetClampedCurrentWalkSpeed();
+	
 private:
 	UPROPERTY(EditAnywhere, Category="Abilities")
 	TArray<TSubclassOf<UGameplayAbility>> StartupAbilities;
@@ -285,4 +293,5 @@ private:
 
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<USceneComponent> EffectAttachComponent;
+	
 };

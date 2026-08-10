@@ -60,13 +60,13 @@ void AAuraEnemy::PossessedBy(AController* NewController)
 void AAuraEnemy::ApplySpeedBuff(float PercentBuff)
 {
 	CurrentWalkSpeed = BaseWalkSpeed + (BaseWalkSpeed * PercentBuff);
-	GetCharacterMovement()->MaxWalkSpeed = CurrentWalkSpeed;
+	GetCharacterMovement()->MaxWalkSpeed = GetClampedCurrentWalkSpeed();
 }
 
 void AAuraEnemy::RevertToBaseWalkSpeed()
 {
 	CurrentWalkSpeed = BaseWalkSpeed;
-	GetCharacterMovement()->MaxWalkSpeed = CurrentWalkSpeed;
+	GetCharacterMovement()->MaxWalkSpeed = GetClampedCurrentWalkSpeed();
 }
 
 void AAuraEnemy::BeginPlay()
@@ -120,7 +120,7 @@ void AAuraEnemy::BeginPlay()
 void AAuraEnemy::HitReactTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
 {
 	bHitReacting = NewCount > 0;
-	float NewWalkSpeed = bHitReacting ? 0.f : CurrentWalkSpeed;
+	float NewWalkSpeed = bHitReacting ? 0.f : GetClampedCurrentWalkSpeed();
 	// UE_LOG(LogTemp, Warning, TEXT("HitReact %s %f"), bHitReacting ? TEXT("true") : TEXT("false"), NewWalkSpeed);
 	GetCharacterMovement()->MaxWalkSpeed = NewWalkSpeed;
 	if (AuraAIController && AuraAIController->GetBlackboardComponent())

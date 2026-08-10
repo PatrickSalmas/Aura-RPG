@@ -132,7 +132,7 @@ UAbilitySystemComponent* AAuraCharacterBase::GetAbilitySystemComponent() const
 
 void AAuraCharacterBase::OnLanded(const FVector& HitLocation)
 {
-	GetCharacterMovement()->MaxWalkSpeed = CurrentWalkSpeed;
+	GetCharacterMovement()->MaxWalkSpeed = GetClampedCurrentWalkSpeed();
 }
 
 UAnimMontage* AAuraCharacterBase::GetHitReactMontage_Implementation()
@@ -180,7 +180,7 @@ void AAuraCharacterBase::MulticastHandleDeath_Implementation(const FVector& Deat
 void AAuraCharacterBase::StunTaggedChanged(const FGameplayTag CallbackTag, int32 NewCount)
 {
 	bIsStunned = NewCount > 0;
-	GetCharacterMovement()->MaxWalkSpeed = bIsStunned ? 0.f : CurrentWalkSpeed;
+	GetCharacterMovement()->MaxWalkSpeed = bIsStunned ? 0.f : GetClampedCurrentWalkSpeed();
 	if (AuraAIController != nullptr)
 	{
 		AuraAIController->GetBlackboardComponent()->SetValueAsBool(FName("HitReacting"), false);
@@ -244,7 +244,7 @@ void AAuraCharacterBase::UnstableTagChanged(const FGameplayTag CallbackTag, int3
 void AAuraCharacterBase::ImmobilizedTagChanged(const FGameplayTag CallbackTag, int32 NewCount)
 {
 	bIsImmobilized = NewCount > 0;
-	float NewWalkSpeed = bIsImmobilized ? 0.f : CurrentWalkSpeed;
+	float NewWalkSpeed = bIsImmobilized ? 0.f : GetClampedCurrentWalkSpeed();
 	// UE_LOG(LogTemp, Warning, TEXT("Immobilized %s %f"), bIsImmobilized ? TEXT("true") : TEXT("false"), NewWalkSpeed);
 	GetCharacterMovement()->MaxWalkSpeed = NewWalkSpeed;
 }
@@ -256,14 +256,13 @@ void AAuraCharacterBase::SlowedTag50Changed(const FGameplayTag CallbackTag, int3
 	{
 		CurrentWalkSpeed = CurrentWalkSpeed / 2;
 		// UE_LOG(LogTemp, Warning, TEXT("Slowed %s %f"), bIsSlowed ? TEXT("true") : TEXT("false"), CurrentWalkSpeed);
-		GetCharacterMovement()->MaxWalkSpeed = CurrentWalkSpeed;
 	}
 	else
 	{
-		CurrentWalkSpeed = BaseWalkSpeed; 
+		CurrentWalkSpeed = CurrentWalkSpeed * 2; 
 		// UE_LOG(LogTemp, Warning, TEXT("Slowed %s %f"), bIsSlowed ? TEXT("true") : TEXT("false"), BaseWalkSpeed);
-		GetCharacterMovement()->MaxWalkSpeed = BaseWalkSpeed;
 	}
+	GetCharacterMovement()->MaxWalkSpeed = GetClampedCurrentWalkSpeed();
 }
 
 void AAuraCharacterBase::SlowedTag75Changed(const FGameplayTag CallbackTag, int32 NewCount)
@@ -271,16 +270,16 @@ void AAuraCharacterBase::SlowedTag75Changed(const FGameplayTag CallbackTag, int3
 	bIsSlowed = NewCount > 0;
 	if (bIsSlowed)
 	{
-		CurrentWalkSpeed = CurrentWalkSpeed * .25;
+		CurrentWalkSpeed = CurrentWalkSpeed * .25f;
 		// UE_LOG(LogTemp, Warning, TEXT("Slowed %s %f"), bIsSlowed ? TEXT("true") : TEXT("false"), CurrentWalkSpeed);
-		GetCharacterMovement()->MaxWalkSpeed = CurrentWalkSpeed;
 	}
 	else
 	{
-		CurrentWalkSpeed = BaseWalkSpeed; 
+		CurrentWalkSpeed = CurrentWalkSpeed / .25f;
 		// UE_LOG(LogTemp, Warning, TEXT("Slowed %s %f"), bIsSlowed ? TEXT("true") : TEXT("false"), BaseWalkSpeed);
-		GetCharacterMovement()->MaxWalkSpeed = BaseWalkSpeed;
 	}
+	GetCharacterMovement()->MaxWalkSpeed = GetClampedCurrentWalkSpeed();
+	
 }
 
 void AAuraCharacterBase::OnRep_Stunned()
@@ -473,6 +472,11 @@ void AAuraCharacterBase::Dissolve()
 		Weapon->SetMaterial(0, DynamicMatInst);
 		StartWeaponDissolveTimeline(DynamicMatInst);
 	}
+}
+
+float AAuraCharacterBase::GetClampedCurrentWalkSpeed()
+{
+	return FMath::Clamp(CurrentWalkSpeed, MinWalkSpeed, BaseWalkSpeed);
 }
 
 
