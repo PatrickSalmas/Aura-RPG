@@ -747,6 +747,27 @@ TArray<FVector> UAuraAbilitySystemLibrary::EvenlyRotatedVectors(const FVector& F
 	return Vectors;
 }
 
+int32 UAuraAbilitySystemLibrary::RemoveDebuffByTag(UAbilitySystemComponent* TargetASC, const FGameplayTag& DebuffTag)
+{
+	if (!IsValid(TargetASC) || !DebuffTag.IsValid())
+	{
+		return 0;
+	}
+
+	FGameplayTagContainer DebuffTags;
+	DebuffTags.AddTag(DebuffTag);
+
+	const FGameplayEffectQuery Query =
+		FGameplayEffectQuery::MakeQuery_MatchAnyOwningTags(
+			DebuffTags);
+
+	/*
+	 * Removes every active Gameplay Effect matching the query.
+	 * The default StacksToRemove value of -1 removes the entire effect.
+	 */
+	return TargetASC->RemoveActiveEffects(Query);
+}
+
 void UAuraAbilitySystemLibrary::SetIsRadialDamageEffectParam(FDamageEffectParams& DamageEffectParams, bool bIsRadial,
                                                              float InnerRadius, float OuterRadius, FVector Origin)
 {

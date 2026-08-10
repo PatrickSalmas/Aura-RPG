@@ -229,6 +229,9 @@ public:
 
 	UFUNCTION(BlueprintPure, Category="AuraAbilitySystemLibrary|GameplayMechanics")
 	static TArray<FVector> EvenlyRotatedVectors(const FVector& Forward, const FVector& Axis, float Spread, int32 NumVectors);
+	
+	UFUNCTION(BlueprintCallable, Category = "Aura|Gameplay Effects")
+	static int32 RemoveDebuffByTag(UAbilitySystemComponent* TargetASC, const FGameplayTag& DebuffTag);
 
 	/*
 	 * Damage Effect Params

@@ -166,10 +166,13 @@ void UAuraAttributeSet::HandleIncomingDamage(const FEffectProperties& Props)
 {
 	const float LocalIncomingDamage = GetIncomingDamage();
 	SetIncomingDamage(0.f);
-	if (LocalIncomingDamage > 0.f)
+	if (LocalIncomingDamage >= 0.f)
 	{
 		const float NewHealth = GetHealth() - LocalIncomingDamage;
-		SetHealth(FMath::Clamp(NewHealth, 0.f, GetMaxHealth()));
+		if (LocalIncomingDamage > 0.f)
+		{
+			SetHealth(FMath::Clamp(NewHealth, 0.f, GetMaxHealth()));
+		}
 
 		const bool bFatal = NewHealth <= 0.f;
 		if (bFatal)
@@ -749,7 +752,7 @@ void UAuraAttributeSet::SendXPEvent(const FEffectProperties& Props)
 
 void UAuraAttributeSet::ShowFloatingText(const FEffectProperties& Props, float Damage, bool bBlockedHit, bool bCriticalHit) const
 {
-	if (Props.SourceCharacter != Props.TargetCharacter)
+	if (Props.SourceCharacter != Props.TargetCharacter && Damage > 1.f)
 	{
 		if (Props.SourceCharacter != nullptr)
 		{
