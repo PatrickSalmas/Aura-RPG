@@ -170,6 +170,14 @@ BUGS:
 -- You should NOT be able to cast ontop of an enemy. It should cast to the ground instead.
 
 
+PERFORMANCE FIXES/Enhancements
+- BP_StaticDistortion:
+-- Shouldn't be calling Get Live Players Within Radius and constantly trying to apply a slow
+-- Instead we should call for all enemies in radius, and for any new enemies who enter via OnOverlap. And apply
+   an DamageEffect that can't be resisted. Will need to enhance DamageEffectParams to make certain damage applications
+   unResistable
+
+
 
 
 
