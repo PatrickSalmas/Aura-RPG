@@ -112,6 +112,9 @@ public:
 	
 	UFUNCTION(BlueprintImplementableEvent)
 	void SetIsNotBurningEvent();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void HandleArcaneFireNSActivate();
 	
 protected:
 	// Called when the game starts or when spawned
@@ -240,7 +243,7 @@ protected:
 	UPROPERTY(VisibleDefaultsOnly, Category="Niagara")
 	TObjectPtr<UDebuffNiagaraComponent> BurnDebuffComponent;
 	
-	UPROPERTY(VisibleDefaultsOnly, Category="Niagara")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Niagara")
 	TObjectPtr<UDebuffNiagaraComponent> ArcaneFireDebuffComponent;
 
 	UPROPERTY(VisibleDefaultsOnly, Category="Niagara")

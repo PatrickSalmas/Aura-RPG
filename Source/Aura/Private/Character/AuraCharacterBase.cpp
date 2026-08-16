@@ -219,7 +219,8 @@ void AAuraCharacterBase::ArcaneFireTagChanged(const FGameplayTag CallbackTag, in
 	// bIsBurned = NewCount > 0;
 	if (NewCount > 0)
 	{
-		ArcaneFireDebuffComponent->Activate();
+		HandleArcaneFireNSActivate();
+		// ArcaneFireDebuffComponent->Activate();
 	}
 	else
 	{
