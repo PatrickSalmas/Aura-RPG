@@ -168,6 +168,8 @@ BUGS:
 -- They should either, be rooted to the ground (if they are a ground enemy), OR play some sort of InAir animation
 - Arcane shards can be casted ontop of enemies. Try casting ontop of SpeedDemon as a test
 -- You should NOT be able to cast ontop of an enemy. It should cast to the ground instead.
+- Goblin Charge isn't increasing speed. This likely occured after I made changes to how speed was reduced and applied.
+-- Doesn't seem to have anything to do with the goblin being previously slowed. Just seems that the speed boost isn't being properly applied anymore
 
 
 PERFORMANCE FIXES/Enhancements
