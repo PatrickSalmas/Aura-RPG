@@ -117,6 +117,9 @@ Gameplay Abilities:
 	Arcane: Damaging enemies who are under the effect of an arcane spells (slow, ensnare, etc.) cause all Arcane spells cooldowns to reduce cooldown by 2X, all other spells have their cooldowns reduced by X. Killing enemies who are under the effect of an arcane spell causes the player to absorb the enemies life force creating an arcane shield around the player. The arcane shield has a 50% chance to reduce incoming damage by 25%. Each time damage is reduced, the caster regains mana.
 	
 Niagara Effect Ideas:
+- Apply specific desolving effects for when enemies dies depending on what damage type  finished them off
+-- Arcane, Fire, and Lightning would all use different desolving effects
+-- I think I have an asset pack bookmarked that could work for this
 
 
 Enhancements:
@@ -170,6 +173,12 @@ BUGS:
 -- You should NOT be able to cast ontop of an enemy. It should cast to the ground instead.
 - Goblin Charge isn't increasing speed. This likely occured after I made changes to how speed was reduced and applied.
 -- Doesn't seem to have anything to do with the goblin being previously slowed. Just seems that the speed boost isn't being properly applied anymore
+- There seems to be some game crashing bugs which occur when reactions generate new reaction debuffs. Or when they are chained
+-- I'm not exactly sure how to reproduce this error consistently
+-- Two ways to fix
+--- Figure exact repro steps and figure out what's causing the game to crashing
+--- Or, make it so that reactions can't apply new reaction debuffs. Only base abilities can apply reaction debuffs... I think this
+    could effectively solve the problem (a little bit of a band-aid fix)
 
 
 PERFORMANCE FIXES/Enhancements
