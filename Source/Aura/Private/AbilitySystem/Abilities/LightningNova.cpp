@@ -3,9 +3,9 @@
 
 #include "AbilitySystem/Abilities/LightningNova.h"
 
-void ULightningNova::SpawnLightningNovaWave(FVector OriginOverride)
+void ULightningNova::SpawnLightningNovaWave(FVector OriginOverride, AActor* ActorOverride)
 {
-	AActor* AvatarActor = GetAvatarActorFromActorInfo();
+	AActor* AvatarActor = ActorOverride == nullptr ? GetAvatarActorFromActorInfo() : ActorOverride;
 	if (!IsValid(AvatarActor)) return;
 
 	UAbilitySystemComponent* SourceASC = GetAbilitySystemComponentFromActorInfo();
