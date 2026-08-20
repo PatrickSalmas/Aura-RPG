@@ -7,6 +7,7 @@
 #include "AuraAbilityTypes.h"
 #include "AuraGameplayTags.h"
 #include "AbilitySystem/Abilities/AuraDamageGameplayAbility.h"
+#include "Aura/Aura.h"
 #include "Character/AuraCharacter.h"
 #include "Character/AuraEnemy.h"
 #include "Game/AuraGameModeBase.h"
@@ -766,6 +767,47 @@ int32 UAuraAbilitySystemLibrary::RemoveDebuffByTag(UAbilitySystemComponent* Targ
 	 * The default StacksToRemove value of -1 removes the entire effect.
 	 */
 	return TargetASC->RemoveActiveEffects(Query);
+}
+
+bool UAuraAbilitySystemLibrary::GetGroundLocationUnderActor(const AActor* TargetActor, FVector& OutGroundLocation,
+	FHitResult& OutHitResult, float TraceStartHeight, float TraceDepth, float GroundOffset)
+{
+	OutGroundLocation = FVector::ZeroVector;
+	OutHitResult = FHitResult();
+
+	if (!IsValid(TargetActor))
+	{
+		return false;
+	}
+
+	UWorld* World = TargetActor->GetWorld();
+
+	if (!IsValid(World))
+	{
+		return false;
+	}
+
+	const FVector ActorLocation = TargetActor->GetActorLocation();
+
+	const FVector TraceStart = ActorLocation + FVector(0.f, 0.f, TraceStartHeight);
+
+	const FVector TraceEnd = ActorLocation - FVector(0.f, 0.f, TraceDepth);
+
+	FCollisionQueryParams QueryParams;
+	QueryParams.AddIgnoredActor(TargetActor);
+
+	const bool bHit = World->LineTraceSingleByChannel(OutHitResult, TraceStart, TraceEnd, ECC_GroundTrace, QueryParams);
+
+	if (!bHit)
+	{
+		return false;
+	}
+
+	OutGroundLocation =
+		OutHitResult.ImpactPoint +
+		FVector(0.f, 0.f, GroundOffset);
+
+	return true;
 }
 
 void UAuraAbilitySystemLibrary::SetIsRadialDamageEffectParam(FDamageEffectParams& DamageEffectParams, bool bIsRadial,

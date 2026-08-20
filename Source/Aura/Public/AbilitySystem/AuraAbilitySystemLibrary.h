@@ -232,6 +232,10 @@ public:
 	
 	UFUNCTION(BlueprintCallable, Category = "Aura|Gameplay Effects")
 	static int32 RemoveDebuffByTag(UAbilitySystemComponent* TargetASC, const FGameplayTag& DebuffTag);
+	
+	UFUNCTION(BlueprintCallable, Category = "Aura|Ground")
+	static bool GetGroundLocationUnderActor(const AActor* TargetActor, FVector& OutGroundLocation, FHitResult& OutHitResult, float TraceStartHeight = 100.f,
+		float TraceDepth = 1000.f, float GroundOffset = 5.f);
 
 	/*
 	 * Damage Effect Params
