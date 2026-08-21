@@ -2929,3 +2929,615 @@ FPackageName: Unable to identify a valid mount point associated with skipped pac
 [2026.08.21-00.43.59:490][707]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
 [2026.08.21-00.43.59:500][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
 [2026.08.21-00.43.59:524][708]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2026.08.21-00.46.08:321][386]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.21-00.46.08:336][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.21-00.46.08:336][386]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.08.21-00.46.08:347][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012030s)
+[2026.08.21-00.46.08:347][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.012187s)
+[2026.08.21-00.46.08:367][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.08.21-00.46.08:369][386]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.08.21-00.46.08:371][386]LogPlayLevel: PIE: World Init took: (0.001288s)
+[2026.08.21-00.46.08:371][386]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2026.08.21-00.46.08:371][386]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.21-00.46.08:371][386]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.21-00.46.08:372][386]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.21-00.46.08:372][386]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.21-00.46.08:372][386]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.21-00.46.08:372][386]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.21-00.46.08:372][386]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.21-00.46.08:372][386]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.21-00.46.08:372][386]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.21-00.46.08:372][386]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.21-00.46.08:372][386]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.21-00.46.08:374][386]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.21-00.46.08:391][386]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.08.21-00.46.08:391][386]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.21-00.46.08:392][386]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.21-00.46.08:392][386]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.21-00.46.08:392][386]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2026.08.21-00.46.08:392][386]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2026.08.21-00.46.08:393][386]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2026.08.21-00.46.08:394][386]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2026.08.21-00.46.08:394][386]LogInit: FAudioDevice initialized with ID 14.
+[2026.08.21-00.46.08:394][386]LogAudio: Display: Audio Device (ID: 14) registered with world 'StartupMap'.
+[2026.08.21-00.46.08:394][386]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2026.08.21-00.46.08:395][386]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.08.21-00.46.08:401][386]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.08.20-17.46.08
+[2026.08.21-00.46.08:407][386]LogWorld: Bringing up level for play took: 0.011236
+[2026.08.21-00.46.08:409][386]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2026.08.21-00.46.08:410][386]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.08.21-00.46.08:416][386]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.08.21-00.46.08:417][386]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.08.21-00.46.08:417][386]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.08.21-00.46.08:417][386]PIE: Server logged in
+[2026.08.21-00.46.08:418][386]PIE: Play in editor total start time 0.085 seconds.
+[2026.08.21-00.46.11:343][550]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.11:344][550]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.11:344][550]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.11:344][550]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.12:327][609]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-00.46.12:343][610]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.12:343][610]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.12:343][610]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.13:110][656]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.13:111][656]LogTemp: Warning: HandleReaction entered. Depth: 2
+[2026.08.21-00.46.13:344][670]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.14:093][715]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-00.46.14:093][715]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-00.46.14:343][730]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.15:343][790]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.16:343][850]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.17:343][910]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.18:343][970]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.18:393][973]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.18:394][973]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.18:394][973]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.18:394][973]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.19:376][ 32]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-00.46.19:393][ 33]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.19:393][ 33]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.19:393][ 33]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.20:393][ 93]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.20:393][ 93]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.20:393][ 93]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.21:393][153]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.21:393][153]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.21:393][153]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.22:393][213]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.22:394][213]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.22:394][213]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.23:393][273]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.23:393][273]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.23:393][273]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.24:427][335]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.24:427][335]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.24:427][335]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-00.46.24:458][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.21-00.46.24:458][335]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.08.21-00.46.24:459][335]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.21-00.46.24:461][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.21-00.46.24:463][335]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.21-00.46.24:463][335]LogNiagaraEditor: onPieEnd
+[2026.08.21-00.46.24:471][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.21-00.46.24:487][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.21-00.46.24:488][335]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2026.08.21-00.46.24:488][335]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2026.08.21-00.46.24:490][335]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2026.08.21-00.46.24:502][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.08.21-00.46.24:526][336]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2026.08.21-00.47.23:902][898]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1055.896362
+[2026.08.21-00.47.24:203][916]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.08.21-00.47.24:203][916]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1056.179321, Update Interval: 336.041748
+[2026.08.21-00.53.10:862][703]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1402.866821
+[2026.08.21-00.53.11:046][714]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.08.21-00.53.11:046][714]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1403.033081, Update Interval: 305.848572
+[2026.08.21-00.58.44:690][707]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1736.705933
+[2026.08.21-00.58.44:841][716]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.08.21-00.58.44:841][716]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1736.839844, Update Interval: 316.423218
+[2026.08.21-01.00.58:327][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2026.08.21-01.00.58:337][612]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.21-01.00.58:382][612]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/BP_ArcaneRupture] ([2] browsable assets)...
+[2026.08.21-01.00.58:382][612]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/BP_ArcaneRupture]
+[2026.08.21-01.00.58:391][612]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/BP_ArcaneRupture
+[2026.08.21-01.00.58:392][612]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_ArcaneRuptureC9396E7D45746C2E316545BF90347A23.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/BP_ArcaneRupture.uasset'
+[2026.08.21-01.00.58:397][612]LogFileHelpers: InternalPromptForCheckoutAndSave took 60.007 ms (total: 2.73 sec)
+[2026.08.21-01.00.58:449][612]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.21-01.00.58:449][612]LogContentValidation: Enabled validators:
+[2026.08.21-01.00.58:449][612]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.21-01.00.58:449][612]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.21-01.00.58:449][612]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.21-01.00.58:449][612]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.21-01.00.58:449][612]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.21-01.00.58:449][612]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.21-01.00.58:449][612]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/BP_ArcaneRupture Validating asset
+[2026.08.21-01.01.00:763][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.08.21-01.01.01:755][798]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.21-01.01.01:769][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.21-01.01.01:769][798]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.08.21-01.01.01:780][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011136s)
+[2026.08.21-01.01.01:780][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.011266s)
+[2026.08.21-01.01.01:798][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.08.21-01.01.01:805][798]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.08.21-01.01.01:807][798]LogPlayLevel: PIE: World Init took: (0.001249s)
+[2026.08.21-01.01.01:807][798]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2026.08.21-01.01.01:808][798]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.21-01.01.01:808][798]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.21-01.01.01:808][798]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.21-01.01.01:808][798]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.21-01.01.01:808][798]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.21-01.01.01:808][798]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.21-01.01.01:808][798]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.21-01.01.01:808][798]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.21-01.01.01:808][798]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.21-01.01.01:808][798]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.21-01.01.01:808][798]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.21-01.01.01:810][798]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.21-01.01.01:825][798]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.08.21-01.01.01:826][798]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.21-01.01.01:826][798]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.21-01.01.01:826][798]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.21-01.01.01:826][798]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2026.08.21-01.01.01:826][798]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2026.08.21-01.01.01:828][798]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2026.08.21-01.01.01:828][798]LogInit: FAudioDevice initialized with ID 15.
+[2026.08.21-01.01.01:828][798]LogAudio: Display: Audio Device (ID: 15) registered with world 'StartupMap'.
+[2026.08.21-01.01.01:828][798]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2026.08.21-01.01.01:828][798]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2026.08.21-01.01.01:830][798]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.08.21-01.01.01:834][798]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.08.20-18.01.01
+[2026.08.21-01.01.01:840][798]LogWorld: Bringing up level for play took: 0.010219
+[2026.08.21-01.01.01:841][798]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2026.08.21-01.01.01:843][798]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.08.21-01.01.01:849][798]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.08.21-01.01.01:850][798]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.08.21-01.01.01:850][798]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.08.21-01.01.01:850][798]PIE: Server logged in
+[2026.08.21-01.01.01:851][798]PIE: Play in editor total start time 0.084 seconds.
+[2026.08.21-01.01.05:828][ 36]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.05:829][ 36]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.05:830][ 36]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.05:830][ 36]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.06:812][ 95]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.06:831][ 96]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.06:831][ 96]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.06:831][ 96]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.07:263][122]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.07:263][122]LogTemp: Warning: HandleReaction entered. Depth: 2
+[2026.08.21-01.01.07:266][122]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.07:266][122]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.07:832][156]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.08:248][181]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.08:248][181]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.08:248][181]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.08:266][182]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.08:266][182]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.08:832][216]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.09:248][241]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.09:266][242]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.09:266][242]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.09:832][276]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.10:249][301]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.10:266][302]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.10:266][302]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.10:832][336]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.11:250][361]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.11:268][362]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.11:268][362]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.11:844][396]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.12:260][421]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.12:278][422]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.12:278][422]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.12:810][454]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.12:811][454]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.12:811][454]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.12:811][454]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.13:260][481]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.13:794][513]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.13:810][514]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.13:810][514]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.13:810][514]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.14:810][574]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.14:810][574]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.14:810][574]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.15:813][634]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.15:813][634]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.15:813][634]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.16:810][694]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.16:810][694]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.16:811][694]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.17:810][754]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.17:811][754]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.17:811][754]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.18:811][814]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.18:811][814]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.18:811][814]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.19:810][874]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.19:810][874]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.19:810][874]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.19:893][879]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.19:894][879]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.19:894][879]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.19:894][879]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.20:093][891]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.20:094][891]LogTemp: Warning: HandleReaction entered. Depth: 2
+[2026.08.21-01.01.20:876][938]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.20:893][939]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.20:895][939]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.21:077][950]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.21:077][950]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.21:394][969]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.21:877][998]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.21:916][999]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.22:380][ 27]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.22:879][ 57]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.25:546][217]LogBlueprintUserMessages: [GA_ChargeAttack_C_0] Activating Charge Attack
+[2026.08.21-01.01.25:881][237]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 239
+[2026.08.21-01.01.25:881][237]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 242
+[2026.08.21-01.01.25:881][237]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 274
+[2026.08.21-01.01.25:881][237]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 275
+[2026.08.21-01.01.34:344][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.21-01.01.34:344][742]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.08.21-01.01.34:345][742]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.21-01.01.34:346][742]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.21-01.01.34:349][742]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.21-01.01.34:357][742]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.21-01.01.34:376][742]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.08.21-01.01.34:376][742]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2026.08.21-01.01.34:376][742]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2026.08.21-01.01.34:378][742]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2026.08.21-01.01.34:380][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.21-01.01.34:385][742]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.08.21-01.01.34:409][743]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2026.08.21-01.01.34:659][758]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.21-01.01.34:671][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.21-01.01.34:672][758]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.08.21-01.01.34:683][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011001s)
+[2026.08.21-01.01.34:683][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.011138s)
+[2026.08.21-01.01.34:700][758]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.08.21-01.01.34:703][758]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.08.21-01.01.34:704][758]LogPlayLevel: PIE: World Init took: (0.001184s)
+[2026.08.21-01.01.34:705][758]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2026.08.21-01.01.34:705][758]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.21-01.01.34:705][758]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.21-01.01.34:705][758]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.21-01.01.34:705][758]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.21-01.01.34:705][758]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.21-01.01.34:705][758]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.21-01.01.34:705][758]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.21-01.01.34:705][758]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.21-01.01.34:705][758]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.21-01.01.34:705][758]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.21-01.01.34:705][758]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.21-01.01.34:707][758]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.21-01.01.34:721][758]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.08.21-01.01.34:722][758]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.21-01.01.34:722][758]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.21-01.01.34:722][758]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.21-01.01.34:722][758]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2026.08.21-01.01.34:722][758]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2026.08.21-01.01.34:725][758]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2026.08.21-01.01.34:725][758]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2026.08.21-01.01.34:725][758]LogInit: FAudioDevice initialized with ID 16.
+[2026.08.21-01.01.34:725][758]LogAudio: Display: Audio Device (ID: 16) registered with world 'StartupMap'.
+[2026.08.21-01.01.34:725][758]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2026.08.21-01.01.34:727][758]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.08.21-01.01.34:732][758]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.08.20-18.01.34
+[2026.08.21-01.01.34:737][758]LogWorld: Bringing up level for play took: 0.010132
+[2026.08.21-01.01.34:739][758]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2026.08.21-01.01.34:740][758]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.08.21-01.01.34:746][758]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.08.21-01.01.34:746][758]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.08.21-01.01.34:746][758]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.08.21-01.01.34:747][758]PIE: Server logged in
+[2026.08.21-01.01.34:747][758]PIE: Play in editor total start time 0.077 seconds.
+[2026.08.21-01.01.36:826][882]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.36:827][882]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.36:827][882]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.36:827][882]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.37:810][941]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.37:826][942]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.37:826][942]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.37:826][942]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.38:593][988]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.38:593][988]LogTemp: Warning: HandleReaction entered. Depth: 2
+[2026.08.21-01.01.38:595][988]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.38:595][988]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.38:827][  2]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.39:576][ 47]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.39:576][ 47]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.39:576][ 47]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.39:594][ 48]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.39:594][ 48]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.39:827][ 62]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.40:576][107]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.40:594][108]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.40:594][108]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.40:827][122]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.41:577][167]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.41:594][168]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.41:594][168]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.41:827][182]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.42:576][227]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.42:594][228]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.42:594][228]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.42:827][242]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.43:576][287]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.43:594][288]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.43:594][288]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.43:793][300]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.43:794][300]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.43:794][300]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.43:794][300]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.44:576][347]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.44:776][359]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.44:793][360]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.44:793][360]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.44:793][360]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.45:793][420]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.45:794][420]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.45:794][420]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.46:793][480]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.46:793][480]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.46:793][480]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.47:794][540]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.47:794][540]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.47:794][540]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.48:793][600]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.48:793][600]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.48:793][600]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.49:793][660]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.49:793][660]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.49:793][660]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.50:793][720]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.50:793][720]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.50:793][720]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.50:809][721]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.50:810][721]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.50:810][721]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.50:810][721]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.51:793][780]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.51:810][781]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.51:810][781]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.51:811][781]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.51:811][781]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.52:311][811]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.52:792][840]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.52:811][841]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.52:811][841]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.52:812][841]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.53:293][870]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.53:310][871]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.53:792][900]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.53:793][900]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.53:809][901]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.54:293][930]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.01.54:809][961]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.01.55:064][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.21-01.01.55:064][974]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.08.21-01.01.55:064][974]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.21-01.01.55:067][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.21-01.01.55:069][974]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.21-01.01.55:078][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.21-01.01.55:094][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.21-01.01.55:095][974]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2026.08.21-01.01.55:095][974]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2026.08.21-01.01.55:097][974]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2026.08.21-01.01.55:110][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2026.08.21-01.01.55:134][975]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2026.08.21-01.01.57:288][101]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_20
+[2026.08.21-01.04.18:578][280]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.08.21-01.04.18:587][280]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.21-01.04.18:647][280]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/BP_ArcaneRupture] ([2] browsable assets)...
+[2026.08.21-01.04.18:647][280]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/BP_ArcaneRupture]
+[2026.08.21-01.04.18:656][280]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/BP_ArcaneRupture
+[2026.08.21-01.04.18:656][280]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_ArcaneRupture1EA1F222423E9A333763999A1F0F3DE9.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/BP_ArcaneRupture.uasset'
+[2026.08.21-01.04.18:662][280]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.161 ms (total: 2.80 sec)
+[2026.08.21-01.04.18:712][280]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.21-01.04.18:712][280]LogContentValidation: Enabled validators:
+[2026.08.21-01.04.18:713][280]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.21-01.04.18:713][280]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.21-01.04.18:713][280]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.21-01.04.18:713][280]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.21-01.04.18:713][280]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.21-01.04.18:713][280]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.21-01.04.18:713][280]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/BP_ArcaneRupture Validating asset
+[2026.08.21-01.04.19:181][304]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.08.21-01.04.20:539][377]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.21-01.04.20:554][377]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.21-01.04.20:554][377]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.08.21-01.04.20:565][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011066s)
+[2026.08.21-01.04.20:565][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.011203s)
+[2026.08.21-01.04.20:584][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.08.21-01.04.20:590][377]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.08.21-01.04.20:591][377]LogPlayLevel: PIE: World Init took: (0.001311s)
+[2026.08.21-01.04.20:592][377]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2026.08.21-01.04.20:592][377]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.21-01.04.20:592][377]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.21-01.04.20:592][377]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.21-01.04.20:592][377]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.21-01.04.20:592][377]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.21-01.04.20:592][377]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.21-01.04.20:592][377]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.21-01.04.20:592][377]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.21-01.04.20:592][377]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.21-01.04.20:592][377]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.21-01.04.20:593][377]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.21-01.04.20:595][377]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.21-01.04.20:610][377]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.08.21-01.04.20:610][377]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.21-01.04.20:610][377]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.21-01.04.20:610][377]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.21-01.04.20:611][377]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2026.08.21-01.04.20:611][377]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2026.08.21-01.04.20:612][377]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2026.08.21-01.04.20:612][377]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2026.08.21-01.04.20:613][377]LogInit: FAudioDevice initialized with ID 17.
+[2026.08.21-01.04.20:613][377]LogAudio: Display: Audio Device (ID: 17) registered with world 'StartupMap'.
+[2026.08.21-01.04.20:613][377]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2026.08.21-01.04.20:615][377]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.08.21-01.04.20:619][377]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.08.20-18.04.20
+[2026.08.21-01.04.20:625][377]LogWorld: Bringing up level for play took: 0.010097
+[2026.08.21-01.04.20:626][377]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2026.08.21-01.04.20:628][377]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.08.21-01.04.20:634][377]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.08.21-01.04.20:634][377]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.08.21-01.04.20:634][377]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.08.21-01.04.20:635][377]PIE: Server logged in
+[2026.08.21-01.04.20:635][377]PIE: Play in editor total start time 0.084 seconds.
+[2026.08.21-01.04.24:586][613]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.24:588][613]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.24:588][613]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.24:588][613]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.25:571][672]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.04.25:587][673]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.25:587][673]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.25:588][673]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.25:987][697]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.25:987][697]LogTemp: Warning: HandleReaction entered. Depth: 2
+[2026.08.21-01.04.26:587][733]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.26:970][756]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.04.26:970][756]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.04.27:588][793]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.28:586][853]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.29:586][913]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.30:587][973]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.31:553][ 31]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.31:554][ 31]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.31:554][ 31]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.31:554][ 31]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.32:537][ 90]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.04.32:554][ 91]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.32:554][ 91]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.32:554][ 91]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.33:554][151]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.33:554][151]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.33:554][151]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.34:553][211]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.34:553][211]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.34:553][211]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.35:553][271]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.35:554][271]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.35:554][271]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.36:553][331]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.36:553][331]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.36:553][331]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.04.37:057][359]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.21-01.04.37:057][359]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.08.21-01.04.37:058][359]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.21-01.04.37:059][359]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.21-01.04.37:062][359]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.21-01.04.37:070][359]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.21-01.04.37:087][359]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.08.21-01.04.37:088][359]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2026.08.21-01.04.37:088][359]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2026.08.21-01.04.37:090][359]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2026.08.21-01.04.37:096][359]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.21-01.04.37:101][359]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2026.08.21-01.04.37:152][360]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2026.08.21-01.04.58:531][639]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2110.560059
+[2026.08.21-01.04.58:682][648]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.08.21-01.04.58:682][648]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2110.693604, Update Interval: 345.409698
+[2026.08.21-01.05.03:074][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.08.21-01.05.03:081][911]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.21-01.05.03:132][911]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/GA_Reaction_FireOnUnstable] ([2] browsable assets)...
+[2026.08.21-01.05.03:132][911]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/GA_Reaction_FireOnUnstable]
+[2026.08.21-01.05.03:136][911]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/GA_Reaction_FireOnUnstable
+[2026.08.21-01.05.03:137][911]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/GA_Reaction_FireOnUnstable139D1BFE4F0AAC8EF381C79B56291515.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/GA_Reaction_FireOnUnstable.uasset'
+[2026.08.21-01.05.03:144][911]LogFileHelpers: InternalPromptForCheckoutAndSave took 62.521 ms (total: 2.87 sec)
+[2026.08.21-01.05.03:180][911]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.21-01.05.03:180][911]LogContentValidation: Enabled validators:
+[2026.08.21-01.05.03:180][911]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.21-01.05.03:180][911]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.21-01.05.03:180][911]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.21-01.05.03:180][911]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.21-01.05.03:180][911]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.21-01.05.03:180][911]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.21-01.05.03:180][911]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/GA_Reaction_FireOnUnstable Validating asset
+[2026.08.21-01.05.04:239][973]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.08.21-01.05.05:546][ 45]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.08.21-01.05.05:559][ 45]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.08.21-01.05.05:559][ 45]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.08.21-01.05.05:570][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010890s)
+[2026.08.21-01.05.05:570][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.011025s)
+[2026.08.21-01.05.05:587][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.08.21-01.05.05:593][ 45]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.08.21-01.05.05:594][ 45]LogPlayLevel: PIE: World Init took: (0.001178s)
+[2026.08.21-01.05.05:595][ 45]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2026.08.21-01.05.05:595][ 45]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.08.21-01.05.05:595][ 45]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.08.21-01.05.05:595][ 45]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.08.21-01.05.05:595][ 45]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.08.21-01.05.05:595][ 45]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.08.21-01.05.05:595][ 45]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.08.21-01.05.05:595][ 45]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.08.21-01.05.05:595][ 45]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.08.21-01.05.05:595][ 45]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.08.21-01.05.05:595][ 45]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.08.21-01.05.05:596][ 45]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.08.21-01.05.05:597][ 45]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.08.21-01.05.05:612][ 45]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.08.21-01.05.05:612][ 45]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.08.21-01.05.05:612][ 45]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.08.21-01.05.05:612][ 45]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.08.21-01.05.05:613][ 45]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2026.08.21-01.05.05:613][ 45]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2026.08.21-01.05.05:614][ 45]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2026.08.21-01.05.05:614][ 45]LogInit: FAudioDevice initialized with ID 18.
+[2026.08.21-01.05.05:614][ 45]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2026.08.21-01.05.05:614][ 45]LogAudio: Display: Audio Device (ID: 18) registered with world 'StartupMap'.
+[2026.08.21-01.05.05:614][ 45]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2026.08.21-01.05.05:617][ 45]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.08.21-01.05.05:622][ 45]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.08.20-18.05.05
+[2026.08.21-01.05.05:627][ 45]LogWorld: Bringing up level for play took: 0.010254
+[2026.08.21-01.05.05:629][ 45]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2026.08.21-01.05.05:630][ 45]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.08.21-01.05.05:636][ 45]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.08.21-01.05.05:636][ 45]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.08.21-01.05.05:636][ 45]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.08.21-01.05.05:637][ 45]PIE: Server logged in
+[2026.08.21-01.05.05:638][ 45]PIE: Play in editor total start time 0.081 seconds.
+[2026.08.21-01.05.08:227][199]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.05.08:227][199]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.05.08:228][199]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.05.08:228][199]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.05.09:210][258]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.05.09:226][259]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.05.09:226][259]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.05.09:226][259]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.05.09:826][295]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.05.09:827][295]LogTemp: Warning: HandleReaction entered. Depth: 2
+[2026.08.21-01.05.10:226][319]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.05.10:809][354]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.05.10:809][354]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.08.21-01.05.11:226][379]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.05.12:226][439]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.05.13:226][499]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.05.14:227][559]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.08.21-01.05.14:717][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.21-01.05.14:717][587]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.08.21-01.05.14:717][587]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.21-01.05.14:720][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.21-01.05.14:723][587]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.08.21-01.05.14:731][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.21-01.05.14:747][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.08.21-01.05.14:747][587]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2026.08.21-01.05.14:747][587]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2026.08.21-01.05.14:749][587]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2026.08.21-01.05.14:761][587]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.08.21-01.05.14:809][588]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2026.08.21-01.05.23:444][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.08.21-01.05.23:451][102]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.08.21-01.05.23:480][102]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/GA_Reaction_FireOnUnstable] ([2] browsable assets)...
+[2026.08.21-01.05.23:480][102]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/GA_Reaction_FireOnUnstable]
+[2026.08.21-01.05.23:485][102]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/GA_Reaction_FireOnUnstable
+[2026.08.21-01.05.23:485][102]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/GA_Reaction_FireOnUnstableAC4D3B9E467649A532FBEC95EB7C1333.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/GA_Reaction_FireOnUnstable.uasset'
+[2026.08.21-01.05.23:491][102]LogFileHelpers: InternalPromptForCheckoutAndSave took 39.588 ms (total: 2.91 sec)
+[2026.08.21-01.05.23:545][102]LogContentValidation: Display: Starting to validate 1 assets
+[2026.08.21-01.05.23:545][102]LogContentValidation: Enabled validators:
+[2026.08.21-01.05.23:545][102]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.08.21-01.05.23:546][102]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.08.21-01.05.23:546][102]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.08.21-01.05.23:546][102]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.08.21-01.05.23:546][102]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.08.21-01.05.23:546][102]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.08.21-01.05.23:546][102]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Reactions/FireOnUnstable/GA_Reaction_FireOnUnstable Validating asset
