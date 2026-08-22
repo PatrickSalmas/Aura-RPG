@@ -179,6 +179,14 @@ BUGS:
 --- Figure exact repro steps and figure out what's causing the game to crashing
 --- Or, make it so that reactions can't apply new reaction debuffs. Only base abilities can apply reaction debuffs... I think this
     could effectively solve the problem (a little bit of a band-aid fix)
+-- UPDATE: I found one way to reproduce the bug 100%! Apply charged to two different targets, then activate the 
+   the charge with another lightning ability so that it chains between the two charged targets. I will crash every single time
+--- Same exact crash consistently happens if I apply charged to two different target, then activate the reaction with fire, the AOE
+	damage ability then hits the other charged enemy. So it reproducable consistently seemingly be ReactionAbilities triggering
+	another reaction. So chain reactions.
+--- Strangley, if I apply charged to two different enemies, then activate the charge with fire, AND BOTH ENEMIES are far enough 
+	away so that the reaction ability does not trigger an additional reaction, the game still crashes. This is more like 50% of the time.
+--- Hopefully fixing the root of the problem for the 100% reproducable case fixes 50% case
 
 
 PERFORMANCE FIXES/Enhancements

@@ -194,10 +194,12 @@ void AAuraCharacterBase::ChargeTagChanged(const FGameplayTag CallbackTag, int32 
 	{
 		ChargedDebuffComponent->SetVariableLinearColor(FName("User.Color"), ChargedColor);
 		ChargedDebuffComponent->Activate();
+		SetChargedDebuffOverlay(true);
 	}
 	else
 	{
 		ChargedDebuffComponent->Deactivate();
+		SetChargedDebuffOverlay(false);
 	}
 }
 
@@ -207,10 +209,12 @@ void AAuraCharacterBase::BurningTagChanged(const FGameplayTag CallbackTag, int32
 	if (bIsBurned)
 	{
 		BurnDebuffComponent->Activate();
+		SetBurningDebuffOverlay(true);
 	}
 	else
 	{
 		BurnDebuffComponent->Deactivate();
+		SetBurningDebuffOverlay(false);
 	}
 }
 
@@ -235,10 +239,12 @@ void AAuraCharacterBase::UnstableTagChanged(const FGameplayTag CallbackTag, int3
 	{
 		UnstableDebuffComponent->SetVariableLinearColor(FName("User.Color"), UnstableColor);
 		UnstableDebuffComponent->Activate();
+		SetUnstableDebuffOverlay(true);
 	}
 	else
 	{
 		UnstableDebuffComponent->Deactivate();
+		SetUnstableDebuffOverlay(false);
 	}
 }
 

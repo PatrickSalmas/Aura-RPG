@@ -115,6 +115,17 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)
 	void HandleArcaneFireNSActivate();
+	 
+	
+	/* Set Overlay effect for debuffs Effects */
+	UFUNCTION(BlueprintImplementableEvent, Category = "FX")
+	void SetBurningDebuffOverlay(bool isBurning);
+	
+	UFUNCTION(BlueprintImplementableEvent, Category = "FX")
+	void SetChargedDebuffOverlay(bool isCharged);
+	
+	UFUNCTION(BlueprintImplementableEvent, Category = "FX")
+	void SetUnstableDebuffOverlay(bool isUnstable);
 	
 protected:
 	// Called when the game starts or when spawned
