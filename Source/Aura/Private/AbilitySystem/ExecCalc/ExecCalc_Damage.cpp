@@ -198,16 +198,14 @@ void UExecCalc_Damage::DetermineReactiveStatus(const FGameplayEffectCustomExecut
 void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
 	const FGameplayEffectSpec& Spec) const
 {
-	UAbilitySystemComponent* TargetASC =
-		ExecutionParams.GetTargetAbilitySystemComponent();
+	UAbilitySystemComponent* TargetASC = ExecutionParams.GetTargetAbilitySystemComponent();
 
 	if (!TargetASC)
 	{
 		return;
 	}
 
-	const FAuraGameplayTags& GameplayTags =
-		FAuraGameplayTags::Get();
+	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
 
 	// Later, check Hit.ReactionInert here.
 	/*
@@ -302,16 +300,33 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 		return;
 	}
 
-	FGameplayEffectContextHandle ContextHandle =
-		Spec.GetContext();
+	FGameplayEffectContextHandle ContextHandle = Spec.GetContext();
+	
+	const FGameplayEffectContext* RawContext = ContextHandle.Get();
+	
+	if (!RawContext)
+	{
+		UE_LOG(LogTemp, Error, TEXT("DetermineReaction: Effect context is null."));
 
-	UAuraAbilitySystemLibrary::SetTriggeredReaction(
-		ContextHandle,
-		TriggeredReaction);
+		return;
+	}
+	
+	const UScriptStruct* ActualContextStruct =
+		RawContext->GetScriptStruct();
 
-	UAuraAbilitySystemLibrary::SetReactiveStatusToConsume(
-		ContextHandle,
-		ReactionToConsume);
+	if (ActualContextStruct !=
+		FAuraGameplayEffectContext::StaticStruct())
+	{
+		UE_LOG(LogTemp, Error, TEXT("DetermineReaction: Wrong context type. Actual=%s Expected=%s"),
+			*GetNameSafe(ActualContextStruct),
+			*GetNameSafe(FAuraGameplayEffectContext::StaticStruct()));
+
+		return;
+	}
+
+	UAuraAbilitySystemLibrary::SetTriggeredReaction(ContextHandle, TriggeredReaction);
+
+	UAuraAbilitySystemLibrary::SetReactiveStatusToConsume(ContextHandle, ReactionToConsume);
 }
 
 void UExecCalc_Damage::DetermineKnockback(const FGameplayEffectCustomExecutionParameters& ExecutionParams,

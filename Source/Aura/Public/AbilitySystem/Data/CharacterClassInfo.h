@@ -60,5 +60,8 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category="Common Class Defaults|Damage")
 	TObjectPtr<UCurveTable> DamageCalculationCoefficients;
 	
+	UPROPERTY(EditDefaultsOnly, Category = "Reactive Status")
+	TMap<FGameplayTag, TSubclassOf<UGameplayEffect>> ReactiveStatusEffects;
+	
 	FCharacterClassDefaultInfo GetClassDefaultInfo(ECharacterClass CharacterClass);
 };

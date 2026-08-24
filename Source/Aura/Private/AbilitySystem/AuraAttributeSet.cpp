@@ -455,68 +455,72 @@ void UAuraAttributeSet::Debuff(const FEffectProperties& Props)
 	ensureMsgf(AppliedHandle.IsValid(), TEXT("Failed to apply debuff %s"), *DebuffTag.ToString());
 }
 
-void UAuraAttributeSet::ApplyReactiveStatus(const FEffectProperties& Props)
+void UAuraAttributeSet::ApplyReactiveStatus(
+    const FEffectProperties& Props)
 {
-	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
-	FGameplayEffectContextHandle EffectContextHandle = Props.SourceASC->MakeEffectContext();
-	EffectContextHandle.AddSourceObject(Props.SourceAvatarActor);
+    if (!Props.SourceASC || !Props.TargetASC)
+    {
+        return;
+    }
 
-	const FGameplayTag DamageType = UAuraAbilitySystemLibrary::GetDamageType(Props.EffectContextHandle);
-	if (DamageType.ToString() == "None")
-	{
-		return;
-	}
-	
-	const float DebuffDamage = UAuraAbilitySystemLibrary::GetDebuffDamage(Props.EffectContextHandle);
-	const float DebuffDuration = UAuraAbilitySystemLibrary::GetDebuffDuration(Props.EffectContextHandle);
-	const float DebuffFrequency = UAuraAbilitySystemLibrary::GetDebuffFrequency(Props.EffectContextHandle);
-	
-	FGameplayTag ReactiveStatusTag = GameplayTags.DamageTypesToReactiveStatuses[DamageType];
-	FString DebuffName = FString::Printf(TEXT("DynamicDebuff_%s"), *ReactiveStatusTag.ToString());
-	UGameplayEffect* Effect = NewObject<UGameplayEffect>(GetTransientPackage(), FName(DebuffName));
+    const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
 
-	Effect->DurationPolicy = EGameplayEffectDurationType::HasDuration;
-	Effect->Period = DebuffFrequency;
-	Effect->DurationMagnitude = FScalableFloat(DebuffDuration);
-	FGameplayModifierInfo& DamageModifier = Effect->Modifiers.AddDefaulted_GetRef();
+    const FGameplayTag DamageType = UAuraAbilitySystemLibrary::GetDamageType(Props.EffectContextHandle);
 
-	DamageModifier.ModifierOp = EGameplayModOp::Additive;
-	DamageModifier.Attribute = UAuraAttributeSet::GetIncomingDamageAttribute();
+    if (!DamageType.IsValid())
+    {
+        return;
+    }
 
-	DamageModifier.ModifierMagnitude = FScalableFloat(DebuffDamage);
+    const FGameplayTag* ReactiveStatusTag = GameplayTags.DamageTypesToReactiveStatuses.Find(DamageType);
 
-	// const FGameplayTag DebuffTag = GameplayTags.DamageTypesToDebuffs[DamageType];
-	FInheritedTagContainer InheritedTags = FInheritedTagContainer();
-	InheritedTags.AddTag(ReactiveStatusTag);
-	if (ReactiveStatusTag.MatchesTagExact(GameplayTags.Debuff_Charged))
-	{
-		InheritedTags.AddTag(GameplayTags.Player_Block_CursorTrace);
-		InheritedTags.AddTag(GameplayTags.Player_Block_InputHeld);
-		InheritedTags.AddTag(GameplayTags.Player_Block_InputPressed);
-		InheritedTags.AddTag(GameplayTags.Player_Block_InputReleased);
-	}
-	UTargetTagsGameplayEffectComponent& Component = Effect->AddComponent<UTargetTagsGameplayEffectComponent>();
-	Component.SetAndApplyTargetTagChanges(InheritedTags);
+    if (!ReactiveStatusTag)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("No reactive status mapped to %s."), *DamageType.ToString());
 
-	Effect->StackingType = EGameplayEffectStackingType::AggregateBySource;
-	Effect->StackLimitCount = 1;
+        return;
+    }
 
-	const int32 Index = Effect->Modifiers.Num();
-	Effect->Modifiers.Add(FGameplayModifierInfo());
-	FGameplayModifierInfo& ModifierInfo = Effect->Modifiers[Index];
+    const UCharacterClassInfo* ClassInfo = UAuraAbilitySystemLibrary::GetCharacterClassInfo(Props.TargetAvatarActor);
 
-	// ModifierInfo.ModifierMagnitude = FScalableFloat(DebuffDamage);
-	ModifierInfo.ModifierOp = EGameplayModOp::Additive;
-	ModifierInfo.Attribute = UAuraAttributeSet::GetIncomingDamageAttribute();
+    if (!ClassInfo)
+    {
+        return;
+    }
 
-	if (FGameplayEffectSpec* MutableSpec = new FGameplayEffectSpec(Effect, EffectContextHandle, 1.f))
-	{
-		FAuraGameplayEffectContext* AuraContext = static_cast<FAuraGameplayEffectContext*>(MutableSpec->GetContext().Get());
-		TSharedPtr<FGameplayTag> ReactiveStatusDamageType = MakeShareable(new FGameplayTag(DamageType));
-		AuraContext->SetDamageType(ReactiveStatusDamageType);
-		AuraContext->SetShouldHitReact(false);
-		Props.TargetASC->ApplyGameplayEffectSpecToSelf(*MutableSpec);
-	}
+    const TSubclassOf<UGameplayEffect>* StatusEffectClass = ClassInfo->ReactiveStatusEffects.Find(*ReactiveStatusTag);
+
+    if (!StatusEffectClass || !StatusEffectClass->Get())
+    {
+        UE_LOG(LogTemp,Warning, TEXT("No Gameplay Effect configured for reactive status %s."), *ReactiveStatusTag->ToString());
+
+        return;
+    }
+
+    FGameplayEffectContextHandle Context = Props.SourceASC->MakeEffectContext();
+
+    Context.AddSourceObject(Props.SourceAvatarActor);
+
+    UAuraAbilitySystemLibrary::SetDamageType(Context, DamageType);
+
+    UAuraAbilitySystemLibrary::SetShouldHitReact(Context,false);
+
+    FGameplayEffectSpecHandle SpecHandle = Props.SourceASC->MakeOutgoingSpec(*StatusEffectClass,1.f,Context);
+
+    if (!SpecHandle.IsValid() || !SpecHandle.Data.IsValid())
+    {
+        return;
+    }
+
+    const float StatusDamage = UAuraAbilitySystemLibrary::GetDebuffDamage(Props.EffectContextHandle);
+
+    const float StatusDuration = UAuraAbilitySystemLibrary::GetDebuffDuration(Props.EffectContextHandle);
+
+    UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.Debuff_Damage, StatusDamage);
+
+    UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.Debuff_Duration, StatusDuration);
+
+    Props.TargetASC-> ApplyGameplayEffectSpecToSelf(*SpecHandle.Data.Get());
 }
 
 void UAuraAttributeSet::Knockback(const FEffectProperties& Props)
@@ -581,36 +585,22 @@ void UAuraAttributeSet::HandleReaction(const FEffectProperties& Props)
 		--ReactionCallDepth;
 	};
 
-	UE_LOG(
-		LogTemp,
-		Warning,
-		TEXT("HandleReaction entered. Depth: %d"),
-		ReactionCallDepth);
+	UE_LOG(LogTemp, Warning, TEXT("HandleReaction entered. Depth: %d"), ReactionCallDepth);
 
-	if (ReactionCallDepth >= 20)
+	if (ReactionCallDepth >= 8)
 	{
-		UE_LOG(
-			LogTemp,
-			Error,
-			TEXT("Synchronous reaction recursion confirmed. Breaking chain at depth %d."),
-			ReactionCallDepth);
+		UE_LOG(LogTemp, Error, TEXT("Synchronous reaction recursion confirmed. Breaking chain at depth %d."), ReactionCallDepth);
 
 		return; // Diagnostic guard only
 	}
 
 	// Existing HandleReaction code...
 	
-	const FGameplayTag ReactionTag =
-	UAuraAbilitySystemLibrary::GetTriggeredReaction(
-		Props.EffectContextHandle);
+	const FGameplayTag ReactionTag = UAuraAbilitySystemLibrary::GetTriggeredReaction(Props.EffectContextHandle);
 
-	const FGameplayTag StatusToConsume =
-		UAuraAbilitySystemLibrary::GetReactiveStatusToConsume(
-			Props.EffectContextHandle);
+	const FGameplayTag StatusToConsume = UAuraAbilitySystemLibrary::GetReactiveStatusToConsume(Props.EffectContextHandle);
 
-	if (!ReactionTag.IsValid() ||
-		!StatusToConsume.IsValid() ||
-		!Props.TargetASC)
+	if (!ReactionTag.IsValid() || !StatusToConsume.IsValid() || !Props.TargetASC)
 	{
 		return;
 	}
@@ -618,8 +608,16 @@ void UAuraAttributeSet::HandleReaction(const FEffectProperties& Props)
 	FGameplayTagContainer TagsToRemove;
 	TagsToRemove.AddTag(StatusToConsume);
 
-	const int32 NumRemoved =
-		Props.TargetASC->RemoveActiveEffectsWithGrantedTags(TagsToRemove);
+	const int32 NumRemoved = Props.TargetASC->RemoveActiveEffectsWithGrantedTags(TagsToRemove);
+
+	const int32 RemainingTagCount = Props.TargetASC->GetGameplayTagCount(StatusToConsume);
+
+	UE_LOG(LogTemp, Warning,
+		TEXT(
+			"Reaction depth=%d Target=%s Status=%s "
+			"NumRemoved=%d RemainingCount=%d Reaction=%s"),
+		ReactionCallDepth, *GetNameSafe(Props.TargetAvatarActor), *StatusToConsume.ToString(), NumRemoved, RemainingTagCount,
+		*ReactionTag.ToString());
 
 	if (NumRemoved <= 0)
 	{
@@ -633,10 +631,7 @@ void UAuraAttributeSet::HandleReaction(const FEffectProperties& Props)
 	Payload.Target = Props.TargetAvatarActor;
 	Payload.ContextHandle = Props.EffectContextHandle;
 
-	UAbilitySystemBlueprintLibrary::SendGameplayEventToActor(
-		Props.SourceCharacter->GetInstigator(),
-		ReactionTag,
-		Payload);
+	UAbilitySystemBlueprintLibrary::SendGameplayEventToActor(Props.SourceCharacter->GetInstigator(), ReactionTag,Payload);
 }
 
 void UAuraAttributeSet::PostAttributeChange(const FGameplayAttribute& Attribute, float OldValue, float NewValue)

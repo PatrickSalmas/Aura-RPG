@@ -695,9 +695,22 @@ FGameplayEffectContextHandle UAuraAbilitySystemLibrary::ApplyDamageEffect(const 
 	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.KnockBack_Chance, DamageEffectParams.KnockBackChance);
 	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.KnockBack_ImpulseMagnitude, DamageEffectParams.KnockBackImpulseMagnitude);
 
-	if (DamageEffectParams.TargetAbilitySystemComponent)
+	// 1. Ensure the Target ASC pointer exists
+	if (IsValid(DamageEffectParams.TargetAbilitySystemComponent)) // Use .IsValid() if it's a TWeakObjectPtr, or != nullptr if raw
 	{
-		DamageEffectParams.TargetAbilitySystemComponent->ApplyGameplayEffectSpecToSelf(*SpecHandle.Data);
+		// 2. Critical Check: Ensure the Spec Handle actually contains valid, initialized data
+		if (SpecHandle.IsValid() && SpecHandle.Data.IsValid())
+		{
+			DamageEffectParams.TargetAbilitySystemComponent->ApplyGameplayEffectSpecToSelf(*SpecHandle.Data);
+		}
+		else
+		{
+			UE_LOG(LogTemp, Warning, TEXT("ApplyGameplayEffect failed: SpecHandle or SpecHandle.Data was invalid!"));
+		}
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("ApplyGameplayEffect failed: TargetAbilitySystemComponent is null!"));
 	}
 	return EffectContextHandle;
 }

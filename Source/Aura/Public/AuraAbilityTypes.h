@@ -141,37 +141,27 @@ public:
 	void SetRadialDamageOrigin(const FVector& InRadialDamageOrigin) { RadialDamageOrigin = InRadialDamageOrigin; }
 	
 	
-	/** Returns the actual struct used for serialization, subclasses must override this! */
-	virtual UScriptStruct* GetScriptStruct() const
+	/** Returns the actual struct represented by this context. */
+	virtual UScriptStruct* GetScriptStruct() const override
 	{
-		return FGameplayEffectContext::StaticStruct();
+		return FAuraGameplayEffectContext::StaticStruct();
 	}
 
-
-	/** Creates a copy of this context, used to duplicate for later modifications */
-	virtual FGameplayEffectContext* Duplicate() const
+	/** Creates a complete copy of the custom context. */
+	virtual FAuraGameplayEffectContext* Duplicate() const override
 	{
-		FGameplayEffectContext* NewContext = new FGameplayEffectContext();
+		FAuraGameplayEffectContext* NewContext =
+			new FAuraGameplayEffectContext();
+
 		*NewContext = *this;
-		if (GetHitResult())
+
+		if (const FHitResult* ExistingHitResult = GetHitResult())
 		{
-			// Does a deep copy of the hit result
-			NewContext->AddHitResult(*GetHitResult(), true);
+			NewContext->AddHitResult(*ExistingHitResult, true);
 		}
+
 		return NewContext;
 	}
-	// /** Creates a copy of this context, used to duplicate for later modifications */
-	// virtual FAuraGameplayEffectContext* Duplicate() const
-	// {
-	// 	FAuraGameplayEffectContext* NewContext = new FAuraGameplayEffectContext();
-	// 	*NewContext = *this;
-	// 	if (GetHitResult())
-	// 	{
-	// 		// Does a deep copy of the hit result
-	// 		NewContext->AddHitResult(*GetHitResult(), true);
-	// 	}
-	// 	return NewContext;
-	// }
 	
 	/** Custom serialization, subclasses must override this */
 	virtual bool NetSerialize(FArchive& Ar, class UPackageMap* Map, bool& bOutSuccess);
