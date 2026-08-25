@@ -114,6 +114,11 @@ void UExecCalc_Damage::DetermineDebuff(const FGameplayEffectCustomExecutionParam
 void UExecCalc_Damage::DetermineReactiveStatus(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
 	const FGameplayEffectSpec& Spec) const
 {
+	if (!UAuraAbilitySystemLibrary::GetCanApplyReactionStatus(Spec.GetContext()))
+	{
+		return;
+	}
+	
 	FGameplayEffectContextHandle EffectContextHandle = Spec.GetContext();
 	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
 
@@ -198,8 +203,13 @@ void UExecCalc_Damage::DetermineReactiveStatus(const FGameplayEffectCustomExecut
 void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
 	const FGameplayEffectSpec& Spec) const
 {
+	if (!UAuraAbilitySystemLibrary::GetCanTriggerReaction(Spec.GetContext()))
+	{
+		return;
+	}
+	
 	UAbilitySystemComponent* TargetASC = ExecutionParams.GetTargetAbilitySystemComponent();
-
+	
 	if (!TargetASC)
 	{
 		return;
@@ -311,11 +321,9 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 		return;
 	}
 	
-	const UScriptStruct* ActualContextStruct =
-		RawContext->GetScriptStruct();
+	const UScriptStruct* ActualContextStruct = RawContext->GetScriptStruct();
 
-	if (ActualContextStruct !=
-		FAuraGameplayEffectContext::StaticStruct())
+	if (ActualContextStruct != FAuraGameplayEffectContext::StaticStruct())
 	{
 		UE_LOG(LogTemp, Error, TEXT("DetermineReaction: Wrong context type. Actual=%s Expected=%s"),
 			*GetNameSafe(ActualContextStruct),

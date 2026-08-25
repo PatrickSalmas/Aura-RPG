@@ -211,13 +211,9 @@ void UAuraAttributeSet::HandleIncomingDamage(const FEffectProperties& Props)
 			Debuff(Props);
 		}
 		
-		if (UAuraAbilitySystemLibrary::GetCanTriggerReaction(Props.EffectContextHandle))
-		{
-			HandleReaction(Props);
-		}
+		HandleReaction(Props);
 		
-		if (UAuraAbilitySystemLibrary::IsSuccessfulReactiveStatus(Props.EffectContextHandle) 
-			&& UAuraAbilitySystemLibrary::GetCanApplyReactionStatus(Props.EffectContextHandle))
+		if (UAuraAbilitySystemLibrary::IsSuccessfulReactiveStatus(Props.EffectContextHandle)) 
 		{
 			ApplyReactiveStatus(Props);
 		}
