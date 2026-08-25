@@ -660,6 +660,20 @@ bool UAuraAbilitySystemLibrary::IsNotFriend(AActor* FirstActor, AActor* SecondAc
 
 FGameplayEffectContextHandle UAuraAbilitySystemLibrary::ApplyDamageEffect(const FDamageEffectParams& DamageEffectParams)
 {
+	if (!IsValid(DamageEffectParams.SourceAbilitySystemComponent) || !IsValid(DamageEffectParams.TargetAbilitySystemComponent) ||
+		!DamageEffectParams.DamageGameplayEffectClass)
+	{
+		UE_LOG(LogTemp, Error,TEXT("ApplyDamageEffect aborted: SourceASC=%s (Valid=%s), "
+				"TargetASC=%s (Valid=%s), DamageEffectClass=%s"),
+			*GetNameSafe(DamageEffectParams.SourceAbilitySystemComponent), IsValid(
+				DamageEffectParams.SourceAbilitySystemComponent) ? TEXT("true") : TEXT("false"),
+			*GetNameSafe(DamageEffectParams.TargetAbilitySystemComponent), 
+			IsValid(DamageEffectParams.TargetAbilitySystemComponent) ? TEXT("true") : TEXT("false"),
+			*GetNameSafe(DamageEffectParams.DamageGameplayEffectClass.Get()));
+
+		return FGameplayEffectContextHandle();
+	}
+	
 	const FAuraGameplayTags GameplayTags = FAuraGameplayTags::Get();
 	const AActor* SourceAvatarActor = DamageEffectParams.SourceAbilitySystemComponent->GetAvatarActor();
 	
@@ -683,6 +697,14 @@ FGameplayEffectContextHandle UAuraAbilitySystemLibrary::ApplyDamageEffect(const 
 	
 	FGameplayEffectSpecHandle SpecHandle = DamageEffectParams.SourceAbilitySystemComponent->MakeOutgoingSpec(
 		DamageEffectParams.DamageGameplayEffectClass, DamageEffectParams.AbilityLevel, EffectContextHandle);
+	
+	if (!SpecHandle.IsValid() || !SpecHandle.Data.IsValid())
+	{
+		UE_LOG(LogTemp, Error, TEXT("ApplyDamageEffect failed to create GameplayEffectSpec. EffectClass=%s Level=%f"),
+			*GetNameSafe(DamageEffectParams.DamageGameplayEffectClass), DamageEffectParams.AbilityLevel);
+
+		return FGameplayEffectContextHandle();
+	}
 
 	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, DamageEffectParams.DamageType, DamageEffectParams.BaseDamage);
 	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.Debuff_Chance, DamageEffectParams.DebuffChance);
@@ -694,24 +716,9 @@ FGameplayEffectContextHandle UAuraAbilitySystemLibrary::ApplyDamageEffect(const 
 
 	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.KnockBack_Chance, DamageEffectParams.KnockBackChance);
 	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.KnockBack_ImpulseMagnitude, DamageEffectParams.KnockBackImpulseMagnitude);
+	
+	DamageEffectParams.TargetAbilitySystemComponent->ApplyGameplayEffectSpecToSelf(*SpecHandle.Data);
 
-	// 1. Ensure the Target ASC pointer exists
-	if (IsValid(DamageEffectParams.TargetAbilitySystemComponent)) // Use .IsValid() if it's a TWeakObjectPtr, or != nullptr if raw
-	{
-		// 2. Critical Check: Ensure the Spec Handle actually contains valid, initialized data
-		if (SpecHandle.IsValid() && SpecHandle.Data.IsValid())
-		{
-			DamageEffectParams.TargetAbilitySystemComponent->ApplyGameplayEffectSpecToSelf(*SpecHandle.Data);
-		}
-		else
-		{
-			UE_LOG(LogTemp, Warning, TEXT("ApplyGameplayEffect failed: SpecHandle or SpecHandle.Data was invalid!"));
-		}
-	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("ApplyGameplayEffect failed: TargetAbilitySystemComponent is null!"));
-	}
 	return EffectContextHandle;
 }
 
