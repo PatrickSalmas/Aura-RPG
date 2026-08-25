@@ -238,7 +238,7 @@ struct TStructOpsTypeTraits<FAuraGameplayEffectContext> : public TStructOpsTypeT
 {
 	enum
 	{
-		WithNetSerialize = true,
+		WithNetSerializer = true,
 		WithCopy = true
 	};
 };
