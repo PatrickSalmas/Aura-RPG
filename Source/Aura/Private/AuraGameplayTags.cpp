@@ -180,6 +180,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Abilities_Fire_FlameRupture = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Abilities.Fire.FlameRupture"), FString("FlameRupture Ability Tag"));
 	GameplayTags.Abilities_Fire_ShieldSurge = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Abilities.Fire.ShieldSurge"), FString("ShieldSurge Ability Tag"));
 	GameplayTags.Abilities_Fire_ShieldFlameThrower = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Abilities.Fire.ShieldFlameThrower"), FString("ShieldFlameThrower Ability Tag"));
+	GameplayTags.Abilities_Lightning_LightningBolt = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Abilities.Lightning.LightningBolt"), FString("LightningBolt Ability Tag"));
 	GameplayTags.Abilities_Lightning_Electrocute = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Abilities.Lightning.Electrocute"), FString("Electrocute Ability Tag"));
 	GameplayTags.Abilities_Lightning_ElectricSurge = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Abilities.Lightning.ElectricSurge"), FString("Electric Surge Ability Tag"));
 	GameplayTags.Abilities_Lightning_ElectricDomination = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Abilities.Lightning.ElectricDomination"), FString("Electric Domination Ability Tag"));

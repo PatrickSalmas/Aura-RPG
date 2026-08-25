@@ -123,6 +123,7 @@ public:
 	FGameplayTag Abilities_Fire_FlameRupture;
 	FGameplayTag Abilities_Fire_ShieldSurge;
 	FGameplayTag Abilities_Fire_ShieldFlameThrower;
+	FGameplayTag Abilities_Lightning_LightningBolt;
 	FGameplayTag Abilities_Lightning_Electrocute;
 	FGameplayTag Abilities_Lightning_ElectricSurge;
 	FGameplayTag Abilities_Lightning_ElectricDomination;
