@@ -46,6 +46,21 @@ void AAuraProjectile::BeginPlay()
 
 void AAuraProjectile::OnHit()
 {
+	if (HasAOEDamage)
+	{
+		TArray<AActor*> OverlappingActors;
+		TArray<AActor*> ActorToIgnore;
+		// ActorToIgnore.Add(GetAvatarActorFromActorInfo());
+		UAuraAbilitySystemLibrary::GetLivePlayersWithinRadius(this, OverlappingActors, ActorToIgnore, AOERadius, GetActorLocation());
+		for (AActor* Actor : OverlappingActors)
+		{
+			if (UAbilitySystemComponent* TargetASC_AOE = UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(Actor))
+			{
+				ApplyProjectileDamage(TargetASC_AOE);
+			}
+		}
+	}
+	
 	UGameplayStatics::PlaySoundAtLocation(this, ImpactSound, GetActorLocation(), FRotator::ZeroRotator);
 	UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, ImpactEffect, GetActorLocation());
 	if (LoopingSoundComponent)
@@ -77,16 +92,22 @@ void AAuraProjectile::OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, 
 	{
 		if (UAbilitySystemComponent* TargetASC = UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(OtherActor))
 		{
-			const FVector DeathImpulse = GetActorForwardVector() * DamageEffectParams.DeathImpulseMagnitude;
-			DamageEffectParams.DeathImpulse = DeathImpulse;
+			ApplyProjectileDamage(TargetASC);
 			
-			FRotator Rotation = GetActorRotation();
-			Rotation.Pitch = 45.f;
-			const  FVector KnockbackDirection = Rotation.Vector();
-			DamageEffectParams.KnockBackImpulse = KnockbackDirection * DamageEffectParams.KnockBackImpulseMagnitude;
-			
-			DamageEffectParams.TargetAbilitySystemComponent = TargetASC;
-			UAuraAbilitySystemLibrary::ApplyDamageEffect(DamageEffectParams);
+			if (HasAOEDamage)
+			{
+				TArray<AActor*> OverlappingActors;
+				TArray<AActor*> ActorToIgnore;
+				// ActorToIgnore.Add(GetAvatarActorFromActorInfo());
+				UAuraAbilitySystemLibrary::GetLivePlayersWithinRadius(OtherActor, OverlappingActors, ActorToIgnore, AOERadius, SweepResult.ImpactPoint);
+				for (AActor* Actor : OverlappingActors)
+				{
+					if (UAbilitySystemComponent* TargetASC_AOE = UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(Actor))
+					{
+						ApplyProjectileDamage(TargetASC_AOE);
+					}
+				}
+			}
 		}
 		
 		Destroy();
@@ -102,5 +123,19 @@ bool AAuraProjectile::IsValidOverlap(AActor* OtherActor)
 	if (!UAuraAbilitySystemLibrary::IsNotFriend(SourceAvatarActor, OtherActor)) return false;
 
 	return true;
+}
+
+void AAuraProjectile::ApplyProjectileDamage(UAbilitySystemComponent* TargetASC)
+{
+	const FVector DeathImpulse = GetActorForwardVector() * DamageEffectParams.DeathImpulseMagnitude;
+	DamageEffectParams.DeathImpulse = DeathImpulse;
+			
+	FRotator Rotation = GetActorRotation();
+	Rotation.Pitch = 45.f;
+	const  FVector KnockbackDirection = Rotation.Vector();
+	DamageEffectParams.KnockBackImpulse = KnockbackDirection * DamageEffectParams.KnockBackImpulseMagnitude;
+			
+	DamageEffectParams.TargetAbilitySystemComponent = TargetASC;
+	UAuraAbilitySystemLibrary::ApplyDamageEffect(DamageEffectParams);
 }
 

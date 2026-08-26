@@ -46,11 +46,12 @@ protected:
 	                     int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 	bool IsValidOverlap(AActor* OtherActor);
+	void ApplyProjectileDamage(UAbilitySystemComponent* TargetASC);
 
 	UPROPERTY()
 	TObjectPtr<UAudioComponent> LoopingSoundComponent;
 
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	TObjectPtr<USphereComponent> Sphere;
 
 	UPROPERTY(EditAnywhere)
@@ -61,6 +62,12 @@ protected:
 
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<USoundBase> LoopingSound;
+	
+	UPROPERTY(EditAnywhere)
+	bool HasAOEDamage = false;
+	
+	UPROPERTY(EditAnywhere)
+	float AOERadius = 20.f;
 	
 private:
 
