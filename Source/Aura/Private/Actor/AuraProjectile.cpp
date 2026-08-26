@@ -49,9 +49,12 @@ void AAuraProjectile::OnHit()
 	if (HasAOEDamage)
 	{
 		TArray<AActor*> OverlappingActors;
-		TArray<AActor*> ActorToIgnore;
-		// ActorToIgnore.Add(GetAvatarActorFromActorInfo());
-		UAuraAbilitySystemLibrary::GetLivePlayersWithinRadius(this, OverlappingActors, ActorToIgnore, AOERadius, GetActorLocation());
+		TArray<AActor*> ActorsToIgnore;
+		if (AActor* InstigatorActor = GetInstigator())
+		{
+			ActorsToIgnore.Add(InstigatorActor);
+		}
+		UAuraAbilitySystemLibrary::GetLivePlayersWithinRadius(this, OverlappingActors, ActorsToIgnore, AOERadius, GetActorLocation());
 		for (AActor* Actor : OverlappingActors)
 		{
 			if (UAbilitySystemComponent* TargetASC_AOE = UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(Actor))
@@ -97,9 +100,12 @@ void AAuraProjectile::OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, 
 			if (HasAOEDamage)
 			{
 				TArray<AActor*> OverlappingActors;
-				TArray<AActor*> ActorToIgnore;
-				// ActorToIgnore.Add(GetAvatarActorFromActorInfo());
-				UAuraAbilitySystemLibrary::GetLivePlayersWithinRadius(OtherActor, OverlappingActors, ActorToIgnore, AOERadius, SweepResult.ImpactPoint);
+				TArray<AActor*> ActorsToIgnore;
+				if (AActor* InstigatorActor = GetInstigator())
+				{
+					ActorsToIgnore.Add(InstigatorActor);
+				}
+				UAuraAbilitySystemLibrary::GetLivePlayersWithinRadius(OtherActor, OverlappingActors, ActorsToIgnore, AOERadius, SweepResult.ImpactPoint);
 				for (AActor* Actor : OverlappingActors)
 				{
 					if (UAbilitySystemComponent* TargetASC_AOE = UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(Actor))

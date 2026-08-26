@@ -36,9 +36,17 @@ void UAuraProjectileSpell::SpawnProjectile(const FVector& ProjectileTargetLocati
 	FTransform SpawnTransform;
 	SpawnTransform.SetLocation(SocketLocation);
 	SpawnTransform.SetRotation(Rotation.Quaternion());
-		
-	AAuraProjectile* Projectile = GetWorld()->SpawnActorDeferred<AAuraProjectile>(ProjectileClass, SpawnTransform, GetOwningActorFromActorInfo(),
-													Cast<APawn>(GetOwningActorFromActorInfo()),
+	
+	AActor* AvatarActor = GetAvatarActorFromActorInfo();
+	APawn* InstigatorPawn = Cast<APawn>(AvatarActor);
+
+	if (!IsValid(AvatarActor) || !IsValid(InstigatorPawn))
+	{
+		UE_LOG(LogTemp, Warning, TEXT("SpawnProjectile: Invalid avatar actor or instigator pawn."));
+		return;
+	}
+	AAuraProjectile* Projectile = GetWorld()->SpawnActorDeferred<AAuraProjectile>(ProjectileClass, SpawnTransform, AvatarActor,
+													InstigatorPawn,
 													ESpawnActorCollisionHandlingMethod::AlwaysSpawn);
 
 	Projectile->DamageEffectParams = MakeDamageEffectParamsFromClassDefaults();
