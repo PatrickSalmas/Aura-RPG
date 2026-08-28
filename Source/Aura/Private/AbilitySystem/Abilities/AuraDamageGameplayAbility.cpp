@@ -35,15 +35,15 @@ FDamageEffectParams UAuraDamageGameplayAbility::MakeDamageEffectParamsFromClassD
 	DamageEffectParams.BaseDamage = GetDamageAtLevel();
 	DamageEffectParams.AbilityLevel = GetAbilityLevel();
 	DamageEffectParams.DamageType = DamageType;
-	DamageEffectParams.DebuffChance = DebuffChance;
-	DamageEffectParams.DebuffDamage = DebuffDamage;
-	DamageEffectParams.DebuffDuration = DebuffDuration;
-	DamageEffectParams.DebuffFrequency = DebuffFrequency;
-	DamageEffectParams.ReactiveStatusChance = ReactiveStatusChance;
+	DamageEffectParams.DebuffChance = GetDebuffChanceAtLevel();
+	DamageEffectParams.DebuffDamage = GetDebuffDamageAtLevel();;
+	DamageEffectParams.DebuffDuration = GetDebuffDurationAtLevel();
+	DamageEffectParams.DebuffFrequency = GetDebuffFrequencyAtLevel();
+	DamageEffectParams.ReactiveStatusChance = GetDebuffChanceAtLevel();
 	DamageEffectParams.bCanApplyReactionStatus = bCanApplyReactionStatus;
 	DamageEffectParams.bCanTriggerReaction = bCanTriggerReaction;
 	DamageEffectParams.DeathImpulseMagnitude = DeathImpulseMagnitude;
-	DamageEffectParams.KnockBackChance = KnockBackChance;
+	DamageEffectParams.KnockBackChance = GetKnockBackChanceAtLevel();
 	DamageEffectParams.KnockBackImpulseMagnitude = KnockBackImpulseMagnitude;
 
 	if (IsValid(TargetActor))
@@ -376,74 +376,6 @@ bool UAuraDamageGameplayAbility::GetNearestValidGroundLocationFromTarget(
 	return true;
 }
 
-const FAbilityTuningRow* UAuraDamageGameplayAbility::GetAbilityTuningRow() const
-{
-	if (AbilityTuningRow.IsNull())
-	{
-		UE_LOG(
-			LogTemp,
-			Error,
-			TEXT("%s has no Ability Tuning row assigned."),
-			*GetNameSafe(this));
-
-		return nullptr;
-	}
-
-	return AbilityTuningRow.GetRow<FAbilityTuningRow>(
-		TEXT("UAuraGameplayAbility::GetAbilityTuningRow"));
-}
-
-void UAuraDamageGameplayAbility::LogAbilityTuningValues() const
-{
-	const FAbilityTuningRow* TuningRow = GetAbilityTuningRow();
-
-	if (!TuningRow)
-	{
-		return;
-	}
-
-	const int32 AbilityLevel = GetAbilityLevel();
-
-	const float DamageVal =
-		TuningRow->Damage.GetValueAtLevel(AbilityLevel);
-
-	const float ManaCost =
-		TuningRow->ManaCost.GetValueAtLevel(AbilityLevel);
-
-	const float Cooldown =
-		TuningRow->Cooldown.GetValueAtLevel(AbilityLevel);
-
-	const float DebuffChanceVal =
-		TuningRow->DebuffChance.GetValueAtLevel(AbilityLevel);
-
-	const float KnockbackChance =
-		TuningRow->KnockbackChance.GetValueAtLevel(AbilityLevel);
-	
-	const float StunChance =
-		TuningRow->StunChance.GetValueAtLevel(AbilityLevel);
-	
-	const float SlowChance =
-		TuningRow->SlowChance.GetValueAtLevel(AbilityLevel);
-
-	UE_LOG(
-		LogTemp,
-		Warning,
-		TEXT(
-			"%s | Level: %d | Damage: %.2f | Mana Cost: %.2f | "
-			"Cooldown: %.2f | Debuff Chance: %.2f | "
-			"Knockback Chance: %.2f | Stun Chance: %.2f | Slow Chance: %.2f"),
-		*GetNameSafe(this),
-		AbilityLevel,
-		DamageVal,
-		ManaCost,
-		Cooldown,
-		DebuffChanceVal,
-		KnockbackChance,
-		StunChance,
-		SlowChance
-		);
-}
-
 FTaggedMontage UAuraDamageGameplayAbility::GetRandomTaggedMontageFromArray(const TArray<FTaggedMontage>& TaggedMontages)
 {
 	if (TaggedMontages.Num() > 0)
@@ -453,4 +385,86 @@ FTaggedMontage UAuraDamageGameplayAbility::GetRandomTaggedMontageFromArray(const
 	}
 
 	return FTaggedMontage();
+}
+
+float UAuraDamageGameplayAbility::GetDebuffChanceAtLevel() const
+{
+	if (!AbilityTuningRow.IsNull())
+	{
+		if (const FAbilityTuningRow* TuningRow =
+			GetAbilityTuningRow())
+		{
+			return TuningRow->DebuffChance.GetValueAtLevel(
+				GetAbilityLevel());
+		}
+	}
+
+	return DebuffChance;
+}
+
+float UAuraDamageGameplayAbility::GetDebuffDamageAtLevel() const
+{
+	if (!AbilityTuningRow.IsNull())
+	{
+		if (const FAbilityTuningRow* TuningRow = GetAbilityTuningRow())
+		{
+			return TuningRow->DebuffDamage.GetValueAtLevel(GetAbilityLevel());
+		}
+	}
+
+	return DebuffDamage;
+}
+
+float UAuraDamageGameplayAbility::GetDebuffDurationAtLevel() const
+{
+	if (!AbilityTuningRow.IsNull())
+	{
+		if (const FAbilityTuningRow* TuningRow = GetAbilityTuningRow())
+		{
+			return TuningRow->DebuffDuration.GetValueAtLevel(GetAbilityLevel());
+		}
+	}
+
+	return DebuffDuration;
+}
+
+float UAuraDamageGameplayAbility::GetDebuffFrequencyAtLevel() const
+{
+	if (!AbilityTuningRow.IsNull())
+	{
+		if (const FAbilityTuningRow* TuningRow = GetAbilityTuningRow())
+		{
+			return TuningRow->DebuffFrequency.GetValueAtLevel(GetAbilityLevel());
+		}
+	}
+
+	return DebuffFrequency;
+}
+
+float UAuraDamageGameplayAbility::GetReactiveStatusChanceAtLevel() const
+{
+	if (!AbilityTuningRow.IsNull())
+	{
+		if (const FAbilityTuningRow* TuningRow = GetAbilityTuningRow())
+		{
+			return TuningRow->ReactiveStatusChance.GetValueAtLevel(GetAbilityLevel());
+		}
+	}
+
+	return ReactiveStatusChance;
+}
+
+float UAuraDamageGameplayAbility::GetKnockBackChanceAtLevel() const
+{
+	if (!AbilityTuningRow.IsNull())
+	{
+		if (const FAbilityTuningRow* TuningRow =
+			GetAbilityTuningRow())
+		{
+			return TuningRow->KnockbackChance.GetValueAtLevel(
+				GetAbilityLevel());
+		}
+	}
+
+	return KnockBackChance;
 }

@@ -21,6 +21,18 @@ struct FAbilityTuningRow : public FTableRowBase
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Procs")
 	FScalableFloat DebuffChance;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Debuff")
+	FScalableFloat DebuffDamage;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Debuff")
+	FScalableFloat DebuffDuration;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Debuff")
+	FScalableFloat DebuffFrequency;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Reactive Status")
+	FScalableFloat ReactiveStatusChance;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Procs")
 	FScalableFloat KnockbackChance;

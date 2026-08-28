@@ -37,32 +37,16 @@ public:
 	float GetDamageAtLevel() const;
 	
 	UFUNCTION(BlueprintCallable, Category = "Ground Trace")
-	bool GetGroundLocationFromTarget(
-		const FVector& TargetLocation,
-		FVector& OutGroundLocation,
-		AActor* ActorToIgnore = nullptr
-	) const;
+	bool GetGroundLocationFromTarget(const FVector& TargetLocation, FVector& OutGroundLocation, 
+			AActor* ActorToIgnore = nullptr) const;
 	
 	// This version makes it so the returned ground location won't be on top of an enemy. It will find
 	// the nearest valid ground location if the target happens to be on an enemy
 	UFUNCTION(BlueprintCallable, Category = "Targeting")
-	bool GetNearestValidGroundLocationFromTarget(
-		const FVector& MouseHitLocation,
-		AActor* MouseHitActor,
-		FVector& OutGroundLocation,
-		FVector& OutTeleportLocation,
-		float ExtraDistanceFromTarget = 90.f
-	) const;
+	bool GetNearestValidGroundLocationFromTarget(const FVector& MouseHitLocation, AActor* MouseHitActor,
+		FVector& OutGroundLocation, FVector& OutTeleportLocation, float ExtraDistanceFromTarget = 90.f) const;
 	
 protected:
-
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Ability Tuning")
-	FDataTableRowHandle AbilityTuningRow;
-
-	const FAbilityTuningRow* GetAbilityTuningRow() const;
-	
-	UFUNCTION(BlueprintCallable, Category = "Ability Tuning|Debug")
-	void LogAbilityTuningValues() const;
 	
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 	TSubclassOf<UGameplayEffect> DamageEffectClass;
@@ -124,6 +108,13 @@ protected:
 
 	UFUNCTION(BlueprintPure)
 	FTaggedMontage GetRandomTaggedMontageFromArray(const TArray<FTaggedMontage>& TaggedMontages);
+	
+	float GetDebuffChanceAtLevel() const;
+	float GetDebuffDamageAtLevel() const;
+	float GetDebuffDurationAtLevel() const;
+	float GetDebuffFrequencyAtLevel() const;
+	float GetReactiveStatusChanceAtLevel() const;
+	float GetKnockBackChanceAtLevel() const;
 	
 private:
 	static bool IsValidTeleportGround(const FHitResult& Hit);
