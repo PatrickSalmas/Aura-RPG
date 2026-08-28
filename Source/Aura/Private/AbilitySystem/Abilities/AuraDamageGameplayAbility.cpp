@@ -17,7 +17,7 @@ class UNavigationSystemV1;
 void UAuraDamageGameplayAbility::CauseDamage(AActor* TargetActor)
 {
 	FGameplayEffectSpecHandle DamageSpecHandle = MakeOutgoingGameplayEffectSpec(DamageEffectClass, 1.f);
-	const float ScaledDamage = Damage.GetValueAtLevel(GetAbilityLevel());
+	const float ScaledDamage = GetDamageAtLevel();
 	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(DamageSpecHandle, DamageType, ScaledDamage);
 	GetAbilitySystemComponentFromActorInfo()->ApplyGameplayEffectSpecToTarget(
 		*DamageSpecHandle.Data.Get(), UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(TargetActor));
@@ -32,7 +32,7 @@ FDamageEffectParams UAuraDamageGameplayAbility::MakeDamageEffectParamsFromClassD
 	DamageEffectParams.DamageGameplayEffectClass = DamageEffectClass;
 	DamageEffectParams.SourceAbilitySystemComponent = GetAbilitySystemComponentFromActorInfo();
 	DamageEffectParams.TargetAbilitySystemComponent = UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(TargetActor);
-	DamageEffectParams.BaseDamage = Damage.GetValueAtLevel(GetAbilityLevel());
+	DamageEffectParams.BaseDamage = GetDamageAtLevel();
 	DamageEffectParams.AbilityLevel = GetAbilityLevel();
 	DamageEffectParams.DamageType = DamageType;
 	DamageEffectParams.DebuffChance = DebuffChance;
@@ -100,7 +100,18 @@ FDamageEffectParams UAuraDamageGameplayAbility::MakeDamageEffectParamsFromClassD
 
 float UAuraDamageGameplayAbility::GetDamageAtLevel() const
 {
-	return Damage.GetValueAtLevel(GetAbilityLevel());
+	const int32 AbilityLevel = GetAbilityLevel();
+
+	if (!AbilityTuningRow.IsNull())
+	{
+		if (const FAbilityTuningRow* TuningRow = GetAbilityTuningRow())
+		{
+			return TuningRow->Damage.GetValueAtLevel(AbilityLevel);
+		}
+	}
+
+	// Legacy fallback for abilities not yet migrated.
+	return Damage.GetValueAtLevel(AbilityLevel);
 }
 
 bool UAuraDamageGameplayAbility::IsValidTeleportGround(const FHitResult& Hit)
@@ -363,6 +374,74 @@ bool UAuraDamageGameplayAbility::GetNearestValidGroundLocationFromTarget(
 	OutGroundLocation = InitialGroundLocation;
 	OutTeleportLocation = BuildTeleportLocationFromGroundLocation(InitialGroundLocation);
 	return true;
+}
+
+const FAbilityTuningRow* UAuraDamageGameplayAbility::GetAbilityTuningRow() const
+{
+	if (AbilityTuningRow.IsNull())
+	{
+		UE_LOG(
+			LogTemp,
+			Error,
+			TEXT("%s has no Ability Tuning row assigned."),
+			*GetNameSafe(this));
+
+		return nullptr;
+	}
+
+	return AbilityTuningRow.GetRow<FAbilityTuningRow>(
+		TEXT("UAuraGameplayAbility::GetAbilityTuningRow"));
+}
+
+void UAuraDamageGameplayAbility::LogAbilityTuningValues() const
+{
+	const FAbilityTuningRow* TuningRow = GetAbilityTuningRow();
+
+	if (!TuningRow)
+	{
+		return;
+	}
+
+	const int32 AbilityLevel = GetAbilityLevel();
+
+	const float DamageVal =
+		TuningRow->Damage.GetValueAtLevel(AbilityLevel);
+
+	const float ManaCost =
+		TuningRow->ManaCost.GetValueAtLevel(AbilityLevel);
+
+	const float Cooldown =
+		TuningRow->Cooldown.GetValueAtLevel(AbilityLevel);
+
+	const float DebuffChanceVal =
+		TuningRow->DebuffChance.GetValueAtLevel(AbilityLevel);
+
+	const float KnockbackChance =
+		TuningRow->KnockbackChance.GetValueAtLevel(AbilityLevel);
+	
+	const float StunChance =
+		TuningRow->StunChance.GetValueAtLevel(AbilityLevel);
+	
+	const float SlowChance =
+		TuningRow->SlowChance.GetValueAtLevel(AbilityLevel);
+
+	UE_LOG(
+		LogTemp,
+		Warning,
+		TEXT(
+			"%s | Level: %d | Damage: %.2f | Mana Cost: %.2f | "
+			"Cooldown: %.2f | Debuff Chance: %.2f | "
+			"Knockback Chance: %.2f | Stun Chance: %.2f | Slow Chance: %.2f"),
+		*GetNameSafe(this),
+		AbilityLevel,
+		DamageVal,
+		ManaCost,
+		Cooldown,
+		DebuffChanceVal,
+		KnockbackChance,
+		StunChance,
+		SlowChance
+		);
 }
 
 FTaggedMontage UAuraDamageGameplayAbility::GetRandomTaggedMontageFromArray(const TArray<FTaggedMontage>& TaggedMontages)

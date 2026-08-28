@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "AuraAbilityTypes.h"
 #include "AbilitySystem/Abilities/AuraGameplayAbility.h"
+#include "AbilitySystem/Data/AbilityTuningData.h"
 #include "Interaction/CombatInterface.h"
 #include "AuraDamageGameplayAbility.generated.h"
 
@@ -55,6 +56,14 @@ public:
 	
 protected:
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Ability Tuning")
+	FDataTableRowHandle AbilityTuningRow;
+
+	const FAbilityTuningRow* GetAbilityTuningRow() const;
+	
+	UFUNCTION(BlueprintCallable, Category = "Ability Tuning|Debug")
+	void LogAbilityTuningValues() const;
+	
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 	TSubclassOf<UGameplayEffect> DamageEffectClass;
 
