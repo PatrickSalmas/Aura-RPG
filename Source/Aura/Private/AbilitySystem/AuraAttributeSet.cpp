@@ -511,10 +511,22 @@ void UAuraAttributeSet::ApplyReactiveStatus(
     const float StatusDamage = UAuraAbilitySystemLibrary::GetDebuffDamage(Props.EffectContextHandle);
 
     const float StatusDuration = UAuraAbilitySystemLibrary::GetDebuffDuration(Props.EffectContextHandle);
+	
+	const float StatusFrequency = UAuraAbilitySystemLibrary::GetDebuffFrequency(Props.EffectContextHandle);
+	
+	// if (!FMath::IsFinite(StatusFrequency) || StatusFrequency <= 0.f)
+	// {
+	// 	UE_LOG(LogTemp, Error, TEXT("ApplyReactiveStatus: Invalid frequency %.2f for status %s."),
+	// 		StatusFrequency, *ReactiveStatusTag->ToString());
+	//
+	// 	return;
+	// }
 
     UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.Debuff_Damage, StatusDamage);
 
     UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.Debuff_Duration, StatusDuration);
+	
+	SpecHandle.Data->Period = StatusFrequency;
 
     Props.TargetASC-> ApplyGameplayEffectSpecToSelf(*SpecHandle.Data.Get());
 }
