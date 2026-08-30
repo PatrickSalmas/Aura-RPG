@@ -251,6 +251,8 @@ private:
 	void HandleReaction(const FEffectProperties& Props);
 	void Debuff(const FEffectProperties& Props);
 	void ApplyReactiveStatus(const FEffectProperties& Props);
+	bool ShouldApplyPeriodicStatus(UAbilitySystemComponent* TargetASC, const FGameplayTag& StatusTag, const FGameplayTag& DamageMagnitudeTag,
+					const FGameplayTag& FrequencyMagnitudeTag, float IncomingDamageVal, float IncomingFrequency, TArray<FActiveGameplayEffectHandle>& OutHandlesToReplace) const;
 	void Knockback(const FEffectProperties& Props);
 	void SetEffectProperties(const FGameplayEffectModCallbackData& Data, FEffectProperties& Props) const;
 	void ShowFloatingText(const FEffectProperties& Props, float Damage, bool bBlockedHit, bool bCriticalHit) const;

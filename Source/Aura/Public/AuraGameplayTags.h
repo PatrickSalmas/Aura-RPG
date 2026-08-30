@@ -86,6 +86,10 @@ public:
 	FGameplayTag ReactiveStatus_Duration;
 	FGameplayTag ReactiveStatus_Frequency;
 	
+	FGameplayTag ReactiveStatus_Burning;
+	FGameplayTag ReactiveStatus_Unstable;
+	FGameplayTag ReactiveStatus_Charged;
+	
 	FGameplayTag Reaction_FireOnCharged;
 	FGameplayTag Reaction_ArcaneOnCharged;
 	FGameplayTag Reaction_LightningOnCharged;

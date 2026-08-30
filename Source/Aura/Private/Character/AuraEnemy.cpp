@@ -137,11 +137,11 @@ void AAuraEnemy::InitAbilityActorInfo()
 												 EGameplayTagEventType::NewOrRemoved).AddUObject(
 													this, &AAuraEnemy::StunTaggedChanged);
 	
-	AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().Debuff_Charged,
+	AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().ReactiveStatus_Charged,
 											 EGameplayTagEventType::NewOrRemoved).AddUObject(
 												this, &AAuraEnemy::ChargeTagChanged);
 	
-	AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().Debuff_Burning,
+	AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().ReactiveStatus_Burning,
 										 EGameplayTagEventType::NewOrRemoved).AddUObject(
 											this, &AAuraEnemy::BurningTagChanged);
 	
@@ -149,7 +149,7 @@ void AAuraEnemy::InitAbilityActorInfo()
 									 EGameplayTagEventType::NewOrRemoved).AddUObject(
 										this, &AAuraEnemy::ArcaneFireTagChanged);
 	
-	AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().Debuff_Unstable,
+	AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().ReactiveStatus_Unstable,
 									 EGameplayTagEventType::NewOrRemoved).AddUObject(
 										this, &AAuraEnemy::UnstableTagChanged);
 

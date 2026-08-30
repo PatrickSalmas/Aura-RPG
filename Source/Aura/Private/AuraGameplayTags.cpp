@@ -92,6 +92,10 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.ReactiveStatus_Duration = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("ReactiveStatus.Duration"), FString("ReactiveStatus Duration"));
 	GameplayTags.ReactiveStatus_Frequency = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("ReactiveStatus.Frequency"), FString("ReactiveStatus Frequency"));
 	
+	GameplayTags.ReactiveStatus_Burning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("ReactiveStatus.Burning"), FString("ReactiveStatus Burning"));
+	GameplayTags.ReactiveStatus_Charged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("ReactiveStatus.Charged"), FString("ReactiveStatus Charged"));
+	GameplayTags.ReactiveStatus_Unstable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("ReactiveStatus.Unstable"), FString("ReactiveStatus Unstable"));
+	
 	GameplayTags.Reaction_FireOnCharged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.FireOnCharged"), FString("Fire on charged recation occurred"));
 	GameplayTags.Reaction_ArcaneOnCharged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.ArcaneOnCharged"), FString("Arcane on charged recation occurred"));
 	GameplayTags.Reaction_LightningOnCharged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.LightningOnCharged"), FString("Lightning on charged recation occurred"));
@@ -153,9 +157,9 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	// GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_Fire, GameplayTags.Debuff);
 	
 	
-	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Lightning,GameplayTags.Debuff_Charged);
-	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Fire,GameplayTags.Debuff_Burning);
-	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Arcane,GameplayTags.Debuff_Unstable);
+	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Lightning,GameplayTags.ReactiveStatus_Charged);
+	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Fire,GameplayTags.ReactiveStatus_Burning);
+	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Arcane,GameplayTags.ReactiveStatus_Burning);
 	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_ArcaneSlow50,GameplayTags.Debuff_Unstable);
 	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_ArcaneSlow75,GameplayTags.Debuff_Unstable);
 	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_ArcaneImmobilize,GameplayTags.Debuff_Unstable);

@@ -258,71 +258,17 @@ void UAuraAttributeSet::Debuff(const FEffectProperties& Props)
 		Knockback(Props);
 		return;
 	}
+	
+	const bool bHasPeriodicDamage =
+	DebuffDamage > KINDA_SMALL_NUMBER;
 
-	const bool bIsBurn = DebuffTag.MatchesTagExact(GameplayTags.Debuff_Burn);
+	TArray<FActiveGameplayEffectHandle> EffectsToReplace;
 
-	/*
-	 * Handle strongest-Burn-wins before constructing the incoming
-	 * dynamic Gameplay Effect.
-	 *
-	 * This ordering is important. Creating another Gameplay Effect
-	 * with the same outer/name before querying could reconstruct the
-	 * definition referenced by the existing active effect.
-	 */
-	if (bIsBurn)
+	if (!ShouldApplyPeriodicStatus(Props.TargetASC,DebuffTag,GameplayTags.Debuff_Damage,
+			GameplayTags.Debuff_Frequency,DebuffDamage,DebuffFrequency,
+								EffectsToReplace))
 	{
-		FGameplayTagContainer BurnTags;
-		BurnTags.AddTag(DebuffTag);
-
-		const FGameplayEffectQuery BurnQuery = FGameplayEffectQuery::MakeQuery_MatchAnyOwningTags(BurnTags);
-
-		const TArray<FActiveGameplayEffectHandle> ExistingBurnHandles = Props.TargetASC->GetActiveEffects(BurnQuery);
-
-		const float IncomingDPS = DebuffFrequency > KINDA_SMALL_NUMBER
-				? DebuffDamage / DebuffFrequency
-				: DebuffDamage;
-
-		float StrongestExistingDPS = 0.f;
-
-		for (const FActiveGameplayEffectHandle& Handle : ExistingBurnHandles)
-		{
-			const FActiveGameplayEffect* ActiveEffect = Props.TargetASC->GetActiveGameplayEffect(Handle);
-
-			if (!ActiveEffect)
-			{
-				continue;
-			}
-
-			const float ExistingDamage = ActiveEffect->Spec.GetSetByCallerMagnitude(GameplayTags.Debuff_Damage,false,0.f);
-
-			const float ExistingFrequency = ActiveEffect->Spec.GetSetByCallerMagnitude(GameplayTags.Debuff_Frequency,false,0.f);
-
-			const float ExistingDPS = ExistingFrequency > KINDA_SMALL_NUMBER
-					? ExistingDamage / ExistingFrequency
-					: ExistingDamage;
-
-			StrongestExistingDPS = FMath::Max(StrongestExistingDPS,ExistingDPS);
-		}
-
-		/*
-		 * Keep the currently active Burn if it is equal to or
-		 * stronger than the incoming Burn.
-		 *
-		 * Equal DPS does not refresh the duration.
-		 */
-		if (!ExistingBurnHandles.IsEmpty() && StrongestExistingDPS >= IncomingDPS)
-		{
-			return;
-		}
-
-		/*
-		 * The incoming Burn is stronger, so remove every currently
-		 * active Burn before applying it.
-		 */
-		for (const FActiveGameplayEffectHandle& Handle : ExistingBurnHandles)
-		{
-			Props.TargetASC->RemoveActiveGameplayEffect(Handle);
-		}
+		return;
 	}
 
 	/*
@@ -331,7 +277,7 @@ void UAuraAttributeSet::Debuff(const FEffectProperties& Props)
 	 */
 	UGameplayEffect* Effect = nullptr;
 
-	if (bIsBurn)
+	if (bHasPeriodicDamage)
 	{
 		/*
 		 * Omitting the name causes Unreal to generate a unique
@@ -358,9 +304,20 @@ void UAuraAttributeSet::Debuff(const FEffectProperties& Props)
 
 	Effect->DurationPolicy = EGameplayEffectDurationType::HasDuration;
 
-	Effect->Period = DebuffFrequency;
-
 	Effect->DurationMagnitude = FScalableFloat(DebuffDuration);
+	
+	if (bHasPeriodicDamage)
+	{
+		Effect->Period = DebuffFrequency;
+
+		FGameplayModifierInfo& ModifierInfo = Effect->Modifiers.AddDefaulted_GetRef();
+
+		ModifierInfo.ModifierMagnitude = FScalableFloat(DebuffDamage);
+
+		ModifierInfo.ModifierOp = EGameplayModOp::Additive;
+
+		ModifierInfo.Attribute = UAuraAttributeSet::GetIncomingDamageAttribute();
+	}
 
 	/*
 	 * Grant the debuff tag to the target while this Gameplay Effect
@@ -384,39 +341,10 @@ void UAuraAttributeSet::Debuff(const FEffectProperties& Props)
 
 	TargetTagsComponent.SetAndApplyTargetTagChanges(InheritedTags);
 
-	/*
-	 * Burn replacement is handled manually above.
-	 *
-	 * Other debuffs retain the original one-stack-per-source
-	 * behavior.
-	 */
-	if (bIsBurn)
-	{
-		// Effect->StackingType =
-		// 	EGameplayEffectStackingType::None;
-		
-		Effect->StackingType = EGameplayEffectStackingType::AggregateBySource;
+	Effect->StackingType = EGameplayEffectStackingType::AggregateBySource;
 
-		Effect->StackLimitCount = 1;
-	}
-	else
-	{
-		Effect->StackingType = EGameplayEffectStackingType::AggregateBySource;
-
-		Effect->StackLimitCount = 1;
-	}
-
-	/*
-	 * Add the periodic IncomingDamage modifier.
-	 */
-	FGameplayModifierInfo& ModifierInfo = Effect->Modifiers.AddDefaulted_GetRef();
-
-	ModifierInfo.ModifierMagnitude = FScalableFloat(DebuffDamage);
-
-	ModifierInfo.ModifierOp = EGameplayModOp::Additive;
-
-	ModifierInfo.Attribute = UAuraAttributeSet::GetIncomingDamageAttribute();
-
+	Effect->StackLimitCount = 1;
+	
 	/*
 	 * Build the spec on the stack. The ASC copies the spec when it
 	 * applies it, so heap allocation is unnecessary.
@@ -445,6 +373,11 @@ void UAuraAttributeSet::Debuff(const FEffectProperties& Props)
 
 		AuraContext->SetDamageType(DebuffDamageType);
 		AuraContext->SetShouldHitReact(false);
+	}
+
+	for (const FActiveGameplayEffectHandle& Handle : EffectsToReplace)
+	{
+		Props.TargetASC->RemoveActiveGameplayEffect(Handle);
 	}
 
 	const FActiveGameplayEffectHandle AppliedHandle = Props.TargetASC->ApplyGameplayEffectSpecToSelf(MutableSpec);
@@ -515,21 +448,124 @@ void UAuraAttributeSet::ApplyReactiveStatus(
 	
 	const float StatusFrequency = UAuraAbilitySystemLibrary::GetReactiveStatusFrequency(Props.EffectContextHandle);
 	
-	// if (!FMath::IsFinite(StatusFrequency) || StatusFrequency <= 0.f)
-	// {
-	// 	UE_LOG(LogTemp, Error, TEXT("ApplyReactiveStatus: Invalid frequency %.2f for status %s."),
-	// 		StatusFrequency, *ReactiveStatusTag->ToString());
-	//
-	// 	return;
-	// }
+	TArray<FActiveGameplayEffectHandle> EffectsToReplace;
+
+	if (!ShouldApplyPeriodicStatus(Props.TargetASC, *ReactiveStatusTag,GameplayTags.ReactiveStatus_Damage,
+			GameplayTags.ReactiveStatus_Frequency,StatusDamage,StatusFrequency,
+									EffectsToReplace))
+	{
+		return;
+	}
 
     UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.ReactiveStatus_Damage, StatusDamage);
 
     UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.ReactiveStatus_Duration, StatusDuration);
 	
+	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.ReactiveStatus_Frequency, StatusFrequency);
+	
+	SpecHandle.Data->SetDuration(StatusDuration, true);
 	SpecHandle.Data->Period = StatusFrequency;
 
-    Props.TargetASC-> ApplyGameplayEffectSpecToSelf(*SpecHandle.Data.Get());
+	for (const FActiveGameplayEffectHandle& Handle : EffectsToReplace)
+	{
+		Props.TargetASC->RemoveActiveGameplayEffect(Handle);
+	}
+
+	const FActiveGameplayEffectHandle AppliedHandle = Props.TargetASC->ApplyGameplayEffectSpecToSelf(*SpecHandle.Data.Get());
+
+	ensureMsgf(AppliedHandle.IsValid(), TEXT("Failed to apply reactive status %s"), *ReactiveStatusTag->ToString());
+}
+
+bool UAuraAttributeSet::ShouldApplyPeriodicStatus(UAbilitySystemComponent* TargetASC, const FGameplayTag& StatusTag,
+	const FGameplayTag& DamageMagnitudeTag, const FGameplayTag& FrequencyMagnitudeTag, float IncomingDamageVal,
+	float IncomingFrequency, TArray<FActiveGameplayEffectHandle>& OutHandlesToReplace) const
+{
+	 OutHandlesToReplace.Reset();
+
+    if (!TargetASC || !StatusTag.IsValid())
+    {
+        return false;
+    }
+
+    /*
+     * This policy only applies to effects that actually deal
+     * periodic damage. Non-DOT statuses use their normal stacking
+     * configuration.
+     */
+    if (IncomingDamageVal <= KINDA_SMALL_NUMBER)
+    {
+        return true;
+    }
+
+    if (!FMath::IsFinite(IncomingDamageVal) ||
+        !FMath::IsFinite(IncomingFrequency) ||
+        IncomingFrequency <= KINDA_SMALL_NUMBER)
+    {
+        UE_LOG(LogTemp, Error, TEXT("Invalid periodic status values for %s. Damage: %.2f, Frequency: %.2f"),
+            *StatusTag.ToString(), IncomingDamageVal, IncomingFrequency);
+
+        return false;
+    }
+
+    FGameplayTagContainer StatusTags;
+    StatusTags.AddTag(StatusTag);
+
+    const FGameplayEffectQuery StatusQuery = FGameplayEffectQuery::MakeQuery_MatchAnyOwningTags(StatusTags);
+
+    const TArray<FActiveGameplayEffectHandle> ExistingHandles = TargetASC->GetActiveEffects(StatusQuery);
+
+    if (ExistingHandles.IsEmpty())
+    {
+        return true;
+    }
+
+    const float IncomingDPS = IncomingDamageVal / IncomingFrequency;
+    float StrongestExistingDPS = 0.f;
+
+    for (const FActiveGameplayEffectHandle& Handle : ExistingHandles)
+    {
+        const FActiveGameplayEffect* ActiveEffect = TargetASC->GetActiveGameplayEffect(Handle);
+
+        if (!ActiveEffect)
+        {
+            continue;
+        }
+
+        const float ExistingDamage = ActiveEffect->Spec.GetSetByCallerMagnitude(DamageMagnitudeTag,false,0.f);
+        float ExistingFrequency = ActiveEffect->Spec.GetSetByCallerMagnitude(FrequencyMagnitudeTag,false,0.f);
+
+        /*
+         * This fallback supports older active effects that set the
+         * actual period but did not store frequency as Set-by-Caller.
+         */
+        if (ExistingFrequency <= KINDA_SMALL_NUMBER)
+        {
+            ExistingFrequency = ActiveEffect->Spec.GetPeriod();
+        }
+
+        const float ExistingDPS = ExistingDamage > KINDA_SMALL_NUMBER && ExistingFrequency > KINDA_SMALL_NUMBER
+    							? ExistingDamage / ExistingFrequency: 0.f;
+
+        StrongestExistingDPS =
+            FMath::Max(StrongestExistingDPS, ExistingDPS);
+    }
+
+    /*
+     * Equal and weaker incoming DOTs are rejected and do not refresh
+     * the existing effect's duration.
+     */
+    if (StrongestExistingDPS >= IncomingDPS - KINDA_SMALL_NUMBER)
+    {
+        return false;
+    }
+
+    /*
+     * The incoming DOT is stronger. The caller will remove these
+     * effects immediately before applying the replacement.
+     */
+    OutHandlesToReplace = ExistingHandles;
+
+    return true;
 }
 
 void UAuraAttributeSet::Knockback(const FEffectProperties& Props)
