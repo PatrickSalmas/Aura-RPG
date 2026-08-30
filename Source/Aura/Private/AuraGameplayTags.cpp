@@ -80,6 +80,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Debuff_Immobilize = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Immobilize"), FString("Debuff for Arcane Damage"));
 	GameplayTags.Debuff_Slow50 = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Slow50"), FString("Debuff for Arcane Damage"));
 	GameplayTags.Debuff_Slow75 = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Slow75"), FString("Debuff for Arcane Damage"));
+	GameplayTags.Debuff_Knockback = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Knockback"), FString("Debuff for Fire Damage"));
 	
 	GameplayTags.Debuff_Chance = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Chance"), FString("Debuff Chance"));
 	GameplayTags.Debuff_Damage = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Damage"), FString("Debuff Damage"));
@@ -87,6 +88,9 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Debuff_Frequency = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Frequency"), FString("Debuff Frequency"));
 	
 	GameplayTags.ReactiveStatus_Chance = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("ReactiveStatus.Chance"), FString("Chance for a Reactive Status to be applied"));
+	GameplayTags.ReactiveStatus_Damage = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("ReactiveStatus.Damage"), FString("ReactiveStatus Damage"));
+	GameplayTags.ReactiveStatus_Duration = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("ReactiveStatus.Duration"), FString("ReactiveStatus Duration"));
+	GameplayTags.ReactiveStatus_Frequency = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("ReactiveStatus.Frequency"), FString("ReactiveStatus Frequency"));
 	
 	GameplayTags.Reaction_FireOnCharged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.FireOnCharged"), FString("Fire on charged recation occurred"));
 	GameplayTags.Reaction_ArcaneOnCharged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.ArcaneOnCharged"), FString("Arcane on charged recation occurred"));
@@ -103,10 +107,10 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Mechanic_Charged_Unlocked = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Mechanic.Charged.Unlocked"), FString("Tag for charged mechanic being unlocked"));
 	
 	/*
-	 * Knockback
+	 * Knockback, Stun, Slow
 	 */
-	GameplayTags.KnockBack_Chance = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Knockback.Chance"), FString("Knockback Chance"));
 	GameplayTags.KnockBack_ImpulseMagnitude = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Knockback.ImpulseMagnitude"), FString("Knockback Impulse Magnitude"));
+	GameplayTags.Stun_Chance = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Stun.Chance"), FString("Stun Chance"));
 
 	/*
 	 * Resistances
@@ -137,7 +141,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	/*
 	* Map of Damage Types to Debuffs
 	*/
-	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_Fire, GameplayTags.Debuff_Burn);
+	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_Fire, GameplayTags.Debuff_Knockback);
 	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_Lightning, GameplayTags.Debuff_Stun);
 	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_ArcaneFire ,GameplayTags.Debuff_ArcaneFire);
 	// GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_Arcane, GameplayTags.Debuff_Arcane);
@@ -146,6 +150,8 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_ArcaneSlow50, GameplayTags.Debuff_Slow50);
 	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_ArcaneSlow75, GameplayTags.Debuff_Slow75);
 	GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_Physical, GameplayTags.Debuff_Physical);
+	// GameplayTags.DamageTypesToDebuffs.Add(GameplayTags.Damage_Fire, GameplayTags.Debuff);
+	
 	
 	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Lightning,GameplayTags.Debuff_Charged);
 	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Fire,GameplayTags.Debuff_Burning);

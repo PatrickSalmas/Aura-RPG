@@ -92,9 +92,11 @@ void UExecCalc_Damage::DetermineDebuff(const FGameplayEffectCustomExecutionParam
 				                                                           EvaluationParameters, TargetDebuffResistance);
 			}
 			TargetDebuffResistance = FMath::Max<float>(TargetDebuffResistance, 0.f);
-			const float EffectiveDebuffChance = SourceDebuffChance * ( 100 - TargetDebuffResistance ) / 100.f;
-			const bool bDebuff = FMath::RandRange(1, 100) < EffectiveDebuffChance;
-			if (bDebuff && DamageType != GameplayTags.Damage_Fire)
+			const float EffectiveDebuffChance = FMath::Clamp(SourceDebuffChance * (100.f - TargetDebuffResistance) / 100.f,
+										0.f,100.f);
+
+			const bool bDebuff =FMath::FRandRange(0.f, 100.f) < EffectiveDebuffChance;
+			if (bDebuff)
 			{
 				UAuraAbilitySystemLibrary::SetIsSuccessfulDebuff(EffectContextHandle, bDebuff);
 				UAuraAbilitySystemLibrary::SetDamageType(EffectContextHandle, DamageType);
@@ -151,52 +153,53 @@ void UExecCalc_Damage::DetermineReactiveStatus(const FGameplayEffectCustomExecut
 		return;
 	}
 
-	// Add this check once the Charged mechanic has an unlock tag.
-	/*
-	if (!SourceASC->HasMatchingGameplayTag(
-		GameplayTags.Mechanic_Charged_Unlocked))
-	{
-		return;
-	}
-	*/
-
 	const float ApplyReactiveStatusChance = Spec.GetSetByCallerMagnitude(GameplayTags.ReactiveStatus_Chance,false,0.f);
 	
 	const bool bApplyReactiveStatus = FMath::FRandRange(0.f, 100.f) < FMath::Clamp(ApplyReactiveStatusChance, 0.f, 100.f);
 	if (bApplyReactiveStatus)
 	{
-		UAuraAbilitySystemLibrary::SetIsSuccessfulReactiveStatus(EffectContextHandle, true);
-		if (LightningDamage > 0)
-		{
-			UAuraAbilitySystemLibrary::SetSuccessfulReactiveStatus(
-				EffectContextHandle,
-				GameplayTags.DamageTypesToReactiveStatuses[GameplayTags.Damage_Lightning]);
-		}
-		else if (FireDamage > 0)
-		{
-			UAuraAbilitySystemLibrary::SetSuccessfulReactiveStatus(
-				EffectContextHandle,
-				GameplayTags.DamageTypesToReactiveStatuses[GameplayTags.Damage_Fire]);
-			
-			// UAuraAbilitySystemLibrary::SetIsSuccessfulDebuff(EffectContextHandle, true);
-			UAuraAbilitySystemLibrary::SetDamageType(EffectContextHandle, GameplayTags.Damage_Fire);
-			
-			const float DebuffDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Debuff_Damage, false, -1.f);
-			const float DebuffDuration = Spec.GetSetByCallerMagnitude(GameplayTags.Debuff_Duration, false, -1.f);
-			const float DebuffFrequency = Spec.GetSetByCallerMagnitude(GameplayTags.Debuff_Frequency, false, -1.f);
+		const float ReactiveStatusDamage = Spec.GetSetByCallerMagnitude(GameplayTags.ReactiveStatus_Damage, false, -1.f);
+		const float ReactiveStatusDuration = Spec.GetSetByCallerMagnitude(GameplayTags.ReactiveStatus_Duration, false, -1.f);
+		const float ReactiveStatusFrequency = Spec.GetSetByCallerMagnitude(GameplayTags.ReactiveStatus_Frequency, false, -1.f);
 					
-			UAuraAbilitySystemLibrary::SetDebuffDamage(EffectContextHandle, DebuffDamage);
-			UAuraAbilitySystemLibrary::SetDebuffDuration(EffectContextHandle, DebuffDuration);
-			UAuraAbilitySystemLibrary::SetDebuffFrequency(EffectContextHandle, DebuffFrequency);
-			// UAuraAbilitySystemLibrary::SetCanTriggerReaction(EffectContextHandle, true);
-			// UAuraAbilitySystemLibrary::SetCanTriggerReaction(EffectContextHandle, false);
-		}
-		else if (ArcaneDamage > 0)
+		UAuraAbilitySystemLibrary::SetReactiveStatusDamage(EffectContextHandle, ReactiveStatusDamage);
+		UAuraAbilitySystemLibrary::SetReactiveStatusDuration(EffectContextHandle, ReactiveStatusDuration);
+		UAuraAbilitySystemLibrary::SetReactiveStatusFrequency(EffectContextHandle, ReactiveStatusFrequency);
+		
+		UAuraAbilitySystemLibrary::SetIsSuccessfulReactiveStatus(EffectContextHandle, true);
+		FGameplayTag ReactiveDamageType;
+
+		if (LightningDamage > 0.f)
 		{
-			UAuraAbilitySystemLibrary::SetSuccessfulReactiveStatus(
-				EffectContextHandle,
-				   GameplayTags.DamageTypesToReactiveStatuses[GameplayTags.Damage_Arcane]);
+			ReactiveDamageType = GameplayTags.Damage_Lightning;
 		}
+		else if (FireDamage > 0.f)
+		{
+			ReactiveDamageType = GameplayTags.Damage_Fire;
+		}
+		else if (ArcaneDamage > 0.f)
+		{
+			ReactiveDamageType = GameplayTags.Damage_Arcane;
+		}
+
+		if (!ReactiveDamageType.IsValid())
+		{
+			return;
+		}
+		
+		const FGameplayTag* ReactiveStatus = GameplayTags.DamageTypesToReactiveStatuses.Find(ReactiveDamageType);
+
+		if (!ReactiveStatus)
+		{
+			UE_LOG(LogTemp, Error, TEXT("DetermineReactiveStatus: No reactive status mapped to damage type %s."),
+								*ReactiveDamageType.ToString());
+
+			return;
+		}
+		
+		UAuraAbilitySystemLibrary::SetDamageType(EffectContextHandle, ReactiveDamageType);
+		UAuraAbilitySystemLibrary::SetSuccessfulReactiveStatus(EffectContextHandle, *ReactiveStatus);
+		UAuraAbilitySystemLibrary::SetIsSuccessfulReactiveStatus(EffectContextHandle,true);
 	}
 }
 
@@ -337,15 +340,14 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 	UAuraAbilitySystemLibrary::SetReactiveStatusToConsume(ContextHandle, ReactionToConsume);
 }
 
-void UExecCalc_Damage::DetermineKnockback(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
-                                          const FGameplayEffectSpec& Spec, FAggregatorEvaluateParameters EvaluationParameters) const
-{
-	FGameplayEffectContextHandle EffectContextHandle = Spec.GetContext();
-	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
-	const float SourceKnockBackChance = Spec.GetSetByCallerMagnitude(GameplayTags.KnockBack_Chance, false, -1.f);
-	const bool bKnockback = FMath::RandRange(1, 100) < SourceKnockBackChance;
-	UAuraAbilitySystemLibrary::SetIsSuccessfulKnockback(EffectContextHandle, bKnockback);
-}
+// void UExecCalc_Damage::DetermineStun(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
+// 	const FGameplayEffectSpec& Spec, FAggregatorEvaluateParameters EvaluationParameters) const
+// {
+// 	FGameplayEffectContextHandle EffectContextHandle = Spec.GetContext();
+// 	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
+// 	const float SourceStunChance = Spec.GetSetByCallerMagnitude(GameplayTags.Stun_Chance, false, -1.f);
+// 	const bool bStun = FMath::RandRange(1, 100) < SourceStunChance;
+// }
 
 void UExecCalc_Damage::Execute_Implementation(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
                                               FGameplayEffectCustomExecutionOutput& OutExecutionOutput) const
@@ -399,9 +401,6 @@ void UExecCalc_Damage::Execute_Implementation(const FGameplayEffectCustomExecuti
 	
 	// Debuff
 	DetermineDebuff(ExecutionParams, Spec, EvaluationParameters, TagsToCaptureDefs);
-	
-	// Determine if there should be Knockback
-	DetermineKnockback(ExecutionParams, Spec, EvaluationParameters);
 	
 	// Get Damage Set by Caller Magnitude
 	float Damage = 0.f;

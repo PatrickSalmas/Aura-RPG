@@ -32,18 +32,20 @@ bool FAuraGameplayEffectContext::NetSerialize(FArchive& Ar, UPackageMap* Map, bo
         Rep_IsSuccessfulReactiveStatus,
         Rep_ReactiveStatus,
         Rep_ReactiveStatusChance,
+        Rep_ReactiveStatusDamage,
+        Rep_ReactiveStatusDuration,
+        Rep_ReactiveStatusFrequency,
         Rep_TriggeredReaction,
         Rep_ReactiveStatusToConsume,
         Rep_CanApplyReactionStatus,
         Rep_CanTriggerReaction,
-        Rep_IsSuccessfulKnockback,
         Rep_ShouldHitReact,
 
         Rep_NumBits
     };
 
     static_assert(
-        Rep_NumBits <= 32,
+        Rep_NumBits <= 64,
         "FAuraGameplayEffectContext has exceeded the capacity of uint32 RepBits.");
 
     uint32 RepBits = 0;
@@ -52,7 +54,7 @@ bool FAuraGameplayEffectContext::NetSerialize(FArchive& Ar, UPackageMap* Map, bo
     {
         if (bValue)
         {
-            RepBits |= 1u << Bit;
+            RepBits |= uint64{1} << static_cast<uint8>(Bit);
         }
     };
 
@@ -84,11 +86,13 @@ bool FAuraGameplayEffectContext::NetSerialize(FArchive& Ar, UPackageMap* Map, bo
         SetRepBit(Rep_IsSuccessfulReactiveStatus, bIsSuccessfulReactiveStatus);
         SetRepBit(Rep_ReactiveStatus, ReactiveStatus.IsValid());
         SetRepBit(Rep_ReactiveStatusChance, ReactiveStatusChance != 0.f);
+        SetRepBit(Rep_ReactiveStatusDamage,ReactiveStatusDamage != 0.f);
+        SetRepBit(Rep_ReactiveStatusDuration,ReactiveStatusDuration != 0.f);
+        SetRepBit(Rep_ReactiveStatusFrequency,ReactiveStatusFrequency != 0.f);
         SetRepBit(Rep_TriggeredReaction, TriggeredReaction.IsValid());
         SetRepBit(Rep_ReactiveStatusToConsume, ReactiveStatusToConsume.IsValid());
         SetRepBit(Rep_CanApplyReactionStatus, bCanApplyReactionStatus);
         SetRepBit(Rep_CanTriggerReaction, bCanTriggerReaction);
-        SetRepBit(Rep_IsSuccessfulKnockback, bIsSuccessfulKnockback);
         SetRepBit(Rep_ShouldHitReact, bShouldHitReact);
     }
 
@@ -96,7 +100,7 @@ bool FAuraGameplayEffectContext::NetSerialize(FArchive& Ar, UPackageMap* Map, bo
 
     const auto HasRepBit = [RepBits](const ERepBit Bit)
     {
-        return (RepBits & (1u << Bit)) != 0;
+        return (RepBits & (uint64{1} << static_cast<uint8>(Bit))) != 0;
     };
 
     /*
@@ -188,7 +192,6 @@ bool FAuraGameplayEffectContext::NetSerialize(FArchive& Ar, UPackageMap* Map, bo
         bIsSuccessfulReactiveStatus = HasRepBit(Rep_IsSuccessfulReactiveStatus);
         bCanApplyReactionStatus = HasRepBit(Rep_CanApplyReactionStatus);
         bCanTriggerReaction = HasRepBit(Rep_CanTriggerReaction);
-        bIsSuccessfulKnockback = HasRepBit(Rep_IsSuccessfulKnockback);
         bShouldHitReact = HasRepBit(Rep_ShouldHitReact);
     }
 
@@ -320,6 +323,33 @@ bool FAuraGameplayEffectContext::NetSerialize(FArchive& Ar, UPackageMap* Map, bo
     else if (Ar.IsLoading())
     {
         ReactiveStatusChance = 0.f;
+    }
+    
+    if (HasRepBit(Rep_ReactiveStatusDamage))
+    {
+        Ar << ReactiveStatusDamage;
+    }
+    else if (Ar.IsLoading())
+    {
+        ReactiveStatusDamage = 0.f;
+    }
+
+    if (HasRepBit(Rep_ReactiveStatusDuration))
+    {
+        Ar << ReactiveStatusDuration;
+    }
+    else if (Ar.IsLoading())
+    {
+        ReactiveStatusDuration = 0.f;
+    }
+
+    if (HasRepBit(Rep_ReactiveStatusFrequency))
+    {
+        Ar << ReactiveStatusFrequency;
+    }
+    else if (Ar.IsLoading())
+    {
+        ReactiveStatusFrequency = 0.f;
     }
 
     if (HasRepBit(Rep_TriggeredReaction))

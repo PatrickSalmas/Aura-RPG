@@ -31,7 +31,8 @@ public:
 		bool bOverrideDeathImpulse = false,
 		FVector DeathImpulseDirectionOverride = FVector::ZeroVector,
 		bool bOverridePitch = false,
-		float PitchOverride = 0.f) const;
+		float PitchOverride = 0.f,
+		float DebuffDurationOverride = 0.f) const;
 
 	UFUNCTION(BlueprintPure)
 	float GetDamageAtLevel() const;
@@ -114,7 +115,12 @@ protected:
 	float GetDebuffDurationAtLevel() const;
 	float GetDebuffFrequencyAtLevel() const;
 	float GetReactiveStatusChanceAtLevel() const;
+	float GetReactiveStatusDamageAtLevel() const;
+	float GetReactiveStatusDurationAtLevel() const;
+	float GetReactiveStatusFrequencyAtLevel() const;
 	float GetKnockBackChanceAtLevel() const;
+	float GetStunChanceAtLevel() const;
+	// float GetSlowChanceAtLevel() const;
 	
 private:
 	static bool IsValidTeleportGround(const FHitResult& Hit);

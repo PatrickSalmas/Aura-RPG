@@ -33,6 +33,15 @@ struct FAbilityTuningRow : public FTableRowBase
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Reactive Status")
 	FScalableFloat ReactiveStatusChance;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Reactive Status")
+	FScalableFloat ReactiveStatusDamage;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Reactive Status")
+	FScalableFloat ReactiveStatusDuration;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Reactive Status")
+	FScalableFloat ReactiveStatusFrequency;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Procs")
 	FScalableFloat KnockbackChance;

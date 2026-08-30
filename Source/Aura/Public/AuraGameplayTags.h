@@ -71,6 +71,7 @@ public:
 	FGameplayTag Debuff_Immobilize;
 	FGameplayTag Debuff_Slow50;
 	FGameplayTag Debuff_Slow75;
+	FGameplayTag Debuff_Knockback;
 	FGameplayTag Debuff_Arcane;
 	FGameplayTag Debuff_ArcaneFire;
 	FGameplayTag Debuff_Physical;
@@ -81,6 +82,9 @@ public:
 	FGameplayTag Debuff_Frequency;
 	
 	FGameplayTag ReactiveStatus_Chance;
+	FGameplayTag ReactiveStatus_Damage;
+	FGameplayTag ReactiveStatus_Duration;
+	FGameplayTag ReactiveStatus_Frequency;
 	
 	FGameplayTag Reaction_FireOnCharged;
 	FGameplayTag Reaction_ArcaneOnCharged;
@@ -96,8 +100,8 @@ public:
 	
 	FGameplayTag Mechanic_Charged_Unlocked;
 
-	FGameplayTag KnockBack_Chance;
 	FGameplayTag KnockBack_ImpulseMagnitude;
+	FGameplayTag Stun_Chance;
 
 	FGameplayTag Abilities_None;
 

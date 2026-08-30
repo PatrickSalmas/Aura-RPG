@@ -26,8 +26,5 @@ public:
 	void DetermineReaction(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
 						const FGameplayEffectSpec& Spec) const;
 
-	void DetermineKnockback(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
-	                        const FGameplayEffectSpec& Spec, FAggregatorEvaluateParameters EvaluationParameters) const;
-
 	virtual void Execute_Implementation(const FGameplayEffectCustomExecutionParameters& ExecutionParams, FGameplayEffectCustomExecutionOutput& OutExecutionOutput) const override;
 };

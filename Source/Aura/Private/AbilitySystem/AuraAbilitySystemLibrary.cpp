@@ -175,6 +175,33 @@ bool UAuraAbilitySystemLibrary::GetCanApplyReactionStatus(const FGameplayEffectC
 	return false;
 }
 
+float UAuraAbilitySystemLibrary::GetReactiveStatusDamage(const FGameplayEffectContextHandle& EffectContextHandle)
+{
+	if (const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		return AuraEffectContext->GetReactiveStatusDamage();
+	}
+	return 0.f;
+}
+
+float UAuraAbilitySystemLibrary::GetReactiveStatusDuration(const FGameplayEffectContextHandle& EffectContextHandle)
+{
+	if (const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		return AuraEffectContext->GetReactiveStatusDuration();
+	}
+	return 0.f;
+}
+
+float UAuraAbilitySystemLibrary::GetReactiveStatusFrequency(const FGameplayEffectContextHandle& EffectContextHandle)
+{
+	if (const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		return AuraEffectContext->GetReactiveStatusFrequency();
+	}
+	return 0.f;
+}
+
 bool UAuraAbilitySystemLibrary::GetCanTriggerReaction(const FGameplayEffectContextHandle& EffectContextHandle)
 {
 	if (const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
@@ -207,15 +234,6 @@ bool UAuraAbilitySystemLibrary::IsSuccessfulReactiveStatus(const FGameplayEffect
 	if (const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
 	{
 		return AuraEffectContext->IsSuccessfulReactiveStatus();
-	}
-	return false;
-}
-
-bool UAuraAbilitySystemLibrary::IsSuccessfulKnockback(const FGameplayEffectContextHandle& EffectContextHandle)
-{
-	if (const FAuraGameplayEffectContext* AuraEffectContext = static_cast<const FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
-	{
-		return AuraEffectContext->IsSuccessfulKnockback();
 	}
 	return false;
 }
@@ -426,8 +444,35 @@ void UAuraAbilitySystemLibrary::SetDebuffFrequency(FGameplayEffectContextHandle&
 	}
 }
 
+void UAuraAbilitySystemLibrary::SetReactiveStatusDamage(FGameplayEffectContextHandle& EffectContextHandle,
+	float InReactiveStatusDamage)
+{
+	if (FAuraGameplayEffectContext* AuraEffectContext = static_cast<FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		AuraEffectContext->SetReactiveStatusDamage(InReactiveStatusDamage);
+	}
+}
+
+void UAuraAbilitySystemLibrary::SetReactiveStatusDuration(FGameplayEffectContextHandle& EffectContextHandle,
+	float InReactiveStatusDuration)
+{
+	if (FAuraGameplayEffectContext* AuraEffectContext = static_cast<FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		AuraEffectContext->SetReactiveStatusDuration(InReactiveStatusDuration);
+	}
+}
+
+void UAuraAbilitySystemLibrary::SetReactiveStatusFrequency(FGameplayEffectContextHandle& EffectContextHandle,
+	float InReactiveStatusFrequency)
+{
+	if (FAuraGameplayEffectContext* AuraEffectContext = static_cast<FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
+	{
+		AuraEffectContext->SetReactiveStatusFrequency(InReactiveStatusFrequency);
+	}
+}
+
 void UAuraAbilitySystemLibrary::SetDamageType(FGameplayEffectContextHandle& EffectContextHandle,
-	const FGameplayTag& InDamageType)
+                                              const FGameplayTag& InDamageType)
 {
 	if (FAuraGameplayEffectContext* AuraEffectContext = static_cast<FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
 	{
@@ -454,17 +499,8 @@ void UAuraAbilitySystemLibrary::SetKnockbackImpulse(FGameplayEffectContextHandle
 	}
 }
 
-void UAuraAbilitySystemLibrary::SetIsSuccessfulKnockback(FGameplayEffectContextHandle& EffectContextHandle,
-                                                         bool bInIsSuccessfulKnockBack)
-{
-	if (FAuraGameplayEffectContext* AuraEffectContext = static_cast<FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
-	{
-		AuraEffectContext->SetIsSuccessfulKnockback(bInIsSuccessfulKnockBack);
-	}
-}
-
 void UAuraAbilitySystemLibrary::SetIsRadialDamage(FGameplayEffectContextHandle& EffectContextHandle,
-	bool bInIsRadialDamage)
+                                                  bool bInIsRadialDamage)
 {
 	if (FAuraGameplayEffectContext* AuraEffectContext = static_cast<FAuraGameplayEffectContext*>(EffectContextHandle.Get()))
 	{
@@ -713,8 +749,10 @@ FGameplayEffectContextHandle UAuraAbilitySystemLibrary::ApplyDamageEffect(const 
 	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.Debuff_Frequency, DamageEffectParams.DebuffFrequency);
 	
 	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.ReactiveStatus_Chance, DamageEffectParams.ReactiveStatusChance);
+	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.ReactiveStatus_Damage, DamageEffectParams.ReactiveStatusDamage);
+	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.ReactiveStatus_Duration, DamageEffectParams.ReactiveStatusDuration);
+	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.ReactiveStatus_Frequency, DamageEffectParams.ReactiveStatusFrequency);
 
-	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.KnockBack_Chance, DamageEffectParams.KnockBackChance);
 	UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.KnockBack_ImpulseMagnitude, DamageEffectParams.KnockBackImpulseMagnitude);
 	
 	DamageEffectParams.TargetAbilitySystemComponent->ApplyGameplayEffectSpecToSelf(*SpecHandle.Data);

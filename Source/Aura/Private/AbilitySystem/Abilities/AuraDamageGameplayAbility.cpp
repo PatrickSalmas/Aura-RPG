@@ -25,7 +25,7 @@ void UAuraDamageGameplayAbility::CauseDamage(AActor* TargetActor)
 
 FDamageEffectParams UAuraDamageGameplayAbility::MakeDamageEffectParamsFromClassDefaults(AActor* TargetActor,
 	FVector InRadialDamageOrigin, bool bOverrideKnockbackDirection, FVector KnockBackDirectionOverride,
-	bool bOverrideDeathImpulse, FVector DeathImpulseDirectionOverride, bool bOverridePitch, float PitchOverride) const
+	bool bOverrideDeathImpulse, FVector DeathImpulseDirectionOverride, bool bOverridePitch, float PitchOverride, float DebuffDurationOverride) const
 {
 	FDamageEffectParams DamageEffectParams;
 	DamageEffectParams.WorldContextObject = GetAvatarActorFromActorInfo();
@@ -37,14 +37,18 @@ FDamageEffectParams UAuraDamageGameplayAbility::MakeDamageEffectParamsFromClassD
 	DamageEffectParams.DamageType = DamageType;
 	DamageEffectParams.DebuffChance = GetDebuffChanceAtLevel();
 	DamageEffectParams.DebuffDamage = GetDebuffDamageAtLevel();;
-	DamageEffectParams.DebuffDuration = GetDebuffDurationAtLevel();
+	DamageEffectParams.DebuffDuration = DebuffDurationOverride <= 0.f ? GetDebuffDurationAtLevel() : DebuffDurationOverride;
 	DamageEffectParams.DebuffFrequency = GetDebuffFrequencyAtLevel();
-	DamageEffectParams.ReactiveStatusChance = GetDebuffChanceAtLevel();
+	DamageEffectParams.ReactiveStatusChance = GetReactiveStatusChanceAtLevel();
+	DamageEffectParams.ReactiveStatusDamage = GetReactiveStatusDamageAtLevel();
+	DamageEffectParams.ReactiveStatusDuration = GetReactiveStatusDurationAtLevel();
+	DamageEffectParams.ReactiveStatusFrequency = GetReactiveStatusFrequencyAtLevel();
 	DamageEffectParams.bCanApplyReactionStatus = bCanApplyReactionStatus;
 	DamageEffectParams.bCanTriggerReaction = bCanTriggerReaction;
 	DamageEffectParams.DeathImpulseMagnitude = DeathImpulseMagnitude;
 	DamageEffectParams.KnockBackChance = GetKnockBackChanceAtLevel();
 	DamageEffectParams.KnockBackImpulseMagnitude = KnockBackImpulseMagnitude;
+	DamageEffectParams.StunChance = GetStunChanceAtLevel();
 
 	if (IsValid(TargetActor))
 	{
@@ -454,6 +458,45 @@ float UAuraDamageGameplayAbility::GetReactiveStatusChanceAtLevel() const
 	return ReactiveStatusChance;
 }
 
+float UAuraDamageGameplayAbility::GetReactiveStatusDamageAtLevel() const
+{
+	if (!AbilityTuningRow.IsNull())
+	{
+		if (const FAbilityTuningRow* TuningRow = GetAbilityTuningRow())
+		{
+			return TuningRow->ReactiveStatusDamage.GetValueAtLevel(GetAbilityLevel());
+		}
+	}
+	
+	return 0;
+}
+
+float UAuraDamageGameplayAbility::GetReactiveStatusDurationAtLevel() const
+{
+	if (!AbilityTuningRow.IsNull())
+	{
+		if (const FAbilityTuningRow* TuningRow = GetAbilityTuningRow())
+		{
+			return TuningRow->ReactiveStatusDuration.GetValueAtLevel(GetAbilityLevel());
+		}
+	}
+	
+	return 0;
+}
+
+float UAuraDamageGameplayAbility::GetReactiveStatusFrequencyAtLevel() const
+{
+	if (!AbilityTuningRow.IsNull())
+	{
+		if (const FAbilityTuningRow* TuningRow = GetAbilityTuningRow())
+		{
+			return TuningRow->ReactiveStatusFrequency.GetValueAtLevel(GetAbilityLevel());
+		}
+	}
+	
+	return 0;
+}
+
 float UAuraDamageGameplayAbility::GetKnockBackChanceAtLevel() const
 {
 	if (!AbilityTuningRow.IsNull())
@@ -467,4 +510,20 @@ float UAuraDamageGameplayAbility::GetKnockBackChanceAtLevel() const
 	}
 
 	return KnockBackChance;
+}
+
+float UAuraDamageGameplayAbility::GetStunChanceAtLevel() const
+{
+	if (!AbilityTuningRow.IsNull())
+	{
+		if (const FAbilityTuningRow* TuningRow =
+			GetAbilityTuningRow())
+		{
+			return TuningRow->StunChance.GetValueAtLevel(
+				GetAbilityLevel());
+		}
+	}
+
+	return 0;
+	// return StunChance;
 }

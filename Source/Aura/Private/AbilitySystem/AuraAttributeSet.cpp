@@ -217,11 +217,6 @@ void UAuraAttributeSet::HandleIncomingDamage(const FEffectProperties& Props)
 		{
 			ApplyReactiveStatus(Props);
 		}
-
-		if (UAuraAbilitySystemLibrary::IsSuccessfulKnockback(Props.EffectContextHandle))
-		{
-			Knockback(Props);
-		}
 	}
 }
 
@@ -257,6 +252,12 @@ void UAuraAttributeSet::Debuff(const FEffectProperties& Props)
 	}
 
 	const FGameplayTag DebuffTag = *DebuffTagPtr;
+	
+	if (DebuffTag.MatchesTagExact(GameplayTags.Debuff_Knockback))
+	{
+		Knockback(Props);
+		return;
+	}
 
 	const bool bIsBurn = DebuffTag.MatchesTagExact(GameplayTags.Debuff_Burn);
 
@@ -508,11 +509,11 @@ void UAuraAttributeSet::ApplyReactiveStatus(
         return;
     }
 
-    const float StatusDamage = UAuraAbilitySystemLibrary::GetDebuffDamage(Props.EffectContextHandle);
+    const float StatusDamage = UAuraAbilitySystemLibrary::GetReactiveStatusDamage(Props.EffectContextHandle);
 
-    const float StatusDuration = UAuraAbilitySystemLibrary::GetDebuffDuration(Props.EffectContextHandle);
+    const float StatusDuration = UAuraAbilitySystemLibrary::GetReactiveStatusDuration(Props.EffectContextHandle);
 	
-	const float StatusFrequency = UAuraAbilitySystemLibrary::GetDebuffFrequency(Props.EffectContextHandle);
+	const float StatusFrequency = UAuraAbilitySystemLibrary::GetReactiveStatusFrequency(Props.EffectContextHandle);
 	
 	// if (!FMath::IsFinite(StatusFrequency) || StatusFrequency <= 0.f)
 	// {
@@ -522,9 +523,9 @@ void UAuraAttributeSet::ApplyReactiveStatus(
 	// 	return;
 	// }
 
-    UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.Debuff_Damage, StatusDamage);
+    UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.ReactiveStatus_Damage, StatusDamage);
 
-    UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.Debuff_Duration, StatusDuration);
+    UAbilitySystemBlueprintLibrary::AssignTagSetByCallerMagnitude(SpecHandle, GameplayTags.ReactiveStatus_Duration, StatusDuration);
 	
 	SpecHandle.Data->Period = StatusFrequency;
 

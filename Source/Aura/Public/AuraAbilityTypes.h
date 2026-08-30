@@ -54,6 +54,15 @@ struct FDamageEffectParams
 	
 	UPROPERTY(BlueprintReadWrite)
 	float ReactiveStatusChance = 0.f;
+	
+	UPROPERTY(BlueprintReadWrite)
+	float ReactiveStatusDamage = 0.f;
+	
+	UPROPERTY(BlueprintReadWrite)
+	float ReactiveStatusDuration = 0.f;
+	
+	UPROPERTY(BlueprintReadWrite)
+	float ReactiveStatusFrequency = 0.f;
 
 	/* Knockback Properties */
 	UPROPERTY(BlueprintReadWrite)
@@ -64,6 +73,9 @@ struct FDamageEffectParams
 
 	UPROPERTY(BlueprintReadWrite)
 	FVector KnockBackImpulse = FVector::ZeroVector;
+	
+	UPROPERTY(BlueprintReadWrite)
+	float StunChance = 0.f;
 
 	UPROPERTY(BlueprintReadWrite)
 	bool bIsRadialDamage = false;
@@ -101,10 +113,12 @@ public:
 	bool GetCanTriggerReaction() const { return bCanTriggerReaction; }
 	bool IsSuccessfulDebuff() const { return bIsSuccessfulDebuff; }
 	bool IsSuccessfulReactiveStatus() const { return bIsSuccessfulReactiveStatus; }
-	bool IsSuccessfulKnockback() const { return bIsSuccessfulKnockback; }
 	float GetDebuffDamage() const { return DebuffDamage; }
 	float GetDebuffDuration() const { return DebuffDuration; }
 	float GetDebuffFrequency() const { return DebuffFrequency; }
+	float GetReactiveStatusDamage() const { return ReactiveStatusDamage; }
+	float GetReactiveStatusDuration() const { return ReactiveStatusDuration; }
+	float GetReactiveStatusFrequency() const { return ReactiveStatusFrequency; }
 	FGameplayTag GetTriggeredReaction() const { return TriggeredReaction; }
 	FGameplayTag GetReactiveStatusToConsume() const { return ReactiveStatusToConsume; }
 	TSharedPtr<FGameplayTag> GetDamageType() const { return DamageType; }
@@ -124,13 +138,15 @@ public:
 	void SetReactiveStatusToConsume(FGameplayTag InReactiveStatusToConsume) { ReactiveStatusToConsume = InReactiveStatusToConsume; }
 	
 	void SetSuccessfulReactiveStatus(FGameplayTag InReactiveStatus ) { ReactiveStatus = InReactiveStatus; }
-	void SetIsSuccessfulKnockback(bool bInIsSuccessfulKnockback ) { bIsSuccessfulKnockback = bInIsSuccessfulKnockback; }
 	void SetDebuffDamage(float InDamage) { DebuffDamage = InDamage; }
 	void SetDebuffDuration(float InDuration) { DebuffDuration = InDuration; }
 	void SetDebuffFrequency(float InFreq) { DebuffFrequency = InFreq; }
 	void SetDamageType(TSharedPtr<FGameplayTag> InDamageType) { DamageType = InDamageType; }
 	void SetShouldHitReact(bool InShouldHitReact) { bShouldHitReact = InShouldHitReact; }
 	void SetReactiveStatusChance(float InReactiveStatusChance) { ReactiveStatusChance = InReactiveStatusChance; }
+	void SetReactiveStatusDamage(float InDamage) { ReactiveStatusDamage = InDamage; }
+	void SetReactiveStatusDuration(float InDuration) { ReactiveStatusDuration = InDuration; }
+	void SetReactiveStatusFrequency(float InFreq) { ReactiveStatusFrequency = InFreq; }
 	void SetCanApplyReactionStatus(bool InCanApplyReactionStatus) { bCanApplyReactionStatus = InCanApplyReactionStatus; }
 	void SetCanTriggerReaction(bool InCanTriggerReaction) { bCanTriggerReaction = InCanTriggerReaction; }
 	void SetDeathImpulse(const FVector& InDeathImpulse) { DeathImpulse = InDeathImpulse; }
@@ -187,6 +203,15 @@ protected:
 	float ReactiveStatusChance = 0.f;
 	
 	UPROPERTY()
+	float ReactiveStatusDamage = 0.f;
+
+	UPROPERTY()
+	float ReactiveStatusDuration = 0.f;
+
+	UPROPERTY()
+	float ReactiveStatusFrequency = 0.f;
+	
+	UPROPERTY()
 	FGameplayTag TriggeredReaction;
 
 	UPROPERTY()
@@ -197,9 +222,6 @@ protected:
 	
 	UPROPERTY()
 	bool bCanTriggerReaction = true;
-
-	UPROPERTY()
-	bool bIsSuccessfulKnockback = false;
 
 	UPROPERTY()
 	float DebuffDamage = 0.f;
