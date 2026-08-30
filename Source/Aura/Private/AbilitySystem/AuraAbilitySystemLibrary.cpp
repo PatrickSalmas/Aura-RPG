@@ -891,8 +891,14 @@ void UAuraAbilitySystemLibrary::SetKnockbackDirection(FDamageEffectParams& Damag
 	}
 }
 
+void UAuraAbilitySystemLibrary::SetDamageEffectParamsKnockbackImpulse(FDamageEffectParams& DamageEffectParams,
+	FVector KnockbackImpulse)
+{
+	DamageEffectParams.KnockBackImpulse = KnockbackImpulse;
+}
+
 void UAuraAbilitySystemLibrary::SetDeathImpulseDirection(FDamageEffectParams& DamageEffectParams,
-	FVector ImpulseDirection, float Magnitude)
+                                                         FVector ImpulseDirection, float Magnitude)
 {
 	ImpulseDirection.Normalize();
 	if (Magnitude == 0.f)
