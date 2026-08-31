@@ -153,6 +153,7 @@ public:
 	FGameplayTag Cooldown_Fire_LavaCannonShot;
 	FGameplayTag Cooldown_Lightning_Electrocute;
 	FGameplayTag Cooldown_Arcane_ArcaneShards;
+	FGameplayTag Cooldown_Arcane_ArcaneMine;
 	FGameplayTag Cooldown_Buff_ApplySpeedToAllies;
 	FGameplayTag Cooldown_ChargeAttack;
 	

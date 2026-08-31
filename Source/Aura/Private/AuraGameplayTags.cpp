@@ -230,6 +230,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Cooldown_Fire_LavaCannonShot = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Fire.LavaCannonShot"), FString("LavaCannonShot Cooldown Tag"));
 	GameplayTags.Cooldown_Lightning_Electrocute = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Lightning.Electrocute"), FString("Electrocute Cooldown Tag"));
 	GameplayTags.Cooldown_Arcane_ArcaneShards = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Arcane.ArcaneShards"), FString("ArcaneShards Cooldown Tag"));
+	GameplayTags.Cooldown_Arcane_ArcaneMine = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Arcane.ArcaneMine"), FString("ArcaneMine Cooldown Tag"));
 	GameplayTags.Cooldown_Buff_ApplySpeedToAllies = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Buff.ApplySpeedToAllies"), FString("ApplySpeedToAllies Cooldown Tag"));
 	GameplayTags.Cooldown_ChargeAttack = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Physical.ChargeAttack"), FString("ChargeAttack Cooldown Tag"));
 
