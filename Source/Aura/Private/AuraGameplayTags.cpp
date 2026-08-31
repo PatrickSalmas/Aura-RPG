@@ -159,10 +159,10 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	
 	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Lightning,GameplayTags.ReactiveStatus_Charged);
 	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Fire,GameplayTags.ReactiveStatus_Burning);
-	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Arcane,GameplayTags.ReactiveStatus_Burning);
-	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_ArcaneSlow50,GameplayTags.Debuff_Unstable);
-	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_ArcaneSlow75,GameplayTags.Debuff_Unstable);
-	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_ArcaneImmobilize,GameplayTags.Debuff_Unstable);
+	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_Arcane,GameplayTags.ReactiveStatus_Unstable);
+	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_ArcaneSlow50,GameplayTags.ReactiveStatus_Unstable);
+	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_ArcaneSlow75,GameplayTags.ReactiveStatus_Unstable);
+	GameplayTags.DamageTypesToReactiveStatuses.Add(GameplayTags.Damage_ArcaneImmobilize,GameplayTags.ReactiveStatus_Unstable);
 	
 	GameplayTags.SuccessfulReactiveStatus = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reactive.SuccessfulReactiveStatus"), FString("Has Successful Reactive status"));
 	

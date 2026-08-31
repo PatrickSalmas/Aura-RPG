@@ -228,8 +228,8 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 	}
 	*/
 
-	if (!TargetASC->HasMatchingGameplayTag(GameplayTags.Debuff_Charged) && !TargetASC->HasMatchingGameplayTag(GameplayTags.Debuff_Burning)
-		&& !TargetASC->HasMatchingGameplayTag(GameplayTags.Debuff_Unstable))
+	if (!TargetASC->HasMatchingGameplayTag(GameplayTags.ReactiveStatus_Charged) && !TargetASC->HasMatchingGameplayTag(GameplayTags.ReactiveStatus_Burning)
+		&& !TargetASC->HasMatchingGameplayTag(GameplayTags.ReactiveStatus_Unstable))
 	{
 		return;
 	}
@@ -255,9 +255,9 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 	FGameplayTag TriggeredReaction;
 	FGameplayTag ReactionToConsume;
 
-	if (TargetASC->HasMatchingGameplayTag(GameplayTags.Debuff_Charged))
+	if (TargetASC->HasMatchingGameplayTag(GameplayTags.ReactiveStatus_Charged))
 	{
-		ReactionToConsume = GameplayTags.Debuff_Charged;
+		ReactionToConsume = GameplayTags.ReactiveStatus_Charged;
 		if (FireDamage > 0.f)
 		{
 			TriggeredReaction =
@@ -274,9 +274,9 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 				GameplayTags.Reaction_LightningOnCharged;
 		}
 	}
-	else if (TargetASC->HasMatchingGameplayTag(GameplayTags.Debuff_Burning))
+	else if (TargetASC->HasMatchingGameplayTag(GameplayTags.ReactiveStatus_Burning))
 	{
-		ReactionToConsume = GameplayTags.Debuff_Burning;
+		ReactionToConsume = GameplayTags.ReactiveStatus_Burning;
 		if (FireDamage > 0.f)
 		{
 			TriggeredReaction = GameplayTags.Reaction_FireOnBurning;
@@ -290,9 +290,9 @@ void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionPar
 			TriggeredReaction = GameplayTags.Reaction_ArcaneOnBurning;
 		}
 	}
-	else if (TargetASC->HasMatchingGameplayTag(GameplayTags.Debuff_Unstable))
+	else if (TargetASC->HasMatchingGameplayTag(GameplayTags.ReactiveStatus_Unstable))
 	{
-		ReactionToConsume = GameplayTags.Debuff_Unstable;
+		ReactionToConsume = GameplayTags.ReactiveStatus_Unstable;
 		if (FireDamage > 0.f)
 		{
 			TriggeredReaction = GameplayTags.Reaction_FireOnUnstable;
