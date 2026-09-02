@@ -222,15 +222,26 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	
 	
 	/*
-	 * Cooldowns
+	 * Player Cooldowns
 	 */
 	GameplayTags.Cooldown_Fire_FireBolt = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Fire.FireBolt"), FString("FireBolt Cooldown Tag"));
 	GameplayTags.Cooldown_Fire_FireBlast = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Fire.FireBlast"), FString("FireBlast Cooldown Tag"));
-	GameplayTags.Cooldown_Fire_FlameFlurry= UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Fire.FlameFlurry"), FString("FlameFlurry Cooldown Tag"));
-	GameplayTags.Cooldown_Fire_LavaCannonShot = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Fire.LavaCannonShot"), FString("LavaCannonShot Cooldown Tag"));
+	GameplayTags.Cooldown_Fire_FlameFlurry = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Fire.FlameFlurry"), FString("FlameFlurry Cooldown Tag"));
+	GameplayTags.Cooldown_Fire_FlameRupture = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Fire.FlameRupture"), FString("FlameRupture Cooldown Tag"));
 	GameplayTags.Cooldown_Lightning_Electrocute = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Lightning.Electrocute"), FString("Electrocute Cooldown Tag"));
+	GameplayTags.Cooldown_Lightning_ElectricDomination = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Lightning.ElectricDomination"), FString("ElectricDomination Cooldown Tag"));
+	GameplayTags.Cooldown_Lightning_LightningBolt = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Lightning.LightningBolt"), FString("LightningBolt Cooldown Tag"));
+	GameplayTags.Cooldown_Lightning_LightningNova = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Lightning.LightningNova"), FString("LightningNova Cooldown Tag"));
+	GameplayTags.Cooldown_Lightning_LightningStep = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Lightning.LightningStep"), FString("LightningStep Cooldown Tag"));
 	GameplayTags.Cooldown_Arcane_ArcaneShards = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Arcane.ArcaneShards"), FString("ArcaneShards Cooldown Tag"));
 	GameplayTags.Cooldown_Arcane_ArcaneMine = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Arcane.ArcaneMine"), FString("ArcaneMine Cooldown Tag"));
+	GameplayTags.Cooldown_Arcane_ArcaneExplosion = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Arcane.ArcaneExplosion"), FString("ArcaneExplosion Cooldown Tag"));
+	GameplayTags.Cooldown_Arcane_TimeDilation = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Arcane.TimeDilation"), FString("TimeDilation Cooldown Tag"));
+	
+	/*
+	 * Enemy Cooldowns
+	 */
+	GameplayTags.Cooldown_Fire_LavaCannonShot = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Fire.LavaCannonShot"), FString("LavaCannonShot Cooldown Tag"));
 	GameplayTags.Cooldown_Buff_ApplySpeedToAllies = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Buff.ApplySpeedToAllies"), FString("ApplySpeedToAllies Cooldown Tag"));
 	GameplayTags.Cooldown_ChargeAttack = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Cooldown.Physical.ChargeAttack"), FString("ChargeAttack Cooldown Tag"));
 

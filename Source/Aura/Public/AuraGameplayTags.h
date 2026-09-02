@@ -147,13 +147,24 @@ public:
 	FGameplayTag Abilities_Passive_LifeSiphon;
 	FGameplayTag Abilities_Passive_ManaSiphon;
 
+	/* Player Cooldowns */
 	FGameplayTag Cooldown_Fire_FireBolt;
 	FGameplayTag Cooldown_Fire_FireBlast;
 	FGameplayTag Cooldown_Fire_FlameFlurry;
-	FGameplayTag Cooldown_Fire_LavaCannonShot;
+	FGameplayTag Cooldown_Fire_FlameRupture;
 	FGameplayTag Cooldown_Lightning_Electrocute;
+	FGameplayTag Cooldown_Lightning_ElectricDomination;
+	FGameplayTag Cooldown_Lightning_LightningStep;
+	FGameplayTag Cooldown_Lightning_LightningNova;
+	FGameplayTag Cooldown_Lightning_LightningBolt;
 	FGameplayTag Cooldown_Arcane_ArcaneShards;
 	FGameplayTag Cooldown_Arcane_ArcaneMine;
+	FGameplayTag Cooldown_Arcane_TimeDilation;
+	FGameplayTag Cooldown_Arcane_ArcaneExplosion;
+	
+	
+	/* Enemy Cooldowns */
+	FGameplayTag Cooldown_Fire_LavaCannonShot;
 	FGameplayTag Cooldown_Buff_ApplySpeedToAllies;
 	FGameplayTag Cooldown_ChargeAttack;
 	
