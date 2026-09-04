@@ -45,6 +45,7 @@ FDamageEffectParams UAuraDamageGameplayAbility::MakeDamageEffectParamsFromClassD
 	DamageEffectParams.ReactiveStatusFrequency = GetReactiveStatusFrequencyAtLevel();
 	DamageEffectParams.bCanApplyReactionStatus = bCanApplyReactionStatus;
 	DamageEffectParams.bCanTriggerReaction = bCanTriggerReaction;
+	DamageEffectParams.bShouldHitReact = bShouldHitReact;
 	DamageEffectParams.DeathImpulseMagnitude = DeathImpulseMagnitude;
 	DamageEffectParams.KnockBackChance = GetKnockBackChanceAtLevel();
 	DamageEffectParams.KnockBackImpulseMagnitude = KnockBackImpulseMagnitude;
