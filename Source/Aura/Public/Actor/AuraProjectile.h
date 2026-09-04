@@ -64,6 +64,9 @@ protected:
 	TObjectPtr<USoundBase> LoopingSound;
 	
 	UPROPERTY(EditAnywhere)
+	TArray<AActor*> DamagedActors;
+	
+	UPROPERTY(EditAnywhere)
 	bool HasAOEDamage = false;
 	
 	UPROPERTY(EditAnywhere)
@@ -73,5 +76,7 @@ private:
 
 	UPROPERTY(EditDefaultsOnly)
 	float LifeSpan = 15.f;
+	
+	void AddDamagedActorsToIgnored(TArray<AActor*> DamagedActors, TArray<AActor*> &ActorsToIgnore);
 	
 };

@@ -54,12 +54,14 @@ void AAuraProjectile::OnHit()
 		{
 			ActorsToIgnore.Add(InstigatorActor);
 		}
+		AddDamagedActorsToIgnored(DamagedActors, ActorsToIgnore);
 		UAuraAbilitySystemLibrary::GetLivePlayersWithinRadius(this, OverlappingActors, ActorsToIgnore, AOERadius, GetActorLocation());
 		for (AActor* Actor : OverlappingActors)
 		{
 			if (UAbilitySystemComponent* TargetASC_AOE = UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(Actor))
 			{
 				ApplyProjectileDamage(TargetASC_AOE);
+				DamagedActors.Add(Actor);
 			}
 		}
 	}
@@ -95,7 +97,10 @@ void AAuraProjectile::OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, 
 	{
 		if (UAbilitySystemComponent* TargetASC = UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(OtherActor))
 		{
-			ApplyProjectileDamage(TargetASC);
+			if (!DamagedActors.Contains(OtherActor))
+			{
+				ApplyProjectileDamage(TargetASC);
+			}
 			
 			if (HasAOEDamage)
 			{
@@ -104,13 +109,16 @@ void AAuraProjectile::OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, 
 				if (AActor* InstigatorActor = GetInstigator())
 				{
 					ActorsToIgnore.Add(InstigatorActor);
+					ActorsToIgnore.Add(OtherActor);
 				}
+				AddDamagedActorsToIgnored(DamagedActors, ActorsToIgnore);
 				UAuraAbilitySystemLibrary::GetLivePlayersWithinRadius(OtherActor, OverlappingActors, ActorsToIgnore, AOERadius, SweepResult.ImpactPoint);
 				for (AActor* Actor : OverlappingActors)
 				{
 					if (UAbilitySystemComponent* TargetASC_AOE = UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(Actor))
 					{
 						ApplyProjectileDamage(TargetASC_AOE);
+						DamagedActors.Add(Actor);
 					}
 				}
 			}
@@ -143,5 +151,13 @@ void AAuraProjectile::ApplyProjectileDamage(UAbilitySystemComponent* TargetASC)
 			
 	DamageEffectParams.TargetAbilitySystemComponent = TargetASC;
 	UAuraAbilitySystemLibrary::ApplyDamageEffect(DamageEffectParams);
+}
+
+void AAuraProjectile::AddDamagedActorsToIgnored(TArray<AActor*> DamagedActorsIn, TArray<AActor*> &ActorsToIgnoreIn)
+{
+	for (AActor* Actor : DamagedActorsIn)
+	{
+		ActorsToIgnoreIn.Add(Actor);
+	}
 }
 
