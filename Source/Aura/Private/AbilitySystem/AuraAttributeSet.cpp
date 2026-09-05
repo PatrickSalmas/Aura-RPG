@@ -474,6 +474,15 @@ void UAuraAttributeSet::ApplyReactiveStatus(
 	const FActiveGameplayEffectHandle AppliedHandle = Props.TargetASC->ApplyGameplayEffectSpecToSelf(*SpecHandle.Data.Get());
 
 	ensureMsgf(AppliedHandle.IsValid(), TEXT("Failed to apply reactive status %s"), *ReactiveStatusTag->ToString());
+	
+	// Dispatch reaction after Charged has been removed.
+	FGameplayEventData Payload;
+	Payload.EventTag = *ReactiveStatusTag;
+	Payload.Instigator = Props.SourceCharacter;
+	Payload.Target = Props.TargetAvatarActor;
+	Payload.ContextHandle = Props.EffectContextHandle;
+
+	UAbilitySystemBlueprintLibrary::SendGameplayEventToActor(Props.TargetAvatarActor, *ReactiveStatusTag,Payload);
 }
 
 bool UAuraAttributeSet::ShouldApplyPeriodicStatus(UAbilitySystemComponent* TargetASC, const FGameplayTag& StatusTag,
