@@ -1738,3 +1738,868 @@ Sampler Limit: 32
 [2026.09.12-15.15.04:758][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2026.09.12-15.15.04:762][705]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
 [2026.09.12-15.15.04:781][706]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2026.09.12-15.19.57:770][883]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1033.582275
+[2026.09.12-15.19.58:769][886]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.12-15.19.58:769][886]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1034.249023, Update Interval: 303.436981
+[2026.09.12-15.24.50:869][872]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.09.12-15.24.59:952][889]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.09.12-15.24.59:958][889]LogContentBrowser: Creating deferred item: NewFolder
+[2026.09.12-15.24.59:967][890]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.09.12-15.25.06:340][653]LogContentBrowser: Attempting asset rename: NewFolder -> Niagara
+[2026.09.12-15.25.06:342][653]LogContentBrowser: End creating deferred item NewFolder
+[2026.09.12-15.25.15:354][725]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1351.163208
+[2026.09.12-15.25.15:478][740]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.12-15.25.15:478][741]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1351.279175, Update Interval: 335.045624
+[2026.09.12-15.25.41:838][834]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2026.09.12-15.25.49:143][834]LogSlate: Window 'Create Niagara System - Select an emitter or system as a base' being destroyed
+[2026.09.12-15.25.49:150][834]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2026.09.12-15.25.49:150][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.12-15.25.49:192][834]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2026.09.12-15.26.00:804][144]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2026.09.12-15.26.00:811][144]LogContentBrowser: Creating deferred item: NewMaterial
+[2026.09.12-15.26.00:839][145]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2026.09.12-15.26.08:204][717]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Resonant_ChargeParticle
+[2026.09.12-15.26.08:204][717]LogContentBrowser: End creating deferred item NewMaterial
+[2026.09.12-15.26.09:242][834]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.09.12-15.26.09:246][834]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.12-15.26.09:296][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle] ([1] browsable assets)...
+[2026.09.12-15.26.09:301][834]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle.M_Resonant_ChargeParticle]
+[2026.09.12-15.26.09:301][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle]
+[2026.09.12-15.26.09:302][834]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle
+[2026.09.12-15.26.09:302][834]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/M_Resonant_ChargeParticle0380B5E54CA02494AA303E8AE12DD7FD.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle.uasset'
+[2026.09.12-15.26.09:310][834]LogFileHelpers: InternalPromptForCheckoutAndSave took 63.620 ms (total: 1.62 sec)
+[2026.09.12-15.26.09:360][834]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.12-15.26.09:360][834]LogContentValidation: Enabled validators:
+[2026.09.12-15.26.09:361][834]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.12-15.26.09:361][834]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.12-15.26.09:361][834]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.12-15.26.09:361][834]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.12-15.26.09:361][834]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.12-15.26.09:361][834]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.12-15.26.09:361][834]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle Validating asset
+[2026.09.12-15.26.09:817][880]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle.M_Resonant_ChargeParticle
+[2026.09.12-15.26.09:823][880]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2026.09.12-15.26.10:116][880]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.26.10:116][880]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.26.10:116][880]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.26.10:116][880]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.09.12-15.26.10:153][882]MaterialEditorStats: Base pass shader: 202 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2026.09.12-15.26.10:153][882]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.09.12-15.26.10:153][882]MaterialEditorStats: Texture samplers: 2/16
+[2026.09.12-15.26.10:153][882]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.26.10:153][882]MaterialEditorStats: Shader Count: 4
+[2026.09.12-15.26.10:153][882]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.09.12-15.26.16:813][665]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.26.16:813][665]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.26.16:813][665]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.26.16:813][665]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.26.17:323][725]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.26.17:323][725]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.26.17:323][725]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.26.17:323][725]MaterialEditorStats: Shader Count: 3
+[2026.09.12-15.26.17:323][725]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.26.20:439][ 85]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.26.20:439][ 85]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.26.20:439][ 85]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.26.20:439][ 85]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.26.20:750][121]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.26.20:750][121]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.26.20:750][121]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.26.20:750][121]MaterialEditorStats: Shader Count: 3
+[2026.09.12-15.26.20:750][121]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.26.20:912][137]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.26.20:912][137]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.26.20:913][137]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.26.20:913][137]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.26.20:913][137]MaterialEditorStats: Shader Count: 4
+[2026.09.12-15.26.20:913][137]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.26.21:268][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.09.12-15.26.31:744][425]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.26.31:744][425]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.26.31:744][425]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.26.31:744][425]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.26.31:768][427]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.26.31:768][427]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.26.31:768][427]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.26.31:768][427]MaterialEditorStats: Shader Count: 2
+[2026.09.12-15.26.31:768][427]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.26.32:163][472]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.26.32:164][472]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.26.32:164][472]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.26.32:164][472]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.26.32:164][472]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.26.32:164][472]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.26.32:627][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.09.12-15.26.46:728][207]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.26.46:728][207]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.26.46:728][207]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.26.46:728][207]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.26.46:783][209]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.26.46:783][209]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.26.46:783][209]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.26.46:783][209]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.26.46:783][209]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.26.46:783][209]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.26.55:468][241]LogShaderCompilers: Display: ================================================
+[2026.09.12-15.26.55:468][241]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.09.12-15.26.55:468][241]LogShaderCompilers: Display: Total job queries 544, among them cache hits 252 (46.32%), DDC hits 240 (44.12%), Duplicates 11 (2.02%)
+[2026.09.12-15.26.55:468][241]LogShaderCompilers: Display: Tracking 281 distinct input hashes that result in 230 distinct outputs (81.85%)
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: RAM used: 147.21 KiB of 3.20 GiB budget. Usage: 0.00%
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: Shaders Compiled: 41
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: Jobs assigned 41, completed 41 (100%)
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: Average time worker was idle: 98.33 s
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: Time job spent in pending queue: average 0.19 s, longest 0.78 s
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: Job execution time: average 0.39 s, max 0.64 s
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: Job life time (pending + execution): average 0.58 s, max 1.19
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: Shader code size: average 8.004 KiB, min 2.691 KiB, max 13.551 KiB
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.33 s
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.04%
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: Jobs were issued in 41 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: Average processing rate: 9.46 jobs/sec
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: Total thread time: 9.312 s
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: Total thread preprocess time: 4.303 s
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: Percentage time preprocessing: 46.21%
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: Effective parallelization: 2.15 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2026.09.12-15.26.55:469][241]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.34 sec, max 0.34 sec, min 0.34 sec)
+[2026.09.12-15.26.55:470][241]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    1 times, average 0.34 sec, max 0.34 sec, min 0.34 sec)
+[2026.09.12-15.26.55:470][241]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.09.12-15.26.55:470][241]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.73% of total time (compiled    3 times, average 0.27 sec, max 0.33 sec, min 0.23 sec)
+[2026.09.12-15.26.55:470][241]LogShaderCompilers: Display:                                                FMeshDecalsPS - 8.60% of total time (compiled    4 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2026.09.12-15.26.55:470][241]LogShaderCompilers: Display:                                        FMeshDecalsEmissivePS - 8.49% of total time (compiled    4 times, average 0.20 sec, max 0.20 sec, min 0.19 sec)
+[2026.09.12-15.26.55:470][241]LogShaderCompilers: Display:                                                FMeshDecalsVS - 6.42% of total time (compiled    4 times, average 0.15 sec, max 0.15 sec, min 0.14 sec)
+[2026.09.12-15.26.55:470][241]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 6.15% of total time (compiled    2 times, average 0.29 sec, max 0.31 sec, min 0.26 sec)
+[2026.09.12-15.26.55:470][241]LogShaderCompilers: Display: === Material stats ===
+[2026.09.12-15.26.55:470][241]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.09.12-15.26.55:470][241]LogShaderCompilers: Display: Materials Translated:    325
+[2026.09.12-15.26.55:470][241]LogShaderCompilers: Display: Material Total Translate Time: 0.16 s
+[2026.09.12-15.26.55:470][241]LogShaderCompilers: Display: Material Translation Only: 0.07 s (46%)
+[2026.09.12-15.26.55:470][241]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2026.09.12-15.26.55:470][241]LogShaderCompilers: Display: Material Cache Hits: 91 (28%)
+[2026.09.12-15.26.55:470][241]LogShaderCompilers: Display: ================================================
+[2026.09.12-15.27.19:848][143]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.27.19:848][143]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.27.19:848][143]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.27.19:848][143]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.27.19:896][145]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.27.19:896][145]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.27.19:896][145]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.27.19:896][145]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.27.19:896][145]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.27.19:896][145]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.27.22:150][406]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.27.22:150][406]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.27.22:150][406]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.27.22:150][406]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.27.22:216][408]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.27.22:216][408]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.27.22:216][408]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.27.22:217][408]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.27.22:217][408]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.27.22:217][408]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.27.25:594][809]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.27.25:594][809]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.27.25:594][809]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.27.25:594][809]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.27.25:632][812]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.27.25:632][812]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.27.25:632][812]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.27.25:632][812]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.27.25:632][812]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.27.25:632][812]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.27.26:366][900]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.27.26:366][900]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.27.26:366][900]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.27.26:366][900]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.27.26:404][903]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.27.26:405][903]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.27.26:405][903]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.27.26:405][903]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.27.26:405][903]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.27.26:405][903]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.27.28:245][115]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.27.28:246][115]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.27.28:246][115]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.27.28:246][115]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.27.28:278][117]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.27.28:278][117]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.27.28:278][117]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.27.28:278][117]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.27.28:278][117]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.27.28:278][117]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.27.35:271][946]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.27.35:271][946]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.27.35:271][946]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.27.35:271][946]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.27.35:296][948]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.27.35:296][948]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.27.35:296][948]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.27.35:296][948]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.27.35:296][948]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.27.35:296][948]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.27.44:907][ 78]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.27.44:907][ 78]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.27.44:907][ 78]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.27.44:907][ 78]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.27.44:943][ 80]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.27.44:943][ 80]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.27.44:943][ 80]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.27.44:943][ 80]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.27.44:943][ 80]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.27.44:943][ 80]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.27.57:438][554]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.27.57:438][554]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.27.57:438][554]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.27.57:438][554]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.27.57:478][556]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.27.57:479][556]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.27.57:479][556]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.27.57:479][556]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.27.57:479][556]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.27.57:479][556]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.28.04:018][339]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.28.04:018][339]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.28.04:018][339]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.28.04:018][339]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.28.04:078][342]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.28.04:078][342]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.28.04:078][342]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.28.04:078][342]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.28.04:078][342]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.28.04:078][342]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.28.06:772][665]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.28.06:772][665]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.28.06:772][665]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.28.06:772][665]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.28.06:820][668]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.28.06:820][668]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.28.06:820][668]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.28.06:820][668]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.28.06:820][668]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.28.06:820][668]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.28.07:365][730]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.09.12-15.28.12:344][317]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.28.12:345][317]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.28.12:345][317]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.28.12:345][317]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.28.12:388][319]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.28.12:388][319]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.28.12:388][319]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.28.12:388][319]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.28.12:388][319]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.28.12:388][319]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.28.29:643][371]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.28.29:643][371]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.28.29:643][371]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.28.29:643][371]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.28.29:687][373]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.28.29:688][373]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.28.29:688][373]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.28.29:688][373]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.28.29:688][373]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.28.29:688][373]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.28.41:777][816]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.28.41:777][816]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.28.41:777][816]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.28.41:777][816]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.28.41:818][818]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.28.41:818][818]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.28.41:818][818]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.28.41:818][818]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.28.41:818][818]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.28.41:818][818]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.28.58:229][769]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.28.58:229][769]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.28.58:229][769]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.28.58:229][769]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.28.58:282][771]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.28.58:282][771]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.28.58:282][771]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.28.58:282][771]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.28.58:282][771]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.28.58:282][771]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.29.02:114][221]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.29.02:114][221]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.29.02:114][221]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.29.02:114][221]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.29.02:167][223]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.29.02:167][223]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.29.02:167][223]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.29.02:167][223]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.29.02:167][223]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.29.02:167][223]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.29.12:957][509]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.29.12:957][509]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.29.12:957][509]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.29.12:957][509]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.29.13:012][511]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.29.13:012][511]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.29.13:012][511]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.29.13:012][511]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.29.13:012][511]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.29.13:012][511]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.29.17:851][ 88]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.29.17:851][ 88]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.29.17:851][ 88]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.29.17:851][ 88]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.29.17:903][ 90]MaterialEditorStats: Base pass shader without light map: 130 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.29.17:903][ 90]MaterialEditorStats: Base pass vertex shader: 275 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.29.17:903][ 90]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.29.17:903][ 90]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.09.12-15.29.17:903][ 90]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.29.17:903][ 90]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.29.34:197][ 19]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.29.34:197][ 19]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(0)
+[2026.09.12-15.29.34:197][ 19]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.12-15.29.34:197][ 19]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.29.34:197][ 19]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.29.34:758][ 85]MaterialEditorStats: Base pass vertex shader: 281 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.29.34:758][ 85]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.29.34:758][ 85]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(0)
+[2026.09.12-15.29.34:758][ 85]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.12-15.29.34:758][ 85]MaterialEditorStats: Shader Count: 5
+[2026.09.12-15.29.34:758][ 85]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.29.34:871][ 97]MaterialEditorStats: Base pass shader without light map: 139 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.29.34:871][ 97]MaterialEditorStats: Base pass vertex shader: 281 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.29.34:871][ 97]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.29.34:871][ 97]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(0)
+[2026.09.12-15.29.34:871][ 97]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.12-15.29.34:871][ 97]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.29.34:871][ 97]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.29.53:683][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.09.12-15.29.55:468][556]LogShaderCompilers: Display: ================================================
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: Total job queries 694, among them cache hits 396 (57.06%), DDC hits 240 (34.58%), Duplicates 11 (1.59%)
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: Tracking 287 distinct input hashes that result in 235 distinct outputs (81.88%)
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: RAM used: 148.79 KiB of 3.20 GiB budget. Usage: 0.00%
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: Shaders Compiled: 47
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: Jobs assigned 47, completed 47 (100%)
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: Average time worker was idle: 149.43 s
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: Time job spent in pending queue: average 0.17 s, longest 0.78 s
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: Job execution time: average 0.41 s, max 0.64 s
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: Job life time (pending + execution): average 0.58 s, max 1.19
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: Shader code size: average 7.844 KiB, min 2.691 KiB, max 13.551 KiB
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.97 s
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.04%
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: Jobs were issued in 47 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: Average processing rate: 9.45 jobs/sec
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: Total thread time: 10.53 s
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: Total thread preprocess time: 5.292 s
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: Percentage time preprocessing: 50.25%
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: Effective parallelization: 2.12 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2026.09.12-15.29.55:469][556]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2026.09.12-15.29.55:470][556]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2026.09.12-15.29.55:470][556]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.34 sec, max 0.34 sec, min 0.34 sec)
+[2026.09.12-15.29.55:470][556]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    1 times, average 0.34 sec, max 0.34 sec, min 0.34 sec)
+[2026.09.12-15.29.55:470][556]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.09.12-15.29.55:470][556]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.40% of total time (compiled    4 times, average 0.27 sec, max 0.33 sec, min 0.23 sec)
+[2026.09.12-15.29.55:470][556]LogShaderCompilers: Display:                                                FMeshDecalsPS - 7.61% of total time (compiled    4 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2026.09.12-15.29.55:470][556]LogShaderCompilers: Display:                                        FMeshDecalsEmissivePS - 7.51% of total time (compiled    4 times, average 0.20 sec, max 0.20 sec, min 0.19 sec)
+[2026.09.12-15.29.55:470][556]LogShaderCompilers: Display:                                                 FLumenCardPS - 6.33% of total time (compiled    4 times, average 0.17 sec, max 0.19 sec, min 0.15 sec)
+[2026.09.12-15.29.55:470][556]LogShaderCompilers: Display:                                                FMeshDecalsVS - 5.68% of total time (compiled    4 times, average 0.15 sec, max 0.15 sec, min 0.14 sec)
+[2026.09.12-15.29.55:470][556]LogShaderCompilers: Display: === Material stats ===
+[2026.09.12-15.29.55:470][556]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.09.12-15.29.55:470][556]LogShaderCompilers: Display: Materials Translated:    356
+[2026.09.12-15.29.55:470][556]LogShaderCompilers: Display: Material Total Translate Time: 0.17 s
+[2026.09.12-15.29.55:470][556]LogShaderCompilers: Display: Material Translation Only: 0.08 s (46%)
+[2026.09.12-15.29.55:470][556]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2026.09.12-15.29.55:470][556]LogShaderCompilers: Display: Material Cache Hits: 91 (26%)
+[2026.09.12-15.29.55:470][556]LogShaderCompilers: Display: ================================================
+[2026.09.12-15.29.58:173][877]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.09.12-15.30.12:908][616]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.30.12:909][616]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(0)
+[2026.09.12-15.30.12:909][616]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.12-15.30.12:909][616]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.30.12:909][616]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.30.12:959][618]MaterialEditorStats: Base pass shader without light map: 139 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.30.12:959][618]MaterialEditorStats: Base pass vertex shader: 281 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.30.12:959][618]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.30.12:959][618]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(0)
+[2026.09.12-15.30.12:959][618]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.12-15.30.12:960][618]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.30.12:960][618]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.30.14:814][831]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.30.14:815][831]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(0)
+[2026.09.12-15.30.14:815][831]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.12-15.30.14:815][831]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.30.14:815][831]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.30.15:353][892]MaterialEditorStats: Base pass vertex shader: 281 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.30.15:354][892]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.30.15:354][892]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(0)
+[2026.09.12-15.30.15:354][892]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.12-15.30.15:354][892]MaterialEditorStats: Shader Count: 5
+[2026.09.12-15.30.15:354][892]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.30.15:576][916]MaterialEditorStats: Base pass shader without light map: 139 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.30.15:576][916]MaterialEditorStats: Base pass vertex shader: 281 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.30.15:576][916]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.30.15:576][916]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(0)
+[2026.09.12-15.30.15:576][916]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.12-15.30.15:576][916]MaterialEditorStats: Shader Count: 6
+[2026.09.12-15.30.15:576][916]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.30.21:438][613]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.09.12-15.30.29:560][584]LogMaterialEditor: Applying material M_Resonant_ChargeParticle
+[2026.09.12-15.30.29:613][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2026.09.12-15.30.30:284][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.09.12-15.30.31:092][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.09.12-15.30.31:096][672]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.12-15.30.31:148][672]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle] ([1] browsable assets)...
+[2026.09.12-15.30.31:168][672]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle.M_Resonant_ChargeParticle]
+[2026.09.12-15.30.31:168][672]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle]
+[2026.09.12-15.30.31:170][672]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle
+[2026.09.12-15.30.31:171][672]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/M_Resonant_ChargeParticleA8C6664D4B1F0A5881B7C5A3A15470BD.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle.uasset'
+[2026.09.12-15.30.31:177][672]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.106 ms (total: 1.70 sec)
+[2026.09.12-15.30.31:231][672]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.12-15.30.31:231][672]LogContentValidation: Enabled validators:
+[2026.09.12-15.30.31:231][672]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.12-15.30.31:231][672]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.12-15.30.31:231][672]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.12-15.30.31:231][672]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.12-15.30.31:231][672]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.12-15.30.31:231][672]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.12-15.30.31:231][672]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle Validating asset
+[2026.09.12-15.30.37:233][355]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2026.09.12-15.30.48:977][355]LogSlate: Window 'Create Niagara System - Select an emitter or system as a base' being destroyed
+[2026.09.12-15.30.48:982][355]LogStreaming: Display: FlushAsyncLoading(456): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.12-15.30.48:986][355]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2026.09.12-15.30.48:986][355]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.12-15.30.48:995][355]LogContentBrowser: Deferred new asset file creation: NewNiagaraSystem
+[2026.09.12-15.30.49:016][355]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.09.12-15.30.49:024][355]LogContentBrowser: Creating deferred item: NewNiagaraSystem
+[2026.09.12-15.30.49:040][357]LogContentBrowser: Renaming the item being created (Deferred Item: NewNiagaraSystem).
+[2026.09.12-15.30.57:666][974]LogContentBrowser: Attempting asset rename: NewNiagaraSystem -> NS_
+[2026.09.12-15.30.57:700][974]LogContentBrowser: End creating deferred item NewNiagaraSystem
+[2026.09.12-15.30.58:892][ 90]LogNiagara: Compiling System NiagaraSystem /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_.NS_ took 1.206334 sec (time since issued), 1.095124 sec (combined shader worker time).
+[2026.09.12-15.31.01:005][344]LogContentBrowser: Attempting asset rename: NS_ -> NS_Resonant_ChargeLink
+[2026.09.12-15.31.01:135][344]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.12-15.31.01:136][344]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink] ([1] browsable assets)...
+[2026.09.12-15.31.01:136][344]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink]
+[2026.09.12-15.31.01:151][344]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink
+[2026.09.12-15.31.01:151][344]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/NS_Resonant_ChargeLink26765E244FB1A0C35F10CB97396BF00D.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink.uasset'
+[2026.09.12-15.31.01:153][344]LogFileHelpers: InternalPromptForCheckoutAndSave took 17.004 ms (total: 1.72 sec)
+[2026.09.12-15.31.01:178][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.09.12-15.31.01:192][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2026.09.12-15.31.01:206][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.09.12-15.31.01:265][344]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.12-15.31.01:265][344]LogContentValidation: Enabled validators:
+[2026.09.12-15.31.01:265][344]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.12-15.31.01:265][344]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.12-15.31.01:265][344]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.12-15.31.01:265][344]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.12-15.31.01:265][344]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.12-15.31.01:265][344]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.12-15.31.01:265][344]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink Validating asset
+[2026.09.12-15.31.02:211][452]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink.NS_Resonant_ChargeLink
+[2026.09.12-15.31.02:244][452]LogStreaming: Display: FlushAsyncLoading(457): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.12-15.31.02:289][452]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2026.09.12-15.31.02:345][452]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2026.09.12-15.31.02:628][452]LogSlate: Took 0.003735 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2026.09.12-15.31.03:392][494]LogNiagara: Compiling System NiagaraSystem /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink.NS_Resonant_ChargeLink took 1.095518 sec (time since issued), 0.766716 sec (combined shader worker time).
+[2026.09.12-15.31.03:507][501]170384_NS_Resonant_ChargeLink_MessageLog: System successfully compiled.
+[2026.09.12-15.31.05:249][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.09.12-15.31.05:253][603]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.12-15.31.05:317][603]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink] ([1] browsable assets)...
+[2026.09.12-15.31.05:317][603]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink]
+[2026.09.12-15.31.05:336][603]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink
+[2026.09.12-15.31.05:337][603]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/NS_Resonant_ChargeLinkD3A39FAC40155231F1D92680ACF2B1B7.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink.uasset'
+[2026.09.12-15.31.05:345][603]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.688 ms (total: 1.81 sec)
+[2026.09.12-15.31.05:399][603]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.12-15.31.05:399][603]LogContentValidation: Enabled validators:
+[2026.09.12-15.31.05:399][603]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.12-15.31.05:399][603]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.12-15.31.05:399][603]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.12-15.31.05:399][603]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.12-15.31.05:399][603]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.12-15.31.05:399][603]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.12-15.31.05:400][603]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink Validating asset
+[2026.09.12-15.31.11:400][849]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1707.200806
+[2026.09.12-15.31.11:599][861]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.12-15.31.11:600][861]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1707.383301, Update Interval: 300.421143
+[2026.09.12-15.31.18:759][283]170384_NS_Resonant_ChargeLink_MessageLog: System compile status unknown.
+[2026.09.12-15.31.19:596][329]LogNiagara: Compiling System NiagaraSystem /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink.NS_Resonant_ChargeLink took 0.875421 sec (time since issued), 0.839551 sec (combined shader worker time).
+[2026.09.12-15.31.20:767][396]170384_NS_Resonant_ChargeLink_MessageLog: System compile status unknown.
+[2026.09.12-15.31.21:303][427]LogNiagara: Compiling System NiagaraSystem /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink.NS_Resonant_ChargeLink took 0.846530 sec (time since issued), 0.819077 sec (combined shader worker time).
+[2026.09.12-15.31.22:781][515]170384_NS_Resonant_ChargeLink_MessageLog: System successfully compiled.
+[2026.09.12-15.31.36:801][348]LogStreaming: Display: FlushAsyncLoading(465): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.12-15.31.42:823][674]LogNiagaraEditor: Removed Var 'Constants.SimpleSpriteBurst.InitializeParticle.Lifetime' from Script NiagaraScript /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink.NS_Resonant_ChargeLink:SimpleSpriteBurst.SpawnScript
+[2026.09.12-15.31.42:932][676]170384_NS_Resonant_ChargeLink_MessageLog: System compile status unknown.
+[2026.09.12-15.31.43:578][713]LogNiagara: Compiling System NiagaraSystem /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink.NS_Resonant_ChargeLink took 0.682896 sec (time since issued), 0.666669 sec (combined shader worker time).
+[2026.09.12-15.31.44:943][795]170384_NS_Resonant_ChargeLink_MessageLog: System successfully compiled.
+[2026.09.12-15.32.05:286][ 13]170384_NS_Resonant_ChargeLink_MessageLog: System compile status unknown.
+[2026.09.12-15.32.05:847][ 45]LogNiagara: Compiling System NiagaraSystem /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink.NS_Resonant_ChargeLink took 0.601401 sec (time since issued), 0.595147 sec (combined shader worker time).
+[2026.09.12-15.32.07:294][132]170384_NS_Resonant_ChargeLink_MessageLog: System successfully compiled.
+[2026.09.12-15.32.37:930][963]LogSlate: Window 'Color Picker' being destroyed
+[2026.09.12-15.32.41:284][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.09.12-15.32.41:289][163]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.12-15.32.41:337][163]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink] ([1] browsable assets)...
+[2026.09.12-15.32.41:337][163]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink]
+[2026.09.12-15.32.41:353][163]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink
+[2026.09.12-15.32.41:354][163]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/NS_Resonant_ChargeLinkCDCFC04049FCC63DF43E00B517784AD0.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink.uasset'
+[2026.09.12-15.32.41:359][163]LogFileHelpers: InternalPromptForCheckoutAndSave took 71.054 ms (total: 1.88 sec)
+[2026.09.12-15.32.41:417][163]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.12-15.32.41:417][163]LogContentValidation: Enabled validators:
+[2026.09.12-15.32.41:417][163]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.12-15.32.41:417][163]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.12-15.32.41:417][163]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.12-15.32.41:417][163]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.12-15.32.41:417][163]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.12-15.32.41:417][163]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.12-15.32.41:417][163]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink Validating asset
+[2026.09.12-15.32.53:987][909]LogMaterial: Display: Material /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle.M_Resonant_ChargeParticle needed to have new flag set bUsedWithNiagaraSprites !
+[2026.09.12-15.32.53:987][909]LogMaterial: Display: Material /Engine/Transient.M_Resonant_ChargeParticle needed to have new flag set bUsedWithNiagaraSprites !
+[2026.09.12-15.32.54:007][910]MaterialEditorStats: Texture samplers: 0/16
+[2026.09.12-15.32.54:007][910]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(0)
+[2026.09.12-15.32.54:007][910]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.12-15.32.54:007][910]MaterialEditorStats: Shader Count: 0
+[2026.09.12-15.32.54:007][910]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.32.54:023][911]MaterialEditorStats: Base pass shader without light map: 139 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.32.54:024][911]MaterialEditorStats: Base pass vertex shader: 281 instructions
+Stats: Resources Used: 6
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.12-15.32.54:024][911]MaterialEditorStats: Texture samplers: 1/16
+[2026.09.12-15.32.54:024][911]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(0)
+[2026.09.12-15.32.54:024][911]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.12-15.32.54:024][911]MaterialEditorStats: Shader Count: 9
+[2026.09.12-15.32.54:024][911]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2026.09.12-15.32.55:480][997]LogShaderCompilers: Display: ================================================
+[2026.09.12-15.32.55:480][997]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.09.12-15.32.55:480][997]LogShaderCompilers: Display: Total job queries 787, among them cache hits 443 (56.29%), DDC hits 245 (31.13%), Duplicates 14 (1.78%)
+[2026.09.12-15.32.55:480][997]LogShaderCompilers: Display: Tracking 330 distinct input hashes that result in 260 distinct outputs (78.79%)
+[2026.09.12-15.32.55:480][997]LogShaderCompilers: Display: RAM used: 155.67 KiB of 3.20 GiB budget. Usage: 0.00%
+[2026.09.12-15.32.55:480][997]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.09.12-15.32.55:480][997]LogShaderCompilers: Display: Shaders Compiled: 85
+[2026.09.12-15.32.55:481][997]LogShaderCompilers: Display: Jobs assigned 85, completed 85 (100%)
+[2026.09.12-15.32.55:481][997]LogShaderCompilers: Display: Average time worker was idle: 91.11 s
+[2026.09.12-15.32.55:481][997]LogShaderCompilers: Display: Time job spent in pending queue: average 0.13 s, longest 0.78 s
+[2026.09.12-15.32.55:481][997]LogShaderCompilers: Display: Job execution time: average 0.36 s, max 0.64 s
+[2026.09.12-15.32.55:481][997]LogShaderCompilers: Display: Job life time (pending + execution): average 0.49 s, max 1.19
+[2026.09.12-15.32.55:481][997]LogShaderCompilers: Display: Shader code size: average 8.887 KiB, min 1.877 KiB, max 21.297 KiB
+[2026.09.12-15.32.55:481][997]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 11.06 s
+[2026.09.12-15.32.55:481][997]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.03%
+[2026.09.12-15.32.55:481][997]LogShaderCompilers: Display: Jobs were issued in 85 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.09.12-15.32.55:481][997]LogShaderCompilers: Display: Average processing rate: 7.69 jobs/sec
+[2026.09.12-15.32.55:481][997]LogShaderCompilers: Display: Total thread time: 15.449 s
+[2026.09.12-15.32.55:481][997]LogShaderCompilers: Display: Total thread preprocess time: 5.839 s
+[2026.09.12-15.32.55:481][997]LogShaderCompilers: Display: Percentage time preprocessing: 37.80%
+[2026.09.12-15.32.55:481][997]LogShaderCompilers: Display: Effective parallelization: 1.40 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2026.09.12-15.32.55:481][997]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    3 times, average 0.41 sec, max 0.50 sec, min 0.33 sec)
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.34 sec, max 0.34 sec, min 0.34 sec)
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    1 times, average 0.34 sec, max 0.34 sec, min 0.34 sec)
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.70% of total time (compiled    7 times, average 0.26 sec, max 0.33 sec, min 0.19 sec)
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display:                                             FDebugViewModePS - 7.97% of total time (compiled    3 times, average 0.41 sec, max 0.50 sec, min 0.33 sec)
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.73% of total time (compiled    6 times, average 0.20 sec, max 0.26 sec, min 0.17 sec)
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display:                                                 FLumenCardPS - 6.71% of total time (compiled    6 times, average 0.17 sec, max 0.19 sec, min 0.15 sec)
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display:                                                FMeshDecalsPS - 5.19% of total time (compiled    4 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display: === Material stats ===
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display: Materials Translated:    364
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display: Material Total Translate Time: 0.17 s
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display: Material Translation Only: 0.08 s (46%)
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display: Material Cache Hits: 91 (25%)
+[2026.09.12-15.32.55:482][997]LogShaderCompilers: Display: ================================================
+[2026.09.12-15.33.00:480][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.09.12-15.33.00:485][296]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.12-15.33.00:536][296]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle] ([1] browsable assets)...
+[2026.09.12-15.33.00:536][296]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle]
+[2026.09.12-15.33.00:537][296]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle
+[2026.09.12-15.33.00:538][296]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/M_Resonant_ChargeParticleDD22ACCC45EA52F1FC88B58C55011EA4.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle.uasset'
+[2026.09.12-15.33.00:539][296]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink] ([1] browsable assets)...
+[2026.09.12-15.33.00:539][296]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink]
+[2026.09.12-15.33.00:554][296]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink
+[2026.09.12-15.33.00:555][296]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/NS_Resonant_ChargeLink56CA816642061B5645569B9368BDBA11.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink.uasset'
+[2026.09.12-15.33.00:561][296]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.059 ms (total: 1.95 sec)
+[2026.09.12-15.33.00:617][296]LogContentValidation: Display: Starting to validate 2 assets
+[2026.09.12-15.33.00:617][296]LogContentValidation: Enabled validators:
+[2026.09.12-15.33.00:617][296]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.12-15.33.00:617][296]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.12-15.33.00:617][296]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.12-15.33.00:617][296]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.12-15.33.00:617][296]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.12-15.33.00:617][296]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.12-15.33.00:617][296]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_ChargeParticle Validating asset
+[2026.09.12-15.33.00:618][296]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink Validating asset
+[2026.09.12-15.36.24:016][236]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
