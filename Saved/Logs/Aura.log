@@ -4965,3 +4965,494 @@ Sampler Limit: 32
 [2026.09.16-22.20.45:644][868]LogMaterialEditor: Applying material M_Resonant_Perimeter
 [2026.09.16-22.20.45:829][868]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
 [2026.09.16-22.20.45:898][868]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.09.16-22.22.38:312][467]LogShaderCompilers: Display: ================================================
+[2026.09.16-22.22.38:312][467]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.09.16-22.22.38:312][467]LogShaderCompilers: Display: Total job queries 883, among them cache hits 479 (54.25%), DDC hits 341 (38.62%), Duplicates 9 (1.02%)
+[2026.09.16-22.22.38:312][467]LogShaderCompilers: Display: Tracking 395 distinct input hashes that result in 294 distinct outputs (74.43%)
+[2026.09.16-22.22.38:312][467]LogShaderCompilers: Display: RAM used: 177.45 KiB of 3.20 GiB budget. Usage: 0.01%
+[2026.09.16-22.22.38:312][467]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.09.16-22.22.38:312][467]LogShaderCompilers: Display: Shaders Compiled: 54
+[2026.09.16-22.22.38:312][467]LogShaderCompilers: Display: Jobs assigned 54, completed 54 (100%)
+[2026.09.16-22.22.38:312][467]LogShaderCompilers: Display: Average time worker was idle: 1457.04 s
+[2026.09.16-22.22.38:312][467]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.12 s
+[2026.09.16-22.22.38:312][467]LogShaderCompilers: Display: Job execution time: average 0.38 s, max 0.92 s
+[2026.09.16-22.22.38:312][467]LogShaderCompilers: Display: Job life time (pending + execution): average 0.43 s, max 1.02
+[2026.09.16-22.22.38:312][467]LogShaderCompilers: Display: Shader code size: average 7.983 KiB, min 2.695 KiB, max 27.723 KiB
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.71 s
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display: Jobs were issued in 54 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display: Average processing rate: 9.46 jobs/sec
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display: Total thread time: 10.082 s
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display: Total thread preprocess time: 6.856 s
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display: Percentage time preprocessing: 68.01%
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display: Effective parallelization: 1.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    4 times, average 0.39 sec, max 0.47 sec, min 0.31 sec)
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 0.23 sec, max 0.28 sec, min 0.17 sec)
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    6 times, average 0.20 sec, max 0.24 sec, min 0.18 sec)
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    4 times, average 0.18 sec, max 0.20 sec, min 0.17 sec)
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display:                                                FMeshDecalsPS (compiled    4 times, average 0.18 sec, max 0.18 sec, min 0.17 sec)
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display:                                             FDebugViewModePS - 15.57% of total time (compiled    4 times, average 0.39 sec, max 0.47 sec, min 0.31 sec)
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.64% of total time (compiled    6 times, average 0.23 sec, max 0.28 sec, min 0.17 sec)
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.95% of total time (compiled    6 times, average 0.20 sec, max 0.24 sec, min 0.18 sec)
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display:                                                  FHitProxyVS - 10.14% of total time (compiled    6 times, average 0.17 sec, max 0.20 sec, min 0.14 sec)
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display:                                                  FHitProxyPS - 8.97% of total time (compiled    6 times, average 0.15 sec, max 0.18 sec, min 0.11 sec)
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display: === Material stats ===
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display: Materials Translated:    336
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display: Material Total Translate Time: 0.25 s
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display: Material Translation Only: 0.07 s (30%)
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display: Material Cache Hits: 77 (23%)
+[2026.09.16-22.22.38:313][467]LogShaderCompilers: Display: ================================================
+[2026.09.16-22.22.58:917][596]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.09.16-22.22.58:923][596]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.16-22.22.58:953][596]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField] ([2] browsable assets)...
+[2026.09.16-22.22.58:953][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField]
+[2026.09.16-22.22.58:970][596]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField
+[2026.09.16-22.22.58:971][596]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_ResonantFieldD346BF424CFED58F0D64988BDBB58CC8.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField.uasset'
+[2026.09.16-22.22.58:972][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_Perimeter] ([1] browsable assets)...
+[2026.09.16-22.23.00:293][596]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_Perimeter.M_Resonant_Perimeter]
+[2026.09.16-22.23.00:293][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_Perimeter]
+[2026.09.16-22.23.00:302][596]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_Perimeter
+[2026.09.16-22.23.00:303][596]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/M_Resonant_PerimeterE2D5EE9248DC57AE503C4CBC69708559.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_Perimeter.uasset'
+[2026.09.16-22.23.00:309][596]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.38 sec (total: 3.81 sec)
+[2026.09.16-22.23.00:368][596]LogContentValidation: Display: Starting to validate 2 assets
+[2026.09.16-22.23.00:368][596]LogContentValidation: Enabled validators:
+[2026.09.16-22.23.00:368][596]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.16-22.23.00:368][596]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.16-22.23.00:369][596]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.16-22.23.00:369][596]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.16-22.23.00:369][596]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.16-22.23.00:369][596]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.16-22.23.00:369][596]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField Validating asset
+[2026.09.16-22.23.00:369][596]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Materials/M_Resonant_Perimeter Validating asset
+[2026.09.16-22.23.00:377][596]MaterialEditorStats: Base pass shader: 300 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.09.16-22.23.00:377][596]MaterialEditorStats: Base pass vertex shader: 346 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2026.09.16-22.23.00:377][596]MaterialEditorStats: Texture samplers: 2/16
+[2026.09.16-22.23.00:377][596]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(0)
+[2026.09.16-22.23.00:377][596]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2026.09.16-22.23.00:377][596]MaterialEditorStats: Shader Count: 25
+[2026.09.16-22.23.00:377][596]MaterialEditorStats: Preshaders: 40  (47 param fetches, 67 ops)
+[2026.09.16-22.23.08:549][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2026.09.16-22.23.08:554][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.16-22.23.08:602][ 86]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField] ([2] browsable assets)...
+[2026.09.16-22.23.08:602][ 86]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField]
+[2026.09.16-22.23.08:620][ 86]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField
+[2026.09.16-22.23.08:621][ 86]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_ResonantField4F533A6440E893C648C322A68F433FBE.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField.uasset'
+[2026.09.16-22.23.08:626][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.054 ms (total: 3.88 sec)
+[2026.09.16-22.23.08:684][ 86]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.16-22.23.08:684][ 86]LogContentValidation: Enabled validators:
+[2026.09.16-22.23.08:684][ 86]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.16-22.23.08:684][ 86]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.16-22.23.08:684][ 86]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.16-22.23.08:684][ 86]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.16-22.23.08:684][ 86]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.16-22.23.08:684][ 86]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.16-22.23.08:684][ 86]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField Validating asset
+[2026.09.16-22.24.07:535][339]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.09.16-22.24.07:540][339]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.16-22.24.07:587][339]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField] ([2] browsable assets)...
+[2026.09.16-22.24.07:587][339]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField]
+[2026.09.16-22.24.07:605][339]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField
+[2026.09.16-22.24.07:605][339]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_ResonantFieldCAF6699E411C44116981B5B14CF50BBD.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField.uasset'
+[2026.09.16-22.24.07:613][339]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.047 ms (total: 3.95 sec)
+[2026.09.16-22.24.07:669][339]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.16-22.24.07:669][339]LogContentValidation: Enabled validators:
+[2026.09.16-22.24.07:669][339]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.16-22.24.07:669][339]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.16-22.24.07:669][339]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.16-22.24.07:669][339]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.16-22.24.07:669][339]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.16-22.24.07:669][339]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.16-22.24.07:669][339]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField Validating asset
+[2026.09.16-22.24.23:803][306]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.09.16-22.24.54:936][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.09.16-22.24.54:942][ 50]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.16-22.24.54:986][ 50]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField] ([2] browsable assets)...
+[2026.09.16-22.24.54:986][ 50]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField]
+[2026.09.16-22.24.55:005][ 50]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField
+[2026.09.16-22.24.55:005][ 50]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_ResonantField9C119FDD497639DB47A21A95A16DB0FC.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField.uasset'
+[2026.09.16-22.24.55:012][ 50]LogFileHelpers: InternalPromptForCheckoutAndSave took 70.504 ms (total: 4.02 sec)
+[2026.09.16-22.24.55:052][ 50]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.16-22.24.55:052][ 50]LogContentValidation: Enabled validators:
+[2026.09.16-22.24.55:052][ 50]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.16-22.24.55:052][ 50]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.16-22.24.55:052][ 50]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.16-22.24.55:052][ 50]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.16-22.24.55:052][ 50]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.16-22.24.55:052][ 50]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.16-22.24.55:052][ 50]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField Validating asset
+[2026.09.16-22.25.09:205][637]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.09.16-22.25.09:209][637]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.16-22.25.09:253][637]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField] ([2] browsable assets)...
+[2026.09.16-22.25.09:253][637]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField]
+[2026.09.16-22.25.09:272][637]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField
+[2026.09.16-22.25.09:272][637]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_ResonantField76D48B8A4BED1ADD6E77DEAEF84FBA3C.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField.uasset'
+[2026.09.16-22.25.09:278][637]LogFileHelpers: InternalPromptForCheckoutAndSave took 69.900 ms (total: 4.09 sec)
+[2026.09.16-22.25.09:336][637]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.16-22.25.09:336][637]LogContentValidation: Enabled validators:
+[2026.09.16-22.25.09:336][637]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.16-22.25.09:336][637]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.16-22.25.09:336][637]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.16-22.25.09:336][637]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.16-22.25.09:336][637]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.16-22.25.09:336][637]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.16-22.25.09:336][637]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField Validating asset
+[2026.09.16-22.25.38:316][373]LogShaderCompilers: Display: ================================================
+[2026.09.16-22.25.38:316][373]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.09.16-22.25.38:316][373]LogShaderCompilers: Display: Total job queries 905, among them cache hits 479 (52.93%), DDC hits 341 (37.68%), Duplicates 14 (1.55%)
+[2026.09.16-22.25.38:316][373]LogShaderCompilers: Display: Tracking 412 distinct input hashes that result in 309 distinct outputs (75.00%)
+[2026.09.16-22.25.38:316][373]LogShaderCompilers: Display: RAM used: 183.06 KiB of 3.20 GiB budget. Usage: 0.01%
+[2026.09.16-22.25.38:316][373]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display: Shaders Compiled: 71
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display: Jobs assigned 71, completed 71 (100%)
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display: Average time worker was idle: 2785.06 s
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display: Time job spent in pending queue: average 0.14 s, longest 0.80 s
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display: Job execution time: average 0.40 s, max 0.92 s
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display: Job life time (pending + execution): average 0.53 s, max 1.21
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display: Shader code size: average 8.625 KiB, min 2.695 KiB, max 27.723 KiB
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.93 s
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display: Jobs were issued in 71 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display: Average processing rate: 10.25 jobs/sec
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display: Total thread time: 14.538 s
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display: Total thread preprocess time: 7.063 s
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display: Percentage time preprocessing: 48.58%
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display: Effective parallelization: 2.10 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    5 times, average 0.41 sec, max 0.47 sec, min 0.31 sec)
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    1 times, average 0.32 sec, max 0.32 sec, min 0.32 sec)
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.32 sec, max 0.32 sec, min 0.32 sec)
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.31 sec, max 0.31 sec, min 0.31 sec)
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.29 sec, max 0.29 sec, min 0.29 sec)
+[2026.09.16-22.25.38:317][373]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.09.16-22.25.38:318][373]LogShaderCompilers: Display:                                             FDebugViewModePS - 13.94% of total time (compiled    5 times, average 0.41 sec, max 0.47 sec, min 0.31 sec)
+[2026.09.16-22.25.38:318][373]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.57% of total time (compiled    7 times, average 0.24 sec, max 0.31 sec, min 0.17 sec)
+[2026.09.16-22.25.38:318][373]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.29% of total time (compiled    6 times, average 0.20 sec, max 0.24 sec, min 0.18 sec)
+[2026.09.16-22.25.38:318][373]LogShaderCompilers: Display:                                                  FHitProxyVS - 7.03% of total time (compiled    6 times, average 0.17 sec, max 0.20 sec, min 0.14 sec)
+[2026.09.16-22.25.38:318][373]LogShaderCompilers: Display:                                                  FHitProxyPS - 6.22% of total time (compiled    6 times, average 0.15 sec, max 0.18 sec, min 0.11 sec)
+[2026.09.16-22.25.38:318][373]LogShaderCompilers: Display: === Material stats ===
+[2026.09.16-22.25.38:318][373]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.09.16-22.25.38:318][373]LogShaderCompilers: Display: Materials Translated:    336
+[2026.09.16-22.25.38:318][373]LogShaderCompilers: Display: Material Total Translate Time: 0.25 s
+[2026.09.16-22.25.38:318][373]LogShaderCompilers: Display: Material Translation Only: 0.07 s (30%)
+[2026.09.16-22.25.38:318][373]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.09.16-22.25.38:318][373]LogShaderCompilers: Display: Material Cache Hits: 77 (23%)
+[2026.09.16-22.25.38:318][373]LogShaderCompilers: Display: ================================================
+[2026.09.16-22.25.55:326][375]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.09.16-22.25.55:330][375]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.16-22.25.55:371][375]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField] ([2] browsable assets)...
+[2026.09.16-22.25.55:371][375]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField]
+[2026.09.16-22.25.55:389][375]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField
+[2026.09.16-22.25.55:390][375]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_ResonantFieldF38473104C85B0D4DBBA71A8DB72EE82.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField.uasset'
+[2026.09.16-22.25.55:395][375]LogFileHelpers: InternalPromptForCheckoutAndSave took 64.529 ms (total: 4.16 sec)
+[2026.09.16-22.25.55:453][375]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.16-22.25.55:453][375]LogContentValidation: Enabled validators:
+[2026.09.16-22.25.55:453][375]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.16-22.25.55:453][375]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.16-22.25.55:454][375]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.16-22.25.55:454][375]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.16-22.25.55:454][375]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.16-22.25.55:454][375]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.16-22.25.55:454][375]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField Validating asset
+[2026.09.16-22.26.06:414][ 33]LogEditorTransaction: Undo Align Top
+[2026.09.16-22.26.06:950][ 39]67077_NS_Resonant_ChargeLink_MessageLog: System successfully compiled.
+[2026.09.16-22.26.07:386][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.09.16-22.26.07:391][ 64]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.16-22.26.07:439][ 64]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField] ([2] browsable assets)...
+[2026.09.16-22.26.07:439][ 64]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField]
+[2026.09.16-22.26.07:458][ 64]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField
+[2026.09.16-22.26.07:458][ 64]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_ResonantField981B4CBA4B6D214DFB09F4AF9193E044.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField.uasset'
+[2026.09.16-22.26.07:465][ 64]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.697 ms (total: 4.23 sec)
+[2026.09.16-22.26.07:520][ 64]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.16-22.26.07:520][ 64]LogContentValidation: Enabled validators:
+[2026.09.16-22.26.07:520][ 64]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.16-22.26.07:520][ 64]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.16-22.26.07:520][ 64]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.16-22.26.07:520][ 64]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.16-22.26.07:520][ 64]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.16-22.26.07:520][ 64]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.16-22.26.07:520][ 64]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField Validating asset
+[2026.09.16-22.26.41:754][118]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 22782.763672
+[2026.09.16-22.26.41:937][129]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.16-22.26.41:937][129]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 22782.931641, Update Interval: 328.706329
+[2026.09.16-22.27.28:302][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.09.16-22.27.28:307][889]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.16-22.27.28:356][889]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField] ([2] browsable assets)...
+[2026.09.16-22.27.28:356][889]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField]
+[2026.09.16-22.27.28:374][889]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField
+[2026.09.16-22.27.28:375][889]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_ResonantField529F2F7143421543677D119495570B48.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField.uasset'
+[2026.09.16-22.27.28:380][889]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.199 ms (total: 4.30 sec)
+[2026.09.16-22.27.28:442][889]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.16-22.27.28:443][889]LogContentValidation: Enabled validators:
+[2026.09.16-22.27.28:443][889]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.16-22.27.28:443][889]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.16-22.27.28:443][889]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.16-22.27.28:443][889]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.16-22.27.28:443][889]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.16-22.27.28:443][889]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.16-22.27.28:443][889]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField Validating asset
+[2026.09.16-22.27.29:504][949]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.09.16-22.27.30:684][  6]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.09.16-22.27.30:698][  6]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.09.16-22.27.30:698][  6]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.09.16-22.27.30:709][  6]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011610s)
+[2026.09.16-22.27.30:709][  6]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.011740s)
+[2026.09.16-22.27.30:728][  6]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.09.16-22.27.30:733][  6]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.09.16-22.27.30:734][  6]LogPlayLevel: PIE: World Init took: (0.001268s)
+[2026.09.16-22.27.30:735][  6]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2026.09.16-22.27.30:735][  6]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.09.16-22.27.30:735][  6]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.09.16-22.27.30:735][  6]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.09.16-22.27.30:735][  6]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.09.16-22.27.30:735][  6]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.09.16-22.27.30:735][  6]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.09.16-22.27.30:735][  6]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.09.16-22.27.30:735][  6]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.09.16-22.27.30:735][  6]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.09.16-22.27.30:735][  6]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.09.16-22.27.30:735][  6]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.09.16-22.27.30:737][  6]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.09.16-22.27.30:753][  6]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.09.16-22.27.30:753][  6]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.09.16-22.27.30:753][  6]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.09.16-22.27.30:753][  6]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.09.16-22.27.30:753][  6]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2026.09.16-22.27.30:753][  6]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2026.09.16-22.27.30:755][  6]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2026.09.16-22.27.30:755][  6]LogInit: FAudioDevice initialized with ID 19.
+[2026.09.16-22.27.30:755][  6]LogAudio: Display: Audio Device (ID: 19) registered with world 'StartupMap'.
+[2026.09.16-22.27.30:755][  6]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2026.09.16-22.27.30:755][  6]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2026.09.16-22.27.30:757][  6]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.09.16-22.27.30:763][  6]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.09.16-15.27.30
+[2026.09.16-22.27.30:768][  6]LogWorld: Bringing up level for play took: 0.009908
+[2026.09.16-22.27.30:769][  6]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2026.09.16-22.27.30:770][  6]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.09.16-22.27.30:778][  6]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.09.16-22.27.30:778][  6]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.09.16-22.27.30:778][  6]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.09.16-22.27.30:779][  6]PIE: Server logged in
+[2026.09.16-22.27.30:779][  6]PIE: Play in editor total start time 0.086 seconds.
+[2026.09.16-22.27.33:530][168]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.16-22.27.33:530][168]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.09.16-22.27.33:531][168]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.09.16-22.27.33:533][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.16-22.27.33:536][168]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:537][168]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.27.33:544][168]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.16-22.27.33:561][168]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.09.16-22.27.33:561][168]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2026.09.16-22.27.33:562][168]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2026.09.16-22.27.33:563][168]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2026.09.16-22.27.33:566][168]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.16-22.27.33:571][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.09.16-22.27.33:616][169]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2026.09.16-22.28.04:195][948]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.09.16-22.28.04:200][948]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.16-22.28.04:255][948]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField] ([2] browsable assets)...
+[2026.09.16-22.28.04:256][948]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField]
+[2026.09.16-22.28.04:274][948]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField
+[2026.09.16-22.28.04:275][948]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_ResonantFieldF40282BE44BDE49A49A4C29FA6A8E076.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField.uasset'
+[2026.09.16-22.28.04:280][948]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.205 ms (total: 4.38 sec)
+[2026.09.16-22.28.04:320][948]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.16-22.28.04:320][948]LogContentValidation: Enabled validators:
+[2026.09.16-22.28.04:321][948]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.16-22.28.04:321][948]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.16-22.28.04:321][948]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.16-22.28.04:321][948]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.16-22.28.04:321][948]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.16-22.28.04:321][948]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.16-22.28.04:321][948]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/BP_ResonantField Validating asset
+[2026.09.16-22.28.09:058][229]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.09.16-22.28.11:657][370]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.09.16-22.28.11:672][370]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.09.16-22.28.11:672][370]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.09.16-22.28.11:683][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011692s)
+[2026.09.16-22.28.11:683][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.011842s)
+[2026.09.16-22.28.11:701][370]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.09.16-22.28.11:707][370]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.09.16-22.28.11:708][370]LogPlayLevel: PIE: World Init took: (0.001189s)
+[2026.09.16-22.28.11:708][370]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2026.09.16-22.28.11:708][370]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.09.16-22.28.11:709][370]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.09.16-22.28.11:709][370]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.09.16-22.28.11:709][370]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.09.16-22.28.11:709][370]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.09.16-22.28.11:709][370]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.09.16-22.28.11:709][370]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.09.16-22.28.11:709][370]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.09.16-22.28.11:709][370]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.09.16-22.28.11:709][370]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.09.16-22.28.11:709][370]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.09.16-22.28.11:711][370]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.09.16-22.28.11:726][370]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.09.16-22.28.11:726][370]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.09.16-22.28.11:726][370]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.09.16-22.28.11:726][370]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.09.16-22.28.11:726][370]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2026.09.16-22.28.11:726][370]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2026.09.16-22.28.11:728][370]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2026.09.16-22.28.11:728][370]LogInit: FAudioDevice initialized with ID 20.
+[2026.09.16-22.28.11:728][370]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2026.09.16-22.28.11:728][370]LogAudio: Display: Audio Device (ID: 20) registered with world 'StartupMap'.
+[2026.09.16-22.28.11:729][370]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2026.09.16-22.28.11:730][370]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.09.16-22.28.11:735][370]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.09.16-15.28.11
+[2026.09.16-22.28.11:740][370]LogWorld: Bringing up level for play took: 0.009661
+[2026.09.16-22.28.11:742][370]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2026.09.16-22.28.11:743][370]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.09.16-22.28.11:750][370]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.09.16-22.28.11:750][370]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.09.16-22.28.11:751][370]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.09.16-22.28.11:751][370]PIE: Server logged in
+[2026.09.16-22.28.11:752][370]PIE: Play in editor total start time 0.085 seconds.
+[2026.09.16-22.28.13:997][504]LogBlueprintUserMessages: [BP_ResonantField_C_1] Player entered the Resonant Field
+[2026.09.16-22.28.13:997][504]LogBlueprintUserMessages: [BP_BattleMage_C_0] 1
+[2026.09.16-22.28.16:980][683]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0
+[2026.09.16-22.28.16:980][683]LogBlueprintUserMessages: [BP_ResonantField_C_1] Player has LEFT  the Resonant Field
+[2026.09.16-22.28.16:980][683]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0
+[2026.09.16-22.28.19:282][819]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.16-22.28.19:282][819]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.09.16-22.28.19:282][819]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.09.16-22.28.19:284][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.16-22.28.19:287][819]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.09.16-22.28.19:287][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:287][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:287][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:287][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:287][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:287][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:287][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:288][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:288][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:288][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:288][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:288][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:288][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:288][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:288][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:288][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:288][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:288][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:288][819]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.19:295][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.16-22.28.19:313][819]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.09.16-22.28.19:313][819]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2026.09.16-22.28.19:313][819]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2026.09.16-22.28.19:315][819]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2026.09.16-22.28.19:319][819]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.16-22.28.19:322][819]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.09.16-22.28.19:366][820]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2026.09.16-22.28.19:549][830]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.09.16-22.28.19:559][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.09.16-22.28.19:559][830]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.09.16-22.28.19:571][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011342s)
+[2026.09.16-22.28.19:571][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.011478s)
+[2026.09.16-22.28.19:590][830]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.09.16-22.28.19:592][830]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.09.16-22.28.19:593][830]LogPlayLevel: PIE: World Init took: (0.001247s)
+[2026.09.16-22.28.19:594][830]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2026.09.16-22.28.19:594][830]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.09.16-22.28.19:594][830]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.09.16-22.28.19:594][830]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.09.16-22.28.19:594][830]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.09.16-22.28.19:594][830]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.09.16-22.28.19:594][830]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.09.16-22.28.19:594][830]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.09.16-22.28.19:594][830]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.09.16-22.28.19:594][830]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.09.16-22.28.19:594][830]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.09.16-22.28.19:594][830]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.09.16-22.28.19:596][830]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.09.16-22.28.19:611][830]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.09.16-22.28.19:611][830]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.09.16-22.28.19:612][830]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.09.16-22.28.19:612][830]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.09.16-22.28.19:612][830]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2026.09.16-22.28.19:612][830]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2026.09.16-22.28.19:614][830]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2026.09.16-22.28.19:614][830]LogInit: FAudioDevice initialized with ID 21.
+[2026.09.16-22.28.19:614][830]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2026.09.16-22.28.19:614][830]LogAudio: Display: Audio Device (ID: 21) registered with world 'StartupMap'.
+[2026.09.16-22.28.19:614][830]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2026.09.16-22.28.19:616][830]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.09.16-22.28.19:621][830]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.09.16-15.28.19
+[2026.09.16-22.28.19:626][830]LogWorld: Bringing up level for play took: 0.010379
+[2026.09.16-22.28.19:628][830]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2026.09.16-22.28.19:629][830]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.09.16-22.28.19:637][830]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.09.16-22.28.19:638][830]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.09.16-22.28.19:638][830]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.09.16-22.28.19:638][830]PIE: Server logged in
+[2026.09.16-22.28.19:639][830]PIE: Play in editor total start time 0.081 seconds.
+[2026.09.16-22.28.21:984][970]LogBlueprintUserMessages: [BP_ResonantField_C_1] Player entered the Resonant Field
+[2026.09.16-22.28.21:984][970]LogBlueprintUserMessages: [BP_BattleMage_C_0] 1
+[2026.09.16-22.28.24:972][149]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0
+[2026.09.16-22.28.24:972][149]LogBlueprintUserMessages: [BP_ResonantField_C_1] Player has LEFT  the Resonant Field
+[2026.09.16-22.28.24:972][149]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0
+[2026.09.16-22.28.26:613][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.16-22.28.26:613][246]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.09.16-22.28.26:613][246]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.09.16-22.28.26:615][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.16-22.28.26:617][246]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.09.16-22.28.26:618][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:618][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:618][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:618][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:618][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:618][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:618][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:618][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:618][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:619][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:619][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:619][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:619][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:619][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:619][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:619][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:619][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:619][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:619][246]LogNiagaraEditor: onPieEnd
+[2026.09.16-22.28.26:626][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.16-22.28.26:642][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.16-22.28.26:643][246]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2026.09.16-22.28.26:643][246]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2026.09.16-22.28.26:645][246]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2026.09.16-22.28.26:652][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.09.16-22.28.26:693][247]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2026.09.16-22.33.05:933][544]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23168.343750
+[2026.09.16-22.33.06:934][547]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.16-22.33.06:934][547]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23169.009766, Update Interval: 330.594208
