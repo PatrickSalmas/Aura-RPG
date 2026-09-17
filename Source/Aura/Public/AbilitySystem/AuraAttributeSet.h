@@ -168,6 +168,14 @@ public:
 	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_SpeedBuff, Category="Primary Attributes")
 	FGameplayAttributeData SpeedBuff;
 	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, SpeedBuff);
+	
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_ResonantBarrier, Category = "Vital Attributes")
+	FGameplayAttributeData ResonantBarrier;
+	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, ResonantBarrier);
+
+	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_MaxResonantBarrier, Category = "Vital Attributes")
+	FGameplayAttributeData MaxResonantBarrier;
+	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, MaxResonantBarrier);
 
 	/*
 	 * Meta Attributes
@@ -244,6 +252,12 @@ public:
 	
 	UFUNCTION()
 	void OnRep_SpeedBuff(const FGameplayAttributeData& OldSpeedBuff) const;
+	
+	UFUNCTION()
+	void OnRep_ResonantBarrier(const FGameplayAttributeData& OldResonantBarrier) const;
+
+	UFUNCTION()
+	void OnRep_MaxResonantBarrier(const FGameplayAttributeData& OldMaxResonantBarrier) const;
 
 private:
 	void HandleIncomingDamage(const FEffectProperties& Props);

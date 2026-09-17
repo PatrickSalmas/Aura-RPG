@@ -65,6 +65,11 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	// GameplayTags.DamageTypes.Add(GameplayTags.Damage_Fire);
 
 	/*
+	 * Buffs
+	 */
+	GameplayTags.Buff_ResonantCharge = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Buff.ResonantCharge"), FString("Buff for Resonant Charge"));
+	
+	/*
 	 * Debuffs
 	 */
 	GameplayTags.Debuff_Arcane = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Debuff.Arcane"), FString("Debuff for Arcane Damage"));

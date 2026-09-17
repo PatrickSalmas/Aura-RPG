@@ -6,6 +6,7 @@
 #include "AbilitySystemComponent.h"
 #include "AuraGameplayTags.h"
 #include "AbilitySystem/AuraAbilitySystemComponent.h"
+#include "AbilitySystem/AuraAttributeSet.h"
 #include "AbilitySystem/Debuff/DebuffNiagaraComponent.h"
 #include "Aura/Aura.h"
 #include "AI/AuraAIController.h"
@@ -454,6 +455,20 @@ void AAuraCharacterBase::InitializeDefaultAttributes() const
 	ApplyEffectToSelf(DefaultSecondaryAttributes, 1.f);
 	ApplyEffectToSelf(DefaultVitalAttributes, 1.f);
 	ApplyEffectToSelf(DefaultResistanceAttributes, 1.f);
+	
+	const UAuraAttributeSet* AuraAttributeSet =
+	GetAbilitySystemComponent()->GetSet<UAuraAttributeSet>();
+
+	if (IsValid(AuraAttributeSet))
+	{
+		UE_LOG(
+			LogTemp,
+			Warning,
+			TEXT("%s | ResonantBarrier: %.2f | MaxResonantBarrier: %.2f"),
+			*GetNameSafe(this),
+			AuraAttributeSet->GetResonantBarrier(),
+			AuraAttributeSet->GetMaxResonantBarrier());
+	}
 }
 
 void AAuraCharacterBase::AddCharacterAbilities()

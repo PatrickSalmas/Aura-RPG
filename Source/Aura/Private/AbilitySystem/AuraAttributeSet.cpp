@@ -75,6 +75,8 @@ void UAuraAttributeSet::GetLifetimeReplicatedProps(TArray<class FLifetimePropert
 	// Vital Attributes
 	DOREPLIFETIME_CONDITION_NOTIFY(UAuraAttributeSet, Health, COND_None, REPNOTIFY_Always);
 	DOREPLIFETIME_CONDITION_NOTIFY(UAuraAttributeSet, Mana, COND_None, REPNOTIFY_Always);
+	DOREPLIFETIME_CONDITION_NOTIFY(UAuraAttributeSet, ResonantBarrier, COND_None, REPNOTIFY_Always);
+	DOREPLIFETIME_CONDITION_NOTIFY(UAuraAttributeSet, MaxResonantBarrier, COND_None, REPNOTIFY_Always);
 
 	// Resistance Attributes
 	DOREPLIFETIME_CONDITION_NOTIFY(UAuraAttributeSet, FireResistance, COND_None, REPNOTIFY_Always);
@@ -151,6 +153,25 @@ void UAuraAttributeSet::PostGameplayEffectExecute(const FGameplayEffectModCallba
 	{
 		SetMana(FMath::Clamp(GetMana(), 0.f, GetMaxMana()));
 	}
+	
+	if (Data.EvaluatedData.Attribute == GetResonantBarrierAttribute())
+	{
+		SetResonantBarrier(FMath::Clamp(GetResonantBarrier(),0.f, GetMaxResonantBarrier()));
+	}
+	else if (Data.EvaluatedData.Attribute == GetMaxResonantBarrierAttribute())
+	{
+		SetMaxResonantBarrier(FMath::Max(GetMaxResonantBarrier(),0.f));
+
+		SetResonantBarrier(FMath::Clamp(GetResonantBarrier(),0.f, GetMaxResonantBarrier()));
+	}
+	UE_LOG(
+	LogTemp,
+	Warning,
+	TEXT("%s | ResonantBarrier: %.2f / %.2f"),
+	*GetNameSafe(GetOwningActor()),
+	GetResonantBarrier(),
+	GetMaxResonantBarrier());
+	
 	if (Data.EvaluatedData.Attribute == GetIncomingDamageAttribute())
 	{
 		HandleIncomingDamage(Props);
@@ -847,4 +868,14 @@ void UAuraAttributeSet::OnRep_PhysicalResistance(const FGameplayAttributeData& O
 void UAuraAttributeSet::OnRep_SpeedBuff(const FGameplayAttributeData& OldSpeedBuff) const
 {
 	GAMEPLAYATTRIBUTE_REPNOTIFY(UAuraAttributeSet, SpeedBuff, OldSpeedBuff);
+}
+
+void UAuraAttributeSet::OnRep_ResonantBarrier(const FGameplayAttributeData& OldResonantBarrier) const
+{
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UAuraAttributeSet, ResonantBarrier, OldResonantBarrier);
+}
+
+void UAuraAttributeSet::OnRep_MaxResonantBarrier(const FGameplayAttributeData& OldMaxResonantBarrier) const
+{
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UAuraAttributeSet, MaxResonantBarrier, OldMaxResonantBarrier);
 }
