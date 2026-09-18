@@ -185,60 +185,90 @@ void UAuraAttributeSet::PostGameplayEffectExecute(const FGameplayEffectModCallba
 
 void UAuraAttributeSet::HandleIncomingDamage(const FEffectProperties& Props)
 {
-	const float LocalIncomingDamage = GetIncomingDamage();
-	SetIncomingDamage(0.f);
-	if (LocalIncomingDamage >= 0.f)
-	{
-		const float NewHealth = GetHealth() - LocalIncomingDamage;
-		if (LocalIncomingDamage > 0.f)
-		{
-			SetHealth(FMath::Clamp(NewHealth, 0.f, GetMaxHealth()));
-		}
+    const float LocalIncomingDamage = GetIncomingDamage();
+    SetIncomingDamage(0.f);
 
-		const bool bFatal = NewHealth <= 0.f;
-		if (bFatal)
-		{
-			ICombatInterface* CombatInterface = Cast<ICombatInterface>(Props.TargetAvatarActor);
-			if (CombatInterface)
-			{
-				CombatInterface->Die(UAuraAbilitySystemLibrary::GetDeathImpulse(Props.EffectContextHandle));
-			}
-			SendXPEvent(Props);
-		}
-		else if (UAuraAbilitySystemLibrary::GetShouldHitReact(Props.EffectContextHandle))
-		{
-			if (Props.TargetCharacter->Implements<UCombatInterface>() && !ICombatInterface::Execute_IsBeingShocked(Props.TargetCharacter))
-			{
-				FGameplayTagContainer TagContainer;
-				TagContainer.AddTag(FAuraGameplayTags::Get().Effects_HitReact);
-				Props.TargetASC->TryActivateAbilitiesByTag(TagContainer);
-			}
-		}
+    if (LocalIncomingDamage >= 0.f)
+    {
+        static constexpr float ResonantBarrierAbsorptionPercent = 0.40f;
 
-			
-		const bool bBlock = UAuraAbilitySystemLibrary::IsBlockedHit(Props.EffectContextHandle);
-		const bool bCriticalHit = UAuraAbilitySystemLibrary::IsCriticalHit(Props.EffectContextHandle);
-		ShowFloatingText(Props, LocalIncomingDamage, bBlock, bCriticalHit);
-		
-		const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
-		if (UAuraAbilitySystemLibrary::GetDamageType(Props.EffectContextHandle) == GameplayTags.Damage_ArcaneFire)
-		{
-			bool testVar = false;
-		}
-		
-		if (UAuraAbilitySystemLibrary::IsSuccessfulDebuff(Props.EffectContextHandle))
-		{
-			// Handle Debuff
-			Debuff(Props);
-		}
-		
-		HandleReaction(Props);
-		
-		if (UAuraAbilitySystemLibrary::IsSuccessfulReactiveStatus(Props.EffectContextHandle)) 
-		{
-			ApplyReactiveStatus(Props);
-		}
-	}
+        float RemainingDamage = LocalIncomingDamage;
+        float AbsorbedDamage = 0.f;
+
+        const float CurrentResonantBarrier = GetResonantBarrier();
+
+        if (LocalIncomingDamage > 0.f && CurrentResonantBarrier > 0.f)
+        {
+            const float DesiredAbsorption = LocalIncomingDamage * ResonantBarrierAbsorptionPercent;
+
+            AbsorbedDamage = FMath::Min(DesiredAbsorption, CurrentResonantBarrier);
+            RemainingDamage = FMath::Max(LocalIncomingDamage - AbsorbedDamage, 0.f);
+
+            SetResonantBarrier(FMath::Max(CurrentResonantBarrier - AbsorbedDamage, 0.f));
+
+            UE_LOG(
+                LogTemp,
+                Warning,
+                TEXT("%s | Incoming: %.2f | Absorbed: %.2f | Health Damage: %.2f | Barrier Remaining: %.2f"),
+                *GetNameSafe(Props.TargetAvatarActor),
+                LocalIncomingDamage,
+                AbsorbedDamage,
+                RemainingDamage,
+                GetResonantBarrier());
+        }
+
+        const float NewHealth = GetHealth() - RemainingDamage;
+
+        if (RemainingDamage > 0.f)
+        {
+            SetHealth(FMath::Clamp(NewHealth, 0.f, GetMaxHealth()));
+        }
+
+        const bool bFatal = RemainingDamage > 0.f && NewHealth <= 0.f;
+
+        if (bFatal)
+        {
+            ICombatInterface* CombatInterface = Cast<ICombatInterface>(Props.TargetAvatarActor);
+
+            if (CombatInterface)
+            {
+                CombatInterface->Die(UAuraAbilitySystemLibrary::GetDeathImpulse(Props.EffectContextHandle));
+            }
+
+            SendXPEvent(Props);
+        }
+        else if (RemainingDamage > 0.f && UAuraAbilitySystemLibrary::GetShouldHitReact(Props.EffectContextHandle))
+        {
+            if (Props.TargetCharacter->Implements<UCombatInterface>() && !ICombatInterface::Execute_IsBeingShocked(Props.TargetCharacter))
+            {
+                FGameplayTagContainer TagContainer;
+                TagContainer.AddTag(FAuraGameplayTags::Get().Effects_HitReact);
+                Props.TargetASC->TryActivateAbilitiesByTag(TagContainer);
+            }
+        }
+
+        const bool bBlock = UAuraAbilitySystemLibrary::IsBlockedHit(Props.EffectContextHandle);
+
+        const bool bCriticalHit = UAuraAbilitySystemLibrary::IsCriticalHit(Props.EffectContextHandle);
+
+        ShowFloatingText(
+            Props,
+            RemainingDamage,
+            bBlock,
+            bCriticalHit);
+
+        if (UAuraAbilitySystemLibrary::IsSuccessfulDebuff(Props.EffectContextHandle))
+        {
+            Debuff(Props);
+        }
+
+        HandleReaction(Props);
+
+        if (UAuraAbilitySystemLibrary::IsSuccessfulReactiveStatus(Props.EffectContextHandle))
+        {
+            ApplyReactiveStatus(Props);
+        }
+    }
 }
 
 void UAuraAttributeSet::Debuff(const FEffectProperties& Props)
