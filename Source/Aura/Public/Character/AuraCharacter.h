@@ -11,6 +11,7 @@ class ULevelUpTextComponent;
 class UCameraComponent;
 class USpringArmComponent;
 class UNiagaraComponent;
+struct FOnAttributeChangeData;
 /**
  * 
  */
@@ -80,6 +81,17 @@ public:
 	
 	UPROPERTY(Category="Animations", EditDefaultsOnly, BlueprintReadOnly)
 	UAnimMontage* LightningStepMontage;
+	
+protected:
+	void BindResonantBarrierCallbacks();
+	void HandleResonantBarrierChanged(const FOnAttributeChangeData& Data);
+	void HandleMaxResonantBarrierChanged(const FOnAttributeChangeData& Data);
+
+	UFUNCTION(BlueprintCallable, Category = "Resonant Barrier")
+	void RefreshResonantBarrierVisual();
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "Resonant Barrier")
+	void OnResonantBarrierChanged(float CurrentBarrier, float MaxBarrier);
 
 private:
 
@@ -90,4 +102,6 @@ private:
 
 	UFUNCTION(NetMulticast, Reliable)
 	void MulticastLevelUpParticles() const;
+	
+	bool bResonantBarrierCallbacksBound = false;
 };

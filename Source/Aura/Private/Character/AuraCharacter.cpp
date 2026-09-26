@@ -218,6 +218,54 @@ void AAuraCharacter::OnRep_Burned()
 	}
 }
 
+void AAuraCharacter::BindResonantBarrierCallbacks()
+{
+	if (!IsValid(AbilitySystemComponent) || bResonantBarrierCallbacksBound)
+	{
+		return;
+	}
+
+	AbilitySystemComponent
+		->GetGameplayAttributeValueChangeDelegate(UAuraAttributeSet::GetResonantBarrierAttribute())
+		.AddUObject(this, &AAuraCharacter::HandleResonantBarrierChanged);
+
+	AbilitySystemComponent
+		->GetGameplayAttributeValueChangeDelegate(UAuraAttributeSet::GetMaxResonantBarrierAttribute())
+		.AddUObject(this, &AAuraCharacter::HandleMaxResonantBarrierChanged);
+
+	bResonantBarrierCallbacksBound = true;
+}
+
+void AAuraCharacter::HandleResonantBarrierChanged(const FOnAttributeChangeData& Data)
+{
+	RefreshResonantBarrierVisual();
+}
+
+void AAuraCharacter::HandleMaxResonantBarrierChanged(const FOnAttributeChangeData& Data)
+{
+	RefreshResonantBarrierVisual();
+}
+
+void AAuraCharacter::RefreshResonantBarrierVisual()
+{
+	if (!IsValid(AbilitySystemComponent))
+	{
+		return;
+	}
+
+	const UAuraAttributeSet* AuraAttributeSet =
+		AbilitySystemComponent->GetSet<UAuraAttributeSet>();
+
+	if (!IsValid(AuraAttributeSet))
+	{
+		return;
+	}
+
+	OnResonantBarrierChanged(
+		AuraAttributeSet->GetResonantBarrier(),
+		AuraAttributeSet->GetMaxResonantBarrier());
+}
+
 void AAuraCharacter::InitAbilityActorInfo()
 {
 	AAuraPlayerState* AuraPlayerState = GetPlayerState<AAuraPlayerState>();
@@ -226,6 +274,7 @@ void AAuraCharacter::InitAbilityActorInfo()
 	Cast<UAuraAbilitySystemComponent>(AuraPlayerState->GetAbilitySystemComponent())->AbilityActorInfoSet();
 	AbilitySystemComponent = AuraPlayerState->GetAbilitySystemComponent();
 	AttributeSet = AuraPlayerState->GetAttributeSet();
+	BindResonantBarrierCallbacks();
 	OnASCRegistered.Broadcast(AbilitySystemComponent);
 	AbilitySystemComponent->RegisterGameplayTagEvent(FAuraGameplayTags::Get().Debuff_Stun,
 	                                                 EGameplayTagEventType::NewOrRemoved).AddUObject(
