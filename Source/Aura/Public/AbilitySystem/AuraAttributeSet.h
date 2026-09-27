@@ -42,6 +42,8 @@ struct FEffectProperties
 	AController* TargetController = nullptr;
 	UPROPERTY()
 	ACharacter* TargetCharacter = nullptr;
+	
+	bool bIsResonantReflection = false;
 };
 
 // typedef to specific to the FGameplayAttribute() signature, but TStaticFuncPtr is generic to any signature chosen
@@ -273,4 +275,5 @@ private:
 	void SendXPEvent(const FEffectProperties& Props);
 	bool bTopOffHealth = false;
 	bool bTopOffMana = false;
+	void ApplyResonantReflection(const FEffectProperties& Props, float ReflectedDamage) const;
 };

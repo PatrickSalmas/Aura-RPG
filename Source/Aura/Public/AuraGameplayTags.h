@@ -199,6 +199,10 @@ public:
 
 	FGameplayTag GameplayCue_FireBlast;
 	
+	FGameplayTag Data_ResonantReflectionDamage;
+	
+	FGameplayTag Effects_Damage_ResonantReflection;
+	
 protected:
 
 private:

@@ -18,6 +18,7 @@ class UAuraAbilitySystemComponent;
 class UAbilitySystemComponent;
 class UAttributeSet;
 class UAnimMontage;
+class UGameplayEffect;
 
 UCLASS(Abstract)
 class AURA_API AAuraCharacterBase : public ACharacter, public IAbilitySystemInterface, public ICombatInterface
@@ -126,6 +127,22 @@ public:
 	
 	UFUNCTION(BlueprintImplementableEvent, Category = "FX")
 	void SetUnstableDebuffOverlay(bool isUnstable);
+	
+	
+	TSubclassOf<UGameplayEffect> GetResonantReflectionEffectClass() const
+	{
+		return ResonantReflectionEffectClass;
+	}
+	
+	float GetResonantMitigationRatio() const
+	{
+		return ResonantMitigationRatio;
+	}
+
+	float GetResonantReflectionRatio() const
+	{
+		return ResonantReflectionRatio;
+	}
 	
 protected:
 	// Called when the game starts or when spawned
@@ -285,6 +302,15 @@ protected:
 	TArray<AActor*> AttachedActors;
 	
 	float GetClampedCurrentWalkSpeed();
+	
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Combat|Resonant")
+	TSubclassOf<UGameplayEffect> ResonantReflectionEffectClass;
+	
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Combat|Resonant", meta = (ClampMin = "0.0", ClampMax = "1.0"))
+	float ResonantMitigationRatio = 0.40f;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Combat|Resonant", meta = (ClampMin = "0.0", ClampMax = "1.0"))
+	float ResonantReflectionRatio = 0.50f;
 	
 private:
 	UPROPERTY(EditAnywhere, Category="Abilities")
