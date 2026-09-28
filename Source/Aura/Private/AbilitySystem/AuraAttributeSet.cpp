@@ -199,7 +199,7 @@ void UAuraAttributeSet::HandleIncomingDamage(const FEffectProperties& Props)
         return;
     }
 
-	const AAuraCharacterBase* BarrierOwner = Cast<AAuraCharacterBase>(Props.TargetAvatarActor);
+	AAuraCharacterBase* BarrierOwner = Cast<AAuraCharacterBase>(Props.TargetAvatarActor);
 
 	const float MitigationRatio = IsValid(BarrierOwner) ? BarrierOwner->GetResonantMitigationRatio() : 0.40f;
 
@@ -210,10 +210,19 @@ void UAuraAttributeSet::HandleIncomingDamage(const FEffectProperties& Props)
     const float AbsorbedDamage = FMath::Min(DesiredAbsorption, CurrentBarrier);
     const float RemainingDamage = LocalIncomingDamage - AbsorbedDamage;
 
-    SetResonantBarrier(FMath::Clamp(
-        CurrentBarrier - AbsorbedDamage,
-        0.f,
-        GetMaxResonantBarrier()));
+    SetResonantBarrier(FMath::Clamp(CurrentBarrier - AbsorbedDamage,0.f, GetMaxResonantBarrier()));
+	
+	if (AbsorbedDamage > 0.f)
+	{
+		if (BarrierOwner != nullptr)
+		{
+			const float SafeMaxBarrier = FMath::Max(GetMaxResonantBarrier(), 1.f);
+
+			const float ImpactStrength = FMath::Clamp(AbsorbedDamage / SafeMaxBarrier,0.20f,1.f);
+
+			BarrierOwner->OnResonantBarrierImpact(ImpactStrength, AbsorbedDamage, Props.SourceAvatarActor);
+		}
+	}
 
     if (!Props.bIsResonantReflection && AbsorbedDamage > 0.f)
     {

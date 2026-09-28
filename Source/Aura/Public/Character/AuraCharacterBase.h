@@ -144,6 +144,9 @@ public:
 		return ResonantReflectionRatio;
 	}
 	
+	UFUNCTION(BlueprintImplementableEvent, Category = "Combat|Resonant")
+	void OnResonantBarrierImpact(float ImpactStrength, float AbsorbedDamage, AActor* DamageSource);
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
