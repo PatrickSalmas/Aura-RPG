@@ -2527,3 +2527,499 @@ FPackageName: Unable to identify a valid mount point associated with skipped pac
 [2026.09.29-00.55.54:046][453]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
 [2026.09.29-00.55.54:054][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
 [2026.09.29-00.55.54:087][455]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2026.09.29-00.58.51:410][137]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 372.229889
+[2026.09.29-00.58.52:409][140]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.29-00.58.52:409][140]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 372.895905, Update Interval: 336.016113
+[2026.09.29-01.01.49:619][734]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.09.29-01.02.02:751][511]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.09.29-01.02.07:780][798]LogSlate: Window 'Color Picker' being destroyed
+[2026.09.29-01.02.08:842][848]LogStreaming: Display: FlushAsyncLoading(465): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.29-01.02.34:784][464]LogSlate: Window 'Color Picker' being destroyed
+[2026.09.29-01.02.34:836][466]MaterialEditorStats: Base pass shader without light map: 276 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 3
+Sampler Limit: 32
+
+[2026.09.29-01.02.34:836][466]MaterialEditorStats: Base pass vertex shader: 394 instructions
+Stats: Resources Used: 9
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2026.09.29-01.02.34:837][466]MaterialEditorStats: Texture samplers: 3/16
+[2026.09.29-01.02.34:837][466]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2026.09.29-01.02.34:837][466]MaterialEditorStats: User interpolators: 5/8 Scalars (2/4 Vectors) (TexCoords: 2, Custom: 3)
+[2026.09.29-01.02.34:837][466]MaterialEditorStats: LWC Promote usages (Est.): 1 (VS), 0 (PS), 0 (CS)
+[2026.09.29-01.02.34:837][466]MaterialEditorStats: LWC Demote usages (Est.): 0 (VS), 2 (PS), 0 (CS)
+[2026.09.29-01.02.34:837][466]MaterialEditorStats: LWC Add usages (Est.): 0 (VS), 2 (PS), 0 (CS)
+[2026.09.29-01.02.34:837][466]MaterialEditorStats: LWC Subtract usages (Est.): 1 (VS), 4 (PS), 0 (CS)
+[2026.09.29-01.02.34:837][466]MaterialEditorStats: Shader Count: 6
+[2026.09.29-01.02.34:837][466]MaterialEditorStats: Preshaders: 47  (51 param fetches, 88 ops)
+[2026.09.29-01.02.38:341][669]LogSlate: Window 'Color Picker' being destroyed
+[2026.09.29-01.02.44:242][ 17]LogSlate: Window 'Color Picker' being destroyed
+[2026.09.29-01.02.49:977][356]LogSlate: Window 'Color Picker' being destroyed
+[2026.09.29-01.02.51:127][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2026.09.29-01.02.51:130][424]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.29-01.02.51:183][424]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink] ([1] browsable assets)...
+[2026.09.29-01.02.51:183][424]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink]
+[2026.09.29-01.02.51:203][424]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink
+[2026.09.29-01.02.51:203][424]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/NS_Resonant_ChargeLink847299B94649228AD1F1198676502B1C.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink.uasset'
+[2026.09.29-01.02.51:211][424]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.630 ms (total: 158.685 ms)
+[2026.09.29-01.02.51:249][424]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.29-01.02.51:249][424]LogContentValidation: Enabled validators:
+[2026.09.29-01.02.51:249][424]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.29-01.02.51:249][424]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.29-01.02.51:249][424]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.29-01.02.51:249][424]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.29-01.02.51:249][424]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.29-01.02.51:249][424]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.29-01.02.51:249][424]AssetCheck: /Game/Blueprints/AbilitySystem/Aura/Abilities/Arcane/Resonant/Niagara/NS_Resonant_ChargeLink Validating asset
+[2026.09.29-01.02.52:875][520]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.09.29-01.02.52:886][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.09.29-01.02.52:886][520]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.09.29-01.02.52:898][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011858s)
+[2026.09.29-01.02.52:898][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.012005s)
+[2026.09.29-01.02.52:913][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.09.29-01.02.52:915][520]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.09.29-01.02.52:917][520]LogPlayLevel: PIE: World Init took: (0.001250s)
+[2026.09.29-01.02.52:917][520]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2026.09.29-01.02.52:917][520]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.09.29-01.02.52:917][520]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.09.29-01.02.52:918][520]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.09.29-01.02.52:918][520]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.09.29-01.02.52:918][520]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.09.29-01.02.52:918][520]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.09.29-01.02.52:918][520]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.09.29-01.02.52:918][520]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.09.29-01.02.52:918][520]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.09.29-01.02.52:918][520]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.09.29-01.02.52:918][520]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.09.29-01.02.52:920][520]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.09.29-01.02.52:935][520]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.09.29-01.02.52:935][520]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.09.29-01.02.52:935][520]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.09.29-01.02.52:935][520]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.09.29-01.02.52:936][520]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2026.09.29-01.02.52:936][520]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2026.09.29-01.02.52:937][520]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2026.09.29-01.02.52:937][520]LogInit: FAudioDevice initialized with ID 4.
+[2026.09.29-01.02.52:938][520]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2026.09.29-01.02.52:938][520]LogAudio: Display: Audio Device (ID: 4) registered with world 'StartupMap'.
+[2026.09.29-01.02.52:938][520]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2026.09.29-01.02.52:940][520]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.09.29-01.02.52:945][520]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 60) at 2026.09.28-18.02.52
+[2026.09.29-01.02.52:950][520]LogWorld: Bringing up level for play took: 0.010801
+[2026.09.29-01.02.52:952][520]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2026.09.29-01.02.52:953][520]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.09.29-01.02.52:957][520]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:957][520]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:957][520]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:957][520]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:958][520]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:958][520]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:958][520]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.02.52:958][520]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.02.52:958][520]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.09.29-01.02.52:960][520]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.09.29-01.02.52:960][520]LogTemp: Warning: BP_Goblin_Spear1_C_4 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:960][520]LogTemp: Warning: BP_Goblin_Spear1_C_4 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:960][520]LogTemp: Warning: BP_Goblin_Spear1_C_4 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:960][520]LogTemp: Warning: BP_Goblin_Spear1_C_4 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:961][520]LogTemp: Warning: BP_Goblin_Spear1_C_4 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:961][520]LogTemp: Warning: BP_Goblin_Spear1_C_4 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:961][520]LogTemp: Warning: BP_Goblin_Spear1_C_4 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:961][520]LogTemp: Warning: BP_Goblin_Spear1_C_4 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:961][520]LogTemp: Warning: BP_Goblin_Spear1_C_4 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:961][520]LogTemp: Warning: BP_Goblin_Spear1_C_4 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:961][520]LogTemp: Warning: BP_Goblin_Spear1_C_4 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:961][520]LogTemp: Warning: BP_Goblin_Spear1_C_4 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:961][520]LogTemp: Warning: BP_Goblin_Spear1_C_4 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:961][520]LogTemp: Warning: BP_Goblin_Spear1_C_4 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:961][520]LogTemp: Warning: BP_Goblin_Spear1_C_4 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:961][520]LogTemp: Warning: BP_Goblin_Spear1_C_4 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:961][520]LogTemp: Warning: BP_Goblin_Spear1_C_4 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.02.52:961][520]LogTemp: Warning: BP_Goblin_Spear1_C_4 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.02.52:962][520]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:962][520]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:962][520]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:962][520]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:962][520]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:962][520]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:962][520]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:962][520]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:962][520]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:962][520]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:962][520]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:962][520]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:962][520]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:962][520]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:962][520]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:962][520]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.09.29-01.02.52:962][520]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.02.52:963][520]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.02.52:963][520]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.09.29-01.02.52:963][520]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.09.29-01.02.52:963][520]PIE: Server logged in
+[2026.09.29-01.02.52:964][520]PIE: Play in editor total start time 0.08 seconds.
+[2026.09.29-01.02.55:672][682]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.158114
+[2026.09.29-01.02.55:672][682]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.158114
+[2026.09.29-01.02.55:672][682]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 2.50 / 100.00
+[2026.09.29-01.02.55:922][697]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.223607
+[2026.09.29-01.02.55:923][697]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.223607
+[2026.09.29-01.02.55:923][697]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 5.00 / 100.00
+[2026.09.29-01.02.56:172][712]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.273861
+[2026.09.29-01.02.56:172][712]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.273861
+[2026.09.29-01.02.56:172][712]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 7.50 / 100.00
+[2026.09.29-01.02.56:422][727]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.316228
+[2026.09.29-01.02.56:422][727]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.316228
+[2026.09.29-01.02.56:422][727]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 10.00 / 100.00
+[2026.09.29-01.02.56:672][742]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.353553
+[2026.09.29-01.02.56:672][742]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.353553
+[2026.09.29-01.02.56:672][742]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 12.50 / 100.00
+[2026.09.29-01.02.56:922][757]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.387298
+[2026.09.29-01.02.56:922][757]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.387298
+[2026.09.29-01.02.56:922][757]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 15.00 / 100.00
+[2026.09.29-01.02.57:172][772]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.41833
+[2026.09.29-01.02.57:172][772]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.41833
+[2026.09.29-01.02.57:172][772]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 17.50 / 100.00
+[2026.09.29-01.02.57:422][787]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.447214
+[2026.09.29-01.02.57:422][787]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.447214
+[2026.09.29-01.02.57:422][787]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 20.00 / 100.00
+[2026.09.29-01.02.57:672][802]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.474342
+[2026.09.29-01.02.57:672][802]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.474342
+[2026.09.29-01.02.57:672][802]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 22.50 / 100.00
+[2026.09.29-01.02.57:922][817]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.5
+[2026.09.29-01.02.57:922][817]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.5
+[2026.09.29-01.02.57:922][817]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 25.00 / 100.00
+[2026.09.29-01.02.58:172][832]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.524404
+[2026.09.29-01.02.58:172][832]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.524404
+[2026.09.29-01.02.58:172][832]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 27.50 / 100.00
+[2026.09.29-01.02.58:422][847]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.547723
+[2026.09.29-01.02.58:422][847]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.547723
+[2026.09.29-01.02.58:422][847]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 30.00 / 100.00
+[2026.09.29-01.02.58:672][862]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.570088
+[2026.09.29-01.02.58:672][862]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.570088
+[2026.09.29-01.02.58:672][862]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 32.50 / 100.00
+[2026.09.29-01.02.58:922][877]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.591608
+[2026.09.29-01.02.58:922][877]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.591608
+[2026.09.29-01.02.58:922][877]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 35.00 / 100.00
+[2026.09.29-01.02.59:172][892]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.612372
+[2026.09.29-01.02.59:172][892]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.612372
+[2026.09.29-01.02.59:172][892]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 37.50 / 100.00
+[2026.09.29-01.02.59:422][907]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.632456
+[2026.09.29-01.02.59:422][907]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.632456
+[2026.09.29-01.02.59:422][907]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 40.00 / 100.00
+[2026.09.29-01.02.59:672][922]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.65192
+[2026.09.29-01.02.59:672][922]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.65192
+[2026.09.29-01.02.59:672][922]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 42.50 / 100.00
+[2026.09.29-01.02.59:922][937]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.67082
+[2026.09.29-01.02.59:922][937]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.67082
+[2026.09.29-01.02.59:922][937]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 45.00 / 100.00
+[2026.09.29-01.03.00:172][952]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.689202
+[2026.09.29-01.03.00:172][952]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.689202
+[2026.09.29-01.03.00:172][952]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 47.50 / 100.00
+[2026.09.29-01.03.00:422][967]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.707107
+[2026.09.29-01.03.00:422][967]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.707107
+[2026.09.29-01.03.00:422][967]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 50.00 / 100.00
+[2026.09.29-01.03.00:672][982]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.724569
+[2026.09.29-01.03.00:672][982]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.724569
+[2026.09.29-01.03.00:673][982]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 52.50 / 100.00
+[2026.09.29-01.03.00:922][997]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.74162
+[2026.09.29-01.03.00:922][997]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.74162
+[2026.09.29-01.03.00:922][997]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 55.00 / 100.00
+[2026.09.29-01.03.01:172][ 12]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.758288
+[2026.09.29-01.03.01:172][ 12]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.758288
+[2026.09.29-01.03.01:172][ 12]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 57.50 / 100.00
+[2026.09.29-01.03.01:422][ 27]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.774597
+[2026.09.29-01.03.01:422][ 27]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.774597
+[2026.09.29-01.03.01:422][ 27]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 60.00 / 100.00
+[2026.09.29-01.03.01:672][ 42]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.790569
+[2026.09.29-01.03.01:672][ 42]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.790569
+[2026.09.29-01.03.01:672][ 42]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 62.50 / 100.00
+[2026.09.29-01.03.01:922][ 57]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.806226
+[2026.09.29-01.03.01:922][ 57]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.806226
+[2026.09.29-01.03.01:922][ 57]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 65.00 / 100.00
+[2026.09.29-01.03.02:172][ 72]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.821584
+[2026.09.29-01.03.02:172][ 72]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.821584
+[2026.09.29-01.03.02:172][ 72]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 67.50 / 100.00
+[2026.09.29-01.03.02:422][ 87]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.83666
+[2026.09.29-01.03.02:422][ 87]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.83666
+[2026.09.29-01.03.02:422][ 87]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 70.00 / 100.00
+[2026.09.29-01.03.02:672][102]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.851469
+[2026.09.29-01.03.02:672][102]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.851469
+[2026.09.29-01.03.02:672][102]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 72.50 / 100.00
+[2026.09.29-01.03.02:922][117]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.866025
+[2026.09.29-01.03.02:922][117]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.866025
+[2026.09.29-01.03.02:922][117]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 75.00 / 100.00
+[2026.09.29-01.03.03:172][132]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.880341
+[2026.09.29-01.03.03:172][132]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.880341
+[2026.09.29-01.03.03:172][132]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 77.50 / 100.00
+[2026.09.29-01.03.03:422][147]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.894427
+[2026.09.29-01.03.03:423][147]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.894427
+[2026.09.29-01.03.03:423][147]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 80.00 / 100.00
+[2026.09.29-01.03.03:672][162]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.908295
+[2026.09.29-01.03.03:672][162]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.908295
+[2026.09.29-01.03.03:672][162]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 82.50 / 100.00
+[2026.09.29-01.03.03:922][177]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.921954
+[2026.09.29-01.03.03:922][177]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.921954
+[2026.09.29-01.03.03:922][177]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 85.00 / 100.00
+[2026.09.29-01.03.04:172][192]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.935414
+[2026.09.29-01.03.04:172][192]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.935414
+[2026.09.29-01.03.04:172][192]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 87.50 / 100.00
+[2026.09.29-01.03.04:422][207]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.948683
+[2026.09.29-01.03.04:422][207]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.948683
+[2026.09.29-01.03.04:422][207]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 90.00 / 100.00
+[2026.09.29-01.03.04:672][222]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.961769
+[2026.09.29-01.03.04:672][222]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.961769
+[2026.09.29-01.03.04:672][222]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 92.50 / 100.00
+[2026.09.29-01.03.04:922][237]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.974679
+[2026.09.29-01.03.04:922][237]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.974679
+[2026.09.29-01.03.04:922][237]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 95.00 / 100.00
+[2026.09.29-01.03.05:172][252]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.987421
+[2026.09.29-01.03.05:172][252]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.987421
+[2026.09.29-01.03.05:172][252]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 97.50 / 100.00
+[2026.09.29-01.03.05:422][267]LogBlueprintUserMessages: [BP_BattleMage_C_0] 1.0
+[2026.09.29-01.03.05:422][267]LogBlueprintUserMessages: [BP_BattleMage_C_0] 1.0
+[2026.09.29-01.03.05:422][267]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.05:672][282]LogBlueprintUserMessages: [BP_BattleMage_C_0] Resonant accumulation stopped
+[2026.09.29-01.03.11:423][627]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.11:423][627]LogTemp: Warning: GA_FireBolt_C_0 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.11:604][637]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Abilities/FireBolt/sfx_FireBoltHiss.sfx_FireBoltHiss' node class 'UE.Wave Player.Mono (v1.0)': Interface change detected.
+[2026.09.29-01.03.11:942][658]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.11:942][658]LogTemp: Warning: GA_FireBolt_C_1 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.12:092][667]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Abilities/FireBolt/sfx_FireBolt_Impact.sfx_FireBolt_Impact' node class 'UE.Wave Player.Mono (v1.0)': Interface change detected.
+[2026.09.29-01.03.12:097][667]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.12:464][689]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.12:464][689]LogTemp: Warning: GA_FireBolt_C_2 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.12:631][699]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.12:981][720]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.12:981][720]LogTemp: Warning: GA_FireBolt_C_3 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.13:147][730]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.13:497][751]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.13:497][751]LogTemp: Warning: GA_FireBolt_C_4 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.13:648][760]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.14:014][782]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.14:014][782]LogTemp: Warning: GA_FireBolt_C_5 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.14:181][792]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.14:531][813]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.14:531][813]LogTemp: Warning: GA_FireBolt_C_6 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.14:714][824]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.15:047][844]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.15:047][844]LogTemp: Warning: GA_FireBolt_C_7 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.15:232][855]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.15:564][875]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.15:564][875]LogTemp: Warning: GA_FireBolt_C_8 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.15:731][885]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.16:081][906]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.16:081][906]LogTemp: Warning: GA_FireBolt_C_9 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.16:231][915]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.16:598][937]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.16:598][937]LogTemp: Warning: GA_FireBolt_C_10 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.16:782][948]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.17:115][968]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.17:115][968]LogTemp: Warning: GA_FireBolt_C_11 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.17:281][978]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.17:630][999]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.17:630][999]LogTemp: Warning: GA_FireBolt_C_12 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.17:781][  8]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.18:148][ 30]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.18:148][ 30]LogTemp: Warning: GA_FireBolt_C_13 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.18:315][ 40]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.18:664][ 61]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.18:664][ 61]LogTemp: Warning: GA_FireBolt_C_14 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.18:848][ 72]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.19:181][ 92]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.19:181][ 92]LogTemp: Warning: GA_FireBolt_C_15 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.19:365][103]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.19:697][123]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.19:697][123]LogTemp: Warning: GA_FireBolt_C_16 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.19:864][133]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.20:214][154]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.20:214][154]LogTemp: Warning: GA_FireBolt_C_17 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.20:364][163]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.20:731][185]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.20:731][185]LogTemp: Warning: GA_FireBolt_C_18 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.20:915][196]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.21:247][216]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.21:247][216]LogTemp: Warning: GA_FireBolt_C_19 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.21:415][226]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.21:764][247]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.21:764][247]LogTemp: Warning: GA_FireBolt_C_20 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.21:915][256]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.22:281][278]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.22:282][278]LogTemp: Warning: GA_FireBolt_C_21 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.22:447][288]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.22:798][309]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.22:798][309]LogTemp: Warning: GA_FireBolt_C_22 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.22:981][320]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.23:314][340]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.23:314][340]LogTemp: Warning: GA_FireBolt_C_23 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.23:498][351]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.23:831][371]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.23:831][371]LogTemp: Warning: GA_FireBolt_C_24 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.23:998][381]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.24:347][402]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.24:347][402]LogTemp: Warning: GA_FireBolt_C_25 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.09.29-01.03.24:498][411]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.25:047][444]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.30:832][791]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.30:832][791]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.959679
+[2026.09.29-01.03.30:832][791]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.30:832][791]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.30:833][791]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.30:834][791]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 92.10 / 100.00
+[2026.09.29-01.03.30:834][791]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.949201
+[2026.09.29-01.03.30:834][791]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.30:834][791]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.30:834][791]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.31:815][850]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.09.29-01.03.31:815][850]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.09.29-01.03.31:815][850]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.09.29-01.03.31:831][851]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 90.10 / 100.00
+[2026.09.29-01.03.31:831][851]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.938607
+[2026.09.29-01.03.31:832][851]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.31:832][851]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.31:832][851]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.32:814][910]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.09.29-01.03.32:831][911]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 88.10 / 100.00
+[2026.09.29-01.03.32:831][911]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.927892
+[2026.09.29-01.03.32:831][911]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.32:831][911]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.32:832][911]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.33:814][970]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.09.29-01.03.33:831][971]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 86.10 / 100.00
+[2026.09.29-01.03.33:831][971]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.917051
+[2026.09.29-01.03.33:831][971]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.33:831][971]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.33:832][971]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.34:347][  2]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 84.10 / 100.00
+[2026.09.29-01.03.34:348][  2]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.872907
+[2026.09.29-01.03.34:348][  2]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.34:348][  2]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.34:348][  2]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.34:814][ 30]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.09.29-01.03.34:831][ 31]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 76.20 / 100.00
+[2026.09.29-01.03.34:831][ 31]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.861375
+[2026.09.29-01.03.34:831][ 31]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.34:831][ 31]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.34:832][ 31]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.35:081][ 46]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 74.20 / 100.00
+[2026.09.29-01.03.35:081][ 46]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.814217
+[2026.09.29-01.03.35:081][ 46]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.35:082][ 46]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.35:082][ 46]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.35:331][ 61]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.09.29-01.03.35:331][ 61]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.09.29-01.03.35:731][ 85]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 66.29 / 100.00
+[2026.09.29-01.03.35:731][ 85]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.764155
+[2026.09.29-01.03.35:731][ 85]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.35:731][ 85]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.35:731][ 85]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.35:814][ 90]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.09.29-01.03.35:831][ 91]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 58.39 / 100.00
+[2026.09.29-01.03.35:831][ 91]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.750955
+[2026.09.29-01.03.35:831][ 91]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.35:831][ 91]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.35:832][ 91]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.36:064][105]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.09.29-01.03.36:064][105]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.09.29-01.03.36:714][144]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.09.29-01.03.36:714][144]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.09.29-01.03.36:815][150]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.09.29-01.03.37:064][165]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 56.39 / 100.00
+[2026.09.29-01.03.37:064][165]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.696359
+[2026.09.29-01.03.37:064][165]LogTemp: Warning: BP_Goblin_Spear1_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.09.29-01.03.37:065][165]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.37:065][165]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.09.29-01.03.38:048][224]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.09.29-01.03.38:048][224]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.09.29-01.03.40:287][358]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.714084
+[2026.09.29-01.03.40:287][358]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.714084
+[2026.09.29-01.03.40:287][358]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 50.99 / 100.00
+[2026.09.29-01.03.40:537][373]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.73138
+[2026.09.29-01.03.40:538][373]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.73138
+[2026.09.29-01.03.40:538][373]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 53.49 / 100.00
+[2026.09.29-01.03.40:787][388]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.748275
+[2026.09.29-01.03.40:787][388]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.748275
+[2026.09.29-01.03.40:787][388]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 55.99 / 100.00
+[2026.09.29-01.03.41:037][403]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.764798
+[2026.09.29-01.03.41:037][403]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.764798
+[2026.09.29-01.03.41:038][403]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 58.49 / 100.00
+[2026.09.29-01.03.41:287][418]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.780971
+[2026.09.29-01.03.41:287][418]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.780971
+[2026.09.29-01.03.41:287][418]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 60.99 / 100.00
+[2026.09.29-01.03.41:537][433]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.796816
+[2026.09.29-01.03.41:537][433]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.796816
+[2026.09.29-01.03.41:538][433]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 63.49 / 100.00
+[2026.09.29-01.03.41:787][448]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.812352
+[2026.09.29-01.03.41:787][448]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.812352
+[2026.09.29-01.03.41:787][448]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 65.99 / 100.00
+[2026.09.29-01.03.42:038][463]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.827597
+[2026.09.29-01.03.42:038][463]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.827597
+[2026.09.29-01.03.42:038][463]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 68.49 / 100.00
+[2026.09.29-01.03.42:287][478]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.842565
+[2026.09.29-01.03.42:288][478]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.842565
+[2026.09.29-01.03.42:288][478]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 70.99 / 100.00
+[2026.09.29-01.03.42:537][493]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.857272
+[2026.09.29-01.03.42:537][493]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.857272
+[2026.09.29-01.03.42:537][493]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 73.49 / 100.00
+[2026.09.29-01.03.42:787][508]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.871732
+[2026.09.29-01.03.42:787][508]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.871732
+[2026.09.29-01.03.42:787][508]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 75.99 / 100.00
+[2026.09.29-01.03.43:037][523]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.885955
+[2026.09.29-01.03.43:037][523]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.885955
+[2026.09.29-01.03.43:037][523]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 78.49 / 100.00
+[2026.09.29-01.03.43:288][538]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.899953
+[2026.09.29-01.03.43:288][538]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.899953
+[2026.09.29-01.03.43:288][538]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 80.99 / 100.00
+[2026.09.29-01.03.43:537][553]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.913737
+[2026.09.29-01.03.43:537][553]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.913737
+[2026.09.29-01.03.43:537][553]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 83.49 / 100.00
+[2026.09.29-01.03.43:787][568]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.927317
+[2026.09.29-01.03.43:787][568]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.927317
+[2026.09.29-01.03.43:787][568]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 85.99 / 100.00
+[2026.09.29-01.03.44:037][583]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.9407
+[2026.09.29-01.03.44:037][583]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.9407
+[2026.09.29-01.03.44:038][583]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 88.49 / 100.00
+[2026.09.29-01.03.44:287][598]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.953895
+[2026.09.29-01.03.44:287][598]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.953895
+[2026.09.29-01.03.44:287][598]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 90.99 / 100.00
+[2026.09.29-01.03.44:536][613]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.966911
+[2026.09.29-01.03.44:536][613]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.966911
+[2026.09.29-01.03.44:536][613]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 93.49 / 100.00
+[2026.09.29-01.03.44:787][628]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.979753
+[2026.09.29-01.03.44:787][628]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.979753
+[2026.09.29-01.03.44:788][628]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 95.99 / 100.00
+[2026.09.29-01.03.45:037][643]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.992429
+[2026.09.29-01.03.45:038][643]LogBlueprintUserMessages: [BP_BattleMage_C_0] 0.992429
+[2026.09.29-01.03.45:038][643]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 98.49 / 100.00
+[2026.09.29-01.03.45:287][658]LogBlueprintUserMessages: [BP_BattleMage_C_0] 1.0
+[2026.09.29-01.03.45:287][658]LogBlueprintUserMessages: [BP_BattleMage_C_0] 1.0
+[2026.09.29-01.03.45:287][658]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 100.00 / 100.00
+[2026.09.29-01.03.45:537][673]LogBlueprintUserMessages: [BP_BattleMage_C_0] Resonant accumulation stopped
+[2026.09.29-01.03.49:028][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.29-01.03.49:028][881]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.09.29-01.03.49:029][881]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.09.29-01.03.49:031][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.29-01.03.49:033][881]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.09.29-01.03.49:034][881]LogNiagaraEditor: onPieEnd
+[2026.09.29-01.03.49:034][881]LogNiagaraEditor: onPieEnd
+[2026.09.29-01.03.49:034][881]LogNiagaraEditor: onPieEnd
+[2026.09.29-01.03.49:034][881]LogNiagaraEditor: onPieEnd
+[2026.09.29-01.03.49:034][881]LogNiagaraEditor: onPieEnd
+[2026.09.29-01.03.49:034][881]LogNiagaraEditor: onPieEnd
+[2026.09.29-01.03.49:034][881]LogNiagaraEditor: onPieEnd
+[2026.09.29-01.03.49:034][881]LogNiagaraEditor: onPieEnd
+[2026.09.29-01.03.49:034][881]LogNiagaraEditor: onPieEnd
+[2026.09.29-01.03.49:034][881]LogNiagaraEditor: onPieEnd
+[2026.09.29-01.03.49:040][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.29-01.03.49:055][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.29-01.03.49:056][881]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2026.09.29-01.03.49:056][881]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2026.09.29-01.03.49:058][881]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2026.09.29-01.03.49:065][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.09.29-01.03.49:116][884]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2026.09.29-01.04.31:573][493]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 712.397461
+[2026.09.29-01.04.32:573][496]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.29-01.04.32:573][496]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 713.063782, Update Interval: 352.880646
