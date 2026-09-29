@@ -240,12 +240,12 @@ void AAuraCharacterBase::UnstableTagChanged(const FGameplayTag CallbackTag, int3
 	{
 		UnstableDebuffComponent->SetVariableLinearColor(FName("User.Color"), UnstableColor);
 		UnstableDebuffComponent->Activate();
-		SetUnstableDebuffOverlay(true);
+		HandleUnstableStatus(true);
 	}
 	else
 	{
 		UnstableDebuffComponent->Deactivate();
-		SetUnstableDebuffOverlay(false);
+		HandleUnstableStatus(false);
 	}
 }
 

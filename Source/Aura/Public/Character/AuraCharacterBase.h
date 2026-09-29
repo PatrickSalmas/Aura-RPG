@@ -126,7 +126,7 @@ public:
 	void SetChargedDebuffOverlay(bool isCharged);
 	
 	UFUNCTION(BlueprintImplementableEvent, Category = "FX")
-	void SetUnstableDebuffOverlay(bool isUnstable);
+	void HandleUnstableStatus(bool isUnstable);
 	
 	
 	TSubclassOf<UGameplayEffect> GetResonantReflectionEffectClass() const
