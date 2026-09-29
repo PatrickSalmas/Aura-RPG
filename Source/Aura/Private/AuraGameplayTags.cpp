@@ -282,7 +282,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	 * GameplayCues
 	 */
 	GameplayTags.GameplayCue_FireBlast = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("GameplayCue.FireBlast"), FString("FireBlast GameplayCue tag"));
-	
+	GameplayTags.GameplayCue_Resonant_ReflectionImpact = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("GameplayCue.Resonant.ReflectionImpact"), FString("Resonant ReflectionImpact GameplayCue tag"));
 	
 	GameplayTags.Data_ResonantReflectionDamage = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Data.ResonantReflectionDamage"), FString("Data ResonantReflectionDamage"));
 	

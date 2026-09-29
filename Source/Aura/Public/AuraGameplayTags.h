@@ -198,6 +198,7 @@ public:
 	FGameplayTag Player_Block_CursorTrace;
 
 	FGameplayTag GameplayCue_FireBlast;
+	FGameplayTag GameplayCue_Resonant_ReflectionImpact;
 	
 	FGameplayTag Data_ResonantReflectionDamage;
 	
