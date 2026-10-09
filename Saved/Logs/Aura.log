@@ -3413,3 +3413,387 @@ FPackageName: Unable to identify a valid mount point associated with skipped pac
 [2026.10.09-05.47.26:023][955]LogPlayLevel: Display: Destroying online subsystem :Context_20
 [2026.10.09-05.47.30:937][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
 [2026.10.09-05.47.31:793][619]Cmd: SELECT NONE
+[2026.10.09-05.52.58:077][818]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1760.544922
+[2026.10.09-05.52.59:077][821]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.09-05.52.59:077][821]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1761.211426, Update Interval: 356.605133
+[2026.10.09-05.55.05:827][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.10.09-05.55.05:834][269]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.09-05.55.05:888][269]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Game/BP_EncounterController] ([2] browsable assets)...
+[2026.10.09-05.55.05:888][269]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_EncounterController]
+[2026.10.09-05.55.05:894][269]LogSavePackage: Moving output files for package: /Game/Blueprints/Game/BP_EncounterController
+[2026.10.09-05.55.05:894][269]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EncounterControllerBB12B93B472F834A35017CB9863EFFE1.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Game/BP_EncounterController.uasset'
+[2026.10.09-05.55.05:901][269]LogFileHelpers: InternalPromptForCheckoutAndSave took 66.794 ms (total: 1.77 sec)
+[2026.10.09-05.55.05:934][269]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.09-05.55.05:934][269]LogContentValidation: Enabled validators:
+[2026.10.09-05.55.05:935][269]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.09-05.55.05:935][269]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.09-05.55.05:935][269]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.09-05.55.05:935][269]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.09-05.55.05:935][269]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.09-05.55.05:935][269]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.09-05.55.05:935][269]AssetCheck: /Game/Blueprints/Game/BP_EncounterController Validating asset
+[2026.10.09-05.59.15:823][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.10.09-05.59.15:828][153]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.09-05.59.15:886][153]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Game/BP_EncounterController] ([2] browsable assets)...
+[2026.10.09-05.59.15:886][153]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_EncounterController]
+[2026.10.09-05.59.15:892][153]LogSavePackage: Moving output files for package: /Game/Blueprints/Game/BP_EncounterController
+[2026.10.09-05.59.15:893][153]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EncounterControllerEF88E032418741B297EC8F8A3DC6D7CE.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Game/BP_EncounterController.uasset'
+[2026.10.09-05.59.15:900][153]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.390 ms (total: 1.84 sec)
+[2026.10.09-05.59.15:935][153]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.09-05.59.15:936][153]LogContentValidation: Enabled validators:
+[2026.10.09-05.59.15:936][153]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.09-05.59.15:936][153]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.09-05.59.15:936][153]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.09-05.59.15:936][153]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.09-05.59.15:936][153]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.09-05.59.15:936][153]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.09-05.59.15:936][153]AssetCheck: /Game/Blueprints/Game/BP_EncounterController Validating asset
+[2026.10.09-05.59.23:331][  4]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2026.10.09-05.59.23:339][  4]LogMaterial: Warning: [AssetLog] C:\Program Files\Epic Games\UE_5.5\Engine\Content\EngineMaterials\HighResolutionScreenshotMaskFunction.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	SceneTexture expressions cannot be used in opaque materials except if used with the Single Layer Water shading model.
+
+[2026.10.09-05.59.24:711][134]LogTexture: Display: Building textures: /Game/Niagara/NiagaraSkills/MeteorAttack/4_6_smoke5_vg.4_6_smoke5_vg (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Final
+[2026.10.09-05.59.24:829][134]LogTexture: Display: Building textures: /Game/Textures/Fire_VFXTextures/smoke/2_6_smoke3_vg.2_6_smoke3_vg (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Final
+[2026.10.09-05.59.24:955][134]LogStreaming: Display: FlushAsyncLoading(464): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.09-05.59.24:986][134]LogSkeletalMesh: Building Skeletal Mesh SKM_Shaman...
+[2026.10.09-05.59.25:094][137]LogTexture: Display: Building textures: /Game/Assets/Enemies/Shaman/Materials/Shaman_low_M_Shaman_Body_OcclusionRoughnessMetallic.Shaman_low_M_Shaman_Body_OcclusionRoughnessMetallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2026.10.09-05.59.25:097][137]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2026.10.09-05.59.25:188][138]LogSkeletalMesh: Built Skeletal Mesh [0.20s] /Game/Assets/Enemies/Shaman/SKM_Shaman.SKM_Shaman
+[2026.10.09-05.59.25:205][139]LogTexture: Display: Building textures: /Game/Assets/Enemies/Shaman/Materials/Shaman_low_M_Shaman_Body_Normal.Shaman_low_M_Shaman_Body_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2026.10.09-05.59.25:233][139]LogTexture: Display: Building textures: /Game/Assets/Enemies/Shaman/Materials/Shaman_low_M_Shaman_Body_BaseColor.Shaman_low_M_Shaman_Body_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2026.10.09-05.59.25:363][140]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2026.10.09-05.59.25:465][143]LogTexture: Display: Building textures: /Game/Niagara/NiagaraSkills/HitImpact/3_6_smoke4.3_6_smoke4 (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Final
+[2026.10.09-05.59.25:753][148]LogTexture: Display: Building textures: /Game/Assets/Enemies/Demon/Materials_Red/DemonRed/Demon_low_M_Demon_BaseColor.Demon_low_M_Demon_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Final
+[2026.10.09-05.59.25:934][148]LogTexture: Display: Building textures: /Game/Assets/Enemies/Demon/Materials_Red/DemonRed/Demon_low_M_Demon_OcclusionRoughnessMetallic.Demon_low_M_Demon_OcclusionRoughnessMetallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Final
+[2026.10.09-05.59.26:286][155]LogTexture: Display: Building textures: /Game/Assets/Enemies/Demon/Materials_Red/DemonRed/Demon_low_M_Demon_Normal.Demon_low_M_Demon_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Final
+[2026.10.09-05.59.26:656][176]LogTexture: Display: Building textures: /Game/Assets/Enemies/Demon/Materials_Dark/Demon_low_M_Demon_OcclusionRoughnessMetallic.Demon_low_M_Demon_OcclusionRoughnessMetallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Final
+[2026.10.09-05.59.26:973][183]LogTexture: Display: Building textures: /Game/Assets/Enemies/Demon/Materials_Dark/Demon_low_M_Demon_Normal.Demon_low_M_Demon_Normal (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Final
+[2026.10.09-05.59.27:238][190]LogTexture: Display: Building textures: /Game/Assets/Enemies/Demon/Materials_Dark/Demon_low_M_Demon_BaseColor.Demon_low_M_Demon_BaseColor (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Final
+[2026.10.09-05.59.28:119][286]LogStreaming: Display: FlushAsyncLoading(465): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.09-05.59.28:123][286]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/SpawnSystem/BP_EnemySpawner.BP_EnemySpawner
+[2026.10.09-05.59.28:123][286]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2026.10.09-05.59.49:319][788]LogShaderCompilers: Display: ================================================
+[2026.10.09-05.59.49:319][788]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.09-05.59.49:319][788]LogShaderCompilers: Display: Total job queries 473, among them cache hits 128 (27.06%), DDC hits 319 (67.44%), Duplicates 10 (2.11%)
+[2026.10.09-05.59.49:319][788]LogShaderCompilers: Display: Tracking 335 distinct input hashes that result in 278 distinct outputs (82.99%)
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: RAM used: 167.37 KiB of 3.20 GiB budget. Usage: 0.00%
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: Shaders Compiled: 16
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: Jobs assigned 16, completed 16 (100%)
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: Average time worker was idle: 687.96 s
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.09 s
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: Job execution time: average 0.56 s, max 1.01 s
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: Job life time (pending + execution): average 0.61 s, max 1.02
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: Shader code size: average 7.754 KiB, min 4.336 KiB, max 11.586 KiB
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.15 s
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.03%
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: Jobs were issued in 16 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: Average processing rate: 5.07 jobs/sec
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: Total thread time: 4.165 s
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: Total thread preprocess time: 4.256 s
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: Percentage time preprocessing: 102.17%
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: Effective parallelization: 1.32 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.30 sec, max 0.37 sec, min 0.24 sec)
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display:                                                FAnisotropyPS (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 0.25 sec, max 0.25 sec, min 0.25 sec)
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    2 times, average 0.21 sec, max 0.25 sec, min 0.16 sec)
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 0.21 sec, max 0.21 sec, min 0.21 sec)
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 36.17% of total time (compiled    5 times, average 0.30 sec, max 0.37 sec, min 0.24 sec)
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.35% of total time (compiled    5 times, average 0.19 sec, max 0.29 sec, min 0.15 sec)
+[2026.10.09-05.59.49:320][788]LogShaderCompilers: Display:                                                 FLumenCardPS - 9.93% of total time (compiled    2 times, average 0.21 sec, max 0.25 sec, min 0.16 sec)
+[2026.10.09-05.59.49:321][788]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.24% of total time (compiled    2 times, average 0.19 sec, max 0.20 sec, min 0.19 sec)
+[2026.10.09-05.59.49:321][788]LogShaderCompilers: Display:                                                FAnisotropyPS - 6.32% of total time (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2026.10.09-05.59.49:321][788]LogShaderCompilers: Display: === Material stats ===
+[2026.10.09-05.59.49:321][788]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.09-05.59.49:321][788]LogShaderCompilers: Display: Materials Translated:    243
+[2026.10.09-05.59.49:321][788]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2026.10.09-05.59.49:321][788]LogShaderCompilers: Display: Material Translation Only: 0.05 s (44%)
+[2026.10.09-05.59.49:321][788]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (3%)
+[2026.10.09-05.59.49:321][788]LogShaderCompilers: Display: Material Cache Hits: 99 (41%)
+[2026.10.09-05.59.49:321][788]LogShaderCompilers: Display: ================================================
+[2026.10.09-05.59.50:713][955]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2173.152344
+[2026.10.09-05.59.50:855][972]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.09-05.59.50:855][972]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2173.285645, Update Interval: 353.704651
+[2026.10.09-06.06.19:937][188]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2562.343262
+[2026.10.09-06.06.20:078][205]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.09-06.06.20:078][205]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2562.476074, Update Interval: 327.353119
+[2026.10.09-06.09.57:735][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2026.10.09-06.09.57:740][658]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.09-06.09.57:800][658]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Game/BP_EncounterController] ([2] browsable assets)...
+[2026.10.09-06.09.57:800][658]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_EncounterController]
+[2026.10.09-06.09.57:808][658]LogSavePackage: Moving output files for package: /Game/Blueprints/Game/BP_EncounterController
+[2026.10.09-06.09.57:809][658]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EncounterController9CEA3C8648DC92E658223FAC807B1D62.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Game/BP_EncounterController.uasset'
+[2026.10.09-06.09.57:815][658]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.793 ms (total: 1.92 sec)
+[2026.10.09-06.09.57:865][658]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.09-06.09.57:865][658]LogContentValidation: Enabled validators:
+[2026.10.09-06.09.57:865][658]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.09-06.09.57:866][658]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.09-06.09.57:866][658]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.09-06.09.57:866][658]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.09-06.09.57:866][658]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.09-06.09.57:866][658]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.09-06.09.57:866][658]AssetCheck: /Game/Blueprints/Game/BP_EncounterController Validating asset
+[2026.10.09-06.10.00:383][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.10.09-06.10.31:400][803]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.09-06.10.32:036][875]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.10.09-06.10.32:041][875]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.09-06.10.32:100][875]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Game/BP_EncounterController] ([2] browsable assets)...
+[2026.10.09-06.10.32:100][875]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_EncounterController]
+[2026.10.09-06.10.32:107][875]LogSavePackage: Moving output files for package: /Game/Blueprints/Game/BP_EncounterController
+[2026.10.09-06.10.32:107][875]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EncounterControllerFBA374784D2F71AEA8AD91B313551B08.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Game/BP_EncounterController.uasset'
+[2026.10.09-06.10.32:113][875]LogFileHelpers: InternalPromptForCheckoutAndSave took 71.442 ms (total: 1.99 sec)
+[2026.10.09-06.10.32:165][875]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.09-06.10.32:165][875]LogContentValidation: Enabled validators:
+[2026.10.09-06.10.32:165][875]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.09-06.10.32:165][875]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.09-06.10.32:165][875]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.09-06.10.32:165][875]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.09-06.10.32:165][875]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.09-06.10.32:165][875]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.09-06.10.32:165][875]AssetCheck: /Game/Blueprints/Game/BP_EncounterController Validating asset
+[2026.10.09-06.10.32:844][949]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.10.09-06.10.33:891][ 54]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.09-06.10.33:904][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.09-06.10.33:904][ 54]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.09-06.10.33:909][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005543s)
+[2026.10.09-06.10.33:909][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Graybox_Run.L_Graybox_Run to /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run (0.005661s)
+[2026.10.09-06.10.33:926][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.10.09-06.10.33:931][ 54]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Graybox_Run
+[2026.10.09-06.10.33:933][ 54]LogPlayLevel: PIE: World Init took: (0.001334s)
+[2026.10.09-06.10.33:933][ 54]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2026.10.09-06.10.33:933][ 54]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.09-06.10.33:933][ 54]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.09-06.10.33:933][ 54]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.09-06.10.33:933][ 54]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.09-06.10.33:933][ 54]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.09-06.10.33:933][ 54]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.09-06.10.33:933][ 54]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.09-06.10.33:933][ 54]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.09-06.10.33:934][ 54]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.09-06.10.33:934][ 54]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.09-06.10.33:934][ 54]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.09-06.10.33:936][ 54]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.09-06.10.33:954][ 54]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.09-06.10.33:954][ 54]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.09-06.10.33:954][ 54]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.09-06.10.33:954][ 54]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.09-06.10.33:955][ 54]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2026.10.09-06.10.33:955][ 54]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2026.10.09-06.10.33:957][ 54]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2026.10.09-06.10.33:957][ 54]LogInit: FAudioDevice initialized with ID 11.
+[2026.10.09-06.10.33:957][ 54]LogAudio: Display: Audio Device (ID: 11) registered with world 'L_Graybox_Run'.
+[2026.10.09-06.10.33:957][ 54]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2026.10.09-06.10.33:957][ 54]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2026.10.09-06.10.33:959][ 54]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.09-06.10.33:960][ 54]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run up for play (max tick rate 0) at 2026.10.08-23.10.33
+[2026.10.09-06.10.33:961][ 54]LogWorld: Bringing up level for play took: 0.001814
+[2026.10.09-06.10.33:962][ 54]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2026.10.09-06.10.33:964][ 54]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.09-06.10.33:970][ 54]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.33:970][ 54]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.33:970][ 54]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.33:970][ 54]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.33:970][ 54]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.33:970][ 54]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.33:970][ 54]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.33:970][ 54]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.33:970][ 54]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.09-06.10.33:972][ 54]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.09-06.10.33:972][ 54]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.09-06.10.33:972][ 54]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.09-06.10.33:972][ 54]PIE: Server logged in
+[2026.10.09-06.10.33:973][ 54]PIE: Play in editor total start time 0.073 seconds.
+[2026.10.09-06.10.35:008][175]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.38:794][628]LogBlueprintUserMessages: [BP_EncounterController_C_1] Encounter Activated
+[2026.10.09-06.10.38:797][628]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:797][628]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:797][628]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:797][628]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:797][628]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:797][628]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:797][628]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:797][628]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:797][628]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:797][628]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:797][628]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:797][628]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:797][628]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:797][628]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:797][628]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:797][628]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:798][628]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.38:798][628]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.38:799][628]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:799][628]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:799][628]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:799][628]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:799][628]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:800][628]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:800][628]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:800][628]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:800][628]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:800][628]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:800][628]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:800][628]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:800][628]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:800][628]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:800][628]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:800][628]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:800][628]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.38:800][628]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.38:802][628]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:802][628]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:802][628]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:802][628]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:802][628]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:802][628]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:802][628]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:802][628]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:802][628]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:802][628]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:802][628]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:802][628]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:802][628]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:802][628]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:802][628]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:803][628]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.10.38:803][628]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.38:803][628]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.41:744][981]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.41:744][981]LogTemp: Warning: GA_FireBolt_C_0 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.09-06.10.42:277][ 45]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.42:277][ 45]LogTemp: Warning: GA_FireBolt_C_1 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.09-06.10.43:652][210]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.43:653][210]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.10.43:654][210]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.43:654][210]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.10.44:178][273]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.44:178][273]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.10.44:178][273]LogTemp: Warning: Reaction depth=1 Target=BP_UndeadGoblin_C_2 Status=ReactiveStatus.Burning NumRemoved=1 RemainingCount=0 Reaction=Reaction.FireOnBurning
+[2026.10.09-06.10.44:179][273]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.44:179][273]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.44:179][273]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.44:179][273]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.44:179][273]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.44:179][273]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.44:180][273]LogTemp: Warning: HandleReaction entered. Depth: 2
+[2026.10.09-06.10.44:645][329]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.10.44:645][329]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.10.45:169][392]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.10.45:169][392]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.10.47:061][619]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.47:361][655]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.47:361][655]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.10.47:670][692]LogBlueprintUserMessages: [GA_ChargeAttack_C_0] Activating Charge Attack
+[2026.10.09-06.10.47:994][731]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 247
+[2026.10.09-06.10.47:994][731]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 261
+[2026.10.09-06.10.48:353][774]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.10.49:362][895]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.49:362][895]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.10.50:244][  1]LogBlueprintUserMessages: [GA_ChargeAttack_C_0] Activating Charge Attack
+[2026.10.09-06.10.50:569][ 40]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 246
+[2026.10.09-06.10.50:570][ 40]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 260
+[2026.10.09-06.10.50:570][ 40]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 265
+[2026.10.09-06.10.51:362][135]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.51:362][135]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.10.52:728][299]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.53:228][359]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.53:228][359]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.10.53:229][359]LogTemp: Warning: Reaction depth=1 Target=BP_UndeadGoblin_C_0 Status=ReactiveStatus.Charged NumRemoved=1 RemainingCount=0 Reaction=Reaction.LightningOnCharged
+[2026.10.09-06.10.53:229][359]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.53:229][359]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 247
+[2026.10.09-06.10.53:229][359]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 261
+[2026.10.09-06.10.53:229][359]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 273
+[2026.10.09-06.10.53:229][359]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 274
+[2026.10.09-06.10.53:229][359]LogTemp: Warning: HandleReaction entered. Depth: 2
+[2026.10.09-06.10.53:230][359]LogBlueprintUserMessages: Warning: SetTimer passed a function (StopNS) that expects parameters.
+[2026.10.09-06.10.54:220][478]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.10.54:220][478]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.10.54:595][523]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.54:970][568]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.54:971][568]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.54:971][568]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.54:971][568]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.54:971][568]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.54:971][568]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.54:972][568]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.10.54:972][568]LogTemp: Warning: Reaction depth=1 Target=BP_UndeadGoblin_C_0 Status=ReactiveStatus.Charged NumRemoved=1 RemainingCount=0 Reaction=Reaction.LightningOnCharged
+[2026.10.09-06.10.54:972][568]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.54:972][568]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.54:972][568]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.54:972][568]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.54:973][568]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.54:973][568]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.54:973][568]LogTemp: Warning: HandleReaction entered. Depth: 2
+[2026.10.09-06.10.54:973][568]LogBlueprintUserMessages: Warning: SetTimer passed a function (StopNS) that expects parameters.
+[2026.10.09-06.10.55:961][687]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.10.55:962][687]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.10.57:887][917]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.57:984][929]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.58:084][941]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.58:183][953]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.58:283][965]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.58:384][977]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.58:483][989]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.58:583][  1]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.58:683][ 13]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.58:783][ 25]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.58:884][ 37]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.58:984][ 49]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.59:083][ 61]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.59:184][ 73]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.59:283][ 85]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.59:383][ 97]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.59:484][109]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.59:583][121]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.59:684][133]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.59:783][145]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.59:883][157]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.10.59:976][168]LogBlueprintUserMessages: [BP_EncounterController_C_1] Encounter Completed
+[2026.10.09-06.10.59:983][169]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.11.00:083][181]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.11.00:183][193]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.11.00:283][205]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.11.00:383][217]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.11.00:483][229]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.11.00:582][241]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.11.00:683][253]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.11.00:784][265]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.11.00:883][277]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.11.05:817][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.09-06.11.05:817][861]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.09-06.11.05:817][861]LogWorld: UWorld::CleanupWorld for L_Graybox_Run, bSessionEnded=true, bCleanupResources=true
+[2026.10.09-06.11.05:818][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.09-06.11.05:820][861]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:821][861]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.11.05:827][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.09-06.11.05:843][861]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.09-06.11.05:843][861]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2026.10.09-06.11.05:843][861]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2026.10.09-06.11.05:845][861]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2026.10.09-06.11.05:848][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.09-06.11.05:851][861]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.10.09-06.11.05:871][862]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2026.10.09-06.12.45:692][606]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2948.042969
+[2026.10.09-06.12.46:691][609]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.09-06.12.46:691][609]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2948.709717, Update Interval: 328.570831
