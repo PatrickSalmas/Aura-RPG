@@ -3797,3 +3797,245 @@ FPackageName: Unable to identify a valid mount point associated with skipped pac
 [2026.10.09-06.12.45:692][606]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2948.042969
 [2026.10.09-06.12.46:691][609]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.10.09-06.12.46:691][609]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2948.709717, Update Interval: 328.570831
+[2026.10.09-06.15.45:411][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.10.09-06.15.45:415][658]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.09-06.15.45:464][658]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Game/BP_EncounterController] ([2] browsable assets)...
+[2026.10.09-06.15.45:464][658]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_EncounterController]
+[2026.10.09-06.15.45:472][658]LogSavePackage: Moving output files for package: /Game/Blueprints/Game/BP_EncounterController
+[2026.10.09-06.15.45:473][658]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EncounterController99F05B0F40851D122856C687633827E5.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Game/BP_EncounterController.uasset'
+[2026.10.09-06.15.45:478][658]LogFileHelpers: InternalPromptForCheckoutAndSave took 63.398 ms (total: 2.05 sec)
+[2026.10.09-06.15.45:529][658]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.09-06.15.45:529][658]LogContentValidation: Enabled validators:
+[2026.10.09-06.15.45:529][658]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.09-06.15.45:529][658]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.09-06.15.45:530][658]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.09-06.15.45:530][658]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.09-06.15.45:530][658]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.09-06.15.45:530][658]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.09-06.15.45:530][658]AssetCheck: /Game/Blueprints/Game/BP_EncounterController Validating asset
+[2026.10.09-06.16.22:691][105]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.10.09-06.16.23:906][236]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.09-06.16.23:919][236]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.09-06.16.23:919][236]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.09-06.16.23:924][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005319s)
+[2026.10.09-06.16.23:924][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Graybox_Run.L_Graybox_Run to /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run (0.005452s)
+[2026.10.09-06.16.23:939][236]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.10.09-06.16.23:943][236]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Graybox_Run
+[2026.10.09-06.16.23:944][236]LogPlayLevel: PIE: World Init took: (0.001204s)
+[2026.10.09-06.16.23:944][236]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2026.10.09-06.16.23:944][236]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.09-06.16.23:944][236]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.09-06.16.23:945][236]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.09-06.16.23:945][236]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.09-06.16.23:945][236]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.09-06.16.23:945][236]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.09-06.16.23:945][236]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.09-06.16.23:945][236]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.09-06.16.23:945][236]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.09-06.16.23:945][236]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.09-06.16.23:945][236]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.09-06.16.23:947][236]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.09-06.16.23:962][236]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.09-06.16.23:962][236]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.09-06.16.23:962][236]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.09-06.16.23:962][236]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.09-06.16.23:962][236]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2026.10.09-06.16.23:963][236]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2026.10.09-06.16.23:965][236]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2026.10.09-06.16.23:965][236]LogInit: FAudioDevice initialized with ID 12.
+[2026.10.09-06.16.23:965][236]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2026.10.09-06.16.23:965][236]LogAudio: Display: Audio Device (ID: 12) registered with world 'L_Graybox_Run'.
+[2026.10.09-06.16.23:965][236]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2026.10.09-06.16.23:967][236]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.09-06.16.23:968][236]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run up for play (max tick rate 0) at 2026.10.08-23.16.23
+[2026.10.09-06.16.23:969][236]LogWorld: Bringing up level for play took: 0.001725
+[2026.10.09-06.16.23:970][236]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2026.10.09-06.16.23:971][236]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.09-06.16.23:977][236]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.23:977][236]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.23:977][236]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.23:977][236]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.23:977][236]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.23:977][236]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.23:977][236]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.23:977][236]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.23:977][236]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.09-06.16.23:979][236]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.09-06.16.23:979][236]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.09-06.16.23:979][236]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.09-06.16.23:980][236]PIE: Server logged in
+[2026.10.09-06.16.23:981][236]PIE: Play in editor total start time 0.066 seconds.
+[2026.10.09-06.16.25:323][394]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.25:648][433]LogBlueprintUserMessages: [BP_EncounterController_C_1] Encounter Activated
+[2026.10.09-06.16.25:651][433]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:651][433]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:651][433]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:651][433]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:651][433]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:651][433]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:651][433]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:651][433]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:651][433]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:651][433]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:651][433]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:651][433]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:651][433]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:651][433]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:652][433]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:652][433]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:652][433]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.25:652][433]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.25:653][433]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:653][433]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:654][433]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:654][433]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:654][433]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:654][433]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:654][433]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:654][433]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:654][433]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:654][433]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:654][433]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:654][433]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:654][433]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:654][433]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:654][433]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:654][433]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:654][433]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.25:654][433]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.25:656][433]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:656][433]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:656][433]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:656][433]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:656][433]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:656][433]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:656][433]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:656][433]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:656][433]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:656][433]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:657][433]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:657][433]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:657][433]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:657][433]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:657][433]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:657][433]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.16.25:657][433]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.25:657][433]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.32:185][216]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.32:411][242]LogTemp: Warning: Expanding AOE hit: BP_UndeadGoblin_C_2
+[2026.10.09-06.16.32:412][242]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.32:412][242]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.16.33:404][361]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.16.33:704][397]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.33:704][397]LogTemp: Warning: GA_FireBolt_C_0 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.09-06.16.34:254][463]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.34:254][463]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.16.35:245][582]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.16.35:271][585]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.35:271][585]LogTemp: Warning: GA_FireBolt_C_1 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.09-06.16.36:104][685]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.36:105][685]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.36:105][685]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.36:105][685]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.36:105][685]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.36:105][685]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.36:106][685]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.16.37:096][804]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.16.37:396][840]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.37:396][840]LogTemp: Warning: GA_FireBolt_C_2 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.09-06.16.37:472][849]LogBlueprintUserMessages: [GA_ChargeAttack_C_0] Activating Charge Attack
+[2026.10.09-06.16.37:796][888]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 286
+[2026.10.09-06.16.37:796][888]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 298
+[2026.10.09-06.16.38:371][957]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.38:372][957]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.16.38:373][957]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.38:373][957]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.16.39:270][ 65]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.39:270][ 65]LogTemp: Warning: GA_FireBolt_C_3 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.09-06.16.39:363][ 76]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.16.39:363][ 76]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.16.39:371][ 77]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.39:371][ 77]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.16.39:771][125]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.39:771][125]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.16.40:363][196]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.16.40:371][197]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.40:371][197]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.16.40:763][244]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.16.41:337][313]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.41:362][316]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.16.41:371][317]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.41:371][317]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.16.42:046][398]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.42:046][398]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.16.42:046][398]LogTemp: Warning: Reaction depth=1 Target=BP_UndeadGoblin_C_1 Status=ReactiveStatus.Burning NumRemoved=1 RemainingCount=0 Reaction=Reaction.LightningOnBurning
+[2026.10.09-06.16.42:048][398]LogTemp: Warning: Expanding AOE hit: BP_UndeadGoblin_C_1
+[2026.10.09-06.16.42:048][398]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.42:048][398]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.16.42:048][398]LogTemp: Warning: Reaction depth=1 Target=BP_UndeadGoblin_C_1 Status=ReactiveStatus.Charged NumRemoved=1 RemainingCount=0 Reaction=Reaction.LightningOnCharged
+[2026.10.09-06.16.42:362][436]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.16.42:829][492]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.42:829][492]LogTemp: Warning: GA_FireBolt_C_4 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.09-06.16.43:038][517]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.16.43:329][552]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.43:329][552]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.16.44:320][671]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.16.44:538][697]LogBlueprintUserMessages: [GA_ChargeAttack_C_0] Activating Charge Attack
+[2026.10.09-06.16.44:863][736]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 287
+[2026.10.09-06.16.44:863][736]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 311
+[2026.10.09-06.16.44:863][736]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 316
+[2026.10.09-06.16.47:796][ 88]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 286
+[2026.10.09-06.16.47:796][ 88]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 298
+[2026.10.09-06.16.54:339][873]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.54:339][873]LogTemp: Warning: GA_FireBolt_C_5 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.09-06.16.55:453][  5]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.55:453][  5]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.16.56:252][101]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.56:252][101]LogTemp: Warning: GA_FireBolt_C_6 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.09-06.16.56:435][123]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.16.56:777][164]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.56:777][164]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.16.57:527][254]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.57:527][254]LogTemp: Warning: GA_FireBolt_C_7 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.09-06.16.57:768][283]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.16.57:852][293]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.57:852][293]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.57:852][293]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.57:852][293]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.57:852][293]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.57:853][293]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.16.57:853][293]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.16.58:845][412]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.17.02:854][893]LogBlueprintUserMessages: [BP_EncounterController_C_1] Encounter Completed
+[2026.10.09-06.17.08:252][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.09-06.17.08:253][537]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.09-06.17.08:253][537]LogWorld: UWorld::CleanupWorld for L_Graybox_Run, bSessionEnded=true, bCleanupResources=true
+[2026.10.09-06.17.08:253][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.09-06.17.08:256][537]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.09-06.17.08:256][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:256][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:256][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:256][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:257][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:257][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:257][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:257][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:257][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:257][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:257][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:257][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:257][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:257][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:257][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:257][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:257][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:257][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:257][537]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.17.08:264][537]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.09-06.17.08:280][537]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.09-06.17.08:280][537]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2026.10.09-06.17.08:280][537]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2026.10.09-06.17.08:282][537]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2026.10.09-06.17.08:285][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.09-06.17.08:287][537]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.10.09-06.17.08:331][541]LogPlayLevel: Display: Destroying online subsystem :Context_26
