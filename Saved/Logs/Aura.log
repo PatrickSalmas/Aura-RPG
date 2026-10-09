@@ -4039,3 +4039,474 @@ FPackageName: Unable to identify a valid mount point associated with skipped pac
 [2026.10.09-06.17.08:285][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2026.10.09-06.17.08:287][537]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
 [2026.10.09-06.17.08:331][541]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2026.10.09-06.18.53:850][608]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3316.188477
+[2026.10.09-06.18.54:850][611]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.09-06.18.54:850][611]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3316.855225, Update Interval: 355.090790
+[2026.10.09-06.23.44:609][872]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.10.09-06.23.44:617][872]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.10.09-06.23.44:625][872]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.10.09-06.23.44:635][873]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.10.09-06.23.53:962][993]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_EncounterSpawnPoint
+[2026.10.09-06.23.53:969][993]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.10.09-06.23.55:215][138]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.10.09-06.23.55:222][138]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.09-06.23.55:280][138]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Game/BP_EncounterSpawnPoint] ([2] browsable assets)...
+[2026.10.09-06.23.55:280][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_EncounterSpawnPoint]
+[2026.10.09-06.23.55:284][138]LogSavePackage: Moving output files for package: /Game/Blueprints/Game/BP_EncounterSpawnPoint
+[2026.10.09-06.23.55:284][138]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EncounterSpawnPoint048734CC4CDA9705D767E18C3F06AD3D.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Game/BP_EncounterSpawnPoint.uasset'
+[2026.10.09-06.23.55:293][138]LogFileHelpers: InternalPromptForCheckoutAndSave took 70.640 ms (total: 2.12 sec)
+[2026.10.09-06.23.55:329][138]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.09-06.23.55:329][138]LogContentValidation: Enabled validators:
+[2026.10.09-06.23.55:329][138]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.09-06.23.55:329][138]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.09-06.23.55:329][138]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.09-06.23.55:329][138]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.09-06.23.55:329][138]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.09-06.23.55:329][138]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.09-06.23.55:330][138]AssetCheck: /Game/Blueprints/Game/BP_EncounterSpawnPoint Validating asset
+[2026.10.09-06.23.56:172][237]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Game/BP_EncounterSpawnPoint.BP_EncounterSpawnPoint
+[2026.10.09-06.23.56:172][237]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2026.10.09-06.23.56:593][245]LogTexture: Display: Building textures: /Game/Assets/Enemies/Goblin/Slingshot/Materials/SlingshotRock/SlingshotRock_low_DefaultMaterial_BaseColor.SlingshotRock_low_DefaultMaterial_BaseColor (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Final
+[2026.10.09-06.23.56:610][245]LogTexture: Display: Building textures: /Game/Assets/Enemies/Goblin/Slingshot/Materials/SlingshotRock/SlingshotRock_low_DefaultMaterial_Normal.SlingshotRock_low_DefaultMaterial_Normal (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 82.499988 MB), EncodeSpeed: Final
+[2026.10.09-06.23.56:624][245]LogTexture: Display: Building textures: /Game/Assets/Enemies/Goblin/Slingshot/Materials/SlingshotRock/SlingshotRock_low_DefaultMaterial_OcclusionRoughnessMetallic.SlingshotRock_low_DefaultMaterial_OcclusionRoughnessMetallic (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Final
+[2026.10.09-06.25.12:723][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.10.09-06.25.12:728][285]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.09-06.25.12:763][285]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Game/BP_EncounterSpawnPoint] ([2] browsable assets)...
+[2026.10.09-06.25.12:764][285]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_EncounterSpawnPoint]
+[2026.10.09-06.25.12:766][285]LogSavePackage: Moving output files for package: /Game/Blueprints/Game/BP_EncounterSpawnPoint
+[2026.10.09-06.25.12:766][285]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EncounterSpawnPointCB163EF949D369CA80AA2D95CCF838E8.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Game/BP_EncounterSpawnPoint.uasset'
+[2026.10.09-06.25.12:772][285]LogFileHelpers: InternalPromptForCheckoutAndSave took 44.009 ms (total: 2.17 sec)
+[2026.10.09-06.25.12:828][285]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.09-06.25.12:828][285]LogContentValidation: Enabled validators:
+[2026.10.09-06.25.12:828][285]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.09-06.25.12:828][285]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.09-06.25.12:828][285]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.09-06.25.12:828][285]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.09-06.25.12:828][285]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.09-06.25.12:828][285]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.09-06.25.12:828][285]AssetCheck: /Game/Blueprints/Game/BP_EncounterSpawnPoint Validating asset
+[2026.10.09-06.25.19:485][ 48]LogSlate: Window 'BP_EncounterSpawnPoint' being destroyed
+[2026.10.09-06.25.24:804][675]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3707.129395
+[2026.10.09-06.25.24:922][689]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.09-06.25.24:922][689]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3707.239502, Update Interval: 340.549927
+[2026.10.09-06.25.31:069][414]LogDerivedDataCache: C:/Users/psalm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.10.09-06.26.02:624][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.10.09-06.26.02:629][139]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.09-06.26.02:663][139]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Game/BP_EncounterController] ([2] browsable assets)...
+[2026.10.09-06.26.02:663][139]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_EncounterController]
+[2026.10.09-06.26.02:671][139]LogSavePackage: Moving output files for package: /Game/Blueprints/Game/BP_EncounterController
+[2026.10.09-06.26.02:672][139]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EncounterControllerFBBD0A2C45792EB0E4E94EB1559D96CD.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Game/BP_EncounterController.uasset'
+[2026.10.09-06.26.02:678][139]LogFileHelpers: InternalPromptForCheckoutAndSave took 49.033 ms (total: 2.22 sec)
+[2026.10.09-06.26.02:727][139]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.09-06.26.02:727][139]LogContentValidation: Enabled validators:
+[2026.10.09-06.26.02:727][139]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.09-06.26.02:727][139]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.09-06.26.02:729][139]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.09-06.26.02:729][139]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.09-06.26.02:729][139]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.09-06.26.02:729][139]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.09-06.26.02:729][139]AssetCheck: /Game/Blueprints/Game/BP_EncounterController Validating asset
+[2026.10.09-06.26.07:893][749]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.10.09-06.29.01:437][919]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2026.10.09-06.29.01:442][919]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.09-06.29.01:496][919]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Game/BP_EncounterController] ([2] browsable assets)...
+[2026.10.09-06.29.01:496][919]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_EncounterController]
+[2026.10.09-06.29.01:505][919]LogSavePackage: Moving output files for package: /Game/Blueprints/Game/BP_EncounterController
+[2026.10.09-06.29.01:506][919]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EncounterController5D59EB7048F5BA6D7BD8F2BEAE4772E8.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Game/BP_EncounterController.uasset'
+[2026.10.09-06.29.01:512][919]LogFileHelpers: InternalPromptForCheckoutAndSave took 69.086 ms (total: 2.28 sec)
+[2026.10.09-06.29.01:561][919]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.09-06.29.01:561][919]LogContentValidation: Enabled validators:
+[2026.10.09-06.29.01:561][919]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.09-06.29.01:561][919]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.09-06.29.01:561][919]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.09-06.29.01:561][919]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.09-06.29.01:561][919]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.09-06.29.01:561][919]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.09-06.29.01:561][919]AssetCheck: /Game/Blueprints/Game/BP_EncounterController Validating asset
+[2026.10.09-06.30.16:933][962]LogBlueprint: Error: [AssetLog] C:\Users\psalm\UnrealProjects\Aura_Copy_test\Content\Blueprints\Game\BP_EncounterController.uasset: [Compiler] Event Dispatcher pin is not connected  Bind Event to On Destroyed
+[2026.10.09-06.30.16:933][962]LogBlueprint: Error: [AssetLog] C:\Users\psalm\UnrealProjects\Aura_Copy_test\Content\Blueprints\Game\BP_EncounterController.uasset: [Compiler] Event Dispatcher pin is not connected  Bind Event to On Destroyed
+[2026.10.09-06.30.16:933][962]LogBlueprint: Error: [AssetLog] C:\Users\psalm\UnrealProjects\Aura_Copy_test\Content\Blueprints\Game\BP_EncounterController.uasset: [Compiler] Event Dispatcher pin is not connected  Bind Event to On Destroyed
+[2026.10.09-06.30.16:939][962]LogStreaming: Display: FlushAsyncLoading(466): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.09-06.30.16:994][962]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.10.09-06.31.02:537][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.10.09-06.31.02:542][307]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.09-06.31.02:595][307]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Game/BP_EncounterController] ([2] browsable assets)...
+[2026.10.09-06.31.02:595][307]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_EncounterController]
+[2026.10.09-06.31.02:603][307]LogSavePackage: Moving output files for package: /Game/Blueprints/Game/BP_EncounterController
+[2026.10.09-06.31.02:604][307]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EncounterController5D7825CA49366A624E837D8B00FCAD3E.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Game/BP_EncounterController.uasset'
+[2026.10.09-06.31.02:611][307]LogFileHelpers: InternalPromptForCheckoutAndSave took 68.212 ms (total: 2.35 sec)
+[2026.10.09-06.31.02:661][307]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.09-06.31.02:661][307]LogContentValidation: Enabled validators:
+[2026.10.09-06.31.02:661][307]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.09-06.31.02:661][307]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.09-06.31.02:661][307]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.09-06.31.02:661][307]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.09-06.31.02:661][307]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.09-06.31.02:661][307]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.09-06.31.02:661][307]AssetCheck: /Game/Blueprints/Game/BP_EncounterController Validating asset
+[2026.10.09-06.31.05:124][590]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.09-06.31.05:129][590]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.09-06.31.05:178][590]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Game/BP_EncounterController] ([2] browsable assets)...
+[2026.10.09-06.31.05:179][590]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_EncounterController]
+[2026.10.09-06.31.05:188][590]LogSavePackage: Moving output files for package: /Game/Blueprints/Game/BP_EncounterController
+[2026.10.09-06.31.05:188][590]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EncounterControllerE1300A4F44B587D3FACA06A376E3B69C.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Game/BP_EncounterController.uasset'
+[2026.10.09-06.31.05:194][590]LogFileHelpers: InternalPromptForCheckoutAndSave took 65.309 ms (total: 2.42 sec)
+[2026.10.09-06.31.05:244][590]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.09-06.31.05:244][590]LogContentValidation: Enabled validators:
+[2026.10.09-06.31.05:244][590]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.09-06.31.05:244][590]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.09-06.31.05:244][590]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.09-06.31.05:244][590]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.09-06.31.05:244][590]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.09-06.31.05:244][590]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.09-06.31.05:244][590]AssetCheck: /Game/Blueprints/Game/BP_EncounterController Validating asset
+[2026.10.09-06.31.20:888][443]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.10.09-06.31.25:259][926]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Game/BP_EncounterSpawnPoint.BP_EncounterSpawnPoint_C
+[2026.10.09-06.31.25:260][926]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Game/BP_EncounterSpawnPoint.BP_EncounterSpawnPoint_C
+[2026.10.09-06.31.25:260][926]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Game/BP_EncounterSpawnPoint.BP_EncounterSpawnPoint as actor: BP_EncounterSpawnPoint_C /Game/Maps/L_Graybox_Run.L_Graybox_Run:PersistentLevel.BP_EncounterSpawnPoint_C_0
+[2026.10.09-06.31.25:261][926]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Game/BP_EncounterSpawnPoint.BP_EncounterSpawnPoint as actor: BP_EncounterSpawnPoint_C /Game/Maps/L_Graybox_Run.L_Graybox_Run:PersistentLevel.BP_EncounterSpawnPoint_C_0
+[2026.10.09-06.31.26:532][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.10.09-06.31.26:537][ 73]LogEditorActor: Deleted 0 Actors (0.023 secs)
+[2026.10.09-06.31.26:542][ 73]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Game/BP_EncounterSpawnPoint.BP_EncounterSpawnPoint_C
+[2026.10.09-06.31.26:542][ 73]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Game/BP_EncounterSpawnPoint.BP_EncounterSpawnPoint_C
+[2026.10.09-06.31.26:543][ 73]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Game/BP_EncounterSpawnPoint.BP_EncounterSpawnPoint as actor: BP_EncounterSpawnPoint_C /Game/Maps/L_Graybox_Run.L_Graybox_Run:PersistentLevel.BP_EncounterSpawnPoint_C_1
+[2026.10.09-06.31.26:543][ 73]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Game/BP_EncounterSpawnPoint.BP_EncounterSpawnPoint as actor: BP_EncounterSpawnPoint_C /Game/Maps/L_Graybox_Run.L_Graybox_Run:PersistentLevel.BP_EncounterSpawnPoint_C_1
+[2026.10.09-06.31.39:849][634]Cmd: EDIT COPY
+[2026.10.09-06.31.40:368][691]Cmd: EDIT PASTE
+[2026.10.09-06.31.51:014][892]Cmd: EDIT COPY
+[2026.10.09-06.31.51:410][939]Cmd: EDIT PASTE
+[2026.10.09-06.31.54:316][280]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4096.564453
+[2026.10.09-06.31.54:457][297]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.09-06.31.54:458][297]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4096.697754, Update Interval: 327.043671
+[2026.10.09-06.32.04:818][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.10.09-06.32.04:823][460]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.09-06.32.04:878][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Graybox_Run" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_Graybox_Run.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.09-06.32.04:923][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.09-06.32.04:970][460]LogSavePackage: Moving output files for package: /Game/Maps/L_Graybox_Run
+[2026.10.09-06.32.04:971][460]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_Graybox_RunA2E23BBD46A97C1D490ACDB999E93B20.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_Graybox_Run.umap'
+[2026.10.09-06.32.04:985][460]LogFileHelpers: Saving map 'L_Graybox_Run' took 0.107
+[2026.10.09-06.32.04:992][460]LogFileHelpers: InternalPromptForCheckoutAndSave took 169.542 ms (total: 2.59 sec)
+[2026.10.09-06.32.05:044][460]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.09-06.32.05:044][460]LogContentValidation: Enabled validators:
+[2026.10.09-06.32.05:044][460]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.09-06.32.05:044][460]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.09-06.32.05:044][460]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.09-06.32.05:044][460]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.09-06.32.05:044][460]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.09-06.32.05:044][460]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.09-06.32.05:044][460]AssetCheck: /Game/Maps/L_Graybox_Run Validating asset
+[2026.10.09-06.32.40:796][667]LogBlueprint: Warning: [AssetLog] C:\Users\psalm\UnrealProjects\Aura_Copy_test\Content\Blueprints\Game\BP_EncounterSpawnPoint.uasset: [Compiler] Variable EnemyClass is marked as 'Expose on Spawn' but not marked as 'Instance Editable'; please make it 'Instance Editable'
+[2026.10.09-06.32.42:729][884]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2026.10.09-06.32.42:734][884]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.09-06.32.42:779][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Graybox_Run" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_Graybox_Run.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.09-06.32.42:824][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.09-06.32.42:870][884]LogSavePackage: Moving output files for package: /Game/Maps/L_Graybox_Run
+[2026.10.09-06.32.42:871][884]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_Graybox_Run40D76D62459555089D6AAD9F845D52C9.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_Graybox_Run.umap'
+[2026.10.09-06.32.42:886][884]LogFileHelpers: Saving map 'L_Graybox_Run' took 0.107
+[2026.10.09-06.32.42:886][884]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Game/BP_EncounterSpawnPoint] ([2] browsable assets)...
+[2026.10.09-06.32.42:886][884]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_EncounterSpawnPoint]
+[2026.10.09-06.32.42:888][884]LogSavePackage: Moving output files for package: /Game/Blueprints/Game/BP_EncounterSpawnPoint
+[2026.10.09-06.32.42:888][884]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EncounterSpawnPoint4A496DB94D5DB9A90D0BB1810A24E9CA.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Game/BP_EncounterSpawnPoint.uasset'
+[2026.10.09-06.32.42:895][884]LogFileHelpers: InternalPromptForCheckoutAndSave took 161.179 ms (total: 2.75 sec)
+[2026.10.09-06.32.42:945][884]LogContentValidation: Display: Starting to validate 2 assets
+[2026.10.09-06.32.42:945][884]LogContentValidation: Enabled validators:
+[2026.10.09-06.32.42:945][884]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.09-06.32.42:945][884]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.09-06.32.42:945][884]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.09-06.32.42:945][884]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.09-06.32.42:945][884]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.09-06.32.42:945][884]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.09-06.32.42:945][884]AssetCheck: /Game/Maps/L_Graybox_Run Validating asset
+[2026.10.09-06.32.42:945][884]AssetCheck: /Game/Blueprints/Game/BP_EncounterSpawnPoint Validating asset
+[2026.10.09-06.32.43:353][931]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2026.10.09-06.32.43:357][931]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.09-06.32.51:806][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.10.09-06.33.09:227][921]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2026.10.09-06.33.09:271][922]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2026.10.09-06.33.15:740][662]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/TestAI_Characters/Cartoon_UndeadGoblin2/BP_UndeadGoblin.BP_UndeadGoblin
+[2026.10.09-06.33.15:740][662]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2026.10.09-06.33.35:469][883]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.10.09-06.33.35:474][883]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.09-06.33.35:516][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Graybox_Run" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_Graybox_Run.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.09-06.33.35:562][883]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.09-06.33.35:609][883]LogSavePackage: Moving output files for package: /Game/Maps/L_Graybox_Run
+[2026.10.09-06.33.35:610][883]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_Graybox_Run79EB82024CFDE50D0276EC9ABCC17F3E.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_Graybox_Run.umap'
+[2026.10.09-06.33.35:625][883]LogFileHelpers: Saving map 'L_Graybox_Run' took 0.108
+[2026.10.09-06.33.35:634][883]LogFileHelpers: InternalPromptForCheckoutAndSave took 160.174 ms (total: 2.91 sec)
+[2026.10.09-06.33.35:694][883]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.09-06.33.35:694][883]LogContentValidation: Enabled validators:
+[2026.10.09-06.33.35:694][883]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.09-06.33.35:694][883]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.09-06.33.35:694][883]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.09-06.33.35:694][883]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.09-06.33.35:694][883]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.09-06.33.35:694][883]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.09-06.33.35:694][883]AssetCheck: /Game/Maps/L_Graybox_Run Validating asset
+[2026.10.09-06.34.13:855][402]LogBlueprint: Warning: [AssetLog] C:\Users\psalm\UnrealProjects\Aura_Copy_test\Content\Blueprints\Game\BP_EncounterController.uasset: [Compiler] Variable EncounterSpawnPoints is marked as 'Expose on Spawn' but not marked as 'Instance Editable'; please make it 'Instance Editable'
+[2026.10.09-06.34.14:894][495]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.10.09-06.34.14:900][495]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.09-06.34.14:962][495]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Game/BP_EncounterController] ([2] browsable assets)...
+[2026.10.09-06.34.14:962][495]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_EncounterController]
+[2026.10.09-06.34.14:973][495]LogSavePackage: Moving output files for package: /Game/Blueprints/Game/BP_EncounterController
+[2026.10.09-06.34.14:974][495]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EncounterController54AADCF74B328D23D40E0F98E5F6D21F.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Game/BP_EncounterController.uasset'
+[2026.10.09-06.34.14:982][495]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.675 ms (total: 2.99 sec)
+[2026.10.09-06.34.15:044][495]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.09-06.34.15:044][495]LogContentValidation: Enabled validators:
+[2026.10.09-06.34.15:044][495]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.09-06.34.15:044][495]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.09-06.34.15:044][495]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.09-06.34.15:044][495]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.09-06.34.15:044][495]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.09-06.34.15:045][495]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.09-06.34.15:045][495]AssetCheck: /Game/Blueprints/Game/BP_EncounterController Validating asset
+[2026.10.09-06.34.19:986][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.10.09-06.34.55:210][132]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.10.09-06.34.55:215][132]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.09-06.34.55:250][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Graybox_Run" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_Graybox_Run.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.09-06.34.55:294][132]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.09-06.34.55:341][132]LogSavePackage: Moving output files for package: /Game/Maps/L_Graybox_Run
+[2026.10.09-06.34.55:341][132]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_Graybox_Run3EE69E7B4BAEE59066FC0687B9E94FBF.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_Graybox_Run.umap'
+[2026.10.09-06.34.55:356][132]LogFileHelpers: Saving map 'L_Graybox_Run' took 0.107
+[2026.10.09-06.34.55:363][132]LogFileHelpers: InternalPromptForCheckoutAndSave took 147.278 ms (total: 3.14 sec)
+[2026.10.09-06.34.55:409][132]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.09-06.34.55:410][132]LogContentValidation: Enabled validators:
+[2026.10.09-06.34.55:410][132]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.09-06.34.55:410][132]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.09-06.34.55:410][132]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.09-06.34.55:410][132]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.09-06.34.55:410][132]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.09-06.34.55:410][132]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.09-06.34.55:410][132]AssetCheck: /Game/Maps/L_Graybox_Run Validating asset
+[2026.10.09-06.35.15:548][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.10.09-06.35.15:933][576]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.09-06.35.15:979][576]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.09-06.35.15:979][576]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.09-06.35.15:984][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005748s)
+[2026.10.09-06.35.15:984][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Graybox_Run.L_Graybox_Run to /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run (0.005912s)
+[2026.10.09-06.35.16:001][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.10.09-06.35.16:007][576]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Graybox_Run
+[2026.10.09-06.35.16:008][576]LogPlayLevel: PIE: World Init took: (0.001272s)
+[2026.10.09-06.35.16:008][576]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2026.10.09-06.35.16:008][576]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.09-06.35.16:008][576]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.09-06.35.16:008][576]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.09-06.35.16:008][576]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.09-06.35.16:008][576]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.09-06.35.16:008][576]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.09-06.35.16:008][576]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.09-06.35.16:008][576]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.09-06.35.16:008][576]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.09-06.35.16:008][576]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.09-06.35.16:008][576]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.09-06.35.16:012][576]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.09-06.35.16:027][576]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.09-06.35.16:027][576]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.09-06.35.16:028][576]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.09-06.35.16:028][576]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.09-06.35.16:028][576]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2026.10.09-06.35.16:028][576]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2026.10.09-06.35.16:031][576]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2026.10.09-06.35.16:031][576]LogInit: FAudioDevice initialized with ID 13.
+[2026.10.09-06.35.16:031][576]LogAudio: Display: Audio Device (ID: 13) registered with world 'L_Graybox_Run'.
+[2026.10.09-06.35.16:031][576]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2026.10.09-06.35.16:031][576]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2026.10.09-06.35.16:033][576]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.09-06.35.16:035][576]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run up for play (max tick rate 0) at 2026.10.08-23.35.16
+[2026.10.09-06.35.16:035][576]LogWorld: Bringing up level for play took: 0.001829
+[2026.10.09-06.35.16:037][576]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2026.10.09-06.35.16:038][576]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.09-06.35.16:044][576]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.16:044][576]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.16:044][576]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.16:044][576]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.16:044][576]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.16:044][576]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.16:044][576]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.16:044][576]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.16:044][576]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.09-06.35.16:046][576]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.09-06.35.16:046][576]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.09-06.35.16:046][576]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.09-06.35.16:046][576]PIE: Server logged in
+[2026.10.09-06.35.16:047][576]PIE: Play in editor total start time 0.106 seconds.
+[2026.10.09-06.35.18:558][874]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.19:308][964]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.21:950][281]LogBlueprintUserMessages: [BP_EncounterController_C_1] Encounter Activated
+[2026.10.09-06.35.21:960][281]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:960][281]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:960][281]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:960][281]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:960][281]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:960][281]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:960][281]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:960][281]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:960][281]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:960][281]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:960][281]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:960][281]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:961][281]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:961][281]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:961][281]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:961][281]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:961][281]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.21:961][281]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.21:963][281]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:963][281]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:963][281]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:963][281]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:963][281]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:963][281]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:963][281]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:963][281]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:963][281]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:963][281]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:963][281]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:963][281]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:963][281]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:963][281]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:963][281]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:963][281]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:963][281]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.21:963][281]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.21:965][281]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:965][281]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:965][281]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:965][281]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:965][281]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:965][281]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:965][281]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:965][281]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:966][281]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:966][281]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:966][281]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:966][281]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:966][281]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:966][281]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:966][281]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:966][281]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 0.00
+[2026.10.09-06.35.21:966][281]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.21:966][281]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.30:558][312]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.30:807][342]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.30:808][342]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.35.31:800][461]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.35.32:809][582]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.32:809][582]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.35.33:399][653]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.33:800][701]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.33:800][701]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.35.33:800][701]LogTemp: Warning: Reaction depth=1 Target=BP_UndeadGoblin_C_0 Status=ReactiveStatus.Charged NumRemoved=1 RemainingCount=0 Reaction=Reaction.LightningOnCharged
+[2026.10.09-06.35.33:800][701]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.33:801][701]LogTemp: Warning: HandleReaction entered. Depth: 2
+[2026.10.09-06.35.33:801][701]LogBlueprintUserMessages: Warning: SetTimer passed a function (StopNS) that expects parameters.
+[2026.10.09-06.35.33:801][701]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.33:801][701]LogTemp: Warning: HandleReaction entered. Depth: 2
+[2026.10.09-06.35.33:802][701]LogBlueprintUserMessages: Warning: SetTimer passed a function (StopNS) that expects parameters.
+[2026.10.09-06.35.34:791][820]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.35.34:791][820]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.35.34:792][820]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.35.35:133][861]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.35:491][904]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.35:491][904]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.35.35:492][904]LogTemp: Warning: Reaction depth=1 Target=BP_UndeadGoblin_C_0 Status=ReactiveStatus.Charged NumRemoved=1 RemainingCount=0 Reaction=Reaction.LightningOnCharged
+[2026.10.09-06.35.35:492][904]LogTemp: Warning: BP_UndeadGoblin_C_2 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.35:492][904]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.35:492][904]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.35:492][904]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.35:492][904]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.35:493][904]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.35:493][904]LogTemp: Warning: HandleReaction entered. Depth: 2
+[2026.10.09-06.35.35:493][904]LogBlueprintUserMessages: Warning: SetTimer passed a function (StopNS) that expects parameters.
+[2026.10.09-06.35.35:493][904]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.35:493][904]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.35:494][904]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.35:494][904]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.35:494][904]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.35:494][904]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.35:494][904]LogTemp: Warning: HandleReaction entered. Depth: 2
+[2026.10.09-06.35.35:494][904]LogBlueprintUserMessages: Warning: SetTimer passed a function (StopNS) that expects parameters.
+[2026.10.09-06.35.36:483][ 23]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.35.36:484][ 23]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.35.36:484][ 23]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.35.37:493][144]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.37:494][144]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.35.38:517][267]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.38:517][267]LogTemp: Warning: GA_FireBolt_C_0 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.09-06.35.39:384][371]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.39:384][371]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.09-06.35.39:384][371]LogTemp: Warning: Reaction depth=1 Target=BP_UndeadGoblin_C_0 Status=ReactiveStatus.Charged NumRemoved=1 RemainingCount=0 Reaction=Reaction.FireOnCharged
+[2026.10.09-06.35.39:385][371]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.39:385][371]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.39:386][371]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.39:386][371]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.39:386][371]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.39:386][371]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.09-06.35.39:386][371]LogTemp: Warning: HandleReaction entered. Depth: 2
+[2026.10.09-06.35.40:376][490]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.35.40:376][490]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.09-06.35.44:385][971]LogBlueprintUserMessages: [BP_EncounterController_C_1] Encounter Completed
+[2026.10.09-06.35.49:902][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.09-06.35.49:902][627]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.09-06.35.49:903][627]LogWorld: UWorld::CleanupWorld for L_Graybox_Run, bSessionEnded=true, bCleanupResources=true
+[2026.10.09-06.35.49:903][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.09-06.35.49:908][627]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.09-06.35.49:908][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:908][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:908][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:908][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:908][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:908][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:908][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:908][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:908][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:909][627]LogNiagaraEditor: onPieEnd
+[2026.10.09-06.35.49:916][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.09-06.35.49:931][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.09-06.35.49:932][627]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2026.10.09-06.35.49:932][627]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2026.10.09-06.35.49:934][627]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2026.10.09-06.35.49:940][627]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.10.09-06.35.49:974][628]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2026.10.09-06.38.05:599][179]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4467.790039
+[2026.10.09-06.38.06:599][182]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.09-06.38.06:599][182]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4468.457031, Update Interval: 327.931763
+[2026.10.09-06.43.26:660][664]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.10.09-06.43.26:666][664]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.09-06.43.26:726][664]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Game/BP_EncounterSpawnPoint] ([2] browsable assets)...
+[2026.10.09-06.43.26:726][664]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_EncounterSpawnPoint]
+[2026.10.09-06.43.26:728][664]LogSavePackage: Moving output files for package: /Game/Blueprints/Game/BP_EncounterSpawnPoint
+[2026.10.09-06.43.26:728][664]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_EncounterSpawnPoint9B85BEFD4C3DEEE0E75E54AD17D7BB7E.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Game/BP_EncounterSpawnPoint.uasset'
+[2026.10.09-06.43.26:735][664]LogFileHelpers: InternalPromptForCheckoutAndSave took 68.746 ms (total: 3.21 sec)
+[2026.10.09-06.43.26:775][664]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.09-06.43.26:775][664]LogContentValidation: Enabled validators:
+[2026.10.09-06.43.26:775][664]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.09-06.43.26:775][664]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.09-06.43.26:775][664]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.09-06.43.26:775][664]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.09-06.43.26:775][664]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.09-06.43.26:775][664]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.09-06.43.26:775][664]AssetCheck: /Game/Blueprints/Game/BP_EncounterSpawnPoint Validating asset
+[2026.10.09-06.43.27:795][778]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.10.09-06.43.28:402][843]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.10.09-06.44.16:760][538]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4838.940918
+[2026.10.09-06.44.17:760][541]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.09-06.44.17:760][541]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4839.607910, Update Interval: 355.151215
+[2026.10.09-06.45.43:016][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
