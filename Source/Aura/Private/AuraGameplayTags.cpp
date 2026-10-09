@@ -289,3 +289,5 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Effects_Damage_ResonantReflection = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Effects.Damage.ResonantReflection"), FString("Effects Damage ResonantReflection"));
 	
 }
+
+
