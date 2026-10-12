@@ -2685,3 +2685,238 @@ FPackageName: Unable to identify a valid mount point associated with skipped pac
 [2026.10.12-21.56.28:524][598]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2026.10.12-21.56.28:524][598]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.10.12-21.56.28:524][598]AssetCheck: /Game/Maps/L_Graybox_Run Validating asset
+[2026.10.12-22.00.33:807][489]LogSlate: Took 0.005402 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2026.10.12-22.00.33:996][489]LogStreaming: Display: FlushAsyncLoading(458): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.12-22.00.47:098][959]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavModifierVolume
+[2026.10.12-22.00.47:098][959]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavModifierVolume
+[2026.10.12-22.00.47:099][959]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavModifierVolume as actor: NavModifierVolume /Game/Maps/L_Graybox_Run.L_Graybox_Run:PersistentLevel.NavModifierVolume_0
+[2026.10.12-22.00.47:100][959]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavModifierVolume as actor: NavModifierVolume /Game/Maps/L_Graybox_Run.L_Graybox_Run:PersistentLevel.NavModifierVolume_0
+[2026.10.12-22.01.27:702][112]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2492.809326
+[2026.10.12-22.01.28:018][150]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.12-22.01.28:018][150]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2493.116943, Update Interval: 354.534119
+[2026.10.12-22.01.39:507][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2026.10.12-22.01.39:510][522]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.12-22.01.39:565][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Graybox_Run" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_Graybox_Run.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.12-22.01.39:609][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2026.10.12-22.01.39:661][522]LogSavePackage: Moving output files for package: /Game/Maps/L_Graybox_Run
+[2026.10.12-22.01.39:662][522]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/L_Graybox_Run5995942341DEF60B44B0D6B059C51EAA.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/L_Graybox_Run.umap'
+[2026.10.12-22.01.39:677][522]LogFileHelpers: Saving map 'L_Graybox_Run' took 0.112
+[2026.10.12-22.01.39:686][522]LogFileHelpers: InternalPromptForCheckoutAndSave took 175.647 ms (total: 2.41 sec)
+[2026.10.12-22.01.39:746][522]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.12-22.01.39:746][522]LogContentValidation: Enabled validators:
+[2026.10.12-22.01.39:746][522]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.12-22.01.39:747][522]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.12-22.01.39:747][522]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.12-22.01.39:747][522]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.12-22.01.39:747][522]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.12-22.01.39:747][522]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.12-22.01.39:747][522]AssetCheck: /Game/Maps/L_Graybox_Run Validating asset
+[2026.10.12-22.01.41:290][678]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.12-22.01.41:300][678]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.12-22.01.41:300][678]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.12-22.01.41:308][678]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007924s)
+[2026.10.12-22.01.41:308][678]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Graybox_Run.L_Graybox_Run to /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run (0.008069s)
+[2026.10.12-22.01.41:324][678]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.10.12-22.01.41:326][678]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Graybox_Run
+[2026.10.12-22.01.41:327][678]LogPlayLevel: PIE: World Init took: (0.001211s)
+[2026.10.12-22.01.41:327][678]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2026.10.12-22.01.41:327][678]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.12-22.01.41:327][678]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.12-22.01.41:327][678]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.12-22.01.41:328][678]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.12-22.01.41:328][678]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.12-22.01.41:328][678]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.12-22.01.41:328][678]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.12-22.01.41:328][678]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.12-22.01.41:328][678]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.12-22.01.41:328][678]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.12-22.01.41:328][678]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.12-22.01.41:330][678]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.12-22.01.41:346][678]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.12-22.01.41:346][678]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.12-22.01.41:346][678]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.12-22.01.41:346][678]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.12-22.01.41:346][678]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2026.10.12-22.01.41:346][678]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2026.10.12-22.01.41:348][678]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2026.10.12-22.01.41:348][678]LogInit: FAudioDevice initialized with ID 10.
+[2026.10.12-22.01.41:348][678]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2026.10.12-22.01.41:348][678]LogAudio: Display: Audio Device (ID: 10) registered with world 'L_Graybox_Run'.
+[2026.10.12-22.01.41:348][678]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2026.10.12-22.01.41:350][678]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.12-22.01.41:352][678]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run up for play (max tick rate 0) at 2026.10.12-15.01.41
+[2026.10.12-22.01.41:352][678]LogWorld: Bringing up level for play took: 0.001971
+[2026.10.12-22.01.41:354][678]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2026.10.12-22.01.41:355][678]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.12-22.01.41:359][678]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.01.41:359][678]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.01.41:359][678]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.01.41:359][678]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.01.41:360][678]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.01.41:360][678]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.01.41:360][678]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.12-22.01.41:360][678]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.12-22.01.41:360][678]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.12-22.01.41:362][678]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.12-22.01.41:362][678]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.12-22.01.41:362][678]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.12-22.01.41:362][678]PIE: Server logged in
+[2026.10.12-22.01.41:363][678]PIE: Play in editor total start time 0.064 seconds.
+[2026.10.12-22.01.43:731][959]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.12-22.02.01:194][ 53]LogBlueprintUserMessages: [BP_EncounterController_C_3] Encounter Activated
+[2026.10.12-22.02.01:196][ 53]LogTemp: Warning: BP_Goblin_Slingshot_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:196][ 53]LogTemp: Warning: BP_Goblin_Slingshot_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:196][ 53]LogTemp: Warning: BP_Goblin_Slingshot_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:196][ 53]LogTemp: Warning: BP_Goblin_Slingshot_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:197][ 53]LogTemp: Warning: BP_Goblin_Slingshot_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:197][ 53]LogTemp: Warning: BP_Goblin_Slingshot_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:197][ 53]LogTemp: Warning: BP_Goblin_Slingshot_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:197][ 53]LogTemp: Warning: BP_Goblin_Slingshot_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:197][ 53]LogTemp: Warning: BP_Goblin_Slingshot_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:197][ 53]LogTemp: Warning: BP_Goblin_Slingshot_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:197][ 53]LogTemp: Warning: BP_Goblin_Slingshot_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:197][ 53]LogTemp: Warning: BP_Goblin_Slingshot_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:197][ 53]LogTemp: Warning: BP_Goblin_Slingshot_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:197][ 53]LogTemp: Warning: BP_Goblin_Slingshot_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:197][ 53]LogTemp: Warning: BP_Goblin_Slingshot_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:197][ 53]LogTemp: Warning: BP_Goblin_Slingshot_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:197][ 53]LogTemp: Warning: BP_Goblin_Slingshot_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.12-22.02.01:197][ 53]LogTemp: Warning: BP_Goblin_Slingshot_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.12-22.02.01:199][ 53]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:199][ 53]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:199][ 53]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:199][ 53]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:199][ 53]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:199][ 53]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:200][ 53]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:200][ 53]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:200][ 53]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:200][ 53]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:200][ 53]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:200][ 53]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:200][ 53]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:200][ 53]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:200][ 53]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:200][ 53]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:200][ 53]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.12-22.02.01:200][ 53]LogTemp: Warning: BP_UndeadGoblin_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.12-22.02.01:202][ 53]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:202][ 53]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:202][ 53]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:202][ 53]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:202][ 53]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:202][ 53]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:202][ 53]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:202][ 53]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:202][ 53]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:203][ 53]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:203][ 53]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:203][ 53]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:203][ 53]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:203][ 53]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:203][ 53]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:203][ 53]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.12-22.02.01:203][ 53]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.12-22.02.01:203][ 53]LogTemp: Warning: BP_UndeadGoblin_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.12-22.02.16:552][895]LogBlueprintUserMessages: [GA_ChargeAttack_C_0] Activating Charge Attack
+[2026.10.12-22.02.16:876][934]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 70
+[2026.10.12-22.02.16:876][934]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 72
+[2026.10.12-22.02.26:879][134]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 70
+[2026.10.12-22.02.26:879][134]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 72
+[2026.10.12-22.02.48:457][723]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.12-22.03.05:785][691]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.12-22.03.27:788][242]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/Slingshot/sfx_Slingshot_Fire.sfx_Slingshot_Fire' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2026.10.12-22.03.27:804][244]LogBlueprintUserMessages: [GA_ChargeAttack_C_0] Activating Charge Attack
+[2026.10.12-22.03.28:130][283]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 71
+[2026.10.12-22.03.28:130][283]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 76
+[2026.10.12-22.03.28:525][330]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.12-22.03.28:525][330]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.12-22.03.29:520][449]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.12-22.03.29:720][473]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.12-22.03.29:720][473]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.12-22.03.30:714][588]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.12-22.03.30:908][610]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.12-22.03.30:908][610]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.12-22.03.31:902][728]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.12-22.03.32:702][824]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.12-22.03.32:702][824]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.12-22.03.33:698][943]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.12-22.03.34:605][ 52]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.12-22.03.34:607][ 52]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.12-22.03.35:599][165]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.12-22.03.36:833][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.12-22.03.36:833][271]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.12-22.03.36:834][271]LogWorld: UWorld::CleanupWorld for L_Graybox_Run, bSessionEnded=true, bCleanupResources=true
+[2026.10.12-22.03.36:835][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.12-22.03.36:837][271]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.12-22.03.36:838][271]LogNiagaraEditor: onPieEnd
+[2026.10.12-22.03.36:838][271]LogNiagaraEditor: onPieEnd
+[2026.10.12-22.03.36:838][271]LogNiagaraEditor: onPieEnd
+[2026.10.12-22.03.36:839][271]LogNiagaraEditor: onPieEnd
+[2026.10.12-22.03.36:839][271]LogNiagaraEditor: onPieEnd
+[2026.10.12-22.03.36:839][271]LogNiagaraEditor: onPieEnd
+[2026.10.12-22.03.36:839][271]LogNiagaraEditor: onPieEnd
+[2026.10.12-22.03.36:839][271]LogNiagaraEditor: onPieEnd
+[2026.10.12-22.03.36:839][271]LogNiagaraEditor: onPieEnd
+[2026.10.12-22.03.36:839][271]LogNiagaraEditor: onPieEnd
+[2026.10.12-22.03.36:847][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.12-22.03.36:861][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.12-22.03.36:862][271]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2026.10.12-22.03.36:862][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2026.10.12-22.03.36:863][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2026.10.12-22.03.36:870][271]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.10.12-22.03.36:919][272]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2026.10.12-22.08.00:531][727]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2885.633057
+[2026.10.12-22.08.01:531][730]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.12-22.08.01:531][730]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2886.299805, Update Interval: 318.431946
+[2026.10.12-22.14.12:250][842]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3257.347412
+[2026.10.12-22.14.13:249][845]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.12-22.14.13:250][845]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3258.013672, Update Interval: 332.216553
+[2026.10.12-22.20.40:300][  6]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3645.399170
+[2026.10.12-22.20.41:301][  9]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.12-22.20.41:301][  9]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3646.067383, Update Interval: 333.783997
+[2026.10.12-22.21.44:037][198]LogDerivedDataCache: C:/Users/psalm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.10.12-22.26.54:678][129]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4019.776611
+[2026.10.12-22.26.55:678][132]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.12-22.26.55:678][132]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4020.443359, Update Interval: 317.435822
+[2026.10.12-22.33.00:396][226]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4385.492676
+[2026.10.12-22.33.01:396][229]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.12-22.33.01:397][229]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4386.159180, Update Interval: 302.283386
+[2026.10.12-22.38.50:121][275]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4735.216309
+[2026.10.12-22.38.51:120][278]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.12-22.38.51:120][278]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4735.882812, Update Interval: 329.272125
+[2026.10.12-22.45.09:843][414]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5114.939941
+[2026.10.12-22.45.10:844][417]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.12-22.45.10:844][417]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5115.606934, Update Interval: 322.291931
+[2026.10.12-22.51.30:562][556]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5495.657715
+[2026.10.12-22.51.31:561][559]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.12-22.51.31:562][559]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5496.324219, Update Interval: 349.963684
+[2026.10.12-22.58.03:287][734]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5888.382324
+[2026.10.12-22.58.04:289][737]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.12-22.58.04:289][737]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5889.049805, Update Interval: 327.080292
+[2026.10.12-23.04.20:675][866]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6265.772949
+[2026.10.12-23.04.21:675][869]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.12-23.04.21:675][869]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6266.439453, Update Interval: 316.915802
+[2026.10.12-23.10.10:726][916]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6615.820801
+[2026.10.12-23.10.11:726][919]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.12-23.10.11:726][919]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6616.488281, Update Interval: 334.864349
+[2026.10.12-23.16.20:446][ 25]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6985.539062
+[2026.10.12-23.16.21:446][ 28]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.12-23.16.21:447][ 28]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6986.205566, Update Interval: 347.951294
+[2026.10.12-23.21.44:041][996]LogDerivedDataCache: C:/Users/psalm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.10.12-23.22.53:829][205]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7378.924316
+[2026.10.12-23.22.54:829][208]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.12-23.22.54:830][208]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7379.590332, Update Interval: 330.973236
+[2026.10.12-23.29.22:894][372]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7767.992676
+[2026.10.12-23.29.23:893][375]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.12-23.29.23:893][375]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7768.658691, Update Interval: 355.869019
+[2026.10.12-23.36.19:283][621]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8184.380859
+[2026.10.12-23.36.20:283][624]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.12-23.36.20:283][624]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8185.047363, Update Interval: 354.056213
+[2026.10.12-23.43.13:678][864]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8598.747070
+[2026.10.12-23.43.14:677][867]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.12-23.43.14:677][867]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8599.413086, Update Interval: 359.249237
+[2026.10.12-23.49.53:064][ 62]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8998.137695
+[2026.10.12-23.49.54:063][ 65]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.12-23.49.54:063][ 65]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8998.804688, Update Interval: 308.168579
+[2026.10.12-23.51.24:968][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
