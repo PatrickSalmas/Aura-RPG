@@ -498,7 +498,7 @@ void AAuraCharacterBase::Dissolve()
 
 float AAuraCharacterBase::GetClampedCurrentWalkSpeed()
 {
-	return FMath::Clamp(CurrentWalkSpeed, MinWalkSpeed, BaseWalkSpeed);
+	return FMath::Clamp(CurrentWalkSpeed, MinWalkSpeed, MaxWalkSpeed);
 }
 
 

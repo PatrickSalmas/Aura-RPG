@@ -209,6 +209,9 @@ protected:
 	float MinWalkSpeed = BaseWalkSpeed * .25;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
+	float MaxWalkSpeed = 600.f;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
 	float CurrentWalkSpeed = BaseWalkSpeed;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
