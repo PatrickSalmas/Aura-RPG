@@ -30,6 +30,11 @@ public:
 	UPROPERTY()
 	TObjectPtr<USceneComponent> HomingTargetSceneComponent;
 	
+	void SetAOEDamage(bool InHasAOEDamage, float InAOERadius);
+	
+	UPROPERTY(EditAnywhere)
+	bool ShowAOEDebugSphere = false;
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

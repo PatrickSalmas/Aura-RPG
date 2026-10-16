@@ -33,4 +33,19 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly)
 	int32 NumProjectiles = 5;
+	
+	UPROPERTY(EditDefaultsOnly)
+	bool HasAOEDamage = false;
+	
+	UPROPERTY(EditDefaultsOnly)
+	bool ShowAOEDebugSphere = false;
+	
+	UPROPERTY(EditDefaultsOnly)
+	float AOERadius = 100;
+	
+	UPROPERTY(EditDefaultsOnly)
+	float InitialSpeed = 500;
+	
+	UPROPERTY(EditDefaultsOnly)
+	float MaxSpeed = 500;
 };

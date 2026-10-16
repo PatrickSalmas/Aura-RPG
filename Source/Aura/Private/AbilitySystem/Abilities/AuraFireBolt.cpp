@@ -114,6 +114,8 @@ void UAuraFireBolt::SpawnProjectiles(const FVector& ProjectileTargetLocation, co
 		AAuraProjectile* Projectile = GetWorld()->SpawnActorDeferred<AAuraProjectile>(ProjectileClass, SpawnTransform, GetOwningActorFromActorInfo(),
 												Cast<APawn>(GetOwningActorFromActorInfo()),
 												ESpawnActorCollisionHandlingMethod::AlwaysSpawn);
+		
+		Projectile->SetAOEDamage(HasAOEDamage, AOERadius);
 
 		Projectile->DamageEffectParams = MakeDamageEffectParamsFromClassDefaults();
 

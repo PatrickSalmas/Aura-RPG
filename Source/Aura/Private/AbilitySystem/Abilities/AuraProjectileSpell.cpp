@@ -9,6 +9,7 @@
 #include "Actor/AuraProjectile.h"
 #include "Interaction/CombatInterface.h"
 #include "Aura/Public/AuraGameplayTags.h"
+#include "GameFramework/ProjectileMovementComponent.h"
 
 void UAuraProjectileSpell::ActivateAbility(const FGameplayAbilitySpecHandle Handle,
                                            const FGameplayAbilityActorInfo* ActorInfo,
@@ -48,6 +49,11 @@ void UAuraProjectileSpell::SpawnProjectile(const FVector& ProjectileTargetLocati
 	AAuraProjectile* Projectile = GetWorld()->SpawnActorDeferred<AAuraProjectile>(ProjectileClass, SpawnTransform, AvatarActor,
 													InstigatorPawn,
 													ESpawnActorCollisionHandlingMethod::AlwaysSpawn);
+	Projectile->SetAOEDamage(HasAOEDamage, AOERadius);
+	Projectile->ShowAOEDebugSphere = ShowAOEDebugSphere;
+	
+	Projectile->ProjectileMovement->InitialSpeed = InitialSpeed;
+	Projectile->ProjectileMovement->MaxSpeed = MaxSpeed;
 
 	Projectile->DamageEffectParams = MakeDamageEffectParamsFromClassDefaults();
 		

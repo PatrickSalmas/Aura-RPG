@@ -9,6 +9,7 @@
 #include "AbilitySystem/AuraAbilitySystemLibrary.h"
 #include "Aura/Aura.h"
 #include "Components/AudioComponent.h"
+#include "Components/SplineComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Kismet/GameplayStatics.h"
 
@@ -34,6 +35,12 @@ AAuraProjectile::AAuraProjectile()
 	ProjectileMovement->ProjectileGravityScale = 0.f;
 }
 
+void AAuraProjectile::SetAOEDamage(bool InHasAOEDamage, float InAOERadius)
+{
+	HasAOEDamage = InHasAOEDamage;
+	AOERadius = InAOERadius;
+}
+
 // Called when the game starts or when spawned
 void AAuraProjectile::BeginPlay()
 {
@@ -56,6 +63,15 @@ void AAuraProjectile::OnHit()
 		}
 		AddDamagedActorsToIgnored(DamagedActors, ActorsToIgnore);
 		UAuraAbilitySystemLibrary::GetLivePlayersWithinRadius(this, OverlappingActors, ActorsToIgnore, AOERadius, GetActorLocation());
+
+		// Temporarily drawing a brief debug sphere when AOE projectile lands until we create some sort of visual effect
+		if (UWorld* World = GetWorld())
+		{
+			if (ShowAOEDebugSphere)
+			{
+				DrawDebugSphere(World, GetActorLocation(), AOERadius,24, FColor::Red,false,0.5f,0,2.0f);
+			}
+		}
 		for (AActor* Actor : OverlappingActors)
 		{
 			if (UAbilitySystemComponent* TargetASC_AOE = UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(Actor))
