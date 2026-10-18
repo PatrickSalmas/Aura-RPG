@@ -84,6 +84,12 @@ protected:
 	
 	UPROPERTY(BlueprintReadWrite)
 	bool HasSpecialTargeting = false;
+	
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	float ChanceToDropMana = 0.25f;
+	
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	float ChanceToDropHealth = 0.25f;
 private:
 
 };
