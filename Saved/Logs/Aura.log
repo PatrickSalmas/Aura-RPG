@@ -6379,3 +6379,1635 @@ FPackageName: Unable to identify a valid mount point associated with skipped pac
 [2026.10.18-00.25.10:090][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2026.10.18-00.25.10:095][528]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
 [2026.10.18-00.25.10:131][529]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2026.10.18-00.25.32:238][667]Cmd: MAP LOAD FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.10.18-00.25.32:268][667]LogWorld: UWorld::CleanupWorld for L_Graybox_Run, bSessionEnded=true, bCleanupResources=true
+[2026.10.18-00.25.32:268][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.25.32:285][667]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.18-00.25.32:289][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.10.18-00.25.32:292][667]LogStreaming: Display: FlushAsyncLoading(466): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.18-00.25.32:371][667]LogAudio: Display: Audio Device (ID: 1) registered with world 'StartupMap'.
+[2026.10.18-00.25.32:371][667]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.10.18-00.25.32:431][667]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.10.18-00.25.32:452][667]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.10.18-00.25.32:468][667]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.10.18-00.25.32:468][667]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.075ms to complete.
+[2026.10.18-00.25.37:554][177]Cmd: DELETE
+[2026.10.18-00.25.37:554][177]Cmd: ACTOR DELETE
+[2026.10.18-00.25.37:558][177]LogEditorActor: Deleted Actor: BP_Shaman_C
+[2026.10.18-00.25.37:578][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2026.10.18-00.25.37:582][177]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2026.10.18-00.25.46:140][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2026.10.18-00.25.46:147][160]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.18-00.25.46:194][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.18-00.25.46:239][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.10.18-00.25.46:288][160]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.10.18-00.25.46:289][160]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMap74A440D44D0ACC7FA18CBCBF38C89709.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.10.18-00.25.46:304][160]LogFileHelpers: Saving map 'StartupMap' took 0.111
+[2026.10.18-00.25.46:311][160]LogFileHelpers: InternalPromptForCheckoutAndSave took 164.342 ms (total: 1.01 sec)
+[2026.10.18-00.25.46:357][160]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.18-00.25.46:357][160]LogContentValidation: Enabled validators:
+[2026.10.18-00.25.46:357][160]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.18-00.25.46:358][160]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.18-00.25.46:358][160]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.18-00.25.46:358][160]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.18-00.25.46:358][160]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.18-00.25.46:358][160]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.18-00.25.46:358][160]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.10.18-00.25.51:670][773]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2026.10.18-00.25.51:670][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.25.51:759][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.10.18-00.25.52:479][848]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2026.10.18-00.25.52:479][848]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.25.52:546][848]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2026.10.18-00.25.54:700][ 91]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SkeletalMesh_64.svg'. File could not be found
+[2026.10.18-00.25.54:815][102]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2026.10.18-00.25.54:836][103]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2026.10.18-00.25.54:850][104]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_20
+[2026.10.18-00.25.56:560][287]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon.BP_SpeedDemon_C
+[2026.10.18-00.25.56:560][287]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon.BP_SpeedDemon_C
+[2026.10.18-00.25.56:561][287]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.25.56:563][287]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.25.56:563][287]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.25.56:564][287]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon.BP_SpeedDemon as actor: BP_SpeedDemon_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_0
+[2026.10.18-00.25.56:564][287]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.25.56:564][287]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.25.56:565][287]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon.BP_SpeedDemon as actor: BP_SpeedDemon_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_0
+[2026.10.18-00.25.56:565][287]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.25.56:567][287]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.25.56:567][287]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.25.56:568][287]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.25.57:439][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.10.18-00.25.57:442][383]LogEditorActor: Deleted 0 Actors (0.023 secs)
+[2026.10.18-00.25.57:446][383]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon.BP_SpeedDemon_C
+[2026.10.18-00.25.57:446][383]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon.BP_SpeedDemon_C
+[2026.10.18-00.25.57:450][383]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.25.57:452][383]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.25.57:452][383]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.25.57:453][383]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon.BP_SpeedDemon as actor: BP_SpeedDemon_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1
+[2026.10.18-00.25.57:453][383]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.25.57:454][383]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.25.57:455][383]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon.BP_SpeedDemon as actor: BP_SpeedDemon_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1
+[2026.10.18-00.25.57:455][383]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.25.57:456][383]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.25.57:457][383]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.25.57:458][383]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.26.00:432][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.10.18-00.26.00:442][690]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.18-00.26.00:494][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.18-00.26.00:541][690]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2026.10.18-00.26.00:590][690]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.10.18-00.26.00:591][690]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMap076D06324812C64DE75BCABF93F51DC9.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.10.18-00.26.00:607][690]LogFileHelpers: Saving map 'StartupMap' took 0.113
+[2026.10.18-00.26.00:618][690]LogFileHelpers: InternalPromptForCheckoutAndSave took 175.305 ms (total: 1.18 sec)
+[2026.10.18-00.26.00:676][690]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.18-00.26.00:676][690]LogContentValidation: Enabled validators:
+[2026.10.18-00.26.00:676][690]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.18-00.26.00:676][690]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.18-00.26.00:676][690]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.18-00.26.00:676][690]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.18-00.26.00:676][690]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.18-00.26.00:676][690]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.18-00.26.00:677][690]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.10.18-00.26.04:306][115]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.10.18-00.26.04:306][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.26.04:356][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.10.18-00.26.06:642][371]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
+[2026.10.18-00.26.06:646][371]LogScript: Warning: Accessed None trying to read property OwnerMesh
+	ABP_Slingshot_C /Engine/Transient.World_21:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Slingshot_C_0
+	Function /Game/Blueprints/Character/Goblin_Slingshot/ABP_Slingshot.ABP_Slingshot_C:ExecuteUbergraph_ABP_Slingshot:00A5
+[2026.10.18-00.26.06:655][372]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_22
+[2026.10.18-00.26.09:240][658]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot_C
+[2026.10.18-00.26.09:240][658]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot_C
+[2026.10.18-00.26.09:244][658]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot as actor: BP_Goblin_Slingshot_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_Goblin_Slingshot_C_0
+[2026.10.18-00.26.09:245][658]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot as actor: BP_Goblin_Slingshot_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_Goblin_Slingshot_C_0
+[2026.10.18-00.26.10:325][774]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2026.10.18-00.26.10:330][774]LogEditorActor: Deleted 0 Actors (0.024 secs)
+[2026.10.18-00.26.10:337][774]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot_C
+[2026.10.18-00.26.10:338][774]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot_C
+[2026.10.18-00.26.10:344][774]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot as actor: BP_Goblin_Slingshot_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_Goblin_Slingshot_C_1
+[2026.10.18-00.26.10:347][774]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot as actor: BP_Goblin_Slingshot_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_Goblin_Slingshot_C_1
+[2026.10.18-00.26.17:547][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2026.10.18-00.26.17:558][531]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.18-00.26.17:612][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.18-00.26.17:656][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.10.18-00.26.17:707][531]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.10.18-00.26.17:707][531]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMap4ED7F7EF41FAEBA224C60BAB9A7186C2.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.10.18-00.26.17:723][531]LogFileHelpers: Saving map 'StartupMap' took 0.112
+[2026.10.18-00.26.17:733][531]LogFileHelpers: InternalPromptForCheckoutAndSave took 175.027 ms (total: 1.36 sec)
+[2026.10.18-00.26.17:795][531]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.18-00.26.17:795][531]LogContentValidation: Enabled validators:
+[2026.10.18-00.26.17:795][531]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.18-00.26.17:795][531]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.18-00.26.17:795][531]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.18-00.26.17:795][531]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.18-00.26.17:795][531]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.18-00.26.17:795][531]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.18-00.26.17:796][531]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.10.18-00.26.30:615][970]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.10.18-00.26.30:630][970]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.18-00.26.30:663][970]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon] ([2] browsable assets)...
+[2026.10.18-00.26.30:718][970]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon.BP_SpeedDemon]
+[2026.10.18-00.26.30:718][970]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon]
+[2026.10.18-00.26.30:725][970]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon
+[2026.10.18-00.26.30:725][970]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_SpeedDemon246C7A25417AE5FFD5075495BE72C763.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon.uasset'
+[2026.10.18-00.26.30:733][970]LogFileHelpers: InternalPromptForCheckoutAndSave took 101.970 ms (total: 1.46 sec)
+[2026.10.18-00.26.30:778][970]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.18-00.26.30:778][970]LogContentValidation: Enabled validators:
+[2026.10.18-00.26.30:778][970]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.18-00.26.30:778][970]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.18-00.26.30:778][970]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.18-00.26.30:778][970]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.18-00.26.30:778][970]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.18-00.26.30:778][970]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.18-00.26.30:778][970]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon Validating asset
+[2026.10.18-00.26.39:674][989]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.18-00.26.39:693][989]LogPlayLevel: [PlayLevel] Compiling BP_SpeedDemon before play...
+[2026.10.18-00.26.39:706][989]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.26.39:708][989]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.26.39:710][989]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.26.39:712][989]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.26.39:766][989]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.26.39:766][989]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.26.39:768][989]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.26.39:769][989]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.26.39:777][989]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.26.39:778][989]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.26.39:779][989]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.26.39:779][989]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.26.39:803][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2026.10.18-00.26.39:807][989]LogPlayLevel: PlayLevel: Blueprint regeneration took 116 ms (1 blueprints)
+[2026.10.18-00.26.39:808][989]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.26.39:821][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012901s)
+[2026.10.18-00.26.39:821][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.013094s)
+[2026.10.18-00.26.39:837][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2026.10.18-00.26.39:839][989]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.10.18-00.26.39:841][989]LogPlayLevel: PIE: World Init took: (0.001348s)
+[2026.10.18-00.26.39:841][989]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2026.10.18-00.26.39:841][989]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.18-00.26.39:841][989]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.18-00.26.39:841][989]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.18-00.26.39:841][989]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.18-00.26.39:842][989]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.18-00.26.39:842][989]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.18-00.26.39:842][989]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.18-00.26.39:842][989]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.18-00.26.39:842][989]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.18-00.26.39:842][989]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.18-00.26.39:842][989]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.18-00.26.39:845][989]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.18-00.26.39:860][989]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.18-00.26.39:860][989]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.18-00.26.39:860][989]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.18-00.26.39:861][989]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.18-00.26.39:861][989]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2026.10.18-00.26.39:861][989]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2026.10.18-00.26.39:863][989]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2026.10.18-00.26.39:863][989]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2026.10.18-00.26.39:863][989]LogInit: FAudioDevice initialized with ID 11.
+[2026.10.18-00.26.39:864][989]LogAudio: Display: Audio Device (ID: 11) registered with world 'StartupMap'.
+[2026.10.18-00.26.39:864][989]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2026.10.18-00.26.39:866][989]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.18-00.26.39:869][989]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.26.39:873][989]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2026.10.17-17.26.39
+[2026.10.18-00.26.39:878][989]LogWorld: Bringing up level for play took: 0.012493
+[2026.10.18-00.26.39:880][989]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2026.10.18-00.26.39:881][989]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.18-00.26.39:884][989]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:885][989]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:885][989]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:885][989]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:885][989]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:885][989]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:885][989]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.26.39:885][989]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.26.39:885][989]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.18-00.26.39:888][989]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.18-00.26.39:888][989]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:888][989]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:888][989]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:888][989]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:888][989]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:888][989]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:889][989]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:889][989]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:889][989]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:889][989]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:889][989]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:889][989]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:889][989]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:889][989]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:889][989]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:889][989]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:889][989]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.26.39:889][989]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.26.39:890][989]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:890][989]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:890][989]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:890][989]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:890][989]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:890][989]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:890][989]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:890][989]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:890][989]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:890][989]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:890][989]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:890][989]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:890][989]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:890][989]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:890][989]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:890][989]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.26.39:890][989]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.26.39:890][989]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.26.39:891][989]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.18-00.26.39:891][989]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.18-00.26.39:891][989]PIE: Server logged in
+[2026.10.18-00.26.39:893][989]PIE: Play in editor total start time 0.209 seconds.
+[2026.10.18-00.26.43:098][369]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.26.43:098][369]LogTemp: Warning: GA_FireBolt_C_0 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.26.44:248][507]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.26.44:249][507]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.26.44:682][559]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 880
+[2026.10.18-00.26.45:243][626]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.26.45:535][661]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.26.45:536][661]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.26.46:535][777]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.26.47:798][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.26.47:798][915]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.26.47:799][915]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.10.18-00.26.47:803][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.26.47:806][915]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.18-00.26.47:806][915]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.26.47:806][915]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.26.47:806][915]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.26.47:806][915]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.26.47:806][915]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.26.47:806][915]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.26.47:806][915]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.26.47:806][915]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.26.47:806][915]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.26.47:817][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.26.47:834][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.26.47:836][915]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2026.10.18-00.26.47:836][915]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2026.10.18-00.26.47:838][915]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2026.10.18-00.26.47:848][915]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2026.10.18-00.26.47:912][916]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2026.10.18-00.27.00:802][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.10.18-00.27.00:808][354]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.18-00.27.00:850][354]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot] ([2] browsable assets)...
+[2026.10.18-00.27.00:874][354]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot]
+[2026.10.18-00.27.00:874][354]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot]
+[2026.10.18-00.27.00:877][354]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot
+[2026.10.18-00.27.00:879][354]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_Goblin_Slingshot030B49914ED429D126094388E9F79FC9.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.uasset'
+[2026.10.18-00.27.00:884][354]LogFileHelpers: InternalPromptForCheckoutAndSave took 76.530 ms (total: 1.54 sec)
+[2026.10.18-00.27.00:914][354]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.18-00.27.00:914][354]LogContentValidation: Enabled validators:
+[2026.10.18-00.27.00:914][354]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.18-00.27.00:914][354]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.18-00.27.00:914][354]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.18-00.27.00:914][354]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.18-00.27.00:914][354]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.18-00.27.00:914][354]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.18-00.27.00:914][354]AssetCheck: /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot Validating asset
+[2026.10.18-00.27.01:520][418]LogScript: Warning: Attempted to access REINST_BP_Goblin_Slingshot_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_Goblin_Slingshot_C_0 is not valid (pending kill or garbage)
+	ABP_Golbin_Slingshot_C /Engine/Transient.World_17:PersistentLevel.REINST_BP_Goblin_Slingshot_C_0.CharacterMesh0.ABP_Golbin_Slingshot_C_0
+	Function /Game/Blueprints/Character/ABP_Enemy.ABP_Enemy_C:ExecuteUbergraph_ABP_Enemy:009F
+[2026.10.18-00.27.01:520][418]LogScript: Warning: Attempted to access REINST_BP_Goblin_Slingshot_C_0 via property K2Node_DynamicCast_AsAura_Enemy, but REINST_BP_Goblin_Slingshot_C_0 is not valid (pending kill or garbage)
+	ABP_Golbin_Slingshot_C /Engine/Transient.World_5:PersistentLevel.REINST_BP_Goblin_Slingshot_C_0.CharacterMesh0.ABP_Golbin_Slingshot_C_0
+	Function /Game/Blueprints/Character/ABP_Enemy.ABP_Enemy_C:ExecuteUbergraph_ABP_Enemy:009F
+[2026.10.18-00.27.01:539][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.10.18-00.27.02:518][527]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.18-00.27.02:534][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.18-00.27.02:535][527]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.27.02:547][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012630s)
+[2026.10.18-00.27.02:547][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.012775s)
+[2026.10.18-00.27.02:566][527]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2026.10.18-00.27.02:570][527]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.10.18-00.27.02:571][527]LogPlayLevel: PIE: World Init took: (0.001271s)
+[2026.10.18-00.27.02:571][527]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2026.10.18-00.27.02:572][527]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.18-00.27.02:572][527]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.18-00.27.02:572][527]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.18-00.27.02:572][527]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.18-00.27.02:572][527]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.18-00.27.02:572][527]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.18-00.27.02:572][527]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.18-00.27.02:572][527]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.18-00.27.02:572][527]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.18-00.27.02:572][527]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.18-00.27.02:572][527]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.18-00.27.02:574][527]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.18-00.27.02:589][527]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.18-00.27.02:589][527]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.18-00.27.02:589][527]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.18-00.27.02:589][527]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.18-00.27.02:589][527]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2026.10.18-00.27.02:589][527]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2026.10.18-00.27.02:592][527]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2026.10.18-00.27.02:592][527]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2026.10.18-00.27.02:592][527]LogInit: FAudioDevice initialized with ID 12.
+[2026.10.18-00.27.02:592][527]LogAudio: Display: Audio Device (ID: 12) registered with world 'StartupMap'.
+[2026.10.18-00.27.02:592][527]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2026.10.18-00.27.02:594][527]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.18-00.27.02:597][527]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.27.02:600][527]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2026.10.17-17.27.02
+[2026.10.18-00.27.02:605][527]LogWorld: Bringing up level for play took: 0.011004
+[2026.10.18-00.27.02:606][527]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2026.10.18-00.27.02:608][527]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.18-00.27.02:611][527]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:611][527]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:611][527]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:611][527]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:611][527]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:611][527]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:612][527]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.27.02:612][527]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.27.02:612][527]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.18-00.27.02:614][527]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.18-00.27.02:614][527]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:614][527]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:614][527]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:614][527]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:615][527]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:615][527]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:615][527]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:615][527]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:615][527]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:615][527]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:615][527]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:615][527]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:615][527]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:615][527]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:615][527]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:615][527]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:615][527]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.27.02:615][527]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.27.02:616][527]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:616][527]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:616][527]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:616][527]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:616][527]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:616][527]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:616][527]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:616][527]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:616][527]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:616][527]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:616][527]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:616][527]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:616][527]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:616][527]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:617][527]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:617][527]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.27.02:617][527]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.27.02:617][527]LogTemp: Warning: BP_Goblin_Slingshot_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.27.02:617][527]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.18-00.27.02:617][527]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.18-00.27.02:618][527]PIE: Server logged in
+[2026.10.18-00.27.02:618][527]PIE: Play in editor total start time 0.092 seconds.
+[2026.10.18-00.27.03:291][603]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1357.424805
+[2026.10.18-00.27.03:449][622]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.18-00.27.03:449][622]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1357.574829, Update Interval: 307.095551
+[2026.10.18-00.27.03:723][655]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.27.03:723][655]LogTemp: Warning: GA_FireBolt_C_0 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.27.05:557][875]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.27.05:558][875]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.27.05:558][875]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.27.05:558][875]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.27.05:558][875]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.27.05:558][875]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.27.05:558][875]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.27.05:757][899]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.27.05:757][899]LogTemp: Warning: GA_FireBolt_C_1 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.27.06:549][994]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.27.08:781][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.27.08:781][255]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.27.08:781][255]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.10.18-00.27.08:783][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.27.08:787][255]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.18-00.27.08:787][255]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.27.08:787][255]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.27.08:788][255]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.27.08:788][255]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.27.08:788][255]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.27.08:788][255]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.27.08:788][255]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.27.08:788][255]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.27.08:788][255]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.27.08:799][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.27.08:816][255]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.18-00.27.08:817][255]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2026.10.18-00.27.08:817][255]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2026.10.18-00.27.08:819][255]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2026.10.18-00.27.08:824][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.27.08:830][255]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.10.18-00.27.08:892][256]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2026.10.18-00.27.20:772][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.10.18-00.27.20:779][632]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.18-00.27.20:835][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.18-00.27.20:881][632]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2026.10.18-00.27.20:932][632]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.10.18-00.27.20:932][632]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMap73862F0345608DE6833FA692D258F709.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.10.18-00.27.20:948][632]LogFileHelpers: Saving map 'StartupMap' took 0.114
+[2026.10.18-00.27.20:955][632]LogFileHelpers: InternalPromptForCheckoutAndSave took 177.384 ms (total: 1.71 sec)
+[2026.10.18-00.27.21:017][632]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.18-00.27.21:017][632]LogContentValidation: Enabled validators:
+[2026.10.18-00.27.21:017][632]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.18-00.27.21:017][632]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.18-00.27.21:017][632]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.18-00.27.21:017][632]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.18-00.27.21:017][632]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.18-00.27.21:017][632]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.18-00.27.21:017][632]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.10.18-00.27.21:116][642]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.27.59:990][242]Cmd: DELETE
+[2026.10.18-00.27.59:991][242]Cmd: ACTOR DELETE
+[2026.10.18-00.27.59:996][242]LogEditorActor: Deleted Actor: BP_Goblin_Slingshot_C
+[2026.10.18-00.28.00:020][242]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2026.10.18-00.28.00:030][242]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2026.10.18-00.28.01:770][423]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2026.10.18-00.28.01:780][423]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.18-00.28.01:839][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.18-00.28.01:886][423]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2026.10.18-00.28.01:936][423]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.10.18-00.28.01:936][423]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMapFB730ED348109398EC131BB26BF3EF14.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.10.18-00.28.01:952][423]LogFileHelpers: Saving map 'StartupMap' took 0.113
+[2026.10.18-00.28.01:960][423]LogFileHelpers: InternalPromptForCheckoutAndSave took 180.344 ms (total: 1.89 sec)
+[2026.10.18-00.28.02:003][423]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.18-00.28.02:003][423]LogContentValidation: Enabled validators:
+[2026.10.18-00.28.02:003][423]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.18-00.28.02:003][423]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.18-00.28.02:003][423]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.18-00.28.02:003][423]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.18-00.28.02:003][423]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.18-00.28.02:003][423]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.18-00.28.02:003][423]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.10.18-00.28.02:580][474]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.18-00.28.02:596][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.18-00.28.02:597][474]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.28.02:609][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011880s)
+[2026.10.18-00.28.02:609][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.012041s)
+[2026.10.18-00.28.02:624][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2026.10.18-00.28.02:627][474]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.10.18-00.28.02:628][474]LogPlayLevel: PIE: World Init took: (0.001254s)
+[2026.10.18-00.28.02:628][474]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2026.10.18-00.28.02:628][474]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.18-00.28.02:629][474]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.18-00.28.02:629][474]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.18-00.28.02:629][474]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.18-00.28.02:629][474]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.18-00.28.02:629][474]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.18-00.28.02:629][474]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.18-00.28.02:629][474]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.18-00.28.02:629][474]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.18-00.28.02:629][474]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.18-00.28.02:629][474]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.18-00.28.02:631][474]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.18-00.28.02:646][474]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.18-00.28.02:646][474]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.18-00.28.02:646][474]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.18-00.28.02:646][474]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.18-00.28.02:646][474]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2026.10.18-00.28.02:646][474]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2026.10.18-00.28.02:648][474]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2026.10.18-00.28.02:649][474]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2026.10.18-00.28.02:649][474]LogInit: FAudioDevice initialized with ID 13.
+[2026.10.18-00.28.02:649][474]LogAudio: Display: Audio Device (ID: 13) registered with world 'StartupMap'.
+[2026.10.18-00.28.02:649][474]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2026.10.18-00.28.02:651][474]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.18-00.28.02:654][474]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.02:656][474]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2026.10.17-17.28.02
+[2026.10.18-00.28.02:661][474]LogWorld: Bringing up level for play took: 0.010335
+[2026.10.18-00.28.02:663][474]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2026.10.18-00.28.02:665][474]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.18-00.28.02:668][474]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:668][474]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:668][474]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:668][474]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:668][474]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:668][474]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:668][474]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.02:669][474]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.02:669][474]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.18-00.28.02:670][474]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.18-00.28.02:671][474]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:671][474]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:671][474]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:671][474]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:671][474]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:671][474]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:671][474]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:671][474]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:671][474]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:671][474]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:671][474]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:671][474]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:671][474]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:671][474]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:672][474]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:672][474]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.02:672][474]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.02:672][474]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.02:672][474]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.18-00.28.02:672][474]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.18-00.28.02:673][474]PIE: Server logged in
+[2026.10.18-00.28.02:673][474]PIE: Play in editor total start time 0.084 seconds.
+[2026.10.18-00.28.04:687][711]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.04:687][711]LogTemp: Warning: GA_FireBolt_C_0 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.28.06:637][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.06:637][945]LogAbilitySystem: Warning: UAbilityTask_PlayMontageAndWait called in Ability GA_HitReact_C_0 failed to play montage None; Task Instance Name None.
+[2026.10.18-00.28.06:638][945]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.28.07:629][ 64]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.28.07:679][ 70]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.07:679][ 70]LogTemp: Warning: GA_FireBolt_C_1 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.28.09:629][304]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.09:629][304]LogAbilitySystem: Warning: UAbilityTask_PlayMontageAndWait called in Ability GA_HitReact_C_1 failed to play montage None; Task Instance Name None.
+[2026.10.18-00.28.09:630][304]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.28.10:621][423]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.28.12:317][621]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.28.12:317][621]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.28.12:318][621]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.10.18-00.28.12:319][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.28.12:322][621]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.18-00.28.12:322][621]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.12:322][621]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.12:322][621]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.12:322][621]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.12:322][621]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.12:323][621]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.12:323][621]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.12:323][621]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.12:323][621]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.12:334][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.28.12:350][621]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.28.12:351][621]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2026.10.18-00.28.12:351][621]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2026.10.18-00.28.12:354][621]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2026.10.18-00.28.12:364][621]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.10.18-00.28.12:424][622]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2026.10.18-00.28.12:581][635]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_23
+[2026.10.18-00.28.21:989][742]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.21:990][742]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.21:995][742]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.21:996][742]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.22:015][742]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.22:965][854]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.10.18-00.28.22:971][854]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.18-00.28.23:022][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.18-00.28.23:069][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2026.10.18-00.28.23:119][854]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.10.18-00.28.23:120][854]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMap51CB7C744A8F6759D803C3BBFEED2A6B.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.10.18-00.28.23:135][854]LogFileHelpers: Saving map 'StartupMap' took 0.113
+[2026.10.18-00.28.23:136][854]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon] ([2] browsable assets)...
+[2026.10.18-00.28.23:150][854]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon.BP_SpeedDemon]
+[2026.10.18-00.28.23:150][854]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon]
+[2026.10.18-00.28.23:156][854]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon
+[2026.10.18-00.28.23:156][854]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_SpeedDemon941EE4D346BA062973FBF399BE174A66.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon.uasset'
+[2026.10.18-00.28.23:165][854]LogFileHelpers: InternalPromptForCheckoutAndSave took 194.073 ms (total: 2.09 sec)
+[2026.10.18-00.28.23:204][854]LogContentValidation: Display: Starting to validate 2 assets
+[2026.10.18-00.28.23:205][854]LogContentValidation: Enabled validators:
+[2026.10.18-00.28.23:205][854]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.18-00.28.23:205][854]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.18-00.28.23:205][854]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.18-00.28.23:205][854]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.18-00.28.23:205][854]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.18-00.28.23:205][854]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.18-00.28.23:205][854]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.10.18-00.28.23:205][854]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon Validating asset
+[2026.10.18-00.28.25:417][115]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.18-00.28.25:435][115]LogPlayLevel: [PlayLevel] Compiling BP_SpeedDemon before play...
+[2026.10.18-00.28.25:460][115]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.25:461][115]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.25:463][115]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.25:465][115]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.25:516][115]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.25:516][115]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.25:518][115]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.25:518][115]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.25:528][115]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.25:528][115]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.25:529][115]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.25:530][115]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.25:553][115]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.10.18-00.28.25:556][115]LogPlayLevel: PlayLevel: Blueprint regeneration took 123 ms (1 blueprints)
+[2026.10.18-00.28.25:556][115]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.28.25:568][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011816s)
+[2026.10.18-00.28.25:568][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.011979s)
+[2026.10.18-00.28.25:584][115]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2026.10.18-00.28.25:586][115]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.10.18-00.28.25:587][115]LogPlayLevel: PIE: World Init took: (0.001259s)
+[2026.10.18-00.28.25:588][115]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2026.10.18-00.28.25:588][115]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.18-00.28.25:588][115]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.18-00.28.25:588][115]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.18-00.28.25:588][115]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.18-00.28.25:588][115]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.18-00.28.25:588][115]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.18-00.28.25:588][115]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.18-00.28.25:589][115]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.18-00.28.25:589][115]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.18-00.28.25:589][115]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.18-00.28.25:589][115]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.18-00.28.25:591][115]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.18-00.28.25:605][115]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.18-00.28.25:606][115]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.18-00.28.25:606][115]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.18-00.28.25:606][115]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.18-00.28.25:606][115]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2026.10.18-00.28.25:606][115]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2026.10.18-00.28.25:608][115]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2026.10.18-00.28.25:608][115]LogInit: FAudioDevice initialized with ID 14.
+[2026.10.18-00.28.25:608][115]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2026.10.18-00.28.25:608][115]LogAudio: Display: Audio Device (ID: 14) registered with world 'StartupMap'.
+[2026.10.18-00.28.25:608][115]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2026.10.18-00.28.25:610][115]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.18-00.28.25:614][115]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.25:616][115]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2026.10.17-17.28.25
+[2026.10.18-00.28.25:621][115]LogWorld: Bringing up level for play took: 0.010991
+[2026.10.18-00.28.25:623][115]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2026.10.18-00.28.25:624][115]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.18-00.28.25:627][115]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:627][115]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:627][115]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:627][115]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:628][115]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:628][115]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:628][115]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.25:628][115]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.25:628][115]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.18-00.28.25:630][115]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.18-00.28.25:631][115]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:631][115]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:631][115]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:631][115]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:631][115]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:631][115]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:631][115]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:631][115]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:631][115]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:631][115]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:631][115]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:631][115]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:631][115]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:631][115]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:631][115]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:631][115]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.25:632][115]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.25:632][115]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.25:632][115]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.18-00.28.25:632][115]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.18-00.28.25:632][115]PIE: Server logged in
+[2026.10.18-00.28.25:634][115]PIE: Play in editor total start time 0.208 seconds.
+[2026.10.18-00.28.25:664][115]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.27:317][309]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.27:317][309]LogTemp: Warning: GA_FireBolt_C_0 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.28.29:293][546]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.29:293][546]LogAbilitySystem: Warning: UAbilityTask_PlayMontageAndWait called in Ability GA_HitReact_C_0 failed to play montage None; Task Instance Name None.
+[2026.10.18-00.28.29:293][546]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.28.30:284][663]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.28.30:609][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.28.30:610][697]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.28.30:610][697]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.10.18-00.28.30:612][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.28.30:615][697]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.18-00.28.30:615][697]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.30:615][697]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.30:615][697]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.30:615][697]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.30:615][697]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.30:615][697]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.30:615][697]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.30:615][697]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.30:615][697]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.30:626][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.28.30:643][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.28.30:644][697]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2026.10.18-00.28.30:644][697]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2026.10.18-00.28.30:646][697]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2026.10.18-00.28.30:657][697]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2026.10.18-00.28.30:720][698]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2026.10.18-00.28.33:074][972]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.33:075][972]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.33:079][972]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.33:080][972]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.33:103][972]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.46:994][647]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.46:996][647]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.47:000][647]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.47:001][647]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.47:026][647]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.48:024][750]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2026.10.18-00.28.48:029][750]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.18-00.28.48:075][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.18-00.28.48:122][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2026.10.18-00.28.48:171][750]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.10.18-00.28.48:171][750]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMapD4AFE32A459CB102E56F8EB85A16B170.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.10.18-00.28.48:187][750]LogFileHelpers: Saving map 'StartupMap' took 0.113
+[2026.10.18-00.28.48:187][750]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon] ([2] browsable assets)...
+[2026.10.18-00.28.48:201][750]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon.BP_SpeedDemon]
+[2026.10.18-00.28.48:202][750]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon]
+[2026.10.18-00.28.48:208][750]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon
+[2026.10.18-00.28.48:209][750]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_SpeedDemonD1DEBB0A4036B682F870ED9952BCF7F9.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon.uasset'
+[2026.10.18-00.28.48:215][750]LogFileHelpers: InternalPromptForCheckoutAndSave took 185.409 ms (total: 2.27 sec)
+[2026.10.18-00.28.48:273][750]LogContentValidation: Display: Starting to validate 2 assets
+[2026.10.18-00.28.48:274][750]LogContentValidation: Enabled validators:
+[2026.10.18-00.28.48:274][750]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.18-00.28.48:274][750]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.18-00.28.48:274][750]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.18-00.28.48:274][750]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.18-00.28.48:274][750]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.18-00.28.48:274][750]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.18-00.28.48:274][750]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.10.18-00.28.48:274][750]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon Validating asset
+[2026.10.18-00.28.50:294][976]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.18-00.28.50:314][976]LogPlayLevel: [PlayLevel] Compiling BP_SpeedDemon before play...
+[2026.10.18-00.28.50:339][976]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.50:340][976]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.50:341][976]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.50:342][976]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.50:401][976]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.50:401][976]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.50:402][976]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.50:403][976]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.50:410][976]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.50:410][976]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.50:411][976]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.50:412][976]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.50:435][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2026.10.18-00.28.50:438][976]LogPlayLevel: PlayLevel: Blueprint regeneration took 125 ms (1 blueprints)
+[2026.10.18-00.28.50:438][976]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.28.50:450][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012101s)
+[2026.10.18-00.28.50:450][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.012269s)
+[2026.10.18-00.28.50:466][976]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2026.10.18-00.28.50:467][976]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.10.18-00.28.50:468][976]LogPlayLevel: PIE: World Init took: (0.001299s)
+[2026.10.18-00.28.50:469][976]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2026.10.18-00.28.50:469][976]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.18-00.28.50:469][976]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.18-00.28.50:469][976]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.18-00.28.50:469][976]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.18-00.28.50:469][976]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.18-00.28.50:469][976]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.18-00.28.50:469][976]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.18-00.28.50:469][976]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.18-00.28.50:469][976]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.18-00.28.50:469][976]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.18-00.28.50:470][976]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.18-00.28.50:471][976]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.18-00.28.50:487][976]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.18-00.28.50:488][976]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.18-00.28.50:488][976]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.18-00.28.50:488][976]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.18-00.28.50:488][976]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2026.10.18-00.28.50:488][976]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2026.10.18-00.28.50:490][976]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2026.10.18-00.28.50:490][976]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2026.10.18-00.28.50:490][976]LogInit: FAudioDevice initialized with ID 15.
+[2026.10.18-00.28.50:490][976]LogAudio: Display: Audio Device (ID: 15) registered with world 'StartupMap'.
+[2026.10.18-00.28.50:490][976]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2026.10.18-00.28.50:492][976]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.18-00.28.50:495][976]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.28.50:498][976]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2026.10.17-17.28.50
+[2026.10.18-00.28.50:503][976]LogWorld: Bringing up level for play took: 0.010254
+[2026.10.18-00.28.50:505][976]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2026.10.18-00.28.50:507][976]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.18-00.28.50:510][976]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:510][976]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:510][976]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:510][976]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:510][976]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:510][976]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:511][976]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.50:511][976]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.50:511][976]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.18-00.28.50:513][976]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.18-00.28.50:513][976]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:513][976]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:514][976]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:514][976]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:514][976]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:514][976]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:514][976]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:514][976]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:514][976]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:514][976]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:514][976]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:514][976]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:514][976]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:514][976]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:514][976]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:514][976]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.28.50:514][976]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.50:514][976]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.50:515][976]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.18-00.28.50:515][976]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.18-00.28.50:515][976]PIE: Server logged in
+[2026.10.18-00.28.50:516][976]PIE: Play in editor total start time 0.213 seconds.
+[2026.10.18-00.28.50:548][976]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.28.52:204][169]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.52:204][169]LogTemp: Warning: GA_FireBolt_C_0 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.28.54:033][388]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.54:034][388]LogAbilitySystem: Warning: UAbilityTask_PlayMontageAndWait called in Ability GA_HitReact_C_0 failed to play montage None; Task Instance Name None.
+[2026.10.18-00.28.54:034][388]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.28.55:025][507]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.28.55:126][519]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.55:126][519]LogTemp: Warning: GA_FireBolt_C_1 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.28.56:951][738]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.56:952][738]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.56:952][738]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.56:952][738]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.56:952][738]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.56:952][738]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.28.56:952][738]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.28.57:943][857]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.28.58:542][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.28.58:542][922]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.28.58:542][922]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.10.18-00.28.58:544][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.28.58:547][922]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.18-00.28.58:547][922]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.58:547][922]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.58:547][922]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.58:547][922]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.58:547][922]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.58:547][922]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.58:547][922]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.58:547][922]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.58:547][922]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.28.58:559][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.28.58:575][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.28.58:577][922]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2026.10.18-00.28.58:577][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2026.10.18-00.28.58:580][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2026.10.18-00.28.58:589][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.10.18-00.28.58:660][923]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2026.10.18-00.29.08:477][ 80]LogEditorTransaction: Undo Collision Channel Changes
+[2026.10.18-00.29.08:492][ 80]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.29.08:493][ 80]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0) Component already registered.
+[2026.10.18-00.29.08:493][ 80]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.29.08:499][ 80]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.29.08:499][ 80]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0) Component already registered.
+[2026.10.18-00.29.08:500][ 80]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.29.08:504][ 80]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.29.08:505][ 80]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.29.08:506][ 80]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.29.08:506][ 80]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.29.08:606][ 80]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.29.28:519][377]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.29.28:519][377]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.29.28:525][377]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.29.28:526][377]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.29.28:557][377]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.29.29:431][473]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2026.10.18-00.29.29:441][473]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.18-00.29.29:496][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.18-00.29.29:542][473]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2026.10.18-00.29.29:593][473]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.10.18-00.29.29:593][473]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMap4A20F8EC486A71E5897FFF9CE46BAE3A.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.10.18-00.29.29:610][473]LogFileHelpers: Saving map 'StartupMap' took 0.115
+[2026.10.18-00.29.29:610][473]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon] ([2] browsable assets)...
+[2026.10.18-00.29.29:623][473]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon.BP_SpeedDemon]
+[2026.10.18-00.29.29:623][473]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon]
+[2026.10.18-00.29.29:629][473]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon
+[2026.10.18-00.29.29:629][473]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_SpeedDemon25AE42CF46561BC0CEB899B03C3B7FF4.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon.uasset'
+[2026.10.18-00.29.29:637][473]LogFileHelpers: InternalPromptForCheckoutAndSave took 195.377 ms (total: 2.47 sec)
+[2026.10.18-00.29.29:693][473]LogContentValidation: Display: Starting to validate 2 assets
+[2026.10.18-00.29.29:693][473]LogContentValidation: Enabled validators:
+[2026.10.18-00.29.29:693][473]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.18-00.29.29:693][473]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.18-00.29.29:693][473]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.18-00.29.29:693][473]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.18-00.29.29:693][473]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.18-00.29.29:693][473]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.18-00.29.29:694][473]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.10.18-00.29.29:694][473]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon Validating asset
+[2026.10.18-00.29.55:157][292]LogSlate: Window 'Find in Blueprints' being destroyed
+[2026.10.18-00.29.55:160][292]LogSlate: Window 'Find in Blueprints' being destroyed
+[2026.10.18-00.29.58:440][683]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.18-00.29.58:459][683]LogPlayLevel: [PlayLevel] Compiling BP_SpeedDemon before play...
+[2026.10.18-00.29.58:472][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.29.58:473][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.29.58:474][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.29.58:475][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.29.58:526][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.29.58:527][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.29.58:528][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.29.58:528][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.29.58:538][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.29.58:538][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.29.58:539][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.29.58:540][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.29.58:564][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.10.18-00.29.58:569][683]LogPlayLevel: PlayLevel: Blueprint regeneration took 112 ms (1 blueprints)
+[2026.10.18-00.29.58:569][683]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.29.58:581][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012503s)
+[2026.10.18-00.29.58:581][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.012656s)
+[2026.10.18-00.29.58:598][683]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2026.10.18-00.29.58:600][683]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.10.18-00.29.58:602][683]LogPlayLevel: PIE: World Init took: (0.001319s)
+[2026.10.18-00.29.58:602][683]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2026.10.18-00.29.58:602][683]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.18-00.29.58:602][683]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.18-00.29.58:602][683]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.18-00.29.58:602][683]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.18-00.29.58:602][683]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.18-00.29.58:602][683]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.18-00.29.58:602][683]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.18-00.29.58:602][683]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.18-00.29.58:602][683]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.18-00.29.58:602][683]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.18-00.29.58:602][683]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.18-00.29.58:605][683]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.18-00.29.58:620][683]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.18-00.29.58:620][683]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.18-00.29.58:620][683]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.18-00.29.58:620][683]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.18-00.29.58:620][683]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2026.10.18-00.29.58:620][683]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2026.10.18-00.29.58:622][683]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2026.10.18-00.29.58:622][683]LogInit: FAudioDevice initialized with ID 16.
+[2026.10.18-00.29.58:622][683]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2026.10.18-00.29.58:622][683]LogAudio: Display: Audio Device (ID: 16) registered with world 'StartupMap'.
+[2026.10.18-00.29.58:624][683]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2026.10.18-00.29.58:625][683]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.18-00.29.58:629][683]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.29.58:631][683]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2026.10.17-17.29.58
+[2026.10.18-00.29.58:636][683]LogWorld: Bringing up level for play took: 0.010528
+[2026.10.18-00.29.58:638][683]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2026.10.18-00.29.58:639][683]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.18-00.29.58:642][683]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:642][683]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:642][683]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:642][683]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:642][683]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:642][683]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:642][683]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.29.58:644][683]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.29.58:644][683]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.18-00.29.58:646][683]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.18-00.29.58:646][683]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:646][683]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:646][683]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:647][683]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:647][683]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:647][683]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:647][683]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:647][683]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:647][683]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:647][683]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:647][683]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:647][683]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:647][683]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:647][683]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:647][683]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:647][683]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.29.58:647][683]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.29.58:647][683]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.29.58:648][683]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.18-00.29.58:648][683]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.18-00.29.58:648][683]PIE: Server logged in
+[2026.10.18-00.29.58:649][683]PIE: Play in editor total start time 0.2 seconds.
+[2026.10.18-00.30.01:491][ 19]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.01:491][ 19]LogTemp: Warning: GA_FireBolt_C_0 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.30.03:225][227]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.03:225][227]LogAbilitySystem: Warning: UAbilityTask_PlayMontageAndWait called in Ability GA_HitReact_C_0 failed to play montage None; Task Instance Name None.
+[2026.10.18-00.30.03:226][227]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.30.04:216][346]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.30.04:475][377]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.04:475][377]LogTemp: Warning: GA_FireBolt_C_1 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.30.06:209][585]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.06:210][585]LogAbilitySystem: Warning: UAbilityTask_PlayMontageAndWait called in Ability GA_HitReact_C_1 failed to play montage None; Task Instance Name None.
+[2026.10.18-00.30.06:210][585]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.30.06:211][585]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.06:211][585]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.30.07:201][704]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.30.07:201][704]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.30.07:210][705]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.07:210][705]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.30.08:049][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.30.08:049][800]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.30.08:050][800]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.10.18-00.30.08:052][800]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.30.08:054][800]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.18-00.30.08:055][800]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.30.08:055][800]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.30.08:055][800]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.30.08:055][800]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.30.08:055][800]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.30.08:055][800]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.30.08:055][800]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.30.08:055][800]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.30.08:055][800]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.30.08:068][800]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.30.08:085][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.30.08:086][800]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2026.10.18-00.30.08:087][800]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2026.10.18-00.30.08:088][800]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2026.10.18-00.30.08:098][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2026.10.18-00.30.08:158][801]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2026.10.18-00.30.12:289][286]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.30.27:583][ 47]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.30.27:584][ 47]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.30.27:589][ 47]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.30.27:590][ 47]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.30.27:644][ 47]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.30.30:503][385]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.30.30:504][385]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.30.30:508][385]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.30.30:509][385]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.30.30:532][385]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.30.31:859][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2026.10.18-00.30.31:868][540]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.18-00.30.31:901][540]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon] ([2] browsable assets)...
+[2026.10.18-00.30.31:914][540]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon.BP_SpeedDemon]
+[2026.10.18-00.30.31:914][540]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon]
+[2026.10.18-00.30.31:921][540]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon
+[2026.10.18-00.30.31:922][540]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/BP_SpeedDemonA01C8C9147047CE4A6E6A78C1AB679BE.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon.uasset'
+[2026.10.18-00.30.31:927][540]LogFileHelpers: InternalPromptForCheckoutAndSave took 59.994 ms (total: 2.53 sec)
+[2026.10.18-00.30.31:982][540]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.18-00.30.31:982][540]LogContentValidation: Enabled validators:
+[2026.10.18-00.30.31:982][540]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.18-00.30.31:982][540]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.18-00.30.31:982][540]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.18-00.30.31:982][540]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.18-00.30.31:982][540]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.18-00.30.31:982][540]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.18-00.30.31:982][540]AssetCheck: /Game/Blueprints/Character/TestAI_Characters/SpeedDemon/BP_SpeedDemon Validating asset
+[2026.10.18-00.30.35:453][945]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.18-00.30.35:471][945]LogPlayLevel: [PlayLevel] Compiling BP_SpeedDemon before play...
+[2026.10.18-00.30.35:484][945]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.30.35:486][945]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.30.35:486][945]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.30.35:488][945]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.30.35:539][945]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.30.35:540][945]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.30.35:541][945]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.30.35:541][945]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.30.35:550][945]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.30.35:551][945]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.30.35:552][945]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.30.35:552][945]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.30.35:576][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.10.18-00.30.35:580][945]LogPlayLevel: PlayLevel: Blueprint regeneration took 111 ms (1 blueprints)
+[2026.10.18-00.30.35:580][945]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.30.35:593][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011982s)
+[2026.10.18-00.30.35:593][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.012138s)
+[2026.10.18-00.30.35:610][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.10.18-00.30.35:612][945]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.10.18-00.30.35:613][945]LogPlayLevel: PIE: World Init took: (0.001250s)
+[2026.10.18-00.30.35:614][945]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2026.10.18-00.30.35:614][945]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.18-00.30.35:614][945]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.18-00.30.35:614][945]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.18-00.30.35:614][945]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.18-00.30.35:614][945]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.18-00.30.35:614][945]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.18-00.30.35:614][945]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.18-00.30.35:614][945]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.18-00.30.35:614][945]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.18-00.30.35:614][945]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.18-00.30.35:614][945]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.18-00.30.35:616][945]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.18-00.30.35:631][945]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.18-00.30.35:631][945]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.18-00.30.35:631][945]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.18-00.30.35:631][945]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.18-00.30.35:632][945]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2026.10.18-00.30.35:632][945]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2026.10.18-00.30.35:634][945]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2026.10.18-00.30.35:634][945]LogInit: FAudioDevice initialized with ID 17.
+[2026.10.18-00.30.35:634][945]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2026.10.18-00.30.35:634][945]LogAudio: Display: Audio Device (ID: 17) registered with world 'StartupMap'.
+[2026.10.18-00.30.35:634][945]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2026.10.18-00.30.35:636][945]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.18-00.30.35:639][945]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.30.35:641][945]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2026.10.17-17.30.35
+[2026.10.18-00.30.35:646][945]LogWorld: Bringing up level for play took: 0.010672
+[2026.10.18-00.30.35:649][945]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2026.10.18-00.30.35:650][945]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.18-00.30.35:653][945]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:653][945]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:654][945]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:654][945]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:654][945]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:654][945]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:654][945]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.35:654][945]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.35:654][945]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.18-00.30.35:657][945]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.18-00.30.35:657][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:657][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:657][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:657][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:657][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:657][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:657][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:657][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:658][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:658][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:658][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:658][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:658][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:658][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:658][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:658][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.35:658][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.35:658][945]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.35:658][945]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.18-00.30.35:658][945]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.18-00.30.35:659][945]PIE: Server logged in
+[2026.10.18-00.30.35:660][945]PIE: Play in editor total start time 0.198 seconds.
+[2026.10.18-00.30.35:692][945]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_9:PersistentLevel.BP_SpeedDemon_C_0.CharacterMesh0'
+[2026.10.18-00.30.36:969][ 94]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.36:969][ 94]LogTemp: Warning: GA_FireBolt_C_0 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.30.39:481][394]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.39:481][394]LogTemp: Warning: GA_FireBolt_C_1 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.30.40:247][486]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.40:247][486]LogTemp: Warning: GA_FireBolt_C_2 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.30.41:264][608]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.41:264][608]LogTemp: Warning: GA_FireBolt_C_3 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.30.42:665][776]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.42:665][776]LogTemp: Warning: GA_FireBolt_C_4 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.30.44:582][  6]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.44:582][  6]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.44:582][  6]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.44:582][  6]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.44:583][  6]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.44:583][  6]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.44:583][  6]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.30.45:579][124]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.30.45:755][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.30.45:755][139]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.30.45:755][139]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.10.18-00.30.45:757][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.30.45:760][139]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.18-00.30.45:760][139]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.30.45:760][139]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.30.45:760][139]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.30.45:760][139]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.30.45:760][139]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.30.45:760][139]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.30.45:760][139]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.30.45:760][139]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.30.45:760][139]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.30.45:771][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.30.45:789][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.30.45:791][139]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2026.10.18-00.30.45:791][139]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2026.10.18-00.30.45:792][139]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2026.10.18-00.30.45:802][139]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2026.10.18-00.30.45:869][140]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2026.10.18-00.30.48:095][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2026.10.18-00.30.51:294][695]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot_C
+[2026.10.18-00.30.51:294][695]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot_C
+[2026.10.18-00.30.51:297][695]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot as actor: BP_Goblin_Slingshot_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_Goblin_Slingshot_C_2
+[2026.10.18-00.30.51:299][695]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot as actor: BP_Goblin_Slingshot_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_Goblin_Slingshot_C_2
+[2026.10.18-00.30.52:773][859]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2026.10.18-00.30.52:775][859]LogEditorActor: Deleted 0 Actors (0.023 secs)
+[2026.10.18-00.30.52:783][859]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot_C
+[2026.10.18-00.30.52:784][859]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot_C
+[2026.10.18-00.30.52:790][859]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot as actor: BP_Goblin_Slingshot_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_Goblin_Slingshot_C_3
+[2026.10.18-00.30.52:792][859]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Character/Goblin_Slingshot/BP_Goblin_Slingshot.BP_Goblin_Slingshot as actor: BP_Goblin_Slingshot_C /Game/Maps/StartupMap.StartupMap:PersistentLevel.BP_Goblin_Slingshot_C_3
+[2026.10.18-00.30.55:322][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2026.10.18-00.30.55:335][ 90]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.18-00.30.55:386][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/StartupMap" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2026.10.18-00.30.55:435][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2026.10.18-00.30.55:485][ 90]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2026.10.18-00.30.55:486][ 90]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/StartupMap97436C78461E2BA4A2BE5782332BB425.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Maps/StartupMap.umap'
+[2026.10.18-00.30.55:502][ 90]LogFileHelpers: Saving map 'StartupMap' took 0.116
+[2026.10.18-00.30.55:510][ 90]LogFileHelpers: InternalPromptForCheckoutAndSave took 175.012 ms (total: 2.70 sec)
+[2026.10.18-00.30.55:569][ 90]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.18-00.30.55:569][ 90]LogContentValidation: Enabled validators:
+[2026.10.18-00.30.55:569][ 90]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.18-00.30.55:569][ 90]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.18-00.30.55:569][ 90]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.18-00.30.55:569][ 90]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.18-00.30.55:569][ 90]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.18-00.30.55:569][ 90]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.18-00.30.55:569][ 90]AssetCheck: /Game/Maps/StartupMap Validating asset
+[2026.10.18-00.30.56:405][186]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.18-00.30.56:420][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.18-00.30.56:421][186]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.30.56:434][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012450s)
+[2026.10.18-00.30.56:434][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.012605s)
+[2026.10.18-00.30.56:452][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2026.10.18-00.30.56:454][186]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.10.18-00.30.56:455][186]LogPlayLevel: PIE: World Init took: (0.001291s)
+[2026.10.18-00.30.56:456][186]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2026.10.18-00.30.56:456][186]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.18-00.30.56:456][186]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.18-00.30.56:456][186]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.18-00.30.56:456][186]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.18-00.30.56:456][186]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.18-00.30.56:456][186]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.18-00.30.56:456][186]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.18-00.30.56:456][186]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.18-00.30.56:456][186]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.18-00.30.56:456][186]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.18-00.30.56:456][186]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.18-00.30.56:458][186]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.18-00.30.56:473][186]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.18-00.30.56:473][186]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.18-00.30.56:473][186]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.18-00.30.56:473][186]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.18-00.30.56:473][186]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2026.10.18-00.30.56:474][186]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2026.10.18-00.30.56:476][186]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2026.10.18-00.30.56:476][186]LogInit: FAudioDevice initialized with ID 18.
+[2026.10.18-00.30.56:476][186]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2026.10.18-00.30.56:476][186]LogAudio: Display: Audio Device (ID: 18) registered with world 'StartupMap'.
+[2026.10.18-00.30.56:476][186]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2026.10.18-00.30.56:478][186]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.18-00.30.56:482][186]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.30.56:485][186]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2026.10.17-17.30.56
+[2026.10.18-00.30.56:490][186]LogWorld: Bringing up level for play took: 0.011272
+[2026.10.18-00.30.56:492][186]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2026.10.18-00.30.56:493][186]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.18-00.30.56:496][186]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:496][186]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:496][186]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:496][186]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:497][186]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:497][186]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:497][186]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.56:497][186]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.56:497][186]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.18-00.30.56:499][186]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.18-00.30.56:500][186]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:500][186]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:500][186]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:500][186]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:500][186]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:500][186]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:500][186]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:500][186]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:500][186]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:500][186]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:500][186]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:500][186]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:500][186]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:500][186]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:501][186]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:501][186]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:501][186]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.56:501][186]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.56:501][186]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:501][186]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:501][186]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:501][186]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:501][186]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:501][186]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:501][186]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:501][186]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:502][186]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:502][186]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:502][186]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:502][186]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:502][186]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:502][186]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:502][186]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:502][186]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.30.56:502][186]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.56:502][186]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.56:502][186]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.18-00.30.56:502][186]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.18-00.30.56:503][186]PIE: Server logged in
+[2026.10.18-00.30.56:504][186]PIE: Play in editor total start time 0.09 seconds.
+[2026.10.18-00.30.58:928][472]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.58:928][472]LogTemp: Warning: GA_FireBolt_C_0 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.30.59:279][514]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.59:587][551]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.30.59:587][551]LogTemp: Warning: GA_FireBolt_C_1 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.31.01:133][734]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.01:133][734]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.31.01:134][734]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.01:135][734]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.31.01:409][767]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 943
+[2026.10.18-00.31.01:789][809]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.01:790][809]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.31.01:790][809]LogTemp: Warning: Reaction depth=1 Target=BP_Goblin_Slingshot_C_3 Status=ReactiveStatus.Burning NumRemoved=1 RemainingCount=0 Reaction=Reaction.FireOnBurning
+[2026.10.18-00.31.01:790][809]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.01:790][809]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.01:791][809]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.01:791][809]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.01:791][809]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.01:791][809]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.01:791][809]LogTemp: Warning: HandleReaction entered. Depth: 2
+[2026.10.18-00.31.01:966][829]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.01:966][829]LogTemp: Warning: GA_FireBolt_C_2 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.31.02:125][848]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.31.02:125][848]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.31.02:785][921]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.31.02:785][921]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.31.05:904][269]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.05:904][269]LogTemp: Warning: GA_FireBolt_C_3 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.31.06:669][361]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.06:669][361]LogTemp: Warning: GA_FireBolt_C_4 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.31.08:487][579]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.08:487][579]LogTemp: Warning: GA_FireBolt_C_5 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.31.09:218][666]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.09:218][666]LogTemp: Warning: GA_FireBolt_C_6 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.31.10:552][826]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.10:552][826]LogAbilitySystem: Warning: UAbilityTask_PlayMontageAndWait called in Ability GA_HitReact_C_0 failed to play montage None; Task Instance Name None.
+[2026.10.18-00.31.10:553][826]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.31.11:415][929]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 943
+[2026.10.18-00.31.11:415][929]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 952
+[2026.10.18-00.31.11:548][943]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.31.12:157][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.31.12:157][ 11]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.31.12:158][ 11]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.10.18-00.31.12:160][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.31.12:163][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.18-00.31.12:163][ 11]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.12:163][ 11]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.12:163][ 11]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.12:163][ 11]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.12:163][ 11]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.12:163][ 11]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.12:163][ 11]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.12:163][ 11]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.12:164][ 11]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.12:176][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.31.12:193][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.31.12:195][ 11]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2026.10.18-00.31.12:195][ 11]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2026.10.18-00.31.12:197][ 11]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2026.10.18-00.31.12:207][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2026.10.18-00.31.12:267][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2026.10.18-00.31.13:256][125]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.18-00.31.13:272][125]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.18-00.31.13:272][125]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.31.13:285][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012859s)
+[2026.10.18-00.31.13:285][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.013014s)
+[2026.10.18-00.31.13:304][125]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2026.10.18-00.31.13:307][125]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.10.18-00.31.13:308][125]LogPlayLevel: PIE: World Init took: (0.001432s)
+[2026.10.18-00.31.13:309][125]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2026.10.18-00.31.13:309][125]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.18-00.31.13:309][125]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.18-00.31.13:309][125]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.18-00.31.13:309][125]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.18-00.31.13:309][125]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.18-00.31.13:309][125]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.18-00.31.13:309][125]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.18-00.31.13:309][125]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.18-00.31.13:309][125]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.18-00.31.13:309][125]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.18-00.31.13:309][125]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.18-00.31.13:311][125]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.18-00.31.13:326][125]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.18-00.31.13:326][125]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.18-00.31.13:326][125]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.18-00.31.13:326][125]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.18-00.31.13:327][125]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2026.10.18-00.31.13:327][125]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2026.10.18-00.31.13:329][125]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2026.10.18-00.31.13:329][125]LogInit: FAudioDevice initialized with ID 19.
+[2026.10.18-00.31.13:329][125]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2026.10.18-00.31.13:329][125]LogAudio: Display: Audio Device (ID: 19) registered with world 'StartupMap'.
+[2026.10.18-00.31.13:329][125]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2026.10.18-00.31.13:331][125]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.18-00.31.13:334][125]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.31.13:336][125]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2026.10.17-17.31.13
+[2026.10.18-00.31.13:342][125]LogWorld: Bringing up level for play took: 0.011218
+[2026.10.18-00.31.13:344][125]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2026.10.18-00.31.13:345][125]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.18-00.31.13:348][125]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:349][125]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:349][125]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:349][125]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:349][125]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:349][125]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:349][125]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.13:349][125]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.13:349][125]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.18-00.31.13:352][125]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.18-00.31.13:352][125]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:352][125]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:352][125]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:352][125]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:352][125]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:352][125]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:352][125]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:352][125]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:352][125]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:352][125]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:352][125]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:352][125]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:352][125]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:352][125]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:352][125]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:352][125]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:352][125]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.13:352][125]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.13:353][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:353][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:353][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:353][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:353][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:353][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:353][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:353][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:354][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:354][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:354][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:354][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:354][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:354][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:354][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:354][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.13:354][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.13:354][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.13:354][125]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.18-00.31.13:354][125]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.18-00.31.13:355][125]PIE: Server logged in
+[2026.10.18-00.31.13:356][125]PIE: Play in editor total start time 0.09 seconds.
+[2026.10.18-00.31.15:170][338]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.15:170][338]LogTemp: Warning: GA_FireBolt_C_0 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.31.15:778][411]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.15:779][411]LogTemp: Warning: GA_FireBolt_C_1 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.31.17:303][594]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.17:304][594]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.31.17:305][594]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.17:305][594]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.31.17:915][667]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.17:915][667]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.31.17:915][667]LogTemp: Warning: Reaction depth=1 Target=BP_Goblin_Slingshot_C_3 Status=ReactiveStatus.Burning NumRemoved=1 RemainingCount=0 Reaction=Reaction.FireOnBurning
+[2026.10.18-00.31.17:916][667]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.17:916][667]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.17:917][667]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.17:917][667]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.17:917][667]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.17:917][667]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.17:917][667]LogTemp: Warning: HandleReaction entered. Depth: 2
+[2026.10.18-00.31.18:301][713]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.31.18:301][713]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.31.18:910][786]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.31.18:910][786]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.31.20:497][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.31.20:498][969]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.31.20:498][969]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.10.18-00.31.20:501][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.31.20:504][969]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.18-00.31.20:504][969]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.20:504][969]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.20:504][969]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.20:504][969]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.20:504][969]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.20:504][969]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.20:504][969]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.20:504][969]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.20:504][969]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.20:516][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.31.20:533][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.31.20:534][969]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2026.10.18-00.31.20:534][969]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2026.10.18-00.31.20:536][969]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2026.10.18-00.31.20:546][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.10.18-00.31.20:606][970]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2026.10.18-00.31.20:825][992]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.18-00.31.20:840][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.18-00.31.20:841][992]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.31.20:853][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012291s)
+[2026.10.18-00.31.20:853][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.012443s)
+[2026.10.18-00.31.20:872][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.10.18-00.31.20:874][992]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2026.10.18-00.31.20:875][992]LogPlayLevel: PIE: World Init took: (0.001263s)
+[2026.10.18-00.31.20:876][992]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2026.10.18-00.31.20:876][992]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.18-00.31.20:876][992]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.18-00.31.20:876][992]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.18-00.31.20:876][992]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.18-00.31.20:876][992]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.18-00.31.20:877][992]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.18-00.31.20:877][992]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.18-00.31.20:877][992]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.18-00.31.20:877][992]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.18-00.31.20:877][992]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.18-00.31.20:877][992]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.18-00.31.20:879][992]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.18-00.31.20:893][992]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.18-00.31.20:894][992]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.18-00.31.20:894][992]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.18-00.31.20:894][992]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.18-00.31.20:894][992]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2026.10.18-00.31.20:894][992]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2026.10.18-00.31.20:896][992]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2026.10.18-00.31.20:896][992]LogInit: FAudioDevice initialized with ID 20.
+[2026.10.18-00.31.20:896][992]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2026.10.18-00.31.20:896][992]LogAudio: Display: Audio Device (ID: 20) registered with world 'StartupMap'.
+[2026.10.18-00.31.20:897][992]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2026.10.18-00.31.20:898][992]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.18-00.31.20:901][992]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Maps/UEDPIE_0_StartupMap.StartupMap:PersistentLevel.BP_SpeedDemon_C_1.CharacterMesh0'
+[2026.10.18-00.31.20:904][992]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2026.10.17-17.31.20
+[2026.10.18-00.31.20:910][992]LogWorld: Bringing up level for play took: 0.010901
+[2026.10.18-00.31.20:912][992]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2026.10.18-00.31.20:913][992]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.18-00.31.20:916][992]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:916][992]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:916][992]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:916][992]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:916][992]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:916][992]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:916][992]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.20:916][992]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.20:917][992]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.18-00.31.20:919][992]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.18-00.31.20:919][992]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:919][992]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:919][992]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:919][992]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:919][992]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:920][992]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:920][992]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:920][992]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:920][992]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:920][992]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:920][992]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:920][992]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:920][992]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:920][992]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:920][992]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:920][992]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:920][992]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.20:920][992]LogTemp: Warning: BP_SpeedDemon_C_1 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.20:921][992]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:921][992]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:921][992]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:921][992]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:921][992]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:921][992]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:921][992]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:921][992]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:921][992]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:921][992]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:921][992]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:921][992]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:921][992]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:921][992]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:921][992]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:921][992]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 0.00
+[2026.10.18-00.31.20:921][992]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.20:921][992]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.20:921][992]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.18-00.31.20:921][992]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.18-00.31.20:923][992]PIE: Server logged in
+[2026.10.18-00.31.20:924][992]PIE: Play in editor total start time 0.089 seconds.
+[2026.10.18-00.31.22:479][174]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.22:480][174]LogTemp: Warning: GA_FireBolt_C_0 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.31.23:296][272]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.23:296][272]LogTemp: Warning: GA_FireBolt_C_1 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.31.25:397][524]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.25:397][524]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.31.25:830][576]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 978
+[2026.10.18-00.31.25:917][586]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.25:917][586]LogTemp: Warning: GA_FireBolt_C_2 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.31.26:395][643]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.31.28:486][877]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.28:486][877]LogTemp: Warning: GA_FireBolt_C_3 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.31.30:586][125]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.30:586][125]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.31.31:578][244]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.31.32:420][345]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.32:420][345]LogTemp: Warning: GA_FireBolt_C_4 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.31.34:519][597]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.34:520][597]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.31.35:511][716]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.31.35:836][755]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 978
+[2026.10.18-00.31.35:836][755]LogGameplayEffects: Warning: GetGameplayEffectMagnitude called with invalid Handle: 986
+[2026.10.18-00.31.36:378][820]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.36:378][820]LogTemp: Warning: GA_FireBolt_C_5 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.18-00.31.38:480][ 72]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.38:480][ 72]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.31.38:481][ 72]LogTemp: Warning: BP_Goblin_Slingshot_C_3 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.38:482][ 72]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.38:482][ 72]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.38:483][ 72]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.38:483][ 72]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.38:483][ 72]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.18-00.31.38:483][ 72]LogTemp: Warning: HandleReaction entered. Depth: 1
+[2026.10.18-00.31.39:474][191]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.31.39:474][191]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2026.10.18-00.31.42:220][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.31.42:220][515]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2026.10.18-00.31.42:220][515]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2026.10.18-00.31.42:222][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.31.42:225][515]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.18-00.31.42:225][515]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.42:225][515]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.42:225][515]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.42:225][515]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.42:225][515]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.42:225][515]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.42:225][515]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.42:225][515]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.42:225][515]LogNiagaraEditor: onPieEnd
+[2026.10.18-00.31.42:237][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.18-00.31.42:254][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.18-00.31.42:255][515]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2026.10.18-00.31.42:255][515]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2026.10.18-00.31.42:256][515]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2026.10.18-00.31.42:267][515]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2026.10.18-00.31.42:332][516]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2026.10.18-00.32.41:878][646]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1695.983398
+[2026.10.18-00.32.42:878][649]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.18-00.32.42:878][649]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1696.649902, Update Interval: 340.035400
