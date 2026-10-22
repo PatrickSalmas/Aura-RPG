@@ -48,7 +48,14 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.InputTag_PassiveAbility_1 = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("InputTag.PassiveAbility1"), FString("Input Tag tag for Passive Ability 1"));
 	GameplayTags.InputTag_PassiveAbility_2 = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("InputTag.PassiveAbility2"), FString("Input Tag tag for Passive Ability 2"));
 	
+	GameplayTags.InputTag_Ability_1 = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("InputTag.Ability.1"), FString("Ability 1 Input Tag"));
+	GameplayTags.InputTag_Ability_2 = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("InputTag.Ability.2"), FString("Ability 2 Input Tag"));
+	GameplayTags.InputTag_Ability_3 = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("InputTag.Ability.3"), FString("Ability 3 Input Tag"));
+	GameplayTags.InputTag_Ability_4 = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("InputTag.Ability.4"), FString("Ability 4 Input Tag"));
+	GameplayTags.InputTag_Ability_5 = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("InputTag.Ability.5"), FString("Ability 5 Input Tag"));
+	GameplayTags.InputTag_Ability_6 = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("InputTag.Ability.6"), FString("Ability 6 Input Tag"));
 
+	
 	GameplayTags.Damage = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Damage"), FString("Damage"));
 
 	/*

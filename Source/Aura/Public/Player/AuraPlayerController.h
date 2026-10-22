@@ -96,7 +96,6 @@ private:
 	float FollowTime = 0.0f;
 	float ShortPressThreshold = 0.5f;
 	bool bAutoRunning = false;
-	bool bTargeting = false;
 
 	UPROPERTY(EditDefaultsOnly)
 	float AutoRunAcceptanceRadius = 50.f;

@@ -95,72 +95,77 @@ void AAuraPlayerController::AbilityInputTagPressed(FGameplayTag InputTag)
 	{
 		return;
 	}
+
 	if (InputTag.MatchesTagExact(FAuraGameplayTags::Get().InputTag_LMB))
 	{
-		bTargeting = ThisActor ? true : false;
 		bAutoRunning = false;
+
+		if (CursorHit.bBlockingHit)
+		{
+			CachedDestination = CursorHit.ImpactPoint;
+		}
+
+		return;
 	}
-	if (GetASC()) GetASC()->AbilityInputTagPressed(InputTag);
+
+	if (GetASC())
+	{
+		GetASC()->AbilityInputTagPressed(InputTag);
+	}
 }
 
 void AAuraPlayerController::AbilityInputTagReleased(FGameplayTag InputTag)
 {
 	if (GetASC() && GetASC()->HasMatchingGameplayTag(FAuraGameplayTags::Get().Player_Block_InputReleased))
 	{
+		if (InputTag.MatchesTagExact(FAuraGameplayTags::Get().InputTag_LMB))
+		{
+			FollowTime = 0.f;
+		}
+
 		return;
 	}
+
 	if (!InputTag.MatchesTagExact(FAuraGameplayTags::Get().InputTag_LMB))
 	{
 		if (GetASC())
 		{
 			GetASC()->AbilityInputTagReleased(InputTag);
-			return;
+		}
+
+		return;
+	}
+
+	APawn* ControllerPawn = GetPawn();
+	if (FollowTime <= ShortPressThreshold && ControllerPawn)
+	{
+		UNavigationPath* NavPath = UNavigationSystemV1::FindPathToLocationSynchronously(this, ControllerPawn->GetActorLocation(), CachedDestination);
+
+		if (!NavPath || NavPath->PathPoints.IsEmpty())
+		{
+			NavPath = GetClosestValidLocation(ControllerPawn, 75.f, 10);
+		}
+
+		if (NavPath && !NavPath->PathPoints.IsEmpty())
+		{
+			Spline->ClearSplinePoints();
+
+			for (const FVector& PointLocation : NavPath->PathPoints)
+			{
+				Spline->AddSplinePoint(PointLocation, ESplineCoordinateSpace::World);
+			}
+
+			CachedDestination = NavPath->PathPoints.Last();
+			bAutoRunning = true;
+		}
+
+		if (ClickNiagaraSystem && (!GetASC() || !GetASC()->HasMatchingGameplayTag(FAuraGameplayTags::Get().Player_Block_InputPressed)))
+		{
+			UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, ClickNiagaraSystem, CachedDestination);
 		}
 	}
 
-	if (GetASC()) GetASC()->AbilityInputTagReleased(InputTag);
-	
-	if (!bTargeting && !bIsShiftKeyDown)
-	{
-		APawn* ControllerPawn = GetPawn();
-		if (FollowTime <= ShortPressThreshold && ControllerPawn)
-		{
-			if (UNavigationPath* NavPath = UNavigationSystemV1::FindPathToLocationSynchronously(this, ControllerPawn->GetActorLocation(), CachedDestination))
-			{
-				Spline->ClearSplinePoints();
-				if (!NavPath->PathPoints.IsEmpty())
-				{
-					for (const FVector& PointLoc : NavPath->PathPoints)
-					{
-						Spline->AddSplinePoint(PointLoc, ESplineCoordinateSpace::World);
-					}
-				}
-				// Valid location was not clicked, so we need to find nearest valid location/path to CachedDestination
-				else
-				{
-					if (UNavigationPath* NavPathNearest = GetClosestValidLocation(ControllerPawn, 75.f, 10))
-					{
-						for (const FVector& PointLoc : NavPathNearest->PathPoints)
-						{
-							Spline->AddSplinePoint(PointLoc, ESplineCoordinateSpace::World);
-						}
-					}
-				}
-				
-				if (NavPath->PathPoints.Num() > 0)
-				{
-					CachedDestination = NavPath->PathPoints[NavPath->PathPoints.Num() - 1];
-					bAutoRunning = true;
-				}
-			}
-			if (GetASC() && !GetASC()->HasMatchingGameplayTag(FAuraGameplayTags::Get().Player_Block_InputPressed))
-			{
-				UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, ClickNiagaraSystem, CachedDestination);
-			}
-		}
-		FollowTime = 0.f;
-		bTargeting = false;
-	}
+	FollowTime = 0.f;
 }
 
 UNavigationPath* AAuraPlayerController::GetClosestValidLocation(APawn* ControllerPawn, float IncrementDistance, int32 MaxIterationChecks)
@@ -204,34 +209,26 @@ void AAuraPlayerController::AbilityInputTagHeld(FGameplayTag InputTag)
 	{
 		return;
 	}
+
 	if (!InputTag.MatchesTagExact(FAuraGameplayTags::Get().InputTag_LMB))
 	{
 		if (GetASC())
 		{
 			GetASC()->AbilityInputTagHeld(InputTag);
 		}
+
 		return;
 	}
 
-	if (bTargeting || bIsShiftKeyDown)
-	{
-		if (GetASC())
-		{
-			GetASC()->AbilityInputTagHeld(InputTag);
-		}
-	}
-	else
-	{
-		FollowTime += GetWorld()->GetDeltaSeconds();
+	FollowTime += GetWorld()->GetDeltaSeconds();
 
-		if (CursorHit.bBlockingHit)
-		{
-			CachedDestination = CursorHit.ImpactPoint;
-		}
+	if (CursorHit.bBlockingHit)
+	{
+		CachedDestination = CursorHit.ImpactPoint;
 	}
 
 	APawn* ControlledPawn = GetPawn();
-	if (ControlledPawn && ThisActor == nullptr && bCanMove)
+	if (ControlledPawn && bCanMove)
 	{
 		const FVector WorldDirection = (CachedDestination - ControlledPawn->GetActorLocation()).GetSafeNormal();
 		ControlledPawn->AddMovementInput(WorldDirection);
