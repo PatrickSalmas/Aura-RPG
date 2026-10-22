@@ -113,231 +113,242 @@ void UExecCalc_Damage::DetermineDebuff(const FGameplayEffectCustomExecutionParam
 	}
 }
 
-void UExecCalc_Damage::DetermineReactiveStatus(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
-	const FGameplayEffectSpec& Spec) const
+void UExecCalc_Damage::DetermineReactiveStatus(const FGameplayEffectCustomExecutionParameters& ExecutionParams, const FGameplayEffectSpec& Spec) const
 {
-	if (!UAuraAbilitySystemLibrary::GetCanApplyReactionStatus(Spec.GetContext()))
-	{
-		return;
-	}
-	
-	FGameplayEffectContextHandle EffectContextHandle = Spec.GetContext();
-	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
+    if (!UAuraAbilitySystemLibrary::GetCanApplyReactionStatus(Spec.GetContext()))
+    {
+        return;
+    }
 
-	const float LightningDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Lightning,false,-1.f);
-	const float FireDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Fire,false,-1.f);
-	float ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Arcane,false,-1.f);
-	if (ArcaneDamage <= -1.f)
-	{
-		ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow50,false,-1.f);
-	}
-	if (ArcaneDamage <= -1.f)
-	{
-		ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow75,false,-1.f);
-	}
-	if (ArcaneDamage <= -1.f)
-	{
-		ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneImmobilize,false,-1.f);
-	}
+    const UAbilitySystemComponent* SourceASC = ExecutionParams.GetSourceAbilitySystemComponent();
 
-	if (LightningDamage <= -.5f && FireDamage <= -.5f && ArcaneDamage <= -.5f)
-	{
-		return;
-	}
+    if (!SourceASC)
+    {
+        return;
+    }
 
-	const UAbilitySystemComponent* SourceASC =
-		ExecutionParams.GetSourceAbilitySystemComponent();
+    FGameplayEffectContextHandle EffectContextHandle = Spec.GetContext();
+    const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
 
-	if (!SourceASC)
-	{
-		return;
-	}
+    const float LightningDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Lightning, false, -1.f);
+    const float FireDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Fire, false, -1.f);
 
-	const float ApplyReactiveStatusChance = Spec.GetSetByCallerMagnitude(GameplayTags.ReactiveStatus_Chance,false,0.f);
-	
-	const bool bApplyReactiveStatus = FMath::FRandRange(0.f, 100.f) < FMath::Clamp(ApplyReactiveStatusChance, 0.f, 100.f);
-	if (bApplyReactiveStatus)
-	{
-		const float ReactiveStatusDamage = Spec.GetSetByCallerMagnitude(GameplayTags.ReactiveStatus_Damage, false, -1.f);
-		const float ReactiveStatusDuration = Spec.GetSetByCallerMagnitude(GameplayTags.ReactiveStatus_Duration, false, -1.f);
-		const float ReactiveStatusFrequency = Spec.GetSetByCallerMagnitude(GameplayTags.ReactiveStatus_Frequency, false, -1.f);
-					
-		UAuraAbilitySystemLibrary::SetReactiveStatusDamage(EffectContextHandle, ReactiveStatusDamage);
-		UAuraAbilitySystemLibrary::SetReactiveStatusDuration(EffectContextHandle, ReactiveStatusDuration);
-		UAuraAbilitySystemLibrary::SetReactiveStatusFrequency(EffectContextHandle, ReactiveStatusFrequency);
-		
-		UAuraAbilitySystemLibrary::SetIsSuccessfulReactiveStatus(EffectContextHandle, true);
-		FGameplayTag ReactiveDamageType;
+    float ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Arcane, false, -1.f);
 
-		if (LightningDamage > 0.f)
-		{
-			ReactiveDamageType = GameplayTags.Damage_Lightning;
-		}
-		else if (FireDamage > 0.f)
-		{
-			ReactiveDamageType = GameplayTags.Damage_Fire;
-		}
-		else if (ArcaneDamage > 0.f)
-		{
-			ReactiveDamageType = GameplayTags.Damage_Arcane;
-		}
+    if (ArcaneDamage <= -1.f)
+    {
+        ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow50, false, -1.f);
+    }
 
-		if (!ReactiveDamageType.IsValid())
-		{
-			return;
-		}
-		
-		const FGameplayTag* ReactiveStatus = GameplayTags.DamageTypesToReactiveStatuses.Find(ReactiveDamageType);
+    if (ArcaneDamage <= -1.f)
+    {
+        ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow75, false, -1.f);
+    }
 
-		if (!ReactiveStatus)
-		{
-			UE_LOG(LogTemp, Error, TEXT("DetermineReactiveStatus: No reactive status mapped to damage type %s."),
-								*ReactiveDamageType.ToString());
+    if (ArcaneDamage <= -1.f)
+    {
+        ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneImmobilize, false, -1.f);
+    }
 
-			return;
-		}
-		
-		UAuraAbilitySystemLibrary::SetDamageType(EffectContextHandle, ReactiveDamageType);
-		UAuraAbilitySystemLibrary::SetSuccessfulReactiveStatus(EffectContextHandle, *ReactiveStatus);
-		UAuraAbilitySystemLibrary::SetIsSuccessfulReactiveStatus(EffectContextHandle,true);
-	}
+    FGameplayTag ReactiveDamageType;
+
+    if (LightningDamage > 0.f)
+    {
+        ReactiveDamageType = GameplayTags.Damage_Lightning;
+    }
+    else if (FireDamage > 0.f)
+    {
+        ReactiveDamageType = GameplayTags.Damage_Fire;
+    }
+    else if (ArcaneDamage > 0.f)
+    {
+        ReactiveDamageType = GameplayTags.Damage_Arcane;
+    }
+
+    if (!ReactiveDamageType.IsValid())
+    {
+        return;
+    }
+
+    const FGameplayTag* ReactiveStatus = GameplayTags.DamageTypesToReactiveStatuses.Find(ReactiveDamageType);
+
+    if (!ReactiveStatus)
+    {
+        UE_LOG(LogTemp, Error, TEXT("DetermineReactiveStatus: No Reactive Status mapped to damage type %s."), *ReactiveDamageType.ToString());
+        return;
+    }
+
+    const FGameplayTag* RequiredMastery = GameplayTags.ReactiveStatusesToMasteries.Find(*ReactiveStatus);
+
+    if (!RequiredMastery)
+    {
+        UE_LOG(LogTemp, Error, TEXT("DetermineReactiveStatus: No mastery mapped to Reactive Status %s."), *ReactiveStatus->ToString());
+        return;
+    }
+
+    if (!SourceASC->HasMatchingGameplayTag(*RequiredMastery))
+    {
+        return;
+    }
+
+    const float ApplyReactiveStatusChance = Spec.GetSetByCallerMagnitude(GameplayTags.ReactiveStatus_Chance, false, 0.f);
+    const bool bApplyReactiveStatus = FMath::FRandRange(0.f, 100.f) < FMath::Clamp(ApplyReactiveStatusChance, 0.f, 100.f);
+
+    if (!bApplyReactiveStatus)
+    {
+        return;
+    }
+
+    const float ReactiveStatusDamage = Spec.GetSetByCallerMagnitude(GameplayTags.ReactiveStatus_Damage, false, -1.f);
+    const float ReactiveStatusDuration = Spec.GetSetByCallerMagnitude(GameplayTags.ReactiveStatus_Duration, false, -1.f);
+    const float ReactiveStatusFrequency = Spec.GetSetByCallerMagnitude(GameplayTags.ReactiveStatus_Frequency, false, -1.f);
+
+    UAuraAbilitySystemLibrary::SetReactiveStatusDamage(EffectContextHandle, ReactiveStatusDamage);
+    UAuraAbilitySystemLibrary::SetReactiveStatusDuration(EffectContextHandle, ReactiveStatusDuration);
+    UAuraAbilitySystemLibrary::SetReactiveStatusFrequency(EffectContextHandle, ReactiveStatusFrequency);
+    UAuraAbilitySystemLibrary::SetDamageType(EffectContextHandle, ReactiveDamageType);
+    UAuraAbilitySystemLibrary::SetSuccessfulReactiveStatus(EffectContextHandle, *ReactiveStatus);
+    UAuraAbilitySystemLibrary::SetIsSuccessfulReactiveStatus(EffectContextHandle, true);
 }
 
-void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionParameters& ExecutionParams,
-	const FGameplayEffectSpec& Spec) const
+void UExecCalc_Damage::DetermineReaction(const FGameplayEffectCustomExecutionParameters& ExecutionParams, const FGameplayEffectSpec& Spec) const
 {
-	if (!UAuraAbilitySystemLibrary::GetCanTriggerReaction(Spec.GetContext()))
-	{
-		return;
-	}
-	
-	UAbilitySystemComponent* TargetASC = ExecutionParams.GetTargetAbilitySystemComponent();
-	
-	if (!TargetASC)
-	{
-		return;
-	}
+    if (!UAuraAbilitySystemLibrary::GetCanTriggerReaction(Spec.GetContext()))
+    {
+        return;
+    }
 
-	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
+    const UAbilitySystemComponent* SourceASC = ExecutionParams.GetSourceAbilitySystemComponent();
+    const UAbilitySystemComponent* TargetASC = ExecutionParams.GetTargetAbilitySystemComponent();
 
-	// Later, check Hit.ReactionInert here.
-	/*
-	if (UAuraAbilitySystemLibrary::IsReactionInert(Spec.GetContext()))
-	{
-		return;
-	}
-	*/
+    if (!SourceASC || !TargetASC)
+    {
+        return;
+    }
 
-	if (!TargetASC->HasMatchingGameplayTag(GameplayTags.ReactiveStatus_Charged) && !TargetASC->HasMatchingGameplayTag(GameplayTags.ReactiveStatus_Burning)
-		&& !TargetASC->HasMatchingGameplayTag(GameplayTags.ReactiveStatus_Unstable))
-	{
-		return;
-	}
+    const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
 
-	const float FireDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Fire,false,-1.f);
+    const bool bHasCharged = TargetASC->HasMatchingGameplayTag(GameplayTags.ReactiveStatus_Charged);
+    const bool bHasBurning = TargetASC->HasMatchingGameplayTag(GameplayTags.ReactiveStatus_Burning);
+    const bool bHasUnstable = TargetASC->HasMatchingGameplayTag(GameplayTags.ReactiveStatus_Unstable);
 
-	float ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Arcane,false,-1.f);
-	if (ArcaneDamage <= -1.f)
-	{
-		ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow50,false,-1.f);
-	}
-	if (ArcaneDamage <= -1.f)
-	{
-		ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow75,false,-1.f);
-	}
-	if (ArcaneDamage <= -1.f)
-	{
-		ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneImmobilize,false,-1.f);
-	}
-	
-	const float LightningDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Lightning,false,-1.f);
+    if (!bHasCharged && !bHasBurning && !bHasUnstable)
+    {
+        return;
+    }
 
-	FGameplayTag TriggeredReaction;
-	FGameplayTag ReactionToConsume;
+    const float FireDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Fire, false, -1.f);
+    const float LightningDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Lightning, false, -1.f);
 
-	if (TargetASC->HasMatchingGameplayTag(GameplayTags.ReactiveStatus_Charged))
-	{
-		ReactionToConsume = GameplayTags.ReactiveStatus_Charged;
-		if (FireDamage > 0.f)
-		{
-			TriggeredReaction =
-				GameplayTags.Reaction_FireOnCharged;
-		}
-		else if (ArcaneDamage > 0.f)
-		{
-			TriggeredReaction =
-				GameplayTags.Reaction_ArcaneOnCharged;
-		}
-		else if (LightningDamage > 0.f)
-		{
-			TriggeredReaction = 
-				GameplayTags.Reaction_LightningOnCharged;
-		}
-	}
-	else if (TargetASC->HasMatchingGameplayTag(GameplayTags.ReactiveStatus_Burning))
-	{
-		ReactionToConsume = GameplayTags.ReactiveStatus_Burning;
-		if (FireDamage > 0.f)
-		{
-			TriggeredReaction = GameplayTags.Reaction_FireOnBurning;
-		}
-		else if (LightningDamage > 0.f)
-		{
-			TriggeredReaction = GameplayTags.Reaction_LightningOnBurning;
-		}
-		else if (ArcaneDamage > 0.f)
-		{
-			TriggeredReaction = GameplayTags.Reaction_ArcaneOnBurning;
-		}
-	}
-	else if (TargetASC->HasMatchingGameplayTag(GameplayTags.ReactiveStatus_Unstable))
-	{
-		ReactionToConsume = GameplayTags.ReactiveStatus_Unstable;
-		if (FireDamage > 0.f)
-		{
-			TriggeredReaction = GameplayTags.Reaction_FireOnUnstable;
-		}
-		else if (LightningDamage > 0.f)
-		{
-			TriggeredReaction = GameplayTags.Reaction_LightningOnUnstable;
-		}
-		else if (ArcaneDamage > 0.f)
-		{
-			TriggeredReaction = GameplayTags.Reaction_ArcaneOnUnstable;
-		}
-	}
-		
+    float ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_Arcane, false, -1.f);
 
-	if (!TriggeredReaction.IsValid())
-	{
-		return;
-	}
+    if (ArcaneDamage <= -1.f)
+    {
+        ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow50, false, -1.f);
+    }
 
-	FGameplayEffectContextHandle ContextHandle = Spec.GetContext();
-	
-	const FGameplayEffectContext* RawContext = ContextHandle.Get();
-	
-	if (!RawContext)
-	{
-		UE_LOG(LogTemp, Error, TEXT("DetermineReaction: Effect context is null."));
+    if (ArcaneDamage <= -1.f)
+    {
+        ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneSlow75, false, -1.f);
+    }
 
-		return;
-	}
-	
-	const UScriptStruct* ActualContextStruct = RawContext->GetScriptStruct();
+    if (ArcaneDamage <= -1.f)
+    {
+        ArcaneDamage = Spec.GetSetByCallerMagnitude(GameplayTags.Damage_ArcaneImmobilize, false, -1.f);
+    }
 
-	if (ActualContextStruct != FAuraGameplayEffectContext::StaticStruct())
-	{
-		UE_LOG(LogTemp, Error, TEXT("DetermineReaction: Wrong context type. Actual=%s Expected=%s"),
-			*GetNameSafe(ActualContextStruct),
-			*GetNameSafe(FAuraGameplayEffectContext::StaticStruct()));
+    FGameplayTag TriggeredReaction;
+    FGameplayTag ReactionToConsume;
 
-		return;
-	}
+    if (bHasCharged)
+    {
+        ReactionToConsume = GameplayTags.ReactiveStatus_Charged;
 
-	UAuraAbilitySystemLibrary::SetTriggeredReaction(ContextHandle, TriggeredReaction);
+        if (FireDamage > 0.f)
+        {
+            TriggeredReaction = GameplayTags.Reaction_FireOnCharged;
+        }
+        else if (ArcaneDamage > 0.f)
+        {
+            TriggeredReaction = GameplayTags.Reaction_ArcaneOnCharged;
+        }
+        else if (LightningDamage > 0.f)
+        {
+            TriggeredReaction = GameplayTags.Reaction_LightningOnCharged;
+        }
+    }
+    else if (bHasBurning)
+    {
+        ReactionToConsume = GameplayTags.ReactiveStatus_Burning;
 
-	UAuraAbilitySystemLibrary::SetReactiveStatusToConsume(ContextHandle, ReactionToConsume);
+        if (FireDamage > 0.f)
+        {
+            TriggeredReaction = GameplayTags.Reaction_FireOnBurning;
+        }
+        else if (LightningDamage > 0.f)
+        {
+            TriggeredReaction = GameplayTags.Reaction_LightningOnBurning;
+        }
+        else if (ArcaneDamage > 0.f)
+        {
+            TriggeredReaction = GameplayTags.Reaction_ArcaneOnBurning;
+        }
+    }
+    else if (bHasUnstable)
+    {
+        ReactionToConsume = GameplayTags.ReactiveStatus_Unstable;
+
+        if (FireDamage > 0.f)
+        {
+            TriggeredReaction = GameplayTags.Reaction_FireOnUnstable;
+        }
+        else if (LightningDamage > 0.f)
+        {
+            TriggeredReaction = GameplayTags.Reaction_LightningOnUnstable;
+        }
+        else if (ArcaneDamage > 0.f)
+        {
+            TriggeredReaction = GameplayTags.Reaction_ArcaneOnUnstable;
+        }
+    }
+
+    if (!TriggeredReaction.IsValid() || !ReactionToConsume.IsValid())
+    {
+        return;
+    }
+
+    const FGameplayTag* RequiredReactionUnlock = GameplayTags.ReactionsToUnlocks.Find(TriggeredReaction);
+
+    if (!RequiredReactionUnlock)
+    {
+        UE_LOG(LogTemp, Error, TEXT("DetermineReaction: No unlock mapped to reaction %s."), *TriggeredReaction.ToString());
+        return;
+    }
+
+    if (!SourceASC->HasMatchingGameplayTag(*RequiredReactionUnlock))
+    {
+        return;
+    }
+
+    FGameplayEffectContextHandle ContextHandle = Spec.GetContext();
+    const FGameplayEffectContext* RawContext = ContextHandle.Get();
+
+    if (!RawContext)
+    {
+        UE_LOG(LogTemp, Error, TEXT("DetermineReaction: Effect context is null."));
+        return;
+    }
+
+    const UScriptStruct* ActualContextStruct = RawContext->GetScriptStruct();
+
+    if (ActualContextStruct != FAuraGameplayEffectContext::StaticStruct())
+    {
+        UE_LOG(LogTemp, Error, TEXT("DetermineReaction: Wrong context type. Actual=%s Expected=%s"), *GetNameSafe(ActualContextStruct), *GetNameSafe(FAuraGameplayEffectContext::StaticStruct()));
+        return;
+    }
+
+    UAuraAbilitySystemLibrary::SetTriggeredReaction(ContextHandle, TriggeredReaction);
+    UAuraAbilitySystemLibrary::SetReactiveStatusToConsume(ContextHandle, ReactionToConsume);
 }
 
 // void UExecCalc_Damage::DetermineStun(const FGameplayEffectCustomExecutionParameters& ExecutionParams,

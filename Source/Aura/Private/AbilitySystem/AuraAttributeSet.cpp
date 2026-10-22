@@ -710,7 +710,21 @@ void UAuraAttributeSet::HandleReaction(const FEffectProperties& Props)
 
 	const FGameplayTag StatusToConsume = UAuraAbilitySystemLibrary::GetReactiveStatusToConsume(Props.EffectContextHandle);
 
-	if (!ReactionTag.IsValid() || !StatusToConsume.IsValid() || !Props.TargetASC)
+	if (!ReactionTag.IsValid() || !StatusToConsume.IsValid() || !Props.SourceASC || !Props.TargetASC)
+	{
+		return;
+	}
+
+	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
+	const FGameplayTag* RequiredReactionUnlock = GameplayTags.ReactionsToUnlocks.Find(ReactionTag);
+
+	if (!RequiredReactionUnlock)
+	{
+		UE_LOG(LogTemp, Error, TEXT("HandleReaction: No unlock mapped to reaction %s."), *ReactionTag.ToString());
+		return;
+	}
+
+	if (!Props.SourceASC->HasMatchingGameplayTag(*RequiredReactionUnlock))
 	{
 		return;
 	}

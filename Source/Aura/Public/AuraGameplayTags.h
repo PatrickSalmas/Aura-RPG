@@ -102,6 +102,22 @@ public:
 	FGameplayTag Reaction_LightningOnUnstable;
 	FGameplayTag Reaction_ArcaneOnUnstable;
 	
+	FGameplayTag Progression_Mastery_Burning;
+	FGameplayTag Progression_Mastery_Charged;
+	FGameplayTag Progression_Mastery_Unstable;
+	
+	FGameplayTag Progression_Reaction_FireOnBurning;
+	FGameplayTag Progression_Reaction_LightningOnBurning;
+	FGameplayTag Progression_Reaction_ArcaneOnBurning;
+	FGameplayTag Progression_Reaction_FireOnCharged;
+	FGameplayTag Progression_Reaction_LightningOnCharged;
+	FGameplayTag Progression_Reaction_ArcaneOnCharged;
+	FGameplayTag Progression_Reaction_FireOnUnstable;
+	FGameplayTag Progression_Reaction_ArcaneOnUnstable;
+	
+	TMap<FGameplayTag, FGameplayTag> ReactiveStatusesToMasteries;
+	TMap<FGameplayTag, FGameplayTag> ReactionsToUnlocks;
+	
 	FGameplayTag Hit_ReactionInert;
 	
 	FGameplayTag Mechanic_Charged_Unlocked;
