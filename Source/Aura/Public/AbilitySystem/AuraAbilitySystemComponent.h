@@ -80,6 +80,13 @@ public:
 	static void ClearSlot(FGameplayAbilitySpec* AbilitySpec);
 	void ClearAbilitiesOfSlot(const FGameplayTag& SlotTag);
 	static bool AbilityHasSlot(FGameplayAbilitySpec* AbilitySpec, const FGameplayTag& SlotTag);
+	
+	UFUNCTION(BlueprintCallable, Category = "Progression")
+	void UnlockProgressionTag(const FGameplayTag& UnlockTag);
+
+	UFUNCTION(BlueprintPure, Category = "Progression")
+	bool HasProgressionUnlock(const FGameplayTag& UnlockTag) const;
+	
 protected:
 
 	virtual void OnRep_ActivateAbilities() override;
@@ -89,4 +96,11 @@ protected:
 
 	UFUNCTION(Client, Reliable)
 	void ClientUpdateAbilityStatus(const FGameplayTag& AbilityTag, const FGameplayTag& StatusTag, int32 AbilityLevel);
+	
+	UFUNCTION(Server, Reliable)
+	void ServerUnlockProgressionTag(const FGameplayTag& UnlockTag);
+	
+private:
+	bool IsValidProgressionUnlock(const FGameplayTag& UnlockTag) const;
+	void GrantProgressionUnlock(const FGameplayTag& UnlockTag);
 };

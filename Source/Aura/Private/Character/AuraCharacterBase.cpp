@@ -474,6 +474,11 @@ void AAuraCharacterBase::InitializeDefaultAttributes() const
 void AAuraCharacterBase::AddCharacterAbilities()
 {
 	UAuraAbilitySystemComponent* AuraASC = CastChecked<UAuraAbilitySystemComponent>(AbilitySystemComponent);
+	if (AuraASC)
+	{
+		AuraASC->UnlockProgressionTag(FAuraGameplayTags::Get().Progression_Mastery_Burning);
+		AuraASC->UnlockProgressionTag(FAuraGameplayTags::Get().Progression_Reaction_LightningOnBurning);
+	}
 	if (!HasAuthority()) return;
 
 	AuraASC->AddCharacterAbilities(StartupAbilities);

@@ -417,6 +417,72 @@ bool UAuraAbilitySystemComponent::AbilityHasSlot(FGameplayAbilitySpec* AbilitySp
 	return false;
 }
 
+void UAuraAbilitySystemComponent::UnlockProgressionTag(const FGameplayTag& UnlockTag)
+{
+	if (!UnlockTag.IsValid())
+	{
+		return;
+	}
+
+	if (IsOwnerActorAuthoritative())
+	{
+		GrantProgressionUnlock(UnlockTag);
+	}
+	else
+	{
+		ServerUnlockProgressionTag(UnlockTag);
+	}
+}
+
+
+void UAuraAbilitySystemComponent::ServerUnlockProgressionTag_Implementation(const FGameplayTag& UnlockTag)
+{
+	GrantProgressionUnlock(UnlockTag);
+}
+
+bool UAuraAbilitySystemComponent::HasProgressionUnlock(const FGameplayTag& UnlockTag) const
+{
+	return UnlockTag.IsValid() && HasMatchingGameplayTag(UnlockTag);
+}
+
+bool UAuraAbilitySystemComponent::IsValidProgressionUnlock(const FGameplayTag& UnlockTag) const
+{
+	if (!UnlockTag.IsValid())
+	{
+		return false;
+	}
+
+	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
+
+	const bool bIsMasteryUnlock = GameplayTags.ReactiveStatusesToMasteries.FindKey(UnlockTag) != nullptr;
+	const bool bIsReactionUnlock = GameplayTags.ReactionsToUnlocks.FindKey(UnlockTag) != nullptr;
+
+	return bIsMasteryUnlock || bIsReactionUnlock;
+}
+
+void UAuraAbilitySystemComponent::GrantProgressionUnlock(const FGameplayTag& UnlockTag)
+{
+	if (!IsOwnerActorAuthoritative())
+	{
+		return;
+	}
+
+	if (!IsValidProgressionUnlock(UnlockTag))
+	{
+		UE_LOG(LogTemp, Error, TEXT("GrantProgressionUnlock: %s is not a recognized progression unlock."), *UnlockTag.ToString());
+		return;
+	}
+
+	if (HasMatchingGameplayTag(UnlockTag))
+	{
+		return;
+	}
+
+	AddLooseGameplayTag(UnlockTag);
+
+	UE_LOG(LogTemp, Log, TEXT("Granted progression unlock: %s"), *UnlockTag.ToString());
+}
+
 void UAuraAbilitySystemComponent::OnRep_ActivateAbilities()
 {
 	Super::OnRep_ActivateAbilities();
