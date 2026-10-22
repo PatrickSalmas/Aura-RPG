@@ -111,14 +111,19 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Reaction_LightningOnUnstable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.LightningOnUnstable"), FString("Lightning on unstable recation occurred"));
 	GameplayTags.Reaction_ArcaneOnUnstable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Reaction.ArcaneOnUnstable"), FString("Lightning on unstable recation occurred"));
 	
-	GameplayTags.Progression_Mastery_Burning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Mastery.Burning"), FString("Progression.Mastery.Burning"));;
-	GameplayTags.Progression_Mastery_Charged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Mastery.Charged"), FString("Progression.Mastery.Charged"));;
-	GameplayTags.Progression_Mastery_Unstable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Mastery.Unstable"), FString("Progression.Mastery.Unstable"));;
+	GameplayTags.Progression_Mastery_Burning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Mastery.Burning"), FString("Progression.Mastery.Burning"));
+	GameplayTags.Progression_Mastery_Charged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Mastery.Charged"), FString("Progression.Mastery.Charged"));
+	GameplayTags.Progression_Mastery_Unstable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Mastery.Unstable"), FString("Progression.Mastery.Unstable"));
 	
-	GameplayTags.Progression_Reaction_FireOnBurning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Reaction.FireOnBurning"), FString("Progression.Reaction.FireOnBurning"));;
-	GameplayTags.Progression_Reaction_LightningOnBurning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Reaction.LightningOnBurning"), FString("Progression.Reaction.LightningOnBurning"));;
-	GameplayTags.Progression_Reaction_ArcaneOnBurning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Reaction.ArcaneOnBurning"), FString("Progression.Reaction.ArcaneOnBurning"));;
-	GameplayTags.Progression_Reaction_FireOnCharged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Reaction.FireOnCharged"), FString("Progression.Reaction.FireOnCharged"));;
+	GameplayTags.Progression_Reaction_FireOnBurning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Reaction.FireOnBurning"), FString("Progression.Reaction.FireOnBurning"));
+	GameplayTags.Progression_Reaction_LightningOnBurning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Reaction.LightningOnBurning"), FString("Progression.Reaction.LightningOnBurning"));
+	GameplayTags.Progression_Reaction_ArcaneOnBurning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Reaction.ArcaneOnBurning"), FString("Progression.Reaction.ArcaneOnBurning"));
+	GameplayTags.Progression_Reaction_FireOnCharged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Reaction.FireOnCharged"), FString("Progression.Reaction.FireOnCharged"));
+	GameplayTags.Progression_Reaction_LightningOnCharged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Reaction.LightningOnCharged"), FString("Progression.Reaction.LightningOnCharged"));
+	GameplayTags.Progression_Reaction_ArcaneOnCharged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Reaction.ArcaneOnCharged"), FString("Progression.Reaction.ArcaneOnCharged"));
+	GameplayTags.Progression_Reaction_FireOnUnstable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Reaction.FireOnUnstable"), FString("Progression.Reaction.FireOnUnstable"));
+	GameplayTags.Progression_Reaction_LightningOnUnstable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Reaction.LightningOnUnstable"), FString("Progression.Reaction.LightningOnUnstable"));
+	GameplayTags.Progression_Reaction_ArcaneOnUnstable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Reaction.ArcaneOnUnstable"), FString("Progression.Reaction.ArcaneOnUnstable"));
 	
 	GameplayTags.ReactiveStatusesToMasteries.Add(GameplayTags.ReactiveStatus_Burning, GameplayTags.Progression_Mastery_Burning);
 	GameplayTags.ReactiveStatusesToMasteries.Add(GameplayTags.ReactiveStatus_Charged, GameplayTags.Progression_Mastery_Charged);

@@ -34,6 +34,7 @@ public:
 	FActivatePassiveEffect ActivatePassiveEffectDelegate;
 
 	void AddCharacterAbilities(const TArray<TSubclassOf<UGameplayAbility>>& StartupAbilities);
+	void AddCharacterSystemAbilities(const TArray<TSubclassOf<UGameplayAbility>>& StartupSystemAbilities);
 	void AddCharacterPassiveAbilities(const TArray<TSubclassOf<UGameplayAbility>>& StartupPassiveAbilities);
 	bool bStartupAbilitiesGiven = false;
 

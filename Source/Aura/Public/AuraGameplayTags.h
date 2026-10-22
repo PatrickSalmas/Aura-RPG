@@ -113,6 +113,7 @@ public:
 	FGameplayTag Progression_Reaction_LightningOnCharged;
 	FGameplayTag Progression_Reaction_ArcaneOnCharged;
 	FGameplayTag Progression_Reaction_FireOnUnstable;
+	FGameplayTag Progression_Reaction_LightningOnUnstable;
 	FGameplayTag Progression_Reaction_ArcaneOnUnstable;
 	
 	TMap<FGameplayTag, FGameplayTag> ReactiveStatusesToMasteries;

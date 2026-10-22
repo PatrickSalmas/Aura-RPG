@@ -35,6 +35,19 @@ void UAuraAbilitySystemComponent::AddCharacterAbilities(const TArray<TSubclassOf
 	AbilitiesGivenDelegate.Broadcast();
 }
 
+void UAuraAbilitySystemComponent::AddCharacterSystemAbilities(const TArray<TSubclassOf<UGameplayAbility>>& StartupSystemAbilities)
+{
+	for (const TSubclassOf<UGameplayAbility>& AbilityClass : StartupSystemAbilities)
+	{
+		if (!AbilityClass)
+		{
+			continue;
+		}
+
+		FGameplayAbilitySpec AbilitySpec(AbilityClass, 1);
+		GiveAbility(AbilitySpec);
+	}
+}
 void UAuraAbilitySystemComponent::AddCharacterPassiveAbilities(const TArray<TSubclassOf<UGameplayAbility>>& StartupPassiveAbilities)
 {
 	for (const TSubclassOf<UGameplayAbility> AbilityClass : StartupPassiveAbilities)

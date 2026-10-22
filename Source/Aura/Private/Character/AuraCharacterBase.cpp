@@ -473,16 +473,22 @@ void AAuraCharacterBase::InitializeDefaultAttributes() const
 
 void AAuraCharacterBase::AddCharacterAbilities()
 {
+	if (!HasAuthority())
+	{
+		return;
+	}
+
 	UAuraAbilitySystemComponent* AuraASC = CastChecked<UAuraAbilitySystemComponent>(AbilitySystemComponent);
+
+	AuraASC->AddCharacterSystemAbilities(StartupSystemAbilities);
+	AuraASC->AddCharacterAbilities(StartupAbilities);
+	AuraASC->AddCharacterPassiveAbilities(StartupPassiveAbilities);
+	
 	if (AuraASC)
 	{
 		AuraASC->UnlockProgressionTag(FAuraGameplayTags::Get().Progression_Mastery_Burning);
 		AuraASC->UnlockProgressionTag(FAuraGameplayTags::Get().Progression_Reaction_LightningOnBurning);
 	}
-	if (!HasAuthority()) return;
-
-	AuraASC->AddCharacterAbilities(StartupAbilities);
-	AuraASC->AddCharacterPassiveAbilities(StartupPassiveAbilities);
 }
 
 void AAuraCharacterBase::Dissolve()
