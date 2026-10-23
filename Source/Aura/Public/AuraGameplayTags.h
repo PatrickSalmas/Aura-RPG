@@ -109,6 +109,10 @@ public:
 	FGameplayTag Reaction_LightningOnUnstable;
 	FGameplayTag Reaction_ArcaneOnUnstable;
 	
+	FGameplayTag Progression_Selection_StartingSpell;
+	FGameplayTag Progression_Selection_AOESpell;
+	FGameplayTag Progression_Selection_ReactiveMastery;
+	
 	FGameplayTag Progression_Mastery_Burning;
 	FGameplayTag Progression_Mastery_Charged;
 	FGameplayTag Progression_Mastery_Unstable;

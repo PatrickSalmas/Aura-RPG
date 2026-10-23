@@ -91,6 +91,12 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Progression")
 	bool GrantAbilityReward(const FGameplayTag& AbilityTag, const FGameplayTag& SlotTag);
 	
+	UFUNCTION(BlueprintPure, Category = "Progression")
+	bool HasOwnedAbilityMatchingTag(const FGameplayTag& RequiredAbilityTag);
+
+	UFUNCTION(BlueprintPure, Category = "Progression")
+	bool MeetsProgressionRequirements(const FGameplayTagContainer& RequiredOwnedAbilityTags, const FGameplayTagContainer& RequiredProgressionTags);
+	
 protected:
 
 	virtual void OnRep_ActivateAbilities() override;

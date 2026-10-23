@@ -570,6 +570,57 @@ bool UAuraAbilitySystemComponent::GrantAbilityReward(const FGameplayTag& Ability
     return EquipAbilityToEmptySlotInternal(*AbilitySpec, SlotTag);
 }
 
+bool UAuraAbilitySystemComponent::HasOwnedAbilityMatchingTag(const FGameplayTag& RequiredAbilityTag)
+{
+	if (!RequiredAbilityTag.IsValid())
+	{
+		return false;
+	}
+
+	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
+
+	FScopedAbilityListLock ActiveScopeLock(*this);
+	for (const FGameplayAbilitySpec& AbilitySpec : GetActivatableAbilities())
+	{
+		const FGameplayTag AbilityTag = GetAbilityTagFromSpec(AbilitySpec);
+		if (!AbilityTag.IsValid() || !AbilityTag.MatchesTag(RequiredAbilityTag))
+		{
+			continue;
+		}
+
+		const FGameplayTag Status = GetStatusFromSpec(AbilitySpec);
+		const bool bOwned = Status.MatchesTagExact(GameplayTags.Abilities_Status_Unlocked) || Status.MatchesTagExact(GameplayTags.Abilities_Status_Equipped);
+
+		if (bOwned)
+		{
+			return true;
+		}
+	}
+
+	return false;
+}
+
+bool UAuraAbilitySystemComponent::MeetsProgressionRequirements(const FGameplayTagContainer& RequiredOwnedAbilityTags, const FGameplayTagContainer& RequiredProgressionTags)
+{
+	for (const FGameplayTag& RequiredAbilityTag : RequiredOwnedAbilityTags)
+	{
+		if (!HasOwnedAbilityMatchingTag(RequiredAbilityTag))
+		{
+			return false;
+		}
+	}
+
+	for (const FGameplayTag& RequiredProgressionTag : RequiredProgressionTags)
+	{
+		if (!HasProgressionUnlock(RequiredProgressionTag))
+		{
+			return false;
+		}
+	}
+
+	return true;
+}
+
 FGameplayAbilitySpec* UAuraAbilitySystemComponent::UnlockAbilityInternal(const FGameplayTag& AbilityTag)
 {
     if (!IsOwnerActorAuthoritative() || !AbilityTag.IsValid())
