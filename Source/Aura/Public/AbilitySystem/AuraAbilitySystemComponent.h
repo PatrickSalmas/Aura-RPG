@@ -88,6 +88,9 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Progression")
 	bool HasProgressionUnlock(const FGameplayTag& UnlockTag) const;
 	
+	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Progression")
+	bool GrantAbilityReward(const FGameplayTag& AbilityTag, const FGameplayTag& SlotTag);
+	
 protected:
 
 	virtual void OnRep_ActivateAbilities() override;
@@ -103,5 +106,12 @@ protected:
 	
 private:
 	bool IsValidProgressionUnlock(const FGameplayTag& UnlockTag) const;
+	
 	void GrantProgressionUnlock(const FGameplayTag& UnlockTag);
+	
+	FGameplayAbilitySpec* UnlockAbilityInternal(const FGameplayTag& AbilityTag);
+	
+	bool EquipAbilityToEmptySlotInternal(FGameplayAbilitySpec& AbilitySpec, const FGameplayTag& SlotTag);
+	
+	void SetAbilityStatusInternal(FGameplayAbilitySpec& AbilitySpec, const FGameplayTag& NewStatus);
 };

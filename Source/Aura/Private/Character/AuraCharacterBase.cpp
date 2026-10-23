@@ -484,11 +484,11 @@ void AAuraCharacterBase::AddCharacterAbilities()
 	AuraASC->AddCharacterAbilities(StartupAbilities);
 	AuraASC->AddCharacterPassiveAbilities(StartupPassiveAbilities);
 	
-	if (AuraASC)
-	{
-		AuraASC->UnlockProgressionTag(FAuraGameplayTags::Get().Progression_Mastery_Burning);
-		AuraASC->UnlockProgressionTag(FAuraGameplayTags::Get().Progression_Reaction_LightningOnBurning);
-	}
+	// if (AuraASC)
+	// {
+	// 	AuraASC->UnlockProgressionTag(FAuraGameplayTags::Get().Progression_Mastery_Burning);
+	// 	AuraASC->UnlockProgressionTag(FAuraGameplayTags::Get().Progression_Reaction_LightningOnBurning);
+	// }
 }
 
 void AAuraCharacterBase::Dissolve()

@@ -521,3 +521,177 @@ void UAuraAbilitySystemComponent::ClientEffectApplied_Implementation(UAbilitySys
 
 	EffectAssetTags.Broadcast(TagContainer);
 }
+
+bool UAuraAbilitySystemComponent::GrantAbilityReward(const FGameplayTag& AbilityTag, const FGameplayTag& SlotTag)
+{
+    if (!IsOwnerActorAuthoritative())
+    {
+        UE_LOG(LogTemp, Error, TEXT("GrantAbilityReward must be called by the authority."));
+        return false;
+    }
+
+    if (!AbilityTag.IsValid() || !SlotTag.IsValid())
+    {
+        return false;
+    }
+
+    const FGameplayTag AbilitySlotRoot = FGameplayTag::RequestGameplayTag(FName("InputTag.Ability"));
+    if (!SlotTag.MatchesTag(AbilitySlotRoot))
+    {
+        UE_LOG(LogTemp, Error, TEXT("GrantAbilityReward: %s is not a semantic ability slot."), *SlotTag.ToString());
+        return false;
+    }
+
+    FGameplayAbilitySpec* ExistingSpec = GetSpecFromAbilityTag(AbilityTag);
+
+    if (ExistingSpec && AbilityHasSlot(*ExistingSpec, SlotTag))
+    {
+        return true;
+    }
+
+    if (ExistingSpec && AbilityHasAnySlot(*ExistingSpec))
+    {
+        UE_LOG(LogTemp, Warning, TEXT("GrantAbilityReward: %s is already assigned to another slot."), *AbilityTag.ToString());
+        return false;
+    }
+
+    if (!SlotIsEmpty(SlotTag))
+    {
+        UE_LOG(LogTemp, Warning, TEXT("GrantAbilityReward: %s is already occupied."), *SlotTag.ToString());
+        return false;
+    }
+
+    FGameplayAbilitySpec* AbilitySpec = UnlockAbilityInternal(AbilityTag);
+    if (!AbilitySpec)
+    {
+        return false;
+    }
+
+    return EquipAbilityToEmptySlotInternal(*AbilitySpec, SlotTag);
+}
+
+FGameplayAbilitySpec* UAuraAbilitySystemComponent::UnlockAbilityInternal(const FGameplayTag& AbilityTag)
+{
+    if (!IsOwnerActorAuthoritative() || !AbilityTag.IsValid())
+    {
+        return nullptr;
+    }
+
+    const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
+
+    if (FGameplayAbilitySpec* ExistingSpec = GetSpecFromAbilityTag(AbilityTag))
+    {
+        const FGameplayTag ExistingStatus = GetStatusFromSpec(*ExistingSpec);
+
+        if (!ExistingStatus.MatchesTagExact(GameplayTags.Abilities_Status_Unlocked) && !ExistingStatus.MatchesTagExact(GameplayTags.Abilities_Status_Equipped))
+        {
+            SetAbilityStatusInternal(*ExistingSpec, GameplayTags.Abilities_Status_Unlocked);
+            ClientUpdateAbilityStatus(AbilityTag, GameplayTags.Abilities_Status_Unlocked, ExistingSpec->Level);
+        }
+
+        return ExistingSpec;
+    }
+
+    UAbilityInfo* AbilityInfo = UAuraAbilitySystemLibrary::GetAbilityInfo(GetAvatarActor());
+    if (!AbilityInfo)
+    {
+        UE_LOG(LogTemp, Error, TEXT("UnlockAbilityInternal: AbilityInfo could not be found."));
+        return nullptr;
+    }
+
+    const FAuraAbilityInfo Info = AbilityInfo->FindAbilityInfoForTag(AbilityTag, true);
+    if (!Info.AbilityTag.IsValid() || !Info.Ability)
+    {
+        UE_LOG(LogTemp, Error, TEXT("UnlockAbilityInternal: No ability class was found for %s."), *AbilityTag.ToString());
+        return nullptr;
+    }
+
+    FGameplayAbilitySpec NewAbilitySpec(Info.Ability, 1);
+    NewAbilitySpec.GetDynamicSpecSourceTags().AddTag(GameplayTags.Abilities_Status_Unlocked);
+
+    const FGameplayAbilitySpecHandle AbilityHandle = GiveAbility(NewAbilitySpec);
+    FGameplayAbilitySpec* GrantedSpec = FindAbilitySpecFromHandle(AbilityHandle);
+
+    if (!GrantedSpec)
+    {
+        UE_LOG(LogTemp, Error, TEXT("UnlockAbilityInternal: Failed to grant %s."), *AbilityTag.ToString());
+        return nullptr;
+    }
+
+    MarkAbilitySpecDirty(*GrantedSpec);
+    ClientUpdateAbilityStatus(AbilityTag, GameplayTags.Abilities_Status_Unlocked, GrantedSpec->Level);
+
+    return GrantedSpec;
+}
+
+
+bool UAuraAbilitySystemComponent::EquipAbilityToEmptySlotInternal(FGameplayAbilitySpec& AbilitySpec, const FGameplayTag& SlotTag)
+{
+    if (!IsOwnerActorAuthoritative() || !SlotTag.IsValid())
+    {
+        return false;
+    }
+
+    const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
+    const FGameplayTag AbilityTag = GetAbilityTagFromSpec(AbilitySpec);
+
+    if (!AbilityTag.IsValid())
+    {
+        return false;
+    }
+
+    if (AbilityHasSlot(AbilitySpec, SlotTag))
+    {
+        return true;
+    }
+
+    if (AbilityHasAnySlot(AbilitySpec))
+    {
+        UE_LOG(LogTemp, Warning, TEXT("EquipAbilityToEmptySlotInternal: %s already occupies another slot."), *AbilityTag.ToString());
+        return false;
+    }
+
+    if (!SlotIsEmpty(SlotTag))
+    {
+        UE_LOG(LogTemp, Warning, TEXT("EquipAbilityToEmptySlotInternal: %s is already occupied."), *SlotTag.ToString());
+        return false;
+    }
+
+    const FGameplayTag Status = GetStatusFromSpec(AbilitySpec);
+    if (!Status.MatchesTagExact(GameplayTags.Abilities_Status_Unlocked) && !Status.MatchesTagExact(GameplayTags.Abilities_Status_Equipped))
+    {
+        UE_LOG(LogTemp, Warning, TEXT("EquipAbilityToEmptySlotInternal: %s is not unlocked."), *AbilityTag.ToString());
+        return false;
+    }
+
+    AbilitySpec.GetDynamicSpecSourceTags().AddTag(SlotTag);
+    SetAbilityStatusInternal(AbilitySpec, GameplayTags.Abilities_Status_Equipped);
+
+    ClientUpdateAbilityStatus(AbilityTag, GameplayTags.Abilities_Status_Equipped, AbilitySpec.Level);
+    ClientEquipAbility(AbilityTag, GameplayTags.Abilities_Status_Equipped, SlotTag, FGameplayTag());
+
+    return true;
+}
+
+void UAuraAbilitySystemComponent::SetAbilityStatusInternal(FGameplayAbilitySpec& AbilitySpec, const FGameplayTag& NewStatus)
+{
+    if (!NewStatus.IsValid())
+    {
+        return;
+    }
+
+    const FGameplayTag StatusRoot = FGameplayTag::RequestGameplayTag(FName("Abilities.Status"));
+    FGameplayTagContainer StatusTagsToRemove;
+
+    for (const FGameplayTag& Tag : AbilitySpec.GetDynamicSpecSourceTags())
+    {
+        if (Tag.MatchesTag(StatusRoot))
+        {
+            StatusTagsToRemove.AddTag(Tag);
+        }
+    }
+
+    AbilitySpec.GetDynamicSpecSourceTags().RemoveTags(StatusTagsToRemove);
+    AbilitySpec.GetDynamicSpecSourceTags().AddTag(NewStatus);
+    MarkAbilitySpecDirty(AbilitySpec);
+}
