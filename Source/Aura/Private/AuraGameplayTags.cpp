@@ -126,6 +126,12 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Progression_Completed_AOESpell = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Completed.AOESpell"), FString("AOE spell selection completed"));
 	GameplayTags.Progression_Completed_ReactiveMastery = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Completed.ReactiveMastery"), FString("Reactive mastery selection completed"));
 	
+	GameplayTags.Progression_Completed_ReactionUnlock = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Completed.ReactionUnlock"), FString("Reaction unlock reward completed"));
+	
+	GameplayTags.Abilities_Fire = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Abilities.Fire"), FString("Fire ability school"));
+	GameplayTags.Abilities_Lightning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Abilities.Lightning"), FString("Lightning ability school"));
+	GameplayTags.Abilities_Arcane = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Abilities.Arcane"), FString("Arcane ability school"));
+	
 	GameplayTags.Progression_Mastery_Burning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Mastery.Burning"), FString("Progression.Mastery.Burning"));
 	GameplayTags.Progression_Mastery_Charged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Mastery.Charged"), FString("Progression.Mastery.Charged"));
 	GameplayTags.Progression_Mastery_Unstable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Mastery.Unstable"), FString("Progression.Mastery.Unstable"));
@@ -156,7 +162,7 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 
 	// Reactions consuming Unstable
 	GameplayTags.ReactionsToUnlocks.Add(GameplayTags.Reaction_FireOnUnstable,GameplayTags.Progression_Reaction_FireOnUnstable);
-	GameplayTags.ReactionsToUnlocks.Add(GameplayTags.Reaction_LightningOnUnstable,GameplayTags.Progression_Reaction_ArcaneOnCharged);
+	GameplayTags.ReactionsToUnlocks.Add(GameplayTags.Reaction_LightningOnUnstable,GameplayTags.Progression_Reaction_LightningOnUnstable);
 	GameplayTags.ReactionsToUnlocks.Add(GameplayTags.Reaction_ArcaneOnUnstable,GameplayTags.Progression_Reaction_ArcaneOnUnstable);
 	
 	GameplayTags.Hit_ReactionInert = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Hit.ReactionInert"), FString("Tag to represent that hit should not cause hit react"));

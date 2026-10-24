@@ -72,6 +72,33 @@ struct FProgressionSelectionDefinition
     
 };
 
+USTRUCT(BlueprintType)
+struct FReactionTriggerRule
+{
+    GENERATED_BODY()
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+    FGameplayTag TriggerSchoolTag;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+    FGameplayTag ReactionUnlockTag;
+};
+
+USTRUCT(BlueprintType)
+struct FReactionMasteryRule
+{
+    GENERATED_BODY()
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+    FGameplayTag MasteryTag;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+    FGameplayTag MasterySchoolTag;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+    TArray<FReactionTriggerRule> TriggerRules;
+};
+
 UCLASS(BlueprintType)
 class AURA_API UProgressionSelectionData : public UDataAsset
 {
@@ -85,4 +112,9 @@ public:
     
     UFUNCTION(BlueprintPure, Category="Progression")
     bool GetSelectionDefinitionForTag(const FGameplayTag& SelectionTag, FProgressionSelectionDefinition& OutDefinition) const;
+    
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Reaction Unlocks")
+    TArray<FReactionMasteryRule> ReactionMasteryRules;
+
+    const FReactionMasteryRule* FindReactionMasteryRule(const FGameplayTag& MasteryTag, bool bLogNotFound = false) const;
 };

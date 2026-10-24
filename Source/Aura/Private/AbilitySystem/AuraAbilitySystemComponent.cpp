@@ -489,6 +489,11 @@ void UAuraAbilitySystemComponent::ClientProgressionSelectionResolved_Implementat
 	ProgressionSelectionResolvedDelegate.Broadcast(SelectionTag, RewardTag, bSuccess);
 }
 
+void UAuraAbilitySystemComponent::ClientDerivedReactionRewardResolved_Implementation(const FGameplayTag& ReactionUnlockTag, bool bSuccess)
+{
+	DerivedReactionRewardResolvedDelegate.Broadcast(ReactionUnlockTag, bSuccess);
+}
+
 bool UAuraAbilitySystemComponent::IsValidProgressionUnlock(const FGameplayTag& UnlockTag) const
 {
 	if (!UnlockTag.IsValid())
@@ -525,6 +530,19 @@ void UAuraAbilitySystemComponent::GrantProgressionUnlock(const FGameplayTag& Unl
 	AddLooseGameplayTag(UnlockTag);
 
 	UE_LOG(LogTemp, Log, TEXT("Granted progression unlock: %s"), *UnlockTag.ToString());
+}
+
+void UAuraAbilitySystemComponent::GrantDerivedReactionReward()
+{
+	if (!GetOwner() || !GetOwner()->HasAuthority())
+	{
+		UE_LOG(LogTemp, Warning, TEXT("GrantDerivedReactionReward must be called on the server."));
+		return;
+	}
+
+	FGameplayTag ReactionUnlockTag;
+	const bool bSuccess = CommitDerivedReactionReward(ReactionUnlockTag);
+	ClientDerivedReactionRewardResolved(ReactionUnlockTag, bSuccess);
 }
 
 void UAuraAbilitySystemComponent::OnRep_ActivateAbilities()
@@ -857,4 +875,167 @@ bool UAuraAbilitySystemComponent::CommitProgressionSelection(const FGameplayTag&
 
     UE_LOG(LogTemp, Log, TEXT("Completed selection [%s] with reward [%s]."), *SelectionTag.ToString(), *RewardTag.ToString());
     return true;
+}
+
+FGameplayTag UAuraAbilitySystemComponent::GetAbilitySchoolFromAbilityTag(const FGameplayTag& AbilityTag) const
+{
+	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
+
+	if (AbilityTag.MatchesTag(GameplayTags.Abilities_Fire))
+	{
+		return GameplayTags.Abilities_Fire;
+	}
+
+	if (AbilityTag.MatchesTag(GameplayTags.Abilities_Lightning))
+	{
+		return GameplayTags.Abilities_Lightning;
+	}
+
+	if (AbilityTag.MatchesTag(GameplayTags.Abilities_Arcane))
+	{
+		return GameplayTags.Abilities_Arcane;
+	}
+
+	return FGameplayTag();
+}
+
+bool UAuraAbilitySystemComponent::ResolveDerivedReactionReward(FGameplayTag& OutReactionUnlockTag, FGameplayTag& OutMasteryTag)
+{
+    OutReactionUnlockTag = FGameplayTag();
+    OutMasteryTag = FGameplayTag();
+
+    const UProgressionSelectionData* SelectionData = UAuraAbilitySystemLibrary::GetProgressionSelectionData(this);
+    if (!SelectionData)
+    {
+        UE_LOG(LogTemp, Error, TEXT("Cannot resolve reaction reward because ProgressionSelectionData was not found."));
+        return false;
+    }
+
+    const FReactionMasteryRule* ActiveMasteryRule = nullptr;
+
+    for (const FReactionMasteryRule& MasteryRule : SelectionData->ReactionMasteryRules)
+    {
+        if (!HasProgressionUnlock(MasteryRule.MasteryTag))
+        {
+            continue;
+        }
+
+        if (ActiveMasteryRule)
+        {
+            UE_LOG(LogTemp, Error, TEXT("Cannot resolve reaction reward because the player owns more than one reactive mastery."));
+            return false;
+        }
+
+        ActiveMasteryRule = &MasteryRule;
+    }
+
+    if (!ActiveMasteryRule)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("Cannot resolve reaction reward because the player does not own a reactive mastery."));
+        return false;
+    }
+
+    const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
+    const FGameplayAbilitySpec* SlotOneSpec = GetSpecWithSlot(GameplayTags.InputTag_Ability_1);
+    const FGameplayAbilitySpec* SlotTwoSpec = GetSpecWithSlot(GameplayTags.InputTag_Ability_2);
+
+    if (!SlotOneSpec || !SlotTwoSpec)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("Cannot resolve reaction reward because both Alpha ability slots are not occupied."));
+        return false;
+    }
+
+    const FGameplayTag SlotOneAbilityTag = GetAbilityTagFromSpec(*SlotOneSpec);
+    const FGameplayTag SlotTwoAbilityTag = GetAbilityTagFromSpec(*SlotTwoSpec);
+    const FGameplayTag SlotOneSchoolTag = GetAbilitySchoolFromAbilityTag(SlotOneAbilityTag);
+    const FGameplayTag SlotTwoSchoolTag = GetAbilitySchoolFromAbilityTag(SlotTwoAbilityTag);
+
+    if (!SlotOneSchoolTag.IsValid() || !SlotTwoSchoolTag.IsValid())
+    {
+        UE_LOG(LogTemp, Error, TEXT("Cannot resolve reaction reward because an equipped ability does not belong to a recognized spell school."));
+        return false;
+    }
+
+    const bool bSlotOneMatchesMastery = SlotOneSchoolTag.MatchesTagExact(ActiveMasteryRule->MasterySchoolTag);
+    const bool bSlotTwoMatchesMastery = SlotTwoSchoolTag.MatchesTagExact(ActiveMasteryRule->MasterySchoolTag);
+
+    if (!bSlotOneMatchesMastery && !bSlotTwoMatchesMastery)
+    {
+        UE_LOG(LogTemp, Error, TEXT("Cannot resolve reaction reward because the selected mastery does not match either equipped spell school."));
+        return false;
+    }
+
+    FGameplayTag TriggerSchoolTag = ActiveMasteryRule->MasterySchoolTag;
+
+    if (!bSlotOneMatchesMastery)
+    {
+        TriggerSchoolTag = SlotOneSchoolTag;
+    }
+    else if (!bSlotTwoMatchesMastery)
+    {
+        TriggerSchoolTag = SlotTwoSchoolTag;
+    }
+
+    const FReactionTriggerRule* TriggerRule = ActiveMasteryRule->TriggerRules.FindByPredicate(
+        [&TriggerSchoolTag](const FReactionTriggerRule& Rule)
+        {
+            return Rule.TriggerSchoolTag.MatchesTagExact(TriggerSchoolTag);
+        });
+
+    if (!TriggerRule || !TriggerRule->ReactionUnlockTag.IsValid())
+    {
+        UE_LOG(LogTemp, Warning, TEXT("No reaction unlock rule exists for mastery [%s] triggered by school [%s]."), *ActiveMasteryRule->MasteryTag.ToString(), *TriggerSchoolTag.ToString());
+        return false;
+    }
+
+    OutMasteryTag = ActiveMasteryRule->MasteryTag;
+    OutReactionUnlockTag = TriggerRule->ReactionUnlockTag;
+
+    UE_LOG(LogTemp, Log, TEXT("Resolved mastery [%s] and triggering school [%s] to reaction unlock [%s]."), *OutMasteryTag.ToString(), *TriggerSchoolTag.ToString(), *OutReactionUnlockTag.ToString());
+    return true;
+}
+
+bool UAuraAbilitySystemComponent::CommitDerivedReactionReward(FGameplayTag& OutReactionUnlockTag)
+{
+	OutReactionUnlockTag = FGameplayTag();
+
+	if (!GetOwner() || !GetOwner()->HasAuthority())
+	{
+		return false;
+	}
+
+	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
+
+	if (!HasMatchingGameplayTag(GameplayTags.Progression_Completed_ReactiveMastery))
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Cannot grant a reaction reward before completing the reactive mastery selection."));
+		return false;
+	}
+
+	if (HasMatchingGameplayTag(GameplayTags.Progression_Completed_ReactionUnlock))
+	{
+		UE_LOG(LogTemp, Warning, TEXT("The derived reaction reward has already been granted."));
+		return false;
+	}
+
+	FGameplayTag MasteryTag;
+
+	if (!ResolveDerivedReactionReward(OutReactionUnlockTag, MasteryTag))
+	{
+		return false;
+	}
+
+	GrantProgressionUnlock(OutReactionUnlockTag);
+
+	if (!HasProgressionUnlock(OutReactionUnlockTag))
+	{
+		UE_LOG(LogTemp, Error, TEXT("Failed to grant derived reaction unlock [%s]."), *OutReactionUnlockTag.ToString());
+		OutReactionUnlockTag = FGameplayTag();
+		return false;
+	}
+
+	AddLooseGameplayTag(GameplayTags.Progression_Completed_ReactionUnlock);
+
+	UE_LOG(LogTemp, Log, TEXT("Granted derived reaction unlock [%s] from mastery [%s]."), *OutReactionUnlockTag.ToString(), *MasteryTag.ToString());
+	return true;
 }

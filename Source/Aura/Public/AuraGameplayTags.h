@@ -121,6 +121,13 @@ public:
 	FGameplayTag Progression_Completed_AOESpell;
 	FGameplayTag Progression_Completed_ReactiveMastery;
 	
+	FGameplayTag Progression_Completed_ReactionUnlock;
+	
+	FGameplayTag Abilities_Fire;
+	FGameplayTag Abilities_Lightning;
+	FGameplayTag Abilities_Arcane;
+
+	
 	FGameplayTag Progression_Reaction_FireOnBurning;
 	FGameplayTag Progression_Reaction_LightningOnBurning;
 	FGameplayTag Progression_Reaction_ArcaneOnBurning;

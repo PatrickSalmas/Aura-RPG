@@ -33,3 +33,21 @@ bool UProgressionSelectionData::GetSelectionDefinitionForTag(const FGameplayTag&
 	OutDefinition = *Definition;
 	return true;
 }
+
+const FReactionMasteryRule* UProgressionSelectionData::FindReactionMasteryRule(const FGameplayTag& MasteryTag, bool bLogNotFound) const
+{
+	for (const FReactionMasteryRule& Rule : ReactionMasteryRules)
+	{
+		if (Rule.MasteryTag.MatchesTagExact(MasteryTag))
+		{
+			return &Rule;
+		}
+	}
+
+	if (bLogNotFound)
+	{
+		UE_LOG(LogTemp, Error, TEXT("Reaction mastery rule not found for mastery [%s] on [%s]."), *MasteryTag.ToString(), *GetNameSafe(this));
+	}
+
+	return nullptr;
+}
