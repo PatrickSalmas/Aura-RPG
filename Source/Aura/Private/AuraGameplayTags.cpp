@@ -122,6 +122,10 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	GameplayTags.Progression_Selection_AOESpell = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Selection.AOESpell"), FString("AOE spell selection"));
 	GameplayTags.Progression_Selection_ReactiveMastery = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Selection.ReactiveMastery"), FString("Reactive mastery selection"));
 	
+	GameplayTags.Progression_Completed_StartingSpell = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Completed.StartingSpell"), FString("Starting spell selection completed"));
+	GameplayTags.Progression_Completed_AOESpell = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Completed.AOESpell"), FString("AOE spell selection completed"));
+	GameplayTags.Progression_Completed_ReactiveMastery = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Completed.ReactiveMastery"), FString("Reactive mastery selection completed"));
+	
 	GameplayTags.Progression_Mastery_Burning = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Mastery.Burning"), FString("Progression.Mastery.Burning"));
 	GameplayTags.Progression_Mastery_Charged = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Mastery.Charged"), FString("Progression.Mastery.Charged"));
 	GameplayTags.Progression_Mastery_Unstable = UGameplayTagsManager::Get().AddNativeGameplayTag(FName("Progression.Mastery.Unstable"), FString("Progression.Mastery.Unstable"));

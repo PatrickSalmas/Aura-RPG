@@ -19,3 +19,17 @@ const FProgressionSelectionDefinition* UProgressionSelectionData::FindSelectionD
 
 	return nullptr;
 }
+
+bool UProgressionSelectionData::GetSelectionDefinitionForTag(const FGameplayTag& SelectionTag, FProgressionSelectionDefinition& OutDefinition) const
+{
+	const FProgressionSelectionDefinition* Definition = FindSelectionDefinition(SelectionTag, true);
+
+	if (Definition == nullptr)
+	{
+		OutDefinition = FProgressionSelectionDefinition();
+		return false;
+	}
+
+	OutDefinition = *Definition;
+	return true;
+}

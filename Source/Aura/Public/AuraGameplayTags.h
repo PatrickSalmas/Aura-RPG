@@ -117,6 +117,10 @@ public:
 	FGameplayTag Progression_Mastery_Charged;
 	FGameplayTag Progression_Mastery_Unstable;
 	
+	FGameplayTag Progression_Completed_StartingSpell;
+	FGameplayTag Progression_Completed_AOESpell;
+	FGameplayTag Progression_Completed_ReactiveMastery;
+	
 	FGameplayTag Progression_Reaction_FireOnBurning;
 	FGameplayTag Progression_Reaction_LightningOnBurning;
 	FGameplayTag Progression_Reaction_ArcaneOnBurning;

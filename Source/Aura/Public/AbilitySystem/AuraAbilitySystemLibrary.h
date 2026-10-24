@@ -16,6 +16,7 @@ struct FWidgetControllerParams;
 class UAttributeMenuWidgetController;
 class USpellMenuWidgetController;
 class UOverlayWidgetController;
+class UProgressionSelectionData;
 /**
  * 
  */
@@ -60,6 +61,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category="AuraAbilitySystemLibrary|CharacterClassDefaults")
 	static UAbilityInfo* GetAbilityInfo(const UObject* WorldContextObject);
+	
+	UFUNCTION(BlueprintCallable, Category="AuraAbilitySystemLibrary|Progression")
+	static UProgressionSelectionData* GetProgressionSelectionData(const UObject* WorldContextObject);
 	
 	/*
 	 * Effect Context Getters

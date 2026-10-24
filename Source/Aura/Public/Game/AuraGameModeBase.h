@@ -8,6 +8,7 @@
 
 class UAbilityInfo;
 class UCharacterClassInfo;
+class UProgressionSelectionData;
 /**
  * 
  */
@@ -22,4 +23,7 @@ public:
 
 	UPROPERTY(EditDefaultsOnly, Category="Character Class Defaults")
 	TObjectPtr<UAbilityInfo> AbilityInfo;
+	
+	UPROPERTY(EditDefaultsOnly, Category="Progression")
+	TObjectPtr<UProgressionSelectionData> ProgressionSelectionData;
 };

@@ -15,6 +15,7 @@ DECLARE_MULTICAST_DELEGATE_FourParams(FAbilityEquipped, const FGameplayTag& /*Ab
                                       const FGameplayTag& /*PrevSlotTag*/)
 DECLARE_MULTICAST_DELEGATE_OneParam(FDeactivatePassiveAbility, const FGameplayTag& /* AbilityTag */);
 DECLARE_MULTICAST_DELEGATE_TwoParams(FActivatePassiveEffect, const FGameplayTag& /* AbilityTag */, bool /* bActivate */)
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FProgressionSelectionResolved, FGameplayTag, SelectionTag, FGameplayTag, RewardTag, bool, bSuccess);
 
 /**
  * 
@@ -97,6 +98,12 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Progression")
 	bool MeetsProgressionRequirements(const FGameplayTagContainer& RequiredOwnedAbilityTags, const FGameplayTagContainer& RequiredProgressionTags);
 	
+	UPROPERTY(BlueprintAssignable, Category="Progression")
+	FProgressionSelectionResolved ProgressionSelectionResolvedDelegate;
+
+	UFUNCTION(BlueprintCallable, Category="Progression")
+	void SubmitProgressionSelection(const FGameplayTag& SelectionTag, const FGameplayTag& RewardTag);
+	
 protected:
 
 	virtual void OnRep_ActivateAbilities() override;
@@ -110,6 +117,12 @@ protected:
 	UFUNCTION(Server, Reliable)
 	void ServerUnlockProgressionTag(const FGameplayTag& UnlockTag);
 	
+	UFUNCTION(Server, Reliable)
+	void ServerSubmitProgressionSelection(const FGameplayTag& SelectionTag, const FGameplayTag& RewardTag);
+
+	UFUNCTION(Client, Reliable)
+	void ClientProgressionSelectionResolved(const FGameplayTag& SelectionTag, const FGameplayTag& RewardTag, bool bSuccess);
+	
 private:
 	bool IsValidProgressionUnlock(const FGameplayTag& UnlockTag) const;
 	
@@ -120,4 +133,6 @@ private:
 	bool EquipAbilityToEmptySlotInternal(FGameplayAbilitySpec& AbilitySpec, const FGameplayTag& SlotTag);
 	
 	void SetAbilityStatusInternal(FGameplayAbilitySpec& AbilitySpec, const FGameplayTag& NewStatus);
+	
+	bool CommitProgressionSelection(const FGameplayTag& SelectionTag, const FGameplayTag& RewardTag);
 };

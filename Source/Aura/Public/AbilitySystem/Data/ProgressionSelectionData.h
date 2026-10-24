@@ -65,7 +65,11 @@ struct FProgressionSelectionDefinition
     FGameplayTag DestinationSlot;
 
     UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+    FGameplayTag CompletionTag;
+    
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
     TArray<FProgressionChoiceOption> Options;
+    
 };
 
 UCLASS(BlueprintType)
@@ -78,4 +82,7 @@ public:
     TArray<FProgressionSelectionDefinition> SelectionDefinitions;
 
     const FProgressionSelectionDefinition* FindSelectionDefinition(const FGameplayTag& SelectionTag, bool bLogNotFound = false) const;
+    
+    UFUNCTION(BlueprintPure, Category="Progression")
+    bool GetSelectionDefinitionForTag(const FGameplayTag& SelectionTag, FProgressionSelectionDefinition& OutDefinition) const;
 };

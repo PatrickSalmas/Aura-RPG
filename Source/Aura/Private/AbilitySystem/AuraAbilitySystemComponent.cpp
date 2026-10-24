@@ -11,6 +11,8 @@
 #include "AbilitySystem/Data/AbilityInfo.h"
 #include "Aura/AuraLogChannels.h"
 #include "Interaction/PlayerInterface.h"
+#include "AbilitySystem/AuraAbilitySystemLibrary.h"
+#include "AbilitySystem/Data/ProgressionSelectionData.h"
 
 void UAuraAbilitySystemComponent::AbilityActorInfoSet()
 {
@@ -458,6 +460,35 @@ bool UAuraAbilitySystemComponent::HasProgressionUnlock(const FGameplayTag& Unloc
 	return UnlockTag.IsValid() && HasMatchingGameplayTag(UnlockTag);
 }
 
+void UAuraAbilitySystemComponent::SubmitProgressionSelection(const FGameplayTag& SelectionTag, const FGameplayTag& RewardTag)
+{
+	if (!SelectionTag.IsValid() || !RewardTag.IsValid())
+	{
+		ProgressionSelectionResolvedDelegate.Broadcast(SelectionTag, RewardTag, false);
+		return;
+	}
+
+	if (GetOwner() && GetOwner()->HasAuthority())
+	{
+		const bool bSuccess = CommitProgressionSelection(SelectionTag, RewardTag);
+		ClientProgressionSelectionResolved(SelectionTag, RewardTag, bSuccess);
+		return;
+	}
+
+	ServerSubmitProgressionSelection(SelectionTag, RewardTag);
+}
+
+void UAuraAbilitySystemComponent::ServerSubmitProgressionSelection_Implementation(const FGameplayTag& SelectionTag, const FGameplayTag& RewardTag)
+{
+	const bool bSuccess = CommitProgressionSelection(SelectionTag, RewardTag);
+	ClientProgressionSelectionResolved(SelectionTag, RewardTag, bSuccess);
+}
+
+void UAuraAbilitySystemComponent::ClientProgressionSelectionResolved_Implementation(const FGameplayTag& SelectionTag, const FGameplayTag& RewardTag, bool bSuccess)
+{
+	ProgressionSelectionResolvedDelegate.Broadcast(SelectionTag, RewardTag, bSuccess);
+}
+
 bool UAuraAbilitySystemComponent::IsValidProgressionUnlock(const FGameplayTag& UnlockTag) const
 {
 	if (!UnlockTag.IsValid())
@@ -745,4 +776,85 @@ void UAuraAbilitySystemComponent::SetAbilityStatusInternal(FGameplayAbilitySpec&
     AbilitySpec.GetDynamicSpecSourceTags().RemoveTags(StatusTagsToRemove);
     AbilitySpec.GetDynamicSpecSourceTags().AddTag(NewStatus);
     MarkAbilitySpecDirty(AbilitySpec);
+}
+
+bool UAuraAbilitySystemComponent::CommitProgressionSelection(const FGameplayTag& SelectionTag, const FGameplayTag& RewardTag)
+{
+    if (!GetOwner() || !GetOwner()->HasAuthority())
+    {
+        UE_LOG(LogTemp, Warning, TEXT("CommitProgressionSelection must run on the server."));
+        return false;
+    }
+
+    const UProgressionSelectionData* SelectionData = UAuraAbilitySystemLibrary::GetProgressionSelectionData(this);
+    if (!SelectionData)
+    {
+        UE_LOG(LogTemp, Error, TEXT("ProgressionSelectionData could not be found."));
+        return false;
+    }
+
+    const FProgressionSelectionDefinition* Definition = SelectionData->FindSelectionDefinition(SelectionTag, true);
+    if (!Definition)
+    {
+        return false;
+    }
+
+    if (!Definition->CompletionTag.IsValid())
+    {
+        UE_LOG(LogTemp, Error, TEXT("Selection [%s] does not have a valid CompletionTag."), *SelectionTag.ToString());
+        return false;
+    }
+
+    if (HasMatchingGameplayTag(Definition->CompletionTag))
+    {
+        UE_LOG(LogTemp, Warning, TEXT("Selection [%s] has already been completed."), *SelectionTag.ToString());
+        return false;
+    }
+
+    const FProgressionChoiceOption* SelectedOption = Definition->Options.FindByPredicate(
+        [&RewardTag](const FProgressionChoiceOption& Option)
+        {
+            return Option.RewardTag.MatchesTagExact(RewardTag);
+        });
+
+    if (!SelectedOption)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("Reward [%s] does not belong to selection [%s]."), *RewardTag.ToString(), *SelectionTag.ToString());
+        return false;
+    }
+
+    if (!MeetsProgressionRequirements(SelectedOption->RequiredOwnedAbilityTags, SelectedOption->RequiredProgressionTags))
+    {
+        UE_LOG(LogTemp, Warning, TEXT("Requirements were not met for reward [%s]."), *RewardTag.ToString());
+        return false;
+    }
+
+    bool bRewardGranted = false;
+
+    switch (Definition->RewardType)
+    {
+    case EProgressionRewardType::Ability:
+        bRewardGranted = GrantAbilityReward(SelectedOption->RewardTag, Definition->DestinationSlot);
+        break;
+
+    case EProgressionRewardType::ProgressionUnlock:
+        GrantProgressionUnlock(SelectedOption->RewardTag);
+        bRewardGranted = HasProgressionUnlock(SelectedOption->RewardTag);
+        break;
+
+    default:
+        UE_LOG(LogTemp, Error, TEXT("Selection [%s] has an unsupported reward type."), *SelectionTag.ToString());
+        return false;
+    }
+
+    if (!bRewardGranted)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("Failed to grant reward [%s] for selection [%s]."), *RewardTag.ToString(), *SelectionTag.ToString());
+        return false;
+    }
+
+    AddLooseGameplayTag(Definition->CompletionTag);
+
+    UE_LOG(LogTemp, Log, TEXT("Completed selection [%s] with reward [%s]."), *SelectionTag.ToString(), *RewardTag.ToString());
+    return true;
 }
