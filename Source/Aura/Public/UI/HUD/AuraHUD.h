@@ -12,6 +12,7 @@ struct FWidgetControllerParams;
 class UOverlayWidgetController;
 class UAttributeMenuWidgetController;
 class USpellMenuWidgetController;
+class UProgressionMenuWidgetController;
 struct FWidgetControllerParams;
 /**
  * 
@@ -24,8 +25,12 @@ public:
 	UOverlayWidgetController* GetOverlayWidgetController(const FWidgetControllerParams& WCParams);
 	UAttributeMenuWidgetController* GetAttributeMenuWidgetController(const FWidgetControllerParams& WCParams);
 	USpellMenuWidgetController* GetSpellMenuWidgetController(const FWidgetControllerParams& WCParams);
+	UProgressionMenuWidgetController* GetProgressionMenuWidgetController(const FWidgetControllerParams& WCParams);
 	
 	void InitOverlay(APlayerController* PC, APlayerState* PS, UAbilitySystemComponent* ASC, UAttributeSet* AS);
+	
+	UFUNCTION(BlueprintCallable, Category="Progression")
+	void OpenProgressionMenu(const FGameplayTag& SelectionTag);
 
 protected:
 
@@ -56,4 +61,16 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<USpellMenuWidgetController> SpellMenuWidgetControllerClass;
+	
+	UPROPERTY()
+	TObjectPtr<UProgressionMenuWidgetController> ProgressionMenuWidgetController;
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<UProgressionMenuWidgetController> ProgressionMenuWidgetControllerClass;
+	
+	UPROPERTY()
+	TObjectPtr<UAuraUserWidget> ProgressionMenuWidget;
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<UAuraUserWidget> ProgressionMenuWidgetClass;
 };
