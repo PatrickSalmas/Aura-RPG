@@ -1968,3 +1968,859 @@ FPackageName: Unable to identify a valid mount point associated with skipped pac
 [2026.10.27-23.31.50:934][346]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
 [2026.10.27-23.31.50:946][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
 [2026.10.27-23.31.50:975][347]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2026.10.27-23.33.58:621][615]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2026.10.27-23.33.58:625][615]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.27-23.33.58:676][615]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections] ([1] browsable assets)...
+[2026.10.27-23.33.58:676][615]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections]
+[2026.10.27-23.33.58:678][615]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections
+[2026.10.27-23.33.58:678][615]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/DA_ProgressionSelections1B2C696A4D46398683D6F5BB9661CF84.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections.uasset'
+[2026.10.27-23.33.58:685][615]LogFileHelpers: InternalPromptForCheckoutAndSave took 59.132 ms (total: 631.931 ms)
+[2026.10.27-23.33.58:739][615]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.27-23.33.58:739][615]LogContentValidation: Enabled validators:
+[2026.10.27-23.33.58:740][615]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.27-23.33.58:740][615]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.27-23.33.58:740][615]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.27-23.33.58:740][615]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.27-23.33.58:740][615]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.27-23.33.58:740][615]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.27-23.33.58:740][615]AssetCheck: /Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections Validating asset
+[2026.10.27-23.34.00:640][830]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.27-23.34.00:653][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.27-23.34.00:653][830]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.34.00:662][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009691s)
+[2026.10.27-23.34.00:662][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Graybox_Run.L_Graybox_Run to /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run (0.009846s)
+[2026.10.27-23.34.00:678][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.10.27-23.34.00:680][830]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Graybox_Run
+[2026.10.27-23.34.00:681][830]LogPlayLevel: PIE: World Init took: (0.001392s)
+[2026.10.27-23.34.00:682][830]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2026.10.27-23.34.00:682][830]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.27-23.34.00:682][830]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.27-23.34.00:682][830]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.27-23.34.00:682][830]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.27-23.34.00:682][830]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.27-23.34.00:682][830]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.27-23.34.00:682][830]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.27-23.34.00:682][830]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.27-23.34.00:683][830]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.27-23.34.00:683][830]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.27-23.34.00:683][830]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.27-23.34.00:685][830]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.27-23.34.00:701][830]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.27-23.34.00:702][830]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.27-23.34.00:702][830]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.27-23.34.00:702][830]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.27-23.34.00:702][830]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2026.10.27-23.34.00:702][830]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2026.10.27-23.34.00:704][830]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2026.10.27-23.34.00:704][830]LogInit: FAudioDevice initialized with ID 7.
+[2026.10.27-23.34.00:705][830]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2026.10.27-23.34.00:705][830]LogAudio: Display: Audio Device (ID: 7) registered with world 'L_Graybox_Run'.
+[2026.10.27-23.34.00:705][830]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2026.10.27-23.34.00:707][830]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.27-23.34.00:709][830]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run up for play (max tick rate 0) at 2026.10.27-16.34.00
+[2026.10.27-23.34.00:709][830]LogWorld: Bringing up level for play took: 0.002389
+[2026.10.27-23.34.00:711][830]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2026.10.27-23.34.00:712][830]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.27-23.34.00:715][830]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.34.00:715][830]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.34.00:715][830]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.34.00:715][830]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.34.00:715][830]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.34.00:717][830]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.34.00:717][830]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.34.00:717][830]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.34.00:717][830]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.27-23.34.00:718][830]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.27-23.34.00:718][830]LogScript: Warning: Script Msg: No world was found for object (/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections.DA_ProgressionSelections) passed in to UEngine::GetWorldFromContextObject().
+[2026.10.27-23.34.00:718][830]LogScript: Warning: Script Msg called by: BP_AuraGameMode_C /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run:PersistentLevel.BP_AuraGameMode_C_0
+[2026.10.27-23.34.00:718][830]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.27-23.34.00:718][830]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.27-23.34.00:719][830]PIE: Server logged in
+[2026.10.27-23.34.00:720][830]PIE: Play in editor total start time 0.069 seconds.
+[2026.10.27-23.34.01:775][953]LogBlueprintUserMessages: [BP_BattleMage_C_0] Opening Starting Spell Menu
+[2026.10.27-23.34.15:920][650]LogTemp: Completed selection [Progression.Selection.StartingSpell] with reward [Abilities.Fire.FireBolt].
+[2026.10.27-23.34.15:920][650]LogBlueprintUserMessages: [BP_BattleMage_C_0] true
+[2026.10.27-23.34.15:920][650]LogBlueprintUserMessages: [BP_BattleMage_C_0] Progression.Selection.StartingSpell
+[2026.10.27-23.34.15:920][650]LogBlueprintUserMessages: [BP_BattleMage_C_0] Abilities.Fire.FireBolt
+[2026.10.27-23.34.17:247][809]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.34.17:247][809]LogTemp: Warning: GA_FireBolt_C_0 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.27-23.34.17:755][870]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.34.17:755][870]LogTemp: Warning: GA_FireBolt_C_1 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.27-23.34.18:272][932]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.34.18:272][932]LogTemp: Warning: GA_FireBolt_C_2 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.27-23.34.18:797][995]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.34.18:797][995]LogTemp: Warning: GA_FireBolt_C_3 | Level: 1 | Damage: 5.00 | Mana Cost: 2.00 | Cooldown: 0.50 | Debuff Chance: 0.00 | Knockback Chance: 0.00 | Stun Chance: 0.00 | Slow Chance: 0.00
+[2026.10.27-23.34.20:079][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.34.20:079][142]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.34.20:080][142]LogWorld: UWorld::CleanupWorld for L_Graybox_Run, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-23.34.20:081][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.34.20:083][142]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.27-23.34.20:090][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.34.20:107][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.34.20:107][142]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2026.10.27-23.34.20:107][142]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2026.10.27-23.34.20:109][142]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2026.10.27-23.34.20:123][142]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2026.10.27-23.34.20:156][143]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2026.10.27-23.34.37:291][190]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.27-23.34.37:304][190]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.27-23.34.37:304][190]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.34.37:312][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009195s)
+[2026.10.27-23.34.37:313][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Graybox_Run.L_Graybox_Run to /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run (0.009353s)
+[2026.10.27-23.34.37:330][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2026.10.27-23.34.37:332][190]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Graybox_Run
+[2026.10.27-23.34.37:334][190]LogPlayLevel: PIE: World Init took: (0.001400s)
+[2026.10.27-23.34.37:335][190]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2026.10.27-23.34.37:335][190]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.27-23.34.37:335][190]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.27-23.34.37:335][190]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.27-23.34.37:335][190]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.27-23.34.37:335][190]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.27-23.34.37:335][190]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.27-23.34.37:335][190]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.27-23.34.37:335][190]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.27-23.34.37:335][190]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.27-23.34.37:335][190]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.27-23.34.37:335][190]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.27-23.34.37:337][190]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.27-23.34.37:352][190]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.27-23.34.37:352][190]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.27-23.34.37:352][190]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.27-23.34.37:352][190]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.27-23.34.37:352][190]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2026.10.27-23.34.37:352][190]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2026.10.27-23.34.37:355][190]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2026.10.27-23.34.37:355][190]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2026.10.27-23.34.37:355][190]LogInit: FAudioDevice initialized with ID 8.
+[2026.10.27-23.34.37:355][190]LogAudio: Display: Audio Device (ID: 8) registered with world 'L_Graybox_Run'.
+[2026.10.27-23.34.37:355][190]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2026.10.27-23.34.37:357][190]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.27-23.34.37:360][190]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run up for play (max tick rate 0) at 2026.10.27-16.34.37
+[2026.10.27-23.34.37:360][190]LogWorld: Bringing up level for play took: 0.002249
+[2026.10.27-23.34.37:362][190]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2026.10.27-23.34.37:363][190]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.27-23.34.37:367][190]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.34.37:367][190]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.34.37:367][190]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.34.37:367][190]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.34.37:367][190]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.34.37:367][190]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.34.37:367][190]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.34.37:367][190]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.34.37:367][190]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.27-23.34.37:368][190]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.27-23.34.37:368][190]LogScript: Warning: Script Msg: No world was found for object (/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections.DA_ProgressionSelections) passed in to UEngine::GetWorldFromContextObject().
+[2026.10.27-23.34.37:368][190]LogScript: Warning: Script Msg called by: BP_AuraGameMode_C /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run:PersistentLevel.BP_AuraGameMode_C_0
+[2026.10.27-23.34.37:368][190]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.27-23.34.37:369][190]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.27-23.34.37:369][190]PIE: Server logged in
+[2026.10.27-23.34.37:370][190]PIE: Play in editor total start time 0.068 seconds.
+[2026.10.27-23.34.38:990][380]LogBlueprintUserMessages: [BP_BattleMage_C_0] Opening Starting Spell Menu
+[2026.10.27-23.35.33:381][821]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1322.734863
+[2026.10.27-23.35.34:381][824]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-23.35.34:381][824]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1323.401489, Update Interval: 308.380981
+[2026.10.27-23.36.38:829][795]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.10.27-23.36.38:832][795]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.27-23.36.38:832][795]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections] ([1] browsable assets)...
+[2026.10.27-23.36.38:832][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections]
+[2026.10.27-23.36.38:834][795]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections
+[2026.10.27-23.36.38:834][795]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/DA_ProgressionSelections9428D6044A91C327EB7854BEA22FC28F.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections.uasset'
+[2026.10.27-23.36.38:835][795]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.752 ms (total: 635.684 ms)
+[2026.10.27-23.36.38:840][795]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.27-23.36.38:840][795]LogContentValidation: Enabled validators:
+[2026.10.27-23.36.38:840][795]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.27-23.36.38:840][795]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.27-23.36.38:840][795]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.27-23.36.38:840][795]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.27-23.36.38:840][795]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.27-23.36.38:840][795]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.27-23.36.38:840][795]AssetCheck: /Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections Validating asset
+[2026.10.27-23.36.40:585][995]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.36.40:586][995]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.36.40:586][995]LogWorld: UWorld::CleanupWorld for L_Graybox_Run, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-23.36.40:587][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.36.40:590][995]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.27-23.36.40:597][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.36.40:614][995]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.36.40:614][995]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2026.10.27-23.36.40:614][995]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2026.10.27-23.36.40:616][995]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2026.10.27-23.36.40:629][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.10.27-23.36.40:679][996]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2026.10.27-23.36.41:002][ 34]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.27-23.36.41:013][ 34]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.27-23.36.41:013][ 34]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.36.41:023][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009639s)
+[2026.10.27-23.36.41:023][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Graybox_Run.L_Graybox_Run to /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run (0.009800s)
+[2026.10.27-23.36.41:041][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2026.10.27-23.36.41:044][ 34]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Graybox_Run
+[2026.10.27-23.36.41:045][ 34]LogPlayLevel: PIE: World Init took: (0.001293s)
+[2026.10.27-23.36.41:046][ 34]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2026.10.27-23.36.41:046][ 34]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.27-23.36.41:046][ 34]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.27-23.36.41:046][ 34]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.27-23.36.41:046][ 34]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.27-23.36.41:046][ 34]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.27-23.36.41:046][ 34]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.27-23.36.41:046][ 34]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.27-23.36.41:046][ 34]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.27-23.36.41:046][ 34]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.27-23.36.41:046][ 34]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.27-23.36.41:046][ 34]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.27-23.36.41:048][ 34]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.27-23.36.41:064][ 34]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.27-23.36.41:064][ 34]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.27-23.36.41:064][ 34]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.27-23.36.41:064][ 34]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.27-23.36.41:065][ 34]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2026.10.27-23.36.41:065][ 34]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2026.10.27-23.36.41:067][ 34]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2026.10.27-23.36.41:067][ 34]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2026.10.27-23.36.41:067][ 34]LogInit: FAudioDevice initialized with ID 9.
+[2026.10.27-23.36.41:067][ 34]LogAudio: Display: Audio Device (ID: 9) registered with world 'L_Graybox_Run'.
+[2026.10.27-23.36.41:067][ 34]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2026.10.27-23.36.41:070][ 34]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.27-23.36.41:072][ 34]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run up for play (max tick rate 0) at 2026.10.27-16.36.41
+[2026.10.27-23.36.41:072][ 34]LogWorld: Bringing up level for play took: 0.002575
+[2026.10.27-23.36.41:074][ 34]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2026.10.27-23.36.41:075][ 34]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.27-23.36.41:079][ 34]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.36.41:079][ 34]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.36.41:079][ 34]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.36.41:079][ 34]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.36.41:079][ 34]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.36.41:079][ 34]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.36.41:079][ 34]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.36.41:079][ 34]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.36.41:079][ 34]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.27-23.36.41:081][ 34]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.27-23.36.41:081][ 34]LogScript: Warning: Script Msg: No world was found for object (/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections.DA_ProgressionSelections) passed in to UEngine::GetWorldFromContextObject().
+[2026.10.27-23.36.41:081][ 34]LogScript: Warning: Script Msg called by: BP_AuraGameMode_C /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run:PersistentLevel.BP_AuraGameMode_C_0
+[2026.10.27-23.36.41:081][ 34]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.27-23.36.41:081][ 34]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.27-23.36.41:081][ 34]PIE: Server logged in
+[2026.10.27-23.36.41:082][ 34]PIE: Play in editor total start time 0.07 seconds.
+[2026.10.27-23.36.47:968][856]LogBlueprintUserMessages: [BP_BattleMage_C_0] Opening Starting Spell Menu
+[2026.10.27-23.36.57:835][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.36.57:836][ 36]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.36.57:836][ 36]LogWorld: UWorld::CleanupWorld for L_Graybox_Run, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-23.36.57:837][ 36]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.36.57:840][ 36]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.27-23.36.57:848][ 36]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.36.57:864][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.36.57:865][ 36]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2026.10.27-23.36.57:865][ 36]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2026.10.27-23.36.57:867][ 36]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2026.10.27-23.36.57:878][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.10.27-23.36.57:929][ 37]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2026.10.27-23.37.21:124][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.10.27-23.37.21:129][798]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.27-23.37.21:177][798]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard] ([2] browsable assets)...
+[2026.10.27-23.37.21:179][798]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard.WBP_ProgressionChoiceCard]
+[2026.10.27-23.37.21:179][798]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard]
+[2026.10.27-23.37.21:185][798]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard
+[2026.10.27-23.37.21:185][798]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/WBP_ProgressionChoiceCardFCD0EC07419AB571538109867E91A90C.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard.uasset'
+[2026.10.27-23.37.21:192][798]LogFileHelpers: InternalPromptForCheckoutAndSave took 63.670 ms (total: 699.354 ms)
+[2026.10.27-23.37.21:243][798]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.27-23.37.21:243][798]LogContentValidation: Enabled validators:
+[2026.10.27-23.37.21:243][798]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.27-23.37.21:244][798]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.27-23.37.21:244][798]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.27-23.37.21:244][798]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.27-23.37.21:244][798]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.27-23.37.21:244][798]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.27-23.37.21:244][798]AssetCheck: /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard Validating asset
+[2026.10.27-23.37.58:680][234]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.27-23.38.08:708][409]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.27-23.38.29:122][843]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.10.27-23.38.29:128][843]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.27-23.38.29:178][843]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard] ([2] browsable assets)...
+[2026.10.27-23.38.29:179][843]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard.WBP_ProgressionChoiceCard]
+[2026.10.27-23.38.29:179][843]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard]
+[2026.10.27-23.38.29:186][843]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard
+[2026.10.27-23.38.29:187][843]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/WBP_ProgressionChoiceCard02BFE72C4C1C9F76B438EFA7338BF08B.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard.uasset'
+[2026.10.27-23.38.29:193][843]LogFileHelpers: InternalPromptForCheckoutAndSave took 65.276 ms (total: 764.630 ms)
+[2026.10.27-23.38.29:246][843]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.27-23.38.29:246][843]LogContentValidation: Enabled validators:
+[2026.10.27-23.38.29:246][843]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.27-23.38.29:246][843]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.27-23.38.29:246][843]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.27-23.38.29:246][843]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.27-23.38.29:246][843]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.27-23.38.29:246][843]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.27-23.38.29:247][843]AssetCheck: /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard Validating asset
+[2026.10.27-23.38.31:235][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.10.27-23.38.32:436][174]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.27-23.38.32:448][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.27-23.38.32:469][174]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.38.32:478][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009969s)
+[2026.10.27-23.38.32:478][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Graybox_Run.L_Graybox_Run to /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run (0.010244s)
+[2026.10.27-23.38.32:497][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.10.27-23.38.32:500][174]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Graybox_Run
+[2026.10.27-23.38.32:501][174]LogPlayLevel: PIE: World Init took: (0.001295s)
+[2026.10.27-23.38.32:502][174]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2026.10.27-23.38.32:502][174]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.27-23.38.32:502][174]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.27-23.38.32:502][174]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.27-23.38.32:502][174]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.27-23.38.32:502][174]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.27-23.38.32:502][174]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.27-23.38.32:502][174]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.27-23.38.32:502][174]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.27-23.38.32:502][174]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.27-23.38.32:502][174]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.27-23.38.32:502][174]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.27-23.38.32:505][174]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.27-23.38.32:520][174]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.27-23.38.32:521][174]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.27-23.38.32:521][174]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.27-23.38.32:521][174]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.27-23.38.32:521][174]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2026.10.27-23.38.32:521][174]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2026.10.27-23.38.32:523][174]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2026.10.27-23.38.32:523][174]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2026.10.27-23.38.32:523][174]LogInit: FAudioDevice initialized with ID 10.
+[2026.10.27-23.38.32:524][174]LogAudio: Display: Audio Device (ID: 10) registered with world 'L_Graybox_Run'.
+[2026.10.27-23.38.32:524][174]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2026.10.27-23.38.32:526][174]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.27-23.38.32:529][174]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run up for play (max tick rate 0) at 2026.10.27-16.38.32
+[2026.10.27-23.38.32:529][174]LogWorld: Bringing up level for play took: 0.002361
+[2026.10.27-23.38.32:531][174]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2026.10.27-23.38.32:532][174]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.27-23.38.32:535][174]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.38.32:535][174]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.38.32:535][174]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.38.32:535][174]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.38.32:536][174]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.38.32:536][174]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.38.32:536][174]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.38.32:536][174]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.38.32:536][174]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.27-23.38.32:537][174]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.27-23.38.32:537][174]LogScript: Warning: Script Msg: No world was found for object (/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections.DA_ProgressionSelections) passed in to UEngine::GetWorldFromContextObject().
+[2026.10.27-23.38.32:538][174]LogScript: Warning: Script Msg called by: BP_AuraGameMode_C /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run:PersistentLevel.BP_AuraGameMode_C_0
+[2026.10.27-23.38.32:538][174]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.27-23.38.32:538][174]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.27-23.38.32:538][174]PIE: Server logged in
+[2026.10.27-23.38.32:539][174]PIE: Play in editor total start time 0.092 seconds.
+[2026.10.27-23.38.34:005][347]LogBlueprintUserMessages: [BP_BattleMage_C_0] Opening Starting Spell Menu
+[2026.10.27-23.38.44:580][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.38.44:580][613]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.38.44:580][613]LogWorld: UWorld::CleanupWorld for L_Graybox_Run, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-23.38.44:581][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.38.44:584][613]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.27-23.38.44:592][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.38.44:608][613]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.27-23.38.44:609][613]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2026.10.27-23.38.44:609][613]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2026.10.27-23.38.44:610][613]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2026.10.27-23.38.44:618][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.38.44:621][613]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2026.10.27-23.38.44:673][614]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2026.10.27-23.38.50:249][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.10.27-23.38.50:255][268]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.27-23.38.50:312][268]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard] ([2] browsable assets)...
+[2026.10.27-23.38.50:315][268]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard.WBP_ProgressionChoiceCard]
+[2026.10.27-23.38.50:315][268]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard]
+[2026.10.27-23.38.50:321][268]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard
+[2026.10.27-23.38.50:322][268]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/WBP_ProgressionChoiceCardFADA2B584555E0777F7518A9780E4F18.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard.uasset'
+[2026.10.27-23.38.50:328][268]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.328 ms (total: 837.959 ms)
+[2026.10.27-23.38.50:378][268]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.27-23.38.50:378][268]LogContentValidation: Enabled validators:
+[2026.10.27-23.38.50:378][268]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.27-23.38.50:378][268]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.27-23.38.50:378][268]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.27-23.38.50:378][268]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.27-23.38.50:379][268]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.27-23.38.50:379][268]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.27-23.38.50:379][268]AssetCheck: /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard Validating asset
+[2026.10.27-23.38.53:994][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.10.27-23.38.55:229][802]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.27-23.38.55:240][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.27-23.38.55:240][802]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.38.55:249][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009595s)
+[2026.10.27-23.38.55:249][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Graybox_Run.L_Graybox_Run to /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run (0.009775s)
+[2026.10.27-23.38.55:268][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.10.27-23.38.55:273][802]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Graybox_Run
+[2026.10.27-23.38.55:275][802]LogPlayLevel: PIE: World Init took: (0.001442s)
+[2026.10.27-23.38.55:275][802]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2026.10.27-23.38.55:275][802]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.27-23.38.55:276][802]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.27-23.38.55:276][802]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.27-23.38.55:276][802]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.27-23.38.55:276][802]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.27-23.38.55:276][802]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.27-23.38.55:276][802]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.27-23.38.55:276][802]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.27-23.38.55:276][802]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.27-23.38.55:276][802]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.27-23.38.55:276][802]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.27-23.38.55:278][802]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.27-23.38.55:293][802]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.27-23.38.55:293][802]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.27-23.38.55:293][802]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.27-23.38.55:293][802]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.27-23.38.55:294][802]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2026.10.27-23.38.55:294][802]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2026.10.27-23.38.55:296][802]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2026.10.27-23.38.55:296][802]LogInit: FAudioDevice initialized with ID 11.
+[2026.10.27-23.38.55:296][802]LogAudio: Display: Audio Device (ID: 11) registered with world 'L_Graybox_Run'.
+[2026.10.27-23.38.55:296][802]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2026.10.27-23.38.55:296][802]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2026.10.27-23.38.55:298][802]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.27-23.38.55:300][802]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run up for play (max tick rate 0) at 2026.10.27-16.38.55
+[2026.10.27-23.38.55:300][802]LogWorld: Bringing up level for play took: 0.002247
+[2026.10.27-23.38.55:302][802]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2026.10.27-23.38.55:303][802]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.27-23.38.55:307][802]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.38.55:307][802]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.38.55:307][802]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.38.55:307][802]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.38.55:307][802]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.38.55:307][802]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.38.55:307][802]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.38.55:307][802]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.38.55:307][802]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.27-23.38.55:309][802]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.27-23.38.55:309][802]LogScript: Warning: Script Msg: No world was found for object (/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections.DA_ProgressionSelections) passed in to UEngine::GetWorldFromContextObject().
+[2026.10.27-23.38.55:309][802]LogScript: Warning: Script Msg called by: BP_AuraGameMode_C /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run:PersistentLevel.BP_AuraGameMode_C_0
+[2026.10.27-23.38.55:309][802]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.27-23.38.55:309][802]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.27-23.38.55:309][802]PIE: Server logged in
+[2026.10.27-23.38.55:310][802]PIE: Play in editor total start time 0.072 seconds.
+[2026.10.27-23.38.56:432][931]LogBlueprintUserMessages: [BP_BattleMage_C_0] Opening Starting Spell Menu
+[2026.10.27-23.39.10:041][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.39.10:041][557]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.39.10:042][557]LogWorld: UWorld::CleanupWorld for L_Graybox_Run, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-23.39.10:043][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.39.10:045][557]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.27-23.39.10:052][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.39.10:067][557]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.27-23.39.10:067][557]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2026.10.27-23.39.10:068][557]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2026.10.27-23.39.10:071][557]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2026.10.27-23.39.10:079][557]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.39.10:081][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.10.27-23.39.10:132][558]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2026.10.27-23.40.18:472][206]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.27-23.40.18:483][206]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.27-23.40.18:483][206]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.40.18:494][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009583s)
+[2026.10.27-23.40.18:494][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Graybox_Run.L_Graybox_Run to /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run (0.009731s)
+[2026.10.27-23.40.18:511][206]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.10.27-23.40.18:514][206]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Graybox_Run
+[2026.10.27-23.40.18:515][206]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2026.10.27-23.40.18:516][206]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2026.10.27-23.40.18:516][206]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.27-23.40.18:516][206]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.27-23.40.18:516][206]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.27-23.40.18:516][206]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.27-23.40.18:516][206]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.27-23.40.18:516][206]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.27-23.40.18:516][206]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.27-23.40.18:516][206]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.27-23.40.18:516][206]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.27-23.40.18:516][206]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.27-23.40.18:516][206]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.27-23.40.18:518][206]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.27-23.40.18:533][206]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.27-23.40.18:533][206]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.27-23.40.18:533][206]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.27-23.40.18:533][206]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.27-23.40.18:534][206]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2026.10.27-23.40.18:534][206]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2026.10.27-23.40.18:536][206]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2026.10.27-23.40.18:536][206]LogInit: FAudioDevice initialized with ID 12.
+[2026.10.27-23.40.18:536][206]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2026.10.27-23.40.18:536][206]LogAudio: Display: Audio Device (ID: 12) registered with world 'L_Graybox_Run'.
+[2026.10.27-23.40.18:536][206]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2026.10.27-23.40.18:538][206]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.27-23.40.18:541][206]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run up for play (max tick rate 0) at 2026.10.27-16.40.18
+[2026.10.27-23.40.18:541][206]LogWorld: Bringing up level for play took: 0.002503
+[2026.10.27-23.40.18:542][206]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2026.10.27-23.40.18:544][206]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.27-23.40.18:547][206]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.40.18:547][206]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.40.18:547][206]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.40.18:547][206]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.40.18:547][206]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.40.18:547][206]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.40.18:548][206]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.40.18:548][206]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.40.18:548][206]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.27-23.40.18:549][206]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.27-23.40.18:549][206]LogScript: Warning: Script Msg: No world was found for object (/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections.DA_ProgressionSelections) passed in to UEngine::GetWorldFromContextObject().
+[2026.10.27-23.40.18:549][206]LogScript: Warning: Script Msg called by: BP_AuraGameMode_C /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run:PersistentLevel.BP_AuraGameMode_C_0
+[2026.10.27-23.40.18:549][206]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.27-23.40.18:549][206]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.27-23.40.18:550][206]PIE: Server logged in
+[2026.10.27-23.40.18:551][206]PIE: Play in editor total start time 0.068 seconds.
+[2026.10.27-23.40.20:181][398]LogBlueprintUserMessages: [BP_BattleMage_C_0] Opening Starting Spell Menu
+[2026.10.27-23.40.25:474][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.40.25:474][ 27]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.40.25:475][ 27]LogWorld: UWorld::CleanupWorld for L_Graybox_Run, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-23.40.25:476][ 27]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.40.25:478][ 27]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.27-23.40.25:485][ 27]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.40.25:502][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.40.25:503][ 27]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2026.10.27-23.40.25:503][ 27]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2026.10.27-23.40.25:505][ 27]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2026.10.27-23.40.25:516][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.10.27-23.40.25:568][ 28]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2026.10.27-23.40.34:128][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.10.27-23.40.34:132][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.27-23.40.34:182][ 28]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard] ([2] browsable assets)...
+[2026.10.27-23.40.34:184][ 28]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard.WBP_ProgressionChoiceCard]
+[2026.10.27-23.40.34:184][ 28]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard]
+[2026.10.27-23.40.34:190][ 28]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard
+[2026.10.27-23.40.34:190][ 28]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/WBP_ProgressionChoiceCardEFE422F2402DB52D679A618C4CFEA651.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard.uasset'
+[2026.10.27-23.40.34:197][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave took 64.970 ms (total: 902.930 ms)
+[2026.10.27-23.40.34:231][ 28]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.27-23.40.34:231][ 28]LogContentValidation: Enabled validators:
+[2026.10.27-23.40.34:231][ 28]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.27-23.40.34:231][ 28]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.27-23.40.34:231][ 28]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.27-23.40.34:231][ 28]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.27-23.40.34:231][ 28]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.27-23.40.34:231][ 28]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.27-23.40.34:231][ 28]AssetCheck: /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard Validating asset
+[2026.10.27-23.40.40:889][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2026.10.27-23.40.40:896][810]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.27-23.40.40:949][810]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard] ([2] browsable assets)...
+[2026.10.27-23.40.40:951][810]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard.WBP_ProgressionChoiceCard]
+[2026.10.27-23.40.40:951][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard]
+[2026.10.27-23.40.40:960][810]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard
+[2026.10.27-23.40.40:962][810]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/WBP_ProgressionChoiceCard930C63BC4EFE94354EBCB89603EB3306.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard.uasset'
+[2026.10.27-23.40.40:975][810]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.154 ms (total: 981.084 ms)
+[2026.10.27-23.40.41:035][810]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.27-23.40.41:035][810]LogContentValidation: Enabled validators:
+[2026.10.27-23.40.41:035][810]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.27-23.40.41:035][810]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.27-23.40.41:035][810]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.27-23.40.41:035][810]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.27-23.40.41:035][810]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.27-23.40.41:035][810]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.27-23.40.41:036][810]AssetCheck: /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard Validating asset
+[2026.10.27-23.40.41:983][914]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.10.27-23.40.43:156][ 17]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.27-23.40.43:167][ 17]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.27-23.40.43:168][ 17]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.40.43:178][ 17]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009755s)
+[2026.10.27-23.40.43:178][ 17]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Graybox_Run.L_Graybox_Run to /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run (0.009910s)
+[2026.10.27-23.40.43:196][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.10.27-23.40.43:198][ 17]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Graybox_Run
+[2026.10.27-23.40.43:200][ 17]LogPlayLevel: PIE: World Init took: (0.001223s)
+[2026.10.27-23.40.43:200][ 17]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2026.10.27-23.40.43:200][ 17]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.27-23.40.43:200][ 17]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.27-23.40.43:201][ 17]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.27-23.40.43:201][ 17]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.27-23.40.43:201][ 17]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.27-23.40.43:201][ 17]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.27-23.40.43:201][ 17]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.27-23.40.43:201][ 17]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.27-23.40.43:201][ 17]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.27-23.40.43:201][ 17]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.27-23.40.43:201][ 17]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.27-23.40.43:202][ 17]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.27-23.40.43:218][ 17]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.27-23.40.43:218][ 17]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.27-23.40.43:218][ 17]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.27-23.40.43:218][ 17]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.27-23.40.43:218][ 17]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2026.10.27-23.40.43:219][ 17]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2026.10.27-23.40.43:221][ 17]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2026.10.27-23.40.43:221][ 17]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2026.10.27-23.40.43:221][ 17]LogInit: FAudioDevice initialized with ID 13.
+[2026.10.27-23.40.43:221][ 17]LogAudio: Display: Audio Device (ID: 13) registered with world 'L_Graybox_Run'.
+[2026.10.27-23.40.43:221][ 17]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2026.10.27-23.40.43:223][ 17]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.27-23.40.43:225][ 17]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run up for play (max tick rate 0) at 2026.10.27-16.40.43
+[2026.10.27-23.40.43:226][ 17]LogWorld: Bringing up level for play took: 0.002674
+[2026.10.27-23.40.43:227][ 17]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2026.10.27-23.40.43:229][ 17]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.27-23.40.43:232][ 17]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.40.43:232][ 17]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.40.43:232][ 17]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.40.43:232][ 17]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.40.43:233][ 17]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.40.43:233][ 17]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.40.43:233][ 17]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.40.43:233][ 17]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.40.43:233][ 17]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.27-23.40.43:234][ 17]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.27-23.40.43:234][ 17]LogScript: Warning: Script Msg: No world was found for object (/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections.DA_ProgressionSelections) passed in to UEngine::GetWorldFromContextObject().
+[2026.10.27-23.40.43:234][ 17]LogScript: Warning: Script Msg called by: BP_AuraGameMode_C /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run:PersistentLevel.BP_AuraGameMode_C_0
+[2026.10.27-23.40.43:234][ 17]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.27-23.40.43:234][ 17]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.27-23.40.43:235][ 17]PIE: Server logged in
+[2026.10.27-23.40.43:236][ 17]PIE: Play in editor total start time 0.07 seconds.
+[2026.10.27-23.40.44:460][160]LogBlueprintUserMessages: [BP_BattleMage_C_0] Opening Starting Spell Menu
+[2026.10.27-23.40.50:705][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.40.50:706][902]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.40.50:706][902]LogWorld: UWorld::CleanupWorld for L_Graybox_Run, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-23.40.50:707][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.40.50:709][902]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.27-23.40.50:717][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.40.50:732][902]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.27-23.40.50:732][902]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2026.10.27-23.40.50:734][902]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2026.10.27-23.40.50:735][902]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2026.10.27-23.40.50:744][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.40.50:746][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.10.27-23.40.50:798][903]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2026.10.27-23.40.57:002][626]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.10.27-23.40.57:009][626]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.27-23.40.57:049][626]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard] ([2] browsable assets)...
+[2026.10.27-23.40.57:051][626]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard.WBP_ProgressionChoiceCard]
+[2026.10.27-23.40.57:051][626]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard]
+[2026.10.27-23.40.57:057][626]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard
+[2026.10.27-23.40.57:058][626]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/WBP_ProgressionChoiceCardCE795667460F79686A60CEADFE7C2097.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard.uasset'
+[2026.10.27-23.40.57:065][626]LogFileHelpers: InternalPromptForCheckoutAndSave took 55.246 ms (total: 1.03 sec)
+[2026.10.27-23.40.57:098][626]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.27-23.40.57:098][626]LogContentValidation: Enabled validators:
+[2026.10.27-23.40.57:098][626]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.27-23.40.57:098][626]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.27-23.40.57:098][626]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.27-23.40.57:098][626]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.27-23.40.57:098][626]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.27-23.40.57:099][626]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.27-23.40.57:099][626]AssetCheck: /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard Validating asset
+[2026.10.27-23.40.58:295][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.10.27-23.40.59:684][886]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.27-23.40.59:695][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.27-23.40.59:695][886]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.40.59:705][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009440s)
+[2026.10.27-23.40.59:705][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Graybox_Run.L_Graybox_Run to /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run (0.009584s)
+[2026.10.27-23.40.59:722][886]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.10.27-23.40.59:726][886]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Graybox_Run
+[2026.10.27-23.40.59:727][886]LogPlayLevel: PIE: World Init took: (0.001406s)
+[2026.10.27-23.40.59:728][886]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2026.10.27-23.40.59:728][886]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.27-23.40.59:728][886]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.27-23.40.59:728][886]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.27-23.40.59:728][886]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.27-23.40.59:728][886]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.27-23.40.59:728][886]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.27-23.40.59:728][886]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.27-23.40.59:728][886]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.27-23.40.59:728][886]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.27-23.40.59:728][886]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.27-23.40.59:728][886]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.27-23.40.59:730][886]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.27-23.40.59:746][886]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.27-23.40.59:746][886]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.27-23.40.59:746][886]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.27-23.40.59:746][886]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.27-23.40.59:746][886]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2026.10.27-23.40.59:746][886]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2026.10.27-23.40.59:749][886]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2026.10.27-23.40.59:749][886]LogInit: FAudioDevice initialized with ID 14.
+[2026.10.27-23.40.59:749][886]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2026.10.27-23.40.59:749][886]LogAudio: Display: Audio Device (ID: 14) registered with world 'L_Graybox_Run'.
+[2026.10.27-23.40.59:749][886]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2026.10.27-23.40.59:751][886]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.27-23.40.59:753][886]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run up for play (max tick rate 0) at 2026.10.27-16.40.59
+[2026.10.27-23.40.59:753][886]LogWorld: Bringing up level for play took: 0.002267
+[2026.10.27-23.40.59:755][886]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2026.10.27-23.40.59:756][886]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.27-23.40.59:760][886]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.40.59:760][886]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.40.59:760][886]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.40.59:760][886]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.40.59:761][886]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.40.59:761][886]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.40.59:761][886]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.40.59:761][886]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.40.59:761][886]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.27-23.40.59:762][886]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.27-23.40.59:762][886]LogScript: Warning: Script Msg: No world was found for object (/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections.DA_ProgressionSelections) passed in to UEngine::GetWorldFromContextObject().
+[2026.10.27-23.40.59:762][886]LogScript: Warning: Script Msg called by: BP_AuraGameMode_C /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run:PersistentLevel.BP_AuraGameMode_C_0
+[2026.10.27-23.40.59:762][886]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.27-23.40.59:763][886]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.27-23.40.59:763][886]PIE: Server logged in
+[2026.10.27-23.40.59:764][886]PIE: Play in editor total start time 0.071 seconds.
+[2026.10.27-23.41.00:937][ 23]LogBlueprintUserMessages: [BP_BattleMage_C_0] Opening Starting Spell Menu
+[2026.10.27-23.41.09:450][ 44]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1658.804443
+[2026.10.27-23.41.09:585][ 60]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.27-23.41.09:585][ 60]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1658.929688, Update Interval: 331.205780
+[2026.10.27-23.42.39:550][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.42.39:550][156]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.42.39:550][156]LogWorld: UWorld::CleanupWorld for L_Graybox_Run, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-23.42.39:551][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.42.39:554][156]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.27-23.42.39:561][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.42.39:578][156]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.27-23.42.39:578][156]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2026.10.27-23.42.39:578][156]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2026.10.27-23.42.39:580][156]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2026.10.27-23.42.39:589][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.42.39:592][156]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.10.27-23.42.39:643][157]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2026.10.27-23.43.41:947][ 66]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.27-23.44.05:305][854]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.27-23.44.20:212][628]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.27-23.44.34:921][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.10.27-23.44.34:929][383]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.27-23.44.34:985][383]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard] ([2] browsable assets)...
+[2026.10.27-23.44.34:987][383]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard.WBP_ProgressionChoiceCard]
+[2026.10.27-23.44.34:987][383]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard]
+[2026.10.27-23.44.34:993][383]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard
+[2026.10.27-23.44.34:994][383]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/WBP_ProgressionChoiceCard1D933F884C86C16D8A8256BF79403799.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard.uasset'
+[2026.10.27-23.44.35:003][383]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.928 ms (total: 1.11 sec)
+[2026.10.27-23.44.35:053][383]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.27-23.44.35:053][383]LogContentValidation: Enabled validators:
+[2026.10.27-23.44.35:053][383]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.27-23.44.35:053][383]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.27-23.44.35:053][383]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.27-23.44.35:053][383]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.27-23.44.35:053][383]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.27-23.44.35:053][383]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.27-23.44.35:054][383]AssetCheck: /Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionChoiceCard Validating asset
+[2026.10.27-23.44.35:684][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.10.27-23.44.36:935][556]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.27-23.44.36:948][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.27-23.44.36:948][556]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.44.36:957][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009525s)
+[2026.10.27-23.44.36:957][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Graybox_Run.L_Graybox_Run to /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run (0.009692s)
+[2026.10.27-23.44.36:976][556]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.10.27-23.44.36:979][556]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Graybox_Run
+[2026.10.27-23.44.36:981][556]LogPlayLevel: PIE: World Init took: (0.001673s)
+[2026.10.27-23.44.36:982][556]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2026.10.27-23.44.36:982][556]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.27-23.44.36:982][556]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.27-23.44.36:982][556]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.27-23.44.36:982][556]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.27-23.44.36:982][556]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.27-23.44.36:982][556]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.27-23.44.36:982][556]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.27-23.44.36:982][556]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.27-23.44.36:982][556]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.27-23.44.36:982][556]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.27-23.44.36:982][556]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.27-23.44.36:984][556]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.27-23.44.37:000][556]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.27-23.44.37:000][556]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.27-23.44.37:000][556]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.27-23.44.37:001][556]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.27-23.44.37:001][556]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2026.10.27-23.44.37:001][556]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2026.10.27-23.44.37:003][556]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2026.10.27-23.44.37:003][556]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2026.10.27-23.44.37:003][556]LogInit: FAudioDevice initialized with ID 15.
+[2026.10.27-23.44.37:003][556]LogAudio: Display: Audio Device (ID: 15) registered with world 'L_Graybox_Run'.
+[2026.10.27-23.44.37:003][556]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2026.10.27-23.44.37:005][556]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.27-23.44.37:007][556]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run up for play (max tick rate 0) at 2026.10.27-16.44.37
+[2026.10.27-23.44.37:007][556]LogWorld: Bringing up level for play took: 0.002310
+[2026.10.27-23.44.37:009][556]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2026.10.27-23.44.37:011][556]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.27-23.44.37:014][556]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.44.37:014][556]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.44.37:014][556]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.44.37:014][556]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.44.37:014][556]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.44.37:014][556]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.44.37:014][556]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.44.37:014][556]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.44.37:014][556]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.27-23.44.37:016][556]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.27-23.44.37:016][556]LogScript: Warning: Script Msg: No world was found for object (/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections.DA_ProgressionSelections) passed in to UEngine::GetWorldFromContextObject().
+[2026.10.27-23.44.37:016][556]LogScript: Warning: Script Msg called by: BP_AuraGameMode_C /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run:PersistentLevel.BP_AuraGameMode_C_0
+[2026.10.27-23.44.37:016][556]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.27-23.44.37:016][556]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.27-23.44.37:017][556]PIE: Server logged in
+[2026.10.27-23.44.37:018][556]PIE: Play in editor total start time 0.072 seconds.
+[2026.10.27-23.44.38:066][678]LogBlueprintUserMessages: [BP_BattleMage_C_0] Opening Starting Spell Menu
+[2026.10.27-23.44.44:825][489]LogTemp: Completed selection [Progression.Selection.StartingSpell] with reward [Abilities.Fire.FireBolt].
+[2026.10.27-23.44.44:825][489]LogBlueprintUserMessages: [BP_BattleMage_C_0] true
+[2026.10.27-23.44.44:825][489]LogBlueprintUserMessages: [BP_BattleMage_C_0] Progression.Selection.StartingSpell
+[2026.10.27-23.44.44:825][489]LogBlueprintUserMessages: [BP_BattleMage_C_0] Abilities.Fire.FireBolt
+[2026.10.27-23.44.47:501][810]LogBlueprintUserMessages: [BP_BattleMage_C_0] Opening Starting Spell Menu
+[2026.10.27-23.44.47:501][810]LogTemp: Warning: Progression selection [Progression.Selection.StartingSpell] has already been completed.
+[2026.10.27-23.44.48:277][903]LogBlueprintUserMessages: [BP_BattleMage_C_0] Opening Starting Spell Menu
+[2026.10.27-23.44.48:277][903]LogTemp: Warning: Progression selection [Progression.Selection.StartingSpell] has already been completed.
+[2026.10.27-23.44.48:810][967]LogBlueprintUserMessages: [BP_BattleMage_C_0] Opening Starting Spell Menu
+[2026.10.27-23.44.48:810][967]LogTemp: Warning: Progression selection [Progression.Selection.StartingSpell] has already been completed.
+[2026.10.27-23.44.49:361][ 33]LogBlueprintUserMessages: [BP_BattleMage_C_0] Opening Starting Spell Menu
+[2026.10.27-23.44.49:361][ 33]LogTemp: Warning: Progression selection [Progression.Selection.StartingSpell] has already been completed.
+[2026.10.27-23.44.50:145][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.44.50:145][123]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.44.50:146][123]LogWorld: UWorld::CleanupWorld for L_Graybox_Run, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-23.44.50:147][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.44.50:149][123]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.27-23.44.50:157][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.44.50:172][123]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.10.27-23.44.50:172][123]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2026.10.27-23.44.50:172][123]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2026.10.27-23.44.50:175][123]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2026.10.27-23.44.50:184][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.44.50:186][123]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.10.27-23.44.50:237][124]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2026.10.27-23.44.51:262][244]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.10.27-23.44.51:273][244]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.10.27-23.44.51:305][244]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.44.51:314][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009646s)
+[2026.10.27-23.44.51:315][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Graybox_Run.L_Graybox_Run to /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run (0.009858s)
+[2026.10.27-23.44.51:333][244]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.10.27-23.44.51:334][244]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Graybox_Run
+[2026.10.27-23.44.51:336][244]LogPlayLevel: PIE: World Init took: (0.001292s)
+[2026.10.27-23.44.51:336][244]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2026.10.27-23.44.51:336][244]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.10.27-23.44.51:336][244]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.10.27-23.44.51:336][244]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.10.27-23.44.51:337][244]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.10.27-23.44.51:337][244]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.10.27-23.44.51:337][244]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.10.27-23.44.51:337][244]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.10.27-23.44.51:337][244]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.10.27-23.44.51:337][244]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.10.27-23.44.51:337][244]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.10.27-23.44.51:337][244]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.10.27-23.44.51:339][244]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.10.27-23.44.51:356][244]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2026.10.27-23.44.51:356][244]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.10.27-23.44.51:356][244]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.10.27-23.44.51:356][244]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.10.27-23.44.51:357][244]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2026.10.27-23.44.51:357][244]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2026.10.27-23.44.51:359][244]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2026.10.27-23.44.51:359][244]LogInit: FAudioDevice initialized with ID 16.
+[2026.10.27-23.44.51:359][244]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2026.10.27-23.44.51:359][244]LogAudio: Display: Audio Device (ID: 16) registered with world 'L_Graybox_Run'.
+[2026.10.27-23.44.51:359][244]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2026.10.27-23.44.51:361][244]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2026.10.27-23.44.51:364][244]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run up for play (max tick rate 0) at 2026.10.27-16.44.51
+[2026.10.27-23.44.51:364][244]LogWorld: Bringing up level for play took: 0.002446
+[2026.10.27-23.44.51:366][244]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2026.10.27-23.44.51:367][244]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_BattleMage_C already exists. Remove duplicates from the animation graph for this class.
+[2026.10.27-23.44.51:370][244]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.44.51:370][244]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.44.51:370][244]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.44.51:370][244]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.44.51:371][244]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.44.51:371][244]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 0.00
+[2026.10.27-23.44.51:371][244]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.44.51:371][244]LogTemp: Warning: BP_AuraPlayerState_C_0 | ResonantBarrier: 0.00 / 100.00
+[2026.10.27-23.44.51:371][244]LogTemp: Warning: BP_BattleMage_C_0 | ResonantBarrier: 0.00 | MaxResonantBarrier: 100.00
+[2026.10.27-23.44.51:372][244]LogBlueprintUserMessages: [BP_AuraGameMode_C_0] Starting game
+[2026.10.27-23.44.51:372][244]LogScript: Warning: Script Msg: No world was found for object (/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections.DA_ProgressionSelections) passed in to UEngine::GetWorldFromContextObject().
+[2026.10.27-23.44.51:372][244]LogScript: Warning: Script Msg called by: BP_AuraGameMode_C /Game/Maps/UEDPIE_0_L_Graybox_Run.L_Graybox_Run:PersistentLevel.BP_AuraGameMode_C_0
+[2026.10.27-23.44.51:372][244]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2026.10.27-23.44.51:372][244]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2026.10.27-23.44.51:372][244]PIE: Server logged in
+[2026.10.27-23.44.51:374][244]PIE: Play in editor total start time 0.102 seconds.
+[2026.10.27-23.44.52:573][385]LogBlueprintUserMessages: [BP_BattleMage_C_0] Opening Starting Spell Menu
+[2026.10.27-23.45.08:046][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.45.08:046][234]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_L_Graybox_Run
+[2026.10.27-23.45.08:047][234]LogWorld: UWorld::CleanupWorld for L_Graybox_Run, bSessionEnded=true, bCleanupResources=true
+[2026.10.27-23.45.08:048][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.45.08:050][234]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.10.27-23.45.08:057][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.10.27-23.45.08:074][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.10.27-23.45.08:074][234]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2026.10.27-23.45.08:075][234]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2026.10.27-23.45.08:077][234]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2026.10.27-23.45.08:088][234]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.10.27-23.45.08:144][235]LogPlayLevel: Display: Destroying online subsystem :Context_25
