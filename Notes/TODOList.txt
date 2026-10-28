@@ -202,6 +202,11 @@ BUGS:
 	away so that the reaction ability does not trigger an additional reaction, the game still crashes. This is more like 50% of the time.
 --- Hopefully fixing the root of the problem for the 100% reproducable case fixes 50% case
 
+Alpha bugs that need to be resovled first:
+- Kills that occur from effect like burning don't seem to reward xp
+- If you get stunned from an enemy, your speed results in being unrecoverably slow
+-- Stun duration is too long
+
 
 PERFORMANCE FIXES/Enhancements
 - BP_StaticDistortion:
