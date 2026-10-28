@@ -82,6 +82,9 @@ public:
 	UPROPERTY(Category="Animations", EditDefaultsOnly, BlueprintReadOnly)
 	UAnimMontage* LightningStepMontage;
 	
+	UFUNCTION(BlueprintImplementableEvent)
+	void OpenStartingProgressionMenu();
+	
 protected:
 	void BindResonantBarrierCallbacks();
 	void HandleResonantBarrierChanged(const FOnAttributeChangeData& Data);

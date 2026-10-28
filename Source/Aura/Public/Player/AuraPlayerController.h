@@ -90,6 +90,7 @@ private:
 	UPROPERTY()
 	TObjectPtr<UAuraAbilitySystemComponent> AuraAbilitySystemComponent;
 
+	UFUNCTION(BlueprintCallable, BlueprintPure)
 	UAuraAbilitySystemComponent* GetASC();
 
 	FVector CachedDestination = FVector::ZeroVector;
