@@ -6628,3 +6628,514 @@ Make sure '/Game/Blueprints/UI/ProgressionMenu/WBP_ProgressionMenu.WBP_Progressi
 [2026.10.30-00.59.56:615][426]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
 [2026.10.30-00.59.56:626][426]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
 [2026.10.30-00.59.56:678][427]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2026.10.30-01.00.53:836][619]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.10.30-01.00.56:110][873]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2470.531738
+[2026.10.30-01.00.56:252][890]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.30-01.00.56:252][890]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2470.664795, Update Interval: 322.914520
+[2026.10.30-01.01.03:884][793]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.01.30:403][854]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.01.34:217][310]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Assets/UI/Globes/MI_ArcaneSkillBG.MI_ArcaneSkillBG
+[2026.10.30-01.01.34:218][310]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_43
+[2026.10.30-01.01.42:324][791]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.01.43:526][932]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.01.43:558][932]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_FireSkillBG] ([1] browsable assets)...
+[2026.10.30-01.01.43:559][932]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_FireSkillBG.MI_FireSkillBG]
+[2026.10.30-01.01.43:559][932]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_FireSkillBG]
+[2026.10.30-01.01.43:559][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Globes/MI_FireSkillBG" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_FireSkillBG.uasset" SILENT=true
+[2026.10.30-01.01.43:609][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.10.30-01.01.43:629][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.01.43:632][932]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_FireSkillBG
+[2026.10.30-01.01.43:633][932]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_FireSkillBG4B12542A4BCDD94BD3B63290BF00788B.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_FireSkillBG.uasset'
+[2026.10.30-01.01.43:641][932]LogFileHelpers: InternalPromptForCheckoutAndSave took 114.701 ms (total: 2.18 sec)
+[2026.10.30-01.01.43:691][932]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.01.43:691][932]LogContentValidation: Enabled validators:
+[2026.10.30-01.01.43:691][932]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.01.43:691][932]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.01.43:691][932]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.01.43:691][932]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.01.43:691][932]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.01.43:691][932]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.01.43:691][932]AssetCheck: /Game/Assets/UI/Globes/MI_FireSkillBG Validating asset
+[2026.10.30-01.02.05:135][499]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.10.30-01.02.05:139][499]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.02.05:176][499]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_ArcaneSkillBG] ([1] browsable assets)...
+[2026.10.30-01.02.05:177][499]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_ArcaneSkillBG.MI_ArcaneSkillBG]
+[2026.10.30-01.02.05:177][499]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_ArcaneSkillBG]
+[2026.10.30-01.02.05:177][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Globes/MI_ArcaneSkillBG" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_ArcaneSkillBG.uasset" SILENT=true
+[2026.10.30-01.02.05:194][499]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.02.05:211][499]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.02.05:214][499]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_ArcaneSkillBG
+[2026.10.30-01.02.05:215][499]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_ArcaneSkillBG7EABD1704C583C5F4A8E1E9180087474.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_ArcaneSkillBG.uasset'
+[2026.10.30-01.02.05:224][499]LogFileHelpers: InternalPromptForCheckoutAndSave took 85.373 ms (total: 2.26 sec)
+[2026.10.30-01.02.05:274][499]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.02.05:274][499]LogContentValidation: Enabled validators:
+[2026.10.30-01.02.05:274][499]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.02.05:274][499]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.02.05:274][499]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.02.05:274][499]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.02.05:274][499]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.02.05:274][499]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.02.05:275][499]AssetCheck: /Game/Assets/UI/Globes/MI_ArcaneSkillBG Validating asset
+[2026.10.30-01.02.24:634][760]LogContentBrowser: Attempting asset rename: MI_ArcaneSkillBG1 -> MI_ArcaneFireSkillBG
+[2026.10.30-01.02.24:701][760]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.02.24:701][760]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_ArcaneFireSkillBG] ([1] browsable assets)...
+[2026.10.30-01.02.24:703][760]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_ArcaneFireSkillBG.MI_ArcaneFireSkillBG]
+[2026.10.30-01.02.24:703][760]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_ArcaneFireSkillBG]
+[2026.10.30-01.02.24:704][760]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_ArcaneFireSkillBG
+[2026.10.30-01.02.24:704][760]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_ArcaneFireSkillBG59FCF5A54371B8CCDBDD7AA7F2EDD2DB.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_ArcaneFireSkillBG.uasset'
+[2026.10.30-01.02.24:705][760]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.274 ms (total: 2.27 sec)
+[2026.10.30-01.02.24:730][760]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.10.30-01.02.24:746][760]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.10.30-01.02.24:765][760]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.10.30-01.02.24:808][760]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.02.24:808][760]LogContentValidation: Enabled validators:
+[2026.10.30-01.02.24:808][760]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.02.24:808][760]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.02.24:808][760]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.02.24:808][760]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.02.24:808][760]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.02.24:808][760]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.02.24:808][760]AssetCheck: /Game/Assets/UI/Globes/MI_ArcaneFireSkillBG Validating asset
+[2026.10.30-01.02.25:557][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.10.30-01.02.26:812][985]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Assets/UI/Globes/MI_ArcaneFireSkillBG.MI_ArcaneFireSkillBG
+[2026.10.30-01.02.26:813][985]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_44
+[2026.10.30-01.02.37:306][991]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.02.51:489][291]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.03.06:751][866]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.03.26:509][981]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.04.00:976][749]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.04.57:978][694]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.05.12:362][904]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.05.27:878][ 57]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.05.38:492][317]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.05.51:195][816]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.05.54:855][240]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.06.12:615][357]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.06.13:444][450]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.10.30-01.06.13:449][450]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.06.13:495][450]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_ArcaneFireSkillBG] ([1] browsable assets)...
+[2026.10.30-01.06.13:497][450]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_ArcaneFireSkillBG.MI_ArcaneFireSkillBG]
+[2026.10.30-01.06.13:497][450]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_ArcaneFireSkillBG]
+[2026.10.30-01.06.13:515][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2026.10.30-01.06.13:532][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2026.10.30-01.06.13:535][450]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_ArcaneFireSkillBG
+[2026.10.30-01.06.13:536][450]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_ArcaneFireSkillBGB78B54BB4E74D8274603EC8C00E4D067.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_ArcaneFireSkillBG.uasset'
+[2026.10.30-01.06.13:544][450]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.487 ms (total: 2.36 sec)
+[2026.10.30-01.06.13:595][450]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.06.13:595][450]LogContentValidation: Enabled validators:
+[2026.10.30-01.06.13:595][450]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.06.13:595][450]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.06.13:595][450]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.06.13:595][450]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.06.13:595][450]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.06.13:595][450]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.06.13:595][450]AssetCheck: /Game/Assets/UI/Globes/MI_ArcaneFireSkillBG Validating asset
+[2026.10.30-01.06.52:763][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.06.52:764][324]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/L_Graybox_Run' took 0.020
+[2026.10.30-01.06.52:765][324]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_ArcaneFireSkillBG] ([1] browsable assets)...
+[2026.10.30-01.06.52:767][324]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_ArcaneFireSkillBG.MI_ArcaneFireSkillBG]
+[2026.10.30-01.06.52:769][324]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_ArcaneFireSkillBG]
+[2026.10.30-01.06.52:784][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.06.52:801][324]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.10.30-01.06.52:804][324]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/UI/Globes/MI_ArcaneFireSkillBG_Auto3
+[2026.10.30-01.06.52:804][324]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_ArcaneFireSkillBG_Auto34C1CE7364AE3AE831B0724A7B74E0818.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/Autosaves/Game/Assets/UI/Globes/MI_ArcaneFireSkillBG_Auto3.uasset'
+[2026.10.30-01.06.52:805][324]LogFileHelpers: Auto-saving content packages took 0.040
+[2026.10.30-01.06.56:694][336]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2831.103027
+[2026.10.30-01.06.57:693][339]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.30-01.06.57:693][339]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2831.769531, Update Interval: 324.058960
+[2026.10.30-01.07.15:972][544]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.07.25:355][310]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.07.35:117][281]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.07.44:642][983]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.08.12:828][351]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.08.18:684][ 52]Cmd: TRANSACTION UNDO
+[2026.10.30-01.08.18:684][ 52]LogEditorTransaction: Undo Edit CloudDarkness
+[2026.10.30-01.08.33:095][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.10.30-01.08.33:099][721]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.08.33:148][721]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_ArcaneFireSkillBG] ([1] browsable assets)...
+[2026.10.30-01.08.33:150][721]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_ArcaneFireSkillBG.MI_ArcaneFireSkillBG]
+[2026.10.30-01.08.33:150][721]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_ArcaneFireSkillBG]
+[2026.10.30-01.08.33:167][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.08.33:184][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.10.30-01.08.33:187][721]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_ArcaneFireSkillBG
+[2026.10.30-01.08.33:188][721]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_ArcaneFireSkillBG0DC74FAE4E34D8366E6AF48D073F23A6.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_ArcaneFireSkillBG.uasset'
+[2026.10.30-01.08.33:196][721]LogFileHelpers: InternalPromptForCheckoutAndSave took 96.266 ms (total: 2.46 sec)
+[2026.10.30-01.08.33:248][721]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.08.33:248][721]LogContentValidation: Enabled validators:
+[2026.10.30-01.08.33:248][721]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.08.33:248][721]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.08.33:248][721]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.08.33:248][721]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.08.33:248][721]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.08.33:248][721]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.08.33:248][721]AssetCheck: /Game/Assets/UI/Globes/MI_ArcaneFireSkillBG Validating asset
+[2026.10.30-01.09.05:603][529]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.10.30-01.09.05:609][529]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.09.05:670][529]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections] ([1] browsable assets)...
+[2026.10.30-01.09.05:670][529]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections]
+[2026.10.30-01.09.05:672][529]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections
+[2026.10.30-01.09.05:673][529]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/DA_ProgressionSelectionsDDBE1FC34DC0577B789A99A4A585D310.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections.uasset'
+[2026.10.30-01.09.05:679][529]LogFileHelpers: InternalPromptForCheckoutAndSave took 70.639 ms (total: 2.53 sec)
+[2026.10.30-01.09.05:732][529]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.09.05:732][529]LogContentValidation: Enabled validators:
+[2026.10.30-01.09.05:732][529]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.09.05:732][529]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.09.05:732][529]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.09.05:732][529]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.09.05:732][529]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.09.05:732][529]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.09.05:732][529]AssetCheck: /Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections Validating asset
+[2026.10.30-01.09.52:423][618]LogContentBrowser: Attempting asset rename: MI_FireSkillBG1 -> MI_LightningFire
+[2026.10.30-01.09.52:510][618]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.09.52:511][618]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_LightningFire] ([1] browsable assets)...
+[2026.10.30-01.09.52:513][618]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_LightningFire.MI_LightningFire]
+[2026.10.30-01.09.52:513][618]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_LightningFire]
+[2026.10.30-01.09.52:513][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Globes/MI_LightningFire" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset" SILENT=true
+[2026.10.30-01.09.52:514][618]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_LightningFire
+[2026.10.30-01.09.52:514][618]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_LightningFireE446B6BF4507BF9F8ED7948ACB4D234C.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset'
+[2026.10.30-01.09.52:515][618]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.903 ms (total: 2.54 sec)
+[2026.10.30-01.09.52:539][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.10.30-01.09.52:558][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.10.30-01.09.52:575][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.10.30-01.09.52:616][618]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.09.52:616][618]LogContentValidation: Enabled validators:
+[2026.10.30-01.09.52:616][618]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.09.52:616][618]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.09.52:616][618]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.09.52:616][618]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.09.52:616][618]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.09.52:616][618]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.09.52:616][618]AssetCheck: /Game/Assets/UI/Globes/MI_LightningFire Validating asset
+[2026.10.30-01.09.54:355][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.09.57:041][127]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Assets/UI/Globes/MI_LightningFire.MI_LightningFire
+[2026.10.30-01.09.57:043][127]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_45
+[2026.10.30-01.10.04:763][715]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.10.17:994][290]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.10.26:261][ 78]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.10.36:554][873]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.10.50:319][506]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Assets/UI/Globes/MI_ShockSkillBG.MI_ShockSkillBG
+[2026.10.30-01.10.50:320][506]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_46
+[2026.10.30-01.11.09:414][560]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.11.30:460][  6]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.11.33:715][380]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.10.30-01.11.33:720][380]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.11.33:768][380]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_FireSkillBG] ([1] browsable assets)...
+[2026.10.30-01.11.33:770][380]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_FireSkillBG.MI_FireSkillBG]
+[2026.10.30-01.11.33:770][380]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_FireSkillBG]
+[2026.10.30-01.11.33:770][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Globes/MI_FireSkillBG" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_FireSkillBG.uasset" SILENT=true
+[2026.10.30-01.11.33:788][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.11.33:805][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.11.33:809][380]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_FireSkillBG
+[2026.10.30-01.11.33:809][380]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_FireSkillBG607AAA3946E523AA189366BB06590296.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_FireSkillBG.uasset'
+[2026.10.30-01.11.33:810][380]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_ShockSkillBG] ([1] browsable assets)...
+[2026.10.30-01.11.33:812][380]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_ShockSkillBG.MI_ShockSkillBG]
+[2026.10.30-01.11.33:813][380]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_ShockSkillBG]
+[2026.10.30-01.11.33:813][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Globes/MI_ShockSkillBG" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_ShockSkillBG.uasset" SILENT=true
+[2026.10.30-01.11.33:829][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.11.33:845][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.10.30-01.11.33:847][380]LogMaterial: Display: MaterialInterface MI_ShockSkillBG has a incorrectly name EditorOnlyData 'MI_FireSkillBGEditorOnlyData'. This may cause issues when running the editor on cooked data. Trying to rename it to the correct name 'MI_ShockSkillBGEditorOnlyData'.
+[2026.10.30-01.11.33:848][380]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_ShockSkillBG
+[2026.10.30-01.11.33:849][380]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_ShockSkillBG7067809B4EA411BFC00FCC8A4F9D1015.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_ShockSkillBG.uasset'
+[2026.10.30-01.11.33:849][380]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_LightningFire] ([1] browsable assets)...
+[2026.10.30-01.11.33:851][380]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_LightningFire.MI_LightningFire]
+[2026.10.30-01.11.33:851][380]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_LightningFire]
+[2026.10.30-01.11.33:851][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Globes/MI_LightningFire" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset" SILENT=true
+[2026.10.30-01.11.33:866][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2026.10.30-01.11.33:884][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.10.30-01.11.33:887][380]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_LightningFire
+[2026.10.30-01.11.33:888][380]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_LightningFireD9EC845D4260A19A6A0A289A8B8728D6.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset'
+[2026.10.30-01.11.33:896][380]LogFileHelpers: InternalPromptForCheckoutAndSave took 175.878 ms (total: 2.71 sec)
+[2026.10.30-01.11.33:950][380]LogContentValidation: Display: Starting to validate 3 assets
+[2026.10.30-01.11.33:950][380]LogContentValidation: Enabled validators:
+[2026.10.30-01.11.33:950][380]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.11.33:950][380]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.11.33:952][380]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.11.33:952][380]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.11.33:952][380]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.11.33:952][380]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.11.33:952][380]AssetCheck: /Game/Assets/UI/Globes/MI_FireSkillBG Validating asset
+[2026.10.30-01.11.33:952][380]AssetCheck: /Game/Assets/UI/Globes/MI_ShockSkillBG Validating asset
+[2026.10.30-01.11.33:952][380]AssetCheck: /Game/Assets/UI/Globes/MI_LightningFire Validating asset
+[2026.10.30-01.12.01:513][752]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.12.40:080][352]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.12.52:872][871]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.12.56:439][285]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.13.11:156][ 39]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3205.571289
+[2026.10.30-01.13.11:321][ 59]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.30-01.13.11:322][ 59]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3205.729248, Update Interval: 337.702576
+[2026.10.30-01.13.17:188][756]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.10.30-01.13.17:193][756]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.13.17:254][756]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_LightningFire] ([1] browsable assets)...
+[2026.10.30-01.13.17:256][756]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_LightningFire.MI_LightningFire]
+[2026.10.30-01.13.17:256][756]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_LightningFire]
+[2026.10.30-01.13.17:256][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Globes/MI_LightningFire" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset" SILENT=true
+[2026.10.30-01.13.17:273][756]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.13.17:290][756]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.13.17:293][756]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_LightningFire
+[2026.10.30-01.13.17:294][756]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_LightningFire5397B1F944C28B6BC9F7FFAEC0145DC4.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset'
+[2026.10.30-01.13.17:302][756]LogFileHelpers: InternalPromptForCheckoutAndSave took 108.332 ms (total: 2.82 sec)
+[2026.10.30-01.13.17:353][756]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.13.17:354][756]LogContentValidation: Enabled validators:
+[2026.10.30-01.13.17:354][756]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.13.17:354][756]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.13.17:354][756]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.13.17:354][756]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.13.17:354][756]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.13.17:354][756]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.13.17:354][756]AssetCheck: /Game/Assets/UI/Globes/MI_LightningFire Validating asset
+[2026.10.30-01.13.21:112][203]Cmd: TRANSACTION UNDO
+[2026.10.30-01.13.21:112][203]LogEditorTransaction: Undo Edit SpeedX
+[2026.10.30-01.13.23:339][407]Cmd: TRANSACTION UNDO
+[2026.10.30-01.13.23:339][407]LogEditorTransaction: Undo Edit SpeedY
+[2026.10.30-01.13.32:315][456]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2026.10.30-01.13.32:321][456]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.13.32:370][456]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_LightningFire] ([1] browsable assets)...
+[2026.10.30-01.13.32:371][456]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_LightningFire.MI_LightningFire]
+[2026.10.30-01.13.32:371][456]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_LightningFire]
+[2026.10.30-01.13.32:372][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Globes/MI_LightningFire" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset" SILENT=true
+[2026.10.30-01.13.32:390][456]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.13.32:407][456]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.13.32:410][456]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_LightningFire
+[2026.10.30-01.13.32:411][456]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_LightningFireB1E298CC49781EDFF615BB9E67DC3741.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset'
+[2026.10.30-01.13.32:418][456]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.395 ms (total: 2.92 sec)
+[2026.10.30-01.13.32:471][456]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.13.32:472][456]LogContentValidation: Enabled validators:
+[2026.10.30-01.13.32:472][456]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.13.32:472][456]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.13.32:472][456]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.13.32:472][456]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.13.32:472][456]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.13.32:472][456]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.13.32:472][456]AssetCheck: /Game/Assets/UI/Globes/MI_LightningFire Validating asset
+[2026.10.30-01.13.48:519][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2026.10.30-01.13.48:523][366]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.13.48:556][366]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_LightningFire] ([1] browsable assets)...
+[2026.10.30-01.13.48:558][366]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_LightningFire.MI_LightningFire]
+[2026.10.30-01.13.48:558][366]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_LightningFire]
+[2026.10.30-01.13.48:558][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Globes/MI_LightningFire" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset" SILENT=true
+[2026.10.30-01.13.48:576][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.13.48:593][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.13.48:596][366]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_LightningFire
+[2026.10.30-01.13.48:597][366]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_LightningFire2D019536400C158C788CCEBEC642E5C6.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset'
+[2026.10.30-01.13.48:604][366]LogFileHelpers: InternalPromptForCheckoutAndSave took 80.638 ms (total: 3.00 sec)
+[2026.10.30-01.13.48:654][366]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.13.48:656][366]LogContentValidation: Enabled validators:
+[2026.10.30-01.13.48:656][366]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.13.48:656][366]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.13.48:656][366]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.13.48:656][366]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.13.48:656][366]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.13.48:656][366]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.13.48:656][366]AssetCheck: /Game/Assets/UI/Globes/MI_LightningFire Validating asset
+[2026.10.30-01.14.21:153][230]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.10.30-01.14.21:158][230]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.14.21:205][230]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_LightningFire] ([1] browsable assets)...
+[2026.10.30-01.14.21:207][230]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_LightningFire.MI_LightningFire]
+[2026.10.30-01.14.21:207][230]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_LightningFire]
+[2026.10.30-01.14.21:207][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Globes/MI_LightningFire" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset" SILENT=true
+[2026.10.30-01.14.21:224][230]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.14.21:241][230]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.14.21:244][230]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_LightningFire
+[2026.10.30-01.14.21:245][230]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_LightningFire98CAD4D34660C98AAA2D4993806C8DA7.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset'
+[2026.10.30-01.14.21:253][230]LogFileHelpers: InternalPromptForCheckoutAndSave took 94.537 ms (total: 3.09 sec)
+[2026.10.30-01.14.21:306][230]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.14.21:306][230]LogContentValidation: Enabled validators:
+[2026.10.30-01.14.21:306][230]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.14.21:306][230]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.14.21:306][230]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.14.21:306][230]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.14.21:306][230]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.14.21:306][230]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.14.21:307][230]AssetCheck: /Game/Assets/UI/Globes/MI_LightningFire Validating asset
+[2026.10.30-01.14.48:503][380]LogContentBrowser: Attempting asset rename: MI_FireSkillBG1 -> MI_ArcaneLightningSkillBG
+[2026.10.30-01.14.48:580][380]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.14.48:581][380]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_ArcaneLightningSkillBG] ([1] browsable assets)...
+[2026.10.30-01.14.48:582][380]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_ArcaneLightningSkillBG.MI_ArcaneLightningSkillBG]
+[2026.10.30-01.14.48:583][380]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_ArcaneLightningSkillBG]
+[2026.10.30-01.14.48:584][380]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_ArcaneLightningSkillBG
+[2026.10.30-01.14.48:584][380]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_ArcaneLightningSkillBGE2DE987A4CAE8AF49B5BD4A8A0177CF7.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_ArcaneLightningSkillBG.uasset'
+[2026.10.30-01.14.48:585][380]LogFileHelpers: InternalPromptForCheckoutAndSave took 4.862 ms (total: 3.10 sec)
+[2026.10.30-01.14.48:611][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.10.30-01.14.48:630][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.10.30-01.14.48:650][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.10.30-01.14.48:706][380]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.14.48:706][380]LogContentValidation: Enabled validators:
+[2026.10.30-01.14.48:706][380]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.14.48:706][380]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.14.48:706][380]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.14.48:706][380]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.14.48:706][380]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.14.48:706][380]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.14.48:706][380]AssetCheck: /Game/Assets/UI/Globes/MI_ArcaneLightningSkillBG Validating asset
+[2026.10.30-01.14.48:831][387]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.14.55:782][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.10.30-01.15.17:214][438]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.15.33:468][936]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.15.45:510][131]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Assets/UI/Globes/MI_ArcaneLightningSkillBG.MI_ArcaneLightningSkillBG
+[2026.10.30-01.15.45:512][131]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_47
+[2026.10.30-01.15.50:408][654]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.15.51:549][789]Cmd: TRANSACTION UNDO
+[2026.10.30-01.15.51:549][789]LogEditorTransaction: Undo Edit Color
+[2026.10.30-01.16.05:187][300]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.16.09:742][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.10.30-01.16.09:747][837]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.16.09:808][837]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_ArcaneLightningSkillBG] ([1] browsable assets)...
+[2026.10.30-01.16.09:809][837]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_ArcaneLightningSkillBG.MI_ArcaneLightningSkillBG]
+[2026.10.30-01.16.09:809][837]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_ArcaneLightningSkillBG]
+[2026.10.30-01.16.09:826][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.16.09:842][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.10.30-01.16.09:846][837]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_ArcaneLightningSkillBG
+[2026.10.30-01.16.09:846][837]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_ArcaneLightningSkillBG85E7B2F743E7E35E616BF3BFF8EC6AD2.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_ArcaneLightningSkillBG.uasset'
+[2026.10.30-01.16.09:855][837]LogFileHelpers: InternalPromptForCheckoutAndSave took 107.581 ms (total: 3.20 sec)
+[2026.10.30-01.16.09:908][837]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.16.09:908][837]LogContentValidation: Enabled validators:
+[2026.10.30-01.16.09:908][837]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.16.09:908][837]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.16.09:908][837]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.16.09:908][837]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.16.09:908][837]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.16.09:908][837]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.16.09:908][837]AssetCheck: /Game/Assets/UI/Globes/MI_ArcaneLightningSkillBG Validating asset
+[2026.10.30-01.17.26:546][913]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.17.34:517][855]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.10.30-01.17.34:524][855]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.17.34:576][855]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_LightningFire] ([1] browsable assets)...
+[2026.10.30-01.17.34:577][855]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_LightningFire.MI_LightningFire]
+[2026.10.30-01.17.34:577][855]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_LightningFire]
+[2026.10.30-01.17.34:577][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Globes/MI_LightningFire" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset" SILENT=true
+[2026.10.30-01.17.34:594][855]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.17.34:611][855]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.17.34:615][855]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_LightningFire
+[2026.10.30-01.17.34:615][855]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_LightningFire576AB9A64C519E64BB7C05A73A488F0F.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset'
+[2026.10.30-01.17.34:623][855]LogFileHelpers: InternalPromptForCheckoutAndSave took 99.048 ms (total: 3.30 sec)
+[2026.10.30-01.17.34:677][855]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.17.34:677][855]LogContentValidation: Enabled validators:
+[2026.10.30-01.17.34:677][855]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.17.34:677][855]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.17.34:677][855]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.17.34:677][855]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.17.34:677][855]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.17.34:677][855]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.17.34:677][855]AssetCheck: /Game/Assets/UI/Globes/MI_LightningFire Validating asset
+[2026.10.30-01.18.29:797][318]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.18.44:298][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.10.30-01.18.44:304][989]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.18.44:360][989]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_LightningFire] ([1] browsable assets)...
+[2026.10.30-01.18.44:362][989]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_LightningFire.MI_LightningFire]
+[2026.10.30-01.18.44:362][989]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_LightningFire]
+[2026.10.30-01.18.44:362][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Globes/MI_LightningFire" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset" SILENT=true
+[2026.10.30-01.18.44:379][989]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.10.30-01.18.44:398][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.10.30-01.18.44:402][989]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_LightningFire
+[2026.10.30-01.18.44:402][989]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_LightningFire433F04B647E7D7A74EDB03A698D684D9.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset'
+[2026.10.30-01.18.44:411][989]LogFileHelpers: InternalPromptForCheckoutAndSave took 107.659 ms (total: 3.41 sec)
+[2026.10.30-01.18.44:462][989]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.18.44:462][989]LogContentValidation: Enabled validators:
+[2026.10.30-01.18.44:462][989]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.18.44:463][989]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.18.44:463][989]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.18.44:463][989]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.18.44:463][989]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.18.44:463][989]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.18.44:463][989]AssetCheck: /Game/Assets/UI/Globes/MI_LightningFire Validating asset
+[2026.10.30-01.18.48:498][190]LogAutomationController: Ignoring very large delta of 2.31 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2026.10.30-01.18.50:413][385]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.18.59:066][403]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.18.59:623][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.10.30-01.18.59:628][467]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.18.59:677][467]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_LightningFire] ([1] browsable assets)...
+[2026.10.30-01.18.59:680][467]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_LightningFire.MI_LightningFire]
+[2026.10.30-01.18.59:680][467]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_LightningFire]
+[2026.10.30-01.18.59:680][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Globes/MI_LightningFire" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset" SILENT=true
+[2026.10.30-01.18.59:697][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.18.59:713][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.18.59:717][467]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_LightningFire
+[2026.10.30-01.18.59:717][467]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_LightningFire3EDC1AE44D6380F8ED3DE2ACA9C2E8D6.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset'
+[2026.10.30-01.18.59:725][467]LogFileHelpers: InternalPromptForCheckoutAndSave took 96.065 ms (total: 3.51 sec)
+[2026.10.30-01.18.59:778][467]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.18.59:778][467]LogContentValidation: Enabled validators:
+[2026.10.30-01.18.59:778][467]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.18.59:778][467]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.18.59:778][467]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.18.59:778][467]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.18.59:778][467]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.18.59:778][467]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.18.59:778][467]AssetCheck: /Game/Assets/UI/Globes/MI_LightningFire Validating asset
+[2026.10.30-01.19.22:647][171]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3577.084473
+[2026.10.30-01.19.22:790][188]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.30-01.19.22:790][188]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3577.218018, Update Interval: 332.359375
+[2026.10.30-01.19.27:045][698]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.19.36:513][816]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.10.30-01.19.36:519][816]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.19.36:561][816]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_LightningFire] ([1] browsable assets)...
+[2026.10.30-01.19.36:563][816]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_LightningFire.MI_LightningFire]
+[2026.10.30-01.19.36:563][816]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_LightningFire]
+[2026.10.30-01.19.36:563][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Globes/MI_LightningFire" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset" SILENT=true
+[2026.10.30-01.19.36:580][816]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.19.36:600][816]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.10.30-01.19.36:603][816]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_LightningFire
+[2026.10.30-01.19.36:604][816]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_LightningFireADF7BC3040A4D937E6106BBC119086CD.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset'
+[2026.10.30-01.19.36:611][816]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.637 ms (total: 3.60 sec)
+[2026.10.30-01.19.36:662][816]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.19.36:662][816]LogContentValidation: Enabled validators:
+[2026.10.30-01.19.36:662][816]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.19.36:662][816]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.19.36:662][816]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.19.36:662][816]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.19.36:662][816]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.19.36:662][816]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.19.36:662][816]AssetCheck: /Game/Assets/UI/Globes/MI_LightningFire Validating asset
+[2026.10.30-01.20.05:622][260]LogSlate: Window 'Color Picker' being destroyed
+[2026.10.30-01.20.11:331][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2026.10.30-01.20.11:337][926]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.20.11:379][926]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/UI/Globes/MI_LightningFire] ([1] browsable assets)...
+[2026.10.30-01.20.11:380][926]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Assets/UI/Globes/MI_LightningFire.MI_LightningFire]
+[2026.10.30-01.20.11:380][926]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/UI/Globes/MI_LightningFire]
+[2026.10.30-01.20.11:380][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/UI/Globes/MI_LightningFire" FILE="../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset" SILENT=true
+[2026.10.30-01.20.11:397][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.20.11:414][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.20.11:418][926]LogSavePackage: Moving output files for package: /Game/Assets/UI/Globes/MI_LightningFire
+[2026.10.30-01.20.11:418][926]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/MI_LightningFire7ACBAB9A4F197245CF581E81E1E54B7D.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Assets/UI/Globes/MI_LightningFire.uasset'
+[2026.10.30-01.20.11:427][926]LogFileHelpers: InternalPromptForCheckoutAndSave took 90.651 ms (total: 3.69 sec)
+[2026.10.30-01.20.11:481][926]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.20.11:481][926]LogContentValidation: Enabled validators:
+[2026.10.30-01.20.11:481][926]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.20.11:481][926]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.20.11:481][926]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.20.11:481][926]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.20.11:481][926]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.20.11:481][926]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.20.11:481][926]AssetCheck: /Game/Assets/UI/Globes/MI_LightningFire Validating asset
+[2026.10.30-01.21.42:249][548]LogDerivedDataCache: C:/Users/psalm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.10.30-01.21.53:650][825]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.10.30-01.21.53:657][825]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.21.53:716][825]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections] ([1] browsable assets)...
+[2026.10.30-01.21.53:716][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections]
+[2026.10.30-01.21.53:718][825]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections
+[2026.10.30-01.21.53:718][825]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/DA_ProgressionSelections0178F37E4DBEF5CEE1E0DAAE347CB333.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections.uasset'
+[2026.10.30-01.21.53:724][825]LogFileHelpers: InternalPromptForCheckoutAndSave took 67.634 ms (total: 3.76 sec)
+[2026.10.30-01.21.53:781][825]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.21.53:782][825]LogContentValidation: Enabled validators:
+[2026.10.30-01.21.53:782][825]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.21.53:782][825]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.21.53:782][825]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.21.53:782][825]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.21.53:782][825]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.21.53:782][825]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.21.53:782][825]AssetCheck: /Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections Validating asset
+[2026.10.30-01.22.37:633][761]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.10.30-01.22.37:639][761]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.30-01.22.37:699][761]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections] ([1] browsable assets)...
+[2026.10.30-01.22.37:699][761]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections]
+[2026.10.30-01.22.37:701][761]LogSavePackage: Moving output files for package: /Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections
+[2026.10.30-01.22.37:701][761]LogSavePackage: Moving '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Saved/DA_ProgressionSelections1F555EA3453F9300F66EA3A3E64B1EDD.tmp' to '../../../../../../Users/psalm/UnrealProjects/Aura_Copy_test/Content/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections.uasset'
+[2026.10.30-01.22.37:707][761]LogFileHelpers: InternalPromptForCheckoutAndSave took 68.414 ms (total: 3.83 sec)
+[2026.10.30-01.22.37:765][761]LogContentValidation: Display: Starting to validate 1 assets
+[2026.10.30-01.22.37:765][761]LogContentValidation: Enabled validators:
+[2026.10.30-01.22.37:765][761]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.30-01.22.37:765][761]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.30-01.22.37:765][761]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.30-01.22.37:765][761]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.30-01.22.37:765][761]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.30-01.22.37:765][761]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.30-01.22.37:765][761]AssetCheck: /Game/Blueprints/AbilitySystem/Data/ProgressionSelection/DA_ProgressionSelections Validating asset
