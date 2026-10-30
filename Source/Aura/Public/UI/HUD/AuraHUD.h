@@ -13,6 +13,9 @@ class UOverlayWidgetController;
 class UAttributeMenuWidgetController;
 class USpellMenuWidgetController;
 class UProgressionMenuWidgetController;
+class UUserWidget;
+class UAuraUserWidget;
+
 struct FWidgetControllerParams;
 /**
  * 
@@ -73,4 +76,10 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<UAuraUserWidget> ProgressionMenuWidgetClass;
+	
+	UPROPERTY(EditAnywhere, Category = "Reaction Unlock")
+	TSubclassOf<UUserWidget> ReactionUnlockWidgetClass;
+
+	UPROPERTY()
+	TObjectPtr<UAuraUserWidget> ReactionUnlockWidget;
 };

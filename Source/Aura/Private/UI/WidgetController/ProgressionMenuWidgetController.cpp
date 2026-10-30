@@ -9,7 +9,8 @@ void UProgressionMenuWidgetController::BindCallbackToDependencies()
 {
     if (UAuraAbilitySystemComponent* AuraASC = GetAuraASC())
     {
-        AuraASC->ProgressionSelectionResolvedDelegate.AddUniqueDynamic(this, &UProgressionMenuWidgetController::OnProgressionSelectionResolved);
+        AuraASC->ProgressionSelectionResolvedDelegate.AddUniqueDynamic(this, &ThisClass::OnProgressionSelectionResolved);
+        AuraASC->DerivedReactionRewardResolvedDelegate.AddUniqueDynamic(this, &ThisClass::HandleDerivedReactionRewardResolved);
     }
 }
 
@@ -103,5 +104,33 @@ void UProgressionMenuWidgetController::OnProgressionSelectionResolved(FGameplayT
     if (bSuccess)
     {
         ActiveSelectionTag = FGameplayTag();
+    }
+}
+
+void UProgressionMenuWidgetController::HandleDerivedReactionRewardResolved(FGameplayTag ReactionUnlockTag,
+    bool bSuccess)
+{
+    if (!bSuccess)
+    {
+        return;
+    }
+
+    const UProgressionSelectionData* SelectionData = UAuraAbilitySystemLibrary::GetProgressionSelectionData(this);
+
+    if (!SelectionData)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("Cannot present reaction unlock because ProgressionSelectionData is invalid."));
+        return;
+    }
+
+    FProgressionRewardPresentation Presentation;
+
+    if (SelectionData->FindReactionUnlockPresentation(ReactionUnlockTag, Presentation))
+    {
+        ReactionUnlockPresented.Broadcast(Presentation);
+    }
+    else
+    {
+        UE_LOG(LogTemp, Warning, TEXT("No reaction presentation found for [%s]."), *ReactionUnlockTag.ToString());
     }
 }

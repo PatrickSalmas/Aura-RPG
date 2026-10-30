@@ -1,5 +1,7 @@
 // Copyright Salmas Corporation
 
+#include "Engine/Texture2D.h"
+#include "Materials/MaterialInterface.h"
 #include "AbilitySystem/Data/ProgressionSelectionData.h"
 
 const FProgressionSelectionDefinition* UProgressionSelectionData::FindSelectionDefinition(const FGameplayTag& SelectionTag, bool bLogNotFound) const
@@ -50,4 +52,19 @@ const FReactionMasteryRule* UProgressionSelectionData::FindReactionMasteryRule(c
 	}
 
 	return nullptr;
+}
+
+bool UProgressionSelectionData::FindReactionUnlockPresentation(const FGameplayTag& ReactionTag,
+	FProgressionRewardPresentation& OutPresentation) const
+{
+	for (const FProgressionRewardPresentation& Presentation : ReactionUnlockPresentations)
+	{
+		if (Presentation.RewardTag.MatchesTagExact(ReactionTag))
+		{
+			OutPresentation = Presentation;
+			return true;
+		}
+	}
+
+	return false;
 }

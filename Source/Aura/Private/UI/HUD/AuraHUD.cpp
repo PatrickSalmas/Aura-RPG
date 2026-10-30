@@ -58,13 +58,20 @@ void AAuraHUD::InitOverlay(APlayerController* PC, APlayerState* PS, UAbilitySyst
 	checkf(OverlayWidgetClass, TEXT("Overlay widget class uninitialized, please fill out BP_AuraHUD"))
 	checkf(OverlayWidgetControllerClass, TEXT("Overlay widget controller class uninitialized, please fill out BP_AuraHUD"))
 	checkf(ProgressionMenuWidgetControllerClass, TEXT("Progression menu widget controller class uninitialized, please fill out BP_AuraHUD"))
+	checkf(ReactionUnlockWidgetClass, TEXT("Reaction unlock widget class uninitialized, please fill out BP_AuraHUD"));
 
 	UUserWidget* Widget = CreateWidget<UUserWidget>(GetWorld(), OverlayWidgetClass);
 	OverlayWidget = Cast<UAuraUserWidget>(Widget);
 
 	const FWidgetControllerParams WidgetControllerParams(PC, PS, ASC, AS);
 	UOverlayWidgetController* WidgetController = GetOverlayWidgetController(WidgetControllerParams);
-	GetProgressionMenuWidgetController(WidgetControllerParams);
+	UProgressionMenuWidgetController* ProgressionWidgetController = GetProgressionMenuWidgetController(WidgetControllerParams);
+	
+	UUserWidget* ReactionWidget = CreateWidget<UUserWidget>(GetWorld(), ReactionUnlockWidgetClass);
+	ReactionUnlockWidget = Cast<UAuraUserWidget>(ReactionWidget);
+	ReactionUnlockWidget->SetWidgetController(ProgressionWidgetController);
+	ReactionUnlockWidget->AddToViewport(10);
+	ReactionUnlockWidget->SetVisibility(ESlateVisibility::Collapsed);
 
 	OverlayWidget->SetWidgetController(WidgetController);
 	WidgetController->BroadcastInitialValues();

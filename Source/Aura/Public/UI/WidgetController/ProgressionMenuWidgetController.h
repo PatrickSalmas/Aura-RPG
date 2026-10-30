@@ -9,6 +9,7 @@
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FProgressionSelectionOpenedSignature, const FProgressionSelectionDefinition&, Definition);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FProgressionSelectionResultSignature, FGameplayTag, RewardTag, bool, bSuccess);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FReactionUnlockPresentationSignature, FProgressionRewardPresentation, Presentation);
 
 UCLASS(BlueprintType, Blueprintable)
 class AURA_API UProgressionMenuWidgetController : public UAuraWidgetController
@@ -32,10 +33,16 @@ public:
 
 	UFUNCTION(BlueprintPure, Category="Progression")
 	bool HasActiveSelection() const;
+	
+	UPROPERTY(BlueprintAssignable, Category = "Progression")
+	FReactionUnlockPresentationSignature ReactionUnlockPresented;
 
 private:
 	UFUNCTION()
 	void OnProgressionSelectionResolved(FGameplayTag SelectionTag, FGameplayTag RewardTag, bool bSuccess);
 
 	FGameplayTag ActiveSelectionTag;
+	
+	UFUNCTION()
+	void HandleDerivedReactionRewardResolved(FGameplayTag ReactionUnlockTag, bool bSuccess);
 };

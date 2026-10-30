@@ -99,6 +99,27 @@ struct FReactionMasteryRule
     TArray<FReactionTriggerRule> TriggerRules;
 };
 
+USTRUCT(BlueprintType)
+struct FProgressionRewardPresentation
+{
+    GENERATED_BODY()
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+    FGameplayTag RewardTag;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+    FText DisplayName;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, meta = (MultiLine = true))
+    FText Description;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+    TObjectPtr<UTexture2D> Icon = nullptr;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+    TObjectPtr<UMaterialInterface> BackgroundMaterial = nullptr;
+};
+
 UCLASS(BlueprintType)
 class AURA_API UProgressionSelectionData : public UDataAsset
 {
@@ -117,4 +138,10 @@ public:
     TArray<FReactionMasteryRule> ReactionMasteryRules;
 
     const FReactionMasteryRule* FindReactionMasteryRule(const FGameplayTag& MasteryTag, bool bLogNotFound = false) const;
+    
+    UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Reaction Unlocks")
+    TArray<FProgressionRewardPresentation> ReactionUnlockPresentations;
+    
+    UFUNCTION(BlueprintPure, Category = "Progression")
+    bool FindReactionUnlockPresentation(const FGameplayTag& ReactionTag, FProgressionRewardPresentation& OutPresentation) const;
 };
